@@ -1,0 +1,16 @@
+.DS_Store
+__pycache__/
+.venv/
+.pytest_cache/
+.ipynb_checkpoints/
+*.pyc
+
+# Datasets downloaded from Roboflow at train time -- never commit these
+datasets/
+data/
+
+# Ultralytics training output. Your real weights belong in weights/, committed.
+runs/
+
+# Never commit your API key
+.env
