@@ -1,0 +1,41 @@
+{
+  "dataset": {
+    "workspace": "intelligent-fruit-quality-grading-system",
+    "project": "fruit-quality-inspection-system",
+    "version": 6
+  },
+  "training": {
+    "base_model": "yolo11n.pt",
+    "epochs": 40,
+    "imgsz": 640,
+    "batch": 16,
+    "seed": 0,
+    "device": "0"
+  },
+  "costs": {
+    "fn": 10.0,
+    "fp": 0.25,
+    "tp": 0.0,
+    "tn": 0.0,
+    "review": 0.05,
+    "base_rate": 0.05
+  },
+  "finetuned": {
+    "mAP50": 0.9936383365336258,
+    "mAP50_95": 0.9218253541712081
+  },
+  "coco_zero_shot": {
+    "mAP50": 0.024994815311866213,
+    "mAP50_95": 0.011201917806190087
+  },
+  "trivial_predict_nothing": {
+    "accuracy": 0.3942652329749104,
+    "recall_on_defect": 0.0
+  },
+  "trivial_flag_everything": {
+    "accuracy": 0.6057347670250897,
+    "recall_on_defect": 1.0
+  },
+  "test_prevalence": 0.6057347670250897,
+  "chosen_threshold": 0.13
+}

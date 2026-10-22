@@ -1,0 +1,58 @@
+{
+  "classes": [
+    "bad apple",
+    "bad banana",
+    "bad orange",
+    "good apple",
+    "good banana",
+    "good orange"
+  ],
+  "splits": {
+    "train": 2431,
+    "val": 594,
+    "test": 279
+  },
+  "instances": {
+    "train": {
+      "bad apple": 689,
+      "bad banana": 726,
+      "bad orange": 1075,
+      "good apple": 712,
+      "good banana": 1237,
+      "good orange": 1244
+    },
+    "val": {
+      "bad apple": 136,
+      "bad banana": 182,
+      "bad orange": 228,
+      "good apple": 101,
+      "good banana": 337,
+      "good orange": 270
+    },
+    "test": {
+      "bad apple": 64,
+      "bad banana": 105,
+      "bad orange": 108,
+      "good apple": 14,
+      "good banana": 184,
+      "good orange": 105
+    }
+  },
+  "box_area_pct": {
+    "train": {
+      "median": 12.99,
+      "p10": 2.37,
+      "p90": 38.6
+    },
+    "val": {
+      "median": 16.49,
+      "p10": 3.8,
+      "p90": 41.7
+    },
+    "test": {
+      "median": 16.95,
+      "p10": 5.39,
+      "p90": 41.56
+    }
+  }
+}
