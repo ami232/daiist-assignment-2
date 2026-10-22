@@ -1,0 +1,157 @@
+{
+  "assumptions": {
+    "cost_fn": 13.0,
+    "cost_review": 0.5,
+    "cost_wrong_fail": 3.0,
+    "human_accuracy": 0.95,
+    "base_rate": 0.05,
+    "listings_per_day": 20000,
+    "minutes_per_review": 1.5,
+    "productive_hours": 6.0
+  },
+  "chosen": {
+    "low": 0.39,
+    "high": 0.61,
+    "valid_cost_per_1000": 107.61,
+    "test_cost_per_1000": 194.92,
+    "review_share": 0.0689,
+    "staffing": {
+      "cases_per_day": 1379,
+      "hours_of_review_per_day": 34.5,
+      "moderators_needed": 5.7
+    },
+    "outcomes_per_1000": {
+      "defective_listings": {
+        "total": 50.0,
+        "pass_(missed)": 5.1,
+        "review": 6.8,
+        "fail_(caught)": 38.1
+      },
+      "good_listings": {
+        "total": 950.0,
+        "pass_(correct)": 861.2,
+        "review": 62.1,
+        "fail_(wrong)": 26.6
+      }
+    }
+  },
+  "strategies": {
+    "do nothing": {
+      "cost_per_1000": 650.0,
+      "review_share": 0.0
+    },
+    "person checks everything": {
+      "cost_per_1000": 675.0,
+      "review_share": 1.0
+    },
+    "model decides alone (t=0.60)": {
+      "cost_per_1000": 228.74,
+      "review_share": 0.0
+    },
+    "three-way (low=0.39, high=0.61)": {
+      "cost_per_1000": 194.92,
+      "review_share": 0.0689
+    }
+  },
+  "sensitivity": [
+    {
+      "cost_wrong_fail": 1.0,
+      "human_accuracy": 0.9,
+      "low": 0.39,
+      "high": 0.6,
+      "test_cost_per_1000": 142.1,
+      "review_share": 0.0685,
+      "model_alone": 155.61,
+      "check_everything": 660.0,
+      "do_nothing": 650.0
+    },
+    {
+      "cost_wrong_fail": 1.0,
+      "human_accuracy": 0.95,
+      "low": 0.39,
+      "high": 0.61,
+      "test_cost_per_1000": 135.43,
+      "review_share": 0.0689,
+      "model_alone": 155.61,
+      "check_everything": 580.0,
+      "do_nothing": 650.0
+    },
+    {
+      "cost_wrong_fail": 1.0,
+      "human_accuracy": 0.99,
+      "low": 0.39,
+      "high": 0.61,
+      "test_cost_per_1000": 129.42,
+      "review_share": 0.0689,
+      "model_alone": 155.61,
+      "check_everything": 516.0,
+      "do_nothing": 650.0
+    },
+    {
+      "cost_wrong_fail": 3.0,
+      "human_accuracy": 0.9,
+      "low": 0.39,
+      "high": 0.61,
+      "test_cost_per_1000": 208.64,
+      "review_share": 0.0689,
+      "model_alone": 228.74,
+      "check_everything": 850.0,
+      "do_nothing": 650.0
+    },
+    {
+      "cost_wrong_fail": 3.0,
+      "human_accuracy": 0.95,
+      "low": 0.39,
+      "high": 0.61,
+      "test_cost_per_1000": 194.92,
+      "review_share": 0.0689,
+      "model_alone": 228.74,
+      "check_everything": 675.0,
+      "do_nothing": 650.0
+    },
+    {
+      "cost_wrong_fail": 3.0,
+      "human_accuracy": 0.99,
+      "low": 0.39,
+      "high": 0.61,
+      "test_cost_per_1000": 183.94,
+      "review_share": 0.0689,
+      "model_alone": 228.74,
+      "check_everything": 535.0,
+      "do_nothing": 650.0
+    },
+    {
+      "cost_wrong_fail": 6.0,
+      "human_accuracy": 0.9,
+      "low": 0.5,
+      "high": 0.61,
+      "test_cost_per_1000": 296.92,
+      "review_share": 0.0308,
+      "model_alone": 314.72,
+      "check_everything": 1135.0,
+      "do_nothing": 650.0
+    },
+    {
+      "cost_wrong_fail": 6.0,
+      "human_accuracy": 0.95,
+      "low": 0.39,
+      "high": 0.61,
+      "test_cost_per_1000": 284.15,
+      "review_share": 0.0689,
+      "model_alone": 314.72,
+      "check_everything": 817.5,
+      "do_nothing": 650.0
+    },
+    {
+      "cost_wrong_fail": 6.0,
+      "human_accuracy": 0.99,
+      "low": 0.39,
+      "high": 0.61,
+      "test_cost_per_1000": 265.71,
+      "review_share": 0.0689,
+      "model_alone": 314.72,
+      "check_everything": 563.5,
+      "do_nothing": 650.0
+    }
+  ]
+}

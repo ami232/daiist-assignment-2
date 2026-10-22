@@ -1,0 +1,54 @@
+{
+  "class_names": [
+    "Broken_Button",
+    "Colour_Defect",
+    "Fabric_Hole"
+  ],
+  "splits": {
+    "train": {
+      "images": 3630,
+      "images_with_defects": 3626,
+      "images_without_defects": 4,
+      "instances_per_class": {
+        "Broken_Button": 1389,
+        "Colour_Defect": 1855,
+        "Fabric_Hole": 2090
+      },
+      "median_size_pct_of_image": {
+        "Broken_Button": 3.21,
+        "Colour_Defect": 1.19,
+        "Fabric_Hole": 1.37
+      }
+    },
+    "valid": {
+      "images": 234,
+      "images_with_defects": 234,
+      "images_without_defects": 0,
+      "instances_per_class": {
+        "Broken_Button": 99,
+        "Colour_Defect": 132,
+        "Fabric_Hole": 103
+      },
+      "median_size_pct_of_image": {
+        "Broken_Button": 2.4,
+        "Colour_Defect": 1.05,
+        "Fabric_Hole": 0.57
+      }
+    },
+    "test": {
+      "images": 214,
+      "images_with_defects": 214,
+      "images_without_defects": 0,
+      "instances_per_class": {
+        "Broken_Button": 89,
+        "Colour_Defect": 127,
+        "Fabric_Hole": 92
+      },
+      "median_size_pct_of_image": {
+        "Broken_Button": 2.38,
+        "Colour_Defect": 0.98,
+        "Fabric_Hole": 0.72
+      }
+    }
+  }
+}

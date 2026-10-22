@@ -1,0 +1,1257 @@
+{
+  "assumptions": {
+    "cost_fn": 13.0,
+    "cost_fp": 0.5,
+    "cost_tp": 0.0,
+    "cost_tn": 0.0,
+    "base_rate": 0.05,
+    "iou_match": 0.5
+  },
+  "chosen": {
+    "threshold": 0.39,
+    "valid_cost_per_1000": 88.03,
+    "test_cost_per_1000": 111.21,
+    "test_recall": 0.8972,
+    "test_false_alarm_rate": 0.0935
+  },
+  "best_on_test_for_comparison": {
+    "threshold": 0.43,
+    "cost_per_1000": 108.41,
+    "recall": 0.8879,
+    "false_alarm_rate": 0.0748
+  },
+  "do_nothing_cost_per_1000": 650.0,
+  "sweep_valid": [
+    {
+      "threshold": 0.02,
+      "cost_per_1000": 203.63,
+      "recall": 0.9615,
+      "false_alarm_rate": 0.3761
+    },
+    {
+      "threshold": 0.03,
+      "cost_per_1000": 181.3,
+      "recall": 0.9615,
+      "false_alarm_rate": 0.3291
+    },
+    {
+      "threshold": 0.04,
+      "cost_per_1000": 167.09,
+      "recall": 0.9615,
+      "false_alarm_rate": 0.2991
+    },
+    {
+      "threshold": 0.05,
+      "cost_per_1000": 154.91,
+      "recall": 0.9615,
+      "false_alarm_rate": 0.2735
+    },
+    {
+      "threshold": 0.06,
+      "cost_per_1000": 158.44,
+      "recall": 0.953,
+      "false_alarm_rate": 0.2692
+    },
+    {
+      "threshold": 0.07,
+      "cost_per_1000": 142.2,
+      "recall": 0.953,
+      "false_alarm_rate": 0.235
+    },
+    {
+      "threshold": 0.08,
+      "cost_per_1000": 132.05,
+      "recall": 0.953,
+      "false_alarm_rate": 0.2137
+    },
+    {
+      "threshold": 0.09,
+      "cost_per_1000": 130.77,
+      "recall": 0.9487,
+      "false_alarm_rate": 0.2051
+    },
+    {
+      "threshold": 0.1,
+      "cost_per_1000": 131.52,
+      "recall": 0.9444,
+      "false_alarm_rate": 0.2009
+    },
+    {
+      "threshold": 0.11,
+      "cost_per_1000": 129.49,
+      "recall": 0.9444,
+      "false_alarm_rate": 0.1966
+    },
+    {
+      "threshold": 0.12,
+      "cost_per_1000": 125.43,
+      "recall": 0.9444,
+      "false_alarm_rate": 0.188
+    },
+    {
+      "threshold": 0.13,
+      "cost_per_1000": 121.37,
+      "recall": 0.9444,
+      "false_alarm_rate": 0.1795
+    },
+    {
+      "threshold": 0.14,
+      "cost_per_1000": 117.31,
+      "recall": 0.9444,
+      "false_alarm_rate": 0.1709
+    },
+    {
+      "threshold": 0.15,
+      "cost_per_1000": 117.31,
+      "recall": 0.9444,
+      "false_alarm_rate": 0.1709
+    },
+    {
+      "threshold": 0.16,
+      "cost_per_1000": 113.25,
+      "recall": 0.9444,
+      "false_alarm_rate": 0.1624
+    },
+    {
+      "threshold": 0.17,
+      "cost_per_1000": 113.25,
+      "recall": 0.9444,
+      "false_alarm_rate": 0.1624
+    },
+    {
+      "threshold": 0.18,
+      "cost_per_1000": 111.22,
+      "recall": 0.9444,
+      "false_alarm_rate": 0.1581
+    },
+    {
+      "threshold": 0.19,
+      "cost_per_1000": 109.19,
+      "recall": 0.9444,
+      "false_alarm_rate": 0.1538
+    },
+    {
+      "threshold": 0.2,
+      "cost_per_1000": 109.94,
+      "recall": 0.9402,
+      "false_alarm_rate": 0.1496
+    },
+    {
+      "threshold": 0.21,
+      "cost_per_1000": 108.65,
+      "recall": 0.9359,
+      "false_alarm_rate": 0.141
+    },
+    {
+      "threshold": 0.22,
+      "cost_per_1000": 106.62,
+      "recall": 0.9359,
+      "false_alarm_rate": 0.1368
+    },
+    {
+      "threshold": 0.23,
+      "cost_per_1000": 106.62,
+      "recall": 0.9359,
+      "false_alarm_rate": 0.1368
+    },
+    {
+      "threshold": 0.24,
+      "cost_per_1000": 106.62,
+      "recall": 0.9359,
+      "false_alarm_rate": 0.1368
+    },
+    {
+      "threshold": 0.25,
+      "cost_per_1000": 101.28,
+      "recall": 0.9316,
+      "false_alarm_rate": 0.1197
+    },
+    {
+      "threshold": 0.26,
+      "cost_per_1000": 102.03,
+      "recall": 0.9274,
+      "false_alarm_rate": 0.1154
+    },
+    {
+      "threshold": 0.27,
+      "cost_per_1000": 95.94,
+      "recall": 0.9274,
+      "false_alarm_rate": 0.1026
+    },
+    {
+      "threshold": 0.28,
+      "cost_per_1000": 96.69,
+      "recall": 0.9231,
+      "false_alarm_rate": 0.0983
+    },
+    {
+      "threshold": 0.29,
+      "cost_per_1000": 96.69,
+      "recall": 0.9231,
+      "false_alarm_rate": 0.0983
+    },
+    {
+      "threshold": 0.3,
+      "cost_per_1000": 92.63,
+      "recall": 0.9231,
+      "false_alarm_rate": 0.0897
+    },
+    {
+      "threshold": 0.31,
+      "cost_per_1000": 92.63,
+      "recall": 0.9231,
+      "false_alarm_rate": 0.0897
+    },
+    {
+      "threshold": 0.32,
+      "cost_per_1000": 88.57,
+      "recall": 0.9231,
+      "false_alarm_rate": 0.0812
+    },
+    {
+      "threshold": 0.33,
+      "cost_per_1000": 88.57,
+      "recall": 0.9231,
+      "false_alarm_rate": 0.0812
+    },
+    {
+      "threshold": 0.34,
+      "cost_per_1000": 88.57,
+      "recall": 0.9231,
+      "false_alarm_rate": 0.0812
+    },
+    {
+      "threshold": 0.35,
+      "cost_per_1000": 91.35,
+      "recall": 0.9188,
+      "false_alarm_rate": 0.0812
+    },
+    {
+      "threshold": 0.36,
+      "cost_per_1000": 89.32,
+      "recall": 0.9188,
+      "false_alarm_rate": 0.0769
+    },
+    {
+      "threshold": 0.37,
+      "cost_per_1000": 89.32,
+      "recall": 0.9188,
+      "false_alarm_rate": 0.0769
+    },
+    {
+      "threshold": 0.38,
+      "cost_per_1000": 90.06,
+      "recall": 0.9145,
+      "false_alarm_rate": 0.0726
+    },
+    {
+      "threshold": 0.39,
+      "cost_per_1000": 88.03,
+      "recall": 0.9145,
+      "false_alarm_rate": 0.0684
+    },
+    {
+      "threshold": 0.4,
+      "cost_per_1000": 88.03,
+      "recall": 0.9145,
+      "false_alarm_rate": 0.0684
+    },
+    {
+      "threshold": 0.41,
+      "cost_per_1000": 96.37,
+      "recall": 0.9017,
+      "false_alarm_rate": 0.0684
+    },
+    {
+      "threshold": 0.42,
+      "cost_per_1000": 97.12,
+      "recall": 0.8974,
+      "false_alarm_rate": 0.0641
+    },
+    {
+      "threshold": 0.43,
+      "cost_per_1000": 97.86,
+      "recall": 0.8932,
+      "false_alarm_rate": 0.0598
+    },
+    {
+      "threshold": 0.44,
+      "cost_per_1000": 100.64,
+      "recall": 0.8889,
+      "false_alarm_rate": 0.0598
+    },
+    {
+      "threshold": 0.45,
+      "cost_per_1000": 106.94,
+      "recall": 0.8761,
+      "false_alarm_rate": 0.0556
+    },
+    {
+      "threshold": 0.46,
+      "cost_per_1000": 113.25,
+      "recall": 0.8632,
+      "false_alarm_rate": 0.0513
+    },
+    {
+      "threshold": 0.47,
+      "cost_per_1000": 113.25,
+      "recall": 0.8632,
+      "false_alarm_rate": 0.0513
+    },
+    {
+      "threshold": 0.48,
+      "cost_per_1000": 111.22,
+      "recall": 0.8632,
+      "false_alarm_rate": 0.047
+    },
+    {
+      "threshold": 0.49,
+      "cost_per_1000": 114.74,
+      "recall": 0.8547,
+      "false_alarm_rate": 0.0427
+    },
+    {
+      "threshold": 0.5,
+      "cost_per_1000": 110.68,
+      "recall": 0.8547,
+      "false_alarm_rate": 0.0342
+    },
+    {
+      "threshold": 0.51,
+      "cost_per_1000": 116.24,
+      "recall": 0.8462,
+      "false_alarm_rate": 0.0342
+    },
+    {
+      "threshold": 0.52,
+      "cost_per_1000": 126.07,
+      "recall": 0.8248,
+      "false_alarm_rate": 0.0256
+    },
+    {
+      "threshold": 0.53,
+      "cost_per_1000": 128.85,
+      "recall": 0.8205,
+      "false_alarm_rate": 0.0256
+    },
+    {
+      "threshold": 0.54,
+      "cost_per_1000": 129.59,
+      "recall": 0.8162,
+      "false_alarm_rate": 0.0214
+    },
+    {
+      "threshold": 0.55,
+      "cost_per_1000": 141.45,
+      "recall": 0.7949,
+      "false_alarm_rate": 0.0171
+    },
+    {
+      "threshold": 0.56,
+      "cost_per_1000": 139.42,
+      "recall": 0.7949,
+      "false_alarm_rate": 0.0128
+    },
+    {
+      "threshold": 0.57,
+      "cost_per_1000": 144.98,
+      "recall": 0.7863,
+      "false_alarm_rate": 0.0128
+    },
+    {
+      "threshold": 0.58,
+      "cost_per_1000": 150.53,
+      "recall": 0.7778,
+      "false_alarm_rate": 0.0128
+    },
+    {
+      "threshold": 0.59,
+      "cost_per_1000": 151.28,
+      "recall": 0.7735,
+      "false_alarm_rate": 0.0085
+    },
+    {
+      "threshold": 0.6,
+      "cost_per_1000": 154.81,
+      "recall": 0.765,
+      "false_alarm_rate": 0.0043
+    },
+    {
+      "threshold": 0.61,
+      "cost_per_1000": 166.67,
+      "recall": 0.7436,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.62,
+      "cost_per_1000": 172.22,
+      "recall": 0.735,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.63,
+      "cost_per_1000": 175.0,
+      "recall": 0.7308,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.64,
+      "cost_per_1000": 186.11,
+      "recall": 0.7137,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.65,
+      "cost_per_1000": 191.67,
+      "recall": 0.7051,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.66,
+      "cost_per_1000": 200.0,
+      "recall": 0.6923,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.67,
+      "cost_per_1000": 219.44,
+      "recall": 0.6624,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.68,
+      "cost_per_1000": 225.0,
+      "recall": 0.6538,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.69,
+      "cost_per_1000": 238.89,
+      "recall": 0.6325,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.7,
+      "cost_per_1000": 244.44,
+      "recall": 0.6239,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.71,
+      "cost_per_1000": 255.56,
+      "recall": 0.6068,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.72,
+      "cost_per_1000": 258.33,
+      "recall": 0.6026,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.73,
+      "cost_per_1000": 269.44,
+      "recall": 0.5855,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.74,
+      "cost_per_1000": 283.33,
+      "recall": 0.5641,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.75,
+      "cost_per_1000": 302.78,
+      "recall": 0.5342,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.76,
+      "cost_per_1000": 313.89,
+      "recall": 0.5171,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.77,
+      "cost_per_1000": 322.22,
+      "recall": 0.5043,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.78,
+      "cost_per_1000": 330.56,
+      "recall": 0.4915,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.79,
+      "cost_per_1000": 355.56,
+      "recall": 0.453,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.8,
+      "cost_per_1000": 386.11,
+      "recall": 0.406,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.81,
+      "cost_per_1000": 416.67,
+      "recall": 0.359,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.82,
+      "cost_per_1000": 488.89,
+      "recall": 0.2479,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.83,
+      "cost_per_1000": 544.44,
+      "recall": 0.1624,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.84,
+      "cost_per_1000": 591.67,
+      "recall": 0.0897,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.85,
+      "cost_per_1000": 625.0,
+      "recall": 0.0385,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.86,
+      "cost_per_1000": 636.11,
+      "recall": 0.0214,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.87,
+      "cost_per_1000": 650.0,
+      "recall": 0.0,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.88,
+      "cost_per_1000": 650.0,
+      "recall": 0.0,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.89,
+      "cost_per_1000": 650.0,
+      "recall": 0.0,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.9,
+      "cost_per_1000": 650.0,
+      "recall": 0.0,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.91,
+      "cost_per_1000": 650.0,
+      "recall": 0.0,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.92,
+      "cost_per_1000": 650.0,
+      "recall": 0.0,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.93,
+      "cost_per_1000": 650.0,
+      "recall": 0.0,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.94,
+      "cost_per_1000": 650.0,
+      "recall": 0.0,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.95,
+      "cost_per_1000": 650.0,
+      "recall": 0.0,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.96,
+      "cost_per_1000": 650.0,
+      "recall": 0.0,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.97,
+      "cost_per_1000": 650.0,
+      "recall": 0.0,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.98,
+      "cost_per_1000": 650.0,
+      "recall": 0.0,
+      "false_alarm_rate": 0.0
+    }
+  ],
+  "sweep_test": [
+    {
+      "threshold": 0.02,
+      "cost_per_1000": 223.48,
+      "recall": 0.9533,
+      "false_alarm_rate": 0.4065
+    },
+    {
+      "threshold": 0.03,
+      "cost_per_1000": 207.94,
+      "recall": 0.9533,
+      "false_alarm_rate": 0.3738
+    },
+    {
+      "threshold": 0.04,
+      "cost_per_1000": 192.41,
+      "recall": 0.9533,
+      "false_alarm_rate": 0.3411
+    },
+    {
+      "threshold": 0.05,
+      "cost_per_1000": 190.19,
+      "recall": 0.9533,
+      "false_alarm_rate": 0.3364
+    },
+    {
+      "threshold": 0.06,
+      "cost_per_1000": 191.0,
+      "recall": 0.9486,
+      "false_alarm_rate": 0.3318
+    },
+    {
+      "threshold": 0.07,
+      "cost_per_1000": 188.2,
+      "recall": 0.9393,
+      "false_alarm_rate": 0.3131
+    },
+    {
+      "threshold": 0.08,
+      "cost_per_1000": 179.32,
+      "recall": 0.9393,
+      "false_alarm_rate": 0.2944
+    },
+    {
+      "threshold": 0.09,
+      "cost_per_1000": 177.1,
+      "recall": 0.9393,
+      "false_alarm_rate": 0.2897
+    },
+    {
+      "threshold": 0.1,
+      "cost_per_1000": 172.66,
+      "recall": 0.9393,
+      "false_alarm_rate": 0.2804
+    },
+    {
+      "threshold": 0.11,
+      "cost_per_1000": 168.22,
+      "recall": 0.9393,
+      "false_alarm_rate": 0.271
+    },
+    {
+      "threshold": 0.12,
+      "cost_per_1000": 161.57,
+      "recall": 0.9393,
+      "false_alarm_rate": 0.257
+    },
+    {
+      "threshold": 0.13,
+      "cost_per_1000": 154.91,
+      "recall": 0.9393,
+      "false_alarm_rate": 0.243
+    },
+    {
+      "threshold": 0.14,
+      "cost_per_1000": 153.5,
+      "recall": 0.9346,
+      "false_alarm_rate": 0.2336
+    },
+    {
+      "threshold": 0.15,
+      "cost_per_1000": 151.29,
+      "recall": 0.9346,
+      "false_alarm_rate": 0.229
+    },
+    {
+      "threshold": 0.16,
+      "cost_per_1000": 149.07,
+      "recall": 0.9346,
+      "false_alarm_rate": 0.2243
+    },
+    {
+      "threshold": 0.17,
+      "cost_per_1000": 152.1,
+      "recall": 0.9299,
+      "false_alarm_rate": 0.2243
+    },
+    {
+      "threshold": 0.18,
+      "cost_per_1000": 158.18,
+      "recall": 0.9206,
+      "false_alarm_rate": 0.2243
+    },
+    {
+      "threshold": 0.19,
+      "cost_per_1000": 158.18,
+      "recall": 0.9206,
+      "false_alarm_rate": 0.2243
+    },
+    {
+      "threshold": 0.2,
+      "cost_per_1000": 155.96,
+      "recall": 0.9206,
+      "false_alarm_rate": 0.2196
+    },
+    {
+      "threshold": 0.21,
+      "cost_per_1000": 151.52,
+      "recall": 0.9206,
+      "false_alarm_rate": 0.2103
+    },
+    {
+      "threshold": 0.22,
+      "cost_per_1000": 144.86,
+      "recall": 0.9206,
+      "false_alarm_rate": 0.1963
+    },
+    {
+      "threshold": 0.23,
+      "cost_per_1000": 142.64,
+      "recall": 0.9206,
+      "false_alarm_rate": 0.1916
+    },
+    {
+      "threshold": 0.24,
+      "cost_per_1000": 142.64,
+      "recall": 0.9206,
+      "false_alarm_rate": 0.1916
+    },
+    {
+      "threshold": 0.25,
+      "cost_per_1000": 145.68,
+      "recall": 0.9159,
+      "false_alarm_rate": 0.1916
+    },
+    {
+      "threshold": 0.26,
+      "cost_per_1000": 143.46,
+      "recall": 0.9159,
+      "false_alarm_rate": 0.1869
+    },
+    {
+      "threshold": 0.27,
+      "cost_per_1000": 141.24,
+      "recall": 0.9159,
+      "false_alarm_rate": 0.1822
+    },
+    {
+      "threshold": 0.28,
+      "cost_per_1000": 141.24,
+      "recall": 0.9159,
+      "false_alarm_rate": 0.1822
+    },
+    {
+      "threshold": 0.29,
+      "cost_per_1000": 134.58,
+      "recall": 0.9159,
+      "false_alarm_rate": 0.1682
+    },
+    {
+      "threshold": 0.3,
+      "cost_per_1000": 132.36,
+      "recall": 0.9159,
+      "false_alarm_rate": 0.1636
+    },
+    {
+      "threshold": 0.31,
+      "cost_per_1000": 125.7,
+      "recall": 0.9159,
+      "false_alarm_rate": 0.1495
+    },
+    {
+      "threshold": 0.32,
+      "cost_per_1000": 124.3,
+      "recall": 0.9112,
+      "false_alarm_rate": 0.1402
+    },
+    {
+      "threshold": 0.33,
+      "cost_per_1000": 119.86,
+      "recall": 0.9112,
+      "false_alarm_rate": 0.1308
+    },
+    {
+      "threshold": 0.34,
+      "cost_per_1000": 125.93,
+      "recall": 0.9019,
+      "false_alarm_rate": 0.1308
+    },
+    {
+      "threshold": 0.35,
+      "cost_per_1000": 121.5,
+      "recall": 0.9019,
+      "false_alarm_rate": 0.1215
+    },
+    {
+      "threshold": 0.36,
+      "cost_per_1000": 117.06,
+      "recall": 0.9019,
+      "false_alarm_rate": 0.1121
+    },
+    {
+      "threshold": 0.37,
+      "cost_per_1000": 114.84,
+      "recall": 0.9019,
+      "false_alarm_rate": 0.1075
+    },
+    {
+      "threshold": 0.38,
+      "cost_per_1000": 111.21,
+      "recall": 0.8972,
+      "false_alarm_rate": 0.0935
+    },
+    {
+      "threshold": 0.39,
+      "cost_per_1000": 111.21,
+      "recall": 0.8972,
+      "false_alarm_rate": 0.0935
+    },
+    {
+      "threshold": 0.4,
+      "cost_per_1000": 111.21,
+      "recall": 0.8972,
+      "false_alarm_rate": 0.0935
+    },
+    {
+      "threshold": 0.41,
+      "cost_per_1000": 111.21,
+      "recall": 0.8972,
+      "false_alarm_rate": 0.0935
+    },
+    {
+      "threshold": 0.42,
+      "cost_per_1000": 112.03,
+      "recall": 0.8925,
+      "false_alarm_rate": 0.0888
+    },
+    {
+      "threshold": 0.43,
+      "cost_per_1000": 108.41,
+      "recall": 0.8879,
+      "false_alarm_rate": 0.0748
+    },
+    {
+      "threshold": 0.44,
+      "cost_per_1000": 111.45,
+      "recall": 0.8832,
+      "false_alarm_rate": 0.0748
+    },
+    {
+      "threshold": 0.45,
+      "cost_per_1000": 111.45,
+      "recall": 0.8832,
+      "false_alarm_rate": 0.0748
+    },
+    {
+      "threshold": 0.46,
+      "cost_per_1000": 114.49,
+      "recall": 0.8785,
+      "false_alarm_rate": 0.0748
+    },
+    {
+      "threshold": 0.47,
+      "cost_per_1000": 119.16,
+      "recall": 0.8645,
+      "false_alarm_rate": 0.0654
+    },
+    {
+      "threshold": 0.48,
+      "cost_per_1000": 122.2,
+      "recall": 0.8598,
+      "false_alarm_rate": 0.0654
+    },
+    {
+      "threshold": 0.49,
+      "cost_per_1000": 126.87,
+      "recall": 0.8458,
+      "false_alarm_rate": 0.0561
+    },
+    {
+      "threshold": 0.5,
+      "cost_per_1000": 126.87,
+      "recall": 0.8458,
+      "false_alarm_rate": 0.0561
+    },
+    {
+      "threshold": 0.51,
+      "cost_per_1000": 124.65,
+      "recall": 0.8458,
+      "false_alarm_rate": 0.0514
+    },
+    {
+      "threshold": 0.52,
+      "cost_per_1000": 125.47,
+      "recall": 0.8411,
+      "false_alarm_rate": 0.0467
+    },
+    {
+      "threshold": 0.53,
+      "cost_per_1000": 131.54,
+      "recall": 0.8318,
+      "false_alarm_rate": 0.0467
+    },
+    {
+      "threshold": 0.54,
+      "cost_per_1000": 134.58,
+      "recall": 0.8271,
+      "false_alarm_rate": 0.0467
+    },
+    {
+      "threshold": 0.55,
+      "cost_per_1000": 140.65,
+      "recall": 0.8178,
+      "false_alarm_rate": 0.0467
+    },
+    {
+      "threshold": 0.56,
+      "cost_per_1000": 146.73,
+      "recall": 0.8084,
+      "false_alarm_rate": 0.0467
+    },
+    {
+      "threshold": 0.57,
+      "cost_per_1000": 146.73,
+      "recall": 0.8084,
+      "false_alarm_rate": 0.0467
+    },
+    {
+      "threshold": 0.58,
+      "cost_per_1000": 151.4,
+      "recall": 0.7944,
+      "false_alarm_rate": 0.0374
+    },
+    {
+      "threshold": 0.59,
+      "cost_per_1000": 155.26,
+      "recall": 0.785,
+      "false_alarm_rate": 0.0327
+    },
+    {
+      "threshold": 0.6,
+      "cost_per_1000": 162.15,
+      "recall": 0.771,
+      "false_alarm_rate": 0.028
+    },
+    {
+      "threshold": 0.61,
+      "cost_per_1000": 168.22,
+      "recall": 0.7617,
+      "false_alarm_rate": 0.028
+    },
+    {
+      "threshold": 0.62,
+      "cost_per_1000": 177.34,
+      "recall": 0.7477,
+      "false_alarm_rate": 0.028
+    },
+    {
+      "threshold": 0.63,
+      "cost_per_1000": 181.19,
+      "recall": 0.7383,
+      "false_alarm_rate": 0.0234
+    },
+    {
+      "threshold": 0.64,
+      "cost_per_1000": 187.27,
+      "recall": 0.729,
+      "false_alarm_rate": 0.0234
+    },
+    {
+      "threshold": 0.65,
+      "cost_per_1000": 193.34,
+      "recall": 0.7196,
+      "false_alarm_rate": 0.0234
+    },
+    {
+      "threshold": 0.66,
+      "cost_per_1000": 196.38,
+      "recall": 0.715,
+      "false_alarm_rate": 0.0234
+    },
+    {
+      "threshold": 0.67,
+      "cost_per_1000": 214.6,
+      "recall": 0.6869,
+      "false_alarm_rate": 0.0234
+    },
+    {
+      "threshold": 0.68,
+      "cost_per_1000": 220.68,
+      "recall": 0.6776,
+      "false_alarm_rate": 0.0234
+    },
+    {
+      "threshold": 0.69,
+      "cost_per_1000": 240.54,
+      "recall": 0.6402,
+      "false_alarm_rate": 0.014
+    },
+    {
+      "threshold": 0.7,
+      "cost_per_1000": 255.72,
+      "recall": 0.6168,
+      "false_alarm_rate": 0.014
+    },
+    {
+      "threshold": 0.71,
+      "cost_per_1000": 276.99,
+      "recall": 0.5841,
+      "false_alarm_rate": 0.014
+    },
+    {
+      "threshold": 0.72,
+      "cost_per_1000": 296.03,
+      "recall": 0.5514,
+      "false_alarm_rate": 0.0093
+    },
+    {
+      "threshold": 0.73,
+      "cost_per_1000": 311.21,
+      "recall": 0.528,
+      "false_alarm_rate": 0.0093
+    },
+    {
+      "threshold": 0.74,
+      "cost_per_1000": 318.11,
+      "recall": 0.514,
+      "false_alarm_rate": 0.0047
+    },
+    {
+      "threshold": 0.75,
+      "cost_per_1000": 327.22,
+      "recall": 0.5,
+      "false_alarm_rate": 0.0047
+    },
+    {
+      "threshold": 0.76,
+      "cost_per_1000": 351.52,
+      "recall": 0.4626,
+      "false_alarm_rate": 0.0047
+    },
+    {
+      "threshold": 0.77,
+      "cost_per_1000": 372.78,
+      "recall": 0.4299,
+      "false_alarm_rate": 0.0047
+    },
+    {
+      "threshold": 0.78,
+      "cost_per_1000": 378.86,
+      "recall": 0.4206,
+      "false_alarm_rate": 0.0047
+    },
+    {
+      "threshold": 0.79,
+      "cost_per_1000": 387.97,
+      "recall": 0.4065,
+      "false_alarm_rate": 0.0047
+    },
+    {
+      "threshold": 0.8,
+      "cost_per_1000": 406.19,
+      "recall": 0.3785,
+      "false_alarm_rate": 0.0047
+    },
+    {
+      "threshold": 0.81,
+      "cost_per_1000": 460.86,
+      "recall": 0.2944,
+      "false_alarm_rate": 0.0047
+    },
+    {
+      "threshold": 0.82,
+      "cost_per_1000": 506.43,
+      "recall": 0.2243,
+      "false_alarm_rate": 0.0047
+    },
+    {
+      "threshold": 0.83,
+      "cost_per_1000": 548.95,
+      "recall": 0.1589,
+      "false_alarm_rate": 0.0047
+    },
+    {
+      "threshold": 0.84,
+      "cost_per_1000": 615.77,
+      "recall": 0.0561,
+      "false_alarm_rate": 0.0047
+    },
+    {
+      "threshold": 0.85,
+      "cost_per_1000": 630.96,
+      "recall": 0.0327,
+      "false_alarm_rate": 0.0047
+    },
+    {
+      "threshold": 0.86,
+      "cost_per_1000": 640.07,
+      "recall": 0.0187,
+      "false_alarm_rate": 0.0047
+    },
+    {
+      "threshold": 0.87,
+      "cost_per_1000": 646.96,
+      "recall": 0.0047,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.88,
+      "cost_per_1000": 646.96,
+      "recall": 0.0047,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.89,
+      "cost_per_1000": 650.0,
+      "recall": 0.0,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.9,
+      "cost_per_1000": 650.0,
+      "recall": 0.0,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.91,
+      "cost_per_1000": 650.0,
+      "recall": 0.0,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.92,
+      "cost_per_1000": 650.0,
+      "recall": 0.0,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.93,
+      "cost_per_1000": 650.0,
+      "recall": 0.0,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.94,
+      "cost_per_1000": 650.0,
+      "recall": 0.0,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.95,
+      "cost_per_1000": 650.0,
+      "recall": 0.0,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.96,
+      "cost_per_1000": 650.0,
+      "recall": 0.0,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.97,
+      "cost_per_1000": 650.0,
+      "recall": 0.0,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.98,
+      "cost_per_1000": 650.0,
+      "recall": 0.0,
+      "false_alarm_rate": 0.0
+    }
+  ],
+  "sensitivity": [
+    {
+      "base_rate": 0.02,
+      "cost_fn": 5.0,
+      "threshold_chosen_on_valid": 0.6,
+      "test_cost_per_1000": 36.64,
+      "do_nothing_per_1000": 100.0
+    },
+    {
+      "base_rate": 0.02,
+      "cost_fn": 13.0,
+      "threshold_chosen_on_valid": 0.5,
+      "test_cost_per_1000": 67.57,
+      "do_nothing_per_1000": 260.0
+    },
+    {
+      "base_rate": 0.02,
+      "cost_fn": 30.0,
+      "threshold_chosen_on_valid": 0.39,
+      "test_cost_per_1000": 107.48,
+      "do_nothing_per_1000": 600.0
+    },
+    {
+      "base_rate": 0.05,
+      "cost_fn": 5.0,
+      "threshold_chosen_on_valid": 0.5,
+      "test_cost_per_1000": 65.19,
+      "do_nothing_per_1000": 250.0
+    },
+    {
+      "base_rate": 0.05,
+      "cost_fn": 13.0,
+      "threshold_chosen_on_valid": 0.39,
+      "test_cost_per_1000": 111.21,
+      "do_nothing_per_1000": 650.0
+    },
+    {
+      "base_rate": 0.05,
+      "cost_fn": 30.0,
+      "threshold_chosen_on_valid": 0.32,
+      "test_cost_per_1000": 199.77,
+      "do_nothing_per_1000": 1500.0
+    },
+    {
+      "base_rate": 0.1,
+      "cost_fn": 5.0,
+      "threshold_chosen_on_valid": 0.39,
+      "test_cost_per_1000": 93.46,
+      "do_nothing_per_1000": 500.0
+    },
+    {
+      "base_rate": 0.1,
+      "cost_fn": 13.0,
+      "threshold_chosen_on_valid": 0.32,
+      "test_cost_per_1000": 178.5,
+      "do_nothing_per_1000": 1300.0
+    },
+    {
+      "base_rate": 0.1,
+      "cost_fn": 30.0,
+      "threshold_chosen_on_valid": 0.19,
+      "test_cost_per_1000": 339.25,
+      "do_nothing_per_1000": 3000.0
+    }
+  ]
+}

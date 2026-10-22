@@ -1,0 +1,56 @@
+{
+  "weights": "weights/best.pt",
+  "finetuned": {
+    "overall": {
+      "precision": 0.8752103245816404,
+      "recall": 0.8728860549503347,
+      "ap50": 0.9025730968262158,
+      "map50_95": 0.5049104411497352
+    },
+    "per_class": {
+      "Broken_Button": {
+        "precision": 0.969463231023426,
+        "recall": 0.9887640449438202,
+        "ap50": 0.974323232323232,
+        "map50_95": 0.6444113252669268
+      },
+      "Colour_Defect": {
+        "precision": 0.7719096853074296,
+        "recall": 0.7994389181984448,
+        "ap50": 0.8424808429267605,
+        "map50_95": 0.4799563636488721
+      },
+      "Fabric_Hole": {
+        "precision": 0.8842580574140657,
+        "recall": 0.8304552017087385,
+        "ap50": 0.890915215228655,
+        "map50_95": 0.39036363453340667
+      }
+    }
+  },
+  "baseline_coco_zero_shot": {
+    "ap50_on_our_classes": 0.0,
+    "note": "COCO has no defect classes, so AP is zero by construction.",
+    "test_images": 214,
+    "images_with_any_box": 108,
+    "total_boxes": 142,
+    "labels_it_used": {
+      "suitcase": 28,
+      "bird": 28,
+      "elephant": 23,
+      "person": 22,
+      "umbrella": 8,
+      "cat": 7,
+      "clock": 6,
+      "couch": 4
+    }
+  },
+  "baseline_predict_nothing": {
+    "ap50": 0.0,
+    "recall": 0.0,
+    "test_images": 214,
+    "defective_images_caught": 0,
+    "defective_images_in_test": 214,
+    "note": "Scores zero on this test set because every test image has a defect."
+  }
+}
