@@ -14,3 +14,13 @@ runs/
 
 # Never commit your API key
 .env
+
+# Pretrained checkpoints Ultralytics downloads into the repo root
+/yolo11*.pt
+/yolo26*.pt
+
+# Local only: iCloud skips *.nosync, the plain names are symlinks to them
+*.nosync
+/.venv
+/datasets
+/runs
