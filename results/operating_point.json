@@ -1,0 +1,15 @@
+{
+  "t_alone": 0.08,
+  "t_low": 0.08,
+  "t_high": 0.78,
+  "c_fa": 5,
+  "c_miss": 500,
+  "base": 0.02,
+  "frames_per_day": 2000,
+  "rev_cost": 0.5,
+  "rev_sec": 30,
+  "hours": 6,
+  "reviewers": 2,
+  "hm_light": 0.05,
+  "hm_heavy": 0.2
+}

@@ -1,0 +1,7 @@
+class,test_instances,precision,recall,AP50,mAP50-95
+Crawling_person,14,0.767,0.786,0.829,0.597
+Lying_person,18,0.609,0.611,0.564,0.413
+Partially_visible_person,32,0.523,0.344,0.336,0.139
+Sitting_person,20,0.730,0.700,0.737,0.566
+Standing_person,45,0.851,0.844,0.865,0.547
+all,129,0.696,0.657,0.666,0.453

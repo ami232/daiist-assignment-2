@@ -1,38 +1,44 @@
-"""
-Assignment 2: training pipeline.
+"""Assignment 2 training: finetune yolo11n on Roboflow search-rescue v14."""
+import shutil
+from pathlib import Path
 
-You're using a script for this stage. If you'd rather use a notebook,
-write train.ipynb instead and delete this file. main.py refuses to run if
-it finds both train.py and train.ipynb, so exactly one of them must exist.
+from roboflow import Roboflow
+from ultralytics import YOLO
 
-Replace this docstring and everything below it with your own code. When run
-via uv run python main.py train, this file must, start to finish, with no
-manual steps in between:
+from api_key import load_api_key
 
-- Get your Roboflow API key via from api_key import load_api_key, so that it
-  works whether the key is in your .env file or in the environment, and
-  download your dataset version from Roboflow Universe.
-- Finetune yolo11n/yolo11s (or the -cls variant) on that dataset, from the
-  pretrained checkpoint.
-- Evaluate on the test split against the two baselines named in the brief: the
-  pretrained COCO model zero-shot, and a trivial predict-nothing / majority
-  class baseline.
-- Sweep the confidence threshold, compute the expected cost at each point from
-  the cost matrix you defined in REPORT.md, and save the sweep.
-- Save everything app.py needs to build its dashboard without retraining:
-  the metrics, the per-class numbers, the cost sweep, and the chosen operating
-  point.
+ROOT = Path(__file__).resolve().parent
+DATA_DIR = ROOT / "data"
+WEIGHTS_DIR = ROOT / "weights"
 
-This is your real training pipeline. It takes as long as it takes, and it runs
-wherever training is practical for you: your own machine, a GPU you have access
-to, or a hosted notebook. Nothing re-runs it to check your submission.
+EPOCHS = 50
+IMGSZ = 640
+BATCH = 16
+SEED = 0
 
-The weights it produces are what you commit to weights/ and what your app
-serves. Say in REPORT.md where you trained and what settings you used.
 
-Save the trained model into weights/. That is the file you commit and the file
-app.py loads.
+def main():
+    if not (DATA_DIR / "data.yaml").exists():
+        rf = Roboflow(api_key=load_api_key())
+        version = rf.workspace("trash-32e51").project("search-rescue").version(14)
+        version.download("yolov11", location=str(DATA_DIR))
 
-How you structure the code beyond that is your call to make and be able to
-defend: file layout, function boundaries, naming.
-"""
+    model = YOLO("yolo11n.pt")
+    model.train(
+        data=str(DATA_DIR / "data.yaml"),
+        epochs=EPOCHS,
+        imgsz=IMGSZ,
+        batch=BATCH,
+        seed=SEED,
+        project=str(ROOT / "runs"),
+        name="finetune",
+        exist_ok=True,
+    )
+
+    WEIGHTS_DIR.mkdir(exist_ok=True)
+    shutil.copy(model.trainer.best, WEIGHTS_DIR / "best.pt")
+    print("Saved weights/best.pt")
+
+
+if __name__ == "__main__":
+    main()
