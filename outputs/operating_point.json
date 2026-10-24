@@ -1,0 +1,169 @@
+{
+  "dataset": {
+    "workspace": "joseph-nelson",
+    "project": "hard-hat-workers",
+    "version": 5
+  },
+  "weights": "weights/hardhat_yolo11n.pt",
+  "positive_class": "head",
+  "class_names": [
+    "head",
+    "helmet"
+  ],
+  "imgsz": 640,
+  "det_conf": 0.25,
+  "cost": {
+    "FP": 2,
+    "TP": 2,
+    "TN": 0.0,
+    "FN": 200.0
+  },
+  "base_rate": 0.05,
+  "threshold": 0.07,
+  "cost_per_1000_at_threshold": 699.0636042402832,
+  "references_per_1000": {
+    "pass everything (no model)": 10000.0,
+    "flag everything (person checks all)": 2000.0
+  },
+  "overall": {
+    "coco_zero_shot": {
+      "mAP50": 0.0034725900554752036,
+      "mAP50-95": 0.0012459690119497242
+    },
+    "finetuned": {
+      "mAP50": 0.9702832512530992,
+      "mAP50-95": 0.6918805298513293
+    },
+    "predict_nothing": {
+      "mAP50": 0.0,
+      "mAP50-95": 0.0
+    }
+  },
+  "detection_confusion": {
+    "finetuned": {
+      "head": {
+        "head": 688,
+        "helmet": 3,
+        "background": 77
+      },
+      "helmet": {
+        "head": 15,
+        "helmet": 1858,
+        "background": 156
+      },
+      "background": {
+        "head": 23,
+        "helmet": 54,
+        "background": 0
+      }
+    },
+    "coco_zero_shot": {
+      "head": {
+        "head": 23,
+        "helmet": 24,
+        "background": 2859
+      },
+      "helmet": {
+        "head": 0,
+        "helmet": 0,
+        "background": 0
+      },
+      "background": {
+        "head": 703,
+        "helmet": 1891,
+        "background": 0
+      }
+    },
+    "predict_nothing": {
+      "head": {
+        "head": 0,
+        "helmet": 0,
+        "background": 0
+      },
+      "helmet": {
+        "head": 0,
+        "helmet": 0,
+        "background": 0
+      },
+      "background": {
+        "head": 726,
+        "helmet": 1915,
+        "background": 0
+      }
+    }
+  },
+  "per_class_at_threshold": {
+    "conf \u2265 0.25": {
+      "head": {
+        "precision": 0.8958333333333334,
+        "recall": 0.9476584022038568
+      },
+      "helmet": {
+        "precision": 0.9162148841793987,
+        "recall": 0.970757180156658
+      }
+    },
+    "conf \u2265 0.07 (cost-chosen)": {
+      "head": {
+        "precision": 0.803448275862069,
+        "recall": 0.9628099173553719
+      },
+      "helmet": {
+        "precision": 0.8345931525122277,
+        "recall": 0.9801566579634464
+      }
+    }
+  },
+  "review_band": {
+    "low": 0.0,
+    "high": 0.53,
+    "review_cost": 0.4,
+    "review_minutes": 1,
+    "reviewer_miss_rate": 0.01,
+    "check_minutes": 5,
+    "hourly_cost": 23.0,
+    "cases_per_day": 96.0,
+    "cameras": 1,
+    "snapshot_every_min": 5,
+    "work_hours": 8,
+    "cost_per_1000": 527.5113831398285,
+    "designs": {
+      "do nothing": {
+        "\u20ac per 1,000": 10000.0,
+        "\u20ac per day": 960.0,
+        "missed per day": 4.800000000000001,
+        "reviews per day": 0.0,
+        "walks per day": 0.0,
+        "person-min per day": 0.0,
+        "people needed": 0.0
+      },
+      "person reviews every snapshot": {
+        "\u20ac per 1,000": 599.0,
+        "\u20ac per day": 57.504,
+        "missed per day": 0.04800000000000001,
+        "reviews per day": 96.0,
+        "walks per day": 4.752000000000001,
+        "person-min per day": 119.76,
+        "people needed": 0.2495
+      },
+      "model alone (fail \u2265 0.07)": {
+        "\u20ac per 1,000": 699.0636042402832,
+        "\u20ac per day": 67.11010600706719,
+        "missed per day": 0.24000000000000024,
+        "reviews per day": 0.0,
+        "walks per day": 9.555053003533569,
+        "person-min per day": 47.77526501766785,
+        "people needed": 0.09953180212014136
+      },
+      "model + review band [0.00, 0.53)": {
+        "\u20ac per 1,000": 527.5113831398285,
+        "\u20ac per day": 50.64109278142354,
+        "missed per day": 0.14160000000000006,
+        "reviews per day": 27.676809692074706,
+        "walks per day": 5.62518445229682,
+        "person-min per day": 55.802731953558805,
+        "people needed": 0.11625569156991418
+      }
+    }
+  }
+}
