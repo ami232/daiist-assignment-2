@@ -1,0 +1,7 @@
+scenario,cost_fn,cost_fp,cost_review,lower_threshold,upper_threshold,passed,reviewed,flagged,FN,FP,total_cost
+Original assumptions,200,25,3,0.01,0.2,117,86,425,2,12,958
+Cheaper missed damage,100,25,3,0.01,0.2,117,86,425,2,12,758
+More expensive missed damage,400,25,3,0.01,0.2,117,86,425,2,12,1358
+More expensive false alarms,200,75,3,0.01,0.35,117,135,376,2,8,1405
+More expensive human review,200,25,6,0.01,0.2,117,86,425,2,12,1216
+Cheaper human review,200,25,1,0.01,0.35,117,135,376,2,8,735

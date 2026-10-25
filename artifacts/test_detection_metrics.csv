@@ -1,0 +1,7 @@
+class,precision,recall,mAP50,mAP50-95
+Alligator crack,0.7718,0.4737,0.5929,0.3378
+Longitudinal crack,0.7262,0.6441,0.7101,0.3495
+Oblique crack,0.583,0.4167,0.3852,0.2919
+Pothole,0.9781,0.5,0.6196,0.3465
+Repair,0.7225,0.8701,0.8569,0.6366
+Transverse crack,0.7368,0.6867,0.7482,0.4337

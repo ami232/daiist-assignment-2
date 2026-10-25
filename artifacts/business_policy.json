@@ -1,0 +1,33 @@
+{
+    "model_path": "weights/best.pt",
+    "active_classes": [
+        0,
+        1,
+        2,
+        3,
+        5
+    ],
+    "excluded_class": 4,
+    "inference_confidence_floor": 0.01,
+    "lower_threshold": 0.01,
+    "upper_threshold": 0.2,
+    "costs_eur": {
+        "false_negative": 200,
+        "false_positive": 25,
+        "human_review": 3
+    },
+    "operations": {
+        "daily_images": 1000,
+        "reviewers": 2,
+        "hours_per_reviewer": 6,
+        "minutes_per_review": 3
+    },
+    "validation": {
+        "passed": 117,
+        "reviewed": 86,
+        "flagged": 425,
+        "false_negatives": 2,
+        "false_positives": 12,
+        "estimated_cost_eur": 958.0
+    }
+}

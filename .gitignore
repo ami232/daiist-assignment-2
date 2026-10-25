@@ -14,3 +14,9 @@ runs/
 
 # Never commit your API key
 .env
+
+# Generated dataset configuration
+/artifacts/asphalt_eval.yaml
+
+# Generated validation visualizations
+/artifacts/validation/
