@@ -1,0 +1,422 @@
+[
+  {
+    "positive": false,
+    "score": 0.13783767819404602
+  },
+  {
+    "positive": false,
+    "score": 0.049045853316783905
+  },
+  {
+    "positive": true,
+    "score": 0.9326215386390686
+  },
+  {
+    "positive": true,
+    "score": 0.9579635262489319
+  },
+  {
+    "positive": false,
+    "score": 0.0013697989052161574
+  },
+  {
+    "positive": true,
+    "score": 0.9209043383598328
+  },
+  {
+    "positive": false,
+    "score": 0.001785527216270566
+  },
+  {
+    "positive": true,
+    "score": 0.9962189793586731
+  },
+  {
+    "positive": true,
+    "score": 0.9878040552139282
+  },
+  {
+    "positive": true,
+    "score": 0.9749992489814758
+  },
+  {
+    "positive": true,
+    "score": 0.9797874689102173
+  },
+  {
+    "positive": true,
+    "score": 0.9870239496231079
+  },
+  {
+    "positive": true,
+    "score": 0.9046925902366638
+  },
+  {
+    "positive": true,
+    "score": 0.9920680522918701
+  },
+  {
+    "positive": true,
+    "score": 0.9658536314964294
+  },
+  {
+    "positive": false,
+    "score": 0.0020820312201976776
+  },
+  {
+    "positive": false,
+    "score": 0.008766010403633118
+  },
+  {
+    "positive": false,
+    "score": 0.02622048370540142
+  },
+  {
+    "positive": true,
+    "score": 0.9282339215278625
+  },
+  {
+    "positive": false,
+    "score": 0.0015123283956199884
+  },
+  {
+    "positive": false,
+    "score": 0.0018601391930133104
+  },
+  {
+    "positive": false,
+    "score": 0.0020669291261583567
+  },
+  {
+    "positive": false,
+    "score": 0.0022496425081044436
+  },
+  {
+    "positive": false,
+    "score": 0.0031696681398898363
+  },
+  {
+    "positive": true,
+    "score": 0.9680643677711487
+  },
+  {
+    "positive": false,
+    "score": 0.0013274159282445908
+  },
+  {
+    "positive": false,
+    "score": 0.0
+  },
+  {
+    "positive": false,
+    "score": 0.002627164591103792
+  },
+  {
+    "positive": false,
+    "score": 0.00202037300914526
+  },
+  {
+    "positive": false,
+    "score": 0.0
+  },
+  {
+    "positive": true,
+    "score": 0.9884781241416931
+  },
+  {
+    "positive": false,
+    "score": 0.0024141427129507065
+  },
+  {
+    "positive": false,
+    "score": 0.002324590925127268
+  },
+  {
+    "positive": false,
+    "score": 0.001057152054272592
+  },
+  {
+    "positive": false,
+    "score": 0.0011281127808615565
+  },
+  {
+    "positive": false,
+    "score": 0.002523761475458741
+  },
+  {
+    "positive": false,
+    "score": 0.0015302940737456083
+  },
+  {
+    "positive": false,
+    "score": 0.0010789611842483282
+  },
+  {
+    "positive": false,
+    "score": 0.002292167628183961
+  },
+  {
+    "positive": false,
+    "score": 0.0012614105362445116
+  },
+  {
+    "positive": false,
+    "score": 0.004336967132985592
+  },
+  {
+    "positive": false,
+    "score": 0.00208654603920877
+  },
+  {
+    "positive": false,
+    "score": 0.0018163725035265088
+  },
+  {
+    "positive": false,
+    "score": 0.001848804298788309
+  },
+  {
+    "positive": false,
+    "score": 0.0016872910782694817
+  },
+  {
+    "positive": true,
+    "score": 0.8330576419830322
+  },
+  {
+    "positive": false,
+    "score": 0.0020804814994335175
+  },
+  {
+    "positive": false,
+    "score": 0.0012046799529343843
+  },
+  {
+    "positive": false,
+    "score": 0.00460940133780241
+  },
+  {
+    "positive": false,
+    "score": 0.0017788343830034137
+  },
+  {
+    "positive": false,
+    "score": 0.0019096614560112357
+  },
+  {
+    "positive": false,
+    "score": 0.004481888841837645
+  },
+  {
+    "positive": false,
+    "score": 0.002958656521514058
+  },
+  {
+    "positive": false,
+    "score": 0.002235087566077709
+  },
+  {
+    "positive": false,
+    "score": 0.0017114108195528388
+  },
+  {
+    "positive": false,
+    "score": 0.001209123758599162
+  },
+  {
+    "positive": true,
+    "score": 0.9827835559844971
+  },
+  {
+    "positive": false,
+    "score": 0.002501102862879634
+  },
+  {
+    "positive": false,
+    "score": 0.0018903031013906002
+  },
+  {
+    "positive": true,
+    "score": 0.9690945148468018
+  },
+  {
+    "positive": true,
+    "score": 0.9865062832832336
+  },
+  {
+    "positive": true,
+    "score": 0.9748084545135498
+  },
+  {
+    "positive": true,
+    "score": 0.979295015335083
+  },
+  {
+    "positive": true,
+    "score": 0.9821369051933289
+  },
+  {
+    "positive": true,
+    "score": 0.9649211764335632
+  },
+  {
+    "positive": false,
+    "score": 0.0
+  },
+  {
+    "positive": false,
+    "score": 0.03306252509355545
+  },
+  {
+    "positive": true,
+    "score": 0.9757052063941956
+  },
+  {
+    "positive": false,
+    "score": 0.0
+  },
+  {
+    "positive": false,
+    "score": 0.0017032307805493474
+  },
+  {
+    "positive": false,
+    "score": 0.0017950774636119604
+  },
+  {
+    "positive": false,
+    "score": 0.004329877905547619
+  },
+  {
+    "positive": false,
+    "score": 0.0014710319228470325
+  },
+  {
+    "positive": false,
+    "score": 0.0
+  },
+  {
+    "positive": false,
+    "score": 0.0
+  },
+  {
+    "positive": false,
+    "score": 0.0013287827605381608
+  },
+  {
+    "positive": false,
+    "score": 0.0020216424018144608
+  },
+  {
+    "positive": true,
+    "score": 0.8312754034996033
+  },
+  {
+    "positive": true,
+    "score": 0.19964691996574402
+  },
+  {
+    "positive": true,
+    "score": 0.9847303628921509
+  },
+  {
+    "positive": true,
+    "score": 0.30396056175231934
+  },
+  {
+    "positive": true,
+    "score": 0.962068498134613
+  },
+  {
+    "positive": true,
+    "score": 0.44819703698158264
+  },
+  {
+    "positive": false,
+    "score": 0.3358543813228607
+  },
+  {
+    "positive": true,
+    "score": 0.994247317314148
+  },
+  {
+    "positive": true,
+    "score": 0.9958353042602539
+  },
+  {
+    "positive": true,
+    "score": 0.8691504597663879
+  },
+  {
+    "positive": true,
+    "score": 0.9380293488502502
+  },
+  {
+    "positive": true,
+    "score": 0.92545086145401
+  },
+  {
+    "positive": true,
+    "score": 0.9389027953147888
+  },
+  {
+    "positive": true,
+    "score": 0.9840672016143799
+  },
+  {
+    "positive": true,
+    "score": 0.9088917374610901
+  },
+  {
+    "positive": true,
+    "score": 0.8828462958335876
+  },
+  {
+    "positive": true,
+    "score": 0.9125612378120422
+  },
+  {
+    "positive": true,
+    "score": 0.9036014080047607
+  },
+  {
+    "positive": true,
+    "score": 0.966482937335968
+  },
+  {
+    "positive": true,
+    "score": 0.9885233044624329
+  },
+  {
+    "positive": true,
+    "score": 0.9887241721153259
+  },
+  {
+    "positive": true,
+    "score": 0.9855968356132507
+  },
+  {
+    "positive": true,
+    "score": 0.19559267163276672
+  },
+  {
+    "positive": true,
+    "score": 0.9399989247322083
+  },
+  {
+    "positive": true,
+    "score": 0.9197146892547607
+  },
+  {
+    "positive": false,
+    "score": 0.0015683479141443968
+  },
+  {
+    "positive": false,
+    "score": 0.04923412203788757
+  },
+  {
+    "positive": false,
+    "score": 0.0
+  }
+]
