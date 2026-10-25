@@ -1,0 +1,28 @@
+{
+  "leakage": {
+    "images": {
+      "train": 8822,
+      "valid": 639,
+      "test": 620
+    },
+    "distinct_source_photos": {
+      "train": 2849,
+      "valid": 631,
+      "test": 611
+    },
+    "test_images_whose_source_is_in_train": 40,
+    "valid_images_whose_source_is_in_train": 29,
+    "test_sources_also_in_valid": 6
+  },
+  "size_only_rule": {
+    "area_threshold": 0.346,
+    "test_accuracy": 0.8366666666666667,
+    "test_cracked_recall": 0.6767676767676768,
+    "test_good_called_cracked": 0.006600660066006601,
+    "majority_class_accuracy": 0.505,
+    "max_objects_per_image": {
+      "train": 2,
+      "test": 1
+    }
+  }
+}

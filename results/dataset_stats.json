@@ -1,0 +1,71 @@
+{
+  "train": {
+    "images": 8822,
+    "images_without_labels": 426,
+    "mean_objects_per_image": 0.95273180684652,
+    "instances": {
+      "good": 4208,
+      "cracked": 4197
+    },
+    "median_area_pct": {
+      "good": 20.9,
+      "cracked": 49.22
+    },
+    "p10_p90_area_pct": {
+      "good": [
+        10.09,
+        33.14
+      ],
+      "cracked": [
+        24.36,
+        76.61
+      ]
+    }
+  },
+  "valid": {
+    "images": 639,
+    "images_without_labels": 39,
+    "mean_objects_per_image": 0.9405320813771518,
+    "instances": {
+      "cracked": 307,
+      "good": 294
+    },
+    "median_area_pct": {
+      "cracked": 43.3,
+      "good": 18.94
+    },
+    "p10_p90_area_pct": {
+      "cracked": [
+        21.59,
+        61.1
+      ],
+      "good": [
+        9.39,
+        25.83
+      ]
+    }
+  },
+  "test": {
+    "images": 620,
+    "images_without_labels": 20,
+    "mean_objects_per_image": 0.967741935483871,
+    "instances": {
+      "cracked": 297,
+      "good": 303
+    },
+    "median_area_pct": {
+      "cracked": 43.42,
+      "good": 19.06
+    },
+    "p10_p90_area_pct": {
+      "cracked": [
+        22.06,
+        65.05
+      ],
+      "good": [
+        9.02,
+        26.68
+      ]
+    }
+  }
+}

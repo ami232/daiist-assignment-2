@@ -4,10 +4,10 @@
 defend any of this without your code in front of you. Write only what you
 can actually explain.*
 
-- **Name**:
-- **Student ID**:
-- **Email**:
-- **Group**: [BBADBA 5A | BBADBA 5B | PPLEDBA 5A | BDBA 3A]
+- **Name**: Cloe Chapotot
+- **Student ID**: 18549
+- **Email**: cchapotot.ieu2022@student.ie.edu
+- **Group**: [BBADBA 5A]
 
 ## Business problem, and the cost of being wrong
 
@@ -17,11 +17,18 @@ mistake is worse, roughly by how much, and why. Everything downstream (your
 threshold, how much you send to a person, which metric you care about) has to trace
 back to this section.*
 
+I wanted to work with a problem related to food or to food waste. After searching for datasets in Roboflow, I stumbled upon a dataset about damaged eggs. My business problem is about identifying (computationally) if the eggs packaged into cartons are good or damaged before they exit a factory (the place they package the cartons). In this context, if an egg is found to be damaged, it would be flagged and removed before the carton is packaged for distribution. If it is uncertain it has to be cheked by a quality control employee which costs labor time but not that much money (like 40 seconds of a labor hour). If there is a false negative, so a missed cracked egg, it can cause reputational damage for the egg brand and for the super market that is selling it. It would lead to a customer complaint and the revenue for a whole carton of eggs is dismissed (around 4.50€). Hence, it is more expensive to have a false negative.
+
 ## Dataset
 
 *Workspace / project / version on Roboflow Universe, and the link. What one
 image represents, what the classes are, and why this dataset actually serves
-the problem above rather than merely resembling it.*
+the problem above rather than merely resembling it.
+*
+
+title = { egg-quality-detection Dataset },  type = { Open Source Dataset }, author = { anbies Workspace }, version: v5  url = { https://universe.roboflow.com/anbies-workspace/egg-quality-detection-nvhwd }
+
+One image has an object, some of them are random objects that have round/oval shape, others are eggs in good and damaged conditions. The classes are "good" and "cracked". It serves the purpose of my business case because it is exacly what my model needs to detect if the eggs are in good conditions. 
 
 ## What the dataset's composition implies
 
@@ -29,6 +36,8 @@ the problem above rather than merely resembling it.*
 image. Then the interpretation: which per-class numbers will be too thin to
 trust, whether the test split resembles the images you'd really see, and what
 you therefore can't conclude from your results.*
+
+The train part has good 4208, and cracked 4197. Validation has cracked 307, good 294. Test has cracked 297, good 303. Boxes are large, the median good egg covers about 19% of the image and cracked about 43%. Test has 297 cracked and 303 good, so neither class is thin. One missed cracked egg moves recall by about 0.3 points. The thin part is background. Only 20 of 620 test images have no label, so false positives on empty conveyor belt or other objects are barely tested. Yes, the test images resemble a lot what we would see in the factory because despite the images being individual eggs, the camera would capture the eggs in a conveyor belt for example.
 
 ## Finetuning and baselines
 

@@ -1,0 +1,82 @@
+{
+  "finetuned": {
+    "map50": 0.9949006622516556,
+    "map50_95": 0.9173773555905456,
+    "per_class": {
+      "cracked": {
+        "precision": 0.9999740364094334,
+        "recall": 1.0,
+        "ap50": 0.995,
+        "ap50_95": 0.9422635789121955
+      },
+      "good": {
+        "precision": 0.9911291491671986,
+        "recall": 1.0,
+        "ap50": 0.9948013245033112,
+        "ap50_95": 0.8924911322688954
+      }
+    },
+    "confusion_matrix": {
+      "labels": [
+        "cracked",
+        "good",
+        "background"
+      ],
+      "matrix": [
+        [
+          297.0,
+          38.0,
+          76.0
+        ],
+        [
+          0.0,
+          265.0,
+          59.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    }
+  },
+  "coco_zero_shot": {
+    "map50": 0.01001091351134206,
+    "map50_95": 0.0023062892547960835,
+    "per_class": {
+      "cracked": {
+        "precision": 0.07692307692307693,
+        "recall": 0.2558922558922559,
+        "ap50": 0.02002182702268412,
+        "ap50_95": 0.004612578509592167
+      },
+      "good": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      }
+    },
+    "images_with_any_detection": "529/620",
+    "classes_it_predicts": {
+      "orange": 299,
+      "toilet": 112,
+      "bowl": 53,
+      "book": 49,
+      "spoon": 33,
+      "surfboard": 33,
+      "apple": 24,
+      "cup": 22
+    }
+  },
+  "trivial": {
+    "predict_nothing": {
+      "map50": 0.0,
+      "map50_95": 0.0,
+      "recall": 0.0
+    },
+    "test_images_with_a_cracked_egg": 297,
+    "test_images": 620
+  }
+}
