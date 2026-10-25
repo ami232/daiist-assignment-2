@@ -4,21 +4,21 @@
     "images_without_labels": 426,
     "mean_objects_per_image": 0.95273180684652,
     "instances": {
-      "cracked": 4197,
-      "good": 4208
+      "good": 4208,
+      "cracked": 4197
     },
     "median_area_pct": {
-      "cracked": 49.22,
-      "good": 20.9
+      "good": 20.9,
+      "cracked": 49.22
     },
     "p10_p90_area_pct": {
-      "cracked": [
-        24.36,
-        76.61
-      ],
       "good": [
         10.09,
         33.14
+      ],
+      "cracked": [
+        24.36,
+        76.61
       ]
     }
   },
@@ -27,21 +27,21 @@
     "images_without_labels": 39,
     "mean_objects_per_image": 0.9405320813771518,
     "instances": {
-      "good": 294,
-      "cracked": 307
+      "cracked": 307,
+      "good": 294
     },
     "median_area_pct": {
-      "good": 18.94,
-      "cracked": 43.3
+      "cracked": 43.3,
+      "good": 18.94
     },
     "p10_p90_area_pct": {
-      "good": [
-        9.39,
-        25.83
-      ],
       "cracked": [
         21.59,
         61.1
+      ],
+      "good": [
+        9.39,
+        25.83
       ]
     }
   },

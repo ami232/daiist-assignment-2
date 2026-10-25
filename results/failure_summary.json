@@ -1,0 +1,10 @@
+{
+  "conf_used": 0.25,
+  "good_or_empty_images_with_a_cracked_box": 0,
+  "of_which_good_egg": 0,
+  "of_which_empty_image": 0,
+  "cracked_eggs_missed": 0,
+  "images_with_both_classes_predicted": 0,
+  "images_with_2plus_boxes": 7,
+  "empty_images_with_any_box": 0
+}
