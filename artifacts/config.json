@@ -1,0 +1,96 @@
+{
+  "dataset": {
+    "workspace": "riteshs-workspace-qkstg",
+    "project": "skin-lesion-classification-sh4sk",
+    "version": 2
+  },
+  "model_file": "weights/skin_noframe.pt",
+  "remove_frame": true,
+  "classes": [
+    "AK",
+    "BCC",
+    "BKL",
+    "DF",
+    "MEL",
+    "NV",
+    "SCC",
+    "VASC"
+  ],
+  "positive_classes": [
+    "AK",
+    "BCC",
+    "MEL",
+    "SCC"
+  ],
+  "low": 0.015,
+  "high": 0.54,
+  "model_alone_threshold": 0.015,
+  "appointment": 100,
+  "review": 4,
+  "review_miss": 0.1,
+  "miss_cost": {
+    "MEL": 20000,
+    "SCC": 3000,
+    "BCC": 1000,
+    "AK": 300
+  },
+  "base_rate": 0.1,
+  "daily_photos": 500,
+  "reviews_per_derm_per_day": 120,
+  "dermatologists": 2,
+  "capacity_margin": 0.9,
+  "baselines": {
+    "finetuned yolo11n-cls (noframe)": {
+      "accuracy": 0.631,
+      "auc_malignant": 0.894
+    },
+    "trivial: always 'NV' (refers nobody)": {
+      "accuracy": 0.184,
+      "auc_malignant": 0.5
+    },
+    "zero-shot ImageNet yolo11n-cls": {
+      "accuracy": 0.0,
+      "auc_malignant": null
+    }
+  },
+  "zero_shot_top_labels": {
+    "tick": 210,
+    "face_powder": 75,
+    "velvet": 52,
+    "Angora": 46,
+    "nematode": 18
+  },
+  "frame_check": {
+    "without frame": {
+      "images": 356,
+      "accuracy": 0.671,
+      "benign_flagged_malignant": 0.166,
+      "malignant_recall": 0.816
+    },
+    "with frame": {
+      "images": 161,
+      "accuracy": 0.54,
+      "benign_flagged_malignant": 0.538,
+      "malignant_recall": 0.934
+    }
+  },
+  "staffing": {
+    "daily_photos": 500,
+    "reviews_per_day": 212.9,
+    "minutes_per_review": 2,
+    "reviews_per_dermatologist_per_day": 120,
+    "dermatologists_available": 2,
+    "planned_capacity_share": 0.432,
+    "dermatologists_needed": 1.77,
+    "everyone_reviewed_dermatologists": 4.17
+  },
+  "training": {
+    "model": "yolo11n-cls",
+    "epochs_max": 40,
+    "patience": 10,
+    "imgsz": 224,
+    "batch": 64,
+    "device": "mps",
+    "flipud": 0.5
+  }
+}

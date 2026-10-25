@@ -1,0 +1,9 @@
+class,malignant,test_images,precision,recall
+AK,True,66,0.545,0.455
+BCC,True,74,0.557,0.595
+BKL,False,85,0.662,0.624
+DF,False,29,0.667,0.621
+MEL,True,83,0.623,0.578
+NV,False,95,0.759,0.695
+SCC,True,62,0.506,0.71
+VASC,False,23,0.92,1.0

@@ -14,3 +14,6 @@ runs/
 
 # Never commit your API key
 .env
+
+# Pretrained checkpoint Ultralytics downloads automatically (not our model)
+/yolo11n-cls.pt
