@@ -1,0 +1,262 @@
+{
+  "run": "run2",
+  "base_model": "yolo11n.pt",
+  "epochs": "50@640+20@800",
+  "imgsz": 800,
+  "device": "mps",
+  "dataset": {
+    "workspace": "amits-pwfut",
+    "project": "vending-niqv5",
+    "version": 8,
+    "stats": {
+      "train": {
+        "images": 312,
+        "instances": 11096,
+        "instances_per_class": {
+          "Chocolate": 2148,
+          "Energy Drink": 998,
+          "Juice": 2364,
+          "Snack": 2614,
+          "Soda": 1812,
+          "Water": 1160
+        },
+        "median_box_area_pct": 0.79,
+        "instances_per_image": 35.6
+      },
+      "valid": {
+        "images": 73,
+        "instances": 2521,
+        "instances_per_class": {
+          "Chocolate": 559,
+          "Energy Drink": 237,
+          "Juice": 515,
+          "Snack": 611,
+          "Soda": 358,
+          "Water": 241
+        },
+        "median_box_area_pct": 0.71,
+        "instances_per_image": 34.5
+      },
+      "test": {
+        "images": 73,
+        "instances": 2516,
+        "instances_per_class": {
+          "Chocolate": 551,
+          "Energy Drink": 242,
+          "Juice": 515,
+          "Snack": 578,
+          "Soda": 382,
+          "Water": 248
+        },
+        "median_box_area_pct": 0.75,
+        "instances_per_image": 34.5
+      }
+    }
+  },
+  "names": [
+    "Chocolate",
+    "Energy Drink",
+    "Juice",
+    "Snack",
+    "Soda",
+    "Water"
+  ],
+  "per_class": [
+    {
+      "class": "Chocolate",
+      "precision": 0.9542018788954995,
+      "recall": 0.9453250891421973,
+      "ap50": 0.9665872609754084,
+      "instances": 551
+    },
+    {
+      "class": "Energy Drink",
+      "precision": 0.9792021889033533,
+      "recall": 0.9727724017933554,
+      "ap50": 0.9766766743252631,
+      "instances": 242
+    },
+    {
+      "class": "Juice",
+      "precision": 0.9453295961875253,
+      "recall": 0.9495145631067962,
+      "ap50": 0.9731683848196778,
+      "instances": 515
+    },
+    {
+      "class": "Snack",
+      "precision": 0.9567035165555556,
+      "recall": 0.9557344631402849,
+      "ap50": 0.9764644045765982,
+      "instances": 578
+    },
+    {
+      "class": "Soda",
+      "precision": 0.9666583797349023,
+      "recall": 0.9607329842931938,
+      "ap50": 0.9689267061544223,
+      "instances": 382
+    },
+    {
+      "class": "Water",
+      "precision": 0.9291572969202578,
+      "recall": 0.9475806451612904,
+      "ap50": 0.95569896857495,
+      "instances": 248
+    }
+  ],
+  "confusion_matrix": [
+    [
+      494,
+      0,
+      0,
+      6,
+      0,
+      0,
+      51
+    ],
+    [
+      0,
+      208,
+      0,
+      0,
+      0,
+      0,
+      34
+    ],
+    [
+      0,
+      0,
+      457,
+      0,
+      2,
+      4,
+      52
+    ],
+    [
+      5,
+      0,
+      0,
+      506,
+      0,
+      0,
+      67
+    ],
+    [
+      0,
+      3,
+      3,
+      0,
+      344,
+      0,
+      32
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      221,
+      27
+    ],
+    [
+      17,
+      1,
+      11,
+      17,
+      10,
+      6,
+      0
+    ]
+  ],
+  "baselines": {
+    "finetuned": {
+      "ap50_agnostic": 0.9720770150127984,
+      "map50": 0.9695870665710533,
+      "map50_95": 0.6820693516435478,
+      "t_low": 0.8,
+      "t_high": 0.8,
+      "tp": 2253,
+      "fp": 62,
+      "fn": 263,
+      "tn": 567,
+      "reviewed": 0,
+      "review_share": 0.0,
+      "cost_per_1000": 160.0953895071542
+    },
+    "coco_zero_shot": {
+      "ap50_agnostic": 0.6021399402759015,
+      "t_low": 0.45,
+      "t_high": 0.45,
+      "tp": 175,
+      "fp": 8,
+      "fn": 2341,
+      "tn": 621,
+      "reviewed": 0,
+      "review_share": 0.0,
+      "cost_per_1000": 387.4403815580286
+    },
+    "predict_nothing": {
+      "ap50_agnostic": 0.0,
+      "t_low": 0.5,
+      "t_high": 0.5,
+      "tp": 0,
+      "fp": 0,
+      "fn": 2516,
+      "tn": 629,
+      "reviewed": 0,
+      "review_share": 0.0,
+      "cost_per_1000": 400.0
+    }
+  },
+  "chosen_threshold": 0.8,
+  "chosen_band": {
+    "t_low": 0.1,
+    "t_high": 0.9,
+    "tp": 2497,
+    "fp": 21,
+    "fn": 24,
+    "tn": 609,
+    "reviewed": 1839,
+    "review_share": 0.5835779452598175,
+    "cost_per_1000": 51.086870289567635,
+    "review_hours_per_day": 3.89051963506545
+  },
+  "test_band": {
+    "t_low": 0.1,
+    "t_high": 0.9,
+    "tp": 2490,
+    "fp": 24,
+    "fn": 26,
+    "tn": 605,
+    "reviewed": 1794,
+    "review_share": 0.5704292527821939,
+    "cost_per_1000": 57.05087440381558,
+    "review_hours_per_day": 3.8028616852146255
+  },
+  "alternatives_cost_per_1000": {
+    "do_nothing": 1200.0,
+    "human_checks_all": 12.5,
+    "model_alone": 160.0953895071542,
+    "model_plus_review": 57.05087440381558
+  },
+  "threshold_sensitivity_to_cost_fp": {
+    "1": 0.65,
+    "2": 0.75,
+    "3": 0.75,
+    "6": 0.8,
+    "10": 0.85
+  },
+  "costs": {
+    "fp": 6.0,
+    "fn": 0.5,
+    "review": 0.0125,
+    "base_rate": 0.8,
+    "slots_per_day": 8000,
+    "seconds_per_review": 3,
+    "review_hours_available": 4
+  },
+  "test_gt": 2516,
+  "val_gt": 2521
+}
