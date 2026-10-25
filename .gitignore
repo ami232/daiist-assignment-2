@@ -14,3 +14,11 @@ runs/
 
 # Never commit your API key
 .env
+
+datasets/
+
+# Pretrained COCO weights downloaded by ultralytics
+yolo11*.pt
+
+# Pretrained COCO weights downloaded by ultralytics
+yolo11*.pt

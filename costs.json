@@ -1,0 +1,14 @@
+{
+  "fn_cost_per_incendio": 1000,
+  "frames_per_incendio": 12,
+  "operator_hourly_eur": 18,
+  "minutes_per_review": 2,
+  "review_delay_fraction": 0.10,
+  "alert_false_extra_eur": 5,
+  "false_dispatch_eur": 300,
+  "base_rate": 0.0001,
+  "cameras": 10,
+  "frame_interval_min": 5,
+  "operators": 2,
+  "effective_hours_per_operator": 4
+}

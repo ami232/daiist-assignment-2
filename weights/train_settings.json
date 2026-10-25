@@ -1,0 +1,10 @@
+{
+  "model": "yolo11s.pt",
+  "epochs": 50,
+  "fraction": 1.0,
+  "imgsz": 640,
+  "batch": 16,
+  "seed": 0,
+  "device": "Tesla T4",
+  "dataset": "object-detection-yxxz2/fire-smoke-lwjte/v1"
+}
