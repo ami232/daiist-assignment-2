@@ -1,14 +1,9 @@
 # Assignment 2 Report
 
-> **Draft note (delete before submitting):** I (Bruno) made every decision in this
-> report during the project: the dataset, the framing, the costs, the thresholds and
-> the runs. The text was drafted with AI help from those decisions. Rewrite the
-> analysis in your own words before you submit, as the AI policy requires.
-
 - **Name**: Bruno Sanchis
-- **Student ID**:
+- **Student ID**: 20262
 - **Email**: bsanchis.ieu2022@student.ie.edu
-- **Group**: [BBADBA 5A | BBADBA 5B | PPLEDBA 5A | BDBA 3A]
+- **Group**: BBADBA 5B
 
 ## Business problem, and the cost of being wrong
 
@@ -264,6 +259,9 @@ than doing nothing.
   matters for van loading. *Next:* more Water examples.
 - **Higher resolution was too slow on a laptop** (960 px ≈ 3 h). *Next:* retrain at
   960 px on a GPU (e.g. Colab T4) to see whether missed products drop further.
+
+## Conclusion
+The model detects the products well and almost never confuses categories. Its most common error is not detecting small or partly hidden products, e.g. snacks, juices and chocolate bars at the back or bottom of the machine. For the most important decision: as inventing a product where there isn't one is 12x more expensive than not seeing it, we operate at a 0.80 confidence threshold and send the doubtful detections (between 0.10 and 0.90) for a human to supervise. This lowers the cost from €160 to €57 per 1,000 slots and needs 3.8 of the 4 review hours available per day. Our vending machine dataset is not very large, so before deploying this project we should create a dataset of our own by taking pictures of vending machines, e.g. the vending machines on the IE campus (there are a lot).
 
 ## Generative AI use disclosure
 
