@@ -1,0 +1,50 @@
+{
+  "workspace": "kwan-li-jqief",
+  "project": "valorant-object-detection2",
+  "version": 7,
+  "classes": {
+    "0": "enemyBody",
+    "1": "enemyHead"
+  },
+  "splits": {
+    "train": {
+      "images": 1416,
+      "instances_per_class": {
+        "enemyBody": 1243,
+        "enemyHead": 1254
+      }
+    },
+    "val": {
+      "images": 103,
+      "instances_per_class": {
+        "enemyBody": 87,
+        "enemyHead": 87
+      }
+    },
+    "test": {
+      "images": 51,
+      "instances_per_class": {
+        "enemyBody": 47,
+        "enemyHead": 42
+      }
+    }
+  },
+  "instances_per_class": {
+    "enemyBody": 1377,
+    "enemyHead": 1383
+  },
+  "box_area_ratio": {
+    "enemyBody": {
+      "median": 0.006379437869822486,
+      "mean": 0.018057185447193137,
+      "p25": 0.002265162721893491,
+      "p75": 0.02044893098187874
+    },
+    "enemyHead": {
+      "median": 0.0014862241124260502,
+      "mean": 0.004506742167411126,
+      "p25": 0.0005200628698224852,
+      "p75": 0.0046921227810650884
+    }
+  }
+}

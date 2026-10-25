@@ -1,0 +1,115 @@
+{
+  "business_framing": {
+    "decision": "Flag Valorant VOD frames that contain a visible enemyBody so a coach/analyst can focus review on relevant combat situations.",
+    "positive_class": "enemyBody",
+    "base_rate_proxy": 0.8431372549019608,
+    "base_rate_note": "Observed enemyBody image prevalence in the held-out test set; used as a proxy because no production base-rate dataset is available."
+  },
+  "cost_assumptions": {
+    "analyst_eur_per_hour": 48.0,
+    "false_positive_cost_eur": 0.2,
+    "false_positive_logic": "15 seconds of unnecessary analyst review at \u20ac48/hour.",
+    "false_negative_cost_eur": 1.6,
+    "false_negative_logic": "120 seconds of manual VOD recovery/search at \u20ac48/hour.",
+    "human_review_cost_eur": 0.2,
+    "human_review_logic": "15 seconds of analyst review at \u20ac48/hour.",
+    "cases_per_day": 2000,
+    "IMPORTANT": "These are proposed assumptions. Keep them only if you personally agree and can defend them in the written comprehension check."
+  },
+  "best_model_only_threshold": {
+    "threshold": 0.01,
+    "tp": 43.0,
+    "fp": 3.0,
+    "tn": 5.0,
+    "fn": 0.0,
+    "total_cost_eur": 0.6000000000000001,
+    "cost_per_1000_eur": 11.764705882352942
+  },
+  "best_assisted_review_band": {
+    "low_threshold": 0.05,
+    "high_threshold": 0.1,
+    "tp": 43,
+    "fp": 3,
+    "tn": 5,
+    "fn": 0,
+    "review_count": 1,
+    "review_share": 0.0196078431372549,
+    "total_cost_eur": 0.8,
+    "cost_per_1000_eur": 15.686274509803921,
+    "daily_reviews": 39.21568627450981,
+    "daily_review_hours": 0.16339869281045752,
+    "reviewer_fte_8h": 0.02042483660130719
+  },
+  "finetuned_metrics": {
+    "model": "finetuned_yolo11n",
+    "mean_precision": 0.77007551314704,
+    "mean_recall": 0.7922157876100993,
+    "map50": 0.7900771028290632,
+    "map50_95": 0.2969211505367777,
+    "per_class": [
+      {
+        "class_id": 0,
+        "class_name": "enemyBody",
+        "precision": 0.7800170987130052,
+        "recall": 0.8297872340425532,
+        "ap50": 0.8054063534071783,
+        "map50_95": 0.2842945396408912
+      },
+      {
+        "class_id": 1,
+        "class_name": "enemyHead",
+        "precision": 0.7601339275810749,
+        "recall": 0.7546443411776455,
+        "ap50": 0.7747478522509482,
+        "map50_95": 0.30954776143266427
+      }
+    ]
+  },
+  "zero_shot_summary": {
+    "model": "pretrained_coco_yolo11n_zero_shot",
+    "mapping": "COCO person -> enemyBody; no COCO equivalent for enemyHead",
+    "per_class_at_0_50": [
+      {
+        "class_id": 0,
+        "class_name": "enemyBody",
+        "threshold": 0.5,
+        "tp": 0,
+        "fp": 37,
+        "fn": 47,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      {
+        "class_id": 1,
+        "class_name": "enemyHead",
+        "threshold": 0.5,
+        "tp": 0,
+        "fp": 0,
+        "fn": 42,
+        "precision": 0.0,
+        "recall": 0.0
+      }
+    ]
+  },
+  "trivial_baseline": {
+    "model": "trivial_predict_nothing",
+    "per_class": [
+      {
+        "class_id": 0,
+        "class_name": "enemyBody",
+        "strategy": "predict nothing",
+        "precision": 0.0,
+        "recall": 0.0,
+        "positive_images": 43
+      },
+      {
+        "class_id": 1,
+        "class_name": "enemyHead",
+        "strategy": "predict nothing",
+        "precision": 0.0,
+        "recall": 0.0,
+        "positive_images": 39
+      }
+    ]
+  }
+}

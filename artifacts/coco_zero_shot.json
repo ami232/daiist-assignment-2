@@ -1,0 +1,26 @@
+{
+  "model": "pretrained_coco_yolo11n_zero_shot",
+  "mapping": "COCO person -> enemyBody; no COCO equivalent for enemyHead",
+  "per_class_at_0_50": [
+    {
+      "class_id": 0,
+      "class_name": "enemyBody",
+      "threshold": 0.5,
+      "tp": 0,
+      "fp": 37,
+      "fn": 47,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "class_id": 1,
+      "class_name": "enemyHead",
+      "threshold": 0.5,
+      "tp": 0,
+      "fp": 0,
+      "fn": 42,
+      "precision": 0.0,
+      "recall": 0.0
+    }
+  ]
+}

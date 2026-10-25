@@ -1,0 +1,21 @@
+{
+  "model": "trivial_predict_nothing",
+  "per_class": [
+    {
+      "class_id": 0,
+      "class_name": "enemyBody",
+      "strategy": "predict nothing",
+      "precision": 0.0,
+      "recall": 0.0,
+      "positive_images": 43
+    },
+    {
+      "class_id": 1,
+      "class_name": "enemyHead",
+      "strategy": "predict nothing",
+      "precision": 0.0,
+      "recall": 0.0,
+      "positive_images": 39
+    }
+  ]
+}
