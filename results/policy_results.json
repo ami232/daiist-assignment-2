@@ -1,0 +1,63 @@
+{
+  "assumptions": {
+    "review_cost_eur": 15,
+    "inspection_cost_eur": 150,
+    "missed_defect_cost_eur": 3000,
+    "cases_per_day": 1000,
+    "minutes_per_review": 3,
+    "productive_hours_per_person": 6,
+    "human_review_assumed_perfect": true
+  },
+  "selected_using": "validation",
+  "validation": {
+    "low_threshold": 0.01,
+    "high_threshold": 0.7,
+    "decisions": {
+      "PASS": 118,
+      "REVIEW": 22,
+      "FAIL": 100
+    },
+    "decision_costs_eur": {
+      "PASS": 0,
+      "REVIEW": 930,
+      "FAIL": 15000
+    },
+    "errors": {
+      "missed_defects": 0,
+      "unnecessary_inspections": 0
+    },
+    "review_share": 0.0917,
+    "daily_reviews": 91.7,
+    "daily_review_hours": 4.58,
+    "review_staff_fte": 0.76,
+    "cost_per_1000_eur": 66375.0
+  },
+  "test": {
+    "low_threshold": 0.01,
+    "high_threshold": 0.7,
+    "decisions": {
+      "PASS": 52,
+      "REVIEW": 10,
+      "FAIL": 43
+    },
+    "decision_costs_eur": {
+      "PASS": 0,
+      "REVIEW": 750,
+      "FAIL": 6450
+    },
+    "errors": {
+      "missed_defects": 0,
+      "unnecessary_inspections": 0
+    },
+    "review_share": 0.0952,
+    "daily_reviews": 95.2,
+    "daily_review_hours": 4.76,
+    "review_staff_fte": 0.79,
+    "cost_per_1000_eur": 68571.43
+  },
+  "alternatives_test": {
+    "no_automation_eur_per_1000": 1342857.14,
+    "full_manual_eur_per_1000": 82142.86,
+    "full_automation_eur_per_1000": 75714.29
+  }
+}

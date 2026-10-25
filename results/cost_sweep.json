@@ -1,0 +1,233 @@
+[
+  {
+    "threshold": 0.001,
+    "confusion": {
+      "TP": 104,
+      "FP": 127,
+      "FN": 0,
+      "TN": 9
+    },
+    "total_cost_eur": 34650,
+    "cost_per_1000_eur": 144375.0
+  },
+  {
+    "threshold": 0.01,
+    "confusion": {
+      "TP": 104,
+      "FP": 18,
+      "FN": 0,
+      "TN": 118
+    },
+    "total_cost_eur": 18300,
+    "cost_per_1000_eur": 76250.0
+  },
+  {
+    "threshold": 0.05,
+    "confusion": {
+      "TP": 103,
+      "FP": 9,
+      "FN": 1,
+      "TN": 127
+    },
+    "total_cost_eur": 19800,
+    "cost_per_1000_eur": 82500.0
+  },
+  {
+    "threshold": 0.1,
+    "confusion": {
+      "TP": 102,
+      "FP": 8,
+      "FN": 2,
+      "TN": 128
+    },
+    "total_cost_eur": 22500,
+    "cost_per_1000_eur": 93750.0
+  },
+  {
+    "threshold": 0.15,
+    "confusion": {
+      "TP": 102,
+      "FP": 8,
+      "FN": 2,
+      "TN": 128
+    },
+    "total_cost_eur": 22500,
+    "cost_per_1000_eur": 93750.0
+  },
+  {
+    "threshold": 0.2,
+    "confusion": {
+      "TP": 102,
+      "FP": 6,
+      "FN": 2,
+      "TN": 130
+    },
+    "total_cost_eur": 22200,
+    "cost_per_1000_eur": 92500.0
+  },
+  {
+    "threshold": 0.25,
+    "confusion": {
+      "TP": 101,
+      "FP": 4,
+      "FN": 3,
+      "TN": 132
+    },
+    "total_cost_eur": 24750,
+    "cost_per_1000_eur": 103125.0
+  },
+  {
+    "threshold": 0.3,
+    "confusion": {
+      "TP": 101,
+      "FP": 3,
+      "FN": 3,
+      "TN": 133
+    },
+    "total_cost_eur": 24600,
+    "cost_per_1000_eur": 102500.0
+  },
+  {
+    "threshold": 0.35,
+    "confusion": {
+      "TP": 101,
+      "FP": 3,
+      "FN": 3,
+      "TN": 133
+    },
+    "total_cost_eur": 24600,
+    "cost_per_1000_eur": 102500.0
+  },
+  {
+    "threshold": 0.4,
+    "confusion": {
+      "TP": 101,
+      "FP": 3,
+      "FN": 3,
+      "TN": 133
+    },
+    "total_cost_eur": 24600,
+    "cost_per_1000_eur": 102500.0
+  },
+  {
+    "threshold": 0.45,
+    "confusion": {
+      "TP": 101,
+      "FP": 3,
+      "FN": 3,
+      "TN": 133
+    },
+    "total_cost_eur": 24600,
+    "cost_per_1000_eur": 102500.0
+  },
+  {
+    "threshold": 0.5,
+    "confusion": {
+      "TP": 101,
+      "FP": 3,
+      "FN": 3,
+      "TN": 133
+    },
+    "total_cost_eur": 24600,
+    "cost_per_1000_eur": 102500.0
+  },
+  {
+    "threshold": 0.55,
+    "confusion": {
+      "TP": 101,
+      "FP": 2,
+      "FN": 3,
+      "TN": 134
+    },
+    "total_cost_eur": 24450,
+    "cost_per_1000_eur": 101875.0
+  },
+  {
+    "threshold": 0.6,
+    "confusion": {
+      "TP": 101,
+      "FP": 1,
+      "FN": 3,
+      "TN": 135
+    },
+    "total_cost_eur": 24300,
+    "cost_per_1000_eur": 101250.0
+  },
+  {
+    "threshold": 0.65,
+    "confusion": {
+      "TP": 101,
+      "FP": 1,
+      "FN": 3,
+      "TN": 135
+    },
+    "total_cost_eur": 24300,
+    "cost_per_1000_eur": 101250.0
+  },
+  {
+    "threshold": 0.7,
+    "confusion": {
+      "TP": 100,
+      "FP": 0,
+      "FN": 4,
+      "TN": 136
+    },
+    "total_cost_eur": 27000,
+    "cost_per_1000_eur": 112500.0
+  },
+  {
+    "threshold": 0.75,
+    "confusion": {
+      "TP": 100,
+      "FP": 0,
+      "FN": 4,
+      "TN": 136
+    },
+    "total_cost_eur": 27000,
+    "cost_per_1000_eur": 112500.0
+  },
+  {
+    "threshold": 0.8,
+    "confusion": {
+      "TP": 98,
+      "FP": 0,
+      "FN": 6,
+      "TN": 136
+    },
+    "total_cost_eur": 32700,
+    "cost_per_1000_eur": 136250.0
+  },
+  {
+    "threshold": 0.85,
+    "confusion": {
+      "TP": 98,
+      "FP": 0,
+      "FN": 6,
+      "TN": 136
+    },
+    "total_cost_eur": 32700,
+    "cost_per_1000_eur": 136250.0
+  },
+  {
+    "threshold": 0.9,
+    "confusion": {
+      "TP": 92,
+      "FP": 0,
+      "FN": 12,
+      "TN": 136
+    },
+    "total_cost_eur": 49800,
+    "cost_per_1000_eur": 207500.0
+  },
+  {
+    "threshold": 0.95,
+    "confusion": {
+      "TP": 64,
+      "FP": 0,
+      "FN": 40,
+      "TN": 136
+    },
+    "total_cost_eur": 129600,
+    "cost_per_1000_eur": 540000.0
+  }
+]

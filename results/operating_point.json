@@ -1,0 +1,38 @@
+{
+  "selected_on": "validation",
+  "threshold": 0.01,
+  "validation": {
+    "threshold": 0.01,
+    "confusion": {
+      "TP": 104,
+      "FP": 18,
+      "FN": 0,
+      "TN": 118
+    },
+    "total_cost_eur": 18300,
+    "cost_per_1000_eur": 76250.0
+  },
+  "test": {
+    "threshold": 0.01,
+    "confusion": {
+      "TP": 47,
+      "FP": 6,
+      "FN": 0,
+      "TN": 52
+    },
+    "total_cost_eur": 7950,
+    "cost_per_1000_eur": 75714.29,
+    "metrics": {
+      "precision": 0.8867924528301887,
+      "recall": 1.0,
+      "accuracy": 0.9428571428571428
+    },
+    "base_rate_test": 0.44761904761904764
+  },
+  "cost_assumptions_eur": {
+    "TP": 150,
+    "FP": 150,
+    "FN": 3000,
+    "TN": 0
+  }
+}
