@@ -1,0 +1,169 @@
+{
+ "model": "yolo11n.pt",
+ "epochs": 50,
+ "imgsz": 320,
+ "seed": 0,
+ "dataset": {
+  "workspace": "product-defect-detection",
+  "project": "bottle-defects-o4gnx",
+  "version": 28
+ },
+ "good_class": "Good Cap",
+ "box": {
+  "map50": 0.9334401576406753,
+  "map50_95": 0.7166823020388102,
+  "per_class": {
+   "Broken Cap": {
+    "precision": 0.7567769109474642,
+    "recall": 0.6666666666666666,
+    "ap50": 0.800994696969697,
+    "ap50_95": 0.6513651136363637,
+    "test_instances": 15
+   },
+   "Broken Ring": {
+    "precision": 0.9068656645522581,
+    "recall": 0.9130434782608695,
+    "ap50": 0.9136795491143318,
+    "ap50_95": 0.2599163521437152,
+    "test_instances": 23
+   },
+   "Good Cap": {
+    "precision": 0.9022122663551274,
+    "recall": 0.9565217391304348,
+    "ap50": 0.9812857142857142,
+    "ap50_95": 0.9400287815126049,
+    "test_instances": 23
+   },
+   "Loose Cap": {
+    "precision": 0.9179842722817746,
+    "recall": 0.9733641761235531,
+    "ap50": 0.9762408278336333,
+    "ap50_95": 0.7966270547565707,
+    "test_instances": 46
+   },
+   "No Cap": {
+    "precision": 0.9718505059140836,
+    "recall": 1.0,
+    "ap50": 0.995,
+    "ap50_95": 0.9354742081447964,
+    "test_instances": 17
+   }
+  },
+  "confusion_matrix": {
+   "labels": [
+    "Broken Cap",
+    "Broken Ring",
+    "Good Cap",
+    "Loose Cap",
+    "No Cap",
+    "background"
+   ],
+   "matrix": [
+    [
+     10.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     6.0
+    ],
+    [
+     0.0,
+     22.0,
+     0.0,
+     0.0,
+     0.0,
+     6.0
+    ],
+    [
+     2.0,
+     0.0,
+     22.0,
+     0.0,
+     0.0,
+     3.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     45.0,
+     0.0,
+     4.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     17.0,
+     0.0
+    ],
+    [
+     3.0,
+     1.0,
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "conf": 0.25,
+   "convention": "matrix[predicted][true]"
+  }
+ },
+ "coco_zero_shot_box": {
+  "map50": 0.0,
+  "map50_95": 0.0,
+  "classes_shared_with_dataset": [],
+  "test_images": 112,
+  "test_images_with_any_detection": 25,
+  "detections_by_coco_class": {
+   "cake": 15,
+   "book": 5,
+   "bottle": 2,
+   "vase": 2,
+   "person": 1
+  }
+ },
+ "bottle_level_test": {
+  "finetuned": {
+   "tp": 89,
+   "fp": 1,
+   "fn": 0,
+   "tn": 22,
+   "accuracy": 0.9910714285714286,
+   "precision": 0.9888888888888889,
+   "recall": 1.0
+  },
+  "coco_zero_shot": {
+   "tp": 0,
+   "fp": 0,
+   "fn": 89,
+   "tn": 23,
+   "accuracy": 0.20535714285714285,
+   "precision": 0.0,
+   "recall": 0.0,
+   "test_images_with_any_coco_detection": 25
+  },
+  "predict_nothing": {
+   "tp": 0,
+   "fp": 0,
+   "fn": 89,
+   "tn": 23,
+   "accuracy": 0.20535714285714285,
+   "precision": 0.0,
+   "recall": 0.0
+  },
+  "majority_class": {
+   "tp": 89,
+   "fp": 23,
+   "fn": 0,
+   "tn": 0,
+   "accuracy": 0.7946428571428571,
+   "precision": 0.7946428571428571,
+   "recall": 1.0
+  },
+  "majority_class_label": "defective"
+ }
+}

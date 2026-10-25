@@ -1,0 +1,77 @@
+{
+ "train": {
+  "images": 398,
+  "classes": {
+   "Broken Cap": {
+    "instances": 35,
+    "median_box_area_pct": 27.3
+   },
+   "Broken Ring": {
+    "instances": 35,
+    "median_box_area_pct": 3.6
+   },
+   "Good Cap": {
+    "instances": 152,
+    "median_box_area_pct": 25.3
+   },
+   "Loose Cap": {
+    "instances": 89,
+    "median_box_area_pct": 14.1
+   },
+   "No Cap": {
+    "instances": 112,
+    "median_box_area_pct": 24.9
+   }
+  }
+ },
+ "valid": {
+  "images": 113,
+  "classes": {
+   "Broken Cap": {
+    "instances": 13,
+    "median_box_area_pct": 31.5
+   },
+   "Broken Ring": {
+    "instances": 8,
+    "median_box_area_pct": 3.3
+   },
+   "Good Cap": {
+    "instances": 43,
+    "median_box_area_pct": 25.3
+   },
+   "Loose Cap": {
+    "instances": 23,
+    "median_box_area_pct": 14.5
+   },
+   "No Cap": {
+    "instances": 32,
+    "median_box_area_pct": 25.3
+   }
+  }
+ },
+ "test": {
+  "images": 112,
+  "classes": {
+   "Broken Cap": {
+    "instances": 15,
+    "median_box_area_pct": 29.7
+   },
+   "Broken Ring": {
+    "instances": 23,
+    "median_box_area_pct": 6.0
+   },
+   "Good Cap": {
+    "instances": 23,
+    "median_box_area_pct": 26.5
+   },
+   "Loose Cap": {
+    "instances": 46,
+    "median_box_area_pct": 14.1
+   },
+   "No Cap": {
+    "instances": 17,
+    "median_box_area_pct": 24.6
+   }
+  }
+ }
+}

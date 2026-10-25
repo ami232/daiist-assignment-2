@@ -14,3 +14,10 @@ runs/
 
 # Never commit your API key
 .env
+
+# Pretrained checkpoint Ultralytics downloads into the working directory
+*.pt
+!weights/*.pt
+
+# Temporary scripts main.py writes while converting a notebook
+tmp*.py
