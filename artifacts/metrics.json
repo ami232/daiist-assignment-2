@@ -1,0 +1,339 @@
+{
+ "classification_test": {
+  "finetuned": {
+   "accuracy": 0.9863123993558777,
+   "macro": {
+    "precision": 0.9848516722550201,
+    "recall": 0.9847097900641208,
+    "f1": 0.9847361911165042
+   },
+   "per_class": {
+    "freshapples": {
+     "support": 185,
+     "precision": 0.9893048128342246,
+     "recall": 1.0,
+     "f1": 0.9946236559139785
+    },
+    "freshbanana": {
+     "support": 174,
+     "precision": 0.9830508474576272,
+     "recall": 1.0,
+     "f1": 0.9914529914529915
+    },
+    "freshoranges": {
+     "support": 165,
+     "precision": 0.9631901840490797,
+     "recall": 0.9515151515151515,
+     "f1": 0.9573170731707318
+    },
+    "rottenapples": {
+     "support": 275,
+     "precision": 1.0,
+     "recall": 0.9963636363636363,
+     "f1": 0.9981785063752276
+    },
+    "rottenbanana": {
+     "support": 254,
+     "precision": 0.984375,
+     "recall": 0.9921259842519685,
+     "f1": 0.988235294117647
+    },
+    "rottenoranges": {
+     "support": 189,
+     "precision": 0.9891891891891892,
+     "recall": 0.9682539682539683,
+     "f1": 0.9786096256684492
+    }
+   },
+   "confusion": [
+    [
+     185,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     174,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     2,
+     1,
+     157,
+     0,
+     3,
+     2
+    ],
+    [
+     0,
+     0,
+     0,
+     274,
+     1,
+     0
+    ],
+    [
+     0,
+     2,
+     0,
+     0,
+     252,
+     0
+    ],
+    [
+     0,
+     0,
+     6,
+     0,
+     0,
+     183
+    ]
+   ],
+   "fruit_type_accuracy": 0.9943639291465378
+  },
+  "coco_zero_shot": {
+   "accuracy": 0.4726247987117552,
+   "macro": {
+    "precision": 0.3229482872468233,
+    "recall": 0.5185140312726519,
+    "f1": 0.39124781862015073
+   },
+   "per_class": {
+    "freshapples": {
+     "support": 185,
+     "precision": 0.5077399380804953,
+     "recall": 0.8864864864864865,
+     "f1": 0.6456692913385828
+    },
+    "freshbanana": {
+     "support": 174,
+     "precision": 0.42144638403990026,
+     "recall": 0.9712643678160919,
+     "f1": 0.5878260869565217
+    },
+    "freshoranges": {
+     "support": 165,
+     "precision": 0.6071428571428571,
+     "recall": 0.8242424242424242,
+     "f1": 0.6992287917737787
+    },
+    "rottenapples": {
+     "support": 275,
+     "precision": 0.4013605442176871,
+     "recall": 0.4290909090909091,
+     "f1": 0.4147627416520211
+    },
+    "rottenbanana": {
+     "support": 254,
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0
+    },
+    "rottenoranges": {
+     "support": 189,
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0
+    }
+   },
+   "confusion": [
+    [
+     164,
+     2,
+     5,
+     14,
+     0,
+     0
+    ],
+    [
+     0,
+     169,
+     0,
+     5,
+     0,
+     0
+    ],
+    [
+     13,
+     0,
+     136,
+     16,
+     0,
+     0
+    ],
+    [
+     108,
+     16,
+     33,
+     118,
+     0,
+     0
+    ],
+    [
+     1,
+     214,
+     1,
+     38,
+     0,
+     0
+    ],
+    [
+     37,
+     0,
+     49,
+     103,
+     0,
+     0
+    ]
+   ],
+   "fruit_type_accuracy": 0.782608695652174
+  },
+  "majority_class": {
+   "accuracy": 0.2214170692431562,
+   "macro": {
+    "precision": 0.03690284487385937,
+    "recall": 0.16666666666666666,
+    "f1": 0.060426279938475054
+   },
+   "per_class": {
+    "freshapples": {
+     "support": 185,
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0
+    },
+    "freshbanana": {
+     "support": 174,
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0
+    },
+    "freshoranges": {
+     "support": 165,
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0
+    },
+    "rottenapples": {
+     "support": 275,
+     "precision": 0.2214170692431562,
+     "recall": 1.0,
+     "f1": 0.36255767963085034
+    },
+    "rottenbanana": {
+     "support": 254,
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0
+    },
+    "rottenoranges": {
+     "support": 189,
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0
+    }
+   },
+   "confusion": [
+    [
+     0,
+     0,
+     0,
+     185,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     174,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     165,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     275,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     254,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     189,
+     0,
+     0
+    ]
+   ],
+   "fruit_type_accuracy": 0.37037037037037035
+  }
+ },
+ "ultralytics_test": {
+  "top1": 0.9863123893737793,
+  "top5": 1.0
+ },
+ "binary_test": {
+  "finetuned": {
+   "images": 1242,
+   "rotten": 718,
+   "rotten_share": 0.5780998389694042,
+   "roc_auc": 0.9994112675157881,
+   "recall_at_0.5": 0.9888579387186629,
+   "false_alarm_at_0.5": 0.0057251908396946565
+  },
+  "coco_zero_shot": {
+   "images": 1242,
+   "rotten": 718,
+   "rotten_share": 0.5780998389694042,
+   "roc_auc": 0.5,
+   "recall_at_0.5": 0.0,
+   "false_alarm_at_0.5": 0.0
+  },
+  "majority_class": {
+   "images": 1242,
+   "rotten": 718,
+   "rotten_share": 0.5780998389694042,
+   "roc_auc": 0.5,
+   "recall_at_0.5": 1.0,
+   "false_alarm_at_0.5": 1.0
+  }
+ },
+ "names": {
+  "0": "freshapples",
+  "1": "freshbanana",
+  "2": "freshoranges",
+  "3": "rottenapples",
+  "4": "rottenbanana",
+  "5": "rottenoranges"
+ },
+ "rotten_ids": [
+  3,
+  4,
+  5
+ ],
+ "majority_class": "rottenapples"
+}

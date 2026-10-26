@@ -1,0 +1,165 @@
+{
+ "chosen_on": "val",
+ "reported_on": "test",
+ "base_rate": 0.04,
+ "single_threshold": 0.7,
+ "lo": 0.16,
+ "hi": 0.7,
+ "review_capacity_share": 0.2916666666666667,
+ "unconstrained_band": {
+  "lo": 0.16,
+  "hi": 0.7,
+  "review_share_val": 0.001909328820146365,
+  "val_cost_per_1000": 0.0938721994995795
+ },
+ "val_cost_per_1000": 0.0938721994995795,
+ "test_cost_per_1000": 2.8425836540574254,
+ "test_review_share": 0.020375512981351932,
+ "test_rates": {
+  "pos": {
+   "pass": 0.006963788300835654,
+   "review": 0.005571030640668524,
+   "fail": 0.9874651810584958
+  },
+  "neg": {
+   "pass": 0.9751908396946565,
+   "review": 0.02099236641221374,
+   "fail": 0.003816793893129771
+  }
+ },
+ "staffing": {
+  "cases_per_day": 1173.6295477258714,
+  "review_hours_per_day": 0.9780246231048928,
+  "reviewers_needed": 0.13971780330069897
+ },
+ "policies_per_1000_test": {
+  "do_nothing": 160.0,
+  "human_checks_all": 42.06666666666668,
+  "model_alone": 3.104807671862043,
+  "model_plus_review": 2.8425836540574254,
+  "status_quo": 44.528888888888886
+ },
+ "daily_volume": 57600,
+ "per_class_outcomes_test": {
+  "freshapples": {
+   "n": 185,
+   "pass": 0.9837837837837838,
+   "review": 0.016216216216216217,
+   "fail": 0.0
+  },
+  "freshbanana": {
+   "n": 174,
+   "pass": 1.0,
+   "review": 0.0,
+   "fail": 0.0
+  },
+  "freshoranges": {
+   "n": 165,
+   "pass": 0.9393939393939394,
+   "review": 0.048484848484848485,
+   "fail": 0.012121212121212121
+  },
+  "rottenapples": {
+   "n": 275,
+   "pass": 0.0,
+   "review": 0.0,
+   "fail": 1.0
+  },
+  "rottenbanana": {
+   "n": 254,
+   "pass": 0.003937007874015748,
+   "review": 0.003937007874015748,
+   "fail": 0.9921259842519685
+  },
+  "rottenoranges": {
+   "n": 189,
+   "pass": 0.021164021164021163,
+   "review": 0.015873015873015872,
+   "fail": 0.9629629629629629
+  }
+ },
+ "costs": {
+  "fn": 4.0,
+  "fp": 0.3,
+  "tp": 0.0,
+  "tn": 0.0,
+  "review": 0.011666666666666667,
+  "reviewer_sensitivity": 0.9,
+  "reviewer_specificity": 0.95
+ },
+ "policies_per_1000_test_95ci": {
+  "do_nothing": {
+   "low": 160.0,
+   "high": 160.0
+  },
+  "human_checks_all": {
+   "low": 42.06666666666668,
+   "high": 42.06666666666668
+  },
+  "model_alone": {
+   "low": 0.44072600301556536,
+   "high": 7.164375501485507
+  },
+  "model_plus_review": {
+   "low": 0.49310248194580547,
+   "high": 5.833585692157383
+  },
+  "status_quo": {
+   "low": 44.528888888888886,
+   "high": 44.528888888888886
+  }
+ },
+ "stress_test": [
+  {
+   "logit_factor": 1.0,
+   "model_alone_per_1000": 3.104807671862043,
+   "model_plus_review_per_1000": 2.8425836540574254,
+   "model_alone_rotten_shipped": 0.012534818941504178,
+   "band_rotten_shipped": 0.007520891364902507,
+   "band_review_share": 0.020375512981351932
+  },
+  {
+   "logit_factor": 0.75,
+   "model_alone_per_1000": 3.104807671862043,
+   "model_plus_review_per_1000": 2.4916243169108427,
+   "model_alone_rotten_shipped": 0.012534818941504178,
+   "band_rotten_shipped": 0.005013927576601671,
+   "band_review_share": 0.022318994662867592
+  },
+  {
+   "logit_factor": 0.5,
+   "model_alone_per_1000": 3.3276488974887837,
+   "model_plus_review_per_1000": 2.900910785543672,
+   "model_alone_rotten_shipped": 0.013927576601671309,
+   "band_rotten_shipped": 0.0038997214484679664,
+   "band_review_share": 0.044415148100108444
+  },
+  {
+   "logit_factor": 0.35,
+   "model_alone_per_1000": 3.3276488974887837,
+   "model_plus_review_per_1000": 3.584880251192527,
+   "model_alone_rotten_shipped": 0.013927576601671309,
+   "band_rotten_shipped": 0.0038997214484679664,
+   "band_review_share": 0.0700640030619405
+  },
+  {
+   "logit_factor": 0.25,
+   "model_alone_per_1000": 2.6740947075208914,
+   "model_plus_review_per_1000": 3.943818353214685,
+   "model_alone_rotten_shipped": 0.016713091922005572,
+   "band_rotten_shipped": 0.0029247910863509745,
+   "band_review_share": 0.13068914924833613
+  }
+ ],
+ "status_quo": {
+  "labour_per_piece": 0.0038888888888888888,
+  "sensitivity": 0.8,
+  "specificity": 0.97
+ },
+ "test_errors": {
+  "misclassified_images": 17,
+  "misclassified_photos": 6,
+  "costly_images": 7,
+  "costly_photos": 4
+ }
+}

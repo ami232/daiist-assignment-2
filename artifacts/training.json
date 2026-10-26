@@ -1,0 +1,14 @@
+{
+ "base_model": "yolo11n-cls.pt",
+ "epochs_requested": 30,
+ "epochs_run": 30,
+ "imgsz": 224,
+ "batch": 64,
+ "patience": 10,
+ "seed": 0,
+ "device": "x86_64",
+ "torch": "2.14.1+cu130",
+ "python": "3.12.3",
+ "training_minutes": 65.00226587057114,
+ "smoke_test": false
+}

@@ -1,0 +1,167 @@
+{
+ "splits": {
+  "train": {
+   "images": 5702,
+   "per_class": {
+    "freshapples": 851,
+    "freshbanana": 808,
+    "freshoranges": 763,
+    "rottenapples": 1266,
+    "rottenbanana": 1160,
+    "rottenoranges": 854
+   },
+   "rotten_images": 3280,
+   "rotten_share": 0.5752367590319186
+  },
+  "val": {
+   "images": 1251,
+   "per_class": {
+    "freshapples": 185,
+    "freshbanana": 178,
+    "freshoranges": 171,
+    "rottenapples": 273,
+    "rottenbanana": 253,
+    "rottenoranges": 191
+   },
+   "rotten_images": 717,
+   "rotten_share": 0.5731414868105515
+  },
+  "test": {
+   "images": 1242,
+   "per_class": {
+    "freshapples": 185,
+    "freshbanana": 174,
+    "freshoranges": 165,
+    "rottenapples": 275,
+    "rottenbanana": 254,
+    "rottenoranges": 189
+   },
+   "rotten_images": 718,
+   "rotten_share": 0.5780998389694042
+  }
+ },
+ "image_sizes": {
+  "380x344": 17,
+  "368x344": 15,
+  "416x448": 14,
+  "352x358": 14,
+  "400x338": 14,
+  "560x348": 14,
+  "392x360": 14,
+  "408x354": 14,
+  "470x386": 13,
+  "346x334": 13
+ },
+ "classes": {
+  "freshapples": {
+   "fruit": "apple",
+   "rotten": false
+  },
+  "freshbanana": {
+   "fruit": "banana",
+   "rotten": false
+  },
+  "freshoranges": {
+   "fruit": "orange",
+   "rotten": false
+  },
+  "rottenapples": {
+   "fruit": "apple",
+   "rotten": true
+  },
+  "rottenbanana": {
+   "fruit": "banana",
+   "rotten": true
+  },
+  "rottenoranges": {
+   "fruit": "orange",
+   "rotten": true
+  }
+ },
+ "distinct_image_sizes": 1451,
+ "names": {
+  "0": "freshapples",
+  "1": "freshbanana",
+  "2": "freshoranges",
+  "3": "rottenapples",
+  "4": "rottenbanana",
+  "5": "rottenoranges"
+ },
+ "split_by_source_photo": true,
+ "published_splits": {
+  "train": {
+   "images": 6165,
+   "per_class": {
+    "freshapples": 928,
+    "freshbanana": 880,
+    "freshoranges": 837,
+    "rottenapples": 1353,
+    "rottenbanana": 1242,
+    "rottenoranges": 925
+   },
+   "rotten_images": 3520,
+   "rotten_share": 0.5709651257096513
+  },
+  "val": {
+   "images": 1223,
+   "per_class": {
+    "freshapples": 182,
+    "freshbanana": 177,
+    "freshoranges": 162,
+    "rottenapples": 263,
+    "rottenbanana": 252,
+    "rottenoranges": 187
+   },
+   "rotten_images": 702,
+   "rotten_share": 0.5739983646770237
+  },
+  "test": {
+   "images": 807,
+   "per_class": {
+    "freshapples": 111,
+    "freshbanana": 103,
+    "freshoranges": 100,
+    "rottenapples": 198,
+    "rottenbanana": 173,
+    "rottenoranges": 122
+   },
+   "rotten_images": 493,
+   "rotten_share": 0.61090458488228
+  }
+ },
+ "published_leakage": {
+  "val": {
+   "images": 1223,
+   "share_with_train": 1212,
+   "share": 0.9910057236304171,
+   "distinct_source_photos": 859
+  },
+  "test": {
+   "images": 807,
+   "share_with_train": 802,
+   "share": 0.9938042131350682,
+   "distinct_source_photos": 634
+  },
+  "distinct_source_photos": 1513
+ },
+ "leakage": {
+  "val": {
+   "images": 1251,
+   "share_with_train": 0,
+   "share": 0.0,
+   "distinct_source_photos": 230
+  },
+  "test": {
+   "images": 1242,
+   "share_with_train": 0,
+   "share": 0.0,
+   "distinct_source_photos": 234
+  },
+  "distinct_source_photos": 1513
+ },
+ "source": {
+  "workspace": "rishwanths-workspace",
+  "project": "freshness-of-fruits",
+  "version": 3
+ }
+}
