@@ -1,0 +1,180 @@
+{
+  "created_utc": "2026-10-24T17:35:04+00:00",
+  "dataset": {
+    "workspace": "defect-detection-fxtd5",
+    "project": "weld-defect-lze1x",
+    "version": 1
+  },
+  "training": {
+    "base_model": "yolo11n.pt",
+    "epochs_max": 60,
+    "patience": 20,
+    "imgsz": 640,
+    "batch": 16,
+    "seed": 0,
+    "device": "0",
+    "minutes": 9.8
+  },
+  "test_images": 84,
+  "test_bad_images": 58,
+  "detection": {
+    "overall": {
+      "precision": 0.6267,
+      "recall": 0.7193,
+      "mAP50": 0.6899,
+      "mAP50-95": 0.4131
+    },
+    "per_class": [
+      {
+        "class": "Bad Weld",
+        "precision": 0.666,
+        "recall": 0.7969,
+        "AP50": 0.7847,
+        "AP50-95": 0.4912
+      },
+      {
+        "class": "Good Weld",
+        "precision": 0.6718,
+        "recall": 0.8189,
+        "AP50": 0.8078,
+        "AP50-95": 0.5147
+      },
+      {
+        "class": "Defect",
+        "precision": 0.5423,
+        "recall": 0.5421,
+        "AP50": 0.4771,
+        "AP50-95": 0.2335
+      }
+    ],
+    "confusion_matrix": {
+      "labels": [
+        "Bad Weld",
+        "Good Weld",
+        "Defect",
+        "background"
+      ],
+      "confidence": 0.25,
+      "rows_are": "predicted",
+      "columns_are": "true",
+      "matrix": [
+        [
+          42,
+          5,
+          6,
+          23
+        ],
+        [
+          12,
+          88,
+          3,
+          29
+        ],
+        [
+          3,
+          4,
+          55,
+          44
+        ],
+        [
+          7,
+          13,
+          43,
+          0
+        ]
+      ]
+    }
+  },
+  "baselines_detection": [
+    {
+      "model": "Finetuned yolo11n.pt",
+      "precision": 0.6267,
+      "recall": 0.7193,
+      "mAP50": 0.6899,
+      "mAP50-95": 0.4131
+    },
+    {
+      "model": "COCO zero-shot",
+      "precision": 0.0,
+      "recall": 0.0,
+      "mAP50": 0.0,
+      "mAP50-95": 0.0,
+      "note": "COCO has no weld or defect class, so it cannot score on these classes"
+    },
+    {
+      "model": "Predict nothing",
+      "precision": 0.0,
+      "recall": 0.0,
+      "mAP50": 0.0,
+      "mAP50-95": 0.0
+    }
+  ],
+  "baselines_image_level": [
+    {
+      "model": "Finetuned yolo11n.pt",
+      "ROC AUC (bad vs good image)": 0.883,
+      "best threshold": 0.37,
+      "cost per 1,000 at best threshold (\u20ac)": 7783.16,
+      "recall on bad welds": 0.7241,
+      "false-alarm rate on good welds": 0.0769
+    },
+    {
+      "model": "COCO zero-shot (any box = defect)",
+      "ROC AUC (bad vs good image)": 0.4595,
+      "best threshold": 0.55,
+      "cost per 1,000 at best threshold (\u20ac)": 18934.68,
+      "recall on bad welds": 0.1034,
+      "false-alarm rate on good welds": 0.0385
+    },
+    {
+      "model": "Predict nothing (pass all)",
+      "ROC AUC (bad vs good image)": 0.5,
+      "best threshold": null,
+      "cost per 1,000 at best threshold (\u20ac)": 20000.0,
+      "recall on bad welds": 0.0,
+      "false-alarm rate on good welds": 0.0
+    }
+  ],
+  "operating_point": {
+    "threshold": 0.37,
+    "band": [
+      0.02,
+      0.69
+    ],
+    "chosen_by": "cost-minimising sweep"
+  },
+  "alternatives": [
+    {
+      "Strategy": "Do nothing (pass every weld)",
+      "Cost per 1,000 welds (\u20ac)": 20000.0,
+      "Cost per day (\u20ac)": 160000.0,
+      "Sent to a person": "0.0%",
+      "Checks per day": 0.0,
+      "Inspectors needed": 0.0
+    },
+    {
+      "Strategy": "A person checks every weld",
+      "Cost per 1,000 welds (\u20ac)": 3478.33,
+      "Cost per day (\u20ac)": 27826.67,
+      "Sent to a person": "100.0%",
+      "Checks per day": 8000.0,
+      "Inspectors needed": 20.51
+    },
+    {
+      "Strategy": "Model alone (threshold 0.37)",
+      "Cost per 1,000 welds (\u20ac)": 7783.16,
+      "Cost per day (\u20ac)": 62265.25,
+      "Sent to a person": "0.0%",
+      "Checks per day": 0.0,
+      "Inspectors needed": 0.0
+    },
+    {
+      "Strategy": "Model + human review (0.02\u20130.69)",
+      "Cost per 1,000 welds (\u20ac)": 2668.13,
+      "Cost per day (\u20ac)": 21345.07,
+      "Sent to a person": "54.0%",
+      "Checks per day": 4317.0,
+      "Inspectors needed": 11.07
+    }
+  ]
+}

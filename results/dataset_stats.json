@@ -1,0 +1,91 @@
+{
+  "classes": [
+    "Bad Weld",
+    "Good Weld",
+    "Defect"
+  ],
+  "positive_classes": [
+    "Bad Weld",
+    "Defect"
+  ],
+  "splits": {
+    "train": {
+      "images": 586,
+      "images_with_no_labels": 0,
+      "images_with_a_bad_weld_or_defect": 457,
+      "images_with_only_good_welds_or_nothing": 129,
+      "instances_per_class": {
+        "Bad Weld": 536,
+        "Good Weld": 764,
+        "Defect": 962
+      },
+      "median_box_area_share": {
+        "Bad Weld": 0.0382,
+        "Good Weld": 0.02,
+        "Defect": 0.0124
+      },
+      "p10_box_area_share": {
+        "Bad Weld": 0.0083,
+        "Good Weld": 0.007,
+        "Defect": 0.0041
+      },
+      "p90_box_area_share": {
+        "Bad Weld": 0.1131,
+        "Good Weld": 0.0836,
+        "Defect": 0.0395
+      }
+    },
+    "val": {
+      "images": 168,
+      "images_with_no_labels": 0,
+      "images_with_a_bad_weld_or_defect": 114,
+      "images_with_only_good_welds_or_nothing": 54,
+      "instances_per_class": {
+        "Bad Weld": 134,
+        "Good Weld": 235,
+        "Defect": 225
+      },
+      "median_box_area_share": {
+        "Bad Weld": 0.0471,
+        "Good Weld": 0.0285,
+        "Defect": 0.0119
+      },
+      "p10_box_area_share": {
+        "Bad Weld": 0.0115,
+        "Good Weld": 0.0067,
+        "Defect": 0.0038
+      },
+      "p90_box_area_share": {
+        "Bad Weld": 0.1662,
+        "Good Weld": 0.0901,
+        "Defect": 0.0382
+      }
+    },
+    "test": {
+      "images": 84,
+      "images_with_no_labels": 0,
+      "images_with_a_bad_weld_or_defect": 58,
+      "images_with_only_good_welds_or_nothing": 26,
+      "instances_per_class": {
+        "Bad Weld": 64,
+        "Good Weld": 110,
+        "Defect": 107
+      },
+      "median_box_area_share": {
+        "Bad Weld": 0.0503,
+        "Good Weld": 0.0266,
+        "Defect": 0.0131
+      },
+      "p10_box_area_share": {
+        "Bad Weld": 0.01,
+        "Good Weld": 0.0086,
+        "Defect": 0.0045
+      },
+      "p90_box_area_share": {
+        "Bad Weld": 0.1472,
+        "Good Weld": 0.0804,
+        "Defect": 0.0507
+      }
+    }
+  }
+}
