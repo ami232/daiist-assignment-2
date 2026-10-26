@@ -1,0 +1,5 @@
+strategy,cost_per_1000,cost_per_day,review_share_pct,people_needed,fits_team,positives_missed_pct,negatives_flagged_pct
+Do nothing: every case passes,180.0000,4500.0000,0.0000,0.0000,True,100.0000,0.0000
+A person checks every case,17.2222,430.5556,100.0000,4.9603,False,0.0000,0.0000
+Model decides alone (fail at >= 0.62),50.7076,1267.6906,0.0000,0.0000,True,24.6528,0.4264
+"Model + person (pass < 0.01, fail >= 0.79)",4.4451,111.1285,14.9234,0.7402,True,1.0417,0.0000

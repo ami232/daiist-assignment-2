@@ -1,0 +1,176 @@
+{
+  "dataset": {
+    "workspace": "fruit-ripening",
+    "project": "fruit-ripening-process",
+    "version": 1,
+    "url": "https://universe.roboflow.com/fruit-ripening/fruit-ripening-process/dataset/1"
+  },
+  "names": [
+    "freshripe",
+    "freshunripe",
+    "overripe",
+    "ripe",
+    "rotten",
+    "unripe"
+  ],
+  "positive_classes": [
+    "rotten"
+  ],
+  "small_box_means": "under 1% of the image area",
+  "large_box_means": "over 10% of the image area",
+  "splits": {
+    "train": {
+      "images": 5264,
+      "images_without_objects": 0,
+      "positive_images": 1841,
+      "positive_image_pct": 35.0,
+      "objects_per_image": 2.0,
+      "per_class": [
+        {
+          "class": "freshripe",
+          "instances": 1035,
+          "median_area_pct": 43.02,
+          "small_pct": 0.0,
+          "large_pct": 94.2
+        },
+        {
+          "class": "freshunripe",
+          "instances": 1362,
+          "median_area_pct": 15.65,
+          "small_pct": 0.0,
+          "large_pct": 69.0
+        },
+        {
+          "class": "overripe",
+          "instances": 1443,
+          "median_area_pct": 51.08,
+          "small_pct": 0.2,
+          "large_pct": 97.4
+        },
+        {
+          "class": "ripe",
+          "instances": 2389,
+          "median_area_pct": 26.72,
+          "small_pct": 0.0,
+          "large_pct": 87.4
+        },
+        {
+          "class": "rotten",
+          "instances": 2892,
+          "median_area_pct": 13.48,
+          "small_pct": 6.0,
+          "large_pct": 60.2
+        },
+        {
+          "class": "unripe",
+          "instances": 1400,
+          "median_area_pct": 14.14,
+          "small_pct": 0.1,
+          "large_pct": 74.5
+        }
+      ]
+    },
+    "val": {
+      "images": 1525,
+      "images_without_objects": 0,
+      "positive_images": 527,
+      "positive_image_pct": 34.6,
+      "objects_per_image": 1.98,
+      "per_class": [
+        {
+          "class": "freshripe",
+          "instances": 315,
+          "median_area_pct": 42.35,
+          "small_pct": 0.0,
+          "large_pct": 88.3
+        },
+        {
+          "class": "freshunripe",
+          "instances": 417,
+          "median_area_pct": 14.93,
+          "small_pct": 0.0,
+          "large_pct": 67.6
+        },
+        {
+          "class": "overripe",
+          "instances": 438,
+          "median_area_pct": 48.74,
+          "small_pct": 0.0,
+          "large_pct": 97.9
+        },
+        {
+          "class": "ripe",
+          "instances": 654,
+          "median_area_pct": 27.97,
+          "small_pct": 0.0,
+          "large_pct": 88.7
+        },
+        {
+          "class": "rotten",
+          "instances": 780,
+          "median_area_pct": 14.08,
+          "small_pct": 4.0,
+          "large_pct": 66.4
+        },
+        {
+          "class": "unripe",
+          "instances": 408,
+          "median_area_pct": 14.78,
+          "small_pct": 0.0,
+          "large_pct": 74.8
+        }
+      ]
+    },
+    "test": {
+      "images": 757,
+      "images_without_objects": 0,
+      "positive_images": 288,
+      "positive_image_pct": 38.0,
+      "objects_per_image": 2.01,
+      "per_class": [
+        {
+          "class": "freshripe",
+          "instances": 156,
+          "median_area_pct": 41.37,
+          "small_pct": 0.0,
+          "large_pct": 91.7
+        },
+        {
+          "class": "freshunripe",
+          "instances": 212,
+          "median_area_pct": 14.2,
+          "small_pct": 0.0,
+          "large_pct": 61.8
+        },
+        {
+          "class": "overripe",
+          "instances": 178,
+          "median_area_pct": 52.73,
+          "small_pct": 0.0,
+          "large_pct": 98.3
+        },
+        {
+          "class": "ripe",
+          "instances": 351,
+          "median_area_pct": 23.45,
+          "small_pct": 0.0,
+          "large_pct": 85.8
+        },
+        {
+          "class": "rotten",
+          "instances": 448,
+          "median_area_pct": 14.24,
+          "small_pct": 8.0,
+          "large_pct": 62.9
+        },
+        {
+          "class": "unripe",
+          "instances": 175,
+          "median_area_pct": 16.0,
+          "small_pct": 0.6,
+          "large_pct": 80.0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "placeholders": false,
+  "assumptions": {
+    "base_rate": 0.01,
+    "cost_fp": 1.5,
+    "cost_fn": 18.0,
+    "cost_tp": 0.0,
+    "cost_tn": 0.0,
+    "seconds_per_review": 5,
+    "reviewer_cost_per_hour": 12.4,
+    "cases_per_day": 25000,
+    "productive_hours": 7.0,
+    "reviewers_available": 2.0,
+    "cost_review": 0.017222,
+    "review_capacity_per_day": 10080.0
+  },
+  "chosen_on": "validation split",
+  "reported_on": "test split",
+  "model_alone": {
+    "threshold": 0.62,
+    "test": {
+      "cost_per_1000": 50.707623,
+      "cost_per_day": 1267.690565,
+      "review_share_pct": 0.0,
+      "positives_missed_pct": 24.652778,
+      "negatives_flagged_pct": 0.426439,
+      "counts": {
+        "positive": {
+          "pass": 71,
+          "review": 0,
+          "fail": 217
+        },
+        "negative": {
+          "pass": 467,
+          "review": 0,
+          "fail": 2
+        }
+      },
+      "staffing": {
+        "reviews_per_day": 0.0,
+        "review_hours_per_day": 0.0,
+        "people_needed": 0.0,
+        "people_available": 2.0,
+        "fits_team": true
+      }
+    }
+  },
+  "with_review": {
+    "pass_below": 0.01,
+    "fail_at_or_above": 0.79,
+    "test": {
+      "cost_per_1000": 4.445139,
+      "cost_per_day": 111.12848,
+      "review_share_pct": 14.923389,
+      "positives_missed_pct": 1.041667,
+      "negatives_flagged_pct": 0.0,
+      "counts": {
+        "positive": {
+          "pass": 3,
+          "review": 164,
+          "fail": 121
+        },
+        "negative": {
+          "pass": 401,
+          "review": 68,
+          "fail": 0
+        }
+      },
+      "staffing": {
+        "reviews_per_day": 3730.847252,
+        "review_hours_per_day": 5.181732,
+        "people_needed": 0.740247,
+        "people_available": 2.0,
+        "fits_team": true
+      }
+    }
+  },
+  "strategies": [
+    {
+      "strategy": "Do nothing: every case passes",
+      "cost_per_1000": 180.0,
+      "cost_per_day": 4500.0,
+      "review_share_pct": 0.0,
+      "people_needed": 0.0,
+      "fits_team": true,
+      "positives_missed_pct": 100.0,
+      "negatives_flagged_pct": 0.0
+    },
+    {
+      "strategy": "A person checks every case",
+      "cost_per_1000": 17.222222,
+      "cost_per_day": 430.555556,
+      "review_share_pct": 100.0,
+      "people_needed": 4.960317,
+      "fits_team": false,
+      "positives_missed_pct": 0.0,
+      "negatives_flagged_pct": 0.0
+    },
+    {
+      "strategy": "Model decides alone (fail at >= 0.62)",
+      "cost_per_1000": 50.707623,
+      "cost_per_day": 1267.690565,
+      "review_share_pct": 0.0,
+      "people_needed": 0.0,
+      "fits_team": true,
+      "positives_missed_pct": 24.652778,
+      "negatives_flagged_pct": 0.426439
+    },
+    {
+      "strategy": "Model + person (pass < 0.01, fail >= 0.79)",
+      "cost_per_1000": 4.445139,
+      "cost_per_day": 111.12848,
+      "review_share_pct": 14.923389,
+      "people_needed": 0.740247,
+      "fits_team": true,
+      "positives_missed_pct": 1.041667,
+      "negatives_flagged_pct": 0.0
+    }
+  ]
+}

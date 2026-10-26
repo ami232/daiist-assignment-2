@@ -1,0 +1,25 @@
+{
+  "dataset": {
+    "workspace": "fruit-ripening",
+    "project": "fruit-ripening-process",
+    "version": 1,
+    "url": "https://universe.roboflow.com/fruit-ripening/fruit-ripening-process/dataset/1"
+  },
+  "base_model": "yolo11n.pt",
+  "epochs_requested": 50,
+  "epochs_completed": 50,
+  "patience": 15,
+  "image_size": 640,
+  "batch": 16,
+  "seed": 0,
+  "device": "0",
+  "gpu": "Tesla T4",
+  "where_trained": "Google Colab, NVIDIA T4",
+  "minutes": 64.6,
+  "finished_utc": "2026-10-26T19:15:28+00:00",
+  "versions": {
+    "ultralytics": "8.4.190",
+    "torch": "2.11.0+cu130",
+    "python": "3.13.16"
+  }
+}
