@@ -14,3 +14,9 @@ runs/
 
 # Never commit your API key
 .env
+
+# Local run logs
+*.log
+
+# Pretrained COCO checkpoint, downloaded by ultralytics at train time
+/yolo11n.pt
