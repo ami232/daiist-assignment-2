@@ -1,0 +1,84 @@
+{
+  "confidence_used": 0.21,
+  "iou_match": 0.5,
+  "labels": [
+    "Fire",
+    "Smoke",
+    "Background"
+  ],
+  "matrix_rows_actual_columns_predicted": [
+    [
+      417,
+      4,
+      113
+    ],
+    [
+      12,
+      144,
+      60
+    ],
+    [
+      113,
+      49,
+      0
+    ]
+  ],
+  "per_class": {
+    "Fire": {
+      "objects": 534,
+      "hits": 417,
+      "precision": 0.7693726937269373,
+      "recall": 0.7808988764044944,
+      "recall_by_size": {
+        "under 1% of the image": {
+          "objects": 174,
+          "found": 115,
+          "recall": 0.6609195402298851
+        },
+        "1% to 5%": {
+          "objects": 139,
+          "found": 105,
+          "recall": 0.7553956834532374
+        },
+        "5% to 20%": {
+          "objects": 141,
+          "found": 122,
+          "recall": 0.8652482269503546
+        },
+        "over 20%": {
+          "objects": 80,
+          "found": 75,
+          "recall": 0.9375
+        }
+      }
+    },
+    "Smoke": {
+      "objects": 216,
+      "hits": 144,
+      "precision": 0.7309644670050761,
+      "recall": 0.6666666666666666,
+      "recall_by_size": {
+        "under 1% of the image": {
+          "objects": 3,
+          "found": 0,
+          "recall": 0.0
+        },
+        "1% to 5%": {
+          "objects": 16,
+          "found": 2,
+          "recall": 0.125
+        },
+        "5% to 20%": {
+          "objects": 109,
+          "found": 67,
+          "recall": 0.6146788990825688
+        },
+        "over 20%": {
+          "objects": 88,
+          "found": 75,
+          "recall": 0.8522727272727273
+        }
+      }
+    }
+  }
+}

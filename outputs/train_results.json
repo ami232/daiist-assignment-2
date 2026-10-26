@@ -1,0 +1,87 @@
+{
+  "dataset": {
+    "workspace": "sayed-gamall",
+    "project": "fire-smoke-detection-yolov11",
+    "version": 2,
+    "classes": [
+      "Fire",
+      "Smoke"
+    ]
+  },
+  "settings": {
+    "base_model": "yolo11n.pt",
+    "epochs": 20,
+    "image_size": 640,
+    "batch": 16,
+    "seed": 0,
+    "train_fraction": 1.0,
+    "device": "0"
+  },
+  "test_split": {
+    "images": 435,
+    "objects_per_class": {
+      "Fire": 544,
+      "Smoke": 216
+    },
+    "images_without_fire": 79
+  },
+  "finetuned": {
+    "AP50": 0.7518172012312789,
+    "mAP50_95": 0.4411286030219747,
+    "per_class": {
+      "Fire": {
+        "precision": 0.7748242498247392,
+        "recall": 0.7796975070397452,
+        "AP50": 0.8211388602764561,
+        "mAP50_95": 0.48596023878623856
+      },
+      "Smoke": {
+        "precision": 0.7490460512950551,
+        "recall": 0.6356560627221309,
+        "AP50": 0.6824955421861019,
+        "mAP50_95": 0.3962969672577108
+      }
+    }
+  },
+  "coco_zero_shot": {
+    "classes_in_common_with_dataset": [],
+    "AP50": 0.0,
+    "mAP50_95": 0.0,
+    "per_class": {
+      "Fire": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "AP50": 0.0,
+        "mAP50_95": 0.0
+      },
+      "Smoke": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "AP50": 0.0,
+        "mAP50_95": 0.0
+      }
+    }
+  },
+  "predict_nothing": {
+    "AP50": 0.0,
+    "mAP50_95": 0.0,
+    "per_class": {
+      "Fire": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "AP50": 0.0,
+        "mAP50_95": 0.0
+      },
+      "Smoke": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "AP50": 0.0,
+        "mAP50_95": 0.0
+      }
+    },
+    "missed_objects": {
+      "Fire": 544,
+      "Smoke": 216
+    }
+  }
+}
