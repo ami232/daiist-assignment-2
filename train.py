@@ -273,7 +273,8 @@ def evaluate(weights: Path, data_yaml: Path) -> dict:
 
     cases = case_scores(finetuned, test_dir, score_class=POSITIVE_CLASS, kind="iou")
     coco_cases = case_scores(coco, test_dir, score_class=0, kind="ioa", classes=[0])
-    cases["score_coco"] = coco_cases["score"].to_numpy()  # same images, same order of boxes
+    assert (coco_cases["image"] == cases["image"]).all(), "both passes must list the same people in the same order"
+    cases["score_coco"] = coco_cases["score"].to_numpy()
     cases.to_csv(OUTPUTS_DIR / "case_scores.csv", index=False)
 
     positive = cases["positive"].to_numpy()
