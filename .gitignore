@@ -12,5 +12,10 @@ data/
 # Ultralytics training output. Your real weights belong in weights/, committed.
 runs/
 
+# Pretrained checkpoints Ultralytics downloads into the repo root, and the one
+# its GPU mixed-precision check drops into weights/
+/yolo*.pt
+/weights/yolo*.pt
+
 # Never commit your API key
 .env

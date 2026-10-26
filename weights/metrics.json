@@ -1,0 +1,212 @@
+{
+  "dataset": {
+    "workspace": "dataset-w8sqm",
+    "project": "tomato-ripeness-jionb",
+    "version": 14,
+    "names": [
+      "half-ripe",
+      "not_ripe",
+      "ripe"
+    ]
+  },
+  "training": {
+    "base_model": "yolo11n.pt",
+    "epochs": 50,
+    "patience": 20,
+    "imgsz": 640,
+    "batch": 8,
+    "seed": 0,
+    "epochs_run": 36,
+    "device": "cuda:0",
+    "minutes": 7.5
+  },
+  "ultralytics_test": {
+    "map50": 0.7009638730960752,
+    "map50_95": 0.4660159571424843,
+    "per_class": [
+      {
+        "class": "half-ripe",
+        "precision": 0.6232395369220393,
+        "recall": 0.6245954692556634,
+        "ap50": 0.6223498496299346,
+        "ap50_95": 0.42702449623144434
+      },
+      {
+        "class": "not_ripe",
+        "precision": 0.6836518276885766,
+        "recall": 0.6963471957141448,
+        "ap50": 0.7213217849917422,
+        "ap50_95": 0.44845231681913245
+      },
+      {
+        "class": "ripe",
+        "precision": 0.690512959362115,
+        "recall": 0.6820388349514563,
+        "ap50": 0.7592199846665488,
+        "ap50_95": 0.5225710583768762
+      }
+    ]
+  },
+  "models": {
+    "finetuned": {
+      "conf": 0.25,
+      "map50": 0.6548955815639287,
+      "per_class": [
+        {
+          "class": "half-ripe",
+          "tomatoes": 309,
+          "ap50": 0.5439832871331446,
+          "precision": 0.5273224043715847,
+          "recall": 0.6245954692556634
+        },
+        {
+          "class": "not_ripe",
+          "tomatoes": 450,
+          "ap50": 0.7215552100504872,
+          "precision": 0.5794871794871795,
+          "recall": 0.7533333333333333
+        },
+        {
+          "class": "ripe",
+          "tomatoes": 412,
+          "ap50": 0.6991482475081541,
+          "precision": 0.5743380855397149,
+          "recall": 0.6844660194174758
+        }
+      ],
+      "confusion": [
+        [
+          193,
+          26,
+          44,
+          46
+        ],
+        [
+          4,
+          339,
+          0,
+          107
+        ],
+        [
+          54,
+          1,
+          282,
+          75
+        ],
+        [
+          115,
+          219,
+          165,
+          0
+        ]
+      ]
+    },
+    "coco_zero_shot": {
+      "conf": 0.25,
+      "map50": 0.08333786769199379,
+      "per_class": [
+        {
+          "class": "half-ripe",
+          "tomatoes": 309,
+          "ap50": 0.0,
+          "precision": null,
+          "recall": 0.0
+        },
+        {
+          "class": "not_ripe",
+          "tomatoes": 450,
+          "ap50": 0.0,
+          "precision": null,
+          "recall": 0.0
+        },
+        {
+          "class": "ripe",
+          "tomatoes": 412,
+          "ap50": 0.25001360307598136,
+          "precision": 0.3258426966292135,
+          "recall": 0.35194174757281554
+        }
+      ],
+      "confusion": [
+        [
+          0,
+          0,
+          118,
+          191
+        ],
+        [
+          0,
+          0,
+          96,
+          354
+        ],
+        [
+          0,
+          0,
+          145,
+          267
+        ],
+        [
+          0,
+          0,
+          86,
+          0
+        ]
+      ],
+      "stand_in_class": "ripe"
+    },
+    "predict_nothing": {
+      "conf": 0.25,
+      "map50": 0.0,
+      "per_class": [
+        {
+          "class": "half-ripe",
+          "tomatoes": 309,
+          "ap50": 0.0,
+          "precision": null,
+          "recall": 0.0
+        },
+        {
+          "class": "not_ripe",
+          "tomatoes": 450,
+          "ap50": 0.0,
+          "precision": null,
+          "recall": 0.0
+        },
+        {
+          "class": "ripe",
+          "tomatoes": 412,
+          "ap50": 0.0,
+          "precision": null,
+          "recall": 0.0
+        }
+      ],
+      "confusion": [
+        [
+          0,
+          0,
+          0,
+          309
+        ],
+        [
+          0,
+          0,
+          0,
+          450
+        ],
+        [
+          0,
+          0,
+          0,
+          412
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  }
+}

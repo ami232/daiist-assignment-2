@@ -1,0 +1,43 @@
+{
+  "assumptions": {
+    "positive_class": "ripe",
+    "fn_cost": 0.3,
+    "fp_cost": 0.15,
+    "base_rate": 0.35,
+    "tomatoes_per_day": 100000,
+    "review_seconds": 3,
+    "reviewer_eur_per_hour": 13,
+    "shift_hours": 8,
+    "review_cost_per_tomato": 0.010833333333333334
+  },
+  "test_tomatoes": {
+    "ripe": 412,
+    "not_ripe": 759
+  },
+  "do_nothing": {
+    "cost_per_1000": 105.0,
+    "cost_per_day": 10500.0
+  },
+  "person_checks_everything": {
+    "cost_per_1000": 10.833333333333334,
+    "reviewers_needed": 10.416666666666666,
+    "cost_per_day": 1083.3333333333335
+  },
+  "model_alone": {
+    "threshold": 0.01,
+    "cost_per_1000": 26.99336121877278,
+    "fn_rate": 0.13106796116504854,
+    "fp_rate": 0.13570487483530957,
+    "cost_per_day": 2699.336121877278
+  },
+  "model_with_review": {
+    "lower": 0.0,
+    "upper": 0.81,
+    "cost_per_1000": 10.224553337298692,
+    "fn_rate": 0.0,
+    "fp_rate": 0.0039525691699604515,
+    "review_share": 0.9082318009133121,
+    "reviewers_needed": 9.460747926180334,
+    "cost_per_day": 1022.4553337298693
+  }
+}
