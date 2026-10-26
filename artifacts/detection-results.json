@@ -1,0 +1,182 @@
+{
+  "finetuned": {
+    "AP50": 0.5226310851143099,
+    "mAP50_95": 0.4259197392948536,
+    "per_class": [
+      {
+        "class": "box",
+        "precision_max_f1": 0.7749663056901197,
+        "recall_max_f1": 0.6547619047619048,
+        "AP50": 0.7505371407065059,
+        "mAP50_95": 0.5820531205081656
+      },
+      {
+        "class": "box_damaged",
+        "precision_max_f1": 0.3065358274845008,
+        "recall_max_f1": 0.11491503186928617,
+        "AP50": 0.18254467529010074,
+        "mAP50_95": 0.12168721724944416
+      },
+      {
+        "class": "box_opened",
+        "precision_max_f1": 0.5859309375879618,
+        "recall_max_f1": 0.625,
+        "AP50": 0.6348114393463231,
+        "mAP50_95": 0.5740188801269513
+      }
+    ],
+    "confusion_matrix": [
+      [
+        149.0,
+        1.0,
+        1.0,
+        2922.0
+      ],
+      [
+        10.0,
+        22.0,
+        1.0,
+        2655.0
+      ],
+      [
+        0.0,
+        1.0,
+        6.0,
+        377.0
+      ],
+      [
+        9.0,
+        3.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "matrix_labels": [
+      "box",
+      "box_damaged",
+      "box_opened",
+      "background"
+    ],
+    "precision_recall_note": "Ultralytics summary precision/recall use the maximum-F1 point; the matrix uses the documented validation matching settings."
+  },
+  "coco_zero_shot": {
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        168,
+        27,
+        8,
+        0
+      ]
+    ],
+    "matrix_labels": [
+      "box",
+      "box_damaged",
+      "box_opened",
+      "background"
+    ],
+    "AP50": 0.0,
+    "mAP50_95": 0.0,
+    "per_class": [
+      {
+        "class": "box",
+        "precision_max_f1": 0.0,
+        "recall_max_f1": 0.0,
+        "AP50": 0.0,
+        "mAP50_95": 0.0
+      },
+      {
+        "class": "box_damaged",
+        "precision_max_f1": 0.0,
+        "recall_max_f1": 0.0,
+        "AP50": 0.0,
+        "mAP50_95": 0.0
+      },
+      {
+        "class": "box_opened",
+        "precision_max_f1": 0.0,
+        "recall_max_f1": 0.0,
+        "AP50": 0.0,
+        "mAP50_95": 0.0
+      }
+    ],
+    "note": "No exact target class names in COCO vocabulary; model was executed and predictions mapped by name."
+  },
+  "predict_nothing": {
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        168,
+        27,
+        8,
+        0
+      ]
+    ],
+    "matrix_labels": [
+      "box",
+      "box_damaged",
+      "box_opened",
+      "background"
+    ],
+    "AP50": 0.0,
+    "mAP50_95": 0.0,
+    "per_class": [
+      {
+        "class": "box",
+        "precision_max_f1": 0.0,
+        "recall_max_f1": 0.0,
+        "AP50": 0.0,
+        "mAP50_95": 0.0
+      },
+      {
+        "class": "box_damaged",
+        "precision_max_f1": 0.0,
+        "recall_max_f1": 0.0,
+        "AP50": 0.0,
+        "mAP50_95": 0.0
+      },
+      {
+        "class": "box_opened",
+        "precision_max_f1": 0.0,
+        "recall_max_f1": 0.0,
+        "AP50": 0.0,
+        "mAP50_95": 0.0
+      }
+    ],
+    "note": "No detections. Detection precision is reported as zero by convention."
+  }
+}

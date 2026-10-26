@@ -1,0 +1,42 @@
+{
+  "review_policy": {
+    "low": 0.12,
+    "high": 0.28,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 741.5999999999999,
+      "FP": 158.39999999999998,
+      "FN": 1.8593750000000004,
+      "TP": 98.14062500000001
+    },
+    "cost_eur_per_1000": 613.5680729166667,
+    "review_share": 0.11968750000000002,
+    "review_cases_per_day": 239.37500000000003,
+    "review_hours_per_day": 1.994791666666667,
+    "people_required_fte": 0.33246527777777785,
+    "sensitivity": 0.98140625,
+    "specificity": 0.8239999999999998
+  },
+  "model_only_policy": {
+    "low": 0.04,
+    "high": 0.04,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 607.5,
+      "FP": 292.50000000000006,
+      "FN": 0.0,
+      "TP": 100.0
+    },
+    "cost_eur_per_1000": 785.0000000000001,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 1.0,
+    "specificity": 0.675
+  },
+  "selected_on": "validation only",
+  "capacity_share": 0.12,
+  "capacity_feasible": true,
+  "force_review": "no recognised target box at confidence >= 0.25"
+}

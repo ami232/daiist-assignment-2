@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": [
+    "build without training",
+    "three threshold settings update matrix and costs",
+    "real held-out image inference",
+    "invalid threshold ordering rejected"
+  ],
+  "sample_decision": "**HOLD FOR INSPECTION** \u00b7 Damage score 0.636. ",
+  "human_feedback_not_fabricated": true
+}

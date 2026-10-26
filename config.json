@@ -1,0 +1,44 @@
+{
+  "dataset": {
+    "workspace": "recog-ayum6",
+    "project": "boxes_status",
+    "version": 2,
+    "format": "yolov8",
+    "url": "https://universe.roboflow.com/recog-ayum6/boxes_status/dataset/2"
+  },
+  "model": {
+    "checkpoint": "yolo11n.pt",
+    "epochs": 30,
+    "patience": 8,
+    "imgsz": 416,
+    "batch": 8,
+    "seed": 42,
+    "device": "auto"
+  },
+  "positive_classes": [
+    "box_damaged"
+  ],
+  "scenario": {
+    "base_rate": 0.1,
+    "false_positive": 2.0,
+    "false_negative": 40.0,
+    "true_positive": 2.0,
+    "true_negative": 0.0,
+    "labour_eur_hour": 26.18,
+    "review_seconds": 30,
+    "human_sensitivity": 0.99,
+    "human_specificity": 0.99,
+    "daily_volume": 2000,
+    "productive_hours_per_person": 6,
+    "review_capacity_hours_day": 2
+  },
+  "scenario_status": "Illustrative assumptions authorised for research and sensitivity analysis; not measured warehouse costs.",
+  "feedback": {
+    "enabled": true,
+    "training_on_new_feedback": false,
+    "require_verified_labels": true,
+    "require_promotion_approval": true,
+    "offline_auto_repair": true,
+    "repair_epochs": 10
+  }
+}
