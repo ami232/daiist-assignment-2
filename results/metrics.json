@@ -1,0 +1,656 @@
+{
+  "dataset": {
+    "workspace": "cuizh",
+    "project": "water-rescue-dataset",
+    "version": 1
+  },
+  "training": {
+    "base_model": "yolo11n",
+    "epochs_requested": 100,
+    "imgsz": 512,
+    "batch": 16,
+    "patience": 10,
+    "seed": 0,
+    "device": "cuda",
+    "ultralytics": "8.4.173",
+    "torch": "2.11.0+cu128"
+  },
+  "zero_shot_mapping": {
+    "coco_class": "person",
+    "dataset_class": "swimmer"
+  },
+  "duplicate_default_distance": 10,
+  "split": "test",
+  "models": {
+    "finetuned": {
+      "map50": 0.8776,
+      "map50_95": 0.3779,
+      "conf_threshold": 0.25,
+      "per_class": {
+        "drowning": {
+          "instances": 80,
+          "ap50": 0.8449,
+          "ap50_95": 0.3675,
+          "precision": 0.7692,
+          "recall": 0.75,
+          "tp": 60,
+          "fp": 18,
+          "fn": 20
+        },
+        "float": {
+          "instances": 44,
+          "ap50": 0.9213,
+          "ap50_95": 0.3468,
+          "precision": 0.8511,
+          "recall": 0.9091,
+          "tp": 40,
+          "fp": 7,
+          "fn": 4
+        },
+        "swimmer": {
+          "instances": 144,
+          "ap50": 0.8665,
+          "ap50_95": 0.4193,
+          "precision": 0.7722,
+          "recall": 0.8472,
+          "tp": 122,
+          "fp": 36,
+          "fn": 22
+        }
+      },
+      "confusion_matrix": [
+        [
+          60,
+          0,
+          3,
+          17
+        ],
+        [
+          0,
+          40,
+          0,
+          4
+        ],
+        [
+          1,
+          0,
+          122,
+          21
+        ],
+        [
+          17,
+          7,
+          33,
+          0
+        ]
+      ],
+      "confusion_labels": [
+        "drowning",
+        "float",
+        "swimmer",
+        "background"
+      ]
+    },
+    "coco_zero_shot": {
+      "map50": 0.0039,
+      "map50_95": 0.0014,
+      "conf_threshold": 0.25,
+      "per_class": {
+        "drowning": {
+          "instances": 80,
+          "ap50": 0.0,
+          "ap50_95": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 80
+        },
+        "float": {
+          "instances": 44,
+          "ap50": 0.0,
+          "ap50_95": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 44
+        },
+        "swimmer": {
+          "instances": 144,
+          "ap50": 0.0116,
+          "ap50_95": 0.0041,
+          "precision": 0.0588,
+          "recall": 0.0208,
+          "tp": 3,
+          "fp": 48,
+          "fn": 141
+        }
+      },
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          9,
+          71
+        ],
+        [
+          0,
+          0,
+          0,
+          44
+        ],
+        [
+          0,
+          0,
+          3,
+          141
+        ],
+        [
+          0,
+          0,
+          39,
+          0
+        ]
+      ],
+      "confusion_labels": [
+        "drowning",
+        "float",
+        "swimmer",
+        "background"
+      ]
+    },
+    "predict_nothing": {
+      "map50": 0.0,
+      "map50_95": 0.0,
+      "conf_threshold": 0.25,
+      "per_class": {
+        "drowning": {
+          "instances": 80,
+          "ap50": 0.0,
+          "ap50_95": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 80
+        },
+        "float": {
+          "instances": 44,
+          "ap50": 0.0,
+          "ap50_95": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 44
+        },
+        "swimmer": {
+          "instances": 144,
+          "ap50": 0.0,
+          "ap50_95": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 144
+        }
+      },
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          80
+        ],
+        [
+          0,
+          0,
+          0,
+          44
+        ],
+        [
+          0,
+          0,
+          0,
+          144
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "confusion_labels": [
+        "drowning",
+        "float",
+        "swimmer",
+        "background"
+      ]
+    }
+  },
+  "models_deduplicated": {
+    "finetuned": {
+      "map50": 0.8323,
+      "map50_95": 0.3452,
+      "conf_threshold": 0.25,
+      "per_class": {
+        "drowning": {
+          "instances": 42,
+          "ap50": 0.8098,
+          "ap50_95": 0.3432,
+          "precision": 0.725,
+          "recall": 0.6905,
+          "tp": 29,
+          "fp": 11,
+          "fn": 13
+        },
+        "float": {
+          "instances": 20,
+          "ap50": 0.9269,
+          "ap50_95": 0.3763,
+          "precision": 0.8261,
+          "recall": 0.95,
+          "tp": 19,
+          "fp": 4,
+          "fn": 1
+        },
+        "swimmer": {
+          "instances": 68,
+          "ap50": 0.7601,
+          "ap50_95": 0.316,
+          "precision": 0.6757,
+          "recall": 0.7353,
+          "tp": 50,
+          "fp": 24,
+          "fn": 18
+        }
+      },
+      "confusion_matrix": [
+        [
+          29,
+          0,
+          2,
+          11
+        ],
+        [
+          0,
+          19,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          50,
+          17
+        ],
+        [
+          10,
+          4,
+          22,
+          0
+        ]
+      ],
+      "confusion_labels": [
+        "drowning",
+        "float",
+        "swimmer",
+        "background"
+      ]
+    },
+    "coco_zero_shot": {
+      "map50": 0.0037,
+      "map50_95": 0.0011,
+      "conf_threshold": 0.25,
+      "per_class": {
+        "drowning": {
+          "instances": 42,
+          "ap50": 0.0,
+          "ap50_95": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 42
+        },
+        "float": {
+          "instances": 20,
+          "ap50": 0.0,
+          "ap50_95": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 20
+        },
+        "swimmer": {
+          "instances": 68,
+          "ap50": 0.0112,
+          "ap50_95": 0.0034,
+          "precision": 0.0385,
+          "recall": 0.0147,
+          "tp": 1,
+          "fp": 25,
+          "fn": 67
+        }
+      },
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          4,
+          38
+        ],
+        [
+          0,
+          0,
+          0,
+          20
+        ],
+        [
+          0,
+          0,
+          1,
+          67
+        ],
+        [
+          0,
+          0,
+          21,
+          0
+        ]
+      ],
+      "confusion_labels": [
+        "drowning",
+        "float",
+        "swimmer",
+        "background"
+      ]
+    },
+    "predict_nothing": {
+      "map50": 0.0,
+      "map50_95": 0.0,
+      "conf_threshold": 0.25,
+      "per_class": {
+        "drowning": {
+          "instances": 42,
+          "ap50": 0.0,
+          "ap50_95": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 42
+        },
+        "float": {
+          "instances": 20,
+          "ap50": 0.0,
+          "ap50_95": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 20
+        },
+        "swimmer": {
+          "instances": 68,
+          "ap50": 0.0,
+          "ap50_95": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 68
+        }
+      },
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          42
+        ],
+        [
+          0,
+          0,
+          0,
+          20
+        ],
+        [
+          0,
+          0,
+          0,
+          68
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "confusion_labels": [
+        "drowning",
+        "float",
+        "swimmer",
+        "background"
+      ]
+    }
+  },
+  "finetuned_by_duplicate_threshold": {
+    "2": {
+      "map50": 0.8744,
+      "map50_95": 0.3614,
+      "conf_threshold": 0.25,
+      "per_class": {
+        "drowning": {
+          "instances": 61,
+          "ap50": 0.8601,
+          "ap50_95": 0.3673,
+          "precision": 0.7627,
+          "recall": 0.7377,
+          "tp": 45,
+          "fp": 14,
+          "fn": 16
+        },
+        "float": {
+          "instances": 39,
+          "ap50": 0.9197,
+          "ap50_95": 0.3366,
+          "precision": 0.8571,
+          "recall": 0.9231,
+          "tp": 36,
+          "fp": 6,
+          "fn": 3
+        },
+        "swimmer": {
+          "instances": 126,
+          "ap50": 0.8435,
+          "ap50_95": 0.3802,
+          "precision": 0.7554,
+          "recall": 0.8333,
+          "tp": 105,
+          "fp": 34,
+          "fn": 21
+        }
+      },
+      "confusion_matrix": [
+        [
+          45,
+          0,
+          3,
+          13
+        ],
+        [
+          0,
+          36,
+          0,
+          3
+        ],
+        [
+          1,
+          0,
+          105,
+          20
+        ],
+        [
+          13,
+          6,
+          31,
+          0
+        ]
+      ],
+      "confusion_labels": [
+        "drowning",
+        "float",
+        "swimmer",
+        "background"
+      ],
+      "test_images": 146
+    },
+    "5": {
+      "map50": 0.8675,
+      "map50_95": 0.3521,
+      "conf_threshold": 0.25,
+      "per_class": {
+        "drowning": {
+          "instances": 58,
+          "ap50": 0.8509,
+          "ap50_95": 0.3582,
+          "precision": 0.75,
+          "recall": 0.7241,
+          "tp": 42,
+          "fp": 14,
+          "fn": 16
+        },
+        "float": {
+          "instances": 39,
+          "ap50": 0.9197,
+          "ap50_95": 0.3367,
+          "precision": 0.8571,
+          "recall": 0.9231,
+          "tp": 36,
+          "fp": 6,
+          "fn": 3
+        },
+        "swimmer": {
+          "instances": 119,
+          "ap50": 0.832,
+          "ap50_95": 0.3613,
+          "precision": 0.7481,
+          "recall": 0.8235,
+          "tp": 98,
+          "fp": 33,
+          "fn": 21
+        }
+      },
+      "confusion_matrix": [
+        [
+          42,
+          0,
+          3,
+          13
+        ],
+        [
+          0,
+          36,
+          0,
+          3
+        ],
+        [
+          1,
+          0,
+          98,
+          20
+        ],
+        [
+          13,
+          6,
+          30,
+          0
+        ]
+      ],
+      "confusion_labels": [
+        "drowning",
+        "float",
+        "swimmer",
+        "background"
+      ],
+      "test_images": 137
+    },
+    "10": {
+      "map50": 0.8323,
+      "map50_95": 0.3452,
+      "conf_threshold": 0.25,
+      "per_class": {
+        "drowning": {
+          "instances": 42,
+          "ap50": 0.8098,
+          "ap50_95": 0.3432,
+          "precision": 0.725,
+          "recall": 0.6905,
+          "tp": 29,
+          "fp": 11,
+          "fn": 13
+        },
+        "float": {
+          "instances": 20,
+          "ap50": 0.9269,
+          "ap50_95": 0.3763,
+          "precision": 0.8261,
+          "recall": 0.95,
+          "tp": 19,
+          "fp": 4,
+          "fn": 1
+        },
+        "swimmer": {
+          "instances": 68,
+          "ap50": 0.7601,
+          "ap50_95": 0.316,
+          "precision": 0.6757,
+          "recall": 0.7353,
+          "tp": 50,
+          "fp": 24,
+          "fn": 18
+        }
+      },
+      "confusion_matrix": [
+        [
+          29,
+          0,
+          2,
+          11
+        ],
+        [
+          0,
+          19,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          50,
+          17
+        ],
+        [
+          10,
+          4,
+          22,
+          0
+        ]
+      ],
+      "confusion_labels": [
+        "drowning",
+        "float",
+        "swimmer",
+        "background"
+      ],
+      "test_images": 86
+    }
+  },
+  "test_images_full": 181,
+  "test_images_deduplicated": 86
+}

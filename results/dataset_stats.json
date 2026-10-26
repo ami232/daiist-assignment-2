@@ -1,0 +1,126 @@
+{
+  "class_names": [
+    "drowning",
+    "float",
+    "swimmer"
+  ],
+  "split_images": {
+    "train": 3846,
+    "valid": 369,
+    "test": 181
+  },
+  "split_empty_images": {
+    "train": 0,
+    "valid": 0,
+    "test": 0
+  },
+  "instances_per_class": {
+    "drowning": {
+      "train": 1623,
+      "valid": 157,
+      "test": 80,
+      "total": 1860
+    },
+    "float": {
+      "train": 1069,
+      "valid": 143,
+      "test": 44,
+      "total": 1256
+    },
+    "swimmer": {
+      "train": 2951,
+      "valid": 284,
+      "test": 144,
+      "total": 3379
+    }
+  },
+  "images_per_class": {
+    "drowning": {
+      "train": 1620,
+      "valid": 157,
+      "test": 80
+    },
+    "float": {
+      "train": 189,
+      "valid": 21,
+      "test": 7
+    },
+    "swimmer": {
+      "train": 2037,
+      "valid": 191,
+      "test": 94
+    }
+  },
+  "object_size_relative_to_image": {
+    "drowning": {
+      "median_width": 0.6179,
+      "median_height": 0.6225,
+      "median_area": 0.3801,
+      "p10_area": 0.12,
+      "p90_area": 0.6978,
+      "small_share": 0.0011
+    },
+    "float": {
+      "median_width": 0.0734,
+      "median_height": 0.084,
+      "median_area": 0.0058,
+      "p10_area": 0.002,
+      "p90_area": 0.0191,
+      "small_share": 0.7038
+    },
+    "swimmer": {
+      "median_width": 0.2979,
+      "median_height": 0.2422,
+      "median_area": 0.0656,
+      "p10_area": 0.0159,
+      "p90_area": 0.286,
+      "small_share": 0.0444
+    }
+  },
+  "instances_by_source_all_splits": {
+    "drowning": {
+      "drone": 0,
+      "phone": 8,
+      "web_or_video": 1852,
+      "webcam": 0
+    },
+    "float": {
+      "drone": 1156,
+      "phone": 0,
+      "web_or_video": 100,
+      "webcam": 0
+    },
+    "swimmer": {
+      "drone": 6,
+      "phone": 710,
+      "web_or_video": 36,
+      "webcam": 2627
+    }
+  },
+  "instances_by_source_test": {
+    "drowning": {
+      "drone": 0,
+      "phone": 1,
+      "web_or_video": 79,
+      "webcam": 0
+    },
+    "float": {
+      "drone": 43,
+      "phone": 0,
+      "web_or_video": 1,
+      "webcam": 0
+    },
+    "swimmer": {
+      "drone": 0,
+      "phone": 26,
+      "web_or_video": 3,
+      "webcam": 115
+    }
+  },
+  "base_name_overlap_between_splits": {
+    "train_valid": 73,
+    "train_test": 49,
+    "valid_test": 8
+  },
+  "small_object_area_threshold": 0.01
+}
