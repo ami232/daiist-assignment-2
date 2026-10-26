@@ -1,0 +1,175 @@
+{
+  "test": {
+    "finetuned": {
+      "accuracy": 0.82,
+      "macro_recall": 0.795,
+      "per_class": {
+        "BACTERIA": {
+          "precision": 0.804,
+          "recall": 0.857,
+          "f1": 0.829,
+          "support": 258
+        },
+        "NORMAL": {
+          "precision": 0.979,
+          "recall": 0.979,
+          "f1": 0.979,
+          "support": 143
+        },
+        "VIRUS": {
+          "precision": 0.641,
+          "recall": 0.55,
+          "f1": 0.592,
+          "support": 120
+        }
+      },
+      "binary": {
+        "pneumonia_recall": 0.992,
+        "pneumonia_precision": 0.992,
+        "normal_recall": 0.979
+      },
+      "confusion_matrix": {
+        "classes": [
+          "BACTERIA",
+          "NORMAL",
+          "VIRUS"
+        ],
+        "rows_true_cols_pred": [
+          [
+            221,
+            2,
+            35
+          ],
+          [
+            1,
+            140,
+            2
+          ],
+          [
+            53,
+            1,
+            66
+          ]
+        ]
+      }
+    },
+    "trivial": {
+      "accuracy": 0.495,
+      "macro_recall": 0.333,
+      "per_class": {
+        "BACTERIA": {
+          "precision": 0.495,
+          "recall": 1.0,
+          "f1": 0.662,
+          "support": 258
+        },
+        "NORMAL": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 143
+        },
+        "VIRUS": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 120
+        }
+      },
+      "binary": {
+        "pneumonia_recall": 1.0,
+        "pneumonia_precision": 0.726,
+        "normal_recall": 0.0
+      },
+      "confusion_matrix": {
+        "classes": [
+          "BACTERIA",
+          "NORMAL",
+          "VIRUS"
+        ],
+        "rows_true_cols_pred": [
+          [
+            258,
+            0,
+            0
+          ],
+          [
+            143,
+            0,
+            0
+          ],
+          [
+            120,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "zero_shot": {
+      "accuracy": 0.274,
+      "macro_recall": 0.333,
+      "per_class": {
+        "BACTERIA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 258
+        },
+        "NORMAL": {
+          "precision": 0.274,
+          "recall": 1.0,
+          "f1": 0.431,
+          "support": 143
+        },
+        "VIRUS": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 120
+        }
+      },
+      "binary": {
+        "pneumonia_recall": 0.0,
+        "pneumonia_precision": 0.0,
+        "normal_recall": 1.0
+      },
+      "confusion_matrix": {
+        "classes": [
+          "BACTERIA",
+          "NORMAL",
+          "VIRUS"
+        ],
+        "rows_true_cols_pred": [
+          [
+            0,
+            258,
+            0
+          ],
+          [
+            0,
+            143,
+            0
+          ],
+          [
+            0,
+            120,
+            0
+          ]
+        ]
+      },
+      "top_imagenet_labels": {
+        "radiator": 230,
+        "water_bottle": 113,
+        "isopod": 46,
+        "vault": 31,
+        "shower_curtain": 19
+      }
+    }
+  },
+  "majority_class": "BACTERIA",
+  "positive_classes": [
+    "BACTERIA",
+    "VIRUS"
+  ]
+}

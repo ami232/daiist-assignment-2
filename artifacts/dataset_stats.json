@@ -1,0 +1,73 @@
+{
+  "roboflow": {
+    "workspace": "chestxrayimages",
+    "project": "pneu-detect",
+    "version": 2
+  },
+  "classes": [
+    "BACTERIA",
+    "NORMAL",
+    "VIRUS"
+  ],
+  "counts": {
+    "train": {
+      "BACTERIA": 1746,
+      "NORMAL": 925,
+      "VIRUS": 961,
+      "total": 3632
+    },
+    "val": {
+      "BACTERIA": 516,
+      "NORMAL": 280,
+      "VIRUS": 265,
+      "total": 1061
+    },
+    "test": {
+      "BACTERIA": 258,
+      "NORMAL": 143,
+      "VIRUS": 120,
+      "total": 521
+    },
+    "total": {
+      "BACTERIA": 2520,
+      "NORMAL": 1348,
+      "VIRUS": 1346,
+      "total": 5214
+    }
+  },
+  "shares": {
+    "train": {
+      "BACTERIA": 0.481,
+      "NORMAL": 0.255,
+      "VIRUS": 0.265
+    },
+    "val": {
+      "BACTERIA": 0.486,
+      "NORMAL": 0.264,
+      "VIRUS": 0.25
+    },
+    "test": {
+      "BACTERIA": 0.495,
+      "NORMAL": 0.274,
+      "VIRUS": 0.23
+    }
+  },
+  "image_sizes_sample": {
+    "(640, 640)": 150
+  },
+  "patients_total": 2861,
+  "images_without_patient_id": 0,
+  "patient_overlap_with_train": {
+    "val": {
+      "images": 1061,
+      "images_whose_patient_is_in_train": 610,
+      "share": 0.575
+    },
+    "test": {
+      "images": 521,
+      "images_whose_patient_is_in_train": 293,
+      "share": 0.562
+    }
+  },
+  "cross_split_identical_files": 0
+}

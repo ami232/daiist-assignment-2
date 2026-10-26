@@ -1,0 +1,75 @@
+{
+  "score_definition": "1 - P(NORMAL), i.e. probability of any pneumonia",
+  "single_threshold": 0.64,
+  "t_low": 0.28,
+  "t_high": 0.98,
+  "chosen_on": "validation split",
+  "max_review_share": 0.8,
+  "alternatives_on_test": [
+    {
+      "option": "do nothing (send everyone home)",
+      "cost_per_1000_eur": 231000.0,
+      "missed_per_1000": 165.0,
+      "false_alarms_per_1000": 0.0,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "radiologists_needed": 0.0
+    },
+    {
+      "option": "radiologist reads everything",
+      "cost_per_1000_eur": 48438.8,
+      "missed_per_1000": 8.3,
+      "false_alarms_per_1000": 208.8,
+      "review_share": 1.0,
+      "reviews_per_day": 30.0,
+      "radiologists_needed": 1.25
+    },
+    {
+      "option": "model alone (t = 0.64)",
+      "cost_per_1000_eur": 13874.6,
+      "missed_per_1000": 1.3,
+      "false_alarms_per_1000": 17.5,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "radiologists_needed": 0.0
+    },
+    {
+      "option": "model + review band (0.28 to 0.98)",
+      "cost_per_1000_eur": 13952.1,
+      "missed_per_1000": 1.7,
+      "false_alarms_per_1000": 7.3,
+      "review_share": 0.037,
+      "reviews_per_day": 1.1,
+      "radiologists_needed": 0.05
+    }
+  ],
+  "outcome_table_test": {
+    "classes": [
+      "BACTERIA",
+      "NORMAL",
+      "VIRUS"
+    ],
+    "outcomes": [
+      "pass",
+      "review",
+      "fail"
+    ],
+    "counts": [
+      [
+        2,
+        8,
+        248
+      ],
+      [
+        138,
+        5,
+        0
+      ],
+      [
+        1,
+        10,
+        109
+      ]
+    ]
+  }
+}

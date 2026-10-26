@@ -1,0 +1,12 @@
+assumption,value,cheapest_threshold,test_cost_per_1000_eur
+cost_fn,500.0,0.88,12901
+cost_fn,1000.0,0.64,13351
+cost_fn,1400.0,0.64,13875
+cost_fn,2500.0,0.43,15315
+cost_fn,4000.0,0.28,18214
+cost_fp,40.0,0.43,13174
+cost_fp,80.0,0.64,13875
+cost_fp,160.0,0.64,15276
+base_rate,0.08,0.64,7592
+base_rate,0.165,0.64,13875
+base_rate,0.27,0.43,21636

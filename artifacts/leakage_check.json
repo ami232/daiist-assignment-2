@@ -1,0 +1,41 @@
+{
+  "all test": {
+    "images": 521,
+    "n_BACTERIA": 258,
+    "n_NORMAL": 143,
+    "n_VIRUS": 120,
+    "accuracy": 0.82,
+    "pneumonia_recall": 0.992,
+    "pneumonia_precision": 0.992,
+    "normal_recall": 0.979,
+    "recall_BACTERIA": 0.857,
+    "recall_NORMAL": 0.979,
+    "recall_VIRUS": 0.55
+  },
+  "unseen children": {
+    "images": 228,
+    "n_BACTERIA": 72,
+    "n_NORMAL": 120,
+    "n_VIRUS": 36,
+    "accuracy": 0.864,
+    "pneumonia_recall": 0.991,
+    "pneumonia_precision": 0.973,
+    "normal_recall": 0.975,
+    "recall_BACTERIA": 0.778,
+    "recall_NORMAL": 0.975,
+    "recall_VIRUS": 0.667
+  },
+  "seen children": {
+    "images": 293,
+    "n_BACTERIA": 186,
+    "n_NORMAL": 23,
+    "n_VIRUS": 84,
+    "accuracy": 0.785,
+    "pneumonia_recall": 0.993,
+    "pneumonia_precision": 1.0,
+    "normal_recall": 1.0,
+    "recall_BACTERIA": 0.887,
+    "recall_NORMAL": 1.0,
+    "recall_VIRUS": 0.5
+  }
+}

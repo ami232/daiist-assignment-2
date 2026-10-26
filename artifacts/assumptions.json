@@ -1,0 +1,14 @@
+{
+  "base_rate": 0.165,
+  "cost_fn": 1400,
+  "cost_fp": 80,
+  "cost_tp": 65,
+  "cost_tn": 0,
+  "cost_review": 10,
+  "reviewer_sensitivity": 0.95,
+  "reviewer_specificity": 0.75,
+  "cases_per_day": 30,
+  "minutes_per_review": 5,
+  "reviewer_hours_per_day": 2,
+  "reviewers_available": 1
+}

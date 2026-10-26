@@ -14,3 +14,10 @@ runs/
 
 # Never commit your API key
 .env
+
+# Pretrained checkpoint Ultralytics downloads at train time, and temp scripts main.py leaves if stopped
+yolo11n-cls.pt
+tmp*.py
+
+# Personal notes for writing REPORT.md
+report_notes.md

@@ -1,0 +1,12 @@
+{
+  "base_model": "yolo11n-cls.pt",
+  "epochs_max": 30,
+  "imgsz": 224,
+  "batch": 32,
+  "patience": 10,
+  "seed": 0,
+  "device": "mps",
+  "fliplr": 0.0,
+  "torch": "2.11.0",
+  "weights": "weights/pneumonia_yolo11n_cls.pt"
+}
