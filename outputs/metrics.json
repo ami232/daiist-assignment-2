@@ -1,0 +1,87 @@
+{
+  "positive_class": "head",
+  "classes": [
+    "head",
+    "helmet"
+  ],
+  "dataset": {
+    "workspace": "iote-7emb7",
+    "project": "hard-hat-7785r",
+    "version": 1
+  },
+  "instances": {
+    "test": {
+      "head": 708,
+      "helmet": 1986
+    },
+    "train": {
+      "head": 4131,
+      "helmet": 11717
+    },
+    "valid": {
+      "head": 1838,
+      "helmet": 6044
+    }
+  },
+  "median_box_area_fraction": {
+    "head": 0.006015625,
+    "helmet": 0.0082916259765625
+  },
+  "test_images": 703,
+  "test_positive_images": 146,
+  "finetuned": {
+    "map50": 0.9735351727504211,
+    "map50_95": 0.6614041909188957,
+    "per_class": {
+      "head": {
+        "precision": 0.9353527055464809,
+        "recall": 0.9166666666666666,
+        "ap50": 0.966731685674543,
+        "ap50_95": 0.6496469482113464
+      },
+      "helmet": {
+        "precision": 0.9577179774983489,
+        "recall": 0.9352258936730216,
+        "ap50": 0.9803386598262992,
+        "ap50_95": 0.6731614336264451
+      }
+    }
+  },
+  "baselines": {
+    "coco_zero_shot": {
+      "has_matching_class": false,
+      "map50": 0.0,
+      "map50_95": 0.0,
+      "note": "COCO has no head/helmet class, so detection mAP is 0 by construction. person_proxy uses its 'person' confidence as the alert score.",
+      "person_proxy": {
+        "threshold": 0.46,
+        "tpr": 0.9931506849315068,
+        "fpr": 0.8456014362657092
+      },
+      "cost_per_1000": 2235.186972774895
+    },
+    "predict_nothing": {
+      "cost_per_1000": 15000.0
+    },
+    "flag_everything": {
+      "cost_per_1000": 2500.0
+    },
+    "human_checks_everything_per_1000": 250.0
+  },
+  "chosen_threshold": 0.01,
+  "min_cost_per_1000": 754.7081355598727,
+  "costs": {
+    "C_FP": 2.5,
+    "C_FN": 300,
+    "C_TP": 2.5,
+    "C_TN": 0,
+    "C_REVIEW": 0.25,
+    "BASE_RATE": 0.05
+  },
+  "training": {
+    "model": "yolo11n",
+    "epochs": 50,
+    "imgsz": 640,
+    "fraction": 1.0
+  }
+}
