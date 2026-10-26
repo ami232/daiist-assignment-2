@@ -1,0 +1,4 @@
+,pred Healthy,pred aculus_olearius,pred olive_peacock_spot
+true Healthy,85,1,0
+true aculus_olearius,2,85,1
+true olive_peacock_spot,2,2,145

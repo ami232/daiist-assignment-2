@@ -1,0 +1,10 @@
+{
+  "base_model": "yolo11n-cls.pt",
+  "epochs": 30,
+  "imgsz": 224,
+  "batch": 64,
+  "patience": 10,
+  "seed": 42,
+  "device": "0",
+  "gpu": "Tesla T4"
+}

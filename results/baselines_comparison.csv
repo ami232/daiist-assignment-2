@@ -1,0 +1,4 @@
+,accuracy,peacock_spot_recall,peacock_spot_precision
+finetuned yolo11n-cls,0.975,0.973,0.993
+pretrained zero-shot (val mapping),0.409,0.45,0.493
+majority class,0.461,1.0,0.461

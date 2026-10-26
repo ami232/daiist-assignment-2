@@ -1,0 +1,10 @@
+{
+  "t_low": 0.005,
+  "t_high": 0.86,
+  "review_cost": 1.5,
+  "review_minutes": 3,
+  "cases_per_day": 100,
+  "max_review_share": 0.2,
+  "cost_per_1000": 27701.168710946535,
+  "review_share": 0.1341124739643601
+}

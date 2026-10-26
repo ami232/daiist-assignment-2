@@ -1,0 +1,5 @@
+policy,cost_per_1000,review_share,photos_per_day,agronomist_min_per_day
+do nothing,100000,0.0%,0.0,0
+agronomist checks every photo,29000,100.0%,100.0,300
+model alone (threshold 0.39),28947,0.0%,0.0,0
+model + review (0.005 to 0.860),27701,13.4%,13.4,40

@@ -1,0 +1,22 @@
+{
+  "costs": {
+    "TP": 110.0,
+    "FP": 110.0,
+    "FN": 400.0,
+    "TN": 0.0
+  },
+  "base_rate": 0.25,
+  "threshold": 0.39,
+  "cost_per_1000": 28947.29229345059,
+  "tied_range": [
+    0.35,
+    0.43
+  ],
+  "reference_cost_per_1000": {
+    "do nothing (never treat)": 100000.0,
+    "treat every parcel": 110000.0,
+    "model, most probable class": 29920.446655866697,
+    "model, threshold 0.39": 28947.29229345059,
+    "perfect classifier": 27500.0
+  }
+}

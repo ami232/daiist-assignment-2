@@ -1,0 +1,10 @@
+split,class,files,originals
+train,Healthy,2268,756
+train,aculus_olearius,2238,746
+train,olive_peacock_spot,3726,1242
+val,Healthy,49,49
+val,aculus_olearius,42,42
+val,olive_peacock_spot,67,67
+test,Healthy,86,86
+test,aculus_olearius,88,88
+test,olive_peacock_spot,149,149

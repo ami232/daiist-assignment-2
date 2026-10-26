@@ -1,0 +1,4 @@
+,precision,recall,f1,support
+Healthy,0.955,0.988,0.971,86
+aculus_olearius,0.966,0.966,0.966,88
+olive_peacock_spot,0.993,0.973,0.983,149
