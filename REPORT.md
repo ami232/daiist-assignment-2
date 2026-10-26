@@ -12,43 +12,18 @@ can actually explain.*
 ## Business problem, and the cost of being wrong
 
 **Decision.** An agricultural cooperative in Andalucia employs a field technician
-who visits members' olive groves in autumn and spring, when olive peacock spot ( also known as repilo) spreads with humidity. At each parcel the technician
-picks a sample of leaves, photographs one with a white card behind it with the phone, and must
-decide: **apply a copper treatment to the parcel, or not**. The model classifies
-the leaf as healthy, Aculus olearius or peacock spot; the decision depends on the
-probability of peacock spot. Unclear cases are sent to the cooperative's
-agronomist.
+who visits members' olive groves in autumn and spring, when olive peacock spot ( also known as repilo) spreads with humidity. At each parcel the technician picks a sample of leaves, photographs one with a white card behind it with the phone, and must decide: **apply a copper treatment to the parcel, or not**. The model classifies the leaf as healthy, Aculus olearius or peacock spot; the decision depends on the probability of peacock spot. Unclear cases are sent to the cooperative's agronomist.
 
-**Positive class: peacock spot.** Aculus olearius is detected but does not trigger
-treatment: in oil olives its damage is generally not significant and rarely needs a
-specific treatment (it matters mainly for table olives and nursery plants). The
-technician only logs it for monitoring.
+**Positive class: peacock spot.** Aculus olearius is detected but does not trigger treatment: in oil olives its damage is generally not significant and rarely needs a specific treatment. The technician only logs it for monitoring.
 
-**What a false negative costs (~€400/ha).** Missing peacock spot lets it defoliate
-the trees, which reduces this harvest and weakens the next one. Historical average
-losses in Spain are around 6% of production, and the "repilos" together cause more
-than 10%, with catastrophic years locally. A traditional irrigated grove produces
-about 6,000 kg of olives per ha at a 21% oil yield (≈1,260 kg oil/ha), worth ≈€4,000/ha
-at the current origin price of ≈€3.20/kg (Poolred, October 2026). A 10% loss is
-≈€400/ha.
+**What a false negative costs (~€400/ha).** Missing peacock spot lets it defoliate the trees, which reduces this harvest and weakens the next one. Historical average losses in Spain are around 6% of production, and the "repilos" together cause more
+than 10%, with catastrophic years locally. A traditional irrigated grove produces about 6,000 kg of olives per ha at a 21% oil yield (≈1,260 kg oil/ha), worth  aprox. €4,000/ha at the current origin price of aprox. €3.20/kg (Poolred, October 2026). A 10% loss is  aprox. €400/ha.
 
-**What a false positive costs (~€110/ha).** An unnecessary copper spray: product,
-diesel and labour. Phytosanitary treatments cost ≈€155–200/ha per year across 2–3
-applications in AEMO's cost study, and agricultural inputs have risen by more than
-70% since. It also uses up the EU copper allowance (max. 28 kg Cu/ha over 7 years),
-which a grower may need in a wet year.
+**What a false positive costs (~€110/ha).** An unnecessary copper spray: product, diesel and labour. Phytosanitary treatments cost  aprox. €155–200/ha per year across 2–3 applications in AEMO's cost study, and agricultural inputs have risen by more than 70% since. It also uses up the EU copper allowance (max. 28 kg Cu/ha over 7 years), which a grower may need in a wet year.
 
-**Asymmetry.** Treating costs €110 whether or not the parcel is infected; not
-treating costs €400 only if it is. So treating pays off when
-P(peacock spot) × 400 > 110, i.e. P > 0.275, well below 0.5. This break-even moves
-with the olive oil price: at double the price (a missed case costs ~€800) it drops
-to 0.14; at half the price (~€200) it rises to 0.55.
+**Asymmetry.** Treating costs €110 whether or not the parcel is infected; not treating costs €400 only if it is. So treating pays off when P(peacock spot) × 400 > 110, i.e. P > 0.275,  below 0.5. This break-even moves with the olive oil price: at double the price (a missed case costs aprox. €800) it drops to 0.14; at half the price (~€200) it rises to 0.55.
 
-**How often the positive case occurs.** I assume about 25% of the parcels the
-technician visits actually need a copper treatment. Visits are not random: the
-technician is mostly called to parcels where the grower already suspects a
-problem. This base rate drives the cost analysis below, where I also test how the
-answer changes between 5% and 60%.
+**How often the positive case occurs.** I assume about 25% of the parcels the technician visits actually need a copper treatment. Visits are not random: the technician is mostly called to parcels where the grower already suspects a problem. This base rate drives the cost analysis below, where I also test how the answer changes between 5% and 60%.
 
 ## Dataset
 
@@ -59,7 +34,7 @@ https://universe.roboflow.com/project-9k7w7/olive1-ngwty
 **What one image is.** A single olive leaf photographed on a plain light
 background, labelled with one of three classes: `Healthy`, `aculus_olearius` or
 `olive_peacock_spot`. The task is image classification, so I use `yolo11n-cls`.
-A leaf dataset with the same three classes and a similar size (~3,400 leaves) has
+A leaf dataset with the same three classes and a similar size (3,400 leaves) has
 been used in published research on olive disease classification, which gives me
 some confidence in the labels.
 
@@ -82,12 +57,7 @@ varieties not in the dataset) is discussed under limitations.
 | olive_peacock_spot | 1,242 | 3,726 | 67 | 149 |
 | **Total** | **2,744** | **8,232** | **158** | **323** |
 
-**The headline split is misleading.** Roboflow reports 94/2/4, but the train split
-contains 3 augmented copies of every photo. Counting distinct originals, the real split is 85/5/10 over 3,225 photos. I checked
-that no original appears in more than one split: train/val, train/test and val/test
-overlaps are all 0, so there is no leakage. All images are 224×224 (stretched by
-Roboflow); one leaf fills a large part of the frame, but early peacock spot
-lesions are only a few pixels at this resolution.
+**The headline split is misleading.** Roboflow reports 94/2/4, but the train split contains 3 augmented copies of every photo. Counting distinct originals, the real split is 85/5/10 over 3,225 photos. I checked that no original appears in more than one split: train/val, train/test and val/test overlaps are all 0, so there is no leakage. All images are 224×224, one leaf fills a large part of the frame, but early peacock spot lesions are only a few pixels at this resolution.
 
 **Consequences.**
 - *Peacock spot is the majority class* (46% of test). The trivial majority baseline
@@ -114,7 +84,7 @@ checkpoint. Each image is one leaf and the decision is about that leaf, so a
 classifier fits. The nano model takes about 3 ms per image, which is light enough
 to run on a phone. I trained on Google Colab (Tesla T4) at 224×224 with batch 64,
 up to 30 epochs with early stopping (patience 10) and seed 42. The best validation
-epoch was 20, and training took about 19 minutes. Train loss kept falling while
+epoch was 20, and training took about 20 minutes. Train loss kept falling while
 validation loss flattened after epoch 20, a mild sign of overfitting, so I keep
 `best.pt` rather than `last.pt`.
 
@@ -126,7 +96,7 @@ validation loss flattened after epoch 20, a mild sign of overfitting, so I keep
 
 The pretrained ImageNet model labels olive leaves as "cucumber", "lacewing" or
 "quill", in similar proportions for all three classes. It recognises something
-green and elongated but has no notion of lesions. Since its labels never match
+green and elongated but has no knowledge of lesions. Since its labels never match
 ours, I map each ImageNet label to the olive class it most often corresponds to on
 the validation split. Even with that help it scores 40.9%, below the trivial
 baseline, so without finetuning the model is of no use for this decision.
@@ -151,7 +121,7 @@ as noise.
 In the confusion matrix (rows are true classes, columns predicted), Healthy is
 85/1/0, Aculus 2/85/1 and peacock spot 2/2/145. Peacock spot is the positive class
 and carries the headline number, as the largest and most accurate class. With 149
-images its 97.3% recall has roughly ±2.6 points of uncertainty.
+images its 97.3% recall has roughly  more or less 2.6 points of uncertainty.
 
 Only 5 of the 8 errors cost money. Mixing up Healthy and Aculus does not change the
 decision, because neither gets copper. The errors that matter are 4 missed peacock
@@ -159,13 +129,13 @@ spots (false negatives) and 1 Aculus leaf flagged as peacock spot (a false
 positive).
 
 Two of the missed peacock spots were near misses, with P(peacock spot) of 0.43 and
-0.46. One is a thin leaf with a single small, faint lesion near the tip; the other
+0.46. One is a thin leaf with a single small, faint lesion near the tip, the other
 is a deformed leaf with a hole, on a vignetted background. A peacock spot threshold
 below about 0.43 would catch both, which is why I move the threshold away from the
 default of picking the most probable class. The other two were confident misses
 (0.03 and 0.01): an underexposed, almost black leaf where the lesions are barely
 visible, and a leaf with an unusual bluish tint on a wooden table. No reasonable
-threshold recovers these; photographing on the white card in decent light is the
+threshold recovers these, so photographing on the white card in decent light is the
 mitigation. The false positive is an Aculus leaf with a whitish patch that looks
 like a lesion. The model gave it P = 0.85, so a small change in threshold won't
 remove it.
@@ -287,13 +257,13 @@ costs are optimistic. The lower threshold in particular sits next to two test
 leaves. With more data I would set thresholds on a separate calibration split, or
 use cross-validation, and keep the test set only for the final number.
 
-With 149 peacock spot images, recall has an uncertainty of about ±2.6 points, and
+With 149 peacock spot images, recall has an uncertainty of about more or less 2.6 points, and
 the position of the cost minimum rests on two images. Bootstrap confidence
 intervals on the cost curve would show how much the chosen threshold could move.
 
 The model's probabilities reflect the 45% peacock spot share it was trained on,
-not the 25% I assume in the field. I worked around this by sweeping thresholds;
-recalibrating the probabilities on validation data with a prior-shift correction
+not the 25% I assume in the field. I worked around this by sweeping thresholds, 
+recalibrating the probabilities on validation data with a prior shift correction
 would make the 0.275 break-even usable directly.
 
 The cost model is simple. It uses one loss figure (10% of the harvest), treats a
@@ -316,12 +286,11 @@ I used Claude  throughout the assignment as a tutor and assistant. It
 proposed candidate topics, from which I chose olive peacock spot; searched for and
 summarised the cost sources (AEMO cost studies, Ministry of Agriculture articles,
 Poolred prices); wrote most of the code in `train.ipynb` and `app.ipynb`, which I
-ran, checked and debugged step by step.
+ran, checked and debugged step by step. The report was written by me step by step (in spanish and later translated ) for each section of it.
 
 The decisions are mine and I can explain each of them: the cooperative scenario,
 peacock spot as the only positive class after reading about Aculus, the 25% base
 rate, keeping best.pt, halving the lower review threshold for a safety margin, and
 the capacity warning in the dashboard. I also caught several problems while
-running the pipeline (the unsaved notebook that skipped training, the stray
-yolo26n.pt in weights/, the validation folder name) and checked every number in
+running the pipeline and checked every number in
 this report against the notebook output.
