@@ -1,0 +1,93 @@
+{
+  "class_split_counts": [
+    {
+      "split": "train",
+      "class": "box",
+      "images": 389,
+      "instances": 1170,
+      "median_box_area_fraction": 0.20246276486878356,
+      "images_with_multiple_boxes": 158
+    },
+    {
+      "split": "train",
+      "class": "box_damaged",
+      "images": 389,
+      "instances": 248,
+      "median_box_area_fraction": 0.16676712036132812,
+      "images_with_multiple_boxes": 158
+    },
+    {
+      "split": "train",
+      "class": "box_opened",
+      "images": 389,
+      "instances": 58,
+      "median_box_area_fraction": 0.22590802400437918,
+      "images_with_multiple_boxes": 158
+    },
+    {
+      "split": "val",
+      "class": "box",
+      "images": 104,
+      "instances": 249,
+      "median_box_area_fraction": 0.23264559093757323,
+      "images_with_multiple_boxes": 39
+    },
+    {
+      "split": "val",
+      "class": "box_damaged",
+      "images": 104,
+      "instances": 85,
+      "median_box_area_fraction": 0.1605548858642578,
+      "images_with_multiple_boxes": 39
+    },
+    {
+      "split": "val",
+      "class": "box_opened",
+      "images": 104,
+      "instances": 15,
+      "median_box_area_fraction": 0.091033935546875,
+      "images_with_multiple_boxes": 39
+    },
+    {
+      "split": "test",
+      "class": "box",
+      "images": 52,
+      "instances": 168,
+      "median_box_area_fraction": 0.19279120771314834,
+      "images_with_multiple_boxes": 19
+    },
+    {
+      "split": "test",
+      "class": "box_damaged",
+      "images": 52,
+      "instances": 27,
+      "median_box_area_fraction": 0.13520336151123047,
+      "images_with_multiple_boxes": 19
+    },
+    {
+      "split": "test",
+      "class": "box_opened",
+      "images": 52,
+      "instances": 8,
+      "median_box_area_fraction": 0.45770729997614257,
+      "images_with_multiple_boxes": 19
+    }
+  ],
+  "exact_cross_split_duplicates": [
+    [
+      "train",
+      "val",
+      "istockphoto-1215484506-612x612_jpg.rf.8ad8d2653228b0fe59d9218894bd52af.jpg"
+    ]
+  ],
+  "split_images": {
+    "train": 389,
+    "val": 104,
+    "test": 52
+  },
+  "names": [
+    "box",
+    "box_damaged",
+    "box_opened"
+  ]
+}

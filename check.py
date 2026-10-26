@@ -165,7 +165,8 @@ def main() -> None:
         fail(f"Could not import ultralytics: {error}")
     for weight in found:
         try:
-            model = YOLO(str(weight))
+            from train import safe_weights
+            model = YOLO(safe_weights(weight))
             names = getattr(model, "names", None) or {}
         except Exception as error:  # noqa: BLE001 - any load failure is the finding
             fail(

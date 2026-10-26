@@ -1,0 +1,938 @@
+[
+  {
+    "low": 0.0,
+    "high": 0.0,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 0.0,
+      "FP": 900.0,
+      "FN": 0.0,
+      "TP": 100.0
+    },
+    "cost_eur_per_1000": 2000.0,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 1.0,
+    "specificity": 0.0
+  },
+  {
+    "low": 0.02,
+    "high": 0.02,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 562.5,
+      "FP": 337.5,
+      "FN": 0.0,
+      "TP": 100.0
+    },
+    "cost_eur_per_1000": 875.0,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 1.0,
+    "specificity": 0.625
+  },
+  {
+    "low": 0.04,
+    "high": 0.04,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 607.5,
+      "FP": 292.50000000000006,
+      "FN": 0.0,
+      "TP": 100.0
+    },
+    "cost_eur_per_1000": 785.0000000000001,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 1.0,
+    "specificity": 0.675
+  },
+  {
+    "low": 0.06,
+    "high": 0.06,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 607.5,
+      "FP": 292.50000000000006,
+      "FN": 1.5625,
+      "TP": 98.43750000000001
+    },
+    "cost_eur_per_1000": 844.3750000000001,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.9843750000000001,
+    "specificity": 0.675
+  },
+  {
+    "low": 0.08,
+    "high": 0.08,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 630.0,
+      "FP": 270.0,
+      "FN": 3.125,
+      "TP": 96.875
+    },
+    "cost_eur_per_1000": 858.75,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.96875,
+    "specificity": 0.7
+  },
+  {
+    "low": 0.1,
+    "high": 0.1,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 630.0,
+      "FP": 270.0,
+      "FN": 3.125,
+      "TP": 96.875
+    },
+    "cost_eur_per_1000": 858.75,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.96875,
+    "specificity": 0.7
+  },
+  {
+    "low": 0.12,
+    "high": 0.12,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 652.5,
+      "FP": 247.50000000000003,
+      "FN": 3.125,
+      "TP": 96.875
+    },
+    "cost_eur_per_1000": 813.75,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.96875,
+    "specificity": 0.725
+  },
+  {
+    "low": 0.14,
+    "high": 0.14,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 652.5,
+      "FP": 247.50000000000003,
+      "FN": 6.25,
+      "TP": 93.75
+    },
+    "cost_eur_per_1000": 932.5000000000001,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.9375,
+    "specificity": 0.725
+  },
+  {
+    "low": 0.16,
+    "high": 0.16,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 675.0,
+      "FP": 225.0,
+      "FN": 7.8125,
+      "TP": 92.1875
+    },
+    "cost_eur_per_1000": 946.875,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.921875,
+    "specificity": 0.75
+  },
+  {
+    "low": 0.18,
+    "high": 0.18,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 675.0,
+      "FP": 225.0,
+      "FN": 10.937500000000002,
+      "TP": 89.0625
+    },
+    "cost_eur_per_1000": 1065.625,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.890625,
+    "specificity": 0.75
+  },
+  {
+    "low": 0.2,
+    "high": 0.2,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 675.0,
+      "FP": 225.0,
+      "FN": 12.5,
+      "TP": 87.50000000000001
+    },
+    "cost_eur_per_1000": 1125.0,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.875,
+    "specificity": 0.75
+  },
+  {
+    "low": 0.22,
+    "high": 0.22,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 697.5,
+      "FP": 202.5,
+      "FN": 18.750000000000004,
+      "TP": 81.25
+    },
+    "cost_eur_per_1000": 1317.5000000000002,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.8125,
+    "specificity": 0.775
+  },
+  {
+    "low": 0.24,
+    "high": 0.24,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 697.5,
+      "FP": 202.5,
+      "FN": 20.3125,
+      "TP": 79.68750000000001
+    },
+    "cost_eur_per_1000": 1376.875,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.796875,
+    "specificity": 0.775
+  },
+  {
+    "low": 0.26,
+    "high": 0.26,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 720.0000000000001,
+      "FP": 180.00000000000003,
+      "FN": 29.687500000000004,
+      "TP": 70.3125
+    },
+    "cost_eur_per_1000": 1688.125,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.703125,
+    "specificity": 0.8
+  },
+  {
+    "low": 0.28,
+    "high": 0.28,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 742.4999999999999,
+      "FP": 157.5,
+      "FN": 31.25,
+      "TP": 68.75
+    },
+    "cost_eur_per_1000": 1702.5,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.6875,
+    "specificity": 0.825
+  },
+  {
+    "low": 0.3,
+    "high": 0.3,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 742.4999999999999,
+      "FP": 157.5,
+      "FN": 32.8125,
+      "TP": 67.1875
+    },
+    "cost_eur_per_1000": 1761.8749999999998,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.6718749999999999,
+    "specificity": 0.825
+  },
+  {
+    "low": 0.32,
+    "high": 0.32,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 765.0,
+      "FP": 135.0,
+      "FN": 39.0625,
+      "TP": 60.93750000000001
+    },
+    "cost_eur_per_1000": 1954.375,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.609375,
+    "specificity": 0.85
+  },
+  {
+    "low": 0.34,
+    "high": 0.34,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 765.0,
+      "FP": 135.0,
+      "FN": 42.1875,
+      "TP": 57.8125
+    },
+    "cost_eur_per_1000": 2073.125,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.578125,
+    "specificity": 0.85
+  },
+  {
+    "low": 0.36,
+    "high": 0.36,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 765.0,
+      "FP": 135.0,
+      "FN": 50.0,
+      "TP": 50.0
+    },
+    "cost_eur_per_1000": 2370.0,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.5,
+    "specificity": 0.85
+  },
+  {
+    "low": 0.38,
+    "high": 0.38,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 765.0,
+      "FP": 135.0,
+      "FN": 53.12500000000001,
+      "TP": 46.875
+    },
+    "cost_eur_per_1000": 2488.75,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.46875,
+    "specificity": 0.85
+  },
+  {
+    "low": 0.4,
+    "high": 0.4,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 787.5,
+      "FP": 112.5,
+      "FN": 56.25,
+      "TP": 43.75000000000001
+    },
+    "cost_eur_per_1000": 2562.5,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.4375,
+    "specificity": 0.875
+  },
+  {
+    "low": 0.42,
+    "high": 0.42,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 787.5,
+      "FP": 112.5,
+      "FN": 59.37500000000001,
+      "TP": 40.625
+    },
+    "cost_eur_per_1000": 2681.25,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.40625,
+    "specificity": 0.875
+  },
+  {
+    "low": 0.44,
+    "high": 0.44,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 787.5,
+      "FP": 112.5,
+      "FN": 62.5,
+      "TP": 37.50000000000001
+    },
+    "cost_eur_per_1000": 2800.0000000000005,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.37500000000000006,
+    "specificity": 0.875
+  },
+  {
+    "low": 0.46,
+    "high": 0.46,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 810.0,
+      "FP": 90.00000000000001,
+      "FN": 68.75,
+      "TP": 31.25
+    },
+    "cost_eur_per_1000": 2992.5,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.3125,
+    "specificity": 0.9
+  },
+  {
+    "low": 0.48,
+    "high": 0.48,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 855.0,
+      "FP": 45.00000000000001,
+      "FN": 73.4375,
+      "TP": 26.562500000000004
+    },
+    "cost_eur_per_1000": 3080.625,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.265625,
+    "specificity": 0.95
+  },
+  {
+    "low": 0.5,
+    "high": 0.5,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 855.0,
+      "FP": 45.00000000000001,
+      "FN": 78.125,
+      "TP": 21.875000000000004
+    },
+    "cost_eur_per_1000": 3258.75,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.21875,
+    "specificity": 0.95
+  },
+  {
+    "low": 0.52,
+    "high": 0.52,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 877.5,
+      "FP": 22.500000000000004,
+      "FN": 81.25,
+      "TP": 18.750000000000004
+    },
+    "cost_eur_per_1000": 3332.5,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.18750000000000003,
+    "specificity": 0.9749999999999999
+  },
+  {
+    "low": 0.54,
+    "high": 0.54,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 877.5,
+      "FP": 22.500000000000004,
+      "FN": 84.375,
+      "TP": 15.625
+    },
+    "cost_eur_per_1000": 3451.25,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.15625,
+    "specificity": 0.9749999999999999
+  },
+  {
+    "low": 0.56,
+    "high": 0.56,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 877.5,
+      "FP": 22.500000000000004,
+      "FN": 84.375,
+      "TP": 15.625
+    },
+    "cost_eur_per_1000": 3451.25,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.15625,
+    "specificity": 0.9749999999999999
+  },
+  {
+    "low": 0.58,
+    "high": 0.58,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 900.0,
+      "FP": 0.0,
+      "FN": 85.9375,
+      "TP": 14.0625
+    },
+    "cost_eur_per_1000": 3465.625,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.140625,
+    "specificity": 1.0
+  },
+  {
+    "low": 0.6,
+    "high": 0.6,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 900.0,
+      "FP": 0.0,
+      "FN": 85.9375,
+      "TP": 14.0625
+    },
+    "cost_eur_per_1000": 3465.625,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.140625,
+    "specificity": 1.0
+  },
+  {
+    "low": 0.62,
+    "high": 0.62,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 900.0,
+      "FP": 0.0,
+      "FN": 85.9375,
+      "TP": 14.0625
+    },
+    "cost_eur_per_1000": 3465.625,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.140625,
+    "specificity": 1.0
+  },
+  {
+    "low": 0.64,
+    "high": 0.64,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 900.0,
+      "FP": 0.0,
+      "FN": 87.50000000000001,
+      "TP": 12.5
+    },
+    "cost_eur_per_1000": 3525.0000000000005,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.125,
+    "specificity": 1.0
+  },
+  {
+    "low": 0.66,
+    "high": 0.66,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 900.0,
+      "FP": 0.0,
+      "FN": 89.0625,
+      "TP": 10.937500000000002
+    },
+    "cost_eur_per_1000": 3584.375,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.109375,
+    "specificity": 1.0
+  },
+  {
+    "low": 0.68,
+    "high": 0.68,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 900.0,
+      "FP": 0.0,
+      "FN": 89.0625,
+      "TP": 10.937500000000002
+    },
+    "cost_eur_per_1000": 3584.375,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.109375,
+    "specificity": 1.0
+  },
+  {
+    "low": 0.7000000000000001,
+    "high": 0.7000000000000001,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 900.0,
+      "FP": 0.0,
+      "FN": 89.0625,
+      "TP": 10.937500000000002
+    },
+    "cost_eur_per_1000": 3584.375,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.109375,
+    "specificity": 1.0
+  },
+  {
+    "low": 0.72,
+    "high": 0.72,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 900.0,
+      "FP": 0.0,
+      "FN": 90.62500000000001,
+      "TP": 9.375000000000002
+    },
+    "cost_eur_per_1000": 3643.7500000000005,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.09375000000000001,
+    "specificity": 1.0
+  },
+  {
+    "low": 0.74,
+    "high": 0.74,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 900.0,
+      "FP": 0.0,
+      "FN": 90.62500000000001,
+      "TP": 9.375000000000002
+    },
+    "cost_eur_per_1000": 3643.7500000000005,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.09375000000000001,
+    "specificity": 1.0
+  },
+  {
+    "low": 0.76,
+    "high": 0.76,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 900.0,
+      "FP": 0.0,
+      "FN": 90.62500000000001,
+      "TP": 9.375000000000002
+    },
+    "cost_eur_per_1000": 3643.7500000000005,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.09375000000000001,
+    "specificity": 1.0
+  },
+  {
+    "low": 0.78,
+    "high": 0.78,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 900.0,
+      "FP": 0.0,
+      "FN": 95.31250000000001,
+      "TP": 4.687500000000001
+    },
+    "cost_eur_per_1000": 3821.8750000000005,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.04687500000000001,
+    "specificity": 1.0
+  },
+  {
+    "low": 0.8,
+    "high": 0.8,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 900.0,
+      "FP": 0.0,
+      "FN": 95.31250000000001,
+      "TP": 4.687500000000001
+    },
+    "cost_eur_per_1000": 3821.8750000000005,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.04687500000000001,
+    "specificity": 1.0
+  },
+  {
+    "low": 0.8200000000000001,
+    "high": 0.8200000000000001,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 900.0,
+      "FP": 0.0,
+      "FN": 95.31250000000001,
+      "TP": 4.687500000000001
+    },
+    "cost_eur_per_1000": 3821.8750000000005,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.04687500000000001,
+    "specificity": 1.0
+  },
+  {
+    "low": 0.84,
+    "high": 0.84,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 900.0,
+      "FP": 0.0,
+      "FN": 98.43750000000001,
+      "TP": 1.5625
+    },
+    "cost_eur_per_1000": 3940.6250000000005,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.015625,
+    "specificity": 1.0
+  },
+  {
+    "low": 0.86,
+    "high": 0.86,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 900.0,
+      "FP": 0.0,
+      "FN": 100.0,
+      "TP": 0.0
+    },
+    "cost_eur_per_1000": 4000.0,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.0,
+    "specificity": 1.0
+  },
+  {
+    "low": 0.88,
+    "high": 0.88,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 900.0,
+      "FP": 0.0,
+      "FN": 100.0,
+      "TP": 0.0
+    },
+    "cost_eur_per_1000": 4000.0,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.0,
+    "specificity": 1.0
+  },
+  {
+    "low": 0.9,
+    "high": 0.9,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 900.0,
+      "FP": 0.0,
+      "FN": 100.0,
+      "TP": 0.0
+    },
+    "cost_eur_per_1000": 4000.0,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.0,
+    "specificity": 1.0
+  },
+  {
+    "low": 0.92,
+    "high": 0.92,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 900.0,
+      "FP": 0.0,
+      "FN": 100.0,
+      "TP": 0.0
+    },
+    "cost_eur_per_1000": 4000.0,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.0,
+    "specificity": 1.0
+  },
+  {
+    "low": 0.9400000000000001,
+    "high": 0.9400000000000001,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 900.0,
+      "FP": 0.0,
+      "FN": 100.0,
+      "TP": 0.0
+    },
+    "cost_eur_per_1000": 4000.0,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.0,
+    "specificity": 1.0
+  },
+  {
+    "low": 0.96,
+    "high": 0.96,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 900.0,
+      "FP": 0.0,
+      "FN": 100.0,
+      "TP": 0.0
+    },
+    "cost_eur_per_1000": 4000.0,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.0,
+    "specificity": 1.0
+  },
+  {
+    "low": 0.98,
+    "high": 0.98,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 900.0,
+      "FP": 0.0,
+      "FN": 100.0,
+      "TP": 0.0
+    },
+    "cost_eur_per_1000": 4000.0,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.0,
+    "specificity": 1.0
+  },
+  {
+    "low": 1.0,
+    "high": 1.0,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 900.0,
+      "FP": 0.0,
+      "FN": 100.0,
+      "TP": 0.0
+    },
+    "cost_eur_per_1000": 4000.0,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.0,
+    "specificity": 1.0
+  },
+  {
+    "low": 1.000001,
+    "high": 1.000001,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 900.0,
+      "FP": 0.0,
+      "FN": 100.0,
+      "TP": 0.0
+    },
+    "cost_eur_per_1000": 4000.0,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.0,
+    "specificity": 1.0
+  }
+]

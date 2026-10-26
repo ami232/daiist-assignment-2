@@ -1,0 +1,418 @@
+[
+  {
+    "image": "13510bfd-99a0-589b-9216-a62cc7ddb2d7_jpg.rf.9b59bf5e55def973f1bf5ce88fc87d0f.jpg",
+    "relative_path": "data/public-parcels/test/images/13510bfd-99a0-589b-9216-a62cc7ddb2d7_jpg.rf.9b59bf5e55def973f1bf5ce88fc87d0f.jpg",
+    "y": 1,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "2367242455_4ae8fdaca4_z_jpg.rf.5971b1610e2b64c8dcc8e83e0ce62d8e.jpg",
+    "relative_path": "data/public-parcels/test/images/2367242455_4ae8fdaca4_z_jpg.rf.5971b1610e2b64c8dcc8e83e0ce62d8e.jpg",
+    "y": 1,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "360_F_329642087_kdPJuOC69m1d5lZbLaEhz2KtatEMvoBW_jpg.rf.b8313820466929133e6d6d5076014565.jpg",
+    "relative_path": "data/public-parcels/test/images/360_F_329642087_kdPJuOC69m1d5lZbLaEhz2KtatEMvoBW_jpg.rf.b8313820466929133e6d6d5076014565.jpg",
+    "y": 1,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "7_jpg.rf.5c89e5fd36889e880e60bdb29f18f7bc.jpg",
+    "relative_path": "data/public-parcels/test/images/7_jpg.rf.5c89e5fd36889e880e60bdb29f18f7bc.jpg",
+    "y": 1,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "B17VKUoCMAA5LPC_jpg.rf.1d902848f2266a6677716428451fb250.jpg",
+    "relative_path": "data/public-parcels/test/images/B17VKUoCMAA5LPC_jpg.rf.1d902848f2266a6677716428451fb250.jpg",
+    "y": 1,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "IMG_4463-1_jpg.rf.7056a2d184996d53c521d1b1a4ce266e.jpg",
+    "relative_path": "data/public-parcels/test/images/IMG_4463-1_jpg.rf.7056a2d184996d53c521d1b1a4ce266e.jpg",
+    "y": 1,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "Screenshjot_15_jpg.rf.e16db1ca7d198d313437f46e3e25df67.jpg",
+    "relative_path": "data/public-parcels/test/images/Screenshjot_15_jpg.rf.e16db1ca7d198d313437f46e3e25df67.jpg",
+    "y": 1,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "Screenshot_11_jpg.rf.8cc603b0e5ab888ab2ab49db299ad0bd.jpg",
+    "relative_path": "data/public-parcels/test/images/Screenshot_11_jpg.rf.8cc603b0e5ab888ab2ab49db299ad0bd.jpg",
+    "y": 1,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "Screenshot_19_jpg.rf.13ca0cd3071893856e3891ac268fec38.jpg",
+    "relative_path": "data/public-parcels/test/images/Screenshot_19_jpg.rf.13ca0cd3071893856e3891ac268fec38.jpg",
+    "y": 1,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "Screenshot_5_jpg.rf.ab70077c6edcd4c9df33ee8634309946.jpg",
+    "relative_path": "data/public-parcels/test/images/Screenshot_5_jpg.rf.ab70077c6edcd4c9df33ee8634309946.jpg",
+    "y": 1,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "box_17_jpg.rf.0602631dcd403b8a503a2e77b2ca51f0.jpg",
+    "relative_path": "data/public-parcels/test/images/box_17_jpg.rf.0602631dcd403b8a503a2e77b2ca51f0.jpg",
+    "y": 0,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "box_20_jpg.rf.2e8a9cb3462f1a1e8680ec62ecd5b471.jpg",
+    "relative_path": "data/public-parcels/test/images/box_20_jpg.rf.2e8a9cb3462f1a1e8680ec62ecd5b471.jpg",
+    "y": 0,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "box_21_jpg.rf.8f16bb901aaf1e8e7c0bfa53fdd1fac1.jpg",
+    "relative_path": "data/public-parcels/test/images/box_21_jpg.rf.8f16bb901aaf1e8e7c0bfa53fdd1fac1.jpg",
+    "y": 0,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "box_34_jpg.rf.177bec9f91786d46bcc8de0cd81aee6e.jpg",
+    "relative_path": "data/public-parcels/test/images/box_34_jpg.rf.177bec9f91786d46bcc8de0cd81aee6e.jpg",
+    "y": 1,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "damaged-cardboard-box-white-86305713_jpg.rf.62635235ad5b3e802d6762a22aaf4524.jpg",
+    "relative_path": "data/public-parcels/test/images/damaged-cardboard-box-white-86305713_jpg.rf.62635235ad5b3e802d6762a22aaf4524.jpg",
+    "y": 1,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "damagedfoodpackagingbox123_jpeg.rf.b9242c918d2905174321be52904f4af0.jpg",
+    "relative_path": "data/public-parcels/test/images/damagedfoodpackagingbox123_jpeg.rf.b9242c918d2905174321be52904f4af0.jpg",
+    "y": 0,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "damagedfoodpackagingbox49_jpeg.rf.136228d74f68aa0a32c6ad5c968d594a.jpg",
+    "relative_path": "data/public-parcels/test/images/damagedfoodpackagingbox49_jpeg.rf.136228d74f68aa0a32c6ad5c968d594a.jpg",
+    "y": 0,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "gettyimages-2183807124-612x612_jpg.rf.49f734133d5514ff892bdea5fe599ce9.jpg",
+    "relative_path": "data/public-parcels/test/images/gettyimages-2183807124-612x612_jpg.rf.49f734133d5514ff892bdea5fe599ce9.jpg",
+    "y": 0,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "gettyimages-641266324-612x612_jpg.rf.9ac6fa2e6a95521c34c071943d026539.jpg",
+    "relative_path": "data/public-parcels/test/images/gettyimages-641266324-612x612_jpg.rf.9ac6fa2e6a95521c34c071943d026539.jpg",
+    "y": 1,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "istockphoto-1392714523-612x612_jpg.rf.2330d13fd31759910d6d816e476c14d6.jpg",
+    "relative_path": "data/public-parcels/test/images/istockphoto-1392714523-612x612_jpg.rf.2330d13fd31759910d6d816e476c14d6.jpg",
+    "y": 1,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "istockphoto-1443630316-612x612_jpg.rf.022a2229b8a496172fc7c96e2973a507.jpg",
+    "relative_path": "data/public-parcels/test/images/istockphoto-1443630316-612x612_jpg.rf.022a2229b8a496172fc7c96e2973a507.jpg",
+    "y": 1,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "istockphoto-1449457235-612x612_jpg.rf.a1d5e7d985210301a793000fd458df3d.jpg",
+    "relative_path": "data/public-parcels/test/images/istockphoto-1449457235-612x612_jpg.rf.a1d5e7d985210301a793000fd458df3d.jpg",
+    "y": 0,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "istockphoto-172697414-612x612_jpg.rf.225e318405648d6ca4fa619353e03d86.jpg",
+    "relative_path": "data/public-parcels/test/images/istockphoto-172697414-612x612_jpg.rf.225e318405648d6ca4fa619353e03d86.jpg",
+    "y": 1,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "istockphoto-2206141196-612x612_jpg.rf.b1df30d8c99a12c18e82883fc7d8eb58.jpg",
+    "relative_path": "data/public-parcels/test/images/istockphoto-2206141196-612x612_jpg.rf.b1df30d8c99a12c18e82883fc7d8eb58.jpg",
+    "y": 0,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "istockphoto-2251862232-612x612_jpg.rf.8b75490d06584f335ff4686870d149e0.jpg",
+    "relative_path": "data/public-parcels/test/images/istockphoto-2251862232-612x612_jpg.rf.8b75490d06584f335ff4686870d149e0.jpg",
+    "y": 0,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "maxresdefault_jpg.rf.56bdace0d8ada5569938065bf588f7fa.jpg",
+    "relative_path": "data/public-parcels/test/images/maxresdefault_jpg.rf.56bdace0d8ada5569938065bf588f7fa.jpg",
+    "y": 1,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "net-1004-_jpg.rf.c67f13b70888e37df307f7f6294751be.jpg",
+    "relative_path": "data/public-parcels/test/images/net-1004-_jpg.rf.c67f13b70888e37df307f7f6294751be.jpg",
+    "y": 0,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "net-11331-_jpg.rf.7e652832bd29ee0416996ca3879a9f60.jpg",
+    "relative_path": "data/public-parcels/test/images/net-11331-_jpg.rf.7e652832bd29ee0416996ca3879a9f60.jpg",
+    "y": 0,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "net-11515-_jpg.rf.15c5ecda77f64350d667d93e2e61c6b0.jpg",
+    "relative_path": "data/public-parcels/test/images/net-11515-_jpg.rf.15c5ecda77f64350d667d93e2e61c6b0.jpg",
+    "y": 0,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "net-12027-_jpg.rf.4f1257c1ba70e0ee73e4a1bb0828a8f6.jpg",
+    "relative_path": "data/public-parcels/test/images/net-12027-_jpg.rf.4f1257c1ba70e0ee73e4a1bb0828a8f6.jpg",
+    "y": 0,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "net-12063-_jpg.rf.49bb5b78b73a3143621bd2dea7eab83c.jpg",
+    "relative_path": "data/public-parcels/test/images/net-12063-_jpg.rf.49bb5b78b73a3143621bd2dea7eab83c.jpg",
+    "y": 0,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "net-12539-_jpg.rf.fbff0a021ed33a24718944f5a000dd8d.jpg",
+    "relative_path": "data/public-parcels/test/images/net-12539-_jpg.rf.fbff0a021ed33a24718944f5a000dd8d.jpg",
+    "y": 0,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "net-12930-_jpg.rf.f9fc372bb6514022a94f0b7ac07e9f34.jpg",
+    "relative_path": "data/public-parcels/test/images/net-12930-_jpg.rf.f9fc372bb6514022a94f0b7ac07e9f34.jpg",
+    "y": 0,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "net-13419-_jpg.rf.8bd564a5a726150fc4c9dbafb3c4d275.jpg",
+    "relative_path": "data/public-parcels/test/images/net-13419-_jpg.rf.8bd564a5a726150fc4c9dbafb3c4d275.jpg",
+    "y": 0,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "packagingboxes143_png.rf.997819a809d637eba7e67af2fb850369.jpg",
+    "relative_path": "data/public-parcels/test/images/packagingboxes143_png.rf.997819a809d637eba7e67af2fb850369.jpg",
+    "y": 0,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "packagingboxes201_jpeg.rf.1a4b03854b7838a347bff18ec2040f87.jpg",
+    "relative_path": "data/public-parcels/test/images/packagingboxes201_jpeg.rf.1a4b03854b7838a347bff18ec2040f87.jpg",
+    "y": 0,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "packagingboxes221_jpeg.rf.4ebb82c24b6b22a1ba5f5c98197a276b.jpg",
+    "relative_path": "data/public-parcels/test/images/packagingboxes221_jpeg.rf.4ebb82c24b6b22a1ba5f5c98197a276b.jpg",
+    "y": 0,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "packagingboxes222_png.rf.003c538791b52878074bf21dff4113e2.jpg",
+    "relative_path": "data/public-parcels/test/images/packagingboxes222_png.rf.003c538791b52878074bf21dff4113e2.jpg",
+    "y": 0,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "packagingboxes223_png.rf.198a14b191215f889b66acdab073b94f.jpg",
+    "relative_path": "data/public-parcels/test/images/packagingboxes223_png.rf.198a14b191215f889b66acdab073b94f.jpg",
+    "y": 0,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "packagingboxes22_jpeg.rf.7904eb0ecf578043e5ca226902a8527c.jpg",
+    "relative_path": "data/public-parcels/test/images/packagingboxes22_jpeg.rf.7904eb0ecf578043e5ca226902a8527c.jpg",
+    "y": 0,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "packagingboxes238_jpeg.rf.54c51010fe73d431d33f8934baf5ce20.jpg",
+    "relative_path": "data/public-parcels/test/images/packagingboxes238_jpeg.rf.54c51010fe73d431d33f8934baf5ce20.jpg",
+    "y": 0,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "packagingboxes29_jpeg.rf.7ee772a3747812e8bc96e7af0549fcc0.jpg",
+    "relative_path": "data/public-parcels/test/images/packagingboxes29_jpeg.rf.7ee772a3747812e8bc96e7af0549fcc0.jpg",
+    "y": 0,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "packagingboxes74_jpeg.rf.d1686da60680e8680d7643201d5d9600.jpg",
+    "relative_path": "data/public-parcels/test/images/packagingboxes74_jpeg.rf.d1686da60680e8680d7643201d5d9600.jpg",
+    "y": 0,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "packagingboxesthataredamaged187_jpeg.rf.4029ad0f34030a7f8f482f7157954218.jpg",
+    "relative_path": "data/public-parcels/test/images/packagingboxesthataredamaged187_jpeg.rf.4029ad0f34030a7f8f482f7157954218.jpg",
+    "y": 0,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "packagingboxesthataredamaged213_jpeg.rf.bce96a29125294586bbb5e553f4cd125.jpg",
+    "relative_path": "data/public-parcels/test/images/packagingboxesthataredamaged213_jpeg.rf.bce96a29125294586bbb5e553f4cd125.jpg",
+    "y": 1,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "packagingboxesthataredamaged223_jpeg.rf.5e2497ddac94b6d163f34d6870e44547.jpg",
+    "relative_path": "data/public-parcels/test/images/packagingboxesthataredamaged223_jpeg.rf.5e2497ddac94b6d163f34d6870e44547.jpg",
+    "y": 1,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "packagingboxesthataredamaged294_jpeg.rf.828ca65c81622cffb8a9eddbf604f6f9.jpg",
+    "relative_path": "data/public-parcels/test/images/packagingboxesthataredamaged294_jpeg.rf.828ca65c81622cffb8a9eddbf604f6f9.jpg",
+    "y": 1,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "packagingboxesthataredamaged50_jpeg.rf.3e941d0a0690d06ad9a463b24d4766b7.jpg",
+    "relative_path": "data/public-parcels/test/images/packagingboxesthataredamaged50_jpeg.rf.3e941d0a0690d06ad9a463b24d4766b7.jpg",
+    "y": 1,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "packagingboxesthataredamaged88_jpeg.rf.c11755ee88f824dff6a851f4482f7bf6.jpg",
+    "relative_path": "data/public-parcels/test/images/packagingboxesthataredamaged88_jpeg.rf.c11755ee88f824dff6a851f4482f7bf6.jpg",
+    "y": 0,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "packagingboxesthataredamaged94_jpeg.rf.eba8705f3960f467eebcaa8d32f0cea4.jpg",
+    "relative_path": "data/public-parcels/test/images/packagingboxesthataredamaged94_jpeg.rf.eba8705f3960f467eebcaa8d32f0cea4.jpg",
+    "y": 1,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "packagingboxesthataredamaged9_jpeg.rf.24ba3b8e6688fc1eb96d946e55e9173c.jpg",
+    "relative_path": "data/public-parcels/test/images/packagingboxesthataredamaged9_jpeg.rf.24ba3b8e6688fc1eb96d946e55e9173c.jpg",
+    "y": 1,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  },
+  {
+    "image": "sale-out-fractal-design-core-2500-black-fractal-design-core-2500-black-atx-damaged-packaging-bent-corpus-power-supply-included-no_jpg.rf.c9ef6d1f888d5c5bf477ccf69e63db3b.jpg",
+    "relative_path": "data/public-parcels/test/images/sale-out-fractal-design-core-2500-black-fractal-design-core-2500-black-atx-damaged-packaging-bent-corpus-power-supply-included-no_jpg.rf.c9ef6d1f888d5c5bf477ccf69e63db3b.jpg",
+    "y": 1,
+    "score": 0.0,
+    "covered": false,
+    "detections": []
+  }
+]

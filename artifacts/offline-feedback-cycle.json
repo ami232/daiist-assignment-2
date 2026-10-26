@@ -1,0 +1,73 @@
+{
+  "evidence_split": "validation",
+  "test_inspected": false,
+  "new_feedback_added_to_training": false,
+  "agents": [
+    "validation observer",
+    "error critic",
+    "bounded repair planner",
+    "candidate trainer",
+    "cost and recall evaluator"
+  ],
+  "missed_damage_images": [
+    "istockphoto-2196076076-612x612_jpg.rf.7bcdd1a52d3827a6a3f2eb9c8ee78cd4.jpg",
+    "istockphoto-671806082-612x612_jpg.rf.0435f8c248e4e016ff6132a82cd6be7c.jpg",
+    "packagingboxesthataredamaged136_jpeg.rf.26971ea2d298ca423969b055e1b06ea6.jpg",
+    "packagingboxesthataredamaged210_jpeg.rf.3d29b01c1cc1f8afad0de9a0a10383ff.jpg",
+    "packagingboxesthataredamaged245_jpeg.rf.b33ad3f0c60784b47ca9025aad33ce52.jpg"
+  ],
+  "false_hold_images": [
+    "damagedfoodpackagingbox115_jpeg.rf.c965d68a4fc8f9dc97324d02b2db19eb.jpg",
+    "damagedfoodpackagingbox248_jpeg.rf.adf5f87198913ac6f85d5367b5236a3e.jpg",
+    "istockphoto-2148126855-612x612_jpg.rf.7131502bc940e646e2e4b37dcc06793a.jpg",
+    "packagingboxes253_jpeg.rf.c6b8a96f44970117e0b81cfce3d15ed1.jpg",
+    "packagingboxesthataredamaged238_png.rf.f388f6d122ab485f18881ab8721deac8.jpg",
+    "packagingboxesthataredamaged268_jpeg.rf.d9abc76685b948c4fea406dc4242d680.jpg",
+    "packagingboxesthataredamaged282_jpeg.rf.b89d994b081a91596cc42bccf5f2a3c9.jpg",
+    "packagingboxesthataredamaged283_jpeg.rf.e3df6391e91275952f21093f326a45d2.jpg"
+  ],
+  "champion_before": {
+    "low": 0.14,
+    "high": 0.14,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 720.0000000000001,
+      "FP": 180.00000000000003,
+      "FN": 7.8125,
+      "TP": 92.1875
+    },
+    "cost_eur_per_1000": 856.875,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 0.921875,
+    "specificity": 0.8
+  },
+  "repair_hypothesis": "Test whether higher resolution and additional fine-tuning improve damage evidence; this is not a proven causal explanation.",
+  "candidate_accepted": true,
+  "deployment_approved": false,
+  "candidate": {
+    "low": 0.04,
+    "high": 0.04,
+    "base_rate": 0.1,
+    "expected_confusion_per_1000": {
+      "TN": 607.5,
+      "FP": 292.50000000000006,
+      "FN": 0.0,
+      "TP": 100.0
+    },
+    "cost_eur_per_1000": 785.0000000000001,
+    "review_share": 0.0,
+    "review_cases_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_required_fte": 0.0,
+    "sensitivity": 1.0,
+    "specificity": 0.675
+  },
+  "candidate_settings": {
+    "imgsz": 512,
+    "additional_epochs": 10
+  },
+  "status": "Selected candidate for the coursework pipeline using validation only. No operational deployment."
+}
