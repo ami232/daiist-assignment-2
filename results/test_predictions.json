@@ -1,0 +1,1632 @@
+[
+  {
+    "image": "-4405-_png_jpg.rf.7c4f0b649df77f1065563d1c41845edb.jpg",
+    "score": 0.13108906149864197,
+    "positive": 0
+  },
+  {
+    "image": "000005_jpg.rf.a504648db5ffa645a2a88202e2b727e2.jpg",
+    "score": 0.0231997761875391,
+    "positive": 0
+  },
+  {
+    "image": "00011_jpg.rf.5cdad1fa09eec9c877ddde05f6647a47.jpg",
+    "score": 0.3443174660205841,
+    "positive": 1
+  },
+  {
+    "image": "00027_jpg.rf.d2af1a19b0af35416b379368614c96f5.jpg",
+    "score": 0.5683274269104004,
+    "positive": 0
+  },
+  {
+    "image": "00037_jpg.rf.fbf6fc0914cd1b25a41ced2394664a20.jpg",
+    "score": 0.3990759253501892,
+    "positive": 0
+  },
+  {
+    "image": "00048_jpg.rf.781dea8c77e02b1cc606c2dca9564174.jpg",
+    "score": 0.3893377184867859,
+    "positive": 0
+  },
+  {
+    "image": "00103_jpg.rf.623ea804f29dabfb6052120576381424.jpg",
+    "score": 0.24415774643421173,
+    "positive": 0
+  },
+  {
+    "image": "00121_jpg.rf.2eb91d34174108705341d679a7250f9b.jpg",
+    "score": 0.06658267229795456,
+    "positive": 1
+  },
+  {
+    "image": "00121_jpg.rf.85742c9c81579a87e6bcd922aed03f0f.jpg",
+    "score": 0.3165886700153351,
+    "positive": 1
+  },
+  {
+    "image": "00122_jpg.rf.f48dbbbabc8f4f7b3401bd471380affb.jpg",
+    "score": 0.19752894341945648,
+    "positive": 0
+  },
+  {
+    "image": "00126_jpg.rf.a3e4fdc8e836d4bcf18bc18748a07dd8.jpg",
+    "score": 0.2998332381248474,
+    "positive": 0
+  },
+  {
+    "image": "00173_jpg.rf.1b42d5f649bcd52ebf611b3e5773deef.jpg",
+    "score": 0.4967747628688812,
+    "positive": 0
+  },
+  {
+    "image": "00176_jpg.rf.629c771a098b95d2ab47e5b24a501894.jpg",
+    "score": 0.39489123225212097,
+    "positive": 0
+  },
+  {
+    "image": "00225_jpg.rf.0bdc3498230dc122bce0654b0fee10f5.jpg",
+    "score": 0.6102030873298645,
+    "positive": 1
+  },
+  {
+    "image": "002551_jpg.rf.a0ece477afe242b2c1237ace5ad03bc9.jpg",
+    "score": 0.05755072087049484,
+    "positive": 0
+  },
+  {
+    "image": "003357_jpg.rf.66a6df3a3bfa990b1da238cb3a1be2f0.jpg",
+    "score": 0.016970379278063774,
+    "positive": 0
+  },
+  {
+    "image": "004063_jpg.rf.03104bbb110bfc1cc4057ef22b3c1426.jpg",
+    "score": 0.2061028778553009,
+    "positive": 1
+  },
+  {
+    "image": "00422_jpg.rf.c00ce8439e862e8f07da34f1fd0db875.jpg",
+    "score": 0.33166807889938354,
+    "positive": 0
+  },
+  {
+    "image": "004763_jpg.rf.03501ffbcc90a761d4a085f06db91b02.jpg",
+    "score": 0.002150053856894374,
+    "positive": 0
+  },
+  {
+    "image": "006463_jpg.rf.de87241a1d5722b85c8dbe9539541815.jpg",
+    "score": 0.1472754180431366,
+    "positive": 0
+  },
+  {
+    "image": "006672_jpg.rf.e3a8095cc167fb68dd659363ba10caca.jpg",
+    "score": 0.003481357591226697,
+    "positive": 0
+  },
+  {
+    "image": "01459_jpg.rf.a05911a3ab5dd413efd4553b0ffe9f64.jpg",
+    "score": 0.5198560357093811,
+    "positive": 0
+  },
+  {
+    "image": "0_jpg.rf.161434e6b59b09e974895a2670d453e4.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "2008_008320_jpg.rf.144b94abe718abb5a0acc88c952bdab2.jpg",
+    "score": 0.26378437876701355,
+    "positive": 1
+  },
+  {
+    "image": "2008_008519_jpg.rf.6f9046dbd85d3628272b48fe7169dc45.jpg",
+    "score": 0.024721845984458923,
+    "positive": 0
+  },
+  {
+    "image": "2009_000059_jpg.rf.af36ffc22a8fbd334f8daab698bed6ea.jpg",
+    "score": 0.4488605856895447,
+    "positive": 1
+  },
+  {
+    "image": "2009_000496_jpg.rf.b8b29c8b31f723c045736b09bb8d4b6a.jpg",
+    "score": 0.047327734529972076,
+    "positive": 0
+  },
+  {
+    "image": "20220621_132901_jpg.rf.215877eefad0c9970035317c91fc6440.jpg",
+    "score": 0.002083340659737587,
+    "positive": 0
+  },
+  {
+    "image": "20220721_124131_jpg.rf.6bdeb626d49891470b1af986bfcc1a46.jpg",
+    "score": 0.021558169275522232,
+    "positive": 0
+  },
+  {
+    "image": "20220721_162157_jpg.rf.2a0acd375e4244de7a7ebec264c2f99a.jpg",
+    "score": 0.004677154123783112,
+    "positive": 0
+  },
+  {
+    "image": "20220721_162229_jpg.rf.0545482cfa7e7a4bb8cf3c67fcec2ebe.jpg",
+    "score": 0.025175413116812706,
+    "positive": 0
+  },
+  {
+    "image": "20220721_162848_jpg.rf.69e4b02cd8e755a93f26788e1f4eb62c.jpg",
+    "score": 0.023595519363880157,
+    "positive": 0
+  },
+  {
+    "image": "20220721_162848_jpg.rf.e0287e633deed5b410fb105090148902.jpg",
+    "score": 0.011675367131829262,
+    "positive": 0
+  },
+  {
+    "image": "41_JPG_jpg.rf.1c3c898fca06d2a8718d77c5dbc21c04.jpg",
+    "score": 0.001014585024677217,
+    "positive": 0
+  },
+  {
+    "image": "41_JPG_jpg.rf.a8f0f25461402113992f25fac71c9165.jpg",
+    "score": 0.0014384511159732938,
+    "positive": 0
+  },
+  {
+    "image": "68_JPG_jpg.rf.935b04a31bc04cef9a8fd75177b0173a.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "777_jpg.rf.49c9507531c9af53ec532aee99a8fca9.jpg",
+    "score": 0.0044519961811602116,
+    "positive": 1
+  },
+  {
+    "image": "95_JPG_jpg.rf.cbf355e9b840cd580fff6aaceedf1476.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "AightOne0029_jpg.rf.7922641015cd23429b9af337fff9bdd3.jpg",
+    "score": 0.1759442239999771,
+    "positive": 1
+  },
+  {
+    "image": "AightOne0967_jpg.rf.11b54ebd5902c0d4a013dcb217e32c0a.jpg",
+    "score": 0.3472858667373657,
+    "positive": 0
+  },
+  {
+    "image": "AightSird0120_jpg.rf.7a787bb6554835cdb20afe3f2e3823ef.jpg",
+    "score": 0.3131893277168274,
+    "positive": 0
+  },
+  {
+    "image": "AightSird0207_jpg.rf.27bd27dad0d9ce9730ae2034f1c4b19c.jpg",
+    "score": 0.23635415732860565,
+    "positive": 0
+  },
+  {
+    "image": "AightSird0497_jpg.rf.73e0377db7dec772a4d4618dbddd9281.jpg",
+    "score": 0.2323160171508789,
+    "positive": 0
+  },
+  {
+    "image": "Aitin0150_jpg.rf.c855131d556cb8de12f1d0b76a82cb37.jpg",
+    "score": 0.0015935366973280907,
+    "positive": 0
+  },
+  {
+    "image": "Aitin0586_jpg.rf.3ad0bdac73c9875a40879eb82c720a1a.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Aitin0907_jpg.rf.dfab75548e3722f6ef4a729752896768.jpg",
+    "score": 0.0020481268875300884,
+    "positive": 0
+  },
+  {
+    "image": "Aitin0942_jpg.rf.563e87ef68ce005c523c3f3ea1500793.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Aitin1410_jpg.rf.2c3c411ad8b89350d493b5d191b5417b.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Aitin2742_jpg.rf.51d0f6456fa7a8e271c98eb4ca6fdb20.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Aitin3626_jpg.rf.97094938545c1f0a76e7f0ae51ab26d2.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Aitin4257_jpg.rf.696c82b9a8bd0177b83b9ef0c83bc637.jpg",
+    "score": 0.01750144734978676,
+    "positive": 0
+  },
+  {
+    "image": "IMG_0871_MOV-12_jpg.rf.f78dc8331166153a0db9fe9f92c12681.jpg",
+    "score": 0.4554081857204437,
+    "positive": 1
+  },
+  {
+    "image": "IMG_0871_mp4-11_jpg.rf.0e1c1da841ad96ec6b91e02a304d2602.jpg",
+    "score": 0.41839486360549927,
+    "positive": 1
+  },
+  {
+    "image": "IMG_0871_mp4-23_jpg.rf.5615d1ea9e86b03d0a3206e4ec7c485b.jpg",
+    "score": 0.5133180022239685,
+    "positive": 1
+  },
+  {
+    "image": "IMG_3100_mp4-12_jpg.rf.85ba1f36b6dae8f1adaa1dd26a7bc21b.jpg",
+    "score": 0.35821905732154846,
+    "positive": 1
+  },
+  {
+    "image": "IMG_3100_mp4-9_jpg.rf.b5907061ce7439091b9482132c4ff096.jpg",
+    "score": 0.5719009041786194,
+    "positive": 1
+  },
+  {
+    "image": "IMG_3103_mp4-9_jpg.rf.4db420f91125f53b73d0b0f3acb53482.jpg",
+    "score": 0.39418888092041016,
+    "positive": 1
+  },
+  {
+    "image": "IMG_5846_jpg.rf.4819d4f72d02941502c175701d19f6f9.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Image36_jpg.rf.cb8c44dc127a3d185a8b45bfbf1bf012.jpg",
+    "score": 0.3281233012676239,
+    "positive": 0
+  },
+  {
+    "image": "Image_ipg-516-_jpg.rf.097cc56a291f0045f1bcf4e39440a572.jpg",
+    "score": 0.05451419577002525,
+    "positive": 0
+  },
+  {
+    "image": "KakaoTalk_20221018_001219713_15_jpg.rf.b9151d722acd8837cc4fa589965585b2.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "KakaoTalk_20221018_001219713_15_jpg.rf.dd6cc35f1cc1d04f91d8f981fac0b786.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "KakaoTalk_20221018_001219713_16_jpg.rf.def38c8788addf031226386ed2984f6d.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "KakaoTalk_20221018_001219713_24_jpg.rf.4bcf8815212c27e98f111cd0bc1a69e4.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "KakaoTalk_20221018_001219713_24_jpg.rf.687f4780cade0bb61bf08453c8c2bcbe.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "KakaoTalk_20221018_001219713_26_jpg.rf.b1e0b18feb0f852ede18cf1026e200c1.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "KakaoTalk_20221018_001425789_07_jpg.rf.ed6ef90ff2c7160facb15f78da1dac9c.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "KakaoTalk_20221018_001605157_12_jpg.rf.fd2d531ff7247ea23584eaa1822b8f02.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "KakaoTalk_20221018_001605157_29_jpg.rf.9b06794563f795143f9f8457a51364a9.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "KakaoTalk_20221018_001605157_29_jpg.rf.b4a6ff703fb686639f8b15de263af61e.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "KakaoTalk_20221018_001726988_01_jpg.rf.1c3293bc018e0c81f7164bb084a8e66c.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "KakaoTalk_20221018_001726988_01_jpg.rf.2352839c182a773d53990309b8edd49c.jpg",
+    "score": 0.0022434976417571306,
+    "positive": 0
+  },
+  {
+    "image": "KakaoTalk_20221018_001836614_12_jpg.rf.825d8509a70fc3af0756384e29493fe2.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "KakaoTalk_20221018_001836614_12_jpg.rf.bcd31c919b0d25c5620ca82ed40595f5.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Movie-on-10-31-22-at-10_08-AM_mov-20_jpg.rf.ed40167184dea0df93e90391bb897da2.jpg",
+    "score": 0.5395011901855469,
+    "positive": 1
+  },
+  {
+    "image": "Movie-on-10-31-22-at-10_08-AM_mov-24_jpg.rf.fd951bd97faad8f3eb579adf47d51887.jpg",
+    "score": 0.5889739990234375,
+    "positive": 1
+  },
+  {
+    "image": "NX_img_177_jpg.rf.a0da344b99829673dc59d155712cdc4f.jpg",
+    "score": 0.4647689461708069,
+    "positive": 1
+  },
+  {
+    "image": "Nein1796_jpg.rf.4e295f411804bcba96a30227a4094ebb.jpg",
+    "score": 0.23978731036186218,
+    "positive": 1
+  },
+  {
+    "image": "Nein4497_jpg.rf.e8bb6d61df1f165159f445eb52926f2c.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Nein4731_jpg.rf.07300fe19a844b8c83abbdbfed2c1307.jpg",
+    "score": 0.010195807553827763,
+    "positive": 0
+  },
+  {
+    "image": "Nein5075_jpg.rf.71f5544b587413c707f098da51b24693.jpg",
+    "score": 0.0010856159497052431,
+    "positive": 0
+  },
+  {
+    "image": "Nein7025_jpg.rf.ff9801eb80349ae4dbacbad5692eb61b.jpg",
+    "score": 0.22000080347061157,
+    "positive": 0
+  },
+  {
+    "image": "Photin0648_jpg.rf.436cdd66961239d57b4a51e13c0b6fc5.jpg",
+    "score": 0.004045703914016485,
+    "positive": 0
+  },
+  {
+    "image": "Photin0662_jpg.rf.540f9a5381edfd6279a408369b35358e.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Photin0730_jpg.rf.19c4baba0238573d8481f9e4691b2cc1.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Photin0826_jpg.rf.d33fc29f49a91bf419001bd88b6431a5.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Photin0826_jpg.rf.f0d6389e556bb5626e92b80e006802c5.jpg",
+    "score": 0.0012233188608661294,
+    "positive": 0
+  },
+  {
+    "image": "Photin0971_jpg.rf.51122338f08ad42347335087cd2d8a8f.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Photin1167_jpg.rf.06c44bbd2fdf81986e431cfc55364a3a.jpg",
+    "score": 0.006078933831304312,
+    "positive": 0
+  },
+  {
+    "image": "RPReplay_Final1667001201_MP4-100_jpg.rf.8f7348b5c1b0f15d6131585359153c92.jpg",
+    "score": 0.4857366681098938,
+    "positive": 1
+  },
+  {
+    "image": "Tan0125_jpg.rf.7a0ba6b8e7291b2d1ad9c131b8ed0a90.jpg",
+    "score": 0.16498443484306335,
+    "positive": 1
+  },
+  {
+    "image": "Tan0156_jpg.rf.87e09cec2ac9cff5ee916b2b04af576d.jpg",
+    "score": 0.09032795578241348,
+    "positive": 0
+  },
+  {
+    "image": "Tan0532532_jpg.rf.6b3a79a77683c8570949d03bd0684336.jpg",
+    "score": 0.013189906254410744,
+    "positive": 0
+  },
+  {
+    "image": "Tan0914914_jpg.rf.8f96d5216f7d1daf1e393644d4f4d014.jpg",
+    "score": 0.007540304679423571,
+    "positive": 0
+  },
+  {
+    "image": "Tan0933933_jpg.rf.a4d230f98d267beb983111cef95ff969.jpg",
+    "score": 0.005230935290455818,
+    "positive": 0
+  },
+  {
+    "image": "TsirinOne0032_jpg.rf.604c38539498eb89eef1d67c26ad43f5.jpg",
+    "score": 0.26908057928085327,
+    "positive": 0
+  },
+  {
+    "image": "TsirinTu0046_jpg.rf.52e7ac4ceb35982cd025df0d019d44cd.jpg",
+    "score": 0.2790643274784088,
+    "positive": 0
+  },
+  {
+    "image": "Twalv0135_jpg.rf.90a721b9565c79a0b0288edef5f81f06.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Twalv0395_jpg.rf.0703b6c90f710bd924cc7fb5bb911d7c.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Twalv0396_jpg.rf.af9516de7fa5fcc0e5d188c515fd8a76.jpg",
+    "score": 0.008200923912227154,
+    "positive": 0
+  },
+  {
+    "image": "Twalv0995_jpg.rf.016fea98eefe90f792665d90670ec773.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Twalv0995_jpg.rf.05260cf185a8c83daa1935ece367d2b5.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Twalv1052_jpg.rf.1b174162803ab1ebcd1e2c24ca4a8428.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Twalv1052_jpg.rf.ceb24cf02b0697f04301441364cc2a2b.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Twalv1069_jpg.rf.705fd2b96f33dd6e14f42f02ac629b26.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Twalv1139_jpg.rf.bdaba56391d48a9fc41e977c53128fd6.jpg",
+    "score": 0.0016793564427644014,
+    "positive": 0
+  },
+  {
+    "image": "Video1_13_jpg.rf.0b6d1cbe5bdfa418b1659055ea60d773.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video1_168_jpg.rf.7a3699d986daa61d3aebaad3bc98d365.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video1_173_jpg.rf.9bb985128efd79c50347ed4c525a6316.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video1_178_jpg.rf.8a7e8a995439eef2dc524ea4c9574c86.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video1_195_jpg.rf.9020331f4cad289b5512bd12e0e5f101.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video1_20_jpg.rf.5b5f3fd24026408747a28b7fbd480395.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video1_211_jpg.rf.61b5f7af4d0c7f8a99fbc78e64fbeb6e.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video1_212_jpg.rf.f7c13bf6da0e001ea3d9a8e17a22b6c8.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video1_219_jpg.rf.a60903d910a405b09daa196641d02371.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video1_226_jpg.rf.76eb8fa0e2365bacfa7ccc815faf3cca.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video1_232_jpg.rf.fdb1b6bdaeabf092e7bdeb8dda22eafa.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video1_33_jpg.rf.1c430c7b31aee042736041dee32ff554.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video1_44_jpg.rf.7a591431ecc646970d7584e26a089c5f.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video1_46_jpg.rf.0da841125e73e934c9433e2b060cd800.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video1_53_jpg.rf.cd2db11dc1faa8157c5a0d0f813afe99.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video1_53_jpg.rf.d8619567b86c4f279c7d8e305d229c19.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video1_55_jpg.rf.a3dd2789f1cb93b03326de4e1ffe542d.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video1_9_jpg.rf.39f4daaf157c0cf5e4bb4cda38baf645.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video2_10_jpg.rf.41bcdfd3c3b319ecea8615411cc6b82b.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video2_10_jpg.rf.d14ba5be64dacec1ba29a49443f2151f.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video2_11_jpg.rf.55542bbfda1d3b28765f0d627d55a9c9.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video2_132_jpg.rf.0823fe906a04c2ba45fc73fcee21e784.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video2_133_jpg.rf.219e088664befdd945e494cf2448316c.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video2_13_jpg.rf.96685bf1a721641cae618193cba7a66d.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video2_140_jpg.rf.7bcc950196a4b82345d378b8514532eb.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video2_145_jpg.rf.6e91f65eb2a3bc81f966d1c6bf57801c.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video2_147_jpg.rf.fc72b7e51957434d3dfbc99cebfebfd3.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video2_148_jpg.rf.c6bb9e6709e9695a7ecbf277278b47df.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video2_166_jpg.rf.9c0d1c1b05d97c12166e8db3ad6d60f9.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video2_174_jpg.rf.75f43e6b74126861eebbf09df44b85ac.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video2_176_jpg.rf.dab0ca08c920d2e7d2095457e6b04575.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video2_179_jpg.rf.ebdc81ce416d1062a12777b6d54e3f20.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video2_181_jpg.rf.1e0c4af1ff704d3ad40ee18d14e0ea4e.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video2_184_jpg.rf.e3579d183f13d1c93b7f8c20ee89061a.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video2_185_jpg.rf.bd1fa052e449f67773942f0e6dc76f21.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video2_188_jpg.rf.2de40ef980da8b69ece79e9bb9f3e821.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video2_33_jpg.rf.219573bf543928b67dc46056db199667.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video2_34_jpg.rf.353d804c7d73b336f0bf592d9630f816.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video2_50_jpg.rf.851aa510afe9a0738f326ac6a1e8abb5.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video2_7_jpg.rf.2cb3a4a98698cc69933e5691e525f754.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video2_8_jpg.rf.b2fa5127cf879c99209bc70016cbf859.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video2_91_jpg.rf.03f6ecf2740588f021f722cc9aa20508.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video3_113_jpg.rf.7bdfd7903b8d082bc6e76392b5cba070.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video3_113_jpg.rf.c90f4fcb9c151c9cc50059dc54981c5d.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video3_121_jpg.rf.9019b2854f60bcf26892ebc4dc55d44e.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video3_133_jpg.rf.f17b7f0efbec23717020ebf9ded17cc6.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video3_141_jpg.rf.25c3dc83e69d314e71826454badbdb1c.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video3_143_jpg.rf.e20bbf366e8696b3c83d29ecc9d4cee0.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video3_15_jpg.rf.e3e34be55d5bd32e519b1d5f67978e0e.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video3_15_jpg.rf.ff8aa4001bc1e22fe61535a75bc149ea.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video3_163_jpg.rf.a60fd40b5149c8d40accbf4846829d93.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video3_166_jpg.rf.c0b5edd459bc7c0933eec474b919b590.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video3_167_jpg.rf.95e2cb5aecdb711729ec7be430b860f8.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video3_223_jpg.rf.108bd3fa92c9e1651bf90037f157485e.jpg",
+    "score": 0.0020699172746390104,
+    "positive": 0
+  },
+  {
+    "image": "Video3_231_jpg.rf.dc0160ed51ea455b99adea935af23eb0.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video3_238_jpg.rf.3c75300b09756c37011c21dd297cf927.jpg",
+    "score": 0.0026578938122838736,
+    "positive": 0
+  },
+  {
+    "image": "Video3_24_jpg.rf.447bd9ba7006f44f4d0bd07ffc88eca7.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video3_28_jpg.rf.f2c189e482532d95f00be1953442a756.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video3_31_jpg.rf.0c1b5c482fe6832b7dcc9cbcbf8dee88.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video3_32_jpg.rf.65e11dbe9c15bc6bda60686a724c8b72.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video3_37_jpg.rf.d9f6aa1cb7be549460bb713b4ca64e19.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video3_45_jpg.rf.945c492ccb5903ae0132b4c5e4a3d209.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video4_11_jpg.rf.f96ccc1f402b55dfde7370942de4b514.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video4_13_jpg.rf.77c5f860ace2cd4a4497f4c32fcb2df7.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video4_14_jpg.rf.311356ccc1aeba7e0d0966254bf0b06e.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video4_222_jpg.rf.dbf24db3aedb8aec42e8634ec36c3fe1.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video4_22_jpg.rf.50b608535124781a4d6727ae79977989.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video4_233_jpg.rf.e12c8d28f490de44509baa8fea8c09ba.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video4_243_jpg.rf.5b143fc18fb56aff02aed3629e72ecb4.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video4_252_jpg.rf.449aacd319cb5bfb589955e382cd9dbc.jpg",
+    "score": 0.0017273896373808384,
+    "positive": 0
+  },
+  {
+    "image": "Video4_253_jpg.rf.7c6707d7be292841c91c0f4ab8398b4f.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video4_260_jpg.rf.0c586c644f4f49fa95a1134ef6a9b14a.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video4_273_jpg.rf.b7b1c989e37e48d0f343da1f0bd02d0c.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video4_36_jpg.rf.f5251cdb5d94849c2543cc2e4ed6f57c.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video4_37_jpg.rf.6a4b9285b3246e0d33ce67eb32b20b90.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video4_3_jpg.rf.52def9806116f43966e3443cb0ba27ab.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video4_40_jpg.rf.75c2e5c9a15395a1af111aecffd81560.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video4_48_jpg.rf.bef038117f639085f649a27a89940efe.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video4_4_jpg.rf.a79b0d3d2dcb06ec8f5aed1b6c623f3c.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video4_51_jpg.rf.bbc15d350592b5cb850f3b0b565c4492.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video4_58_jpg.rf.d1e5d23ae799880f1082b5e95ff5ab36.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video4_58_jpg.rf.d2606fde187108b762516e8875cc2eda.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video4_5_jpg.rf.d9f508706106560d8c08e7073e788478.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video4_72_jpg.rf.d7dbdf0f73e96f21655111d9855d590f.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video4_8_jpg.rf.30d0a223348c7b9c4343ce29f287609c.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "Video4_8_jpg.rf.86539f712c21763c5b08a34d369086e8.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "class1_150_jpg.rf.de11a2f1b4070b94df40e2ffbed84387.jpg",
+    "score": 0.27107319235801697,
+    "positive": 1
+  },
+  {
+    "image": "class2_131_jpg.rf.139398362982bd75423f9d517c7c09fe.jpg",
+    "score": 0.0025257873348891735,
+    "positive": 1
+  },
+  {
+    "image": "class2_145_jpg.rf.82bd9511d9a4bf512a9cc30d8f0816fc.jpg",
+    "score": 0.5181806683540344,
+    "positive": 1
+  },
+  {
+    "image": "construction-192-_jpg.rf.9ce1754d71b6e6e8f7e3d512a11838ca.jpg",
+    "score": 0.017543615773320198,
+    "positive": 0
+  },
+  {
+    "image": "construction-675-_jpg.rf.24e88658ba9ec3412bd2a600b9286a15.jpg",
+    "score": 0.037677109241485596,
+    "positive": 0
+  },
+  {
+    "image": "image_150_jpg.rf.2cbb7d505d4dbc1d92f4d11152021073.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "image_150_jpg.rf.5e9f3f906442113b9755cf80b0e05140.jpg",
+    "score": 0.26246634125709534,
+    "positive": 0
+  },
+  {
+    "image": "image_150_jpg.rf.7c84d94e0a11be67e11a7e600bc18580.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "image_159_jpg.rf.bbe75d9f677c43e492c90f9a0835c192.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "image_160_jpg.rf.c7339c1106c3a669539ba188d6d4f4ba.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "image_162_jpg.rf.50f3279eed82c99720722720bfcde152.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "image_163_jpg.rf.37fec5e460ae9ff19cb32f035a07a604.jpg",
+    "score": 0.34827664494514465,
+    "positive": 0
+  },
+  {
+    "image": "image_164_jpg.rf.e68ef79508ab8e6bacbc0fb6370935b6.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "image_165-1-_jpg.rf.1d9417621cf51e95a956088b1e084851.jpg",
+    "score": 0.31987321376800537,
+    "positive": 1
+  },
+  {
+    "image": "image_165-1-_jpg.rf.5b2907fd257301280609aa939ce11168.jpg",
+    "score": 0.2739132046699524,
+    "positive": 0
+  },
+  {
+    "image": "image_165_jpg.rf.1a3487a707081c918d7e66e2eef0ab4b.jpg",
+    "score": 0.3255371153354645,
+    "positive": 0
+  },
+  {
+    "image": "image_165_jpg.rf.44edbceab5aa7d3c5911f0b8d295038b.jpg",
+    "score": 0.37418338656425476,
+    "positive": 0
+  },
+  {
+    "image": "image_165_jpg.rf.9d69a43f63cf36c65976d618baf70689.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "image_165_jpg.rf.e1574b25abf995403c8f6b86bde65939.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "image_166_jpg.rf.fe42b50dd651b046d3f8e8c68ae7cb69.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "image_167_jpg.rf.355cead3e93b22be920dea88b144fa26.jpg",
+    "score": 0.25315967202186584,
+    "positive": 1
+  },
+  {
+    "image": "image_168_jpg.rf.240ddd995e82de563fddc2971c6cf095.jpg",
+    "score": 0.3982352316379547,
+    "positive": 1
+  },
+  {
+    "image": "image_169_jpg.rf.7cea4216cb965328ee07cf43fad6d8de.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "image_169_jpg.rf.ccd5faf390ae632898eb6eb163f6e295.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "image_171_jpg.rf.99ac60f6af9e8e1450920dd791d15679.jpg",
+    "score": 0.003012638306245208,
+    "positive": 0
+  },
+  {
+    "image": "image_175_jpg.rf.638f4b6a1b4bb62a852c19e4ff342c95.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "image_176_jpg.rf.1616f040622888beb95c429276dac2b3.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "image_177_jpg.rf.143b478f8f641090f6897fa1a29d7e8e.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "image_179_jpg.rf.a748116ebfa9ddf779c3ba35f39ce12f.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "image_180_jpg.rf.b986a979b0b25e6554d5780fe06b9b21.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "image_180_jpg.rf.c7e9cd01dd37663ceed7d70bde58a580.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "image_181_jpg.rf.cdfc8fe092733b963074e65bd183c762.jpg",
+    "score": 0.38663846254348755,
+    "positive": 1
+  },
+  {
+    "image": "image_183_jpg.rf.93739fcbacd9c799311851bb76b30131.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "image_183_jpg.rf.ff9765efbb263c0fb783c8a16ba7cc7d.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "image_184_jpg.rf.086a72c2d22b0f956f22031a2b3db5b7.jpg",
+    "score": 0.20821736752986908,
+    "positive": 1
+  },
+  {
+    "image": "image_184_jpg.rf.49620a583c966b292189fec2f8228a91.jpg",
+    "score": 0.005956961307674646,
+    "positive": 0
+  },
+  {
+    "image": "image_185_jpg.rf.432612a5cf1c59f8dba5d46189a906ca.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "image_185_jpg.rf.7fabd5793885d4fe588a352c79b4cb43.jpg",
+    "score": 0.23126192390918732,
+    "positive": 0
+  },
+  {
+    "image": "image_192_jpg.rf.909479a00a4f4cb768f15b45e7013573.jpg",
+    "score": 0.008599808439612389,
+    "positive": 0
+  },
+  {
+    "image": "image_195_jpg.rf.1cfe33d5335ccd847e8c6895b9a217ef.jpg",
+    "score": 0.16814564168453217,
+    "positive": 0
+  },
+  {
+    "image": "image_195_jpg.rf.cc21817efe2cb036faa0b6b1a61ffd67.jpg",
+    "score": 0.04852445796132088,
+    "positive": 0
+  },
+  {
+    "image": "image_197_jpg.rf.8c66f80a8b5b59014bd96476be8a825f.jpg",
+    "score": 0.002430038759484887,
+    "positive": 0
+  },
+  {
+    "image": "image_199_jpg.rf.0f520f6ff2694db2510a35cadcf1ede3.jpg",
+    "score": 0.39147576689720154,
+    "positive": 1
+  },
+  {
+    "image": "image_200_jpg.rf.65136b6768b9df15821651ebab88d764.jpg",
+    "score": 0.40318265557289124,
+    "positive": 1
+  },
+  {
+    "image": "image_200_jpg.rf.663b97d94c5f84ad3ebbf2bc10516e2f.jpg",
+    "score": 0.2387910634279251,
+    "positive": 0
+  },
+  {
+    "image": "image_203_jpg.rf.17766012b574de0ac92e5b629c32f507.jpg",
+    "score": 0.4353299140930176,
+    "positive": 1
+  },
+  {
+    "image": "image_204_jpg.rf.7a491c004f570166a5a841d0eab1ef53.jpg",
+    "score": 0.4398098587989807,
+    "positive": 0
+  },
+  {
+    "image": "image_209_jpg.rf.28aa84b6e1b9ef20329fa55182bff04f.jpg",
+    "score": 0.38128775358200073,
+    "positive": 0
+  },
+  {
+    "image": "image_209_jpg.rf.a0ad49b69e2d62694566aeb5a01e8d8a.jpg",
+    "score": 0.2713942229747772,
+    "positive": 0
+  },
+  {
+    "image": "image_210_jpg.rf.3d3dbc93c359ce948fca4d108e0b25a3.jpg",
+    "score": 0.42745134234428406,
+    "positive": 1
+  },
+  {
+    "image": "image_214_jpg.rf.4136c5dab056068673110edbc3afd9a1.jpg",
+    "score": 0.2949198782444,
+    "positive": 0
+  },
+  {
+    "image": "image_215_jpg.rf.940c9e8a989ceeaa80a8d23b8b543730.jpg",
+    "score": 0.30589714646339417,
+    "positive": 0
+  },
+  {
+    "image": "image_215_jpg.rf.e80058bb2f8d794c24f5034b138e45ac.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "image_221_jpg.rf.90681a1814b6d6968e1861341ad1f827.jpg",
+    "score": 0.35003310441970825,
+    "positive": 0
+  },
+  {
+    "image": "image_222_jpg.rf.7d1e42567480b88b42195b3e1964d605.jpg",
+    "score": 0.41013389825820923,
+    "positive": 0
+  },
+  {
+    "image": "image_225_jpg.rf.95c9e062ef658d4a18cb796017e5d9eb.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "image_226_jpg.rf.9e356129c3a6bdf122101253643d2f79.jpg",
+    "score": 0.3805561363697052,
+    "positive": 1
+  },
+  {
+    "image": "image_227_jpg.rf.31f8855141a472912b5c37c676d35f34.jpg",
+    "score": 0.2976650893688202,
+    "positive": 0
+  },
+  {
+    "image": "image_228_jpg.rf.b6efacc1ecf6486c98bcd67ad57856ed.jpg",
+    "score": 0.3967106342315674,
+    "positive": 0
+  },
+  {
+    "image": "image_230_jpg.rf.abb7ada3f26af35ffd9a0ea8c167619f.jpg",
+    "score": 0.424938440322876,
+    "positive": 0
+  },
+  {
+    "image": "image_230_jpg.rf.e5839f97ff7bebf61ebd58e44fc4de96.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "image_231_jpg.rf.a42ea9fac3b25d9291062b1b3348ddf5.jpg",
+    "score": 0.3637846112251282,
+    "positive": 0
+  },
+  {
+    "image": "image_233_jpg.rf.a73a90bd5f370164e660c88c708d9803.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "image_238_jpg.rf.9897933708e20d1ce1a7043d03a76422.jpg",
+    "score": 0.32550641894340515,
+    "positive": 0
+  },
+  {
+    "image": "image_238_jpg.rf.9b27bcf9f0c1e6bf705c709a46420e0b.jpg",
+    "score": 0.20604217052459717,
+    "positive": 1
+  },
+  {
+    "image": "image_245_jpg.rf.0b037c5f578d44806befb401609487ef.jpg",
+    "score": 0.3000953793525696,
+    "positive": 1
+  },
+  {
+    "image": "image_248_jpg.rf.a5e3b70a544eda1cab9ff58cef1e5ba6.jpg",
+    "score": 0.32503560185432434,
+    "positive": 0
+  },
+  {
+    "image": "image_253_jpg.rf.faa546c51a890f8b5134fba5606a6b93.jpg",
+    "score": 0.3886670768260956,
+    "positive": 0
+  },
+  {
+    "image": "image_256_jpg.rf.19470a471cc99ba86cf801c6cc5d8457.jpg",
+    "score": 0.3001972436904907,
+    "positive": 1
+  },
+  {
+    "image": "image_258_jpg.rf.4da285ee2a35cd797e9044a9bd159f15.jpg",
+    "score": 0.3293883800506592,
+    "positive": 0
+  },
+  {
+    "image": "image_261_jpg.rf.f299d06370af20a7c1d1372e6601aa92.jpg",
+    "score": 0.3327471911907196,
+    "positive": 0
+  },
+  {
+    "image": "image_310_jpg.rf.00bc3dd622e699ca27e9410404e28304.jpg",
+    "score": 0.33006787300109863,
+    "positive": 0
+  },
+  {
+    "image": "image_52_jpg.rf.d46e4b53f890464bbb997b37b9141fb0.jpg",
+    "score": 0.004384617321193218,
+    "positive": 0
+  },
+  {
+    "image": "image_53_jpg.rf.9aa7d344dccf7633b63ccb5f643b072e.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "image_55_jpg.rf.672d564bb7833fd2716b89a571dbfe06.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "image_62_jpg.rf.0f8eca4f7b023293a747bc3405b592a8.jpg",
+    "score": 0.0028134246822446585,
+    "positive": 0
+  },
+  {
+    "image": "image_62_jpg.rf.bb4f2d2f993196e47ee19a1a1019f359.jpg",
+    "score": 0.002937805373221636,
+    "positive": 0
+  },
+  {
+    "image": "image_95_jpg.rf.5aeb1ba645b4b48c8f5164d5979bee74.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "image_97_jpg.rf.503e2988d8f3401c69fb9b5a966dce20.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "images-2022-07-04T012941-1-_jpg.rf.cf3b2d40307d87bdedb30701bad26d11.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "images-2022-07-04T013055-1-_jpg.rf.bd0bd34e3b47f43e102eee47862ede37.jpg",
+    "score": 0.0016219073440879583,
+    "positive": 0
+  },
+  {
+    "image": "images-2022-07-04T013203_jpg.rf.443caf5d9338c97ab59e2a87371f7975.jpg",
+    "score": 0.0018629211699590087,
+    "positive": 0
+  },
+  {
+    "image": "images-2022-07-04T013435_jpg.rf.4b05446bffac03bb78cf6959c1180a24.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "images-56-_jpg.rf.f8560afb9f96296af3a334416cf71559.jpg",
+    "score": 0.03702664002776146,
+    "positive": 0
+  },
+  {
+    "image": "images79_jpg.rf.81aa2c63dc7241c4519660cc33dffb8f.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "images85_jpg.rf.09f45b7ccf22be4190535603522abcab.jpg",
+    "score": 0.09747958183288574,
+    "positive": 0
+  },
+  {
+    "image": "ka_01181_png_jpg.rf.da74e1039109eedabf07bcc6a6882ede.jpg",
+    "score": 0.23918166756629944,
+    "positive": 1
+  },
+  {
+    "image": "maksssksksss17_png_jpg.rf.316f1d0406fd8b48bdaca02615a292eb.jpg",
+    "score": 0.6556779742240906,
+    "positive": 1
+  },
+  {
+    "image": "ppe_0018_jpg.rf.96387f986ce8c8ab03ebf65d2587f6ab.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "ppe_0137_jpg.rf.ea4e1ad5a6f389fbd7ef44afd4f5a008.jpg",
+    "score": 0.06468700617551804,
+    "positive": 0
+  },
+  {
+    "image": "ppe_0140_jpg.rf.af7ed64a2fa130753bb03e1caab63bd9.jpg",
+    "score": 0.00328192044980824,
+    "positive": 0
+  },
+  {
+    "image": "ppe_0320_jpg.rf.2f150ee849c098de0d5dfdc4fc81afbe.jpg",
+    "score": 0.0031616119667887688,
+    "positive": 0
+  },
+  {
+    "image": "ppe_0354_jpg.rf.a6a753155675f78da98c79f0db3fd3b8.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "ppe_0511_jpg.rf.3886f69994da8af1e98ea1914892ab48.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "ppe_0636_jpg.rf.83c74be6a509a567335bd20b01e8af50.jpg",
+    "score": 0.0015126171056181192,
+    "positive": 0
+  },
+  {
+    "image": "ppe_0771_jpg.rf.cb177e75cbf999166d5afdc351d7aa2e.jpg",
+    "score": 0.006625195033848286,
+    "positive": 0
+  },
+  {
+    "image": "ppe_0941_jpg.rf.c4721a2bcf19ba9165f187bb150d546b.jpg",
+    "score": 0.28849107027053833,
+    "positive": 0
+  },
+  {
+    "image": "ppe_1073_jpg.rf.777af742f43cada04a277511e58e931c.jpg",
+    "score": 0.0029338160529732704,
+    "positive": 0
+  },
+  {
+    "image": "ppe_1188_jpg.rf.fd72d14d84f3b64706635a5dd8186acc.jpg",
+    "score": 0.004011333454400301,
+    "positive": 0
+  },
+  {
+    "image": "r103_jpg.rf.0090056c3f735a9ee69e94bfc5a9f676.jpg",
+    "score": 0.21260647475719452,
+    "positive": 0
+  },
+  {
+    "image": "r119_jpg.rf.6424edd352f2f24023c00d7e97ce0647.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "r129_jpg.rf.c117fef50241b17db1a500a1920b7e9f.jpg",
+    "score": 0.3010196089744568,
+    "positive": 1
+  },
+  {
+    "image": "r142_jpg.rf.51ece77f49fc9247982742473cbd01f8.jpg",
+    "score": 0.30713847279548645,
+    "positive": 1
+  },
+  {
+    "image": "r151_jpg.rf.fa411c9c114593a462b645d611454e81.jpg",
+    "score": 0.28938424587249756,
+    "positive": 0
+  },
+  {
+    "image": "r167_jpg.rf.f8916e41eae71539d87cd30adac8ff58.jpg",
+    "score": 0.35318347811698914,
+    "positive": 0
+  },
+  {
+    "image": "thumb0453_jpg.rf.72a7e4ad661efa52be840a4dc4f08dc3.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "thumb0938_jpg.rf.482eee46582142841889424717e84dba.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "thumb0939_jpg.rf.bc11690c822990d44f95a25f669d7f9d.jpg",
+    "score": 0.0025068174581974745,
+    "positive": 0
+  },
+  {
+    "image": "thumb0945_jpg.rf.01ea974d6bcc08f5b11e7e4fa3d97e7d.jpg",
+    "score": 0.003478017635643482,
+    "positive": 0
+  },
+  {
+    "image": "thumb2443_jpg.rf.5a93c5b95d5e3d2c373d13918a09eb99.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "thumb2444_jpg.rf.9d53e03c732f70430816b76f910ece55.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "thumbnail-ba5c72edb320b49a69e86b05775c49b2-scaled-1_jpeg_jpg.rf.9fdccf023d806ab5a860485c7d7e0c5e.jpg",
+    "score": 0.7596997618675232,
+    "positive": 1
+  },
+  {
+    "image": "youtube-108_jpg.rf.c157e75535a137df8d00cc3f0eb796db.jpg",
+    "score": 0.015160787850618362,
+    "positive": 0
+  },
+  {
+    "image": "youtube-114_jpg.rf.1054a6383d00664a44449ce7745cc91f.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "youtube-126_jpg.rf.d10c6a0e61d436d1b744513938fccb05.jpg",
+    "score": 0.18520532548427582,
+    "positive": 1
+  },
+  {
+    "image": "youtube-152_jpg.rf.dd13efff15dfc7f1bbe2bcb4a747762a.jpg",
+    "score": 0.010797756724059582,
+    "positive": 1
+  },
+  {
+    "image": "youtube-186_jpg.rf.11e4b57467df0a3f77a959fd502fda43.jpg",
+    "score": 0.052831295877695084,
+    "positive": 1
+  },
+  {
+    "image": "youtube-192_jpg.rf.47da71d48aecc44160e72ec0f9aa3476.jpg",
+    "score": 0.23323462903499603,
+    "positive": 1
+  },
+  {
+    "image": "youtube-198_jpg.rf.05834e52ee3caa8864ca13f9f83198b8.jpg",
+    "score": 0.029147617518901825,
+    "positive": 0
+  },
+  {
+    "image": "youtube-213_jpg.rf.68ab2c0f6b379cef6520820ee2994ba9.jpg",
+    "score": 0.06978310644626617,
+    "positive": 0
+  },
+  {
+    "image": "youtube-237_jpg.rf.ee6df4739a0d932e2da47759d1213fc7.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "youtube-263_jpg.rf.466eec5165cc35750acd4fa7a2f7c49d.jpg",
+    "score": 0.017561055719852448,
+    "positive": 1
+  },
+  {
+    "image": "youtube-263_jpg.rf.c323a958c66144a9024a942512392d9c.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "youtube-34_jpg.rf.4c04c6002c760f7b21c74b07ac23e6a8.jpg",
+    "score": 0.007239354308694601,
+    "positive": 0
+  },
+  {
+    "image": "youtube-388_jpg.rf.c3a99d5ae9e7737b554c0ec2310d3bb8.jpg",
+    "score": 0.016489258036017418,
+    "positive": 0
+  },
+  {
+    "image": "youtube-462_jpg.rf.d5f36228c4d259fd61c95d12dd26bd0b.jpg",
+    "score": 0.0029904693365097046,
+    "positive": 0
+  },
+  {
+    "image": "youtube-471_jpg.rf.813a4bf614e7d085d92a774fefcdfb1e.jpg",
+    "score": 0.028968527913093567,
+    "positive": 0
+  },
+  {
+    "image": "youtube-472_jpg.rf.4516b111d8a8a3c01d671897c160aa6d.jpg",
+    "score": 0.024087322875857353,
+    "positive": 0
+  },
+  {
+    "image": "youtube-510_jpg.rf.0141af2f2998e8af5b10bc7387bc97f1.jpg",
+    "score": 0.006090214941650629,
+    "positive": 0
+  },
+  {
+    "image": "youtube-53_jpg.rf.1e03f6d0840d4d41c30cb53de2522ece.jpg",
+    "score": 0.020881934091448784,
+    "positive": 0
+  },
+  {
+    "image": "youtube-596_jpg.rf.77a060c0e4ede1658d0f6d860711a519.jpg",
+    "score": 0.4150625169277191,
+    "positive": 0
+  },
+  {
+    "image": "youtube-631_jpg.rf.97eed804559362ffb5c46d04083f9147.jpg",
+    "score": 0.022375578060746193,
+    "positive": 0
+  },
+  {
+    "image": "youtube-738_jpg.rf.17d09c5c0d8d849bad69cf3803a557f4.jpg",
+    "score": 0.0,
+    "positive": 0
+  },
+  {
+    "image": "youtube-840_jpg.rf.08420a4087310b61db36e7ed294dbaf5.jpg",
+    "score": 0.0,
+    "positive": 0
+  }
+]

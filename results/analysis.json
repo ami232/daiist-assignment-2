@@ -1,0 +1,119 @@
+{
+  "dataset": {
+    "split_images": {
+      "train": 5646,
+      "val": 775,
+      "test": 326
+    },
+    "positive_images": {
+      "train": 1251,
+      "val": 242,
+      "test": 47
+    },
+    "class_instances": {
+      "Hardhat": 6813,
+      "NO-Hardhat": 2531,
+      "NO-Safety Vest": 1487,
+      "Person": 7168,
+      "Safety Vest": 8019
+    },
+    "no_hardhat_median_box_size": [
+      0.12578125,
+      0.1171875,
+      0.015893554687500002
+    ]
+  },
+  "classes": {
+    "0": "Hardhat",
+    "1": "NO-Hardhat",
+    "2": "NO-Safety Vest",
+    "3": "Person",
+    "4": "Safety Vest"
+  },
+  "positive_class": "NO-Hardhat",
+  "training": {
+    "epochs": 15,
+    "image_size": 640,
+    "device": "0"
+  },
+  "finetuned_test": {
+    "AP50": 0.6776701661906703,
+    "mAP50_95": 0.4846376385242913,
+    "per_class": {
+      "Hardhat": {
+        "precision": 0.953661833885268,
+        "recall": 0.713216957605985,
+        "AP50": 0.874454912352933,
+        "mAP50_95": 0.6030094300791546
+      },
+      "NO-Hardhat": {
+        "precision": 0.3077344230569773,
+        "recall": 0.44776119402985076,
+        "AP50": 0.27260118677172307,
+        "mAP50_95": 0.12845834220823424
+      },
+      "NO-Safety Vest": {
+        "precision": 0.6446144169537251,
+        "recall": 0.44384642670096974,
+        "AP50": 0.4769580241164765,
+        "mAP50_95": 0.25379310432028007
+      },
+      "Person": {
+        "precision": 0.8459103031992159,
+        "recall": 0.7561576354679803,
+        "AP50": 0.8280253820083188,
+        "mAP50_95": 0.6659031603524539
+      },
+      "Safety Vest": {
+        "precision": 0.9031429562023967,
+        "recall": 0.8956043956043956,
+        "AP50": 0.9363113257039006,
+        "mAP50_95": 0.7720241556613334
+      }
+    }
+  },
+  "coco_zero_shot": {
+    "no_hardhat_recall": 0.0,
+    "person_detections_test": 413
+  },
+  "trivial_predict_nothing": {
+    "no_hardhat_recall": 0.0
+  },
+  "best_single_threshold_validation": {
+    "threshold": 0.02,
+    "eur_per_1000": 1071.7597
+  },
+  "review_policy_validation": {
+    "lower": 0.01,
+    "upper": 0.47000000000000003,
+    "review_cap": 0.25,
+    "validation": {
+      "TP": 64,
+      "FP": 0,
+      "TN": 481,
+      "FN": 4,
+      "review_positive": 174,
+      "review_negative": 52,
+      "eur_per_1000": 490.2842,
+      "review_share": 0.159706,
+      "review_images_per_day": 79.85,
+      "review_minutes_per_day": 39.93,
+      "review_staff_fte": 0.0832,
+      "base_rate": 0.1
+    }
+  },
+  "review_policy_test": {
+    "TP": 9,
+    "FP": 3,
+    "TN": 201,
+    "FN": 2,
+    "review_positive": 36,
+    "review_negative": 75,
+    "eur_per_1000": 1266.3693,
+    "review_share": 0.318531,
+    "review_images_per_day": 159.27,
+    "review_minutes_per_day": 79.63,
+    "review_staff_fte": 0.1659,
+    "base_rate": 0.1
+  }
+}

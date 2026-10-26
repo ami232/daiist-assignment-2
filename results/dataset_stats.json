@@ -1,0 +1,24 @@
+{
+  "split_images": {
+    "train": 5646,
+    "val": 775,
+    "test": 326
+  },
+  "positive_images": {
+    "train": 1251,
+    "val": 242,
+    "test": 47
+  },
+  "class_instances": {
+    "Hardhat": 6813,
+    "NO-Hardhat": 2531,
+    "NO-Safety Vest": 1487,
+    "Person": 7168,
+    "Safety Vest": 8019
+  },
+  "no_hardhat_median_box_size": [
+    0.12578125,
+    0.1171875,
+    0.015893554687500002
+  ]
+}

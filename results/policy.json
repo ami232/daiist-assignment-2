@@ -1,0 +1,19 @@
+{
+  "lower": 0.01,
+  "upper": 0.47000000000000003,
+  "review_cap": 0.25,
+  "validation": {
+    "TP": 64,
+    "FP": 0,
+    "TN": 481,
+    "FN": 4,
+    "review_positive": 174,
+    "review_negative": 52,
+    "eur_per_1000": 490.2842,
+    "review_share": 0.159706,
+    "review_images_per_day": 79.85,
+    "review_minutes_per_day": 39.93,
+    "review_staff_fte": 0.0832,
+    "base_rate": 0.1
+  }
+}
