@@ -1,0 +1,57 @@
+{
+  "dataset": {
+    "workspace": "pcb-defect-detection-emmts",
+    "project": "pcb-defect-detection-datasets-whwcy",
+    "version": 5,
+    "test_total": 3324,
+    "test_clean": 2301,
+    "clean_images_with_defect": 2217,
+    "base_rate_in_clean_test": 0.9634941329856584
+  },
+  "settings": {
+    "model": "yolo11n.pt",
+    "epochs": 8,
+    "imgsz": 640,
+    "batch": 16,
+    "fraction": 1.0,
+    "seed": 0
+  },
+  "detector": {
+    "map50": 0.842553427904796,
+    "map50_95": 0.46250682189102593
+  },
+  "image_level": {
+    "finetuned": {
+      "threshold": 0.25,
+      "tp": 2158,
+      "fp": 2,
+      "fn": 59,
+      "tn": 82,
+      "accuracy": 0.973489787049109,
+      "precision": 0.9990740740740741,
+      "recall": 0.9733874605322508
+    },
+    "coco_zeroshot": {
+      "threshold": 0.25,
+      "tp": 155,
+      "fp": 23,
+      "fn": 2062,
+      "tn": 61,
+      "accuracy": 0.0938722294654498,
+      "precision": 0.8707865168539326,
+      "recall": 0.06991429860171403
+    },
+    "trivial": {
+      "predict_nothing": {
+        "accuracy": 0.03650586701434159,
+        "recall": 0.0
+      },
+      "predict_all_defective": {
+        "accuracy": 0.9634941329856584,
+        "precision": 0.9634941329856584,
+        "recall": 1.0
+      }
+    }
+  },
+  "notes": "COCO no tiene clases de defectos de placa: solo se eval\u00faa a nivel de placa."
+}
