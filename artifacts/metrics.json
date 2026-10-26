@@ -1,0 +1,256 @@
+{
+  "dataset": {
+    "workspace": "tossoengineering",
+    "project": "retail-shelf-detection-peimi",
+    "version": 1,
+    "classes": [
+      "empty",
+      "product"
+    ],
+    "splits": {
+      "train": {
+        "images": 390,
+        "images_with_gap": 175
+      },
+      "val": {
+        "images": 24,
+        "images_with_gap": 13
+      },
+      "test": {
+        "images": 11,
+        "images_with_gap": 5
+      }
+    },
+    "per_class": {
+      "empty": {
+        "train_instances": 448,
+        "val_instances": 37,
+        "test_instances": 20,
+        "median_area_pct": 0.8,
+        "p10_area_pct": 0.23,
+        "p90_area_pct": 10.74
+      },
+      "product": {
+        "train_instances": 4504,
+        "val_instances": 238,
+        "test_instances": 205,
+        "median_area_pct": 2.3,
+        "p10_area_pct": 0.43,
+        "p90_area_pct": 10.93
+      }
+    }
+  },
+  "training": {
+    "base_model": "yolo11n.pt",
+    "epochs": 30,
+    "imgsz": 640,
+    "device": "cpu",
+    "seed": 0
+  },
+  "positive_class": "empty",
+  "object_level_test": {
+    "finetuned yolo11n": {
+      "per_class": {
+        "empty": {
+          "instances": 20,
+          "ap50": 0.9189490788159277,
+          "map50_95": 0.4219365669396523,
+          "precision": 0.75,
+          "recall": 0.9,
+          "tp": 18,
+          "fp": 6,
+          "fn": 2
+        },
+        "product": {
+          "instances": 205,
+          "ap50": 0.9756536403484087,
+          "map50_95": 0.7158970172166438,
+          "precision": 0.9112149532710281,
+          "recall": 0.9512195121951219,
+          "tp": 195,
+          "fp": 19,
+          "fn": 10
+        }
+      },
+      "ap50": 0.9473013595821682,
+      "map50_95": 0.568916792078148
+    },
+    "COCO yolo11n zero-shot": {
+      "per_class": {
+        "empty": {
+          "instances": 20,
+          "ap50": 0.0,
+          "map50_95": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 20
+        },
+        "product": {
+          "instances": 205,
+          "ap50": 0.5350987624972312,
+          "map50_95": 0.26680401632203166,
+          "precision": 0.8974358974358975,
+          "recall": 0.17073170731707318,
+          "tp": 35,
+          "fp": 4,
+          "fn": 170
+        }
+      },
+      "ap50": 0.2675493812486156,
+      "map50_95": 0.13340200816101583
+    },
+    "predict nothing": {
+      "per_class": {
+        "empty": {
+          "instances": 20,
+          "ap50": 0.0,
+          "map50_95": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 20
+        },
+        "product": {
+          "instances": 205,
+          "ap50": 0.0,
+          "map50_95": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 205
+        }
+      },
+      "ap50": 0.0,
+      "map50_95": 0.0
+    }
+  },
+  "object_confusion_matrix_test": {
+    "labels": [
+      "empty",
+      "product",
+      "background"
+    ],
+    "matrix": [
+      [
+        17,
+        1,
+        8
+      ],
+      [
+        0,
+        198,
+        15
+      ],
+      [
+        3,
+        6,
+        0
+      ]
+    ],
+    "note": "rows = predicted, columns = true"
+  },
+  "image_level_test": {
+    "finetuned yolo11n": {
+      "threshold": 0.39,
+      "photos": 11,
+      "photos_with_gap": 5,
+      "recall": 1.0,
+      "false_alarm_rate": 0.0,
+      "precision": 1.0,
+      "accuracy": 1.0,
+      "cost_per_photo": 0.0,
+      "cost_per_1000": 0.0,
+      "review_share": 0.0
+    },
+    "COCO yolo11n zero-shot": {
+      "threshold": 0.5,
+      "photos": 11,
+      "photos_with_gap": 5,
+      "recall": 0.0,
+      "false_alarm_rate": 0.0,
+      "precision": 0.0,
+      "accuracy": 0.5454545454545454,
+      "cost_per_photo": 0.16799999999999998,
+      "cost_per_1000": 167.99999999999997,
+      "review_share": 0.0
+    },
+    "predict nothing": {
+      "threshold": 0.5,
+      "photos": 11,
+      "photos_with_gap": 5,
+      "recall": 0.0,
+      "false_alarm_rate": 0.0,
+      "precision": 0.0,
+      "accuracy": 0.5454545454545454,
+      "cost_per_photo": 0.16799999999999998,
+      "cost_per_1000": 167.99999999999997,
+      "review_share": 0.0
+    }
+  },
+  "costs": {
+    "fn": 1.6799999999999997,
+    "fp": 0.4666666666666667,
+    "tp": 0.0,
+    "tn": 0.0,
+    "review": 0.03888888888888889
+  },
+  "base_rate": 0.1,
+  "operations": {
+    "stores": 200,
+    "cameras_per_store": 6,
+    "photos_per_camera_per_day": 16,
+    "seconds_per_review": 10,
+    "review_hours_per_person_per_day": 6.0
+  },
+  "operating_point": {
+    "single_threshold": 0.39,
+    "single_threshold_test": {
+      "threshold": 0.39,
+      "photos": 11,
+      "photos_with_gap": 5,
+      "recall": 1.0,
+      "false_alarm_rate": 0.0,
+      "precision": 1.0,
+      "accuracy": 1.0,
+      "cost_per_photo": 0.0,
+      "cost_per_1000": 0.0,
+      "review_share": 0.0
+    },
+    "single_threshold_test_90ci": {
+      "p5": 0.0,
+      "p95": 0.0
+    },
+    "band": {
+      "low": 0.08,
+      "high": 0.7
+    },
+    "band_val": {
+      "cost_per_1000": 0.0,
+      "review_share": 0.0
+    },
+    "band_test": {
+      "cost_per_photo": 0.005833333333333334,
+      "cost_per_1000": 5.833333333333334,
+      "review_share": 0.15
+    },
+    "band_test_90ci": {
+      "p5": 0.0,
+      "p95": 17.5
+    },
+    "band_staffing": {
+      "reviews_per_day": 2880.0,
+      "review_hours_per_day": 8.0,
+      "people": 1.3333333333333333
+    }
+  },
+  "alternatives_per_1000": {
+    "do nothing (no alerts)": 167.99999999999997,
+    "person checks every photo": 38.88888888888889,
+    "model decides alone": 0.0,
+    "model + human review band": 5.833333333333334
+  }
+}
