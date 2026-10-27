@@ -1,0 +1,12 @@
+{
+  "_note": "PLACEHOLDERS: replace every number with your own and justify each one in REPORT.md. Costs are euros per mushroom. base_rate = share of mushrooms people bring that are really poisonous. cases_per_day, review_minutes and reviewer_hours_per_day size the human review team. Re-run training to refresh artifacts/ after changing them.",
+  "fn": 1000.0,
+  "fp": 10.0,
+  "tp": 0.0,
+  "tn": 0.0,
+  "review": 3.0,
+  "base_rate": 0.2,
+  "cases_per_day": 500,
+  "review_minutes": 2.0,
+  "reviewer_hours_per_day": 8.0
+}

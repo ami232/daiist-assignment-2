@@ -1,0 +1,70 @@
+{
+  "positive_class": "Poisonous-mushroom",
+  "costs": {
+    "fn": 1000.0,
+    "fp": 10.0,
+    "tp": 0.0,
+    "tn": 0.0,
+    "review": 3.0,
+    "base_rate": 0.2,
+    "cases_per_day": 500.0,
+    "review_minutes": 2.0,
+    "reviewer_hours_per_day": 8.0
+  },
+  "thresholds_chosen_on": "validation split",
+  "single_threshold": 0.01,
+  "review_band": {
+    "t_low": 0.0,
+    "t_high": 0.02
+  },
+  "test_policies": {
+    "do_nothing": {
+      "tp": 0,
+      "fn": 65,
+      "fp": 0,
+      "tn": 121,
+      "review_poisonous": 0,
+      "review_edible": 0,
+      "cost_per_1000": 200000.0,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "reviewers_needed": 0.0
+    },
+    "person_checks_all": {
+      "tp": 0,
+      "fn": 0,
+      "fp": 0,
+      "tn": 0,
+      "review_poisonous": 65,
+      "review_edible": 121,
+      "cost_per_1000": 3000.0000000000005,
+      "review_share": 1.0,
+      "reviews_per_day": 500.0,
+      "reviewers_needed": 2.0833333333333335
+    },
+    "model_alone": {
+      "tp": 64,
+      "fn": 1,
+      "fp": 0,
+      "tn": 121,
+      "review_poisonous": 0,
+      "review_edible": 0,
+      "cost_per_1000": 3076.923076923077,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "reviewers_needed": 0.0
+    },
+    "model_plus_review": {
+      "tp": 62,
+      "fn": 0,
+      "fp": 0,
+      "tn": 0,
+      "review_poisonous": 3,
+      "review_edible": 121,
+      "cost_per_1000": 2427.692307692308,
+      "review_share": 0.8092307692307693,
+      "reviews_per_day": 404.61538461538464,
+      "reviewers_needed": 1.685897435897436
+    }
+  }
+}

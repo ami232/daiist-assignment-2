@@ -1,0 +1,141 @@
+{
+  "dataset": {
+    "workspace": "jamurdetection",
+    "project": "jamur-detection",
+    "version": 2,
+    "classes": [
+      "Edible-mushroom",
+      "Poisonous-mushroom"
+    ],
+    "stats": {
+      "train": {
+        "images": 694,
+        "images_without_labels": 0,
+        "instances": {
+          "Edible-mushroom": 1553,
+          "Poisonous-mushroom": 830
+        },
+        "box_area_share_of_image": {
+          "p10": 0.021005859374999998,
+          "median": 0.097410888671875,
+          "p90": 0.6069195556640625
+        }
+      },
+      "val": {
+        "images": 98,
+        "images_without_labels": 0,
+        "instances": {
+          "Edible-mushroom": 296,
+          "Poisonous-mushroom": 115
+        },
+        "box_area_share_of_image": {
+          "p10": 0.01847351074218749,
+          "median": 0.07151733398437503,
+          "p90": 0.456771240234375
+        }
+      },
+      "test": {
+        "images": 50,
+        "images_without_labels": 0,
+        "instances": {
+          "Edible-mushroom": 121,
+          "Poisonous-mushroom": 65
+        },
+        "box_area_share_of_image": {
+          "p10": 0.019492187499999997,
+          "median": 0.08474395751953125,
+          "p90": 0.44858001708984374
+        }
+      }
+    }
+  },
+  "training": {
+    "base_model": "yolo11n.pt",
+    "epochs": 30,
+    "imgsz": 640,
+    "seed": 0
+  },
+  "finetuned": {
+    "map50": 0.9560013763235609,
+    "map50_95": 0.8278067140555152,
+    "per_class": {
+      "Edible-mushroom": {
+        "precision": 0.9103992340115026,
+        "recall": 0.8842975206611571,
+        "ap50": 0.9512256541497184,
+        "ap50_95": 0.8575989406021953
+      },
+      "Poisonous-mushroom": {
+        "precision": 0.9409959651975811,
+        "recall": 0.8769230769230769,
+        "ap50": 0.9607770984974034,
+        "ap50_95": 0.7980144875088349
+      }
+    },
+    "confusion_matrix_conf": 0.25,
+    "confusion_matrix": [
+      [
+        112,
+        0,
+        20
+      ],
+      [
+        0,
+        61,
+        9
+      ],
+      [
+        9,
+        4,
+        0
+      ]
+    ],
+    "confusion_labels": [
+      "Edible-mushroom",
+      "Poisonous-mushroom",
+      "background"
+    ]
+  },
+  "baselines": {
+    "coco_zero_shot": {
+      "map50": 0.0,
+      "map50_95": 0.0,
+      "share_of_mushrooms_boxed_as_any_coco_class": 0.1989247311827957,
+      "coco_labels_it_used": {
+        "donut": 18,
+        "vase": 8,
+        "banana": 5,
+        "cake": 3,
+        "train": 2
+      },
+      "test_cost_at_chosen_threshold": {
+        "tp": 0,
+        "fn": 65,
+        "fp": 0,
+        "tn": 121,
+        "review_poisonous": 0,
+        "review_edible": 0,
+        "cost_per_1000": 200000.0,
+        "review_share": 0.0,
+        "reviews_per_day": 0.0,
+        "reviewers_needed": 0.0
+      }
+    },
+    "predict_nothing": {
+      "map50": 0.0,
+      "map50_95": 0.0,
+      "test_cost_at_chosen_threshold": {
+        "tp": 0,
+        "fn": 65,
+        "fp": 0,
+        "tn": 121,
+        "review_poisonous": 0,
+        "review_edible": 0,
+        "cost_per_1000": 200000.0,
+        "review_share": 0.0,
+        "reviews_per_day": 0.0,
+        "reviewers_needed": 0.0
+      }
+    }
+  }
+}
