@@ -1,0 +1,131 @@
+{
+  "dataset": {
+    "workspace": "hrsdyolo",
+    "project": "stamp-signature-qr",
+    "version": 1,
+    "url": "https://universe.roboflow.com/hrsdyolo/stamp-signature-qr/dataset/1"
+  },
+  "training": {
+    "base_model": "yolo11s.pt",
+    "epochs_run": 30,
+    "epochs_max": 30,
+    "imgsz": 640,
+    "batch": 16,
+    "patience": 10,
+    "seed": 0,
+    "device": "mps"
+  },
+  "weights": "weights/seal_yolo11s.pt",
+  "overall": {
+    "mAP50": 0.8238992874828258,
+    "mAP50-95": 0.61362230819905
+  },
+  "confusion_matrix": {
+    "labels": [
+      "Signature",
+      "Text",
+      "qr-code",
+      "stamp",
+      "background"
+    ],
+    "matrix": [
+      [
+        39,
+        0,
+        0,
+        0,
+        14
+      ],
+      [
+        0,
+        25,
+        0,
+        0,
+        43
+      ],
+      [
+        0,
+        0,
+        181,
+        0,
+        4
+      ],
+      [
+        0,
+        0,
+        0,
+        1192,
+        67
+      ],
+      [
+        2,
+        18,
+        3,
+        28,
+        0
+      ]
+    ],
+    "orientation": "rows predicted, columns true"
+  },
+  "coco_stand_in": "clock",
+  "positive_class": "unsealed page",
+  "chosen_cut": 0.83,
+  "chosen_band": {
+    "low": 0.78,
+    "high": 0.9025
+  },
+  "test_band": {
+    "low": 0.78,
+    "high": 0.9025,
+    "tp": 49.44041867954911,
+    "fp": 15.598967297762483,
+    "fn": 0.5595813204508857,
+    "tn": 934.4010327022376,
+    "reviews": 416.8482071834613,
+    "review_share": 0.4168482071834613,
+    "flagged": 65.0393859773116,
+    "cost": 2013.7646860734867
+  },
+  "bootstrap_ci_cost": [
+    1294.106839134777,
+    2797.30572421963
+  ],
+  "t_star_if_calibrated": 0.9947916666666666,
+  "leakage": {
+    "exact_duplicate_sealed_pages": {
+      "val": 25,
+      "test": 17
+    },
+    "clean_band": {
+      "low": 0.78,
+      "high": 0.9025
+    },
+    "clean_test_band": {
+      "low": 0.78,
+      "high": 0.9025,
+      "tp": 49.21800947867298,
+      "fp": 17.416666666666668,
+      "fn": 0.7819905213270143,
+      "tn": 932.5833333333334,
+      "reviews": 105.15743313177535,
+      "review_share": 0.10515743313177535,
+      "flagged": 66.63467614533965,
+      "cost": 2312.8617489241165
+    }
+  },
+  "staffing": {
+    "reviewed_per_day": 250.10892431007676,
+    "flagged_per_day": 39.02363158638696,
+    "hours_per_day": 8.588179633648467,
+    "associates": 1.4313632722747445
+  },
+  "costs": {
+    "fn": 2000.0,
+    "flag": 10.416666666666666,
+    "review": 0.5208333333333334,
+    "base_rate": 0.05,
+    "associate_recall": 0.95,
+    "associate_specificity": 0.99,
+    "pages_per_day": 600
+  }
+}
