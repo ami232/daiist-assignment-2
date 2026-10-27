@@ -1,0 +1,200 @@
+{
+  "box_metrics": {
+    "map50": 0.9352551535623519,
+    "map50_95": 0.6462405675071876,
+    "per_class": {
+      "Mask": {
+        "precision": 0.9319543079503418,
+        "recall": 0.87421557334635,
+        "ap50": 0.9176803651894992,
+        "ap50_95": 0.6063549430721841
+      },
+      "NO-Mask": {
+        "precision": 0.9514967984358509,
+        "recall": 0.9220183486238532,
+        "ap50": 0.9528299419352045,
+        "ap50_95": 0.6861261919421913
+      }
+    },
+    "confusion_matrix_conf0.25": [
+      [
+        295.0,
+        3.0,
+        35.0
+      ],
+      [
+        4.0,
+        208.0,
+        12.0
+      ],
+      [
+        30.0,
+        7.0,
+        0.0
+      ]
+    ],
+    "confusion_matrix_labels": [
+      "Mask",
+      "NO-Mask",
+      "background"
+    ]
+  },
+  "image_level_baselines": {
+    "finetuned (conf>=0.25)": {
+      "tp": 157,
+      "fp": 2,
+      "fn": 1,
+      "tn": 193,
+      "precision": 0.9874213836477987,
+      "recall": 0.9936708860759493
+    },
+    "COCO zero-shot, person = NO-Mask": {
+      "tp": 157,
+      "fp": 115,
+      "fn": 1,
+      "tn": 80,
+      "precision": 0.5772058823529411,
+      "recall": 0.9936708860759493
+    },
+    "predict nothing": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 158,
+      "tn": 195,
+      "precision": null,
+      "recall": 0.0
+    }
+  },
+  "designs": {
+    "do nothing (pass everyone)": {
+      "t_low": 1.01,
+      "t_high": 1.01,
+      "cost_per_1000": 6000.0,
+      "cost_per_day": 6000.0,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "people_needed": 0.0,
+      "tpr": 0.0,
+      "rev_pos": 0.0,
+      "fnr": 1.0,
+      "fpr": 0.0,
+      "rev_neg": 0.0,
+      "tnr": 1.0
+    },
+    "person checks everything": {
+      "t_low": 0.0,
+      "t_high": 1.01,
+      "cost_per_1000": 330.29333333333335,
+      "cost_per_day": 330.29333333333335,
+      "review_share": 1.0,
+      "reviews_per_day": 1000.0,
+      "review_minutes_per_day": 500.0,
+      "people_needed": 1.1904761904761905,
+      "tpr": 0.0,
+      "rev_pos": 1.0,
+      "fnr": 0.0,
+      "fpr": 0.0,
+      "rev_neg": 1.0,
+      "tnr": 0.0
+    },
+    "model alone (best single threshold)": {
+      "t_low": 0.1,
+      "t_high": 0.1,
+      "cost_per_1000": 70.11587147030185,
+      "cost_per_day": 70.11587147030185,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "people_needed": 0.0,
+      "tpr": 0.9936708860759493,
+      "rev_pos": 0.0,
+      "fnr": 0.006329113924050633,
+      "fpr": 0.03076923076923077,
+      "rev_neg": 0.0,
+      "tnr": 0.9692307692307692
+    },
+    "model + human review (best two thresholds)": {
+      "t_low": 0.1,
+      "t_high": 0.72,
+      "cost_per_1000": 54.100194741966895,
+      "cost_per_day": 54.100194741966895,
+      "review_share": 0.03141966893865628,
+      "reviews_per_day": 31.419668938656283,
+      "review_minutes_per_day": 15.709834469328142,
+      "people_needed": 0.03740436778411462,
+      "tpr": 0.930379746835443,
+      "rev_pos": 0.06329113924050633,
+      "fnr": 0.006329113924050633,
+      "fpr": 0.0,
+      "rev_neg": 0.03076923076923077,
+      "tnr": 0.9692307692307692
+    }
+  },
+  "designs_on_valid": {
+    "do nothing (pass everyone)": {
+      "t_low": 1.01,
+      "t_high": 1.01,
+      "cost_per_1000": 6000.0,
+      "cost_per_day": 6000.0,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "people_needed": 0.0,
+      "tpr": 0.0,
+      "rev_pos": 0.0,
+      "fnr": 1.0,
+      "fpr": 0.0,
+      "rev_neg": 0.0,
+      "tnr": 1.0
+    },
+    "person checks everything": {
+      "t_low": 0.0,
+      "t_high": 1.01,
+      "cost_per_1000": 330.29333333333335,
+      "cost_per_day": 330.29333333333335,
+      "review_share": 1.0,
+      "reviews_per_day": 1000.0,
+      "review_minutes_per_day": 500.0,
+      "people_needed": 1.1904761904761905,
+      "tpr": 0.0,
+      "rev_pos": 1.0,
+      "fnr": 0.0,
+      "fpr": 0.0,
+      "rev_neg": 1.0,
+      "tnr": 0.0
+    },
+    "model alone (best single threshold)": {
+      "t_low": 0.1,
+      "t_high": 0.1,
+      "cost_per_1000": 40.786279683377316,
+      "cost_per_day": 40.786279683377316,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "people_needed": 0.0,
+      "tpr": 1.0,
+      "rev_pos": 0.0,
+      "fnr": 0.0,
+      "fpr": 0.0395778364116095,
+      "rev_neg": 0.0,
+      "tnr": 0.9604221635883905
+    },
+    "model + human review (best two thresholds)": {
+      "t_low": 0.1,
+      "t_high": 0.72,
+      "cost_per_1000": 17.821412376041895,
+      "cost_per_day": 17.821412376041895,
+      "review_share": 0.03711795889714604,
+      "reviews_per_day": 37.11795889714604,
+      "review_minutes_per_day": 18.55897944857302,
+      "people_needed": 0.04418804630612624,
+      "tpr": 0.9541284403669725,
+      "rev_pos": 0.045871559633027525,
+      "fnr": 0.0,
+      "fpr": 0.002638522427440633,
+      "rev_neg": 0.036939313984168866,
+      "tnr": 0.9604221635883905
+    }
+  }
+}
