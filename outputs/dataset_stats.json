@@ -1,0 +1,53 @@
+{
+  "splits": {
+    "train": {
+      "images": 504,
+      "images_with_positive": 237
+    },
+    "val": {
+      "images": 48,
+      "images_with_positive": 26
+    },
+    "test": {
+      "images": 24,
+      "images_with_positive": 15
+    }
+  },
+  "instances": {
+    "train": {
+      "fresh-apple": 207,
+      "fresh-banana": 159,
+      "rotten-apple": 147,
+      "rotten-banana": 180
+    },
+    "val": {
+      "fresh-apple": 11,
+      "fresh-banana": 16,
+      "rotten-apple": 21,
+      "rotten-banana": 14
+    },
+    "test": {
+      "fresh-apple": 8,
+      "fresh-banana": 3,
+      "rotten-apple": 13,
+      "rotten-banana": 10
+    }
+  },
+  "box_area_fraction": {
+    "train": {
+      "median": 0.39331957574426774,
+      "p10": 0.14330599632488905,
+      "p90": 0.7302025067030327
+    },
+    "val": {
+      "median": 0.36298943694526625,
+      "p10": 0.17077506703032547,
+      "p90": 0.6385142670580621
+    },
+    "test": {
+      "median": 0.27969775679548814,
+      "p10": 0.1571485530695266,
+      "p90": 0.615344743897929
+    }
+  }
+}
