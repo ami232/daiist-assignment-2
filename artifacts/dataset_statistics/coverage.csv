@@ -1,0 +1,4 @@
+Split,Images,Missing label file,Empty label file,Any annotated anomaly,Panel only,Contains bird_drop,Contains cracked,Contains dusty
+train,4546,0,0,2724,1822,6,2605,113
+valid,1299,0,0,748,551,3,718,27
+test,648,0,0,387,261,0,371,16

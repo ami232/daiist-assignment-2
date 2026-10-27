@@ -1,0 +1,13 @@
+Model,Class,Test instances,Precision,Recall,AP50,AP50–95
+Fine-tuned YOLO11n,bird_drop,0,,,,
+Fine-tuned YOLO11n,cracked,946,0.9161356781760128,0.7283298097251586,0.8980959328259793,0.6876467907912022
+Fine-tuned YOLO11n,dusty,32,0.8798978739228803,0.90625,0.9477693461826995,0.7688145039578709
+Fine-tuned YOLO11n,panel,615,0.961518329362171,0.9560975609756097,0.9829775885292726,0.9097644039118684
+COCO — no target-class outputs,bird_drop,0,,,,
+COCO — no target-class outputs,cracked,946,,0.0,0.0,0.0
+COCO — no target-class outputs,dusty,32,,0.0,0.0,0.0
+COCO — no target-class outputs,panel,615,,0.0,0.0,0.0
+Predict nothing,bird_drop,0,,,,
+Predict nothing,cracked,946,,0.0,0.0,0.0
+Predict nothing,dusty,32,,0.0,0.0,0.0
+Predict nothing,panel,615,,0.0,0.0,0.0

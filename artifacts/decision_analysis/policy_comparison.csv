@@ -1,0 +1,4 @@
+Policy,Cost per 1000 (€),Review share
+Review everything,200.0,1.0
+Review nothing,500.0,0.0
+Model-selected review,26.51028271397654,0.12586692159127305

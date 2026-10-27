@@ -1,0 +1,11 @@
+{
+  "daily_images": 1000,
+  "production_prevalence": 0.1,
+  "review_seconds": 30,
+  "labour_eur_per_hour": 24,
+  "missed_anomaly_cost_eur": 5,
+  "productive_hours_per_person": 6,
+  "human_review_assumed_correct": true,
+  "review_cost_eur": 0.2,
+  "incident_cost_eur": 1.0
+}

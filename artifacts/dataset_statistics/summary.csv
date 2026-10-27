@@ -1,0 +1,4 @@
+Split,Images,bird_drop,cracked,dusty,panel
+train,4546,57,6298,251,4425
+valid,1299,24,1796,68,1279
+test,648,0,946,32,615

@@ -1,0 +1,5 @@
+Policy,Cost per 1000 (€),Photo review share,Automatic incident share
+Do nothing,500.0,0.0,0.0
+Review every photograph,300.00000000000006,1.0,0.0
+Model alone — automatic pass/fail,126.10518551588268,0.0,0.12409983792229977
+Hybrid — pass/review/fail,112.16839581897766,0.030993478070984203,0.09487344352028884

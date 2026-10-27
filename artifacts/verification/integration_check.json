@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-27",
+  "source_commit": "a12f353fe0c1bbbe115751feefdcc48db23ac7fe",
+  "scope": "Real end-to-end integration run on the complete public dataset; reduced training configuration, isolated copy",
+  "command": "TRAIN_DEVICE=mps python main.py train",
+  "dataset": {
+    "workspace": "susan-ifblr",
+    "project": "panel-solar-bw945",
+    "version": 1,
+    "train_images": 4546,
+    "validation_images": 1299,
+    "test_images": 648
+  },
+  "integration_configuration": {
+    "epochs": 1,
+    "imgsz": 160,
+    "batch": 16,
+    "device": "Apple M2 MPS"
+  },
+  "production_configuration": {
+    "epochs": 30,
+    "imgsz": 640,
+    "batch": 16
+  },
+  "pipeline_exit_code": 0,
+  "generated_artifacts_submission_check_exit_code": 0,
+  "original_submission_check_exit_code": 0,
+  "unit_tests_passed": 6,
+  "completed_stages": [
+    "API-key loading",
+    "public dataset download",
+    "mixed-label conversion",
+    "dataset statistics and duplicate audit",
+    "real finetuning",
+    "test detection evaluation",
+    "reference confusion matrix",
+    "validation and test image scoring",
+    "validation threshold optimization",
+    "sensitivity analysis",
+    "frozen-policy test evaluation",
+    "unchanged COCO inference",
+    "trivial baseline export",
+    "artifact publication",
+    "dashboard startup with generated artifacts"
+  ],
+  "submitted_weights_sha256": "336d4137c59d33166215ec8678ecc2fcbe935fad510e9122b0928ad21bd72bb0",
+  "submitted_model": "Original completed 30-epoch Colab run at 640 pixels; integration-test checkpoint was not substituted",
+  "limitations": "The integrated production configuration was not rerun for a second complete 30-epoch execution. Reduced integration metrics do not replace submitted evaluation metrics."
+}

@@ -1,0 +1,9 @@
+Model,Class,Test instances,Target predictions,Precision,Recall,AP50,AP50–95
+COCO — no target-class outputs,bird_drop,0,0,,,,
+COCO — no target-class outputs,cracked,946,0,,0.0,0.0,0.0
+COCO — no target-class outputs,dusty,32,0,,0.0,0.0,0.0
+COCO — no target-class outputs,panel,615,0,,0.0,0.0,0.0
+Predict nothing,bird_drop,0,0,,,,
+Predict nothing,cracked,946,0,,0.0,0.0,0.0
+Predict nothing,dusty,32,0,,0.0,0.0,0.0
+Predict nothing,panel,615,0,,0.0,0.0,0.0
