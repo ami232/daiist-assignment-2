@@ -1,26 +1,172 @@
 """
-Assignment 2: Gradio dashboard.
+Assignment 2: Gradio dashboard for X-ray baggage screening.
 
-You're using a script for this stage. If you'd rather use a notebook,
-write app.ipynb instead and delete this file. main.py refuses to run if
-it finds both app.py and app.ipynb, so exactly one of them must exist.
+    uv run python main.py app      # then open http://127.0.0.1:7860
 
-Replace this docstring and everything below it with your own code. When run
-via uv run python main.py app, this file must build and launch a Gradio app
-(a demo that calls .launch()) using only what your training stage already
-produced. It must never train anything itself. Load the committed weights in
-weights/, never whatever the training run left in runs/.
-
-At minimum, the dashboard must let you:
-
-- Upload an image and see the model's predictions at the current threshold.
-- Move the two edges of your escalation band and watch the confusion matrix,
-  the expected cost per 1,000 units, and the share of cases escalated to a
-  human all change together.
-- See the cost-against-threshold curve with your chosen operating point marked
-  on it.
-- See per-class performance, not just the overall number.
-
-How you structure the code beyond that is your call to make and be able to
-defend: file layout, function boundaries, naming.
+Nothing is trained here. It loads weights/best.pt, the validation and test bag
+scores (costing.py, from artifacts/val_predictions.json and test_predictions.json)
+and artifacts/metrics.json. The chosen policy is costing.chosen_pair: the
+cost-optimal (t_low, t_high) on the validation split. Costs are on the test
+split; the curve also shows validation.
 """
+
+import json
+import os
+from pathlib import Path
+
+import matplotlib
+
+matplotlib.use("Agg")
+import gradio as gr
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+from ultralytics import YOLO
+
+import costing
+
+ROOT = Path(__file__).resolve().parent
+PORT = int(os.environ.get("APP_PORT", "7860"))  # check.py reads the same variable
+DECISIONS = {"pass": "Pass", "review": "Screener", "search": "Manual search"}
+
+METRICS = json.loads((ROOT / "artifacts" / "metrics.json").read_text())
+IMGSZ = int(METRICS.get("settings", {}).get("imgsz", 512))  # the size the model was evaluated at
+MODEL = YOLO(str(ROOT / "weights" / "best.pt"))
+VAL, SCORES = costing.load_splits()  # thresholds chosen on VAL, everything shown on SCORES (test)
+K = costing.DEFAULT_COSTS
+T_LOW, T_HIGH = costing.chosen_pair(VAL, K)
+CHOSEN_COST = costing.evaluate(SCORES, T_LOW, T_HIGH, K)["cost_per_1000"]
+
+ASSUMPTIONS = (
+    "Missed threat: " + ", ".join(f"{c.lower()} €{K.miss_cost(c):,.0f}" for c in costing.SEVERITY)
+    + ". Threat bags by most severe object (assumed mix): "
+    + ", ".join(f"{c.lower()} {100 * v:g}%" for c, v in costing.THREAT_MIX.items())
+    + f". Manual search €{K.fp:g}, screener check €{K.review:.2f}. "
+    f"Base rate 1 threat bag in {1 / K.base_rate:,.0f}. Screener catches {100 * K.reviewer_catch:g}% of threats "
+    "and never sends a clean bag to search. Thresholds chosen on the validation split. Costs are on the test split; the curve also shows validation."
+)
+
+
+def decide(score: float, t_low: float, t_high: float) -> str:
+    if score < t_low:
+        return "pass"
+    return "review" if score < t_high else "search"
+
+
+def cost_curve(t_low: float, t_high: float, cost: float):
+    """Policy cost as t_low varies with t_high at the slider value, so the curve passes through the KPI."""
+    fig, ax = plt.subplots(figsize=(8, 3.6), dpi=110)
+    grid = costing.GRID  # the 0.01 grid the thresholds are chosen on
+    curve = costing.policy_curve(SCORES, t_high, K, grid)
+    val_curve = costing.policy_curve(VAL, t_high, K, grid)
+    ax.plot(grid, val_curve, color="#a3a29b", lw=1.5, ls="--", marker=".", ms=3,
+            label="Validation bags (thresholds chosen here)")
+    ax.plot(grid, curve, color="#2a78d6", lw=2, marker=".", ms=3, label="Test bags (cost reported)")
+    ax.axvline(t_high, color="#52514e", ls=":", lw=1)
+    ax.plot([T_LOW], [CHOSEN_COST], "o", ms=9, color="#2a78d6", mec="white", mew=1.5,
+            label=f"Chosen policy {T_LOW:g} / {T_HIGH:g}: €{CHOSEN_COST:,.0f}")
+    ax.plot([t_low], [cost], "D", ms=7, color="#d6532a", label=f"Sliders {t_low:g} / {t_high:g}: €{cost:,.0f}")
+    ax.set(xlim=(0, min(1.0, max(t_high, 0.05) * 1.1)), xlabel=f"t_low (t_high fixed at {t_high:g})",
+           ylabel="Cost per 1,000 bags")
+    costing.eur_axis(ax)
+    lo, hi = np.nanmin([curve, val_curve]), np.nanmax([curve, val_curve])
+    ax.set_ylim(lo / 1.5, hi * 3)  # headroom so the top of the curve and the legend never get clipped
+    ax.grid(alpha=0.3)
+    ax.spines[["top", "right"]].set_visible(False)
+    ax.legend(frameon=False, fontsize=9, loc="upper right")
+    fig.tight_layout()
+    plt.close(fig)
+    return fig
+
+
+def update(t_low: float, t_high: float):
+    """Cost, shares, confusion matrix and curve for one pair of thresholds."""
+    r = costing.evaluate(SCORES, t_low, t_high, K)
+    n = r["counts"]
+    matrix = pd.DataFrame(
+        [[f"{label} ({sum(n[kind].values())})"] + [n[kind][o] for o in DECISIONS]
+         for label, kind in [("Threat bags", "threat"), ("Clean stand-ins", "clean")]],
+        columns=["Test bags", *DECISIONS.values()],
+    )
+    return (f"€{r['cost_per_1000']:,.0f}", f"{100 * r['review_share']:.1f}%", f"{100 * r['search_share']:.1f}%",
+            matrix, cost_curve(t_low, t_high, r["cost_per_1000"]))
+
+
+def screen(image, t_low: float, t_high: float):
+    """Boxes at or above t_low on the image, the bag decision, and a box table."""
+    if image is None:
+        return None, "", None
+    res = MODEL.predict(image, imgsz=IMGSZ, conf=0.001, verbose=False)[0]
+    score = float(res.boxes.conf.max()) if len(res.boxes) else 0.0  # bag score: highest box
+    shown = res[res.boxes.conf >= t_low]
+    boxes = pd.DataFrame(
+        [(MODEL.names[int(c)], round(float(p), 3)) for c, p in zip(shown.boxes.cls, shown.boxes.conf)],
+        columns=["Class", "Confidence"],
+    )
+    verdict = f"### {DECISIONS[decide(score, t_low, t_high)]} (highest box {score:.3f})"
+    return shown.plot()[..., ::-1], verdict, boxes
+
+
+FINETUNED = METRICS[costing.model_key(METRICS)]
+
+
+def per_class() -> pd.DataFrame:
+    rows = [(c, v["ap50"], v["precision@0.25"], v["recall@0.25"]) for c, v in FINETUNED["per_class"].items()]
+    return pd.DataFrame(rows, columns=["Class", "AP50", "Precision", "Recall"]).round(3)
+
+
+def keep_low(lo, hi):
+    return lo, max(lo, hi)
+
+
+def keep_high(lo, hi):
+    return min(lo, hi), hi
+
+
+with gr.Blocks(title="X-ray baggage screening", analytics_enabled=False) as demo:
+    gr.Markdown("# X-ray baggage screening\n"
+                "A bag passes below t_low, a screener checks it between, and it is searched by hand from t_high.")
+    with gr.Row():
+        lo = gr.Slider(0.001, 0.99, value=T_LOW, step=0.001, label="t_low (pass below)")
+        hi = gr.Slider(0.001, 0.99, value=T_HIGH, step=0.001, label="t_high (manual search from)")
+    reset = gr.Button(f"Reset to chosen policy ({T_LOW:g} / {T_HIGH:g})", size="sm")
+    with gr.Accordion("Assumptions", open=False):
+        gr.Markdown(ASSUMPTIONS)
+
+    with gr.Tabs():
+        with gr.Tab("Cost"):
+            with gr.Row():
+                cost = gr.Textbox(label="Expected cost per 1,000 bags", interactive=False)
+                review = gr.Textbox(label="Sent to screener", interactive=False)
+                search = gr.Textbox(label="Sent to manual search", interactive=False)
+            matrix = gr.Dataframe(label="Confusion matrix, test-split bags (rows: truth, columns: decision)",
+                                  interactive=False)
+            curve = gr.Plot(show_label=False)
+        with gr.Tab("Upload a bag"):
+            with gr.Row():
+                image_in = gr.Image(type="pil", label="X-ray image")
+                image_out = gr.Image(label="Boxes at or above t_low")
+            verdict = gr.Markdown()
+            boxes = gr.Dataframe(headers=["Class", "Confidence"], interactive=False, show_label=False)
+        with gr.Tab("Per-class results"):
+            gr.Dataframe(per_class(), label="Finetuned model, test split (precision and recall at confidence 0.25)",
+                         interactive=False)
+            gr.Markdown(f"mAP50: finetuned {FINETUNED['map50']:.3f}, "
+                        f"COCO zero-shot {METRICS['coco_yolo11n_zero_shot']['map50']:.3f}, "
+                        f"predict nothing {METRICS['predict_nothing']['map50']:.3f}.")
+
+    views, bag = [cost, review, search, matrix, curve], [image_out, verdict, boxes]
+
+    def refresh(t_low, t_high, image):
+        return t_low, t_high, *update(t_low, t_high), *screen(image, t_low, t_high)
+
+    outs = [lo, hi, *views, *bag]
+    lo.input(lambda a, b, im: refresh(*keep_low(a, b), im), [lo, hi, image_in], outs, trigger_mode="always_last")
+    hi.input(lambda a, b, im: refresh(*keep_high(a, b), im), [lo, hi, image_in], outs, trigger_mode="always_last")
+    reset.click(lambda im: refresh(T_LOW, T_HIGH, im), [image_in], outs)
+    image_in.change(screen, [image_in, lo, hi], bag)
+    demo.load(update, [lo, hi], views)
+
+
+if __name__ == "__main__":
+    demo.launch(server_name="127.0.0.1", server_port=PORT)
