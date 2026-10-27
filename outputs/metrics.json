@@ -1,0 +1,114 @@
+{
+  "positive_class": "head",
+  "costs": {
+    "_note": "Assumptions to justify in REPORT.md. One case = one frame sampled every 5 min per camera.",
+    "positive_class": "head",
+    "c_fp": 2.5,
+    "c_fn": 50,
+    "c_tp": 2.5,
+    "c_tn": 0,
+    "base_rate": 0.02,
+    "c_review": 0.08,
+    "cameras": 20,
+    "hours_per_day": 10,
+    "frames_per_hour": 12,
+    "review_seconds": 15,
+    "human_miss_rate": 0.05,
+    "productive_hours_per_person": 6
+  },
+  "detection_test": {
+    "map50": 0.6610066373133878,
+    "map50_95": 0.4616394039110118,
+    "per_class": {
+      "head": {
+        "precision": 0.9458079799713341,
+        "recall": 0.918732782369146,
+        "ap50": 0.9685193633562185,
+        "ap50_95": 0.6804720895048156
+      },
+      "helmet": {
+        "precision": 0.9704782868320756,
+        "recall": 0.9357702349869451,
+        "ap50": 0.9849208794941281,
+        "ap50_95": 0.6867941760986896
+      },
+      "person": {
+        "precision": 1.0,
+        "recall": 0.0,
+        "ap50": 0.029579669089816872,
+        "ap50_95": 0.017651946129529965
+      }
+    }
+  },
+  "confusion_matrix_conf025": {
+    "matrix": [
+      [
+        691.0,
+        5.0,
+        0.0,
+        66.0
+      ],
+      [
+        15.0,
+        1856.0,
+        1.0,
+        131.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        20.0,
+        54.0,
+        63.0,
+        0.0
+      ]
+    ],
+    "labels": [
+      "head",
+      "helmet",
+      "person",
+      "background"
+    ],
+    "orientation": "rows=predicted, columns=true"
+  },
+  "prevalence": {
+    "valid": 0.18117480537862704,
+    "test": 0.19830028328611898,
+    "assumed_production": 0.02
+  },
+  "operating_point": {
+    "threshold": 0.42,
+    "selected_on": "valid",
+    "cost_per_1000_valid": 175.01890665514262,
+    "cost_per_1000_test": 174.71479050984354,
+    "tpr_test": 0.9142857142857143,
+    "fpr_test": 0.0176678445229682,
+    "cost_per_1000_never_alert": 1000.0,
+    "cost_per_1000_always_alert": 2500.0
+  },
+  "baselines_test": {
+    "finetuned_image_ap": {
+      "head": 0.9593505999015146,
+      "helmet": 0.9996537631526587,
+      "person": 0.03378903745994337
+    },
+    "coco_zero_shot_image_ap": {
+      "head": 0.19830028328611898,
+      "helmet": 0.9008498583569405,
+      "person": 0.0378096084800599
+    },
+    "coco_zero_shot_matching_classes": [
+      "person"
+    ],
+    "trivial_predict_nothing_image_ap": {
+      "head": 0.19830028328611898,
+      "helmet": 0.9008498583569405,
+      "person": 0.032577903682719546
+    },
+    "coco_zero_shot_cost_per_1000": 1000.0
+  }
+}

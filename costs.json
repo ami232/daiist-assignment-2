@@ -1,0 +1,16 @@
+{
+  "_note": "Assumptions to justify in REPORT.md. One case = one frame sampled every 5 min per camera.",
+  "positive_class": "head",
+  "c_fp": 2.5,
+  "c_fn": 50,
+  "c_tp": 2.5,
+  "c_tn": 0,
+  "base_rate": 0.02,
+  "c_review": 0.08,
+  "cameras": 20,
+  "hours_per_day": 10,
+  "frames_per_hour": 12,
+  "review_seconds": 15,
+  "human_miss_rate": 0.05,
+  "productive_hours_per_person": 6
+}

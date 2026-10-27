@@ -1,0 +1,16 @@
+{
+  "model": "yolo11s.pt",
+  "imgsz": 640,
+  "batch": 16,
+  "epochs_max": 25,
+  "epochs_run": 25,
+  "patience": 8,
+  "cache": "disk",
+  "fraction": 1.0,
+  "seed": 0,
+  "dataset": "joseph-nelson/hard-hat-workers/v10",
+  "device": "Tesla T4",
+  "torch": "2.14.1+cu132",
+  "ultralytics": "8.4.173",
+  "train_minutes": 32.2
+}

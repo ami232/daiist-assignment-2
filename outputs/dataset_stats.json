@@ -1,0 +1,63 @@
+{
+  "classes": [
+    "head",
+    "helmet",
+    "person"
+  ],
+  "splits": {
+    "train": {
+      "images": 4916,
+      "instances": {
+        "head": 4612,
+        "helmet": 13919,
+        "person": 450
+      },
+      "images_with_class": {
+        "head": 911,
+        "helmet": 4503,
+        "person": 154
+      },
+      "median_box_area_frac": {
+        "head": 0.005943270002675943,
+        "helmet": 0.00822289156626506,
+        "person": 0.08157580138332222
+      }
+    },
+    "valid": {
+      "images": 1413,
+      "instances": {
+        "head": 1339,
+        "helmet": 3913,
+        "person": 101
+      },
+      "images_with_class": {
+        "head": 256,
+        "helmet": 1297,
+        "person": 32
+      },
+      "median_box_area_frac": {
+        "head": 0.006174318030605456,
+        "helmet": 0.008648648648648649,
+        "person": 0.06203703703703704
+      }
+    },
+    "test": {
+      "images": 706,
+      "instances": {
+        "head": 726,
+        "helmet": 1915,
+        "person": 64
+      },
+      "images_with_class": {
+        "head": 140,
+        "helmet": 636,
+        "person": 23
+      },
+      "median_box_area_frac": {
+        "head": 0.006287435456110155,
+        "helmet": 0.008184615384615386,
+        "person": 0.08125593175593177
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "assumptions": {
+    "cases_per_day": 2400,
+    "human_miss_rate": 0.05,
+    "productive_hours_per_person": 6,
+    "base_rate": 0.02
+  },
+  "bands": {
+    "t_low": 0.08,
+    "t_high": 0.84,
+    "selected_on": "valid",
+    "cost_per_1000_valid": 110.32745178802938
+  },
+  "hybrid_test": {
+    "cost_per_1000": 133.60047198384655,
+    "share_pass": 0.9257364967188288,
+    "share_review": 0.062103483089348814,
+    "share_alert": 0.012160020191822312,
+    "real_cases_missed_share": 0.0015642857142857142,
+    "cost_per_day": 320.64113276123175,
+    "alerts_per_day": 29.18404846037355,
+    "reviews_per_day": 149.04835941443716,
+    "review_hours_per_day": 0.6210348308934882,
+    "people_needed": 0.1035058051489147
+  },
+  "model_alone_test": {
+    "threshold": 0.42,
+    "cost_per_1000": 174.7147905098435,
+    "share_pass": 0.9643997980817768,
+    "share_review": 0.0,
+    "share_alert": 0.03560020191822312,
+    "real_cases_missed_share": 0.0017142857142857144,
+    "cost_per_day": 419.31549722362445,
+    "alerts_per_day": 85.44048460373548,
+    "reviews_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "people_needed": 0.0
+  },
+  "do_nothing": {
+    "cost_per_1000": 1000.0,
+    "cost_per_day": 2400.0
+  },
+  "alert_every_case": {
+    "cost_per_1000": 2500.0,
+    "cost_per_day": 6000.0
+  },
+  "person_checks_everything": {
+    "cost_per_1000": 177.5,
+    "cost_per_day": 426.0,
+    "review_hours_per_day": 10.0,
+    "people_needed": 1.6666666666666667
+  }
+}
