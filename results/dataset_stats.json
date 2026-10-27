@@ -1,0 +1,82 @@
+{
+  "dataset": "workspace-4nvpa/welding_defects-vwoj6/v1",
+  "classes": [
+    "Bad Weld",
+    "Defect",
+    "Good Weld"
+  ],
+  "splits": {
+    "train": {
+      "images": 2502,
+      "unique_source_images": 542,
+      "images_without_labels": 0,
+      "images_with_a_defective_weld": 1875,
+      "images_with_only_good_welds": 627,
+      "instances": {
+        "Bad Weld": 2187,
+        "Defect": 3842,
+        "Good Weld": 3292
+      }
+    },
+    "val": {
+      "images": 176,
+      "unique_source_images": 176,
+      "images_without_labels": 0,
+      "images_with_a_defective_weld": 104,
+      "images_with_only_good_welds": 72,
+      "instances": {
+        "Bad Weld": 127,
+        "Defect": 193,
+        "Good Weld": 253
+      }
+    },
+    "test": {
+      "images": 74,
+      "unique_source_images": 74,
+      "images_without_labels": 0,
+      "images_with_a_defective_weld": 45,
+      "images_with_only_good_welds": 29,
+      "instances": {
+        "Bad Weld": 67,
+        "Defect": 66,
+        "Good Weld": 76
+      }
+    }
+  },
+  "object_size": {
+    "Bad Weld": {
+      "median_width": 0.22265625,
+      "median_height": 0.2236328125,
+      "median_area_share": 0.057277679443359375,
+      "p10_area_share": 0.010814666748046875,
+      "p90_area_share": 0.20175933837890625
+    },
+    "Defect": {
+      "median_width": 0.123046875,
+      "median_height": 0.115234375,
+      "median_area_share": 0.01462554931640625,
+      "p10_area_share": 0.00432586669921875,
+      "p90_area_share": 0.059326171875
+    },
+    "Good Weld": {
+      "median_width": 0.177734375,
+      "median_height": 0.185546875,
+      "median_area_share": 0.030487060546875,
+      "p10_area_share": 0.0082244873046875,
+      "p90_area_share": 0.13090896606445312
+    }
+  },
+  "defect_boxes_inside_a_weld_box_share": 0.6747134845159717,
+  "leakage": {
+    "val": {
+      "images": 176,
+      "same_source_name_as_train": 0,
+      "near_duplicate_of_a_train_image": 19
+    },
+    "test": {
+      "images": 74,
+      "same_source_name_as_train": 1,
+      "near_duplicate_of_a_train_image": 11
+    }
+  }
+}

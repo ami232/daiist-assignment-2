@@ -1,0 +1,264 @@
+{
+  "assumptions": {
+    "fp_cost": 2.0,
+    "tp_cost": 6.0,
+    "fn_cost": 140.0,
+    "tn_cost": 0.0,
+    "base_rate": 0.01,
+    "review_seconds": 20.0,
+    "labour_eur_per_hour": 25.0,
+    "reviewer_sensitivity": 0.85,
+    "reviewer_false_alarm": 0.03,
+    "productive_hours_per_reviewer": 6.0,
+    "welds_per_day": 9000,
+    "review_cost": 0.1388888888888889
+  },
+  "max_reviewers": 2.0,
+  "ideal_posterior_threshold": 0.014705882352941176,
+  "chosen_on": "validation split",
+  "reported_on": "test split",
+  "model_alone": {
+    "threshold": 0.76,
+    "t_low": 0.76,
+    "t_high": 0.76,
+    "val": {
+      "t_low": 0.76,
+      "t_high": 0.76,
+      "counts": {
+        "n_pos": 320,
+        "n_neg": 253,
+        "pos_pass": 244,
+        "pos_review": 0,
+        "pos_fail": 76,
+        "neg_pass": 242,
+        "neg_review": 0,
+        "neg_fail": 11,
+        "spurious_review": 0,
+        "spurious_fail": 2
+      },
+      "tpr_fail": 0.2375,
+      "tpr_review": 0.0,
+      "tpr_pass": 0.7625,
+      "fpr_fail": 0.05138339920948617,
+      "fpr_review": 0.0,
+      "cost_per_1000": 1183.4891304347825,
+      "cost_per_day": 10651.402173913042,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "reviewers": 0.0,
+      "per_1000": {
+        "TP": 2.375,
+        "FN": 7.625,
+        "FP": 50.869565217391305,
+        "TN": 946.9565217391305
+      }
+    },
+    "test": {
+      "t_low": 0.76,
+      "t_high": 0.76,
+      "counts": {
+        "n_pos": 133,
+        "n_neg": 76,
+        "pos_pass": 108,
+        "pos_review": 0,
+        "pos_fail": 25,
+        "neg_pass": 73,
+        "neg_review": 0,
+        "neg_fail": 3,
+        "spurious_review": 0,
+        "spurious_fail": 0
+      },
+      "tpr_fail": 0.18796992481203006,
+      "tpr_review": 0.0,
+      "tpr_pass": 0.8120300751879699,
+      "fpr_fail": 0.039473684210526314,
+      "fpr_review": 0.0,
+      "cost_per_1000": 1226.2781954887218,
+      "cost_per_day": 11036.503759398496,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "reviewers": 0.0,
+      "per_1000": {
+        "TP": 1.8796992481203008,
+        "FN": 8.120300751879698,
+        "FP": 39.07894736842105,
+        "TN": 950.921052631579
+      }
+    }
+  },
+  "model_plus_review": {
+    "t_low": 0.52,
+    "t_high": 0.84,
+    "val": {
+      "t_low": 0.52,
+      "t_high": 0.84,
+      "counts": {
+        "n_pos": 320,
+        "n_neg": 253,
+        "pos_pass": 165,
+        "pos_review": 133,
+        "pos_fail": 22,
+        "neg_pass": 216,
+        "neg_review": 35,
+        "neg_fail": 2,
+        "spurious_review": 25,
+        "spurious_fail": 0
+      },
+      "tpr_fail": 0.06875,
+      "tpr_review": 0.415625,
+      "tpr_pass": 0.515625,
+      "fpr_fail": 0.007905138339920948,
+      "fpr_review": 0.23715415019762845,
+      "cost_per_1000": 897.4032080314012,
+      "cost_per_day": 8076.62887228261,
+      "review_share": 0.23893885869565215,
+      "reviews_per_day": 2150.4497282608695,
+      "reviewers": 1.9911571557971015,
+      "per_1000": {
+        "TP": 4.2203124999999995,
+        "FN": 5.7796875000000005,
+        "FP": 14.869565217391305,
+        "TN": 978.0652173913043
+      }
+    },
+    "test": {
+      "t_low": 0.52,
+      "t_high": 0.84,
+      "counts": {
+        "n_pos": 133,
+        "n_neg": 76,
+        "pos_pass": 74,
+        "pos_review": 52,
+        "pos_fail": 7,
+        "neg_pass": 69,
+        "neg_review": 7,
+        "neg_fail": 0,
+        "spurious_review": 17,
+        "spurious_fail": 0
+      },
+      "tpr_fail": 0.05263157894736842,
+      "tpr_review": 0.39097744360902253,
+      "tpr_pass": 0.556390977443609,
+      "fpr_fail": 0.0,
+      "fpr_review": 0.3157894736842105,
+      "cost_per_1000": 946.8723475355054,
+      "cost_per_day": 8521.851127819547,
+      "review_share": 0.3165413533834587,
+      "reviews_per_day": 2848.8721804511283,
+      "reviewers": 2.6378446115288225,
+      "per_1000": {
+        "TP": 3.8496240601503757,
+        "FN": 6.150375939849624,
+        "FP": 9.378947368421052,
+        "TN": 987.2644736842105
+      }
+    }
+  },
+  "model_plus_review_unconstrained": {
+    "t_low": 0.23,
+    "t_high": 0.86,
+    "val": {
+      "t_low": 0.23,
+      "t_high": 0.86,
+      "counts": {
+        "n_pos": 320,
+        "n_neg": 253,
+        "pos_pass": 108,
+        "pos_review": 206,
+        "pos_fail": 6,
+        "neg_pass": 197,
+        "neg_review": 56,
+        "neg_fail": 0,
+        "spurious_review": 88,
+        "spurious_fail": 0
+      },
+      "tpr_fail": 0.01875,
+      "tpr_review": 0.64375,
+      "tpr_pass": 0.3375,
+      "fpr_fail": 0.0,
+      "fpr_review": 0.5691699604743083,
+      "cost_per_1000": 754.6074124396138,
+      "cost_per_day": 6791.466711956524,
+      "review_share": 0.5699157608695652,
+      "reviews_per_day": 5129.241847826087,
+      "reviewers": 4.749298007246377,
+      "per_1000": {
+        "TP": 5.659375000000001,
+        "FN": 4.340625,
+        "FP": 16.90434782608696,
+        "TN": 983.4260869565217
+      }
+    },
+    "test": {
+      "t_low": 0.23,
+      "t_high": 0.86,
+      "counts": {
+        "n_pos": 133,
+        "n_neg": 76,
+        "pos_pass": 55,
+        "pos_review": 73,
+        "pos_fail": 5,
+        "neg_pass": 66,
+        "neg_review": 10,
+        "neg_fail": 0,
+        "spurious_review": 50,
+        "spurious_fail": 0
+      },
+      "tpr_fail": 0.03759398496240601,
+      "tpr_review": 0.5488721804511278,
+      "tpr_pass": 0.41353383458646614,
+      "fpr_fail": 0.0,
+      "fpr_review": 0.7894736842105263,
+      "cost_per_1000": 880.6683375104428,
+      "cost_per_day": 7926.015037593986,
+      "review_share": 0.7870676691729324,
+      "reviews_per_day": 7083.609022556391,
+      "reviewers": 6.5588972431077694,
+      "per_1000": {
+        "TP": 5.041353383458647,
+        "FN": 4.958646616541353,
+        "FP": 23.447368421052634,
+        "TN": 986.0921052631579
+      }
+    }
+  },
+  "options_test": {
+    "do_nothing": {
+      "cost_per_case": 1.4000000000000001,
+      "cost_per_1000": 1400.0000000000002,
+      "cost_per_day": 12600.000000000002,
+      "review_share": 0.0,
+      "reviewers": 0.0
+    },
+    "human_everything": {
+      "cost_per_case": 0.4592888888888889,
+      "cost_per_1000": 459.2888888888889,
+      "cost_per_day": 4133.6,
+      "review_share": 1.0,
+      "reviewers": 8.333333333333334
+    },
+    "flag_everything": {
+      "cost_per_case": 2.04,
+      "cost_per_1000": 2040.0,
+      "cost_per_day": 18360.0,
+      "review_share": 0.0,
+      "reviewers": 0.0
+    }
+  },
+  "dataset_defective_share": {
+    "val": 0.5584642233856894,
+    "test": 0.6363636363636364
+  },
+  "n_cases": {
+    "val": {
+      "defective": 320,
+      "good": 253,
+      "spurious": 281
+    },
+    "test": {
+      "defective": 133,
+      "good": 76,
+      "spurious": 146
+    }
+  }
+}

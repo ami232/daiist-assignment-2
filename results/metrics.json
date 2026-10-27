@@ -1,0 +1,215 @@
+{
+  "config": {
+    "model": "yolo11n.pt",
+    "epochs_requested": 60,
+    "epochs_run": 60,
+    "patience": 20,
+    "imgsz": 512,
+    "batch": 16,
+    "seed": 0,
+    "training_minutes": 26.9,
+    "dataset": "workspace-4nvpa/welding_defects-vwoj6/v1",
+    "device": "Tesla T4",
+    "ultralytics": "8.4.190",
+    "torch": "2.11.0+cu130",
+    "smoke_test": false,
+    "classes": [
+      "Bad Weld",
+      "Defect",
+      "Good Weld"
+    ]
+  },
+  "val": {
+    "overall": {
+      "precision": 0.6622932657397048,
+      "recall": 0.6157019803516017,
+      "ap50": 0.6321508876605723,
+      "map50_95": 0.36760564915614646
+    },
+    "per_class": [
+      {
+        "class": "Bad Weld",
+        "instances": 127,
+        "precision": 0.6501528023625077,
+        "recall": 0.7637795275590551,
+        "ap50": 0.7090407110062823,
+        "map50_95": 0.4418453171816471
+      },
+      {
+        "class": "Defect",
+        "instances": 193,
+        "precision": 0.5825218560269467,
+        "recall": 0.40414507772020725,
+        "ap50": 0.4490135112129021,
+        "map50_95": 0.19129596199350635
+      },
+      {
+        "class": "Good Weld",
+        "instances": 253,
+        "precision": 0.7542051388296601,
+        "recall": 0.6791813357755426,
+        "ap50": 0.7383984407625326,
+        "map50_95": 0.46967566829328594
+      }
+    ],
+    "confusion_matrix": [
+      [
+        96.0,
+        10.0,
+        43.0,
+        471.0
+      ],
+      [
+        10.0,
+        132.0,
+        5.0,
+        2290.0
+      ],
+      [
+        19.0,
+        11.0,
+        191.0,
+        1073.0
+      ],
+      [
+        2.0,
+        40.0,
+        14.0,
+        0.0
+      ]
+    ],
+    "confusion_matrix_labels": [
+      "Bad Weld",
+      "Defect",
+      "Good Weld",
+      "background"
+    ]
+  },
+  "test": {
+    "overall": {
+      "precision": 0.621475579298045,
+      "recall": 0.534828341711559,
+      "ap50": 0.589522095579948,
+      "map50_95": 0.3307808408202488
+    },
+    "per_class": [
+      {
+        "class": "Bad Weld",
+        "instances": 67,
+        "precision": 0.7228797140250607,
+        "recall": 0.5373134328358209,
+        "ap50": 0.6694815438140863,
+        "map50_95": 0.3998340352511679
+      },
+      {
+        "class": "Defect",
+        "instances": 66,
+        "precision": 0.49891539557070125,
+        "recall": 0.422434750193593,
+        "ap50": 0.4543594728628658,
+        "map50_95": 0.20068274902214842
+      },
+      {
+        "class": "Good Weld",
+        "instances": 76,
+        "precision": 0.6426316282983728,
+        "recall": 0.6447368421052632,
+        "ap50": 0.6447252700628917,
+        "map50_95": 0.39182573818743005
+      }
+    ],
+    "confusion_matrix": [
+      [
+        39.0,
+        7.0,
+        7.0,
+        194.0
+      ],
+      [
+        5.0,
+        42.0,
+        1.0,
+        1021.0
+      ],
+      [
+        21.0,
+        3.0,
+        61.0,
+        407.0
+      ],
+      [
+        2.0,
+        14.0,
+        7.0,
+        0.0
+      ]
+    ],
+    "confusion_matrix_labels": [
+      "Bad Weld",
+      "Defect",
+      "Good Weld",
+      "background"
+    ]
+  },
+  "baselines": {
+    "coco_zero_shot": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "ap50": 0.0,
+      "map50_95": 0.0,
+      "note": "COCO has no weld classes, so weld-class AP is zero by construction.",
+      "images_with_any_box": 21,
+      "images": 74,
+      "most_common_coco_classes": [
+        [
+          "person",
+          5
+        ],
+        [
+          "bed",
+          3
+        ],
+        [
+          "cup",
+          3
+        ],
+        [
+          "banana",
+          2
+        ],
+        [
+          "spoon",
+          1
+        ]
+      ],
+      "flag_threshold": 0.25,
+      "tpr": 0.0,
+      "fpr": 0.32894736842105265,
+      "cost_per_1000": 2051.3157894736846
+    },
+    "predict_nothing": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "ap50": 0.0,
+      "map50_95": 0.0,
+      "note": "No boxes at all: every weld passes."
+    }
+  },
+  "instances": {
+    "train": {
+      "Bad Weld": 2187,
+      "Defect": 3842,
+      "Good Weld": 3292
+    },
+    "val": {
+      "Bad Weld": 127,
+      "Defect": 193,
+      "Good Weld": 253
+    },
+    "test": {
+      "Bad Weld": 67,
+      "Defect": 66,
+      "Good Weld": 76
+    }
+  }
+}

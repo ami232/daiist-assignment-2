@@ -1,0 +1,356 @@
+image,kind,label,is_positive,score
+02fd0af7-51ab46bb-c13_jpg.rf.85141fa73a76a7a68f39a6889e1ded6f.jpg,weld,Defect,1,0.0
+02fd0af7-51ab46bb-c13_jpg.rf.85141fa73a76a7a68f39a6889e1ded6f.jpg,weld,Defect,1,0.0
+1aa4b44c-d01b8a11-Hot-crack_jpg.rf.2009099998dc09abce4bc6a82b80b36c.jpg,weld,Defect,1,0.7361282110214233
+295992d6-f617b725-c1_png_jpg.rf.aa445b84a5b8076b19d4c2b6bf8b4d72.jpg,weld,Defect,1,0.0
+295992d6-f617b725-c1_png_jpg.rf.aa445b84a5b8076b19d4c2b6bf8b4d72.jpg,spurious,spurious,0,0.25860482454299927
+4a05306b-ca866e1f-c12_jpg.rf.d8016b4b2b6f665a31d13250506fd353.jpg,weld,Defect,1,0.0
+4a05306b-ca866e1f-c12_jpg.rf.d8016b4b2b6f665a31d13250506fd353.jpg,spurious,spurious,0,0.6611326932907104
+4a05306b-ca866e1f-c12_jpg.rf.d8016b4b2b6f665a31d13250506fd353.jpg,spurious,spurious,0,0.11544649302959442
+Good-Welding-images_12_jpeg_jpg.rf.298cdc871eb7f0b850f1a1f9d7ec887b.jpg,weld,Good Weld,0,0.0
+Good-Welding-images_17_jpeg_jpg.rf.ffd82c8f8c32288d6fc065fb5215abc0.jpg,weld,Bad Weld,1,0.5381039381027222
+Good-Welding-images_17_jpeg_jpg.rf.ffd82c8f8c32288d6fc065fb5215abc0.jpg,weld,Good Weld,0,0.0
+Good-Welding-images_17_jpeg_jpg.rf.ffd82c8f8c32288d6fc065fb5215abc0.jpg,spurious,spurious,0,0.6124637722969055
+Good-Welding-images_17_jpeg_jpg.rf.ffd82c8f8c32288d6fc065fb5215abc0.jpg,spurious,spurious,0,0.1649993360042572
+Good-Welding-images_17_jpeg_jpg.rf.ffd82c8f8c32288d6fc065fb5215abc0.jpg,spurious,spurious,0,0.12493474036455154
+Good-Welding-images_17_jpeg_jpg.rf.ffd82c8f8c32288d6fc065fb5215abc0.jpg,spurious,spurious,0,0.10410583019256592
+Good-Welding-images_23_jpeg_jpg.rf.1d898f626f78b8360e9040aa95069486.jpg,weld,Good Weld,0,0.0
+Good-Welding-images_23_jpeg_jpg.rf.1d898f626f78b8360e9040aa95069486.jpg,spurious,spurious,0,0.6919016242027283
+Good-Welding-images_33_jpeg_jpg.rf.3458e4f89925ba5e5b47aefeaca9b53d.jpg,weld,Good Weld,0,0.0
+SampleV1_1_mp4-1_jpg.rf.212c1729d0b99e872da895364ccde9e8.jpg,weld,Defect,1,0.6853786110877991
+SampleV1_1_mp4-1_jpg.rf.212c1729d0b99e872da895364ccde9e8.jpg,weld,Defect,1,0.5588970184326172
+SampleV1_1_mp4-1_jpg.rf.212c1729d0b99e872da895364ccde9e8.jpg,weld,Defect,1,0.6218412518501282
+SampleV1_1_mp4-1_jpg.rf.212c1729d0b99e872da895364ccde9e8.jpg,weld,Defect,1,0.0
+SampleV1_1_mp4-1_jpg.rf.212c1729d0b99e872da895364ccde9e8.jpg,weld,Defect,1,0.7876652479171753
+SampleV1_1_mp4-1_jpg.rf.212c1729d0b99e872da895364ccde9e8.jpg,weld,Defect,1,0.2120906412601471
+SampleV1_1_mp4-1_jpg.rf.212c1729d0b99e872da895364ccde9e8.jpg,weld,Defect,1,0.6627636551856995
+SampleV1_1_mp4-1_jpg.rf.212c1729d0b99e872da895364ccde9e8.jpg,weld,Bad Weld,1,0.7286868691444397
+SampleV1_1_mp4-1_jpg.rf.212c1729d0b99e872da895364ccde9e8.jpg,weld,Bad Weld,1,0.6218412518501282
+SampleV1_1_mp4-1_jpg.rf.212c1729d0b99e872da895364ccde9e8.jpg,weld,Good Weld,0,0.0
+SampleV1_1_mp4-1_jpg.rf.212c1729d0b99e872da895364ccde9e8.jpg,weld,Bad Weld,1,0.1079319417476654
+SampleV1_1_mp4-1_jpg.rf.212c1729d0b99e872da895364ccde9e8.jpg,weld,Good Weld,0,0.6911959648132324
+SampleV1_1_mp4-1_jpg.rf.212c1729d0b99e872da895364ccde9e8.jpg,weld,Good Weld,0,0.0
+SampleV1_1_mp4-1_jpg.rf.212c1729d0b99e872da895364ccde9e8.jpg,weld,Good Weld,0,0.0
+SampleV1_1_mp4-1_jpg.rf.212c1729d0b99e872da895364ccde9e8.jpg,weld,Good Weld,0,0.302723228931427
+SampleV1_1_mp4-1_jpg.rf.212c1729d0b99e872da895364ccde9e8.jpg,weld,Good Weld,0,0.0
+SampleV1_1_mp4-1_jpg.rf.212c1729d0b99e872da895364ccde9e8.jpg,weld,Bad Weld,1,0.6179495453834534
+SampleV1_1_mp4-1_jpg.rf.212c1729d0b99e872da895364ccde9e8.jpg,weld,Bad Weld,1,0.7337383031845093
+SampleV1_1_mp4-1_jpg.rf.212c1729d0b99e872da895364ccde9e8.jpg,weld,Bad Weld,1,0.7876652479171753
+SampleV1_1_mp4-1_jpg.rf.212c1729d0b99e872da895364ccde9e8.jpg,spurious,spurious,0,0.35874632000923157
+SampleV1_1_mp4-1_jpg.rf.212c1729d0b99e872da895364ccde9e8.jpg,spurious,spurious,0,0.2836443781852722
+SampleV1_1_mp4-1_jpg.rf.212c1729d0b99e872da895364ccde9e8.jpg,spurious,spurious,0,0.2330179214477539
+SampleV1_1_mp4-1_jpg.rf.212c1729d0b99e872da895364ccde9e8.jpg,spurious,spurious,0,0.23140017688274384
+SampleV1_1_mp4-1_jpg.rf.212c1729d0b99e872da895364ccde9e8.jpg,spurious,spurious,0,0.20496274530887604
+SampleV1_1_mp4-1_jpg.rf.212c1729d0b99e872da895364ccde9e8.jpg,spurious,spurious,0,0.16641633212566376
+SampleV1_1_mp4-1_jpg.rf.212c1729d0b99e872da895364ccde9e8.jpg,spurious,spurious,0,0.16425034403800964
+SampleV1_1_mp4-1_jpg.rf.212c1729d0b99e872da895364ccde9e8.jpg,spurious,spurious,0,0.12439674884080887
+SampleV1_1_mp4-1_jpg.rf.212c1729d0b99e872da895364ccde9e8.jpg,spurious,spurious,0,0.09616287052631378
+SampleV1_1_mp4-1_jpg.rf.212c1729d0b99e872da895364ccde9e8.jpg,spurious,spurious,0,0.08781148493289948
+SampleV1_1_mp4-1_jpg.rf.212c1729d0b99e872da895364ccde9e8.jpg,spurious,spurious,0,0.07834231108427048
+SampleV1_1_mp4-1_jpg.rf.212c1729d0b99e872da895364ccde9e8.jpg,spurious,spurious,0,0.07701054215431213
+SampleV1_1_mp4-1_jpg.rf.212c1729d0b99e872da895364ccde9e8.jpg,spurious,spurious,0,0.07345020025968552
+SampleV1_1_mp4-1_jpg.rf.212c1729d0b99e872da895364ccde9e8.jpg,spurious,spurious,0,0.06860695779323578
+SampleV1_1_mp4-1_jpg.rf.212c1729d0b99e872da895364ccde9e8.jpg,spurious,spurious,0,0.06821021437644958
+SampleV1_1_mp4-1_jpg.rf.212c1729d0b99e872da895364ccde9e8.jpg,spurious,spurious,0,0.05961817502975464
+SampleV1_1_mp4-42_jpg.rf.b771c5143768cd51bee32129c3ab743b.jpg,weld,Defect,1,0.46266108751296997
+SampleV1_1_mp4-42_jpg.rf.b771c5143768cd51bee32129c3ab743b.jpg,weld,Defect,1,0.0
+SampleV1_1_mp4-42_jpg.rf.b771c5143768cd51bee32129c3ab743b.jpg,weld,Defect,1,0.0
+SampleV1_1_mp4-42_jpg.rf.b771c5143768cd51bee32129c3ab743b.jpg,weld,Bad Weld,1,0.546135663986206
+SampleV1_1_mp4-42_jpg.rf.b771c5143768cd51bee32129c3ab743b.jpg,weld,Good Weld,0,0.0
+SampleV1_1_mp4-42_jpg.rf.b771c5143768cd51bee32129c3ab743b.jpg,weld,Bad Weld,1,0.3847558796405792
+SampleV1_1_mp4-42_jpg.rf.b771c5143768cd51bee32129c3ab743b.jpg,weld,Good Weld,0,0.6478108167648315
+SampleV1_1_mp4-42_jpg.rf.b771c5143768cd51bee32129c3ab743b.jpg,spurious,spurious,0,0.7394907474517822
+SampleV1_1_mp4-42_jpg.rf.b771c5143768cd51bee32129c3ab743b.jpg,spurious,spurious,0,0.2118368148803711
+SampleV1_1_mp4-42_jpg.rf.b771c5143768cd51bee32129c3ab743b.jpg,spurious,spurious,0,0.1741776466369629
+SampleV1_1_mp4-42_jpg.rf.b771c5143768cd51bee32129c3ab743b.jpg,spurious,spurious,0,0.1563209891319275
+SampleV1_1_mp4-42_jpg.rf.b771c5143768cd51bee32129c3ab743b.jpg,spurious,spurious,0,0.07893538475036621
+SampleV1_1_mp4-42_jpg.rf.b771c5143768cd51bee32129c3ab743b.jpg,spurious,spurious,0,0.06573262810707092
+SampleV1_1_mp4-42_jpg.rf.b771c5143768cd51bee32129c3ab743b.jpg,spurious,spurious,0,0.05365554243326187
+SampleV1_2_mp4-14_jpg.rf.64fbaebbf9687a8d8bdfc895c570eefc.jpg,weld,Defect,1,0.0
+SampleV1_2_mp4-14_jpg.rf.64fbaebbf9687a8d8bdfc895c570eefc.jpg,weld,Defect,1,0.12413346767425537
+SampleV1_2_mp4-14_jpg.rf.64fbaebbf9687a8d8bdfc895c570eefc.jpg,weld,Bad Weld,1,0.0
+SampleV1_2_mp4-14_jpg.rf.64fbaebbf9687a8d8bdfc895c570eefc.jpg,weld,Bad Weld,1,0.0
+SampleV1_2_mp4-14_jpg.rf.64fbaebbf9687a8d8bdfc895c570eefc.jpg,spurious,spurious,0,0.45781129598617554
+SampleV2_1_mp4-0_jpg.rf.cd13e04e5a8d5bd6befd49a75b243533.jpg,weld,Defect,1,0.0
+SampleV2_1_mp4-0_jpg.rf.cd13e04e5a8d5bd6befd49a75b243533.jpg,weld,Defect,1,0.0
+SampleV2_1_mp4-0_jpg.rf.cd13e04e5a8d5bd6befd49a75b243533.jpg,weld,Defect,1,0.0
+SampleV2_1_mp4-0_jpg.rf.cd13e04e5a8d5bd6befd49a75b243533.jpg,weld,Defect,1,0.6534289121627808
+SampleV2_1_mp4-0_jpg.rf.cd13e04e5a8d5bd6befd49a75b243533.jpg,weld,Defect,1,0.7775592803955078
+SampleV2_1_mp4-0_jpg.rf.cd13e04e5a8d5bd6befd49a75b243533.jpg,weld,Bad Weld,1,0.0
+SampleV2_1_mp4-0_jpg.rf.cd13e04e5a8d5bd6befd49a75b243533.jpg,weld,Good Weld,0,0.0
+SampleV2_1_mp4-0_jpg.rf.cd13e04e5a8d5bd6befd49a75b243533.jpg,weld,Bad Weld,1,0.0
+SampleV2_1_mp4-0_jpg.rf.cd13e04e5a8d5bd6befd49a75b243533.jpg,weld,Good Weld,0,0.0
+SampleV2_1_mp4-0_jpg.rf.cd13e04e5a8d5bd6befd49a75b243533.jpg,weld,Good Weld,0,0.0
+SampleV2_1_mp4-0_jpg.rf.cd13e04e5a8d5bd6befd49a75b243533.jpg,weld,Good Weld,0,0.0
+SampleV2_1_mp4-0_jpg.rf.cd13e04e5a8d5bd6befd49a75b243533.jpg,weld,Bad Weld,1,0.0
+SampleV2_1_mp4-0_jpg.rf.cd13e04e5a8d5bd6befd49a75b243533.jpg,weld,Good Weld,0,0.0
+SampleV2_1_mp4-0_jpg.rf.cd13e04e5a8d5bd6befd49a75b243533.jpg,weld,Good Weld,0,0.0
+SampleV2_1_mp4-0_jpg.rf.cd13e04e5a8d5bd6befd49a75b243533.jpg,weld,Good Weld,0,0.0
+SampleV2_1_mp4-0_jpg.rf.cd13e04e5a8d5bd6befd49a75b243533.jpg,weld,Good Weld,0,0.0
+SampleV2_1_mp4-59_jpg.rf.5aeeca8900b6612154c44131711eaf4e.jpg,weld,Defect,1,0.7466906309127808
+SampleV2_1_mp4-59_jpg.rf.5aeeca8900b6612154c44131711eaf4e.jpg,weld,Bad Weld,1,0.48918724060058594
+SampleV2_1_mp4-59_jpg.rf.5aeeca8900b6612154c44131711eaf4e.jpg,weld,Good Weld,0,0.0
+SampleV2_1_mp4-59_jpg.rf.5aeeca8900b6612154c44131711eaf4e.jpg,weld,Good Weld,0,0.0
+SampleV2_1_mp4-59_jpg.rf.5aeeca8900b6612154c44131711eaf4e.jpg,spurious,spurious,0,0.050115279853343964
+SampleV2_1_mp4-60_jpg.rf.a00f18b9b7667eccf4ca9c503d0e0220.jpg,weld,Defect,1,0.05977410450577736
+SampleV2_1_mp4-60_jpg.rf.a00f18b9b7667eccf4ca9c503d0e0220.jpg,weld,Defect,1,0.8626763820648193
+SampleV2_1_mp4-60_jpg.rf.a00f18b9b7667eccf4ca9c503d0e0220.jpg,weld,Bad Weld,1,0.36807024478912354
+SampleV2_1_mp4-60_jpg.rf.a00f18b9b7667eccf4ca9c503d0e0220.jpg,weld,Bad Weld,1,0.4862424433231354
+SampleV2_1_mp4-60_jpg.rf.a00f18b9b7667eccf4ca9c503d0e0220.jpg,weld,Good Weld,0,0.0
+SampleV2_1_mp4-60_jpg.rf.a00f18b9b7667eccf4ca9c503d0e0220.jpg,spurious,spurious,0,0.08089308440685272
+SampleV2_1_mp4-90_jpg.rf.9a291d5401a4a9f90db3b5e5e0018c42.jpg,weld,Defect,1,0.7785851955413818
+SampleV2_1_mp4-90_jpg.rf.9a291d5401a4a9f90db3b5e5e0018c42.jpg,weld,Defect,1,0.7214397192001343
+SampleV2_1_mp4-90_jpg.rf.9a291d5401a4a9f90db3b5e5e0018c42.jpg,weld,Defect,1,0.7242673635482788
+SampleV2_1_mp4-90_jpg.rf.9a291d5401a4a9f90db3b5e5e0018c42.jpg,weld,Good Weld,0,0.12862472236156464
+SampleV2_1_mp4-90_jpg.rf.9a291d5401a4a9f90db3b5e5e0018c42.jpg,weld,Bad Weld,1,0.5768871307373047
+SampleV2_1_mp4-90_jpg.rf.9a291d5401a4a9f90db3b5e5e0018c42.jpg,weld,Bad Weld,1,0.6730183959007263
+SampleV2_1_mp4-90_jpg.rf.9a291d5401a4a9f90db3b5e5e0018c42.jpg,spurious,spurious,0,0.3358233571052551
+SampleV2_1_mp4-90_jpg.rf.9a291d5401a4a9f90db3b5e5e0018c42.jpg,spurious,spurious,0,0.07274004071950912
+SampleV2_1_mp4-90_jpg.rf.9a291d5401a4a9f90db3b5e5e0018c42.jpg,spurious,spurious,0,0.053335849195718765
+SampleV2_1_mp4-97_jpg.rf.e545e94b896eaad8a8e6c2b7393275d0.jpg,weld,Defect,1,0.4857341945171356
+SampleV2_1_mp4-97_jpg.rf.e545e94b896eaad8a8e6c2b7393275d0.jpg,weld,Defect,1,0.0
+SampleV2_1_mp4-97_jpg.rf.e545e94b896eaad8a8e6c2b7393275d0.jpg,weld,Defect,1,0.13608993589878082
+SampleV2_1_mp4-97_jpg.rf.e545e94b896eaad8a8e6c2b7393275d0.jpg,weld,Bad Weld,1,0.4857341945171356
+SampleV2_1_mp4-97_jpg.rf.e545e94b896eaad8a8e6c2b7393275d0.jpg,weld,Bad Weld,1,0.0
+SampleV2_1_mp4-97_jpg.rf.e545e94b896eaad8a8e6c2b7393275d0.jpg,weld,Bad Weld,1,0.13608993589878082
+SampleV2_1_mp4-97_jpg.rf.e545e94b896eaad8a8e6c2b7393275d0.jpg,spurious,spurious,0,0.14886663854122162
+SampleV2_1_mp4-97_jpg.rf.e545e94b896eaad8a8e6c2b7393275d0.jpg,spurious,spurious,0,0.050758618861436844
+SampleV2_2_mp4-100_jpg.rf.5b644fa79da588bc578f8a476460d22b.jpg,weld,Defect,1,0.16364556550979614
+SampleV2_2_mp4-100_jpg.rf.5b644fa79da588bc578f8a476460d22b.jpg,weld,Defect,1,0.2880188524723053
+SampleV2_2_mp4-100_jpg.rf.5b644fa79da588bc578f8a476460d22b.jpg,weld,Bad Weld,1,0.16364556550979614
+SampleV2_2_mp4-100_jpg.rf.5b644fa79da588bc578f8a476460d22b.jpg,weld,Good Weld,0,0.0
+SampleV2_2_mp4-100_jpg.rf.5b644fa79da588bc578f8a476460d22b.jpg,weld,Bad Weld,1,0.2880188524723053
+SampleV2_2_mp4-24_jpg.rf.5da0e30d0f57a5c0722fdf3430f90bcb.jpg,weld,Defect,1,0.7280741930007935
+SampleV2_2_mp4-24_jpg.rf.5da0e30d0f57a5c0722fdf3430f90bcb.jpg,weld,Defect,1,0.8050923943519592
+SampleV2_2_mp4-24_jpg.rf.5da0e30d0f57a5c0722fdf3430f90bcb.jpg,weld,Defect,1,0.694507896900177
+SampleV2_2_mp4-24_jpg.rf.5da0e30d0f57a5c0722fdf3430f90bcb.jpg,weld,Defect,1,0.7860700488090515
+SampleV2_2_mp4-24_jpg.rf.5da0e30d0f57a5c0722fdf3430f90bcb.jpg,weld,Bad Weld,1,0.873870849609375
+SampleV2_2_mp4-24_jpg.rf.5da0e30d0f57a5c0722fdf3430f90bcb.jpg,weld,Good Weld,0,0.3857685327529907
+SampleV2_2_mp4-24_jpg.rf.5da0e30d0f57a5c0722fdf3430f90bcb.jpg,weld,Bad Weld,1,0.7860700488090515
+SampleV2_2_mp4-24_jpg.rf.5da0e30d0f57a5c0722fdf3430f90bcb.jpg,spurious,spurious,0,0.5146180391311646
+SampleV2_2_mp4-24_jpg.rf.5da0e30d0f57a5c0722fdf3430f90bcb.jpg,spurious,spurious,0,0.4800456762313843
+SampleV2_2_mp4-39_jpg.rf.fa5d036c26b050cccb6ef6f0f6c161b6.jpg,weld,Defect,1,0.7497484087944031
+SampleV2_2_mp4-39_jpg.rf.fa5d036c26b050cccb6ef6f0f6c161b6.jpg,weld,Bad Weld,1,0.8380383253097534
+SampleV2_2_mp4-39_jpg.rf.fa5d036c26b050cccb6ef6f0f6c161b6.jpg,weld,Good Weld,0,0.5964239835739136
+SampleV2_2_mp4-39_jpg.rf.fa5d036c26b050cccb6ef6f0f6c161b6.jpg,weld,Good Weld,0,0.0
+SampleV2_2_mp4-39_jpg.rf.fa5d036c26b050cccb6ef6f0f6c161b6.jpg,spurious,spurious,0,0.4877803921699524
+SampleV2_2_mp4-39_jpg.rf.fa5d036c26b050cccb6ef6f0f6c161b6.jpg,spurious,spurious,0,0.13547952473163605
+SampleV2_2_mp4-57_jpg.rf.e64291cacdca4e984bedb59e240025a5.jpg,weld,Good Weld,0,0.741123616695404
+SampleV2_2_mp4-57_jpg.rf.e64291cacdca4e984bedb59e240025a5.jpg,spurious,spurious,0,0.20021416246891022
+SampleV2_2_mp4-57_jpg.rf.e64291cacdca4e984bedb59e240025a5.jpg,spurious,spurious,0,0.07199850678443909
+SampleV2_2_mp4-59_jpg.rf.5144b52707e48828cb017dbf167165e1.jpg,weld,Defect,1,0.7748023271560669
+SampleV2_2_mp4-59_jpg.rf.5144b52707e48828cb017dbf167165e1.jpg,weld,Defect,1,0.7334579229354858
+SampleV2_2_mp4-59_jpg.rf.5144b52707e48828cb017dbf167165e1.jpg,weld,Bad Weld,1,0.8498388528823853
+SampleV2_2_mp4-59_jpg.rf.5144b52707e48828cb017dbf167165e1.jpg,weld,Good Weld,0,0.0
+SampleV2_2_mp4-71_jpg.rf.0982bd7e41ed0451fcca4ea67665fecb.jpg,weld,Defect,1,0.2751685082912445
+SampleV2_2_mp4-71_jpg.rf.0982bd7e41ed0451fcca4ea67665fecb.jpg,weld,Good Weld,0,0.0
+SampleV2_2_mp4-71_jpg.rf.0982bd7e41ed0451fcca4ea67665fecb.jpg,weld,Bad Weld,1,0.2751685082912445
+SampleV2_2_mp4-71_jpg.rf.0982bd7e41ed0451fcca4ea67665fecb.jpg,weld,Good Weld,0,0.0
+SampleV2_2_mp4-76_jpg.rf.69b749d257da7f8f971bc6e765b1844b.jpg,weld,Good Weld,0,0.0
+SampleV2_2_mp4-98_jpg.rf.a08f432ecdc796271d9869f02dfc64d7.jpg,weld,Defect,1,0.28483304381370544
+SampleV2_2_mp4-98_jpg.rf.a08f432ecdc796271d9869f02dfc64d7.jpg,weld,Defect,1,0.18078716099262238
+SampleV2_2_mp4-98_jpg.rf.a08f432ecdc796271d9869f02dfc64d7.jpg,weld,Defect,1,0.19020642340183258
+SampleV2_2_mp4-98_jpg.rf.a08f432ecdc796271d9869f02dfc64d7.jpg,weld,Defect,1,0.3060365915298462
+SampleV2_2_mp4-98_jpg.rf.a08f432ecdc796271d9869f02dfc64d7.jpg,weld,Bad Weld,1,0.5420727729797363
+SampleV2_2_mp4-98_jpg.rf.a08f432ecdc796271d9869f02dfc64d7.jpg,weld,Bad Weld,1,0.19020642340183258
+SampleV2_2_mp4-98_jpg.rf.a08f432ecdc796271d9869f02dfc64d7.jpg,weld,Good Weld,0,0.0
+SampleV2_2_mp4-98_jpg.rf.a08f432ecdc796271d9869f02dfc64d7.jpg,weld,Bad Weld,1,0.3060365915298462
+SampleV2_2_mp4-98_jpg.rf.a08f432ecdc796271d9869f02dfc64d7.jpg,spurious,spurious,0,0.43043842911720276
+SampleV2_2_mp4-98_jpg.rf.a08f432ecdc796271d9869f02dfc64d7.jpg,spurious,spurious,0,0.1093793511390686
+SampleV2_2_mp4-98_jpg.rf.a08f432ecdc796271d9869f02dfc64d7.jpg,spurious,spurious,0,0.09746075421571732
+SampleV2_2_mp4-98_jpg.rf.a08f432ecdc796271d9869f02dfc64d7.jpg,spurious,spurious,0,0.05788593739271164
+SampleV3_1_mp4-24_jpg.rf.d33067b0a483c08f47a6543f015edf2e.jpg,weld,Defect,1,0.7814265489578247
+SampleV3_1_mp4-24_jpg.rf.d33067b0a483c08f47a6543f015edf2e.jpg,weld,Good Weld,0,0.0
+SampleV3_1_mp4-24_jpg.rf.d33067b0a483c08f47a6543f015edf2e.jpg,weld,Bad Weld,1,0.7470232844352722
+SampleV3_1_mp4-24_jpg.rf.d33067b0a483c08f47a6543f015edf2e.jpg,spurious,spurious,0,0.7502773404121399
+SampleV3_1_mp4-24_jpg.rf.d33067b0a483c08f47a6543f015edf2e.jpg,spurious,spurious,0,0.1392357051372528
+SampleV3_1_mp4-45_jpg.rf.8083c23ba147a6a4da56eb09aad7597e.jpg,weld,Defect,1,0.6455821990966797
+SampleV3_1_mp4-45_jpg.rf.8083c23ba147a6a4da56eb09aad7597e.jpg,weld,Defect,1,0.0
+SampleV3_1_mp4-45_jpg.rf.8083c23ba147a6a4da56eb09aad7597e.jpg,weld,Bad Weld,1,0.0
+SampleV3_1_mp4-45_jpg.rf.8083c23ba147a6a4da56eb09aad7597e.jpg,weld,Bad Weld,1,0.7486780881881714
+SampleV3_1_mp4-50_jpg.rf.92af07413e97dee777feaf6211f063f7.jpg,weld,Defect,1,0.6322193741798401
+SampleV3_1_mp4-50_jpg.rf.92af07413e97dee777feaf6211f063f7.jpg,weld,Bad Weld,1,0.0
+SampleV3_1_mp4-50_jpg.rf.92af07413e97dee777feaf6211f063f7.jpg,weld,Good Weld,0,0.0
+SampleV3_1_mp4-50_jpg.rf.92af07413e97dee777feaf6211f063f7.jpg,weld,Good Weld,0,0.0
+SampleV3_1_mp4-8_jpg.rf.b27d11f70e7bf5ed1cbad38522a92652.jpg,weld,Good Weld,0,0.0
+SampleV3_1_mp4-8_jpg.rf.b27d11f70e7bf5ed1cbad38522a92652.jpg,weld,Good Weld,0,0.0
+SampleV3_2_mp4-2_jpg.rf.877fb5f2fa34211d95f098fc7471764d.jpg,weld,Defect,1,0.7958956956863403
+SampleV3_2_mp4-2_jpg.rf.877fb5f2fa34211d95f098fc7471764d.jpg,weld,Defect,1,0.0
+SampleV3_2_mp4-2_jpg.rf.877fb5f2fa34211d95f098fc7471764d.jpg,weld,Defect,1,0.311320424079895
+SampleV3_2_mp4-2_jpg.rf.877fb5f2fa34211d95f098fc7471764d.jpg,weld,Bad Weld,1,0.7711082100868225
+SampleV3_2_mp4-2_jpg.rf.877fb5f2fa34211d95f098fc7471764d.jpg,weld,Bad Weld,1,0.311320424079895
+SampleV3_2_mp4-2_jpg.rf.877fb5f2fa34211d95f098fc7471764d.jpg,weld,Bad Weld,1,0.7958956956863403
+SampleV3_2_mp4-2_jpg.rf.877fb5f2fa34211d95f098fc7471764d.jpg,weld,Good Weld,0,0.0
+SampleV3_2_mp4-2_jpg.rf.877fb5f2fa34211d95f098fc7471764d.jpg,spurious,spurious,0,0.6261855959892273
+SampleV3_2_mp4-2_jpg.rf.877fb5f2fa34211d95f098fc7471764d.jpg,spurious,spurious,0,0.6024038195610046
+SampleV3_2_mp4-2_jpg.rf.877fb5f2fa34211d95f098fc7471764d.jpg,spurious,spurious,0,0.5148814916610718
+SampleV3_2_mp4-2_jpg.rf.877fb5f2fa34211d95f098fc7471764d.jpg,spurious,spurious,0,0.45088469982147217
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,weld,Bad Weld,1,0.0
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,weld,Defect,1,0.07346860319375992
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,weld,Defect,1,0.0
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,weld,Defect,1,0.0
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.6636253595352173
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.6560600996017456
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.6124296188354492
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.5999851226806641
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.5947608947753906
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.5915578007698059
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.5728186964988708
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.5229945182800293
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.4787706732749939
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.45663148164749146
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.4377147853374481
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.4238641560077667
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.3989309072494507
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.39796170592308044
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.3919033408164978
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.3426215648651123
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.3328847289085388
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.3145512342453003
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.3049418330192566
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.20579174160957336
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.19468984007835388
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.18549829721450806
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.18438929319381714
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.168191060423851
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.16268211603164673
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.15523378551006317
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.15411710739135742
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.15163849294185638
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.1496361941099167
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.13487385213375092
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.12806247174739838
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.12510347366333008
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.12007669359445572
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.1132621243596077
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.1077660471200943
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.10678151249885559
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.10148173570632935
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.10023387521505356
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.09951866418123245
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.09934607893228531
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.0981847420334816
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.09806991368532181
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.09782341122627258
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.09126608818769455
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.08949698507785797
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.08633632957935333
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.0760795995593071
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.07367394864559174
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.07256787270307541
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.07231567800045013
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.06994988024234772
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.06415475159883499
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.06327171623706818
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.06189405918121338
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.060730136930942535
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.0600661039352417
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.05952304229140282
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.05815966799855232
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.0555601604282856
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.05292471498250961
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.052344560623168945
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.0519825704395771
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.05126318708062172
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.050449855625629425
+Screenshot-2022-12-05-223445_jpeg_jpg.rf.a5c217f57519d53d47910d1290f550d1.jpg,spurious,spurious,0,0.050090864300727844
+Screenshot-2022-12-05-223616_jpeg_jpg.rf.704d632852dba6fc7e17c9e1bbef1434.jpg,weld,Defect,1,0.0
+Screenshot-2022-12-05-224335_jpeg_jpg.rf.c04da3ef8847eae9eb5ff8c3ec68cd18.jpg,weld,Bad Weld,1,0.060083918273448944
+Screenshot-2022-12-05-224335_jpeg_jpg.rf.c04da3ef8847eae9eb5ff8c3ec68cd18.jpg,weld,Bad Weld,1,0.6265445351600647
+Screenshot-2022-12-05-224335_jpeg_jpg.rf.c04da3ef8847eae9eb5ff8c3ec68cd18.jpg,spurious,spurious,0,0.26953744888305664
+Screenshot-2022-12-05-224335_jpeg_jpg.rf.c04da3ef8847eae9eb5ff8c3ec68cd18.jpg,spurious,spurious,0,0.23534737527370453
+Screenshot-2022-12-05-224335_jpeg_jpg.rf.c04da3ef8847eae9eb5ff8c3ec68cd18.jpg,spurious,spurious,0,0.1947045475244522
+Screenshot-2022-12-05-224335_jpeg_jpg.rf.c04da3ef8847eae9eb5ff8c3ec68cd18.jpg,spurious,spurious,0,0.19329558312892914
+Screenshot-2022-12-05-224335_jpeg_jpg.rf.c04da3ef8847eae9eb5ff8c3ec68cd18.jpg,spurious,spurious,0,0.12868331372737885
+Screenshot-2022-12-05-224335_jpeg_jpg.rf.c04da3ef8847eae9eb5ff8c3ec68cd18.jpg,spurious,spurious,0,0.08096949756145477
+Screenshot-2022-12-05-224335_jpeg_jpg.rf.c04da3ef8847eae9eb5ff8c3ec68cd18.jpg,spurious,spurious,0,0.07155526429414749
+Screenshot-2022-12-05-230257_jpeg_jpg.rf.7ca281a5ee6b9ce748467817fa3bee1a.jpg,weld,Bad Weld,1,0.0
+Screenshot-2022-12-05-230257_jpeg_jpg.rf.7ca281a5ee6b9ce748467817fa3bee1a.jpg,weld,Defect,1,0.0
+Screenshot-2022-12-05-230257_jpeg_jpg.rf.7ca281a5ee6b9ce748467817fa3bee1a.jpg,weld,Defect,1,0.0
+Screenshot-2022-12-05-230257_jpeg_jpg.rf.7ca281a5ee6b9ce748467817fa3bee1a.jpg,spurious,spurious,0,0.49586403369903564
+Screenshot-2022-12-05-230257_jpeg_jpg.rf.7ca281a5ee6b9ce748467817fa3bee1a.jpg,spurious,spurious,0,0.48029401898384094
+Screenshot-2022-12-05-230257_jpeg_jpg.rf.7ca281a5ee6b9ce748467817fa3bee1a.jpg,spurious,spurious,0,0.051726050674915314
+Slag-inclusion-welding-images_5_jpeg_jpg.rf.d3fe0fb7bfbf7afff1e412b390d5ef83.jpg,weld,Defect,1,0.0
+Slag-inclusion-welding-images_5_jpeg_jpg.rf.d3fe0fb7bfbf7afff1e412b390d5ef83.jpg,weld,Bad Weld,1,0.17907102406024933
+Spatters-welding-images_30_jpeg_jpg.rf.300c2459cce4ab4d25d6831d9ca0fdc5.jpg,weld,Bad Weld,1,0.7108439803123474
+Spatters-welding-images_30_jpeg_jpg.rf.300c2459cce4ab4d25d6831d9ca0fdc5.jpg,spurious,spurious,0,0.5600196719169617
+Spatters-welding-images_30_jpeg_jpg.rf.300c2459cce4ab4d25d6831d9ca0fdc5.jpg,spurious,spurious,0,0.07793261855840683
+Spatters-welding-images_30_jpeg_jpg.rf.300c2459cce4ab4d25d6831d9ca0fdc5.jpg,spurious,spurious,0,0.06567016988992691
+Spatters-welding-images_9_jpeg_jpg.rf.aa5d1c49bdc55a9ca8cb29f3979fe838.jpg,weld,Good Weld,0,0.0
+Spatters-welding-images_9_jpeg_jpg.rf.aa5d1c49bdc55a9ca8cb29f3979fe838.jpg,spurious,spurious,0,0.07666037231683731
+bad_weld_vid166_jpeg_jpg.rf.c652d5cb77855d476fcaaf56bf6c7aa9.jpg,weld,Bad Weld,1,0.7509076595306396
+bad_weld_vid233_jpeg_jpg.rf.9851d15d94744f01e6c41250897ea82d.jpg,weld,Bad Weld,1,0.0
+bad_weld_vid233_jpeg_jpg.rf.9851d15d94744f01e6c41250897ea82d.jpg,spurious,spurious,0,0.46641314029693604
+bad_weld_vid261_jpeg_jpg.rf.ea976189348f12e0fdbeb40ddb22ec3b.jpg,weld,Bad Weld,1,0.6820147633552551
+bad_weld_vid261_jpeg_jpg.rf.ea976189348f12e0fdbeb40ddb22ec3b.jpg,weld,Good Weld,0,0.27977025508880615
+bad_weld_vid261_jpeg_jpg.rf.ea976189348f12e0fdbeb40ddb22ec3b.jpg,weld,Good Weld,0,0.0
+bad_weld_vid261_jpeg_jpg.rf.ea976189348f12e0fdbeb40ddb22ec3b.jpg,weld,Defect,1,0.0
+bad_weld_vid261_jpeg_jpg.rf.ea976189348f12e0fdbeb40ddb22ec3b.jpg,weld,Defect,1,0.0
+bad_weld_vid261_jpeg_jpg.rf.ea976189348f12e0fdbeb40ddb22ec3b.jpg,spurious,spurious,0,0.6178311109542847
+bad_weld_vid261_jpeg_jpg.rf.ea976189348f12e0fdbeb40ddb22ec3b.jpg,spurious,spurious,0,0.07444819062948227
+bad_weld_vid277_jpeg_jpg.rf.a2e0061174b99091041e406f89c3fff1.jpg,weld,Bad Weld,1,0.8623738288879395
+bad_weld_vid277_jpeg_jpg.rf.a2e0061174b99091041e406f89c3fff1.jpg,weld,Good Weld,0,0.0
+bad_weld_vid277_jpeg_jpg.rf.a2e0061174b99091041e406f89c3fff1.jpg,spurious,spurious,0,0.3697776794433594
+bad_weld_vid278_jpeg_jpg.rf.9ee439dc7a320e6e6c9bb92addbc6fd7.jpg,weld,Bad Weld,1,0.8751862645149231
+bad_weld_vid278_jpeg_jpg.rf.9ee439dc7a320e6e6c9bb92addbc6fd7.jpg,weld,Good Weld,0,0.0
+bad_weld_vid278_jpeg_jpg.rf.9ee439dc7a320e6e6c9bb92addbc6fd7.jpg,spurious,spurious,0,0.26766034960746765
+bad_weld_vid374_jpeg_jpg.rf.2084f6926d9566b5daf8b4b61c6dc04f.jpg,weld,Bad Weld,1,0.7830312848091125
+bad_weld_vid374_jpeg_jpg.rf.2084f6926d9566b5daf8b4b61c6dc04f.jpg,weld,Defect,1,0.3441855311393738
+bad_weld_vid397_jpeg_jpg.rf.7cef092deaad5d99a5de75cd4221bb38.jpg,weld,Good Weld,0,0.0
+bad_weld_vid397_jpeg_jpg.rf.7cef092deaad5d99a5de75cd4221bb38.jpg,weld,Bad Weld,1,0.860299825668335
+bad_weld_vid643_jpeg_jpg.rf.eae72562a43a8f44d28535168edc7a2f.jpg,weld,Bad Weld,1,0.7139700055122375
+bad_weld_vid84_jpeg_jpg.rf.6ba6e87cb2821cbdb609dafc050bf2a2.jpg,weld,Good Weld,0,0.7713636755943298
+bad_weld_vid89_jpeg_jpg.rf.089beae6f005dbe1797ccd773f2cb147.jpg,weld,Bad Weld,1,0.8280072808265686
+bad_weld_vid89_jpeg_jpg.rf.089beae6f005dbe1797ccd773f2cb147.jpg,spurious,spurious,0,0.06439864635467529
+bad_weld_vid89_jpeg_jpg.rf.089beae6f005dbe1797ccd773f2cb147.jpg,spurious,spurious,0,0.060844529420137405
+carbon-steel-good-welds_28_png_jpg.rf.518ea007ec9a4d5f090739570fa95fa8.jpg,weld,Good Weld,0,0.0
+crack-welding-images_11_jpeg_jpg.rf.753aa2018eba778af5f9c3f504ca4663.jpg,weld,Defect,1,0.4110392928123474
+crack-welding-images_11_jpeg_jpg.rf.753aa2018eba778af5f9c3f504ca4663.jpg,spurious,spurious,0,0.4307931363582611
+crack-welding-images_17_jpeg_jpg.rf.35a4fa1cf344f6fcb2265a3fb7abd6f8.jpg,weld,Bad Weld,1,0.6554967164993286
+crack-welding-images_17_jpeg_jpg.rf.35a4fa1cf344f6fcb2265a3fb7abd6f8.jpg,weld,Defect,1,0.6554967164993286
+good-stick-welds_19_png_jpg.rf.a3df8894586671903764ac59cbbcb8df.jpg,weld,Good Weld,0,0.0
+good-stick-welds_19_png_jpg.rf.a3df8894586671903764ac59cbbcb8df.jpg,weld,Bad Weld,1,0.0
+good-stick-welds_19_png_jpg.rf.a3df8894586671903764ac59cbbcb8df.jpg,weld,Bad Weld,1,0.0
+good-stick-welds_19_png_jpg.rf.a3df8894586671903764ac59cbbcb8df.jpg,weld,Bad Weld,1,0.0
+good-stick-welds_19_png_jpg.rf.a3df8894586671903764ac59cbbcb8df.jpg,weld,Bad Weld,1,0.0
+good-stick-welds_19_png_jpg.rf.a3df8894586671903764ac59cbbcb8df.jpg,weld,Bad Weld,1,0.0
+good-stick-welds_19_png_jpg.rf.a3df8894586671903764ac59cbbcb8df.jpg,weld,Bad Weld,1,0.0
+good-stick-welds_38_jpeg_jpg.rf.0972867b606602ffc60b996c136d17f6.jpg,weld,Good Weld,0,0.0
+good-tig-welds_23_jpeg_jpg.rf.4bde1df00324dc533a4cf1eb346d8f10.jpg,weld,Good Weld,0,0.0
+good-tig-welds_23_jpeg_jpg.rf.4bde1df00324dc533a4cf1eb346d8f10.jpg,weld,Good Weld,0,0.0
+good-tig-welds_32_png_jpg.rf.20ab46b6b1c9f5f5d87070bc5e2ac26b.jpg,weld,Good Weld,0,0.0
+good-tig-welds_32_png_jpg.rf.20ab46b6b1c9f5f5d87070bc5e2ac26b.jpg,spurious,spurious,0,0.25850710272789
+good-tig-welds_4_jpeg_jpg.rf.0ae254206fb1e271c1a802173663c72a.jpg,weld,Good Weld,0,0.0
+good_weld_vid104_jpeg_jpg.rf.4afb9d1ba786e241c0b7ed2f31b8a74d.jpg,weld,Good Weld,0,0.0
+good_weld_vid1090_jpeg_jpg.rf.e8dc3030a44c86ea26a33d45867a4cb2.jpg,weld,Good Weld,0,0.0
+good_weld_vid1098_jpeg_jpg.rf.1cee8edf64b785ce8f8bca14ca7f378d.jpg,weld,Good Weld,0,0.0
+good_weld_vid1134_jpeg_jpg.rf.0cc3627ef444e9c977f53ffccf9b0be4.jpg,weld,Good Weld,0,0.0
+good_weld_vid1524_jpeg_jpg.rf.c8537961e4a4e0352bf9f8d73fe5259e.jpg,weld,Good Weld,0,0.0
+good_weld_vid1778_jpeg_jpg.rf.6db51cb3fadad63ef7218d38e16236e4.jpg,weld,Good Weld,0,0.0
+good_weld_vid1778_jpeg_jpg.rf.6db51cb3fadad63ef7218d38e16236e4.jpg,weld,Good Weld,0,0.0
+good_weld_vid189_jpeg_jpg.rf.a80861928d80841a65dc2d5488334966.jpg,weld,Good Weld,0,0.0
+good_weld_vid2265_jpeg_jpg.rf.c7d40799264605c30cdd0f6355c989c2.jpg,weld,Good Weld,0,0.0
+good_weld_vid414_jpeg_jpg.rf.2d5ab9d9cee22c183a54221d662cadb0.jpg,weld,Good Weld,0,0.0
+good_weld_vid505_jpeg_jpg.rf.2d07236fde1152b96b65312a12b3f918.jpg,weld,Good Weld,0,0.0
+good_weld_vid529_jpeg_jpg.rf.4f7e4d3c0c3b92c1f49ed8929c5c3de3.jpg,weld,Good Weld,0,0.0
+good_weld_vid570_jpeg_jpg.rf.dc79cc492c016922e2cb1193dd5062d9.jpg,weld,Good Weld,0,0.0
+good_weld_vid570_jpeg_jpg.rf.dc79cc492c016922e2cb1193dd5062d9.jpg,weld,Good Weld,0,0.0
+good_weld_vid634_jpeg_jpg.rf.1e2d740bf79879a38c1074998b3583c6.jpg,weld,Good Weld,0,0.0
+good_weld_vid863_jpeg_jpg.rf.443e2f6359dac36361f0d734e868d17f.jpg,weld,Good Weld,0,0.0
+good_weld_vid95_jpeg_jpg.rf.524048cdd2423abb670572a0c1c42799.jpg,weld,Good Weld,0,0.0
+good_weld_vid95_jpeg_jpg.rf.524048cdd2423abb670572a0c1c42799.jpg,weld,Good Weld,0,0.0
+imagerty4ys_jpeg_jpg.rf.edbc671b6f4402d684eea43d3ccbd80b.jpg,weld,Bad Weld,1,0.7936725616455078
+mig-good-welds_11_jpeg_jpg.rf.9f785dc4842eeff20eb2a5145a552b79.jpg,weld,Good Weld,0,0.0
+mig-good-welds_11_jpeg_jpg.rf.9f785dc4842eeff20eb2a5145a552b79.jpg,weld,Bad Weld,1,0.8416590690612793
+mig-good-welds_11_jpeg_jpg.rf.9f785dc4842eeff20eb2a5145a552b79.jpg,weld,Bad Weld,1,0.8046990633010864
+mig-good-welds_11_jpeg_jpg.rf.9f785dc4842eeff20eb2a5145a552b79.jpg,spurious,spurious,0,0.050408750772476196
+poor-Welding-Images_22_jpeg_jpg.rf.0151160ad112099c9ad5aedddf6871d2.jpg,weld,Good Weld,0,0.0
+poor-Welding-Images_22_jpeg_jpg.rf.0151160ad112099c9ad5aedddf6871d2.jpg,weld,Good Weld,0,0.838334858417511
+poor-Welding-Images_22_jpeg_jpg.rf.0151160ad112099c9ad5aedddf6871d2.jpg,weld,Good Weld,0,0.831758439540863
+poor-Welding-Images_22_jpeg_jpg.rf.0151160ad112099c9ad5aedddf6871d2.jpg,spurious,spurious,0,0.06382402777671814
+poor-Welding-Images_8_jpeg_jpg.rf.1de5a8cc0455653e676961009049aead.jpg,weld,Bad Weld,1,0.0
+poor-Welding-Images_8_jpeg_jpg.rf.1de5a8cc0455653e676961009049aead.jpg,weld,Bad Weld,1,0.0
+porosity-worm-hole-weld-defect-welding-process-flux-cored-arc-fcaw-204492534_jpeg_jpg.rf.9f16674de35df559a32328279d4d495d.jpg,weld,Bad Weld,1,0.8170349597930908
+porosity-worm-hole-weld-defect-welding-process-flux-cored-arc-fcaw-204492534_jpeg_jpg.rf.9f16674de35df559a32328279d4d495d.jpg,weld,Defect,1,0.31500694155693054
+porosity-worm-hole-weld-defect-welding-process-flux-cored-arc-fcaw-204492534_jpeg_jpg.rf.9f16674de35df559a32328279d4d495d.jpg,weld,Defect,1,0.6852068901062012
+porosity-worm-hole-weld-defect-welding-process-flux-cored-arc-fcaw-204492534_jpeg_jpg.rf.9f16674de35df559a32328279d4d495d.jpg,spurious,spurious,0,0.05502839758992195
