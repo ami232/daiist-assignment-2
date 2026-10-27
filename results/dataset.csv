@@ -1,0 +1,4 @@
+split,images,images with a sick bird,diseased-chicken boxes,diseased-chicken median size (% of image),healthy-chicken boxes,healthy-chicken median size (% of image)
+train,1968,1312,2313,27.5,3889,4.0
+valid,53,33,61,17.5,85,6.4
+test,26,10,15,33.2,47,10.5

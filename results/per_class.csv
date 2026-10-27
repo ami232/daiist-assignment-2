@@ -1,0 +1,3 @@
+class,precision,recall,AP50,AP50-95
+diseased-chicken,0.732,1.0,0.893,0.522
+healthy-chicken,0.818,0.671,0.767,0.407
