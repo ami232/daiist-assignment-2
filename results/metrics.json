@@ -1,0 +1,184 @@
+{
+  "test_images": 1062,
+  "positive_class": "rotten = rottenapples + rottenbanana + rottenoranges",
+  "finetuned": {
+    "accuracy_4class": 0.9962335216572504,
+    "per_class": {
+      "freshapples": {
+        "support": 172,
+        "precision": 0.9828571428571429,
+        "recall": 1.0
+      },
+      "freshbanana": {
+        "support": 155,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "freshoranges": {
+        "support": 203,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "rottenapples": {
+        "support": 177,
+        "precision": 0.9942857142857143,
+        "recall": 0.9830508474576272
+      },
+      "rottenbanana": {
+        "support": 177,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "rottenoranges": {
+        "support": 178,
+        "precision": 1.0,
+        "recall": 0.9943820224719101
+      }
+    },
+    "confusion_matrix": {
+      "labels": [
+        "freshapples",
+        "freshbanana",
+        "freshoranges",
+        "rottenapples",
+        "rottenbanana",
+        "rottenoranges"
+      ],
+      "rows_true_cols_pred": [
+        [
+          172,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          155,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          203,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          174,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          177,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          177
+        ]
+      ]
+    },
+    "binary_at_0.5": {
+      "threshold": 0.5,
+      "tp": 529,
+      "fp": 0,
+      "fn": 3,
+      "tn": 530,
+      "precision_rotten": 1.0,
+      "recall_rotten": 0.9943609022556391,
+      "accuracy": 0.9971751412429378,
+      "auc": 0.999556674705632
+    }
+  },
+  "zero_shot": {
+    "accuracy_4class": null,
+    "note": "ImageNet has no fresh/rotten classes, so no 4-class prediction exists. Rotten score = 1 - P(ImageNet fruit).",
+    "binary_at_0.5": {
+      "threshold": 0.5,
+      "tp": 433,
+      "fp": 98,
+      "fn": 99,
+      "tn": 432,
+      "precision_rotten": 0.815442561205273,
+      "recall_rotten": 0.8139097744360902,
+      "accuracy": 0.8145009416195856,
+      "auc": 0.8938927507447865
+    },
+    "top_imagenet_predictions_per_class": {
+      "freshapples": {
+        "Granny_Smith": 74,
+        "strawberry": 23,
+        "pomegranate": 21,
+        "fig": 21,
+        "bagel": 8
+      },
+      "freshbanana": {
+        "banana": 150,
+        "yellow_lady's_slipper": 1,
+        "coil": 1,
+        "corn": 1,
+        "nipple": 1
+      },
+      "freshoranges": {
+        "orange": 149,
+        "consomme": 12,
+        "face_powder": 10,
+        "lemon": 10,
+        "bagel": 6
+      },
+      "rottenapples": {
+        "pomegranate": 27,
+        "spaghetti_squash": 24,
+        "bagel": 20,
+        "fig": 18,
+        "potpie": 13
+      },
+      "rottenbanana": {
+        "banana": 45,
+        "slug": 38,
+        "eel": 7,
+        "mortar": 6,
+        "hook": 6
+      },
+      "rottenoranges": {
+        "French_loaf": 53,
+        "orange": 35,
+        "face_powder": 21,
+        "bagel": 15,
+        "spaghetti_squash": 7
+      }
+    }
+  },
+  "trivial": {
+    "majority_class": "rottenapples",
+    "accuracy_4class": 0.16666666666666666,
+    "binary_pass_everything": {
+      "threshold": 0.5,
+      "tp": 0,
+      "fp": 0,
+      "fn": 532,
+      "tn": 530,
+      "precision_rotten": 0.0,
+      "recall_rotten": 0.0,
+      "accuracy": 0.4990583804143126,
+      "auc": 0.5
+    }
+  }
+}

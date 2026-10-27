@@ -1,0 +1,54 @@
+{
+  "roboflow": "fruit-fresh-rotten/fresh-rotten-6yh5b/1",
+  "counts": {
+    "train": {
+      "freshapples": 592,
+      "freshbanana": 531,
+      "freshoranges": 632,
+      "rottenapples": 654,
+      "rottenbanana": 608,
+      "rottenoranges": 591
+    },
+    "val": {
+      "freshapples": 105,
+      "freshbanana": 94,
+      "freshoranges": 111,
+      "rottenapples": 116,
+      "rottenbanana": 107,
+      "rottenoranges": 104
+    },
+    "test": {
+      "freshapples": 172,
+      "freshbanana": 155,
+      "freshoranges": 203,
+      "rottenapples": 177,
+      "rottenbanana": 177,
+      "rottenoranges": 178
+    }
+  },
+  "dropped": {},
+  "classes_in_download": [
+    "freshapples",
+    "freshbanana",
+    "freshoranges",
+    "rottenapples",
+    "rottenbanana",
+    "rottenoranges"
+  ],
+  "image_size": {
+    "width_median": 640.0,
+    "height_median": 640.0,
+    "width_min": 640,
+    "width_max": 640,
+    "height_min": 640,
+    "height_max": 640,
+    "distinct_sizes": 1
+  },
+  "near_duplicates": {
+    "test_images": 1062,
+    "test_with_near_duplicate_in_train": 354,
+    "share": 0.3333333333333333,
+    "hash": "16x16 average hash, rotation/flip invariant",
+    "max_bits_different": 20
+  }
+}

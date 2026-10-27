@@ -1,0 +1,168 @@
+{
+  "placeholders": false,
+  "assumptions": {
+    "base_rate": 0.05,
+    "cost_fn": 1.0,
+    "cost_fp": 0.15,
+    "cost_tp": 0.0,
+    "cost_tn": 0.0,
+    "review_seconds": 4.0,
+    "reviewer_cost_per_hour": 13.0,
+    "review_cost_per_fruit": 0.014444444444444444,
+    "fruit_per_day": 100000,
+    "shift_hours": 8.0,
+    "reviewers_available": 1
+  },
+  "chosen_on": "val",
+  "reported_on": "test",
+  "single_threshold": 0.53,
+  "zero_shot_threshold": 0.68,
+  "review_band": {
+    "t_low": 0.53,
+    "t_high": 0.53
+  },
+  "shipped_band": {
+    "t_low": 0.23,
+    "t_high": 0.99,
+    "real_q_low": 0.014444444444444444,
+    "real_q_high": 0.9037037037037037,
+    "odds_shift": 0.04989538065346853,
+    "train_rotten_share": 0.5133437990580848
+  },
+  "strategies_on_test": {
+    "do_nothing": {
+      "cost_per_1000": 50.0,
+      "review_share": 0.0,
+      "reviewers_needed": 0.0
+    },
+    "person_checks_everything": {
+      "cost_per_1000": 14.444444444444445,
+      "review_share": 1.0,
+      "reviewers_needed": 13.88888888888889
+    },
+    "zero_shot_model_alone": {
+      "t_low": 0.68,
+      "t_high": 0.68,
+      "cost_per_1000": 32.28677826642076,
+      "review_share": 0.0,
+      "reviewers_needed": 0.0,
+      "shares": {
+        "rotten": {
+          "pass": 0.2800751879699248,
+          "review": 0.0,
+          "fail": 0.7199248120300752
+        },
+        "fresh": {
+          "pass": 0.8716981132075472,
+          "review": 0.0,
+          "fail": 0.12830188679245283
+        }
+      },
+      "counts": {
+        "rotten": {
+          "pass": 149,
+          "review": 0,
+          "fail": 383
+        },
+        "fresh": {
+          "pass": 462,
+          "review": 0,
+          "fail": 68
+        }
+      }
+    },
+    "model_alone": {
+      "t_low": 0.53,
+      "t_high": 0.53,
+      "cost_per_1000": 0.2819548872180451,
+      "review_share": 0.0,
+      "reviewers_needed": 0.0,
+      "shares": {
+        "rotten": {
+          "pass": 0.005639097744360902,
+          "review": 0.0,
+          "fail": 0.9943609022556391
+        },
+        "fresh": {
+          "pass": 1.0,
+          "review": 0.0,
+          "fail": 0.0
+        }
+      },
+      "counts": {
+        "rotten": {
+          "pass": 3,
+          "review": 0,
+          "fail": 529
+        },
+        "fresh": {
+          "pass": 530,
+          "review": 0,
+          "fail": 0
+        }
+      }
+    },
+    "model_plus_review": {
+      "t_low": 0.53,
+      "t_high": 0.53,
+      "cost_per_1000": 0.2819548872180451,
+      "review_share": 0.0,
+      "reviewers_needed": 0.0,
+      "shares": {
+        "rotten": {
+          "pass": 0.005639097744360902,
+          "review": 0.0,
+          "fail": 0.9943609022556391
+        },
+        "fresh": {
+          "pass": 1.0,
+          "review": 0.0,
+          "fail": 0.0
+        }
+      },
+      "counts": {
+        "rotten": {
+          "pass": 3,
+          "review": 0,
+          "fail": 529
+        },
+        "fresh": {
+          "pass": 530,
+          "review": 0,
+          "fail": 0
+        }
+      }
+    },
+    "model_plus_breakeven_band": {
+      "t_low": 0.23,
+      "t_high": 0.99,
+      "cost_per_1000": 0.23015163695402027,
+      "review_share": 0.0029202723790608598,
+      "reviewers_needed": 0.0405593385980675,
+      "shares": {
+        "rotten": {
+          "pass": 0.0037593984962406013,
+          "review": 0.022556390977443608,
+          "fail": 0.9736842105263158
+        },
+        "fresh": {
+          "pass": 0.9981132075471698,
+          "review": 0.0018867924528301887,
+          "fail": 0.0
+        }
+      },
+      "counts": {
+        "rotten": {
+          "pass": 2,
+          "review": 12,
+          "fail": 518
+        },
+        "fresh": {
+          "pass": 529,
+          "review": 1,
+          "fail": 0
+        }
+      }
+    }
+  }
+}
