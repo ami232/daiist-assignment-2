@@ -1,0 +1,12 @@
+{
+  "model": "yolo11s.pt",
+  "epochs": 50,
+  "imgsz": 512,
+  "batch": 16,
+  "seed": 0,
+  "patience": 15,
+  "train_minutes": 15.3,
+  "device": "Tesla T4",
+  "torch": "2.11.0+cu130",
+  "ultralytics": "8.4.190"
+}

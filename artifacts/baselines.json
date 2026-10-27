@@ -1,0 +1,29 @@
+{
+  "coco_zero_shot": {
+    "shared_class_names": [],
+    "ap50": 0.0,
+    "note": "COCO has no class with our names, so every detection is a wrong class and AP50 is 0 by construction.",
+    "detections_by_coco_class": {
+      "car": 722,
+      "clock": 1,
+      "train": 8,
+      "boat": 33,
+      "traffic light": 28,
+      "truck": 36,
+      "person": 28,
+      "stop sign": 9,
+      "bench": 1,
+      "airplane": 1,
+      "bus": 10,
+      "parking meter": 1,
+      "potted plant": 3,
+      "bicycle": 1,
+      "motorcycle": 3
+    }
+  },
+  "predict_nothing": {
+    "ap50": 0.0,
+    "recall": 0.0,
+    "note": "Predicts no objects: every positive is missed."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "images": {
+    "train": {
+      "images": 1404,
+      "no_objects": 0
+    },
+    "valid": {
+      "images": 401,
+      "no_objects": 0
+    },
+    "test": {
+      "images": 199,
+      "no_objects": 0
+    }
+  },
+  "instances": {
+    "train": {
+      "crack": 1796,
+      "manhole": 684,
+      "pothole": 913
+    },
+    "valid": {
+      "crack": 489,
+      "manhole": 174,
+      "pothole": 223
+    },
+    "test": {
+      "crack": 215,
+      "manhole": 110,
+      "pothole": 115
+    }
+  },
+  "box_area_pct": {
+    "median_pct": {
+      "crack": 1.41,
+      "manhole": 0.46,
+      "pothole": 0.38
+    },
+    "p10_pct": {
+      "crack": 0.38,
+      "manhole": 0.15,
+      "pothole": 0.12
+    },
+    "p90_pct": {
+      "crack": 6.09,
+      "manhole": 1.14,
+      "pothole": 1.6
+    },
+    "below_1pct": {
+      "crack": 38.88,
+      "manhole": 86.57,
+      "pothole": 81.61
+    }
+  }
+}
