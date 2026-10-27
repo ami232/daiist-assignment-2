@@ -1,0 +1,169 @@
+{
+  "classes": [
+    "Damaged road",
+    "Potholes"
+  ],
+  "dataset": {
+    "source": "Roboflow Universe",
+    "workspace": "moh-fzwtt",
+    "project": "pothole-detection-hg5ye",
+    "version": 2,
+    "directory": "/content/daiist-assignment-2/roboflow_download",
+    "train_images": 4388,
+    "validation_images": 250,
+    "test_images": 100
+  },
+  "training": {
+    "model": "YOLO11n",
+    "device": "0",
+    "epochs_requested": 30,
+    "image_size": 640,
+    "batch_size": 16,
+    "weights": "weights/road_damage_yolo11n.pt"
+  },
+  "costs_eur": {
+    "false_negative": 100.0,
+    "false_positive": 20.0,
+    "human_review": 10.0
+  },
+  "object_detection_test_metrics": {
+    "precision": 0.8234124830134804,
+    "recall": 0.8608751713699394,
+    "map50": 0.8781808311277581,
+    "map50_95": 0.815218692204704,
+    "per_class": {
+      "Damaged road": {
+        "precision": 0.9542089426238275,
+        "recall": 0.958113979103515,
+        "ap50": 0.9862835439649955,
+        "map50_95": 0.98547798840944
+      },
+      "Potholes": {
+        "precision": 0.6926160234031332,
+        "recall": 0.7636363636363637,
+        "ap50": 0.7700781182905208,
+        "map50_95": 0.6449593959999682
+      }
+    },
+    "confusion_matrix": [
+      [
+        81.0,
+        1.0,
+        61.0
+      ],
+      [
+        6.0,
+        51.0,
+        285.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0
+      ]
+    ]
+  },
+  "image_level_test_metrics": {
+    "fine_tuned_at_validation_selected_band": {
+      "low_threshold": 0.05,
+      "high_threshold": 0.35,
+      "images": 100,
+      "true_positive": 90,
+      "false_positive": 3,
+      "true_negative": 0,
+      "false_negative": 0,
+      "reviewed": 7,
+      "review_share": 0.07,
+      "cost_total_eur": 130.0,
+      "cost_per_1000_images_eur": 1300.0,
+      "confusion_matrix_auto_only": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          90
+        ]
+      ]
+    },
+    "pretrained_coco_zero_shot": {
+      "low_threshold": 0.5,
+      "high_threshold": 0.5,
+      "images": 100,
+      "true_positive": 0,
+      "false_positive": 0,
+      "true_negative": 7,
+      "false_negative": 93,
+      "reviewed": 0,
+      "review_share": 0.0,
+      "cost_total_eur": 9300.0,
+      "cost_per_1000_images_eur": 93000.0,
+      "confusion_matrix_auto_only": [
+        [
+          7,
+          0
+        ],
+        [
+          93,
+          0
+        ]
+      ]
+    },
+    "predict_nothing": {
+      "low_threshold": 0.5,
+      "high_threshold": 0.5,
+      "images": 100,
+      "true_positive": 0,
+      "false_positive": 0,
+      "true_negative": 7,
+      "false_negative": 93,
+      "reviewed": 0,
+      "review_share": 0.0,
+      "cost_total_eur": 9300.0,
+      "cost_per_1000_images_eur": 93000.0,
+      "confusion_matrix_auto_only": [
+        [
+          7,
+          0
+        ],
+        [
+          93,
+          0
+        ]
+      ]
+    }
+  },
+  "validation_selected_operating_points": {
+    "single_threshold": {
+      "threshold": 0.05,
+      "cost_per_1000_images_eur": 2480.0,
+      "false_positive": 31,
+      "false_negative": 0
+    },
+    "review_band": {
+      "low_threshold": 0.05,
+      "high_threshold": 0.35,
+      "images": 250,
+      "true_positive": 205,
+      "false_positive": 17,
+      "true_negative": 3,
+      "false_negative": 0,
+      "reviewed": 25,
+      "review_share": 0.1,
+      "cost_total_eur": 590.0,
+      "cost_per_1000_images_eur": 2360.0,
+      "confusion_matrix_auto_only": [
+        [
+          3,
+          17
+        ],
+        [
+          0,
+          205
+        ]
+      ]
+    }
+  },
+  "caveat": "Image-level costs treat an image as the decision unit. Reviewed images incur review cost and are assumed to be resolved correctly. The confusion matrix excludes reviewed images. COCO has neither target class, so its target-class zero-shot baseline makes no mapped target detections."
+}

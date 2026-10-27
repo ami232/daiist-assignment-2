@@ -1,0 +1,116 @@
+[
+  {
+    "threshold": 0.05,
+    "cost_per_1000_images_eur": 2480.0,
+    "false_positive": 31,
+    "false_negative": 0
+  },
+  {
+    "threshold": 0.1,
+    "cost_per_1000_images_eur": 3040.0,
+    "false_positive": 28,
+    "false_negative": 2
+  },
+  {
+    "threshold": 0.15,
+    "cost_per_1000_images_eur": 4080.0,
+    "false_positive": 26,
+    "false_negative": 5
+  },
+  {
+    "threshold": 0.2,
+    "cost_per_1000_images_eur": 4240.0,
+    "false_positive": 23,
+    "false_negative": 6
+  },
+  {
+    "threshold": 0.25,
+    "cost_per_1000_images_eur": 4560.0,
+    "false_positive": 22,
+    "false_negative": 7
+  },
+  {
+    "threshold": 0.3,
+    "cost_per_1000_images_eur": 5200.0,
+    "false_positive": 20,
+    "false_negative": 9
+  },
+  {
+    "threshold": 0.35,
+    "cost_per_1000_images_eur": 5760.0,
+    "false_positive": 17,
+    "false_negative": 11
+  },
+  {
+    "threshold": 0.4,
+    "cost_per_1000_images_eur": 7920.0,
+    "false_positive": 14,
+    "false_negative": 17
+  },
+  {
+    "threshold": 0.45,
+    "cost_per_1000_images_eur": 10560.0,
+    "false_positive": 12,
+    "false_negative": 24
+  },
+  {
+    "threshold": 0.5,
+    "cost_per_1000_images_eur": 12480.0,
+    "false_positive": 11,
+    "false_negative": 29
+  },
+  {
+    "threshold": 0.55,
+    "cost_per_1000_images_eur": 14400.0,
+    "false_positive": 10,
+    "false_negative": 34
+  },
+  {
+    "threshold": 0.6,
+    "cost_per_1000_images_eur": 16800.0,
+    "false_positive": 10,
+    "false_negative": 40
+  },
+  {
+    "threshold": 0.65,
+    "cost_per_1000_images_eur": 17920.0,
+    "false_positive": 9,
+    "false_negative": 43
+  },
+  {
+    "threshold": 0.7,
+    "cost_per_1000_images_eur": 21440.0,
+    "false_positive": 8,
+    "false_negative": 52
+  },
+  {
+    "threshold": 0.75,
+    "cost_per_1000_images_eur": 24400.0,
+    "false_positive": 5,
+    "false_negative": 60
+  },
+  {
+    "threshold": 0.8,
+    "cost_per_1000_images_eur": 27520.0,
+    "false_positive": 4,
+    "false_negative": 68
+  },
+  {
+    "threshold": 0.85,
+    "cost_per_1000_images_eur": 33440.0,
+    "false_positive": 3,
+    "false_negative": 83
+  },
+  {
+    "threshold": 0.9,
+    "cost_per_1000_images_eur": 39280.0,
+    "false_positive": 1,
+    "false_negative": 98
+  },
+  {
+    "threshold": 0.95,
+    "cost_per_1000_images_eur": 52400.0,
+    "false_positive": 0,
+    "false_negative": 131
+  }
+]

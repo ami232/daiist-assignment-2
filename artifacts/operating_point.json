@@ -1,0 +1,37 @@
+{
+  "single_threshold_best": {
+    "threshold": 0.05,
+    "cost_per_1000_images_eur": 2480.0,
+    "false_positive": 31,
+    "false_negative": 0
+  },
+  "review_band_best": {
+    "low_threshold": 0.05,
+    "high_threshold": 0.35,
+    "images": 250,
+    "true_positive": 205,
+    "false_positive": 17,
+    "true_negative": 3,
+    "false_negative": 0,
+    "reviewed": 25,
+    "review_share": 0.1,
+    "cost_total_eur": 590.0,
+    "cost_per_1000_images_eur": 2360.0,
+    "confusion_matrix_auto_only": [
+      [
+        3,
+        17
+      ],
+      [
+        0,
+        205
+      ]
+    ]
+  },
+  "selection_split": "validation",
+  "costs_eur": {
+    "false_negative": 100.0,
+    "false_positive": 20.0,
+    "human_review": 10.0
+  }
+}

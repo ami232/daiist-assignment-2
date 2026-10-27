@@ -1,0 +1,3935 @@
+[
+  {
+    "low_threshold": 0.05,
+    "high_threshold": 0.1,
+    "images": 250,
+    "true_positive": 214,
+    "false_positive": 28,
+    "true_negative": 3,
+    "false_negative": 0,
+    "reviewed": 5,
+    "review_share": 0.02,
+    "cost_total_eur": 610.0,
+    "cost_per_1000_images_eur": 2440.0,
+    "confusion_matrix_auto_only": [
+      [
+        3,
+        28
+      ],
+      [
+        0,
+        214
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.05,
+    "high_threshold": 0.15,
+    "images": 250,
+    "true_positive": 211,
+    "false_positive": 26,
+    "true_negative": 3,
+    "false_negative": 0,
+    "reviewed": 10,
+    "review_share": 0.04,
+    "cost_total_eur": 620.0,
+    "cost_per_1000_images_eur": 2480.0,
+    "confusion_matrix_auto_only": [
+      [
+        3,
+        26
+      ],
+      [
+        0,
+        211
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.05,
+    "high_threshold": 0.2,
+    "images": 250,
+    "true_positive": 210,
+    "false_positive": 23,
+    "true_negative": 3,
+    "false_negative": 0,
+    "reviewed": 14,
+    "review_share": 0.056,
+    "cost_total_eur": 600.0,
+    "cost_per_1000_images_eur": 2400.0,
+    "confusion_matrix_auto_only": [
+      [
+        3,
+        23
+      ],
+      [
+        0,
+        210
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.05,
+    "high_threshold": 0.25,
+    "images": 250,
+    "true_positive": 209,
+    "false_positive": 22,
+    "true_negative": 3,
+    "false_negative": 0,
+    "reviewed": 16,
+    "review_share": 0.064,
+    "cost_total_eur": 600.0,
+    "cost_per_1000_images_eur": 2400.0,
+    "confusion_matrix_auto_only": [
+      [
+        3,
+        22
+      ],
+      [
+        0,
+        209
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.05,
+    "high_threshold": 0.3,
+    "images": 250,
+    "true_positive": 207,
+    "false_positive": 20,
+    "true_negative": 3,
+    "false_negative": 0,
+    "reviewed": 20,
+    "review_share": 0.08,
+    "cost_total_eur": 600.0,
+    "cost_per_1000_images_eur": 2400.0,
+    "confusion_matrix_auto_only": [
+      [
+        3,
+        20
+      ],
+      [
+        0,
+        207
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.05,
+    "high_threshold": 0.35,
+    "images": 250,
+    "true_positive": 205,
+    "false_positive": 17,
+    "true_negative": 3,
+    "false_negative": 0,
+    "reviewed": 25,
+    "review_share": 0.1,
+    "cost_total_eur": 590.0,
+    "cost_per_1000_images_eur": 2360.0,
+    "confusion_matrix_auto_only": [
+      [
+        3,
+        17
+      ],
+      [
+        0,
+        205
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.05,
+    "high_threshold": 0.4,
+    "images": 250,
+    "true_positive": 199,
+    "false_positive": 14,
+    "true_negative": 3,
+    "false_negative": 0,
+    "reviewed": 34,
+    "review_share": 0.136,
+    "cost_total_eur": 620.0,
+    "cost_per_1000_images_eur": 2480.0,
+    "confusion_matrix_auto_only": [
+      [
+        3,
+        14
+      ],
+      [
+        0,
+        199
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.05,
+    "high_threshold": 0.45,
+    "images": 250,
+    "true_positive": 192,
+    "false_positive": 12,
+    "true_negative": 3,
+    "false_negative": 0,
+    "reviewed": 43,
+    "review_share": 0.172,
+    "cost_total_eur": 670.0,
+    "cost_per_1000_images_eur": 2680.0,
+    "confusion_matrix_auto_only": [
+      [
+        3,
+        12
+      ],
+      [
+        0,
+        192
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.05,
+    "high_threshold": 0.5,
+    "images": 250,
+    "true_positive": 187,
+    "false_positive": 11,
+    "true_negative": 3,
+    "false_negative": 0,
+    "reviewed": 49,
+    "review_share": 0.196,
+    "cost_total_eur": 710.0,
+    "cost_per_1000_images_eur": 2840.0,
+    "confusion_matrix_auto_only": [
+      [
+        3,
+        11
+      ],
+      [
+        0,
+        187
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.05,
+    "high_threshold": 0.55,
+    "images": 250,
+    "true_positive": 182,
+    "false_positive": 10,
+    "true_negative": 3,
+    "false_negative": 0,
+    "reviewed": 55,
+    "review_share": 0.22,
+    "cost_total_eur": 750.0,
+    "cost_per_1000_images_eur": 3000.0,
+    "confusion_matrix_auto_only": [
+      [
+        3,
+        10
+      ],
+      [
+        0,
+        182
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.05,
+    "high_threshold": 0.6,
+    "images": 250,
+    "true_positive": 176,
+    "false_positive": 10,
+    "true_negative": 3,
+    "false_negative": 0,
+    "reviewed": 61,
+    "review_share": 0.244,
+    "cost_total_eur": 810.0,
+    "cost_per_1000_images_eur": 3240.0,
+    "confusion_matrix_auto_only": [
+      [
+        3,
+        10
+      ],
+      [
+        0,
+        176
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.05,
+    "high_threshold": 0.65,
+    "images": 250,
+    "true_positive": 173,
+    "false_positive": 9,
+    "true_negative": 3,
+    "false_negative": 0,
+    "reviewed": 65,
+    "review_share": 0.26,
+    "cost_total_eur": 830.0,
+    "cost_per_1000_images_eur": 3320.0,
+    "confusion_matrix_auto_only": [
+      [
+        3,
+        9
+      ],
+      [
+        0,
+        173
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.05,
+    "high_threshold": 0.7,
+    "images": 250,
+    "true_positive": 164,
+    "false_positive": 8,
+    "true_negative": 3,
+    "false_negative": 0,
+    "reviewed": 75,
+    "review_share": 0.3,
+    "cost_total_eur": 910.0,
+    "cost_per_1000_images_eur": 3640.0,
+    "confusion_matrix_auto_only": [
+      [
+        3,
+        8
+      ],
+      [
+        0,
+        164
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.05,
+    "high_threshold": 0.75,
+    "images": 250,
+    "true_positive": 156,
+    "false_positive": 5,
+    "true_negative": 3,
+    "false_negative": 0,
+    "reviewed": 86,
+    "review_share": 0.344,
+    "cost_total_eur": 960.0,
+    "cost_per_1000_images_eur": 3840.0,
+    "confusion_matrix_auto_only": [
+      [
+        3,
+        5
+      ],
+      [
+        0,
+        156
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.05,
+    "high_threshold": 0.8,
+    "images": 250,
+    "true_positive": 148,
+    "false_positive": 4,
+    "true_negative": 3,
+    "false_negative": 0,
+    "reviewed": 95,
+    "review_share": 0.38,
+    "cost_total_eur": 1030.0,
+    "cost_per_1000_images_eur": 4120.0,
+    "confusion_matrix_auto_only": [
+      [
+        3,
+        4
+      ],
+      [
+        0,
+        148
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.05,
+    "high_threshold": 0.85,
+    "images": 250,
+    "true_positive": 133,
+    "false_positive": 3,
+    "true_negative": 3,
+    "false_negative": 0,
+    "reviewed": 111,
+    "review_share": 0.444,
+    "cost_total_eur": 1170.0,
+    "cost_per_1000_images_eur": 4680.0,
+    "confusion_matrix_auto_only": [
+      [
+        3,
+        3
+      ],
+      [
+        0,
+        133
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.05,
+    "high_threshold": 0.9,
+    "images": 250,
+    "true_positive": 118,
+    "false_positive": 1,
+    "true_negative": 3,
+    "false_negative": 0,
+    "reviewed": 128,
+    "review_share": 0.512,
+    "cost_total_eur": 1300.0,
+    "cost_per_1000_images_eur": 5200.0,
+    "confusion_matrix_auto_only": [
+      [
+        3,
+        1
+      ],
+      [
+        0,
+        118
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.05,
+    "high_threshold": 0.95,
+    "images": 250,
+    "true_positive": 85,
+    "false_positive": 0,
+    "true_negative": 3,
+    "false_negative": 0,
+    "reviewed": 162,
+    "review_share": 0.648,
+    "cost_total_eur": 1620.0,
+    "cost_per_1000_images_eur": 6480.0,
+    "confusion_matrix_auto_only": [
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        85
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.1,
+    "high_threshold": 0.15,
+    "images": 250,
+    "true_positive": 211,
+    "false_positive": 26,
+    "true_negative": 6,
+    "false_negative": 2,
+    "reviewed": 5,
+    "review_share": 0.02,
+    "cost_total_eur": 770.0,
+    "cost_per_1000_images_eur": 3080.0,
+    "confusion_matrix_auto_only": [
+      [
+        6,
+        26
+      ],
+      [
+        2,
+        211
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.1,
+    "high_threshold": 0.2,
+    "images": 250,
+    "true_positive": 210,
+    "false_positive": 23,
+    "true_negative": 6,
+    "false_negative": 2,
+    "reviewed": 9,
+    "review_share": 0.036,
+    "cost_total_eur": 750.0,
+    "cost_per_1000_images_eur": 3000.0,
+    "confusion_matrix_auto_only": [
+      [
+        6,
+        23
+      ],
+      [
+        2,
+        210
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.1,
+    "high_threshold": 0.25,
+    "images": 250,
+    "true_positive": 209,
+    "false_positive": 22,
+    "true_negative": 6,
+    "false_negative": 2,
+    "reviewed": 11,
+    "review_share": 0.044,
+    "cost_total_eur": 750.0,
+    "cost_per_1000_images_eur": 3000.0,
+    "confusion_matrix_auto_only": [
+      [
+        6,
+        22
+      ],
+      [
+        2,
+        209
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.1,
+    "high_threshold": 0.3,
+    "images": 250,
+    "true_positive": 207,
+    "false_positive": 20,
+    "true_negative": 6,
+    "false_negative": 2,
+    "reviewed": 15,
+    "review_share": 0.06,
+    "cost_total_eur": 750.0,
+    "cost_per_1000_images_eur": 3000.0,
+    "confusion_matrix_auto_only": [
+      [
+        6,
+        20
+      ],
+      [
+        2,
+        207
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.1,
+    "high_threshold": 0.35,
+    "images": 250,
+    "true_positive": 205,
+    "false_positive": 17,
+    "true_negative": 6,
+    "false_negative": 2,
+    "reviewed": 20,
+    "review_share": 0.08,
+    "cost_total_eur": 740.0,
+    "cost_per_1000_images_eur": 2960.0,
+    "confusion_matrix_auto_only": [
+      [
+        6,
+        17
+      ],
+      [
+        2,
+        205
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.1,
+    "high_threshold": 0.4,
+    "images": 250,
+    "true_positive": 199,
+    "false_positive": 14,
+    "true_negative": 6,
+    "false_negative": 2,
+    "reviewed": 29,
+    "review_share": 0.116,
+    "cost_total_eur": 770.0,
+    "cost_per_1000_images_eur": 3080.0,
+    "confusion_matrix_auto_only": [
+      [
+        6,
+        14
+      ],
+      [
+        2,
+        199
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.1,
+    "high_threshold": 0.45,
+    "images": 250,
+    "true_positive": 192,
+    "false_positive": 12,
+    "true_negative": 6,
+    "false_negative": 2,
+    "reviewed": 38,
+    "review_share": 0.152,
+    "cost_total_eur": 820.0,
+    "cost_per_1000_images_eur": 3280.0,
+    "confusion_matrix_auto_only": [
+      [
+        6,
+        12
+      ],
+      [
+        2,
+        192
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.1,
+    "high_threshold": 0.5,
+    "images": 250,
+    "true_positive": 187,
+    "false_positive": 11,
+    "true_negative": 6,
+    "false_negative": 2,
+    "reviewed": 44,
+    "review_share": 0.176,
+    "cost_total_eur": 860.0,
+    "cost_per_1000_images_eur": 3440.0,
+    "confusion_matrix_auto_only": [
+      [
+        6,
+        11
+      ],
+      [
+        2,
+        187
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.1,
+    "high_threshold": 0.55,
+    "images": 250,
+    "true_positive": 182,
+    "false_positive": 10,
+    "true_negative": 6,
+    "false_negative": 2,
+    "reviewed": 50,
+    "review_share": 0.2,
+    "cost_total_eur": 900.0,
+    "cost_per_1000_images_eur": 3600.0,
+    "confusion_matrix_auto_only": [
+      [
+        6,
+        10
+      ],
+      [
+        2,
+        182
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.1,
+    "high_threshold": 0.6,
+    "images": 250,
+    "true_positive": 176,
+    "false_positive": 10,
+    "true_negative": 6,
+    "false_negative": 2,
+    "reviewed": 56,
+    "review_share": 0.224,
+    "cost_total_eur": 960.0,
+    "cost_per_1000_images_eur": 3840.0,
+    "confusion_matrix_auto_only": [
+      [
+        6,
+        10
+      ],
+      [
+        2,
+        176
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.1,
+    "high_threshold": 0.65,
+    "images": 250,
+    "true_positive": 173,
+    "false_positive": 9,
+    "true_negative": 6,
+    "false_negative": 2,
+    "reviewed": 60,
+    "review_share": 0.24,
+    "cost_total_eur": 980.0,
+    "cost_per_1000_images_eur": 3920.0,
+    "confusion_matrix_auto_only": [
+      [
+        6,
+        9
+      ],
+      [
+        2,
+        173
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.1,
+    "high_threshold": 0.7,
+    "images": 250,
+    "true_positive": 164,
+    "false_positive": 8,
+    "true_negative": 6,
+    "false_negative": 2,
+    "reviewed": 70,
+    "review_share": 0.28,
+    "cost_total_eur": 1060.0,
+    "cost_per_1000_images_eur": 4240.0,
+    "confusion_matrix_auto_only": [
+      [
+        6,
+        8
+      ],
+      [
+        2,
+        164
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.1,
+    "high_threshold": 0.75,
+    "images": 250,
+    "true_positive": 156,
+    "false_positive": 5,
+    "true_negative": 6,
+    "false_negative": 2,
+    "reviewed": 81,
+    "review_share": 0.324,
+    "cost_total_eur": 1110.0,
+    "cost_per_1000_images_eur": 4440.0,
+    "confusion_matrix_auto_only": [
+      [
+        6,
+        5
+      ],
+      [
+        2,
+        156
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.1,
+    "high_threshold": 0.8,
+    "images": 250,
+    "true_positive": 148,
+    "false_positive": 4,
+    "true_negative": 6,
+    "false_negative": 2,
+    "reviewed": 90,
+    "review_share": 0.36,
+    "cost_total_eur": 1180.0,
+    "cost_per_1000_images_eur": 4720.0,
+    "confusion_matrix_auto_only": [
+      [
+        6,
+        4
+      ],
+      [
+        2,
+        148
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.1,
+    "high_threshold": 0.85,
+    "images": 250,
+    "true_positive": 133,
+    "false_positive": 3,
+    "true_negative": 6,
+    "false_negative": 2,
+    "reviewed": 106,
+    "review_share": 0.424,
+    "cost_total_eur": 1320.0,
+    "cost_per_1000_images_eur": 5280.0,
+    "confusion_matrix_auto_only": [
+      [
+        6,
+        3
+      ],
+      [
+        2,
+        133
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.1,
+    "high_threshold": 0.9,
+    "images": 250,
+    "true_positive": 118,
+    "false_positive": 1,
+    "true_negative": 6,
+    "false_negative": 2,
+    "reviewed": 123,
+    "review_share": 0.492,
+    "cost_total_eur": 1450.0,
+    "cost_per_1000_images_eur": 5800.0,
+    "confusion_matrix_auto_only": [
+      [
+        6,
+        1
+      ],
+      [
+        2,
+        118
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.1,
+    "high_threshold": 0.95,
+    "images": 250,
+    "true_positive": 85,
+    "false_positive": 0,
+    "true_negative": 6,
+    "false_negative": 2,
+    "reviewed": 157,
+    "review_share": 0.628,
+    "cost_total_eur": 1770.0,
+    "cost_per_1000_images_eur": 7080.0,
+    "confusion_matrix_auto_only": [
+      [
+        6,
+        0
+      ],
+      [
+        2,
+        85
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.15,
+    "high_threshold": 0.2,
+    "images": 250,
+    "true_positive": 210,
+    "false_positive": 23,
+    "true_negative": 8,
+    "false_negative": 5,
+    "reviewed": 4,
+    "review_share": 0.016,
+    "cost_total_eur": 1000.0,
+    "cost_per_1000_images_eur": 4000.0,
+    "confusion_matrix_auto_only": [
+      [
+        8,
+        23
+      ],
+      [
+        5,
+        210
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.15,
+    "high_threshold": 0.25,
+    "images": 250,
+    "true_positive": 209,
+    "false_positive": 22,
+    "true_negative": 8,
+    "false_negative": 5,
+    "reviewed": 6,
+    "review_share": 0.024,
+    "cost_total_eur": 1000.0,
+    "cost_per_1000_images_eur": 4000.0,
+    "confusion_matrix_auto_only": [
+      [
+        8,
+        22
+      ],
+      [
+        5,
+        209
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.15,
+    "high_threshold": 0.3,
+    "images": 250,
+    "true_positive": 207,
+    "false_positive": 20,
+    "true_negative": 8,
+    "false_negative": 5,
+    "reviewed": 10,
+    "review_share": 0.04,
+    "cost_total_eur": 1000.0,
+    "cost_per_1000_images_eur": 4000.0,
+    "confusion_matrix_auto_only": [
+      [
+        8,
+        20
+      ],
+      [
+        5,
+        207
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.15,
+    "high_threshold": 0.35,
+    "images": 250,
+    "true_positive": 205,
+    "false_positive": 17,
+    "true_negative": 8,
+    "false_negative": 5,
+    "reviewed": 15,
+    "review_share": 0.06,
+    "cost_total_eur": 990.0,
+    "cost_per_1000_images_eur": 3960.0,
+    "confusion_matrix_auto_only": [
+      [
+        8,
+        17
+      ],
+      [
+        5,
+        205
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.15,
+    "high_threshold": 0.4,
+    "images": 250,
+    "true_positive": 199,
+    "false_positive": 14,
+    "true_negative": 8,
+    "false_negative": 5,
+    "reviewed": 24,
+    "review_share": 0.096,
+    "cost_total_eur": 1020.0,
+    "cost_per_1000_images_eur": 4080.0,
+    "confusion_matrix_auto_only": [
+      [
+        8,
+        14
+      ],
+      [
+        5,
+        199
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.15,
+    "high_threshold": 0.45,
+    "images": 250,
+    "true_positive": 192,
+    "false_positive": 12,
+    "true_negative": 8,
+    "false_negative": 5,
+    "reviewed": 33,
+    "review_share": 0.132,
+    "cost_total_eur": 1070.0,
+    "cost_per_1000_images_eur": 4280.0,
+    "confusion_matrix_auto_only": [
+      [
+        8,
+        12
+      ],
+      [
+        5,
+        192
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.15,
+    "high_threshold": 0.5,
+    "images": 250,
+    "true_positive": 187,
+    "false_positive": 11,
+    "true_negative": 8,
+    "false_negative": 5,
+    "reviewed": 39,
+    "review_share": 0.156,
+    "cost_total_eur": 1110.0,
+    "cost_per_1000_images_eur": 4440.0,
+    "confusion_matrix_auto_only": [
+      [
+        8,
+        11
+      ],
+      [
+        5,
+        187
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.15,
+    "high_threshold": 0.55,
+    "images": 250,
+    "true_positive": 182,
+    "false_positive": 10,
+    "true_negative": 8,
+    "false_negative": 5,
+    "reviewed": 45,
+    "review_share": 0.18,
+    "cost_total_eur": 1150.0,
+    "cost_per_1000_images_eur": 4600.0,
+    "confusion_matrix_auto_only": [
+      [
+        8,
+        10
+      ],
+      [
+        5,
+        182
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.15,
+    "high_threshold": 0.6,
+    "images": 250,
+    "true_positive": 176,
+    "false_positive": 10,
+    "true_negative": 8,
+    "false_negative": 5,
+    "reviewed": 51,
+    "review_share": 0.204,
+    "cost_total_eur": 1210.0,
+    "cost_per_1000_images_eur": 4840.0,
+    "confusion_matrix_auto_only": [
+      [
+        8,
+        10
+      ],
+      [
+        5,
+        176
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.15,
+    "high_threshold": 0.65,
+    "images": 250,
+    "true_positive": 173,
+    "false_positive": 9,
+    "true_negative": 8,
+    "false_negative": 5,
+    "reviewed": 55,
+    "review_share": 0.22,
+    "cost_total_eur": 1230.0,
+    "cost_per_1000_images_eur": 4920.0,
+    "confusion_matrix_auto_only": [
+      [
+        8,
+        9
+      ],
+      [
+        5,
+        173
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.15,
+    "high_threshold": 0.7,
+    "images": 250,
+    "true_positive": 164,
+    "false_positive": 8,
+    "true_negative": 8,
+    "false_negative": 5,
+    "reviewed": 65,
+    "review_share": 0.26,
+    "cost_total_eur": 1310.0,
+    "cost_per_1000_images_eur": 5240.0,
+    "confusion_matrix_auto_only": [
+      [
+        8,
+        8
+      ],
+      [
+        5,
+        164
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.15,
+    "high_threshold": 0.75,
+    "images": 250,
+    "true_positive": 156,
+    "false_positive": 5,
+    "true_negative": 8,
+    "false_negative": 5,
+    "reviewed": 76,
+    "review_share": 0.304,
+    "cost_total_eur": 1360.0,
+    "cost_per_1000_images_eur": 5440.0,
+    "confusion_matrix_auto_only": [
+      [
+        8,
+        5
+      ],
+      [
+        5,
+        156
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.15,
+    "high_threshold": 0.8,
+    "images": 250,
+    "true_positive": 148,
+    "false_positive": 4,
+    "true_negative": 8,
+    "false_negative": 5,
+    "reviewed": 85,
+    "review_share": 0.34,
+    "cost_total_eur": 1430.0,
+    "cost_per_1000_images_eur": 5720.0,
+    "confusion_matrix_auto_only": [
+      [
+        8,
+        4
+      ],
+      [
+        5,
+        148
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.15,
+    "high_threshold": 0.85,
+    "images": 250,
+    "true_positive": 133,
+    "false_positive": 3,
+    "true_negative": 8,
+    "false_negative": 5,
+    "reviewed": 101,
+    "review_share": 0.404,
+    "cost_total_eur": 1570.0,
+    "cost_per_1000_images_eur": 6280.0,
+    "confusion_matrix_auto_only": [
+      [
+        8,
+        3
+      ],
+      [
+        5,
+        133
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.15,
+    "high_threshold": 0.9,
+    "images": 250,
+    "true_positive": 118,
+    "false_positive": 1,
+    "true_negative": 8,
+    "false_negative": 5,
+    "reviewed": 118,
+    "review_share": 0.472,
+    "cost_total_eur": 1700.0,
+    "cost_per_1000_images_eur": 6800.0,
+    "confusion_matrix_auto_only": [
+      [
+        8,
+        1
+      ],
+      [
+        5,
+        118
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.15,
+    "high_threshold": 0.95,
+    "images": 250,
+    "true_positive": 85,
+    "false_positive": 0,
+    "true_negative": 8,
+    "false_negative": 5,
+    "reviewed": 152,
+    "review_share": 0.608,
+    "cost_total_eur": 2020.0,
+    "cost_per_1000_images_eur": 8080.0,
+    "confusion_matrix_auto_only": [
+      [
+        8,
+        0
+      ],
+      [
+        5,
+        85
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.2,
+    "high_threshold": 0.25,
+    "images": 250,
+    "true_positive": 209,
+    "false_positive": 22,
+    "true_negative": 11,
+    "false_negative": 6,
+    "reviewed": 2,
+    "review_share": 0.008,
+    "cost_total_eur": 1060.0,
+    "cost_per_1000_images_eur": 4240.0,
+    "confusion_matrix_auto_only": [
+      [
+        11,
+        22
+      ],
+      [
+        6,
+        209
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.2,
+    "high_threshold": 0.3,
+    "images": 250,
+    "true_positive": 207,
+    "false_positive": 20,
+    "true_negative": 11,
+    "false_negative": 6,
+    "reviewed": 6,
+    "review_share": 0.024,
+    "cost_total_eur": 1060.0,
+    "cost_per_1000_images_eur": 4240.0,
+    "confusion_matrix_auto_only": [
+      [
+        11,
+        20
+      ],
+      [
+        6,
+        207
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.2,
+    "high_threshold": 0.35,
+    "images": 250,
+    "true_positive": 205,
+    "false_positive": 17,
+    "true_negative": 11,
+    "false_negative": 6,
+    "reviewed": 11,
+    "review_share": 0.044,
+    "cost_total_eur": 1050.0,
+    "cost_per_1000_images_eur": 4200.0,
+    "confusion_matrix_auto_only": [
+      [
+        11,
+        17
+      ],
+      [
+        6,
+        205
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.2,
+    "high_threshold": 0.4,
+    "images": 250,
+    "true_positive": 199,
+    "false_positive": 14,
+    "true_negative": 11,
+    "false_negative": 6,
+    "reviewed": 20,
+    "review_share": 0.08,
+    "cost_total_eur": 1080.0,
+    "cost_per_1000_images_eur": 4320.0,
+    "confusion_matrix_auto_only": [
+      [
+        11,
+        14
+      ],
+      [
+        6,
+        199
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.2,
+    "high_threshold": 0.45,
+    "images": 250,
+    "true_positive": 192,
+    "false_positive": 12,
+    "true_negative": 11,
+    "false_negative": 6,
+    "reviewed": 29,
+    "review_share": 0.116,
+    "cost_total_eur": 1130.0,
+    "cost_per_1000_images_eur": 4520.0,
+    "confusion_matrix_auto_only": [
+      [
+        11,
+        12
+      ],
+      [
+        6,
+        192
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.2,
+    "high_threshold": 0.5,
+    "images": 250,
+    "true_positive": 187,
+    "false_positive": 11,
+    "true_negative": 11,
+    "false_negative": 6,
+    "reviewed": 35,
+    "review_share": 0.14,
+    "cost_total_eur": 1170.0,
+    "cost_per_1000_images_eur": 4680.0,
+    "confusion_matrix_auto_only": [
+      [
+        11,
+        11
+      ],
+      [
+        6,
+        187
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.2,
+    "high_threshold": 0.55,
+    "images": 250,
+    "true_positive": 182,
+    "false_positive": 10,
+    "true_negative": 11,
+    "false_negative": 6,
+    "reviewed": 41,
+    "review_share": 0.164,
+    "cost_total_eur": 1210.0,
+    "cost_per_1000_images_eur": 4840.0,
+    "confusion_matrix_auto_only": [
+      [
+        11,
+        10
+      ],
+      [
+        6,
+        182
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.2,
+    "high_threshold": 0.6,
+    "images": 250,
+    "true_positive": 176,
+    "false_positive": 10,
+    "true_negative": 11,
+    "false_negative": 6,
+    "reviewed": 47,
+    "review_share": 0.188,
+    "cost_total_eur": 1270.0,
+    "cost_per_1000_images_eur": 5080.0,
+    "confusion_matrix_auto_only": [
+      [
+        11,
+        10
+      ],
+      [
+        6,
+        176
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.2,
+    "high_threshold": 0.65,
+    "images": 250,
+    "true_positive": 173,
+    "false_positive": 9,
+    "true_negative": 11,
+    "false_negative": 6,
+    "reviewed": 51,
+    "review_share": 0.204,
+    "cost_total_eur": 1290.0,
+    "cost_per_1000_images_eur": 5160.0,
+    "confusion_matrix_auto_only": [
+      [
+        11,
+        9
+      ],
+      [
+        6,
+        173
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.2,
+    "high_threshold": 0.7,
+    "images": 250,
+    "true_positive": 164,
+    "false_positive": 8,
+    "true_negative": 11,
+    "false_negative": 6,
+    "reviewed": 61,
+    "review_share": 0.244,
+    "cost_total_eur": 1370.0,
+    "cost_per_1000_images_eur": 5480.0,
+    "confusion_matrix_auto_only": [
+      [
+        11,
+        8
+      ],
+      [
+        6,
+        164
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.2,
+    "high_threshold": 0.75,
+    "images": 250,
+    "true_positive": 156,
+    "false_positive": 5,
+    "true_negative": 11,
+    "false_negative": 6,
+    "reviewed": 72,
+    "review_share": 0.288,
+    "cost_total_eur": 1420.0,
+    "cost_per_1000_images_eur": 5680.0,
+    "confusion_matrix_auto_only": [
+      [
+        11,
+        5
+      ],
+      [
+        6,
+        156
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.2,
+    "high_threshold": 0.8,
+    "images": 250,
+    "true_positive": 148,
+    "false_positive": 4,
+    "true_negative": 11,
+    "false_negative": 6,
+    "reviewed": 81,
+    "review_share": 0.324,
+    "cost_total_eur": 1490.0,
+    "cost_per_1000_images_eur": 5960.0,
+    "confusion_matrix_auto_only": [
+      [
+        11,
+        4
+      ],
+      [
+        6,
+        148
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.2,
+    "high_threshold": 0.85,
+    "images": 250,
+    "true_positive": 133,
+    "false_positive": 3,
+    "true_negative": 11,
+    "false_negative": 6,
+    "reviewed": 97,
+    "review_share": 0.388,
+    "cost_total_eur": 1630.0,
+    "cost_per_1000_images_eur": 6520.0,
+    "confusion_matrix_auto_only": [
+      [
+        11,
+        3
+      ],
+      [
+        6,
+        133
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.2,
+    "high_threshold": 0.9,
+    "images": 250,
+    "true_positive": 118,
+    "false_positive": 1,
+    "true_negative": 11,
+    "false_negative": 6,
+    "reviewed": 114,
+    "review_share": 0.456,
+    "cost_total_eur": 1760.0,
+    "cost_per_1000_images_eur": 7040.0,
+    "confusion_matrix_auto_only": [
+      [
+        11,
+        1
+      ],
+      [
+        6,
+        118
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.2,
+    "high_threshold": 0.95,
+    "images": 250,
+    "true_positive": 85,
+    "false_positive": 0,
+    "true_negative": 11,
+    "false_negative": 6,
+    "reviewed": 148,
+    "review_share": 0.592,
+    "cost_total_eur": 2080.0,
+    "cost_per_1000_images_eur": 8320.0,
+    "confusion_matrix_auto_only": [
+      [
+        11,
+        0
+      ],
+      [
+        6,
+        85
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.25,
+    "high_threshold": 0.3,
+    "images": 250,
+    "true_positive": 207,
+    "false_positive": 20,
+    "true_negative": 12,
+    "false_negative": 7,
+    "reviewed": 4,
+    "review_share": 0.016,
+    "cost_total_eur": 1140.0,
+    "cost_per_1000_images_eur": 4560.0,
+    "confusion_matrix_auto_only": [
+      [
+        12,
+        20
+      ],
+      [
+        7,
+        207
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.25,
+    "high_threshold": 0.35,
+    "images": 250,
+    "true_positive": 205,
+    "false_positive": 17,
+    "true_negative": 12,
+    "false_negative": 7,
+    "reviewed": 9,
+    "review_share": 0.036,
+    "cost_total_eur": 1130.0,
+    "cost_per_1000_images_eur": 4520.0,
+    "confusion_matrix_auto_only": [
+      [
+        12,
+        17
+      ],
+      [
+        7,
+        205
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.25,
+    "high_threshold": 0.4,
+    "images": 250,
+    "true_positive": 199,
+    "false_positive": 14,
+    "true_negative": 12,
+    "false_negative": 7,
+    "reviewed": 18,
+    "review_share": 0.072,
+    "cost_total_eur": 1160.0,
+    "cost_per_1000_images_eur": 4640.0,
+    "confusion_matrix_auto_only": [
+      [
+        12,
+        14
+      ],
+      [
+        7,
+        199
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.25,
+    "high_threshold": 0.45,
+    "images": 250,
+    "true_positive": 192,
+    "false_positive": 12,
+    "true_negative": 12,
+    "false_negative": 7,
+    "reviewed": 27,
+    "review_share": 0.108,
+    "cost_total_eur": 1210.0,
+    "cost_per_1000_images_eur": 4840.0,
+    "confusion_matrix_auto_only": [
+      [
+        12,
+        12
+      ],
+      [
+        7,
+        192
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.25,
+    "high_threshold": 0.5,
+    "images": 250,
+    "true_positive": 187,
+    "false_positive": 11,
+    "true_negative": 12,
+    "false_negative": 7,
+    "reviewed": 33,
+    "review_share": 0.132,
+    "cost_total_eur": 1250.0,
+    "cost_per_1000_images_eur": 5000.0,
+    "confusion_matrix_auto_only": [
+      [
+        12,
+        11
+      ],
+      [
+        7,
+        187
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.25,
+    "high_threshold": 0.55,
+    "images": 250,
+    "true_positive": 182,
+    "false_positive": 10,
+    "true_negative": 12,
+    "false_negative": 7,
+    "reviewed": 39,
+    "review_share": 0.156,
+    "cost_total_eur": 1290.0,
+    "cost_per_1000_images_eur": 5160.0,
+    "confusion_matrix_auto_only": [
+      [
+        12,
+        10
+      ],
+      [
+        7,
+        182
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.25,
+    "high_threshold": 0.6,
+    "images": 250,
+    "true_positive": 176,
+    "false_positive": 10,
+    "true_negative": 12,
+    "false_negative": 7,
+    "reviewed": 45,
+    "review_share": 0.18,
+    "cost_total_eur": 1350.0,
+    "cost_per_1000_images_eur": 5400.0,
+    "confusion_matrix_auto_only": [
+      [
+        12,
+        10
+      ],
+      [
+        7,
+        176
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.25,
+    "high_threshold": 0.65,
+    "images": 250,
+    "true_positive": 173,
+    "false_positive": 9,
+    "true_negative": 12,
+    "false_negative": 7,
+    "reviewed": 49,
+    "review_share": 0.196,
+    "cost_total_eur": 1370.0,
+    "cost_per_1000_images_eur": 5480.0,
+    "confusion_matrix_auto_only": [
+      [
+        12,
+        9
+      ],
+      [
+        7,
+        173
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.25,
+    "high_threshold": 0.7,
+    "images": 250,
+    "true_positive": 164,
+    "false_positive": 8,
+    "true_negative": 12,
+    "false_negative": 7,
+    "reviewed": 59,
+    "review_share": 0.236,
+    "cost_total_eur": 1450.0,
+    "cost_per_1000_images_eur": 5800.0,
+    "confusion_matrix_auto_only": [
+      [
+        12,
+        8
+      ],
+      [
+        7,
+        164
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.25,
+    "high_threshold": 0.75,
+    "images": 250,
+    "true_positive": 156,
+    "false_positive": 5,
+    "true_negative": 12,
+    "false_negative": 7,
+    "reviewed": 70,
+    "review_share": 0.28,
+    "cost_total_eur": 1500.0,
+    "cost_per_1000_images_eur": 6000.0,
+    "confusion_matrix_auto_only": [
+      [
+        12,
+        5
+      ],
+      [
+        7,
+        156
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.25,
+    "high_threshold": 0.8,
+    "images": 250,
+    "true_positive": 148,
+    "false_positive": 4,
+    "true_negative": 12,
+    "false_negative": 7,
+    "reviewed": 79,
+    "review_share": 0.316,
+    "cost_total_eur": 1570.0,
+    "cost_per_1000_images_eur": 6280.0,
+    "confusion_matrix_auto_only": [
+      [
+        12,
+        4
+      ],
+      [
+        7,
+        148
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.25,
+    "high_threshold": 0.85,
+    "images": 250,
+    "true_positive": 133,
+    "false_positive": 3,
+    "true_negative": 12,
+    "false_negative": 7,
+    "reviewed": 95,
+    "review_share": 0.38,
+    "cost_total_eur": 1710.0,
+    "cost_per_1000_images_eur": 6840.0,
+    "confusion_matrix_auto_only": [
+      [
+        12,
+        3
+      ],
+      [
+        7,
+        133
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.25,
+    "high_threshold": 0.9,
+    "images": 250,
+    "true_positive": 118,
+    "false_positive": 1,
+    "true_negative": 12,
+    "false_negative": 7,
+    "reviewed": 112,
+    "review_share": 0.448,
+    "cost_total_eur": 1840.0,
+    "cost_per_1000_images_eur": 7360.0,
+    "confusion_matrix_auto_only": [
+      [
+        12,
+        1
+      ],
+      [
+        7,
+        118
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.25,
+    "high_threshold": 0.95,
+    "images": 250,
+    "true_positive": 85,
+    "false_positive": 0,
+    "true_negative": 12,
+    "false_negative": 7,
+    "reviewed": 146,
+    "review_share": 0.584,
+    "cost_total_eur": 2160.0,
+    "cost_per_1000_images_eur": 8640.0,
+    "confusion_matrix_auto_only": [
+      [
+        12,
+        0
+      ],
+      [
+        7,
+        85
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.3,
+    "high_threshold": 0.35,
+    "images": 250,
+    "true_positive": 205,
+    "false_positive": 17,
+    "true_negative": 14,
+    "false_negative": 9,
+    "reviewed": 5,
+    "review_share": 0.02,
+    "cost_total_eur": 1290.0,
+    "cost_per_1000_images_eur": 5160.0,
+    "confusion_matrix_auto_only": [
+      [
+        14,
+        17
+      ],
+      [
+        9,
+        205
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.3,
+    "high_threshold": 0.4,
+    "images": 250,
+    "true_positive": 199,
+    "false_positive": 14,
+    "true_negative": 14,
+    "false_negative": 9,
+    "reviewed": 14,
+    "review_share": 0.056,
+    "cost_total_eur": 1320.0,
+    "cost_per_1000_images_eur": 5280.0,
+    "confusion_matrix_auto_only": [
+      [
+        14,
+        14
+      ],
+      [
+        9,
+        199
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.3,
+    "high_threshold": 0.45,
+    "images": 250,
+    "true_positive": 192,
+    "false_positive": 12,
+    "true_negative": 14,
+    "false_negative": 9,
+    "reviewed": 23,
+    "review_share": 0.092,
+    "cost_total_eur": 1370.0,
+    "cost_per_1000_images_eur": 5480.0,
+    "confusion_matrix_auto_only": [
+      [
+        14,
+        12
+      ],
+      [
+        9,
+        192
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.3,
+    "high_threshold": 0.5,
+    "images": 250,
+    "true_positive": 187,
+    "false_positive": 11,
+    "true_negative": 14,
+    "false_negative": 9,
+    "reviewed": 29,
+    "review_share": 0.116,
+    "cost_total_eur": 1410.0,
+    "cost_per_1000_images_eur": 5640.0,
+    "confusion_matrix_auto_only": [
+      [
+        14,
+        11
+      ],
+      [
+        9,
+        187
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.3,
+    "high_threshold": 0.55,
+    "images": 250,
+    "true_positive": 182,
+    "false_positive": 10,
+    "true_negative": 14,
+    "false_negative": 9,
+    "reviewed": 35,
+    "review_share": 0.14,
+    "cost_total_eur": 1450.0,
+    "cost_per_1000_images_eur": 5800.0,
+    "confusion_matrix_auto_only": [
+      [
+        14,
+        10
+      ],
+      [
+        9,
+        182
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.3,
+    "high_threshold": 0.6,
+    "images": 250,
+    "true_positive": 176,
+    "false_positive": 10,
+    "true_negative": 14,
+    "false_negative": 9,
+    "reviewed": 41,
+    "review_share": 0.164,
+    "cost_total_eur": 1510.0,
+    "cost_per_1000_images_eur": 6040.0,
+    "confusion_matrix_auto_only": [
+      [
+        14,
+        10
+      ],
+      [
+        9,
+        176
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.3,
+    "high_threshold": 0.65,
+    "images": 250,
+    "true_positive": 173,
+    "false_positive": 9,
+    "true_negative": 14,
+    "false_negative": 9,
+    "reviewed": 45,
+    "review_share": 0.18,
+    "cost_total_eur": 1530.0,
+    "cost_per_1000_images_eur": 6120.0,
+    "confusion_matrix_auto_only": [
+      [
+        14,
+        9
+      ],
+      [
+        9,
+        173
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.3,
+    "high_threshold": 0.7,
+    "images": 250,
+    "true_positive": 164,
+    "false_positive": 8,
+    "true_negative": 14,
+    "false_negative": 9,
+    "reviewed": 55,
+    "review_share": 0.22,
+    "cost_total_eur": 1610.0,
+    "cost_per_1000_images_eur": 6440.0,
+    "confusion_matrix_auto_only": [
+      [
+        14,
+        8
+      ],
+      [
+        9,
+        164
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.3,
+    "high_threshold": 0.75,
+    "images": 250,
+    "true_positive": 156,
+    "false_positive": 5,
+    "true_negative": 14,
+    "false_negative": 9,
+    "reviewed": 66,
+    "review_share": 0.264,
+    "cost_total_eur": 1660.0,
+    "cost_per_1000_images_eur": 6640.0,
+    "confusion_matrix_auto_only": [
+      [
+        14,
+        5
+      ],
+      [
+        9,
+        156
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.3,
+    "high_threshold": 0.8,
+    "images": 250,
+    "true_positive": 148,
+    "false_positive": 4,
+    "true_negative": 14,
+    "false_negative": 9,
+    "reviewed": 75,
+    "review_share": 0.3,
+    "cost_total_eur": 1730.0,
+    "cost_per_1000_images_eur": 6920.0,
+    "confusion_matrix_auto_only": [
+      [
+        14,
+        4
+      ],
+      [
+        9,
+        148
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.3,
+    "high_threshold": 0.85,
+    "images": 250,
+    "true_positive": 133,
+    "false_positive": 3,
+    "true_negative": 14,
+    "false_negative": 9,
+    "reviewed": 91,
+    "review_share": 0.364,
+    "cost_total_eur": 1870.0,
+    "cost_per_1000_images_eur": 7480.0,
+    "confusion_matrix_auto_only": [
+      [
+        14,
+        3
+      ],
+      [
+        9,
+        133
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.3,
+    "high_threshold": 0.9,
+    "images": 250,
+    "true_positive": 118,
+    "false_positive": 1,
+    "true_negative": 14,
+    "false_negative": 9,
+    "reviewed": 108,
+    "review_share": 0.432,
+    "cost_total_eur": 2000.0,
+    "cost_per_1000_images_eur": 8000.0,
+    "confusion_matrix_auto_only": [
+      [
+        14,
+        1
+      ],
+      [
+        9,
+        118
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.3,
+    "high_threshold": 0.95,
+    "images": 250,
+    "true_positive": 85,
+    "false_positive": 0,
+    "true_negative": 14,
+    "false_negative": 9,
+    "reviewed": 142,
+    "review_share": 0.568,
+    "cost_total_eur": 2320.0,
+    "cost_per_1000_images_eur": 9280.0,
+    "confusion_matrix_auto_only": [
+      [
+        14,
+        0
+      ],
+      [
+        9,
+        85
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.35,
+    "high_threshold": 0.4,
+    "images": 250,
+    "true_positive": 199,
+    "false_positive": 14,
+    "true_negative": 17,
+    "false_negative": 11,
+    "reviewed": 9,
+    "review_share": 0.036,
+    "cost_total_eur": 1470.0,
+    "cost_per_1000_images_eur": 5880.0,
+    "confusion_matrix_auto_only": [
+      [
+        17,
+        14
+      ],
+      [
+        11,
+        199
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.35,
+    "high_threshold": 0.45,
+    "images": 250,
+    "true_positive": 192,
+    "false_positive": 12,
+    "true_negative": 17,
+    "false_negative": 11,
+    "reviewed": 18,
+    "review_share": 0.072,
+    "cost_total_eur": 1520.0,
+    "cost_per_1000_images_eur": 6080.0,
+    "confusion_matrix_auto_only": [
+      [
+        17,
+        12
+      ],
+      [
+        11,
+        192
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.35,
+    "high_threshold": 0.5,
+    "images": 250,
+    "true_positive": 187,
+    "false_positive": 11,
+    "true_negative": 17,
+    "false_negative": 11,
+    "reviewed": 24,
+    "review_share": 0.096,
+    "cost_total_eur": 1560.0,
+    "cost_per_1000_images_eur": 6240.0,
+    "confusion_matrix_auto_only": [
+      [
+        17,
+        11
+      ],
+      [
+        11,
+        187
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.35,
+    "high_threshold": 0.55,
+    "images": 250,
+    "true_positive": 182,
+    "false_positive": 10,
+    "true_negative": 17,
+    "false_negative": 11,
+    "reviewed": 30,
+    "review_share": 0.12,
+    "cost_total_eur": 1600.0,
+    "cost_per_1000_images_eur": 6400.0,
+    "confusion_matrix_auto_only": [
+      [
+        17,
+        10
+      ],
+      [
+        11,
+        182
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.35,
+    "high_threshold": 0.6,
+    "images": 250,
+    "true_positive": 176,
+    "false_positive": 10,
+    "true_negative": 17,
+    "false_negative": 11,
+    "reviewed": 36,
+    "review_share": 0.144,
+    "cost_total_eur": 1660.0,
+    "cost_per_1000_images_eur": 6640.0,
+    "confusion_matrix_auto_only": [
+      [
+        17,
+        10
+      ],
+      [
+        11,
+        176
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.35,
+    "high_threshold": 0.65,
+    "images": 250,
+    "true_positive": 173,
+    "false_positive": 9,
+    "true_negative": 17,
+    "false_negative": 11,
+    "reviewed": 40,
+    "review_share": 0.16,
+    "cost_total_eur": 1680.0,
+    "cost_per_1000_images_eur": 6720.0,
+    "confusion_matrix_auto_only": [
+      [
+        17,
+        9
+      ],
+      [
+        11,
+        173
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.35,
+    "high_threshold": 0.7,
+    "images": 250,
+    "true_positive": 164,
+    "false_positive": 8,
+    "true_negative": 17,
+    "false_negative": 11,
+    "reviewed": 50,
+    "review_share": 0.2,
+    "cost_total_eur": 1760.0,
+    "cost_per_1000_images_eur": 7040.0,
+    "confusion_matrix_auto_only": [
+      [
+        17,
+        8
+      ],
+      [
+        11,
+        164
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.35,
+    "high_threshold": 0.75,
+    "images": 250,
+    "true_positive": 156,
+    "false_positive": 5,
+    "true_negative": 17,
+    "false_negative": 11,
+    "reviewed": 61,
+    "review_share": 0.244,
+    "cost_total_eur": 1810.0,
+    "cost_per_1000_images_eur": 7240.0,
+    "confusion_matrix_auto_only": [
+      [
+        17,
+        5
+      ],
+      [
+        11,
+        156
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.35,
+    "high_threshold": 0.8,
+    "images": 250,
+    "true_positive": 148,
+    "false_positive": 4,
+    "true_negative": 17,
+    "false_negative": 11,
+    "reviewed": 70,
+    "review_share": 0.28,
+    "cost_total_eur": 1880.0,
+    "cost_per_1000_images_eur": 7520.0,
+    "confusion_matrix_auto_only": [
+      [
+        17,
+        4
+      ],
+      [
+        11,
+        148
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.35,
+    "high_threshold": 0.85,
+    "images": 250,
+    "true_positive": 133,
+    "false_positive": 3,
+    "true_negative": 17,
+    "false_negative": 11,
+    "reviewed": 86,
+    "review_share": 0.344,
+    "cost_total_eur": 2020.0,
+    "cost_per_1000_images_eur": 8080.0,
+    "confusion_matrix_auto_only": [
+      [
+        17,
+        3
+      ],
+      [
+        11,
+        133
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.35,
+    "high_threshold": 0.9,
+    "images": 250,
+    "true_positive": 118,
+    "false_positive": 1,
+    "true_negative": 17,
+    "false_negative": 11,
+    "reviewed": 103,
+    "review_share": 0.412,
+    "cost_total_eur": 2150.0,
+    "cost_per_1000_images_eur": 8600.0,
+    "confusion_matrix_auto_only": [
+      [
+        17,
+        1
+      ],
+      [
+        11,
+        118
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.35,
+    "high_threshold": 0.95,
+    "images": 250,
+    "true_positive": 85,
+    "false_positive": 0,
+    "true_negative": 17,
+    "false_negative": 11,
+    "reviewed": 137,
+    "review_share": 0.548,
+    "cost_total_eur": 2470.0,
+    "cost_per_1000_images_eur": 9880.0,
+    "confusion_matrix_auto_only": [
+      [
+        17,
+        0
+      ],
+      [
+        11,
+        85
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.4,
+    "high_threshold": 0.45,
+    "images": 250,
+    "true_positive": 192,
+    "false_positive": 12,
+    "true_negative": 20,
+    "false_negative": 17,
+    "reviewed": 9,
+    "review_share": 0.036,
+    "cost_total_eur": 2030.0,
+    "cost_per_1000_images_eur": 8120.0,
+    "confusion_matrix_auto_only": [
+      [
+        20,
+        12
+      ],
+      [
+        17,
+        192
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.4,
+    "high_threshold": 0.5,
+    "images": 250,
+    "true_positive": 187,
+    "false_positive": 11,
+    "true_negative": 20,
+    "false_negative": 17,
+    "reviewed": 15,
+    "review_share": 0.06,
+    "cost_total_eur": 2070.0,
+    "cost_per_1000_images_eur": 8280.0,
+    "confusion_matrix_auto_only": [
+      [
+        20,
+        11
+      ],
+      [
+        17,
+        187
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.4,
+    "high_threshold": 0.55,
+    "images": 250,
+    "true_positive": 182,
+    "false_positive": 10,
+    "true_negative": 20,
+    "false_negative": 17,
+    "reviewed": 21,
+    "review_share": 0.084,
+    "cost_total_eur": 2110.0,
+    "cost_per_1000_images_eur": 8440.0,
+    "confusion_matrix_auto_only": [
+      [
+        20,
+        10
+      ],
+      [
+        17,
+        182
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.4,
+    "high_threshold": 0.6,
+    "images": 250,
+    "true_positive": 176,
+    "false_positive": 10,
+    "true_negative": 20,
+    "false_negative": 17,
+    "reviewed": 27,
+    "review_share": 0.108,
+    "cost_total_eur": 2170.0,
+    "cost_per_1000_images_eur": 8680.0,
+    "confusion_matrix_auto_only": [
+      [
+        20,
+        10
+      ],
+      [
+        17,
+        176
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.4,
+    "high_threshold": 0.65,
+    "images": 250,
+    "true_positive": 173,
+    "false_positive": 9,
+    "true_negative": 20,
+    "false_negative": 17,
+    "reviewed": 31,
+    "review_share": 0.124,
+    "cost_total_eur": 2190.0,
+    "cost_per_1000_images_eur": 8760.0,
+    "confusion_matrix_auto_only": [
+      [
+        20,
+        9
+      ],
+      [
+        17,
+        173
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.4,
+    "high_threshold": 0.7,
+    "images": 250,
+    "true_positive": 164,
+    "false_positive": 8,
+    "true_negative": 20,
+    "false_negative": 17,
+    "reviewed": 41,
+    "review_share": 0.164,
+    "cost_total_eur": 2270.0,
+    "cost_per_1000_images_eur": 9080.0,
+    "confusion_matrix_auto_only": [
+      [
+        20,
+        8
+      ],
+      [
+        17,
+        164
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.4,
+    "high_threshold": 0.75,
+    "images": 250,
+    "true_positive": 156,
+    "false_positive": 5,
+    "true_negative": 20,
+    "false_negative": 17,
+    "reviewed": 52,
+    "review_share": 0.208,
+    "cost_total_eur": 2320.0,
+    "cost_per_1000_images_eur": 9280.0,
+    "confusion_matrix_auto_only": [
+      [
+        20,
+        5
+      ],
+      [
+        17,
+        156
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.4,
+    "high_threshold": 0.8,
+    "images": 250,
+    "true_positive": 148,
+    "false_positive": 4,
+    "true_negative": 20,
+    "false_negative": 17,
+    "reviewed": 61,
+    "review_share": 0.244,
+    "cost_total_eur": 2390.0,
+    "cost_per_1000_images_eur": 9560.0,
+    "confusion_matrix_auto_only": [
+      [
+        20,
+        4
+      ],
+      [
+        17,
+        148
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.4,
+    "high_threshold": 0.85,
+    "images": 250,
+    "true_positive": 133,
+    "false_positive": 3,
+    "true_negative": 20,
+    "false_negative": 17,
+    "reviewed": 77,
+    "review_share": 0.308,
+    "cost_total_eur": 2530.0,
+    "cost_per_1000_images_eur": 10120.0,
+    "confusion_matrix_auto_only": [
+      [
+        20,
+        3
+      ],
+      [
+        17,
+        133
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.4,
+    "high_threshold": 0.9,
+    "images": 250,
+    "true_positive": 118,
+    "false_positive": 1,
+    "true_negative": 20,
+    "false_negative": 17,
+    "reviewed": 94,
+    "review_share": 0.376,
+    "cost_total_eur": 2660.0,
+    "cost_per_1000_images_eur": 10640.0,
+    "confusion_matrix_auto_only": [
+      [
+        20,
+        1
+      ],
+      [
+        17,
+        118
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.4,
+    "high_threshold": 0.95,
+    "images": 250,
+    "true_positive": 85,
+    "false_positive": 0,
+    "true_negative": 20,
+    "false_negative": 17,
+    "reviewed": 128,
+    "review_share": 0.512,
+    "cost_total_eur": 2980.0,
+    "cost_per_1000_images_eur": 11920.0,
+    "confusion_matrix_auto_only": [
+      [
+        20,
+        0
+      ],
+      [
+        17,
+        85
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.45,
+    "high_threshold": 0.5,
+    "images": 250,
+    "true_positive": 187,
+    "false_positive": 11,
+    "true_negative": 22,
+    "false_negative": 24,
+    "reviewed": 6,
+    "review_share": 0.024,
+    "cost_total_eur": 2680.0,
+    "cost_per_1000_images_eur": 10720.0,
+    "confusion_matrix_auto_only": [
+      [
+        22,
+        11
+      ],
+      [
+        24,
+        187
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.45,
+    "high_threshold": 0.55,
+    "images": 250,
+    "true_positive": 182,
+    "false_positive": 10,
+    "true_negative": 22,
+    "false_negative": 24,
+    "reviewed": 12,
+    "review_share": 0.048,
+    "cost_total_eur": 2720.0,
+    "cost_per_1000_images_eur": 10880.0,
+    "confusion_matrix_auto_only": [
+      [
+        22,
+        10
+      ],
+      [
+        24,
+        182
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.45,
+    "high_threshold": 0.6,
+    "images": 250,
+    "true_positive": 176,
+    "false_positive": 10,
+    "true_negative": 22,
+    "false_negative": 24,
+    "reviewed": 18,
+    "review_share": 0.072,
+    "cost_total_eur": 2780.0,
+    "cost_per_1000_images_eur": 11120.0,
+    "confusion_matrix_auto_only": [
+      [
+        22,
+        10
+      ],
+      [
+        24,
+        176
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.45,
+    "high_threshold": 0.65,
+    "images": 250,
+    "true_positive": 173,
+    "false_positive": 9,
+    "true_negative": 22,
+    "false_negative": 24,
+    "reviewed": 22,
+    "review_share": 0.088,
+    "cost_total_eur": 2800.0,
+    "cost_per_1000_images_eur": 11200.0,
+    "confusion_matrix_auto_only": [
+      [
+        22,
+        9
+      ],
+      [
+        24,
+        173
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.45,
+    "high_threshold": 0.7,
+    "images": 250,
+    "true_positive": 164,
+    "false_positive": 8,
+    "true_negative": 22,
+    "false_negative": 24,
+    "reviewed": 32,
+    "review_share": 0.128,
+    "cost_total_eur": 2880.0,
+    "cost_per_1000_images_eur": 11520.0,
+    "confusion_matrix_auto_only": [
+      [
+        22,
+        8
+      ],
+      [
+        24,
+        164
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.45,
+    "high_threshold": 0.75,
+    "images": 250,
+    "true_positive": 156,
+    "false_positive": 5,
+    "true_negative": 22,
+    "false_negative": 24,
+    "reviewed": 43,
+    "review_share": 0.172,
+    "cost_total_eur": 2930.0,
+    "cost_per_1000_images_eur": 11720.0,
+    "confusion_matrix_auto_only": [
+      [
+        22,
+        5
+      ],
+      [
+        24,
+        156
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.45,
+    "high_threshold": 0.8,
+    "images": 250,
+    "true_positive": 148,
+    "false_positive": 4,
+    "true_negative": 22,
+    "false_negative": 24,
+    "reviewed": 52,
+    "review_share": 0.208,
+    "cost_total_eur": 3000.0,
+    "cost_per_1000_images_eur": 12000.0,
+    "confusion_matrix_auto_only": [
+      [
+        22,
+        4
+      ],
+      [
+        24,
+        148
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.45,
+    "high_threshold": 0.85,
+    "images": 250,
+    "true_positive": 133,
+    "false_positive": 3,
+    "true_negative": 22,
+    "false_negative": 24,
+    "reviewed": 68,
+    "review_share": 0.272,
+    "cost_total_eur": 3140.0,
+    "cost_per_1000_images_eur": 12560.0,
+    "confusion_matrix_auto_only": [
+      [
+        22,
+        3
+      ],
+      [
+        24,
+        133
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.45,
+    "high_threshold": 0.9,
+    "images": 250,
+    "true_positive": 118,
+    "false_positive": 1,
+    "true_negative": 22,
+    "false_negative": 24,
+    "reviewed": 85,
+    "review_share": 0.34,
+    "cost_total_eur": 3270.0,
+    "cost_per_1000_images_eur": 13080.0,
+    "confusion_matrix_auto_only": [
+      [
+        22,
+        1
+      ],
+      [
+        24,
+        118
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.45,
+    "high_threshold": 0.95,
+    "images": 250,
+    "true_positive": 85,
+    "false_positive": 0,
+    "true_negative": 22,
+    "false_negative": 24,
+    "reviewed": 119,
+    "review_share": 0.476,
+    "cost_total_eur": 3590.0,
+    "cost_per_1000_images_eur": 14360.0,
+    "confusion_matrix_auto_only": [
+      [
+        22,
+        0
+      ],
+      [
+        24,
+        85
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.5,
+    "high_threshold": 0.55,
+    "images": 250,
+    "true_positive": 182,
+    "false_positive": 10,
+    "true_negative": 23,
+    "false_negative": 29,
+    "reviewed": 6,
+    "review_share": 0.024,
+    "cost_total_eur": 3160.0,
+    "cost_per_1000_images_eur": 12640.0,
+    "confusion_matrix_auto_only": [
+      [
+        23,
+        10
+      ],
+      [
+        29,
+        182
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.5,
+    "high_threshold": 0.6,
+    "images": 250,
+    "true_positive": 176,
+    "false_positive": 10,
+    "true_negative": 23,
+    "false_negative": 29,
+    "reviewed": 12,
+    "review_share": 0.048,
+    "cost_total_eur": 3220.0,
+    "cost_per_1000_images_eur": 12880.0,
+    "confusion_matrix_auto_only": [
+      [
+        23,
+        10
+      ],
+      [
+        29,
+        176
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.5,
+    "high_threshold": 0.65,
+    "images": 250,
+    "true_positive": 173,
+    "false_positive": 9,
+    "true_negative": 23,
+    "false_negative": 29,
+    "reviewed": 16,
+    "review_share": 0.064,
+    "cost_total_eur": 3240.0,
+    "cost_per_1000_images_eur": 12960.0,
+    "confusion_matrix_auto_only": [
+      [
+        23,
+        9
+      ],
+      [
+        29,
+        173
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.5,
+    "high_threshold": 0.7,
+    "images": 250,
+    "true_positive": 164,
+    "false_positive": 8,
+    "true_negative": 23,
+    "false_negative": 29,
+    "reviewed": 26,
+    "review_share": 0.104,
+    "cost_total_eur": 3320.0,
+    "cost_per_1000_images_eur": 13280.0,
+    "confusion_matrix_auto_only": [
+      [
+        23,
+        8
+      ],
+      [
+        29,
+        164
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.5,
+    "high_threshold": 0.75,
+    "images": 250,
+    "true_positive": 156,
+    "false_positive": 5,
+    "true_negative": 23,
+    "false_negative": 29,
+    "reviewed": 37,
+    "review_share": 0.148,
+    "cost_total_eur": 3370.0,
+    "cost_per_1000_images_eur": 13480.0,
+    "confusion_matrix_auto_only": [
+      [
+        23,
+        5
+      ],
+      [
+        29,
+        156
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.5,
+    "high_threshold": 0.8,
+    "images": 250,
+    "true_positive": 148,
+    "false_positive": 4,
+    "true_negative": 23,
+    "false_negative": 29,
+    "reviewed": 46,
+    "review_share": 0.184,
+    "cost_total_eur": 3440.0,
+    "cost_per_1000_images_eur": 13760.0,
+    "confusion_matrix_auto_only": [
+      [
+        23,
+        4
+      ],
+      [
+        29,
+        148
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.5,
+    "high_threshold": 0.85,
+    "images": 250,
+    "true_positive": 133,
+    "false_positive": 3,
+    "true_negative": 23,
+    "false_negative": 29,
+    "reviewed": 62,
+    "review_share": 0.248,
+    "cost_total_eur": 3580.0,
+    "cost_per_1000_images_eur": 14320.0,
+    "confusion_matrix_auto_only": [
+      [
+        23,
+        3
+      ],
+      [
+        29,
+        133
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.5,
+    "high_threshold": 0.9,
+    "images": 250,
+    "true_positive": 118,
+    "false_positive": 1,
+    "true_negative": 23,
+    "false_negative": 29,
+    "reviewed": 79,
+    "review_share": 0.316,
+    "cost_total_eur": 3710.0,
+    "cost_per_1000_images_eur": 14840.0,
+    "confusion_matrix_auto_only": [
+      [
+        23,
+        1
+      ],
+      [
+        29,
+        118
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.5,
+    "high_threshold": 0.95,
+    "images": 250,
+    "true_positive": 85,
+    "false_positive": 0,
+    "true_negative": 23,
+    "false_negative": 29,
+    "reviewed": 113,
+    "review_share": 0.452,
+    "cost_total_eur": 4030.0,
+    "cost_per_1000_images_eur": 16120.0,
+    "confusion_matrix_auto_only": [
+      [
+        23,
+        0
+      ],
+      [
+        29,
+        85
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.55,
+    "high_threshold": 0.6,
+    "images": 250,
+    "true_positive": 176,
+    "false_positive": 10,
+    "true_negative": 24,
+    "false_negative": 34,
+    "reviewed": 6,
+    "review_share": 0.024,
+    "cost_total_eur": 3660.0,
+    "cost_per_1000_images_eur": 14640.0,
+    "confusion_matrix_auto_only": [
+      [
+        24,
+        10
+      ],
+      [
+        34,
+        176
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.55,
+    "high_threshold": 0.65,
+    "images": 250,
+    "true_positive": 173,
+    "false_positive": 9,
+    "true_negative": 24,
+    "false_negative": 34,
+    "reviewed": 10,
+    "review_share": 0.04,
+    "cost_total_eur": 3680.0,
+    "cost_per_1000_images_eur": 14720.0,
+    "confusion_matrix_auto_only": [
+      [
+        24,
+        9
+      ],
+      [
+        34,
+        173
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.55,
+    "high_threshold": 0.7,
+    "images": 250,
+    "true_positive": 164,
+    "false_positive": 8,
+    "true_negative": 24,
+    "false_negative": 34,
+    "reviewed": 20,
+    "review_share": 0.08,
+    "cost_total_eur": 3760.0,
+    "cost_per_1000_images_eur": 15040.0,
+    "confusion_matrix_auto_only": [
+      [
+        24,
+        8
+      ],
+      [
+        34,
+        164
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.55,
+    "high_threshold": 0.75,
+    "images": 250,
+    "true_positive": 156,
+    "false_positive": 5,
+    "true_negative": 24,
+    "false_negative": 34,
+    "reviewed": 31,
+    "review_share": 0.124,
+    "cost_total_eur": 3810.0,
+    "cost_per_1000_images_eur": 15240.0,
+    "confusion_matrix_auto_only": [
+      [
+        24,
+        5
+      ],
+      [
+        34,
+        156
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.55,
+    "high_threshold": 0.8,
+    "images": 250,
+    "true_positive": 148,
+    "false_positive": 4,
+    "true_negative": 24,
+    "false_negative": 34,
+    "reviewed": 40,
+    "review_share": 0.16,
+    "cost_total_eur": 3880.0,
+    "cost_per_1000_images_eur": 15520.0,
+    "confusion_matrix_auto_only": [
+      [
+        24,
+        4
+      ],
+      [
+        34,
+        148
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.55,
+    "high_threshold": 0.85,
+    "images": 250,
+    "true_positive": 133,
+    "false_positive": 3,
+    "true_negative": 24,
+    "false_negative": 34,
+    "reviewed": 56,
+    "review_share": 0.224,
+    "cost_total_eur": 4020.0,
+    "cost_per_1000_images_eur": 16080.0,
+    "confusion_matrix_auto_only": [
+      [
+        24,
+        3
+      ],
+      [
+        34,
+        133
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.55,
+    "high_threshold": 0.9,
+    "images": 250,
+    "true_positive": 118,
+    "false_positive": 1,
+    "true_negative": 24,
+    "false_negative": 34,
+    "reviewed": 73,
+    "review_share": 0.292,
+    "cost_total_eur": 4150.0,
+    "cost_per_1000_images_eur": 16600.0,
+    "confusion_matrix_auto_only": [
+      [
+        24,
+        1
+      ],
+      [
+        34,
+        118
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.55,
+    "high_threshold": 0.95,
+    "images": 250,
+    "true_positive": 85,
+    "false_positive": 0,
+    "true_negative": 24,
+    "false_negative": 34,
+    "reviewed": 107,
+    "review_share": 0.428,
+    "cost_total_eur": 4470.0,
+    "cost_per_1000_images_eur": 17880.0,
+    "confusion_matrix_auto_only": [
+      [
+        24,
+        0
+      ],
+      [
+        34,
+        85
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.6,
+    "high_threshold": 0.65,
+    "images": 250,
+    "true_positive": 173,
+    "false_positive": 9,
+    "true_negative": 24,
+    "false_negative": 40,
+    "reviewed": 4,
+    "review_share": 0.016,
+    "cost_total_eur": 4220.0,
+    "cost_per_1000_images_eur": 16880.0,
+    "confusion_matrix_auto_only": [
+      [
+        24,
+        9
+      ],
+      [
+        40,
+        173
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.6,
+    "high_threshold": 0.7,
+    "images": 250,
+    "true_positive": 164,
+    "false_positive": 8,
+    "true_negative": 24,
+    "false_negative": 40,
+    "reviewed": 14,
+    "review_share": 0.056,
+    "cost_total_eur": 4300.0,
+    "cost_per_1000_images_eur": 17200.0,
+    "confusion_matrix_auto_only": [
+      [
+        24,
+        8
+      ],
+      [
+        40,
+        164
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.6,
+    "high_threshold": 0.75,
+    "images": 250,
+    "true_positive": 156,
+    "false_positive": 5,
+    "true_negative": 24,
+    "false_negative": 40,
+    "reviewed": 25,
+    "review_share": 0.1,
+    "cost_total_eur": 4350.0,
+    "cost_per_1000_images_eur": 17400.0,
+    "confusion_matrix_auto_only": [
+      [
+        24,
+        5
+      ],
+      [
+        40,
+        156
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.6,
+    "high_threshold": 0.8,
+    "images": 250,
+    "true_positive": 148,
+    "false_positive": 4,
+    "true_negative": 24,
+    "false_negative": 40,
+    "reviewed": 34,
+    "review_share": 0.136,
+    "cost_total_eur": 4420.0,
+    "cost_per_1000_images_eur": 17680.0,
+    "confusion_matrix_auto_only": [
+      [
+        24,
+        4
+      ],
+      [
+        40,
+        148
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.6,
+    "high_threshold": 0.85,
+    "images": 250,
+    "true_positive": 133,
+    "false_positive": 3,
+    "true_negative": 24,
+    "false_negative": 40,
+    "reviewed": 50,
+    "review_share": 0.2,
+    "cost_total_eur": 4560.0,
+    "cost_per_1000_images_eur": 18240.0,
+    "confusion_matrix_auto_only": [
+      [
+        24,
+        3
+      ],
+      [
+        40,
+        133
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.6,
+    "high_threshold": 0.9,
+    "images": 250,
+    "true_positive": 118,
+    "false_positive": 1,
+    "true_negative": 24,
+    "false_negative": 40,
+    "reviewed": 67,
+    "review_share": 0.268,
+    "cost_total_eur": 4690.0,
+    "cost_per_1000_images_eur": 18760.0,
+    "confusion_matrix_auto_only": [
+      [
+        24,
+        1
+      ],
+      [
+        40,
+        118
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.6,
+    "high_threshold": 0.95,
+    "images": 250,
+    "true_positive": 85,
+    "false_positive": 0,
+    "true_negative": 24,
+    "false_negative": 40,
+    "reviewed": 101,
+    "review_share": 0.404,
+    "cost_total_eur": 5010.0,
+    "cost_per_1000_images_eur": 20040.0,
+    "confusion_matrix_auto_only": [
+      [
+        24,
+        0
+      ],
+      [
+        40,
+        85
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.65,
+    "high_threshold": 0.7,
+    "images": 250,
+    "true_positive": 164,
+    "false_positive": 8,
+    "true_negative": 25,
+    "false_negative": 43,
+    "reviewed": 10,
+    "review_share": 0.04,
+    "cost_total_eur": 4560.0,
+    "cost_per_1000_images_eur": 18240.0,
+    "confusion_matrix_auto_only": [
+      [
+        25,
+        8
+      ],
+      [
+        43,
+        164
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.65,
+    "high_threshold": 0.75,
+    "images": 250,
+    "true_positive": 156,
+    "false_positive": 5,
+    "true_negative": 25,
+    "false_negative": 43,
+    "reviewed": 21,
+    "review_share": 0.084,
+    "cost_total_eur": 4610.0,
+    "cost_per_1000_images_eur": 18440.0,
+    "confusion_matrix_auto_only": [
+      [
+        25,
+        5
+      ],
+      [
+        43,
+        156
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.65,
+    "high_threshold": 0.8,
+    "images": 250,
+    "true_positive": 148,
+    "false_positive": 4,
+    "true_negative": 25,
+    "false_negative": 43,
+    "reviewed": 30,
+    "review_share": 0.12,
+    "cost_total_eur": 4680.0,
+    "cost_per_1000_images_eur": 18720.0,
+    "confusion_matrix_auto_only": [
+      [
+        25,
+        4
+      ],
+      [
+        43,
+        148
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.65,
+    "high_threshold": 0.85,
+    "images": 250,
+    "true_positive": 133,
+    "false_positive": 3,
+    "true_negative": 25,
+    "false_negative": 43,
+    "reviewed": 46,
+    "review_share": 0.184,
+    "cost_total_eur": 4820.0,
+    "cost_per_1000_images_eur": 19280.0,
+    "confusion_matrix_auto_only": [
+      [
+        25,
+        3
+      ],
+      [
+        43,
+        133
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.65,
+    "high_threshold": 0.9,
+    "images": 250,
+    "true_positive": 118,
+    "false_positive": 1,
+    "true_negative": 25,
+    "false_negative": 43,
+    "reviewed": 63,
+    "review_share": 0.252,
+    "cost_total_eur": 4950.0,
+    "cost_per_1000_images_eur": 19800.0,
+    "confusion_matrix_auto_only": [
+      [
+        25,
+        1
+      ],
+      [
+        43,
+        118
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.65,
+    "high_threshold": 0.95,
+    "images": 250,
+    "true_positive": 85,
+    "false_positive": 0,
+    "true_negative": 25,
+    "false_negative": 43,
+    "reviewed": 97,
+    "review_share": 0.388,
+    "cost_total_eur": 5270.0,
+    "cost_per_1000_images_eur": 21080.0,
+    "confusion_matrix_auto_only": [
+      [
+        25,
+        0
+      ],
+      [
+        43,
+        85
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.7,
+    "high_threshold": 0.75,
+    "images": 250,
+    "true_positive": 156,
+    "false_positive": 5,
+    "true_negative": 26,
+    "false_negative": 52,
+    "reviewed": 11,
+    "review_share": 0.044,
+    "cost_total_eur": 5410.0,
+    "cost_per_1000_images_eur": 21640.0,
+    "confusion_matrix_auto_only": [
+      [
+        26,
+        5
+      ],
+      [
+        52,
+        156
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.7,
+    "high_threshold": 0.8,
+    "images": 250,
+    "true_positive": 148,
+    "false_positive": 4,
+    "true_negative": 26,
+    "false_negative": 52,
+    "reviewed": 20,
+    "review_share": 0.08,
+    "cost_total_eur": 5480.0,
+    "cost_per_1000_images_eur": 21920.0,
+    "confusion_matrix_auto_only": [
+      [
+        26,
+        4
+      ],
+      [
+        52,
+        148
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.7,
+    "high_threshold": 0.85,
+    "images": 250,
+    "true_positive": 133,
+    "false_positive": 3,
+    "true_negative": 26,
+    "false_negative": 52,
+    "reviewed": 36,
+    "review_share": 0.144,
+    "cost_total_eur": 5620.0,
+    "cost_per_1000_images_eur": 22480.0,
+    "confusion_matrix_auto_only": [
+      [
+        26,
+        3
+      ],
+      [
+        52,
+        133
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.7,
+    "high_threshold": 0.9,
+    "images": 250,
+    "true_positive": 118,
+    "false_positive": 1,
+    "true_negative": 26,
+    "false_negative": 52,
+    "reviewed": 53,
+    "review_share": 0.212,
+    "cost_total_eur": 5750.0,
+    "cost_per_1000_images_eur": 23000.0,
+    "confusion_matrix_auto_only": [
+      [
+        26,
+        1
+      ],
+      [
+        52,
+        118
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.7,
+    "high_threshold": 0.95,
+    "images": 250,
+    "true_positive": 85,
+    "false_positive": 0,
+    "true_negative": 26,
+    "false_negative": 52,
+    "reviewed": 87,
+    "review_share": 0.348,
+    "cost_total_eur": 6070.0,
+    "cost_per_1000_images_eur": 24280.0,
+    "confusion_matrix_auto_only": [
+      [
+        26,
+        0
+      ],
+      [
+        52,
+        85
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.75,
+    "high_threshold": 0.8,
+    "images": 250,
+    "true_positive": 148,
+    "false_positive": 4,
+    "true_negative": 29,
+    "false_negative": 60,
+    "reviewed": 9,
+    "review_share": 0.036,
+    "cost_total_eur": 6170.0,
+    "cost_per_1000_images_eur": 24680.0,
+    "confusion_matrix_auto_only": [
+      [
+        29,
+        4
+      ],
+      [
+        60,
+        148
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.75,
+    "high_threshold": 0.85,
+    "images": 250,
+    "true_positive": 133,
+    "false_positive": 3,
+    "true_negative": 29,
+    "false_negative": 60,
+    "reviewed": 25,
+    "review_share": 0.1,
+    "cost_total_eur": 6310.0,
+    "cost_per_1000_images_eur": 25240.0,
+    "confusion_matrix_auto_only": [
+      [
+        29,
+        3
+      ],
+      [
+        60,
+        133
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.75,
+    "high_threshold": 0.9,
+    "images": 250,
+    "true_positive": 118,
+    "false_positive": 1,
+    "true_negative": 29,
+    "false_negative": 60,
+    "reviewed": 42,
+    "review_share": 0.168,
+    "cost_total_eur": 6440.0,
+    "cost_per_1000_images_eur": 25760.0,
+    "confusion_matrix_auto_only": [
+      [
+        29,
+        1
+      ],
+      [
+        60,
+        118
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.75,
+    "high_threshold": 0.95,
+    "images": 250,
+    "true_positive": 85,
+    "false_positive": 0,
+    "true_negative": 29,
+    "false_negative": 60,
+    "reviewed": 76,
+    "review_share": 0.304,
+    "cost_total_eur": 6760.0,
+    "cost_per_1000_images_eur": 27040.0,
+    "confusion_matrix_auto_only": [
+      [
+        29,
+        0
+      ],
+      [
+        60,
+        85
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.8,
+    "high_threshold": 0.85,
+    "images": 250,
+    "true_positive": 133,
+    "false_positive": 3,
+    "true_negative": 30,
+    "false_negative": 68,
+    "reviewed": 16,
+    "review_share": 0.064,
+    "cost_total_eur": 7020.0,
+    "cost_per_1000_images_eur": 28080.0,
+    "confusion_matrix_auto_only": [
+      [
+        30,
+        3
+      ],
+      [
+        68,
+        133
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.8,
+    "high_threshold": 0.9,
+    "images": 250,
+    "true_positive": 118,
+    "false_positive": 1,
+    "true_negative": 30,
+    "false_negative": 68,
+    "reviewed": 33,
+    "review_share": 0.132,
+    "cost_total_eur": 7150.0,
+    "cost_per_1000_images_eur": 28600.0,
+    "confusion_matrix_auto_only": [
+      [
+        30,
+        1
+      ],
+      [
+        68,
+        118
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.8,
+    "high_threshold": 0.95,
+    "images": 250,
+    "true_positive": 85,
+    "false_positive": 0,
+    "true_negative": 30,
+    "false_negative": 68,
+    "reviewed": 67,
+    "review_share": 0.268,
+    "cost_total_eur": 7470.0,
+    "cost_per_1000_images_eur": 29880.0,
+    "confusion_matrix_auto_only": [
+      [
+        30,
+        0
+      ],
+      [
+        68,
+        85
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.85,
+    "high_threshold": 0.9,
+    "images": 250,
+    "true_positive": 118,
+    "false_positive": 1,
+    "true_negative": 31,
+    "false_negative": 83,
+    "reviewed": 17,
+    "review_share": 0.068,
+    "cost_total_eur": 8490.0,
+    "cost_per_1000_images_eur": 33960.0,
+    "confusion_matrix_auto_only": [
+      [
+        31,
+        1
+      ],
+      [
+        83,
+        118
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.85,
+    "high_threshold": 0.95,
+    "images": 250,
+    "true_positive": 85,
+    "false_positive": 0,
+    "true_negative": 31,
+    "false_negative": 83,
+    "reviewed": 51,
+    "review_share": 0.204,
+    "cost_total_eur": 8810.0,
+    "cost_per_1000_images_eur": 35240.0,
+    "confusion_matrix_auto_only": [
+      [
+        31,
+        0
+      ],
+      [
+        83,
+        85
+      ]
+    ]
+  },
+  {
+    "low_threshold": 0.9,
+    "high_threshold": 0.95,
+    "images": 250,
+    "true_positive": 85,
+    "false_positive": 0,
+    "true_negative": 33,
+    "false_negative": 98,
+    "reviewed": 34,
+    "review_share": 0.136,
+    "cost_total_eur": 10140.0,
+    "cost_per_1000_images_eur": 40560.0,
+    "confusion_matrix_auto_only": [
+      [
+        33,
+        0
+      ],
+      [
+        98,
+        85
+      ]
+    ]
+  }
+]

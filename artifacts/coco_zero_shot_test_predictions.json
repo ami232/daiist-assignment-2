@@ -1,0 +1,1318 @@
+[
+  {
+    "image": "101_jpg.rf.27394cd51f51189553e4de0febe9f269.jpg",
+    "truth": 1,
+    "truth_classes": [
+      1
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "104_jpg.rf.616edb0461cb4937bb6e2e26f585e979.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0,
+      1
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "133_jpg.rf.8600a83279ee6cedc921c840772f2939.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0,
+      1
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "157_jpg.rf.18827dec80dff1cc8523b3d4c04cfc6d.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0,
+      1
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "164_jpg.rf.373249bffc5cd86e7ad4e03e913db017.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "20240617_191656_jpg.rf.f29a01b2991b1f3ad6cae3dca593f63c.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "20240621_210525_jpg.rf.60af28bd3f84494ff4f9c945b8869b96.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "20240621_211253_jpg.rf.754f89688b373469c0ced165e7bc71b0.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "20240621_212355_jpg.rf.cfbcee2a5f9788624ab5faece0f83387.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0,
+      1
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "20240621_212913_jpg.rf.10694a8bda97be0c6a17a5e09b8fbf4d.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "208_jpg.rf.7119b43be6ed67c8bee3b6ab68a62718.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0,
+      1
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "210_jpg.rf.d53885d1cd5725593ac5c6fdb7227fb3.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "21_jpg.rf.d4b4f0fd58286ee7e7501d93c69ec926.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0,
+      1
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "249_jpg.rf.0050e8a96152f26877779ba571335b74.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0,
+      1
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "264_jpg.rf.0d6b3a550072e9237e81b3e51f115054.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0,
+      1
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "295_jpg.rf.85a1e079172146519bab380c6a844f77.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "295_jpg.rf.c38eaf7873dd0007733028afcf4c640b.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0,
+      1
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "303_jpg.rf.8255aa9f4583aef4d900b03356a3e1d0.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "308_jpg.rf.1633b024b025f388f34bac547d92e1bd.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "329_jpg.rf.4a163793b6ac39c8fd60185c0ef5d0ba.jpg",
+    "truth": 0,
+    "truth_classes": [],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "360_jpg.rf.48f77cf1e6b681ffe93286a47d4243bd.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "394_jpg.rf.ec3645e3fe27da72dfafe487723c8ee8.jpg",
+    "truth": 0,
+    "truth_classes": [],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "419_jpg.rf.8dbfbd96df72081910c9819b3a255080.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0,
+      1
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "422_jpg.rf.fb102573a4224cef7b2a0162d34e86b1.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "434_jpg.rf.e70c1a3f5c6d47474b5ec9b67aa85b70.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0,
+      1
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "435_jpg.rf.7de2d7a71e6f2d76c8e3497f589577de.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0,
+      1
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "43_jpg.rf.20bc928030cc80948063dfe03b9f7853.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0,
+      1
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "453_jpg.rf.9c05ad56cd1219c59185d60f0c40917f.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "454_jpg.rf.bf01aecbae27dbe97ed009ef667a1f6c.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0,
+      1
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "458_jpg.rf.a7e862a1d3cf3263f607571bda109fa9.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "466_jpg.rf.c5d256eb7f6ca49001e1a89b509a06f0.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0,
+      1
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "469_jpg.rf.55cb636c6366ddc908adc61c86d98a2e.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "478_jpg.rf.b44ad08ff7b5913d757b04efb552db82.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "479_jpg.rf.cc12078d6deae7ebc2f8c39ebdfde7c6.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "494_jpg.rf.c33914e8b31068cf63a5f7d1bca6afa9.jpg",
+    "truth": 1,
+    "truth_classes": [
+      1
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "496_jpg.rf.b68fe12484237e01f4b127274d29fd93.jpg",
+    "truth": 0,
+    "truth_classes": [],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "4_jpg.rf.2f3cc921bb00d472f33d6b906e7e882e.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "500_jpg.rf.411f83479106f4e2efc0451a107a11d3.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "502_jpg.rf.674d749d36cc38e450bf63bfb28d197d.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "506_jpg.rf.1864a3089d1fda47ffab2f1cc984657a.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "514_jpg.rf.9dda5267f5788dcf48343a529adc0472.jpg",
+    "truth": 1,
+    "truth_classes": [
+      1
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "542_jpg.rf.fff047509ed0fe7958965d6acf439451.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0,
+      1
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "54_jpg.rf.6874852244f291bdd91e16d54f06fcd4.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "577_jpg.rf.e67164d4744a34e47d6d65ce6c10aa4b.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "580_jpg.rf.7c93511f13537b5970f7225bbb44cdb0.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "584_jpg.rf.51db9df7b31ed571f7e78257eb5c65da.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "588_jpg.rf.30d18d67fb0bfbfb5b395151ba92a589.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "589_jpg.rf.b1ad1c612f9d46772eb3746d39a9e9f7.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "613_jpg.rf.d1efd4001474d66cda231d1ba444f15f.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "614_jpg.rf.6f7aa73ea682670e2920d1bdfa31ec36.jpg",
+    "truth": 0,
+    "truth_classes": [],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "616_jpg.rf.44753662ae0ddfd1cfcce994f5ed2944.jpg",
+    "truth": 0,
+    "truth_classes": [],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "623_jpg.rf.fcc96f9b935b82d710d22cc045b246a3.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "626_jpg.rf.9cfcc7a38c1a5acb95ab2589424e61ab.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "627_jpg.rf.6110faba45c6e635d2cdf00f587af35f.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "633_jpg.rf.80cc91601c0a06866c0a22b3d8b74d6c.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "644_jpg.rf.18a434809a6f65c023a2470586f17ae8.jpg",
+    "truth": 1,
+    "truth_classes": [
+      1
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "651_jpg.rf.e583b56bb21bbaf3204d395ab03b56a1.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "661_jpg.rf.66d54a7386abb3d6444949ad0807562c.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "671_jpg.rf.99d91462a7cc5fe40b9cfb33cef72029.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "83_jpg.rf.d54b937c162b8a5eee080d16e6f42f17.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0,
+      1
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "89_jpg.rf.4a6682dc24b5145d5fc210ff328b44ee.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0,
+      1
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "Vid_Ca_night_00000059_jpg.rf.0cb3029a1581c6af309544a62c917355.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "Vid_Ca_night_00000079_jpg.rf.ae4db7c90eaa26deae33ed37fd683592.jpg",
+    "truth": 0,
+    "truth_classes": [],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "img-113_jpg.rf.6bf94b0bf160eb40c9fb6056de757eca.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0,
+      1
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "img-143_jpg.rf.7ce6c85da7ca7c95279f52c507859362.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "img-162_jpg.rf.7d50e368eb4aaa78f682dd8d51c779dd.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0,
+      1
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "img-167_jpg.rf.d46b4646a3c6ad8d738b87ffe6d36ed2.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "img-170_jpg.rf.1e18303d5d3f3749879775c6fd40a619.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "img-189_jpg.rf.61b346caa9450ad321c3bc7a0c42f16f.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "img-214_jpg.rf.2d431fdbb38192449d360ce9a567ddf1.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "img-227_jpg.rf.c17c1447e0d4dfe2f37164333234c07e.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "img-230_jpg.rf.dcc160921806d420efb1602d50d8ce32.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "img-237_jpg.rf.3899385f0f531b712184e01cf7627307.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0,
+      1
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "img-2_jpg.rf.a5b2b7e2753820af0458f732a3df822f.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "img-326_jpg.rf.6413e7ca3b7759acb7ee4a5321845ab6.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0,
+      1
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "img-327_jpg.rf.0b53469b71cb8f5378d347067d59abdd.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "img-330_jpg.rf.8f570a3af614ddad923e07678a109f53.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "img-348_jpg.rf.74ac51b7aa55b9d17aa8dd47da51d972.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0,
+      1
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "img-384_jpg.rf.8201330d451364a9b8d3b8c54da14b34.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0,
+      1
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "img-39_jpg.rf.cf783f69b4d6d596a920b617a72e3e30.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "img-437_jpg.rf.3e297471df294194a2f2e4a83e1bfc3a.jpg",
+    "truth": 1,
+    "truth_classes": [
+      1
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "img-437_jpg.rf.e1bbb2ba6d93676128bca07de500419a.jpg",
+    "truth": 1,
+    "truth_classes": [
+      1
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "img-448_jpg.rf.67d7526d6c2c34bbfee731a7caf887e1.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "img-479_jpg.rf.e4eeb9d70f500870caa5efef5c9492e9.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0,
+      1
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "img-508_jpg.rf.29f6142cefd7230dc6da2a320d6604ff.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0,
+      1
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "img-518_jpg.rf.bb53623fec0cccbacd60789ca6534d8a.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "img-532_jpg.rf.ee87261bcdc947ec4e165944f8500796.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "img-56_jpg.rf.1a08fa2ffe79eef84efea4290bcdcff3.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0,
+      1
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "img-602_jpg.rf.59dfa7aa0ab4487349654752164e3d2a.jpg",
+    "truth": 0,
+    "truth_classes": [],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "img-639_jpg.rf.af1f0d8c7a8fb21d61a8bc38042a3f7d.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "img-642_jpg.rf.a121725e3409c6f605bcbb25f043da13.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "img-642_jpg.rf.ca91d0489cf3259ff1813aeb1aedf5e5.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "img-70_jpg.rf.3ddd50a953467aec56c60da525bf5e75.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "img-71_jpg.rf.00f59d58c36f9bde70648d5216b0db1c.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "img-80_jpg.rf.8e2cad5636670a2db4fca2e13ac70685.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "img-87_jpg.rf.aa13aba4fbc3aa99d93fec7ddfb2cc80.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0,
+      1
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "n16_jpeg.rf.4543f8061eb6b594d4a3f3464dab6ad5.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "n36_jpg.rf.1f654136d368a6227cd839f9fe7d6b37.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "n43_jpeg.rf.186b6358f28913d38da02a69b985af2c.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0,
+      1
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  },
+  {
+    "image": "n43_jpeg.rf.325ee229b3812507ccfd59762331a6db.jpg",
+    "truth": 1,
+    "truth_classes": [
+      0,
+      1
+    ],
+    "class_scores": [
+      0.0,
+      0.0
+    ],
+    "score": 0.0,
+    "detections": []
+  }
+]
