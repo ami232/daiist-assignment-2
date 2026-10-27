@@ -1,0 +1,36 @@
+{
+  "dataset": {
+    "workspace": "joseph-nelson",
+    "project": "hard-hat-workers",
+    "version": 10,
+    "classes": [
+      "head",
+      "helmet",
+      "person"
+    ]
+  },
+  "training": {
+    "base_model": "yolo11n.pt",
+    "epochs": 20,
+    "fraction": 1.0,
+    "imgsz": 640,
+    "batch": 16,
+    "patience": 8,
+    "seed": 0,
+    "device": "mps"
+  },
+  "costs": {
+    "fn": 1784.5,
+    "fp": 10.0,
+    "tp": 0.0,
+    "tn": 0.0,
+    "review": 0.5
+  },
+  "base_rate": 0.05,
+  "ops": {
+    "cases_per_day": 2000,
+    "review_minutes": 0.5,
+    "reviewer_minutes_per_day": 420,
+    "reviewers_available": 1
+  }
+}

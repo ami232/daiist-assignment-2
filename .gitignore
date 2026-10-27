@@ -14,3 +14,11 @@ runs/
 
 # Never commit your API key
 .env
+/yolo11n.pt
+train.log
+
+# Temp scripts main.py writes when running a notebook; left behind if a run is interrupted
+/tmp*.py
+
+# Local Claude Code / editor config
+.claude/

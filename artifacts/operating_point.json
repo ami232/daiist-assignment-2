@@ -1,0 +1,19 @@
+{
+  "positive_class": "head",
+  "threshold": 0.06,
+  "band": {
+    "low": 0.06,
+    "high": 0.9
+  },
+  "test_cost_per_1000": {
+    "do_nothing": 89225.00000000001,
+    "person_checks_everything": 500.0,
+    "model_alone": 4495.306663301363,
+    "model_plus_review": 3879.6403331650677,
+    "coco_zero_shot_best": 8845.406360424027
+  },
+  "review_share_test": 0.11142352347299339,
+  "reviews_per_day": 222.8470469459868,
+  "reviewers_needed": 0.2652941035071271,
+  "reviewers_needed_check_everything": 2.380952380952381
+}

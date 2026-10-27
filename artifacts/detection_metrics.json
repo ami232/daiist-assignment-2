@@ -1,0 +1,89 @@
+{
+  "finetuned": {
+    "overall": {
+      "map50": 0.6602794164671049,
+      "map50_95": 0.4589594937859994
+    },
+    "per_class": {
+      "head": {
+        "instances": 726,
+        "precision": 0.9377275750604656,
+        "recall": 0.9421487603305785,
+        "ap50": 0.9604155830780343,
+        "ap50_95": 0.6719670940200579
+      },
+      "helmet": {
+        "instances": 1915,
+        "precision": 0.9494833192442615,
+        "recall": 0.9422258527978046,
+        "ap50": 0.9815167655250898,
+        "ap50_95": 0.6820097381399796
+      },
+      "person": {
+        "instances": 64,
+        "precision": 1.0,
+        "recall": 0.0,
+        "ap50": 0.03890590079819046,
+        "ap50_95": 0.022901649197960526
+      }
+    }
+  },
+  "coco_zero_shot": {
+    "overall": {
+      "map50": 0.012976149282479942,
+      "map50_95": 0.009273717737549647
+    },
+    "per_class": {
+      "head": {
+        "instances": 726,
+        "precision": 0.0,
+        "recall": 0.0,
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "helmet": {
+        "instances": 1915,
+        "precision": 0.0,
+        "recall": 0.0,
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "person": {
+        "instances": 64,
+        "precision": 0.033901078742899514,
+        "recall": 0.5625,
+        "ap50": 0.038928447847439825,
+        "ap50_95": 0.02782115321264894
+      }
+    }
+  },
+  "predict_nothing": {
+    "overall": {
+      "map50": 0.0,
+      "map50_95": 0.0
+    },
+    "per_class": {
+      "head": {
+        "instances": 726,
+        "precision": 0.0,
+        "recall": 0.0,
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "helmet": {
+        "instances": 1915,
+        "precision": 0.0,
+        "recall": 0.0,
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      },
+      "person": {
+        "instances": 64,
+        "precision": 0.0,
+        "recall": 0.0,
+        "ap50": 0.0,
+        "ap50_95": 0.0
+      }
+    }
+  }
+}

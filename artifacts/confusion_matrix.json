@@ -1,0 +1,37 @@
+{
+  "labels": [
+    "head",
+    "helmet",
+    "person",
+    "background"
+  ],
+  "matrix": [
+    [
+      695,
+      14,
+      0,
+      17
+    ],
+    [
+      6,
+      1851,
+      0,
+      58
+    ],
+    [
+      0,
+      0,
+      0,
+      64
+    ],
+    [
+      88,
+      181,
+      0,
+      0
+    ]
+  ],
+  "conf": 0.25,
+  "iou": 0.45,
+  "note": "rows = true, columns = predicted; background column = missed, background row = false detection"
+}

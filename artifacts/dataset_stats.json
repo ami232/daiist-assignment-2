@@ -1,0 +1,92 @@
+{
+  "train": {
+    "images": 4916,
+    "images_without_labels": 0,
+    "classes": {
+      "head": {
+        "instances": 4612,
+        "images_containing": 911,
+        "median_rel_area": 0.005943269468843937,
+        "p10_rel_area": 0.002128053456544876,
+        "p90_rel_area": 0.020596737042069435,
+        "share_under_1pct_of_image": 0.7170424978317432
+      },
+      "helmet": {
+        "instances": 13919,
+        "images_containing": 4503,
+        "median_rel_area": 0.008222891017794609,
+        "p10_rel_area": 0.002209041966125369,
+        "p90_rel_area": 0.04799097031354904,
+        "share_under_1pct_of_image": 0.5597384869602702
+      },
+      "person": {
+        "instances": 450,
+        "images_containing": 154,
+        "median_rel_area": 0.08157580345869064,
+        "p10_rel_area": 0.014215837232768536,
+        "p90_rel_area": 0.34139859676361084,
+        "share_under_1pct_of_image": 0.06888888888888889
+      }
+    }
+  },
+  "valid": {
+    "images": 1413,
+    "images_without_labels": 0,
+    "classes": {
+      "head": {
+        "instances": 1339,
+        "images_containing": 256,
+        "median_rel_area": 0.00617431802675128,
+        "p10_rel_area": 0.0022798797581344843,
+        "p90_rel_area": 0.01847129315137863,
+        "share_under_1pct_of_image": 0.7102315160567588
+      },
+      "helmet": {
+        "instances": 3913,
+        "images_containing": 1297,
+        "median_rel_area": 0.008648648858070374,
+        "p10_rel_area": 0.0022530965507030487,
+        "p90_rel_area": 0.049356792122125626,
+        "share_under_1pct_of_image": 0.5405060056222847
+      },
+      "person": {
+        "instances": 101,
+        "images_containing": 32,
+        "median_rel_area": 0.06203703582286835,
+        "p10_rel_area": 0.02240000106394291,
+        "p90_rel_area": 0.22999200224876404,
+        "share_under_1pct_of_image": 0.0594059405940594
+      }
+    }
+  },
+  "test": {
+    "images": 706,
+    "images_without_labels": 0,
+    "classes": {
+      "head": {
+        "instances": 726,
+        "images_containing": 140,
+        "median_rel_area": 0.006287435535341501,
+        "p10_rel_area": 0.0024018073454499245,
+        "p90_rel_area": 0.01822160743176937,
+        "share_under_1pct_of_image": 0.7203856749311295
+      },
+      "helmet": {
+        "instances": 1915,
+        "images_containing": 636,
+        "median_rel_area": 0.008184615522623062,
+        "p10_rel_area": 0.0022462462075054646,
+        "p90_rel_area": 0.051738135516643524,
+        "share_under_1pct_of_image": 0.5587467362924282
+      },
+      "person": {
+        "instances": 64,
+        "images_containing": 23,
+        "median_rel_area": 0.08125592768192291,
+        "p10_rel_area": 0.025061992928385735,
+        "p90_rel_area": 0.3404352068901062,
+        "share_under_1pct_of_image": 0.0
+      }
+    }
+  }
+}
