@@ -1,0 +1,55 @@
+{
+  "finetuned": {
+    "test_all": {
+      "images": 621,
+      "accuracy": 0.9066022544283414
+    },
+    "test_without_train_twin": {
+      "images": 490,
+      "accuracy": 0.8918367346938776
+    },
+    "test_day": {
+      "images": 388,
+      "accuracy": 0.8891752577319587
+    },
+    "test_night": {
+      "images": 233,
+      "accuracy": 0.9356223175965666
+    }
+  },
+  "majority_class_baseline": {
+    "always_predicts": "Snow",
+    "test_accuracy": 0.5539452495974235
+  },
+  "zero_shot_top_labels_on_test": {
+    "alp": 74,
+    "snowplow": 70,
+    "snowmobile": 63,
+    "traffic_light": 60,
+    "car_mirror": 50,
+    "volcano": 31,
+    "fountain": 27,
+    "aircraft_carrier": 25
+  },
+  "needs_treatment_on_test": {
+    "finetuned": {
+      "threshold": 0.51,
+      "precision": 0.9671052631578947,
+      "recall": 0.9778270509977827
+    },
+    "zero_shot": {
+      "threshold": 0.01,
+      "precision": 0.75,
+      "recall": 0.9113082039911308
+    },
+    "always_treat": {
+      "threshold": 0.5,
+      "precision": 0.7262479871175523,
+      "recall": 1.0
+    },
+    "never_treat": {
+      "precision": 0.0,
+      "recall": 0.0
+    }
+  }
+}

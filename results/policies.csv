@@ -1,0 +1,8 @@
+policy,low,high,cost_per_1000,review_share,reviews_per_day,operators_needed,missed_snowy_per_1000,needless_trucks_per_1000,snowy_caught_share
+Perfect model (reference),0.5,0.5,9750.0,0.0,0.0,0.0,0.0,0.0,1.0
+Do nothing (never send a truck),inf,inf,120000.0,0.0,0.0,0.0,150.0,0.0,0.0
+Send a truck everywhere (majority class),0.0,0.0,65000.0,0.0,0.0,0.0,0.0,850.0,1.0
+Operator checks every image,0.0,inf,9874.999999999998,1.0,7200.0,5.0,0.0,0.0,1.0
+"Pretrained model, zero-shot, alone",0.01,0.01,64053.27050997782,0.0,0.0,0.0,13.303769401330378,685.0,0.9113082039911308
+Finetuned model alone,0.51,0.51,17069.567627494456,0.0,0.0,0.0,3.3259423503325944,75.0,0.9778270509977827
+Finetuned model + operator review,0.03,1.0,10037.58453436807,0.34502217294900217,2484.159645232816,1.7251108647450109,0.3325942350332594,0.0,0.9977827050997783

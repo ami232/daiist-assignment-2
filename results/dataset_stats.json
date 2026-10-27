@@ -1,0 +1,52 @@
+{
+  "source": "udot-classification/udot-winter-road-conditions/1",
+  "images_per_split": {
+    "train": 4363,
+    "valid": 1261,
+    "test": 621
+  },
+  "images_per_class_and_split": {
+    "Clear": {
+      "train": 410,
+      "valid": 117,
+      "test": 52
+    },
+    "Slush": {
+      "train": 762,
+      "valid": 203,
+      "test": 107
+    },
+    "Snow": {
+      "train": 2289,
+      "valid": 678,
+      "test": 344
+    },
+    "Wet": {
+      "train": 902,
+      "valid": 263,
+      "test": 118
+    }
+  },
+  "original_image_sizes": {
+    "3840x2160": 5232,
+    "640x640": 1013
+  },
+  "night_share_per_class": {
+    "Clear": 0.249,
+    "Slush": 0.097,
+    "Snow": 0.534,
+    "Wet": 0.116
+  },
+  "positive_classes": [
+    "Snow",
+    "Slush"
+  ],
+  "train_positive_share": 0.6992894797157919,
+  "test_positive_share": 0.7262479871175523,
+  "twin_in_train_share": {
+    "valid": 0.22839016653449642,
+    "test": 0.2109500805152979
+  },
+  "twin_max_bits": 25,
+  "night_brightness_cutoff": 45
+}

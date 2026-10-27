@@ -1,0 +1,19 @@
+{
+  "_note": "Business figures for the costing. After changing any of them, run `uv run python decision.py` to redo the costing without retraining. The reasoning behind each figure is in REPORT.md.",
+  "_unit": "One image = one road segment of about 5 lane-miles, checked once per 2-hour cycle during a 12-hour winter night. USD converted at about 0.9 EUR per USD.",
+
+  "positive_classes": ["Snow", "Slush"],
+
+  "cost_truck_run_eur": 65,
+  "cost_missed_snow_eur": 800,
+  "cost_nothing_needed_eur": 0,
+
+  "review_seconds": 15,
+  "operator_eur_per_hour": 30,
+
+  "base_rate": 0.15,
+  "images_per_day": 7200,
+
+  "operators": 2,
+  "operator_hours_per_day": 6
+}
