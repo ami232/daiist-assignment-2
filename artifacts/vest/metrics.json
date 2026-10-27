@@ -1,0 +1,430 @@
+{
+  "dataset": {
+    "workspace": "roboflow-universe-projects",
+    "project": "safety-vests",
+    "version": 1,
+    "url": "https://universe.roboflow.com/roboflow-universe-projects/safety-vests/dataset/1"
+  },
+  "training": {
+    "base_model": "yolo11s.pt",
+    "epochs": 50,
+    "imgsz": 640,
+    "batch": 16,
+    "patience": 15,
+    "seed": 0,
+    "workers": 2,
+    "epochs_run": 50
+  },
+  "class_names": {
+    "0": "NO-Safety Vest",
+    "1": "Safety Vest"
+  },
+  "positive_class": "NO-Safety Vest",
+  "test_snapshots": 390,
+  "test_positive_share": 0.27692307692307694,
+  "valid_positive_share": 0.24261874197689345,
+  "costs": {
+    "fn": 75.0,
+    "fp": 10.0,
+    "tp": 10.0,
+    "tn": 0.0,
+    "review": 0.1
+  },
+  "base_rate": 0.1,
+  "human_miss": 0.05,
+  "human_miss_check_all": 0.15,
+  "operating_point": {
+    "single_threshold": 0.2,
+    "low": 0.02,
+    "high": 0.68
+  },
+  "models": {
+    "finetuned": {
+      "mAP50": 0.8927880356138884,
+      "mAP50_95": 0.5546378740832689,
+      "per_class": {
+        "NO-Safety Vest": {
+          "instances": 226,
+          "AP50": 0.8643629240686894,
+          "AP50_95": 0.46686803577460667,
+          "precision": 0.8064516129032258,
+          "recall": 0.8849557522123894
+        },
+        "Safety Vest": {
+          "instances": 662,
+          "AP50": 0.9212131471590875,
+          "AP50_95": 0.6424077123919313,
+          "precision": 0.8062330623306233,
+          "recall": 0.8987915407854985
+        }
+      },
+      "snapshot_alone": {
+        "low": 0.2,
+        "high": 0.2,
+        "shares": {
+          "pos": {
+            "pass": 0.06481481481481477,
+            "review": 0.0,
+            "fail": 0.9351851851851852
+          },
+          "neg": {
+            "pass": 0.9468085106382979,
+            "review": 0.0,
+            "fail": 0.05319148936170213
+          }
+        },
+        "cost_per_1000": 1900.0197005516154,
+        "review_share": 0.0,
+        "reviews_per_day": 0.0,
+        "reviewer_hours_per_day": 0.0,
+        "reviewers_needed": 0.0
+      }
+    },
+    "coco_zero_shot": {
+      "mAP50": 0.033738072213490844,
+      "mAP50_95": 0.006882745876540431,
+      "per_class": {
+        "NO-Safety Vest": {
+          "instances": 226,
+          "AP50": 0.01957923841148989,
+          "AP50_95": 0.002572626874733949,
+          "precision": 0.03209876543209877,
+          "recall": 0.17256637168141592
+        },
+        "Safety Vest": {
+          "instances": 662,
+          "AP50": 0.0478969060154918,
+          "AP50_95": 0.011192864878346913,
+          "precision": 0.12757201646090535,
+          "recall": 0.23413897280966767
+        }
+      },
+      "snapshot_alone": {
+        "low": 0.95,
+        "high": 0.95,
+        "shares": {
+          "pos": {
+            "pass": 0.9444444444444444,
+            "review": 0.0,
+            "fail": 0.05555555555555555
+          },
+          "neg": {
+            "pass": 0.950354609929078,
+            "review": 0.0,
+            "fail": 0.04964539007092199
+          }
+        },
+        "cost_per_1000": 7585.697399527187,
+        "review_share": 0.0,
+        "reviews_per_day": 0.0,
+        "reviewer_hours_per_day": 0.0,
+        "reviewers_needed": 0.0
+      }
+    },
+    "predict_nothing": {
+      "mAP50": 0.0,
+      "mAP50_95": 0.0,
+      "per_class": {
+        "NO-Safety Vest": {
+          "instances": 226,
+          "AP50": 0.0,
+          "AP50_95": 0.0,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "Safety Vest": {
+          "instances": 662,
+          "AP50": 0.0,
+          "AP50_95": 0.0,
+          "precision": 0.0,
+          "recall": 0.0
+        }
+      },
+      "snapshot_alone": {
+        "low": 0.01,
+        "high": 0.01,
+        "shares": {
+          "pos": {
+            "pass": 1.0,
+            "review": 0.0,
+            "fail": 0.0
+          },
+          "neg": {
+            "pass": 1.0,
+            "review": 0.0,
+            "fail": 0.0
+          }
+        },
+        "cost_per_1000": 7500.0,
+        "review_share": 0.0,
+        "reviews_per_day": 0.0,
+        "reviewer_hours_per_day": 0.0,
+        "reviewers_needed": 0.0
+      }
+    }
+  },
+  "confusion_matrix_test": [
+    [
+      198,
+      7,
+      21
+    ],
+    [
+      11,
+      595,
+      56
+    ],
+    [
+      39,
+      136,
+      0
+    ]
+  ],
+  "positive_recall_by_size_test": [
+    {
+      "size": "small (<2% of image)",
+      "instances": 64,
+      "recall": 0.859375
+    },
+    {
+      "size": "medium (2-10%)",
+      "instances": 103,
+      "recall": 0.9029126213592233
+    },
+    {
+      "size": "large (>10%)",
+      "instances": 59,
+      "recall": 0.8813559322033898
+    }
+  ],
+  "policies_test": {
+    "do_nothing": {
+      "cost_per_1000": 7500.0,
+      "review_share": 0.0,
+      "reviewers_needed": 0.0
+    },
+    "human_checks_all": {
+      "cost_per_1000": 2075.0,
+      "review_share": 1.0,
+      "reviewers_needed": 0.7692307692307693
+    },
+    "model_alone": {
+      "low": 0.2,
+      "high": 0.2,
+      "shares": {
+        "pos": {
+          "pass": 0.06481481481481477,
+          "review": 0.0,
+          "fail": 0.9351851851851852
+        },
+        "neg": {
+          "pass": 0.9468085106382979,
+          "review": 0.0,
+          "fail": 0.05319148936170213
+        }
+      },
+      "cost_per_1000": 1900.0197005516154,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "reviewer_hours_per_day": 0.0,
+      "reviewers_needed": 0.0
+    },
+    "model_plus_review": {
+      "low": 0.02,
+      "high": 0.68,
+      "shares": {
+        "pos": {
+          "pass": 0.018518518518518545,
+          "review": 0.26851851851851855,
+          "fail": 0.7129629629629629
+        },
+        "neg": {
+          "pass": 0.8439716312056738,
+          "review": 0.14184397163120568,
+          "fail": 0.014184397163120567
+        }
+      },
+      "cost_per_1000": 1350.749605988968,
+      "review_share": 0.15451142631993697,
+      "reviews_per_day": 185.41371158392437,
+      "reviewer_hours_per_day": 0.7725571315996849,
+      "reviewers_needed": 0.11885494332302844
+    }
+  },
+  "sensitivity_valid": [
+    {
+      "fn_cost": 25,
+      "base_rate": 0.01,
+      "best_threshold": 0.73,
+      "cost_per_1000": 235.4856066720473
+    },
+    {
+      "fn_cost": 25,
+      "base_rate": 0.05,
+      "best_threshold": 0.68,
+      "cost_per_1000": 806.9276298089858
+    },
+    {
+      "fn_cost": 25,
+      "base_rate": 0.1,
+      "best_threshold": 0.6,
+      "cost_per_1000": 1453.5108958837775
+    },
+    {
+      "fn_cost": 25,
+      "base_rate": 0.2,
+      "best_threshold": 0.2,
+      "cost_per_1000": 2588.3239171374767
+    },
+    {
+      "fn_cost": 50,
+      "base_rate": 0.01,
+      "best_threshold": 0.68,
+      "cost_per_1000": 312.8472782710071
+    },
+    {
+      "fn_cost": 50,
+      "base_rate": 0.05,
+      "best_threshold": 0.44,
+      "cost_per_1000": 1049.318446776074
+    },
+    {
+      "fn_cost": 50,
+      "base_rate": 0.1,
+      "best_threshold": 0.2,
+      "cost_per_1000": 1708.1607030759574
+    },
+    {
+      "fn_cost": 50,
+      "base_rate": 0.2,
+      "best_threshold": 0.11,
+      "cost_per_1000": 2926.6254147610084
+    },
+    {
+      "fn_cost": 100,
+      "base_rate": 0.01,
+      "best_threshold": 0.61,
+      "cost_per_1000": 448.7489911218725
+    },
+    {
+      "fn_cost": 100,
+      "base_rate": 0.05,
+      "best_threshold": 0.2,
+      "cost_per_1000": 1268.0790960451977
+    },
+    {
+      "fn_cost": 100,
+      "base_rate": 0.1,
+      "best_threshold": 0.11,
+      "cost_per_1000": 2042.4535916061348
+    },
+    {
+      "fn_cost": 100,
+      "base_rate": 0.2,
+      "best_threshold": 0.06,
+      "cost_per_1000": 3494.4309927360787
+    },
+    {
+      "fn_cost": 300,
+      "base_rate": 0.01,
+      "best_threshold": 0.22,
+      "cost_per_1000": 766.4299165994082
+    },
+    {
+      "fn_cost": 300,
+      "base_rate": 0.05,
+      "best_threshold": 0.11,
+      "cost_per_1000": 1891.3729710339887
+    },
+    {
+      "fn_cost": 300,
+      "base_rate": 0.1,
+      "best_threshold": 0.06,
+      "cost_per_1000": 3097.9015334947553
+    },
+    {
+      "fn_cost": 300,
+      "base_rate": 0.2,
+      "best_threshold": 0.06,
+      "cost_per_1000": 5399.1928974979855
+    },
+    {
+      "fn_cost": 1000,
+      "base_rate": 0.01,
+      "best_threshold": 0.11,
+      "cost_per_1000": 1246.6989507667479
+    },
+    {
+      "fn_cost": 1000,
+      "base_rate": 0.05,
+      "best_threshold": 0.06,
+      "cost_per_1000": 3613.922518159809
+    },
+    {
+      "fn_cost": 1000,
+      "base_rate": 0.1,
+      "best_threshold": 0.02,
+      "cost_per_1000": 6222.598870056502
+    },
+    {
+      "fn_cost": 1000,
+      "base_rate": 0.2,
+      "best_threshold": 0.02,
+      "cost_per_1000": 10716.38418079097
+    },
+    {
+      "fn_cost": 3000,
+      "base_rate": 0.01,
+      "best_threshold": 0.06,
+      "cost_per_1000": 2312.4535916061354
+    },
+    {
+      "fn_cost": 3000,
+      "base_rate": 0.05,
+      "best_threshold": 0.02,
+      "cost_per_1000": 7679.4099183929775
+    },
+    {
+      "fn_cost": 3000,
+      "base_rate": 0.1,
+      "best_threshold": 0.02,
+      "cost_per_1000": 13630.006277463921
+    },
+    {
+      "fn_cost": 3000,
+      "base_rate": 0.2,
+      "best_threshold": 0.02,
+      "cost_per_1000": 25531.19899560581
+    }
+  ],
+  "examples": {
+    "missed_violations": [
+      {
+        "file": "missed_violations_34.jpg",
+        "score": 0.0
+      },
+      {
+        "file": "missed_violations_323.jpg",
+        "score": 0.0
+      }
+    ],
+    "false_alarms": [
+      {
+        "file": "false_alarms_306.jpg",
+        "score": 0.8115442395210266
+      },
+      {
+        "file": "false_alarms_7.jpg",
+        "score": 0.809219479560852
+      },
+      {
+        "file": "false_alarms_171.jpg",
+        "score": 0.7725269794464111
+      },
+      {
+        "file": "false_alarms_298.jpg",
+        "score": 0.7609081864356995
+      }
+    ]
+  }
+}

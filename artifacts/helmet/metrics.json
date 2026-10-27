@@ -211,7 +211,7 @@
       0
     ]
   ],
-  "head_recall_by_size_test": [
+  "positive_recall_by_size_test": [
     {
       "size": "small (<0.4% of image)",
       "instances": 200,
@@ -283,6 +283,30 @@
     }
   },
   "sensitivity_valid": [
+    {
+      "fn_cost": 25,
+      "base_rate": 0.01,
+      "best_threshold": 0.83,
+      "cost_per_1000": 197.74014828219535
+    },
+    {
+      "fn_cost": 25,
+      "base_rate": 0.05,
+      "best_threshold": 0.62,
+      "cost_per_1000": 760.3193199006051
+    },
+    {
+      "fn_cost": 25,
+      "base_rate": 0.1,
+      "best_threshold": 0.56,
+      "cost_per_1000": 1331.2547266637855
+    },
+    {
+      "fn_cost": 25,
+      "base_rate": 0.2,
+      "best_threshold": 0.31,
+      "cost_per_1000": 2408.1778035868624
+    },
     {
       "fn_cost": 50,
       "base_rate": 0.01,

@@ -3,10 +3,11 @@ Cost model shared by train.py (to pick the thresholds) and app.py (to let the
 user move them). Keeping it in one file means the dashboard can never disagree
 with the numbers in REPORT.md.
 
-The unit of decision is one camera snapshot of a work zone. A snapshot is
-positive when at least one worker in it has no hard hat (a `head` box). The
-model's score for a snapshot is the highest confidence among its `head`
-detections, or 0 if it found none.
+The unit of decision is one camera snapshot of a work zone. There are two
+models, each with its own costs: the hard hat model (a snapshot is positive when
+a worker has no hard hat, a `head` box) and the vest model (positive when a
+worker has no safety vest). A snapshot's score is the highest confidence among
+the positive-class detections, or 0 if there are none.
 
 Three outcomes per snapshot:
 - pass   (score <  low):  nothing happens.
@@ -28,6 +29,17 @@ COSTS = {
     "review": 0.10,   # 15 s of a remote reviewer at about 24 EUR/h
 }
 BASE_RATE = 0.05      # share of production snapshots with a worker without a hat
+
+# Missing vest: same fine, but a much smaller injury risk per snapshot, because
+# the vest only matters where vehicles move. People also take vests off more
+# often than hats (heat, jackets), so violations are more common.
+VEST_COSTS = {**COSTS, "fn": 75.0}
+VEST_BASE_RATE = 0.10
+
+TASK_COSTS = {
+    "helmet": (COSTS, BASE_RATE),
+    "vest": (VEST_COSTS, VEST_BASE_RATE),
+}
 HUMAN_MISS = 0.05     # share of real violations a reviewer still waves through
 # A person screening every snapshot sees a violation in only 1 of 20, and people
 # miss far more targets when they are rare (Wolfe et al., 2005, Nature 435).

@@ -3,22 +3,31 @@ Assignment 2: training pipeline.
 
     uv run python main.py train
 
-1. Download Hard Hat Workers v10 from Roboflow Universe.
+Two models, one per piece of protective equipment, each trained and costed on
+its own dataset from Roboflow Universe:
+
+- helmet: Hard Hat Workers v10 (`head` = a worker without a hard hat)
+- vest:   Safety Vests v1 (`NO-Safety Vest` = a worker without a vest)
+
+For each one:
+1. Download the dataset.
 2. Finetune yolo11s on it.
 3. Evaluate on the test split against two baselines: COCO yolo11s zero-shot and
    a model that predicts nothing.
 4. Turn detections into one score per snapshot, sweep the thresholds on the
    validation split with the cost model in costing.py, and report the chosen
    operating point on the test split.
-5. Save weights/best.pt and everything app.py needs into artifacts/.
+5. Save weights/<task>.pt and everything app.py needs into artifacts/<task>/.
 
-Set SKIP_TRAIN=1 to reuse weights/best.pt and only redo steps 3 to 5.
-Set RESUME=1 to continue an interrupted run from runs/hardhat/weights/last.pt.
+Set SKIP_TRAIN to a comma-separated list of tasks (e.g. SKIP_TRAIN=helmet) to
+reuse their committed weights and only redo steps 3 to 5.
+Set RESUME=1 to continue interrupted runs from runs/<task>/weights/last.pt.
 """
 
 import json
 import os
 import shutil
+from dataclasses import dataclass
 from pathlib import Path
 
 import numpy as np
@@ -31,11 +40,6 @@ import costing
 from api_key import load_api_key
 
 ROOT = Path(__file__).resolve().parent
-WORKSPACE, PROJECT, VERSION = "joseph-nelson", "hard-hat-workers", 10
-DATA_DIR = ROOT / "datasets" / f"{PROJECT}-{VERSION}"
-WEIGHTS = ROOT / "weights" / "best.pt"
-ARTIFACTS = ROOT / "artifacts"
-
 BASE_MODEL = "yolo11s.pt"
 TRAIN_ARGS = {
     "epochs": 50,
@@ -45,50 +49,88 @@ TRAIN_ARGS = {
     "seed": 0,
     "workers": 2,  # 4 ran the laptop out of RAM
 }
-NAMES = {0: "head", 1: "helmet", 2: "person"}
-POSITIVE = 0                  # `head` = a worker without a hard hat
 COCO_PERSON = 0
 IOU_THRESHOLDS = np.linspace(0.5, 0.95, 10)
 PRED_CONF = 0.001             # keep low-confidence boxes so AP and the sweep see the whole curve
 
 
-def download_dataset() -> Path:
-    if (DATA_DIR / "data.yaml").exists():
-        print(f"Dataset already at {DATA_DIR}")
+@dataclass
+class Task:
+    key: str
+    workspace: str
+    project: str
+    version: int
+    names: dict[int, str]
+    positive: int
+    # Box area as a share of the image, for the recall-by-size breakdown.
+    size_bins: list[tuple[float, float, str]]
+
+    @property
+    def data_dir(self) -> Path:
+        return ROOT / "datasets" / f"{self.project}-{self.version}"
+
+    @property
+    def weights(self) -> Path:
+        return ROOT / "weights" / f"{self.key}.pt"
+
+    @property
+    def artifacts(self) -> Path:
+        return ROOT / "artifacts" / self.key
+
+    @property
+    def costs(self):
+        return costing.TASK_COSTS[self.key]
+
+
+TASKS = [
+    Task("helmet", "joseph-nelson", "hard-hat-workers", 10,
+         names={0: "head", 1: "helmet", 2: "person"}, positive=0,
+         size_bins=[(0, 0.004, "small (<0.4% of image)"), (0.004, 0.02, "medium (0.4-2%)"), (0.02, 1.01, "large (>2%)")]),
+    # Vest boxes cover the torso, so they are about ten times larger than heads.
+    Task("vest", "roboflow-universe-projects", "safety-vests", 1,
+         names={0: "NO-Safety Vest", 1: "Safety Vest"}, positive=0,
+         size_bins=[(0, 0.02, "small (<2% of image)"), (0.02, 0.10, "medium (2-10%)"), (0.10, 1.01, "large (>10%)")]),
+]
+
+
+def download_dataset(task: Task) -> Path:
+    if (task.data_dir / "data.yaml").exists():
+        print(f"Dataset already at {task.data_dir}")
     else:
         from roboflow import Roboflow
 
         rf = Roboflow(api_key=load_api_key())
-        rf.workspace(WORKSPACE).project(PROJECT).version(VERSION).download(
-            "yolov11", location=str(DATA_DIR)
+        rf.workspace(task.workspace).project(task.project).version(task.version).download(
+            "yolov11", location=str(task.data_dir)
         )
     # Roboflow writes relative split paths; make them absolute so Ultralytics
     # resolves them no matter where it is run from.
-    yaml_path = DATA_DIR / "data.yaml"
+    yaml_path = task.data_dir / "data.yaml"
     text = yaml_path.read_text()
     for split, folder in (("train", "train"), ("val", "valid"), ("test", "test")):
-        text = text.replace(f"{split}: ../{folder}/images", f"{split}: {(DATA_DIR / folder / 'images').as_posix()}")
+        text = text.replace(f"{split}: ../{folder}/images", f"{split}: {(task.data_dir / folder / 'images').as_posix()}")
     yaml_path.write_text(text)
     return yaml_path
 
 
-def train(data_yaml: Path) -> dict:
-    last = ROOT / "runs" / "hardhat" / "weights" / "last.pt"
+def train(task: Task, data_yaml: Path) -> dict:
+    last = ROOT / "runs" / task.key / "weights" / "last.pt"
     if os.environ.get("RESUME") == "1" and last.exists():
         model = YOLO(str(last))
         model.train(resume=True, workers=TRAIN_ARGS["workers"])
     else:
         model = YOLO(BASE_MODEL)
-        model.train(data=str(data_yaml), project=str(ROOT / "runs"), name="hardhat", exist_ok=True, **TRAIN_ARGS)
+        model.train(data=str(data_yaml), project=str(ROOT / "runs"), name=task.key, exist_ok=True, **TRAIN_ARGS)
     best = Path(model.trainer.best)
-    WEIGHTS.parent.mkdir(exist_ok=True)
+    task.weights.parent.mkdir(exist_ok=True)
     # Ultralytics downloads pretrained checkpoints (e.g. for its AMP check)
-    # into weights/. Move them out so weights/ holds only the model we ship.
-    for stray in WEIGHTS.parent.glob("*.pt"):
-        if stray != WEIGHTS:
+    # into weights/. Move them out so weights/ holds only the models we ship.
+    shipped = {t.weights for t in TASKS}
+    for stray in task.weights.parent.glob("*.pt"):
+        if stray not in shipped:
             shutil.move(stray, ROOT / "runs" / stray.name)
-    shutil.copy(best, WEIGHTS)
-    print(f"Saved {WEIGHTS}")
+    shutil.copy(best, task.weights)
+    print(f"Saved {task.weights}")
     return {"base_model": BASE_MODEL, **TRAIN_ARGS, "epochs_run": int(model.trainer.epoch) + 1}
 
 
@@ -101,11 +143,11 @@ def xywhn_to_xyxy(boxes: np.ndarray, w: int, h: int) -> np.ndarray:
     return np.stack([(x - bw / 2) * w, (y - bh / 2) * h, (x + bw / 2) * w, (y + bh / 2) * h], axis=1)
 
 
-def load_split(split: str) -> list[dict]:
-    images = sorted((DATA_DIR / split / "images").glob("*.jpg"))
+def load_split(task: Task, split: str) -> list[dict]:
+    images = sorted((task.data_dir / split / "images").glob("*.jpg"))
     out = []
     for path in images:
-        label = DATA_DIR / split / "labels" / f"{path.stem}.txt"
+        label = task.data_dir / split / "labels" / f"{path.stem}.txt"
         rows = np.loadtxt(label, ndmin=2) if label.exists() and label.stat().st_size else np.zeros((0, 5))
         w, h = Image.open(path).size
         out.append({
@@ -171,7 +213,7 @@ def match(gt: dict, pred: dict) -> np.ndarray:
 # Detection metrics
 # --------------------------------------------------------------------------- #
 
-def detection_metrics(gts: list[dict], preds: list[dict], op_conf: float) -> dict:
+def detection_metrics(task: Task, gts: list[dict], preds: list[dict], op_conf: float) -> dict:
     """mAP plus per-class AP50, AP50-95, and precision/recall at op_conf."""
     tp = np.concatenate([match(g, p) for g, p in zip(gts, preds)] or [np.zeros((0, 10), bool)])
     conf = np.concatenate([p["conf"] for p in preds])
@@ -180,12 +222,12 @@ def detection_metrics(gts: list[dict], preds: list[dict], op_conf: float) -> dic
 
     per_class = {}
     if len(conf):
-        out = ap_per_class(tp, conf, pred_cls, target_cls, names=NAMES)
+        out = ap_per_class(tp, conf, pred_cls, target_cls, names=task.names)
         ap, classes = out[5], out[6]
         ap_by_class = {int(c): ap[i] for i, c in enumerate(classes)}
     else:
         ap_by_class = {}
-    for c, name in NAMES.items():
+    for c, name in task.names.items():
         n_gt = int((target_cls == c).sum())
         at_op = (pred_cls == c) & (conf >= op_conf)
         hits = int(tp[at_op, 0].sum())
@@ -204,10 +246,11 @@ def detection_metrics(gts: list[dict], preds: list[dict], op_conf: float) -> dic
     }
 
 
-def confusion_matrix(gts: list[dict], preds: list[dict], conf_thres: float, iou_thres: float = 0.5) -> list[list[int]]:
+def confusion_matrix(task: Task, gts: list[dict], preds: list[dict], conf_thres: float,
+                     iou_thres: float = 0.5) -> list[list[int]]:
     """Detection confusion matrix, rows = true class, columns = predicted
     class, last row/column = background (missed object / false box)."""
-    n = len(NAMES)
+    n = len(task.names)
     m = np.zeros((n + 1, n + 1), dtype=int)
     for gt, pred in zip(gts, preds):
         keep = pred["conf"] >= conf_thres
@@ -226,18 +269,17 @@ def confusion_matrix(gts: list[dict], preds: list[dict], conf_thres: float, iou_
     return m.tolist()
 
 
-def recall_by_size(gts: list[dict], preds: list[dict], cls: int, conf_thres: float) -> list[dict]:
-    """Recall of one class split by box area as a share of the image."""
-    bins = [(0, 0.004, "small (<0.4% of image)"), (0.004, 0.02, "medium (0.4-2%)"), (0.02, 1.01, "large (>2%)")]
-    found, total = np.zeros(3), np.zeros(3)
+def recall_by_size(task: Task, gts: list[dict], preds: list[dict], conf_thres: float) -> list[dict]:
+    """Recall of the positive class split by box area as a share of the image."""
+    bins = task.size_bins
+    found, total = np.zeros(len(bins)), np.zeros(len(bins))
     for gt, pred in zip(gts, preds):
-        keep = (pred["cls"] == cls) & (pred["conf"] >= conf_thres)
-        sub = {"boxes": pred["boxes"][keep], "cls": pred["cls"][keep]}
-        iou = box_iou(gt["boxes"], sub["boxes"])
-        for gi in np.where(gt["cls"] == cls)[0]:
+        keep = (pred["cls"] == task.positive) & (pred["conf"] >= conf_thres)
+        iou = box_iou(gt["boxes"], pred["boxes"][keep])
+        for gi in np.where(gt["cls"] == task.positive)[0]:
             b = next(i for i, (lo, hi, _) in enumerate(bins) if lo <= gt["area"][gi] < hi)
             total[b] += 1
-            found[b] += bool(len(sub["boxes"])) and iou[gi].max() >= 0.5
+            found[b] += bool(keep.sum()) and iou[gi].max() >= 0.5
     return [{"size": name, "instances": int(t), "recall": float(f / t) if t else 0.0}
             for (_, _, name), f, t in zip(bins, found, total)]
 
@@ -246,30 +288,31 @@ def recall_by_size(gts: list[dict], preds: list[dict], cls: int, conf_thres: flo
 # Snapshot-level scores and costing
 # --------------------------------------------------------------------------- #
 
-def snapshot_scores(gts: list[dict], preds: list[dict], cls: int) -> pd.DataFrame:
+def snapshot_scores(task: Task, gts: list[dict], preds: list[dict], cls: int) -> pd.DataFrame:
     return pd.DataFrame({
         "image": [g["path"].name for g in gts],
-        "label": [int((g["cls"] == POSITIVE).any()) for g in gts],
+        "label": [int((g["cls"] == task.positive).any()) for g in gts],
         "score": [float(p["conf"][p["cls"] == cls].max()) if (p["cls"] == cls).any() else 0.0 for p in preds],
     })
 
 
-def sensitivity(valid: pd.DataFrame) -> list[dict]:
+def sensitivity(task: Task, valid: pd.DataFrame) -> list[dict]:
     """How the cheapest single threshold moves if the two shakiest figures,
     the cost of a miss and the base rate, are wrong."""
+    base_costs, _ = task.costs
     rows = []
-    for fn in (50, 100, 300, 1000, 3000):
+    for fn in (25, 50, 100, 300, 1000, 3000):
         for base in (0.01, 0.05, 0.10, 0.20):
-            costs = {**costing.COSTS, "fn": fn}
+            costs = {**base_costs, "fn": fn}
             best = costing.best_single_threshold(valid["score"], valid["label"], costs, base)
             rows.append({"fn_cost": fn, "base_rate": base, "best_threshold": best["threshold"],
                          "cost_per_1000": best["cost_per_1000"]})
     return rows
 
 
-def save_examples(test: pd.DataFrame, low: float, high: float, k: int = 6) -> dict:
+def save_examples(task: Task, test: pd.DataFrame, low: float, high: float, k: int = 6) -> dict:
     """Copy the worst misses and false alarms on the test split for the dashboard."""
-    out_dir = ARTIFACTS / "examples"
+    out_dir = task.artifacts / "examples"
     if out_dir.exists():
         shutil.rmtree(out_dir)
     out_dir.mkdir(parents=True)
@@ -282,29 +325,32 @@ def save_examples(test: pd.DataFrame, low: float, high: float, k: int = 6) -> di
         listing[kind] = []
         for row in df.itertuples():
             name = f"{kind}_{row.Index}.jpg"
-            shutil.copy(DATA_DIR / "test" / "images" / row.image, out_dir / name)
+            shutil.copy(task.data_dir / "test" / "images" / row.image, out_dir / name)
             listing[kind].append({"file": name, "score": row.score})
     return listing
 
 
-def main() -> None:
-    data_yaml = download_dataset()
-    ARTIFACTS.mkdir(exist_ok=True)
-    if os.environ.get("SKIP_TRAIN") == "1" and WEIGHTS.exists():
-        print(f"SKIP_TRAIN=1: reusing {WEIGHTS}")
-        settings = json.loads((ARTIFACTS / "metrics.json").read_text())["training"]
+def run_task(task: Task, skip_train: bool) -> None:
+    print(f"\n{'=' * 30} {task.key} {'=' * 30}")
+    data_yaml = download_dataset(task)
+    task.artifacts.mkdir(parents=True, exist_ok=True)
+    metrics_path = task.artifacts / "metrics.json"
+    if skip_train and task.weights.exists():
+        print(f"Skipping training for {task.key}: reusing {task.weights}")
+        settings = json.loads(metrics_path.read_text())["training"] if metrics_path.exists() else {"base_model": BASE_MODEL, **TRAIN_ARGS}
     else:
-        settings = train(data_yaml)
+        settings = train(task, data_yaml)
 
-    finetuned = YOLO(str(WEIGHTS))
+    costs, base_rate = task.costs
+    finetuned = YOLO(str(task.weights))
     coco = YOLO(BASE_MODEL)
-    # COCO has `person` but no helmet or head. Scoring its person boxes as each
-    # dataset class in turn gives COCO the most generous reading possible.
-    coco_map = {COCO_PERSON: [0, 1, 2]}
+    # COCO has `person` but none of the PPE classes. Scoring its person boxes
+    # as each dataset class in turn gives COCO the most generous reading.
+    coco_map = {COCO_PERSON: list(task.names)}
 
     splits = {}
     for split in ("valid", "test"):
-        gts = load_split(split)
+        gts = load_split(task, split)
         splits[split] = {
             "gts": gts,
             "finetuned": predict(finetuned, gts),
@@ -315,72 +361,73 @@ def main() -> None:
 
     # Snapshot scores. COCO's best guess at a violation is "there is a person".
     scores = {
-        split: {
-            "finetuned": snapshot_scores(d["gts"], d["finetuned"], POSITIVE),
-            "coco_zero_shot": snapshot_scores(d["gts"], d["coco_zero_shot"], 2),
-            "predict_nothing": snapshot_scores(d["gts"], d["predict_nothing"], POSITIVE),
-        }
+        split: {name: snapshot_scores(task, d["gts"], d[name], task.positive)
+                for name in ("finetuned", "coco_zero_shot", "predict_nothing")}
         for split, d in splits.items()
     }
 
     # Thresholds are chosen on validation only; test is for reporting.
     valid_ft, test_ft = scores["valid"]["finetuned"], scores["test"]["finetuned"]
-    single = costing.best_single_threshold(valid_ft["score"], valid_ft["label"])
-    band = costing.best_band(valid_ft["score"], valid_ft["label"])
+    single = costing.best_single_threshold(valid_ft["score"], valid_ft["label"], costs, base_rate)
+    band = costing.best_band(valid_ft["score"], valid_ft["label"], costs, base_rate)
     op = single["threshold"]
     print(f"Chosen single threshold {op:.2f}, band [{band['low']:.2f}, {band['high']:.2f})")
 
     test = splits["test"]
     models = {}
     for name in ("finetuned", "coco_zero_shot", "predict_nothing"):
-        s = scores["test"][name]
-        t_single = costing.best_single_threshold(scores["valid"][name]["score"], scores["valid"][name]["label"])["threshold"]
+        s, v = scores["test"][name], scores["valid"][name]
+        t_single = costing.best_single_threshold(v["score"], v["label"], costs, base_rate)["threshold"]
         models[name] = {
-            **detection_metrics(test["gts"], test[name], op),
-            "snapshot_alone": costing.evaluate(s["score"], s["label"], t_single, t_single),
+            **detection_metrics(task, test["gts"], test[name], op),
+            "snapshot_alone": costing.evaluate(s["score"], s["label"], t_single, t_single, costs, base_rate),
         }
 
-    test_ft.to_csv(ARTIFACTS / "scores_test.csv", index=False)
-    valid_ft.to_csv(ARTIFACTS / "scores_valid.csv", index=False)
-    pd.DataFrame([
-        {"threshold": r["threshold"], "cost_per_1000": r["cost_per_1000"]}
-        for r in costing.single_threshold_sweep(test_ft["score"], test_ft["label"])
-    ]).to_csv(ARTIFACTS / "cost_sweep_test.csv", index=False)
-    pd.DataFrame([
-        {"threshold": r["threshold"], "cost_per_1000": r["cost_per_1000"]}
-        for r in costing.single_threshold_sweep(valid_ft["score"], valid_ft["label"])
-    ]).to_csv(ARTIFACTS / "cost_sweep_valid.csv", index=False)
+    test_ft.to_csv(task.artifacts / "scores_test.csv", index=False)
+    valid_ft.to_csv(task.artifacts / "scores_valid.csv", index=False)
+    for split, df in (("test", test_ft), ("valid", valid_ft)):
+        pd.DataFrame([
+            {"threshold": r["threshold"], "cost_per_1000": r["cost_per_1000"]}
+            for r in costing.single_threshold_sweep(df["score"], df["label"], costs, base_rate)
+        ]).to_csv(task.artifacts / f"cost_sweep_{split}.csv", index=False)
 
     metrics = {
-        "dataset": {"workspace": WORKSPACE, "project": PROJECT, "version": VERSION,
-                    "url": f"https://universe.roboflow.com/{WORKSPACE}/{PROJECT}/dataset/{VERSION}"},
+        "dataset": {"workspace": task.workspace, "project": task.project, "version": task.version,
+                    "url": f"https://universe.roboflow.com/{task.workspace}/{task.project}/dataset/{task.version}"},
         "training": settings,
-        "class_names": NAMES,
-        "positive_class": NAMES[POSITIVE],
+        "class_names": task.names,
+        "positive_class": task.names[task.positive],
         "test_snapshots": int(len(test_ft)),
         "test_positive_share": float(test_ft["label"].mean()),
         "valid_positive_share": float(valid_ft["label"].mean()),
-        "costs": costing.COSTS,
-        "base_rate": costing.BASE_RATE,
+        "costs": costs,
+        "base_rate": base_rate,
         "human_miss": costing.HUMAN_MISS,
         "human_miss_check_all": costing.HUMAN_MISS_CHECK_ALL,
         "operating_point": {"single_threshold": op, "low": band["low"], "high": band["high"]},
         "models": models,
-        "confusion_matrix_test": confusion_matrix(test["gts"], test["finetuned"], op),
-        "head_recall_by_size_test": recall_by_size(test["gts"], test["finetuned"], POSITIVE, op),
+        "confusion_matrix_test": confusion_matrix(task, test["gts"], test["finetuned"], op),
+        "positive_recall_by_size_test": recall_by_size(task, test["gts"], test["finetuned"], op),
         "policies_test": {
-            **costing.alternatives(),
-            "model_alone": costing.evaluate(test_ft["score"], test_ft["label"], op, op),
-            "model_plus_review": costing.evaluate(test_ft["score"], test_ft["label"], band["low"], band["high"]),
+            **costing.alternatives(costs, base_rate),
+            "model_alone": costing.evaluate(test_ft["score"], test_ft["label"], op, op, costs, base_rate),
+            "model_plus_review": costing.evaluate(test_ft["score"], test_ft["label"], band["low"], band["high"],
+                                                  costs, base_rate),
         },
-        "sensitivity_valid": sensitivity(valid_ft),
-        "examples": save_examples(test_ft, band["low"], band["high"]),
+        "sensitivity_valid": sensitivity(task, valid_ft),
+        "examples": save_examples(task, test_ft, band["low"], band["high"]),
     }
-    (ARTIFACTS / "metrics.json").write_text(json.dumps(metrics, indent=2, default=float))
+    metrics_path.write_text(json.dumps(metrics, indent=2, default=float))
     print(json.dumps({k: metrics[k] for k in ("operating_point", "policies_test")}, indent=2, default=float))
     for name, m in models.items():
-        print(f"{name:16s} mAP50 {m['mAP50']:.3f}  mAP50-95 {m['mAP50_95']:.3f}  "
+        print(f"{task.key} {name:16s} mAP50 {m['mAP50']:.3f}  mAP50-95 {m['mAP50_95']:.3f}  "
               f"cost/1000 alone {m['snapshot_alone']['cost_per_1000']:.0f}")
+
+
+def main() -> None:
+    skip = {s.strip() for s in os.environ.get("SKIP_TRAIN", "").split(",") if s.strip()}
+    for task in TASKS:
+        run_task(task, skip_train=task.key in skip or "1" in skip)
 
 
 if __name__ == "__main__":
