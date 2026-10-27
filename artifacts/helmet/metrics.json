@@ -1,0 +1,485 @@
+{
+  "dataset": {
+    "workspace": "joseph-nelson",
+    "project": "hard-hat-workers",
+    "version": 10,
+    "url": "https://universe.roboflow.com/joseph-nelson/hard-hat-workers/dataset/10"
+  },
+  "training": {
+    "base_model": "yolo11s.pt",
+    "epochs": 50,
+    "imgsz": 640,
+    "batch": 16,
+    "patience": 15,
+    "seed": 0,
+    "workers": 2,
+    "epochs_run": 50
+  },
+  "class_names": {
+    "0": "head",
+    "1": "helmet",
+    "2": "person"
+  },
+  "positive_class": "head",
+  "test_snapshots": 706,
+  "test_positive_share": 0.19830028328611898,
+  "valid_positive_share": 0.18117480537862704,
+  "costs": {
+    "fn": 300.0,
+    "fp": 10.0,
+    "tp": 10.0,
+    "tn": 0.0,
+    "review": 0.1
+  },
+  "base_rate": 0.05,
+  "human_miss": 0.05,
+  "human_miss_check_all": 0.15,
+  "operating_point": {
+    "single_threshold": 0.11,
+    "low": 0.06,
+    "high": 0.62
+  },
+  "models": {
+    "finetuned": {
+      "mAP50": 0.6533928124991397,
+      "mAP50_95": 0.4576890983672048,
+      "per_class": {
+        "head": {
+          "instances": 726,
+          "AP50": 0.9546354869258624,
+          "AP50_95": 0.6737272047803586,
+          "precision": 0.8520782396088019,
+          "recall": 0.9600550964187328
+        },
+        "helmet": {
+          "instances": 1915,
+          "AP50": 0.9830428274374995,
+          "AP50_95": 0.6865336847671114,
+          "precision": 0.8807166430928807,
+          "recall": 0.9754569190600523
+        },
+        "person": {
+          "instances": 64,
+          "AP50": 0.022500123134057103,
+          "AP50_95": 0.012806405554144052,
+          "precision": 0.0,
+          "recall": 0.0
+        }
+      },
+      "snapshot_alone": {
+        "low": 0.11,
+        "high": 0.11,
+        "shares": {
+          "pos": {
+            "pass": 0.06428571428571428,
+            "review": 0.0,
+            "fail": 0.9357142857142857
+          },
+          "neg": {
+            "pass": 0.9434628975265018,
+            "review": 0.0,
+            "fail": 0.05653710247349823
+          }
+        },
+        "cost_per_1000": 1969.2453306410905,
+        "review_share": 0.0,
+        "reviews_per_day": 0.0,
+        "reviewer_hours_per_day": 0.0,
+        "reviewers_needed": 0.0
+      }
+    },
+    "coco_zero_shot": {
+      "mAP50": 0.014765420037754043,
+      "mAP50_95": 0.009479607457153864,
+      "per_class": {
+        "head": {
+          "instances": 726,
+          "AP50": 0.003355675689578753,
+          "AP50_95": 0.000981212949468858,
+          "precision": 0.01039671682626539,
+          "recall": 0.05234159779614325
+        },
+        "helmet": {
+          "instances": 1915,
+          "AP50": 0.004788770344074797,
+          "AP50_95": 0.0014420838621988505,
+          "precision": 0.015595075239398085,
+          "recall": 0.029765013054830286
+        },
+        "person": {
+          "instances": 64,
+          "AP50": 0.036151814079608574,
+          "AP50_95": 0.026015525559793883,
+          "precision": 0.016963064295485636,
+          "recall": 0.96875
+        }
+      },
+      "snapshot_alone": {
+        "low": 0.86,
+        "high": 0.86,
+        "shares": {
+          "pos": {
+            "pass": 0.1071428571428571,
+            "review": 0.0,
+            "fail": 0.8928571428571429
+          },
+          "neg": {
+            "pass": 0.273851590106007,
+            "review": 0.0,
+            "fail": 0.726148409893993
+          }
+        },
+        "cost_per_1000": 8951.981322564361,
+        "review_share": 0.0,
+        "reviews_per_day": 0.0,
+        "reviewer_hours_per_day": 0.0,
+        "reviewers_needed": 0.0
+      }
+    },
+    "predict_nothing": {
+      "mAP50": 0.0,
+      "mAP50_95": 0.0,
+      "per_class": {
+        "head": {
+          "instances": 726,
+          "AP50": 0.0,
+          "AP50_95": 0.0,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "helmet": {
+          "instances": 1915,
+          "AP50": 0.0,
+          "AP50_95": 0.0,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "person": {
+          "instances": 64,
+          "AP50": 0.0,
+          "AP50_95": 0.0,
+          "precision": 0.0,
+          "recall": 0.0
+        }
+      },
+      "snapshot_alone": {
+        "low": 0.01,
+        "high": 0.01,
+        "shares": {
+          "pos": {
+            "pass": 1.0,
+            "review": 0.0,
+            "fail": 0.0
+          },
+          "neg": {
+            "pass": 1.0,
+            "review": 0.0,
+            "fail": 0.0
+          }
+        },
+        "cost_per_1000": 15000.0,
+        "review_share": 0.0,
+        "reviews_per_day": 0.0,
+        "reviewer_hours_per_day": 0.0,
+        "reviewers_needed": 0.0
+      }
+    }
+  },
+  "confusion_matrix_test": [
+    [
+      695,
+      14,
+      0,
+      17
+    ],
+    [
+      4,
+      1866,
+      0,
+      45
+    ],
+    [
+      0,
+      0,
+      0,
+      64
+    ],
+    [
+      119,
+      241,
+      55,
+      0
+    ]
+  ],
+  "positive_recall_by_size_test": [
+    {
+      "size": "small (<0.4% of image)",
+      "instances": 200,
+      "recall": 0.935
+    },
+    {
+      "size": "medium (0.4-2%)",
+      "instances": 468,
+      "recall": 0.967948717948718
+    },
+    {
+      "size": "large (>2%)",
+      "instances": 58,
+      "recall": 0.9827586206896551
+    }
+  ],
+  "policies_test": {
+    "do_nothing": {
+      "cost_per_1000": 15000.0,
+      "review_share": 0.0,
+      "reviewers_needed": 0.0
+    },
+    "human_checks_all": {
+      "cost_per_1000": 2775.0000000000005,
+      "review_share": 1.0,
+      "reviewers_needed": 0.7692307692307693
+    },
+    "model_alone": {
+      "low": 0.11,
+      "high": 0.11,
+      "shares": {
+        "pos": {
+          "pass": 0.06428571428571428,
+          "review": 0.0,
+          "fail": 0.9357142857142857
+        },
+        "neg": {
+          "pass": 0.9434628975265018,
+          "review": 0.0,
+          "fail": 0.05653710247349823
+        }
+      },
+      "cost_per_1000": 1969.2453306410905,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "reviewer_hours_per_day": 0.0,
+      "reviewers_needed": 0.0
+    },
+    "model_plus_review": {
+      "low": 0.06,
+      "high": 0.62,
+      "shares": {
+        "pos": {
+          "pass": 0.04999999999999996,
+          "review": 0.08571428571428572,
+          "fail": 0.8642857142857143
+        },
+        "neg": {
+          "pass": 0.9346289752650176,
+          "review": 0.054770318021201414,
+          "fail": 0.01060070671378092
+        }
+      },
+      "cost_per_1000": 1393.4813225643607,
+      "review_share": 0.05631751640585563,
+      "reviews_per_day": 67.58101968702675,
+      "reviewer_hours_per_day": 0.28158758202927814,
+      "reviewers_needed": 0.04332116646604279
+    }
+  },
+  "sensitivity_valid": [
+    {
+      "fn_cost": 25,
+      "base_rate": 0.01,
+      "best_threshold": 0.83,
+      "cost_per_1000": 197.74014828219535
+    },
+    {
+      "fn_cost": 25,
+      "base_rate": 0.05,
+      "best_threshold": 0.62,
+      "cost_per_1000": 760.3193199006051
+    },
+    {
+      "fn_cost": 25,
+      "base_rate": 0.1,
+      "best_threshold": 0.56,
+      "cost_per_1000": 1331.2547266637855
+    },
+    {
+      "fn_cost": 25,
+      "base_rate": 0.2,
+      "best_threshold": 0.31,
+      "cost_per_1000": 2408.1778035868624
+    },
+    {
+      "fn_cost": 50,
+      "base_rate": 0.01,
+      "best_threshold": 0.74,
+      "cost_per_1000": 282.44111927398444
+    },
+    {
+      "fn_cost": 50,
+      "base_rate": 0.05,
+      "best_threshold": 0.56,
+      "cost_per_1000": 891.9754753673293
+    },
+    {
+      "fn_cost": 50,
+      "base_rate": 0.1,
+      "best_threshold": 0.31,
+      "cost_per_1000": 1490.9383102852205
+    },
+    {
+      "fn_cost": 50,
+      "base_rate": 0.2,
+      "best_threshold": 0.2,
+      "cost_per_1000": 2647.985090751945
+    },
+    {
+      "fn_cost": 100,
+      "base_rate": 0.01,
+      "best_threshold": 0.62,
+      "cost_per_1000": 385.15760047536736
+    },
+    {
+      "fn_cost": 100,
+      "base_rate": 0.05,
+      "best_threshold": 0.31,
+      "cost_per_1000": 1032.3185636343992
+    },
+    {
+      "fn_cost": 100,
+      "base_rate": 0.1,
+      "best_threshold": 0.2,
+      "cost_per_1000": 1728.9832270959378
+    },
+    {
+      "fn_cost": 100,
+      "base_rate": 0.2,
+      "best_threshold": 0.11,
+      "cost_per_1000": 3026.935231201383
+    },
+    {
+      "fn_cost": 300,
+      "base_rate": 0.01,
+      "best_threshold": 0.31,
+      "cost_per_1000": 563.8602663137424
+    },
+    {
+      "fn_cost": 300,
+      "base_rate": 0.05,
+      "best_threshold": 0.11,
+      "cost_per_1000": 1477.7863683016421
+    },
+    {
+      "fn_cost": 300,
+      "base_rate": 0.1,
+      "best_threshold": 0.11,
+      "cost_per_1000": 2462.9193226015555
+    },
+    {
+      "fn_cost": 300,
+      "base_rate": 0.2,
+      "best_threshold": 0.06,
+      "cost_per_1000": 4310.339239412273
+    },
+    {
+      "fn_cost": 1000,
+      "base_rate": 0.01,
+      "best_threshold": 0.2,
+      "cost_per_1000": 901.8815498055314
+    },
+    {
+      "fn_cost": 1000,
+      "base_rate": 0.05,
+      "best_threshold": 0.06,
+      "cost_per_1000": 2638.0590968020742
+    },
+    {
+      "fn_cost": 1000,
+      "base_rate": 0.1,
+      "best_threshold": 0.06,
+      "cost_per_1000": 4653.819144338807
+    },
+    {
+      "fn_cost": 1000,
+      "base_rate": 0.2,
+      "best_threshold": 0.06,
+      "cost_per_1000": 8685.339239412275
+    },
+    {
+      "fn_cost": 3000,
+      "base_rate": 0.01,
+      "best_threshold": 0.11,
+      "cost_per_1000": 1638.8987548617113
+    },
+    {
+      "fn_cost": 3000,
+      "base_rate": 0.05,
+      "best_threshold": 0.06,
+      "cost_per_1000": 5763.059096802074
+    },
+    {
+      "fn_cost": 3000,
+      "base_rate": 0.1,
+      "best_threshold": 0.06,
+      "cost_per_1000": 10903.819144338808
+    },
+    {
+      "fn_cost": 3000,
+      "base_rate": 0.2,
+      "best_threshold": 0.06,
+      "cost_per_1000": 21185.33923941227
+    }
+  ],
+  "examples": {
+    "missed_violations": [
+      {
+        "file": "missed_violations_641.jpg",
+        "score": 0.0
+      },
+      {
+        "file": "missed_violations_341.jpg",
+        "score": 0.0022266863379627466
+      },
+      {
+        "file": "missed_violations_302.jpg",
+        "score": 0.0023841136135160923
+      },
+      {
+        "file": "missed_violations_692.jpg",
+        "score": 0.0027724115643650293
+      },
+      {
+        "file": "missed_violations_608.jpg",
+        "score": 0.01844179630279541
+      },
+      {
+        "file": "missed_violations_280.jpg",
+        "score": 0.05135985091328621
+      }
+    ],
+    "false_alarms": [
+      {
+        "file": "false_alarms_672.jpg",
+        "score": 0.8662774562835693
+      },
+      {
+        "file": "false_alarms_130.jpg",
+        "score": 0.8313716650009155
+      },
+      {
+        "file": "false_alarms_84.jpg",
+        "score": 0.8119544386863708
+      },
+      {
+        "file": "false_alarms_314.jpg",
+        "score": 0.7876413464546204
+      },
+      {
+        "file": "false_alarms_284.jpg",
+        "score": 0.7355000376701355
+      },
+      {
+        "file": "false_alarms_370.jpg",
+        "score": 0.6717309951782227
+      }
+    ]
+  }
+}
