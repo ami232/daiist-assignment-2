@@ -1,0 +1,1060 @@
+{
+  "assumptions": {
+    "cost_miss": 100.0,
+    "cost_scrap": 5.0,
+    "cost_review": 0.33,
+    "base_rate": 0.05,
+    "boards_per_day": 10000,
+    "reviews_per_inspector": 420
+  },
+  "chosen": {
+    "low": 0.25,
+    "high": 0.78,
+    "cost": 316.4655614500443,
+    "shipped_defects": 2.785145888594165,
+    "reviews": 115.00294724432655,
+    "scrapped_good": 0.0,
+    "review_share": 0.11500294724432655
+  },
+  "model_alone": {
+    "low": 0.25,
+    "high": 0.25,
+    "cost": 647.9590333038609,
+    "shipped_defects": 2.785145888594165,
+    "reviews": 0.0,
+    "scrapped_good": 73.88888888888889,
+    "review_share": 0.0
+  },
+  "curve": [
+    {
+      "low": 0.0,
+      "high": 0.0,
+      "cost": 4750.0,
+      "shipped_defects": 0.0,
+      "reviews": 0.0,
+      "scrapped_good": 950.0,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.01,
+      "high": 0.01,
+      "cost": 3682.2723253757736,
+      "shipped_defects": 1.9893899204244059,
+      "reviews": 0.0,
+      "scrapped_good": 696.6666666666666,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.02,
+      "high": 0.02,
+      "cost": 3154.494547597996,
+      "shipped_defects": 1.9893899204244059,
+      "reviews": 0.0,
+      "scrapped_good": 591.1111111111111,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.03,
+      "high": 0.03,
+      "cost": 2798.3127026230472,
+      "shipped_defects": 2.1220159151193627,
+      "reviews": 0.0,
+      "scrapped_good": 517.2222222222222,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.04,
+      "high": 0.04,
+      "cost": 2323.3127026230472,
+      "shipped_defects": 2.1220159151193627,
+      "reviews": 0.0,
+      "scrapped_good": 422.2222222222222,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.05,
+      "high": 0.05,
+      "cost": 2323.3127026230472,
+      "shipped_defects": 2.1220159151193627,
+      "reviews": 0.0,
+      "scrapped_good": 422.2222222222222,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.06,
+      "high": 0.06,
+      "cost": 2270.53492484527,
+      "shipped_defects": 2.1220159151193627,
+      "reviews": 0.0,
+      "scrapped_good": 411.6666666666667,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.07,
+      "high": 0.07,
+      "cost": 2112.2015915119364,
+      "shipped_defects": 2.1220159151193627,
+      "reviews": 0.0,
+      "scrapped_good": 380.0,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.08,
+      "high": 0.08,
+      "cost": 2112.2015915119364,
+      "shipped_defects": 2.1220159151193627,
+      "reviews": 0.0,
+      "scrapped_good": 380.0,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.09,
+      "high": 0.09,
+      "cost": 2125.4641909814327,
+      "shipped_defects": 2.2546419098143256,
+      "reviews": 0.0,
+      "scrapped_good": 380.0,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.1,
+      "high": 0.1,
+      "cost": 2138.726790450928,
+      "shipped_defects": 2.3872679045092826,
+      "reviews": 0.0,
+      "scrapped_good": 380.0,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.11,
+      "high": 0.11,
+      "cost": 2085.9490126731503,
+      "shipped_defects": 2.3872679045092826,
+      "reviews": 0.0,
+      "scrapped_good": 369.44444444444446,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.12,
+      "high": 0.12,
+      "cost": 2033.1712348953727,
+      "shipped_defects": 2.3872679045092826,
+      "reviews": 0.0,
+      "scrapped_good": 358.88888888888886,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.13,
+      "high": 0.13,
+      "cost": 1980.3934571175948,
+      "shipped_defects": 2.3872679045092826,
+      "reviews": 0.0,
+      "scrapped_good": 348.3333333333333,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.14,
+      "high": 0.14,
+      "cost": 1927.6156793398172,
+      "shipped_defects": 2.3872679045092826,
+      "reviews": 0.0,
+      "scrapped_good": 337.77777777777777,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.15,
+      "high": 0.15,
+      "cost": 1927.6156793398172,
+      "shipped_defects": 2.3872679045092826,
+      "reviews": 0.0,
+      "scrapped_good": 337.77777777777777,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.16,
+      "high": 0.16,
+      "cost": 1927.6156793398172,
+      "shipped_defects": 2.3872679045092826,
+      "reviews": 0.0,
+      "scrapped_good": 337.77777777777777,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.17,
+      "high": 0.17,
+      "cost": 1927.6156793398172,
+      "shipped_defects": 2.3872679045092826,
+      "reviews": 0.0,
+      "scrapped_good": 337.77777777777777,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.18,
+      "high": 0.18,
+      "cost": 1822.0601237842614,
+      "shipped_defects": 2.3872679045092826,
+      "reviews": 0.0,
+      "scrapped_good": 316.66666666666663,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.19,
+      "high": 0.19,
+      "cost": 1782.54494547598,
+      "shipped_defects": 2.519893899204245,
+      "reviews": 0.0,
+      "scrapped_good": 306.11111111111114,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.2,
+      "high": 0.2,
+      "cost": 1782.54494547598,
+      "shipped_defects": 2.519893899204245,
+      "reviews": 0.0,
+      "scrapped_good": 306.11111111111114,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.21,
+      "high": 0.21,
+      "cost": 1743.029767167698,
+      "shipped_defects": 2.6525198938992025,
+      "reviews": 0.0,
+      "scrapped_good": 295.55555555555554,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.22,
+      "high": 0.22,
+      "cost": 1756.2923666371944,
+      "shipped_defects": 2.785145888594165,
+      "reviews": 0.0,
+      "scrapped_good": 295.55555555555554,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.23,
+      "high": 0.23,
+      "cost": 1703.5145888594166,
+      "shipped_defects": 2.785145888594165,
+      "reviews": 0.0,
+      "scrapped_good": 285.0,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.24,
+      "high": 0.24,
+      "cost": 1492.4034777483055,
+      "shipped_defects": 2.785145888594165,
+      "reviews": 0.0,
+      "scrapped_good": 242.77777777777777,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.25,
+      "high": 0.25,
+      "cost": 647.9590333038609,
+      "shipped_defects": 2.785145888594165,
+      "reviews": 0.0,
+      "scrapped_good": 73.88888888888889,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.26,
+      "high": 0.26,
+      "cost": 647.9590333038609,
+      "shipped_defects": 2.785145888594165,
+      "reviews": 0.0,
+      "scrapped_good": 73.88888888888889,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.27,
+      "high": 0.27,
+      "cost": 647.9590333038609,
+      "shipped_defects": 2.785145888594165,
+      "reviews": 0.0,
+      "scrapped_good": 73.88888888888889,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.28,
+      "high": 0.28,
+      "cost": 647.9590333038609,
+      "shipped_defects": 2.785145888594165,
+      "reviews": 0.0,
+      "scrapped_good": 73.88888888888889,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.29,
+      "high": 0.29,
+      "cost": 647.9590333038609,
+      "shipped_defects": 2.785145888594165,
+      "reviews": 0.0,
+      "scrapped_good": 73.88888888888889,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.3,
+      "high": 0.3,
+      "cost": 647.9590333038609,
+      "shipped_defects": 2.785145888594165,
+      "reviews": 0.0,
+      "scrapped_good": 73.88888888888889,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.31,
+      "high": 0.31,
+      "cost": 687.7468317123491,
+      "shipped_defects": 3.183023872679047,
+      "reviews": 0.0,
+      "scrapped_good": 73.88888888888889,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.32,
+      "high": 0.32,
+      "cost": 714.2720306513411,
+      "shipped_defects": 3.448275862068967,
+      "reviews": 0.0,
+      "scrapped_good": 73.88888888888889,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.33,
+      "high": 0.33,
+      "cost": 714.2720306513411,
+      "shipped_defects": 3.448275862068967,
+      "reviews": 0.0,
+      "scrapped_good": 73.88888888888889,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.34,
+      "high": 0.34,
+      "cost": 714.2720306513411,
+      "shipped_defects": 3.448275862068967,
+      "reviews": 0.0,
+      "scrapped_good": 73.88888888888889,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.35,
+      "high": 0.35,
+      "cost": 714.2720306513411,
+      "shipped_defects": 3.448275862068967,
+      "reviews": 0.0,
+      "scrapped_good": 73.88888888888889,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.36,
+      "high": 0.36,
+      "cost": 714.2720306513411,
+      "shipped_defects": 3.448275862068967,
+      "reviews": 0.0,
+      "scrapped_good": 73.88888888888889,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.37,
+      "high": 0.37,
+      "cost": 714.2720306513411,
+      "shipped_defects": 3.448275862068967,
+      "reviews": 0.0,
+      "scrapped_good": 73.88888888888889,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.38,
+      "high": 0.38,
+      "cost": 661.4942528735634,
+      "shipped_defects": 3.448275862068967,
+      "reviews": 0.0,
+      "scrapped_good": 63.333333333333336,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.39,
+      "high": 0.39,
+      "cost": 661.4942528735634,
+      "shipped_defects": 3.448275862068967,
+      "reviews": 0.0,
+      "scrapped_good": 63.333333333333336,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.4,
+      "high": 0.4,
+      "cost": 661.4942528735634,
+      "shipped_defects": 3.448275862068967,
+      "reviews": 0.0,
+      "scrapped_good": 63.333333333333336,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.41,
+      "high": 0.41,
+      "cost": 674.7568523430591,
+      "shipped_defects": 3.5809018567639237,
+      "reviews": 0.0,
+      "scrapped_good": 63.333333333333336,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.42,
+      "high": 0.42,
+      "cost": 688.0194518125554,
+      "shipped_defects": 3.7135278514588865,
+      "reviews": 0.0,
+      "scrapped_good": 63.333333333333336,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.43,
+      "high": 0.43,
+      "cost": 688.0194518125554,
+      "shipped_defects": 3.7135278514588865,
+      "reviews": 0.0,
+      "scrapped_good": 63.333333333333336,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.44,
+      "high": 0.44,
+      "cost": 688.0194518125554,
+      "shipped_defects": 3.7135278514588865,
+      "reviews": 0.0,
+      "scrapped_good": 63.333333333333336,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.45,
+      "high": 0.45,
+      "cost": 714.5446507515474,
+      "shipped_defects": 3.978779840848806,
+      "reviews": 0.0,
+      "scrapped_good": 63.333333333333336,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.46,
+      "high": 0.46,
+      "cost": 661.7668729737695,
+      "shipped_defects": 3.978779840848806,
+      "reviews": 0.0,
+      "scrapped_good": 52.77777777777777,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.47,
+      "high": 0.47,
+      "cost": 675.0294724432657,
+      "shipped_defects": 4.111405835543769,
+      "reviews": 0.0,
+      "scrapped_good": 52.77777777777777,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.48,
+      "high": 0.48,
+      "cost": 675.0294724432657,
+      "shipped_defects": 4.111405835543769,
+      "reviews": 0.0,
+      "scrapped_good": 52.77777777777777,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.49,
+      "high": 0.49,
+      "cost": 675.0294724432657,
+      "shipped_defects": 4.111405835543769,
+      "reviews": 0.0,
+      "scrapped_good": 52.77777777777777,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.5,
+      "high": 0.5,
+      "cost": 675.0294724432657,
+      "shipped_defects": 4.111405835543769,
+      "reviews": 0.0,
+      "scrapped_good": 52.77777777777777,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.51,
+      "high": 0.51,
+      "cost": 675.0294724432657,
+      "shipped_defects": 4.111405835543769,
+      "reviews": 0.0,
+      "scrapped_good": 52.77777777777777,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.52,
+      "high": 0.52,
+      "cost": 688.2920719127615,
+      "shipped_defects": 4.244031830238725,
+      "reviews": 0.0,
+      "scrapped_good": 52.77777777777777,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.53,
+      "high": 0.53,
+      "cost": 714.8172708517534,
+      "shipped_defects": 4.509283819628646,
+      "reviews": 0.0,
+      "scrapped_good": 52.77777777777777,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.54,
+      "high": 0.54,
+      "cost": 741.3424697907453,
+      "shipped_defects": 4.774535809018565,
+      "reviews": 0.0,
+      "scrapped_good": 52.77777777777777,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.55,
+      "high": 0.55,
+      "cost": 754.6050692602416,
+      "shipped_defects": 4.907161803713528,
+      "reviews": 0.0,
+      "scrapped_good": 52.77777777777777,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.56,
+      "high": 0.56,
+      "cost": 794.3928676687299,
+      "shipped_defects": 5.30503978779841,
+      "reviews": 0.0,
+      "scrapped_good": 52.77777777777777,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.57,
+      "high": 0.57,
+      "cost": 847.4432655467137,
+      "shipped_defects": 5.835543766578249,
+      "reviews": 0.0,
+      "scrapped_good": 52.77777777777777,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.58,
+      "high": 0.58,
+      "cost": 873.9684644857059,
+      "shipped_defects": 6.10079575596817,
+      "reviews": 0.0,
+      "scrapped_good": 52.77777777777777,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.59,
+      "high": 0.59,
+      "cost": 966.806660772178,
+      "shipped_defects": 7.029177718832891,
+      "reviews": 0.0,
+      "scrapped_good": 52.77777777777777,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.6,
+      "high": 0.6,
+      "cost": 927.2914824638965,
+      "shipped_defects": 7.161803713527854,
+      "reviews": 0.0,
+      "scrapped_good": 42.22222222222222,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.61,
+      "high": 0.61,
+      "cost": 1006.8670792808723,
+      "shipped_defects": 7.957559681697612,
+      "reviews": 0.0,
+      "scrapped_good": 42.22222222222222,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.62,
+      "high": 0.62,
+      "cost": 1033.3922782198645,
+      "shipped_defects": 8.222811671087532,
+      "reviews": 0.0,
+      "scrapped_good": 42.22222222222222,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.63,
+      "high": 0.63,
+      "cost": 1179.2808723843204,
+      "shipped_defects": 9.681697612732092,
+      "reviews": 0.0,
+      "scrapped_good": 42.22222222222222,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.64,
+      "high": 0.64,
+      "cost": 1338.4320660182727,
+      "shipped_defects": 11.273209549071616,
+      "reviews": 0.0,
+      "scrapped_good": 42.22222222222222,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.65,
+      "high": 0.65,
+      "cost": 1457.7954612437368,
+      "shipped_defects": 12.466843501326258,
+      "reviews": 0.0,
+      "scrapped_good": 42.22222222222222,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.66,
+      "high": 0.66,
+      "cost": 1709.7848511641614,
+      "shipped_defects": 14.986737400530503,
+      "reviews": 0.0,
+      "scrapped_good": 42.22222222222222,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.67,
+      "high": 0.67,
+      "cost": 1868.9360447981137,
+      "shipped_defects": 16.578249336870027,
+      "reviews": 0.0,
+      "scrapped_good": 42.22222222222222,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.68,
+      "high": 0.68,
+      "cost": 2094.400235779546,
+      "shipped_defects": 18.83289124668435,
+      "reviews": 0.0,
+      "scrapped_good": 42.22222222222222,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.69,
+      "high": 0.69,
+      "cost": 2346.3896256999706,
+      "shipped_defects": 21.352785145888593,
+      "reviews": 0.0,
+      "scrapped_good": 42.22222222222222,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.7,
+      "high": 0.7,
+      "cost": 2519.0760389036254,
+      "shipped_defects": 23.607427055702917,
+      "reviews": 0.0,
+      "scrapped_good": 31.666666666666668,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.71,
+      "high": 0.71,
+      "cost": 2810.853227232538,
+      "shipped_defects": 26.525198938992045,
+      "reviews": 0.0,
+      "scrapped_good": 31.666666666666668,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.72,
+      "high": 0.72,
+      "cost": 3089.3678160919544,
+      "shipped_defects": 29.31034482758621,
+      "reviews": 0.0,
+      "scrapped_good": 31.666666666666668,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.73,
+      "high": 0.73,
+      "cost": 3328.094606542883,
+      "shipped_defects": 31.697612732095493,
+      "reviews": 0.0,
+      "scrapped_good": 31.666666666666668,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.74,
+      "high": 0.74,
+      "cost": 3580.083996463307,
+      "shipped_defects": 34.217506631299734,
+      "reviews": 0.0,
+      "scrapped_good": 31.666666666666668,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.75,
+      "high": 0.75,
+      "cost": 3726.245210727969,
+      "shipped_defects": 36.206896551724135,
+      "reviews": 0.0,
+      "scrapped_good": 21.11111111111111,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.76,
+      "high": 0.76,
+      "cost": 3898.931623931624,
+      "shipped_defects": 38.46153846153846,
+      "reviews": 0.0,
+      "scrapped_good": 10.555555555555555,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.77,
+      "high": 0.77,
+      "cost": 4177.44621279104,
+      "shipped_defects": 41.246684350132625,
+      "reviews": 0.0,
+      "scrapped_good": 10.555555555555555,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.78,
+      "high": 0.78,
+      "cost": 4389.920424403183,
+      "shipped_defects": 43.89920424403183,
+      "reviews": 0.0,
+      "scrapped_good": 0.0,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.79,
+      "high": 0.79,
+      "cost": 4641.909814323608,
+      "shipped_defects": 46.41909814323608,
+      "reviews": 0.0,
+      "scrapped_good": 0.0,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.8,
+      "high": 0.8,
+      "cost": 4787.798408488064,
+      "shipped_defects": 47.87798408488064,
+      "reviews": 0.0,
+      "scrapped_good": 0.0,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.81,
+      "high": 0.81,
+      "cost": 4893.899204244032,
+      "shipped_defects": 48.93899204244032,
+      "reviews": 0.0,
+      "scrapped_good": 0.0,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.82,
+      "high": 0.82,
+      "cost": 4960.212201591511,
+      "shipped_defects": 49.602122015915114,
+      "reviews": 0.0,
+      "scrapped_good": 0.0,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.83,
+      "high": 0.83,
+      "cost": 4960.212201591511,
+      "shipped_defects": 49.602122015915114,
+      "reviews": 0.0,
+      "scrapped_good": 0.0,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.84,
+      "high": 0.84,
+      "cost": 4973.474801061008,
+      "shipped_defects": 49.73474801061008,
+      "reviews": 0.0,
+      "scrapped_good": 0.0,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.85,
+      "high": 0.85,
+      "cost": 5000.0,
+      "shipped_defects": 50.0,
+      "reviews": 0.0,
+      "scrapped_good": 0.0,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.86,
+      "high": 0.86,
+      "cost": 5000.0,
+      "shipped_defects": 50.0,
+      "reviews": 0.0,
+      "scrapped_good": 0.0,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.87,
+      "high": 0.87,
+      "cost": 5000.0,
+      "shipped_defects": 50.0,
+      "reviews": 0.0,
+      "scrapped_good": 0.0,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.88,
+      "high": 0.88,
+      "cost": 5000.0,
+      "shipped_defects": 50.0,
+      "reviews": 0.0,
+      "scrapped_good": 0.0,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.89,
+      "high": 0.89,
+      "cost": 5000.0,
+      "shipped_defects": 50.0,
+      "reviews": 0.0,
+      "scrapped_good": 0.0,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.9,
+      "high": 0.9,
+      "cost": 5000.0,
+      "shipped_defects": 50.0,
+      "reviews": 0.0,
+      "scrapped_good": 0.0,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.91,
+      "high": 0.91,
+      "cost": 5000.0,
+      "shipped_defects": 50.0,
+      "reviews": 0.0,
+      "scrapped_good": 0.0,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.92,
+      "high": 0.92,
+      "cost": 5000.0,
+      "shipped_defects": 50.0,
+      "reviews": 0.0,
+      "scrapped_good": 0.0,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.93,
+      "high": 0.93,
+      "cost": 5000.0,
+      "shipped_defects": 50.0,
+      "reviews": 0.0,
+      "scrapped_good": 0.0,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.94,
+      "high": 0.94,
+      "cost": 5000.0,
+      "shipped_defects": 50.0,
+      "reviews": 0.0,
+      "scrapped_good": 0.0,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.95,
+      "high": 0.95,
+      "cost": 5000.0,
+      "shipped_defects": 50.0,
+      "reviews": 0.0,
+      "scrapped_good": 0.0,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.96,
+      "high": 0.96,
+      "cost": 5000.0,
+      "shipped_defects": 50.0,
+      "reviews": 0.0,
+      "scrapped_good": 0.0,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.97,
+      "high": 0.97,
+      "cost": 5000.0,
+      "shipped_defects": 50.0,
+      "reviews": 0.0,
+      "scrapped_good": 0.0,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.98,
+      "high": 0.98,
+      "cost": 5000.0,
+      "shipped_defects": 50.0,
+      "reviews": 0.0,
+      "scrapped_good": 0.0,
+      "review_share": 0.0
+    },
+    {
+      "low": 0.99,
+      "high": 0.99,
+      "cost": 5000.0,
+      "shipped_defects": 50.0,
+      "reviews": 0.0,
+      "scrapped_good": 0.0,
+      "review_share": 0.0
+    },
+    {
+      "low": 1.0,
+      "high": 1.0,
+      "cost": 5000.0,
+      "shipped_defects": 50.0,
+      "reviews": 0.0,
+      "scrapped_good": 0.0,
+      "review_share": 0.0
+    },
+    {
+      "low": 1.01,
+      "high": 1.01,
+      "cost": 5000.0,
+      "shipped_defects": 50.0,
+      "reviews": 0.0,
+      "scrapped_good": 0.0,
+      "review_share": 0.0
+    }
+  ],
+  "alternatives": {
+    "do_nothing": 5000.0,
+    "inspect_everything": 330.0,
+    "model_alone": 647.9590333038609,
+    "model_plus_review": 316.4655614500443
+  },
+  "staffing": {
+    "reviews_per_day": 1150.0294724432656,
+    "inspectors_needed": 2.738165410579204,
+    "inspectors_to_check_everything": 23.80952380952381
+  },
+  "sensitivity": [
+    {
+      "cost_miss": 30,
+      "base_rate": 0.02,
+      "low": 0.25,
+      "high": 0.78,
+      "cost": 64.00213969938109,
+      "shipped_defects": 1.114058355437666,
+      "reviews": 92.6678455643973,
+      "scrapped_good": 0.0,
+      "review_share": 0.09266784556439729
+    },
+    {
+      "cost_miss": 30,
+      "base_rate": 0.05,
+      "low": 0.25,
+      "high": 0.78,
+      "cost": 121.50534924845272,
+      "shipped_defects": 2.785145888594165,
+      "reviews": 115.00294724432655,
+      "scrapped_good": 0.0,
+      "review_share": 0.11500294724432655
+    },
+    {
+      "cost_miss": 30,
+      "base_rate": 0.1,
+      "low": 0.25,
+      "high": 0.78,
+      "cost": 217.34403183023875,
+      "shipped_defects": 5.57029177718833,
+      "reviews": 152.22811671087533,
+      "scrapped_good": 0.0,
+      "review_share": 0.15222811671087533
+    },
+    {
+      "cost_miss": 100,
+      "base_rate": 0.02,
+      "low": 0.25,
+      "high": 0.78,
+      "cost": 141.9862245800177,
+      "shipped_defects": 1.114058355437666,
+      "reviews": 92.6678455643973,
+      "scrapped_good": 0.0,
+      "review_share": 0.09266784556439729
+    },
+    {
+      "cost_miss": 100,
+      "base_rate": 0.05,
+      "low": 0.25,
+      "high": 0.78,
+      "cost": 316.4655614500443,
+      "shipped_defects": 2.785145888594165,
+      "reviews": 115.00294724432655,
+      "scrapped_good": 0.0,
+      "review_share": 0.11500294724432655
+    },
+    {
+      "cost_miss": 100,
+      "base_rate": 0.1,
+      "low": 0.0,
+      "high": 0.78,
+      "cost": 325.973474801061,
+      "shipped_defects": 0.0,
+      "reviews": 987.7984084880636,
+      "scrapped_good": 0.0,
+      "review_share": 0.9877984084880637
+    },
+    {
+      "cost_miss": 500,
+      "base_rate": 0.02,
+      "low": 0.0,
+      "high": 0.78,
+      "cost": 329.19469496021225,
+      "shipped_defects": 0.0,
+      "reviews": 997.5596816976127,
+      "scrapped_good": 0.0,
+      "review_share": 0.9975596816976128
+    },
+    {
+      "cost_miss": 500,
+      "base_rate": 0.05,
+      "low": 0.0,
+      "high": 0.78,
+      "cost": 327.9867374005305,
+      "shipped_defects": 0.0,
+      "reviews": 993.8992042440318,
+      "scrapped_good": 0.0,
+      "review_share": 0.9938992042440318
+    },
+    {
+      "cost_miss": 500,
+      "base_rate": 0.1,
+      "low": 0.0,
+      "high": 0.78,
+      "cost": 325.973474801061,
+      "shipped_defects": 0.0,
+      "reviews": 987.7984084880636,
+      "scrapped_good": 0.0,
+      "review_share": 0.9877984084880637
+    }
+  ]
+}
