@@ -1,0 +1,25 @@
+{
+  "t_low": 0.12,
+  "t_high": 0.7,
+  "review_share": 0.0839,
+  "cost_per_1000": 2425.5,
+  "missed_damages_per_1000": 5.4,
+  "wrong_charges_per_1000": 0.0,
+  "returns_per_day": 500,
+  "reviews_per_day": 42.0,
+  "review_hours_per_day": 3.5,
+  "people_needed": 0.58,
+  "people_if_human_checks_everything": 6.9,
+  "options_cost_per_1000": {
+    "do_nothing": 20000.0,
+    "human_checks_everything": 3000,
+    "model_alone": 10036.2,
+    "model_alone_threshold": 0.51,
+    "model_plus_review": 2425.5
+  },
+  "assumptions": {
+    "minutes_per_review": 5,
+    "productive_hours_per_person": 6,
+    "reviewer_always_correct": true
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "train": {
+    "images": 1501,
+    "boxes_per_class": {
+      "Undamaged": 895,
+      "Damage-detected": 717
+    },
+    "images_with_damage_box": 698,
+    "images_undamaged_only": 803,
+    "images_with_no_boxes": 0,
+    "median_box_area_pct": {
+      "Undamaged": 59.4,
+      "Damage-detected": 62.1
+    }
+  },
+  "valid": {
+    "images": 366,
+    "boxes_per_class": {
+      "Damage-detected": 138,
+      "Undamaged": 272
+    },
+    "images_with_damage_box": 135,
+    "images_undamaged_only": 230,
+    "images_with_no_boxes": 1,
+    "median_box_area_pct": {
+      "Damage-detected": 64.0,
+      "Undamaged": 60.0
+    }
+  },
+  "test": {
+    "images": 206,
+    "boxes_per_class": {
+      "Damage-detected": 92,
+      "Undamaged": 119
+    },
+    "images_with_damage_box": 92,
+    "images_undamaged_only": 113,
+    "images_with_no_boxes": 1,
+    "median_box_area_pct": {
+      "Damage-detected": 62.4,
+      "Undamaged": 65.2
+    }
+  }
+}

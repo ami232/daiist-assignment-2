@@ -1,0 +1,43 @@
+{
+  "positive_class": "Damage-detected",
+  "per_class": {
+    "Damage-detected": {
+      "precision": 0.868,
+      "recall": 0.815,
+      "AP50": 0.87,
+      "mAP50-95": 0.439
+    },
+    "Undamaged": {
+      "precision": 0.898,
+      "recall": 0.888,
+      "AP50": 0.959,
+      "mAP50-95": 0.762
+    }
+  },
+  "confusion_matrix": {
+    "labels": [
+      "Damage-detected",
+      "Undamaged",
+      "background"
+    ],
+    "rows_are": "predicted",
+    "columns_are": "true",
+    "matrix": [
+      [
+        83.0,
+        8.0,
+        1915.0
+      ],
+      [
+        8.0,
+        111.0,
+        1047.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ]
+  }
+}

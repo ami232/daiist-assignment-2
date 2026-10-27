@@ -1,0 +1,22 @@
+{
+  "assumptions": {
+    "fp_cost": 3,
+    "tp_cost": 3,
+    "fn_cost": 400,
+    "tn_cost": 0,
+    "base_rate": 0.05
+  },
+  "chosen_threshold": 0.02,
+  "cost_per_1000_at_chosen": 1388.0,
+  "cost_per_1000_at_0.5": 5834.8,
+  "recall_at_chosen": 0.957,
+  "false_alarm_rate_at_chosen": 0.132,
+  "thresholds_within_5pct_of_best": [
+    0.01,
+    0.02
+  ],
+  "test_images": {
+    "damaged": 92,
+    "clean": 114
+  }
+}

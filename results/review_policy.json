@@ -1,0 +1,30 @@
+{
+  "assumptions": {
+    "fn_cost": 400,
+    "review_cost": 3,
+    "fp_auto_cost": 250,
+    "base_rate": 0.05,
+    "max_review_share": 0.05,
+    "reviewer_always_correct": true
+  },
+  "chosen": {
+    "t_low": 0.34,
+    "t_high": 0.57,
+    "cost_per_1000": 5051.8116,
+    "review_share": 0.0475,
+    "missed_per_1000": 7.0652,
+    "wrong_charges_per_1000": 8.3333
+  },
+  "without_review_cap": {
+    "t_low": 0.02,
+    "t_high": 0.7,
+    "cost_per_1000": 1330.9783,
+    "review_share": 0.1538
+  },
+  "options_cost_per_1000": {
+    "do_nothing": 20000.0,
+    "human_checks_everything": 3000,
+    "model_alone": 10036.2,
+    "model_plus_review": 5051.8
+  }
+}
