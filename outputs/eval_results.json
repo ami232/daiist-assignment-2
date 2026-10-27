@@ -1,0 +1,1245 @@
+{
+  "class_names": [
+    "healthy",
+    "powdery mildew",
+    "rust"
+  ],
+  "dataset": {
+    "workspace": "simpleteam",
+    "project": "plant-health-dtdb8",
+    "version": 1
+  },
+  "cost_assumptions": {
+    "false_negative": 50.0,
+    "false_positive": 5.0,
+    "true_positive": 5.0,
+    "true_negative": 0.0,
+    "assumed_base_rate": 0.1
+  },
+  "finetuned": {
+    "records": [
+      {
+        "image": "Plant-Health-1\\test\\healthy\\Poleznye-svojstva-listev-smorodiny_jpg.rf.23265d82bcd3f880676c7888f3bc77d5.jpg",
+        "true_label": "healthy",
+        "probs": {
+          "healthy": 0.6272280216217041,
+          "powdery mildew": 0.33871299028396606,
+          "rust": 0.034059006720781326
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\healthy\\Pyrusussurensis2JPG_jpg.rf.ca4deb9c337828bddb83cc855f6e2fd0.jpg",
+        "true_label": "healthy",
+        "probs": {
+          "healthy": 0.9945374131202698,
+          "powdery mildew": 0.005207187496125698,
+          "rust": 0.00025536486646160483
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\powdery mildew\\159_1_main_jpg.rf.4e2d3c816abe63187f2361b3c3451128.jpg",
+        "true_label": "powdery mildew",
+        "probs": {
+          "healthy": 0.07215552031993866,
+          "powdery mildew": 0.7139155864715576,
+          "rust": 0.21392886340618134
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\powdery mildew\\24_jpg.rf.f21d79febe60a6c9adf05e1d6efd9340.jpg",
+        "true_label": "powdery mildew",
+        "probs": {
+          "healthy": 0.0016121735097840428,
+          "powdery mildew": 0.971853494644165,
+          "rust": 0.02653428539633751
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\powdery mildew\\istockphoto-1089128168-612x612_jpg.rf.8c35e07816e0bab6fc95fae00b174aa8.jpg",
+        "true_label": "powdery mildew",
+        "probs": {
+          "healthy": 2.888648680254846e-07,
+          "powdery mildew": 0.9999994039535522,
+          "rust": 3.538841326644615e-07
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\powdery mildew\\istockphoto-1310211642-612x612_jpg.rf.0be338a5747ffd5fb2ecfe697403e825.jpg",
+        "true_label": "powdery mildew",
+        "probs": {
+          "healthy": 1.1355297147019883e-06,
+          "powdery mildew": 0.9999641180038452,
+          "rust": 3.472311072982848e-05
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\powdery mildew\\istockphoto-1359118958-612x612_jpg.rf.194023142bb49e26dd41288c09bcd035.jpg",
+        "true_label": "powdery mildew",
+        "probs": {
+          "healthy": 0.00024326147104147822,
+          "powdery mildew": 0.99433434009552,
+          "rust": 0.005422451999038458
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\powdery mildew\\istockphoto-1460571832-612x612_jpg.rf.05f210917325740033fbe4d11a1934b9.jpg",
+        "true_label": "powdery mildew",
+        "probs": {
+          "healthy": 2.6270901010150283e-09,
+          "powdery mildew": 1.0,
+          "rust": 1.57482364926409e-08
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\powdery mildew\\istockphoto-2159806433-612x612_jpg.rf.7f721b34615457fe68145bd0cc972188.jpg",
+        "true_label": "powdery mildew",
+        "probs": {
+          "healthy": 0.0005180590669624507,
+          "powdery mildew": 0.9994282126426697,
+          "rust": 5.370756844058633e-05
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\powdery mildew\\muchnistaya_rosa_jpg.rf.55cbf3e4f5e93bd7494390622c656a45.jpg",
+        "true_label": "powdery mildew",
+        "probs": {
+          "healthy": 0.045526277273893356,
+          "powdery mildew": 0.3467072546482086,
+          "rust": 0.6077664494514465
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\rust\\images-11-_jpg.rf.8e58a59aa1b28c8f7e62a196a9ef8acf.jpg",
+        "true_label": "rust",
+        "probs": {
+          "healthy": 0.056716643273830414,
+          "powdery mildew": 0.031131697818636894,
+          "rust": 0.9121516346931458
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\rust\\images-12-_jpg.rf.af5f0072bad9e776cdffb8234beb94df.jpg",
+        "true_label": "rust",
+        "probs": {
+          "healthy": 0.07662156224250793,
+          "powdery mildew": 0.0031459375750273466,
+          "rust": 0.9202325344085693
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\rust\\images-13-_jpg.rf.0e8388e6926257e64942ce5116aaa6fc.jpg",
+        "true_label": "rust",
+        "probs": {
+          "healthy": 6.79412869430962e-06,
+          "powdery mildew": 3.5099799333693227e-07,
+          "rust": 0.999992847442627
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\rust\\images_cms-image-000097312_jpg.rf.abd0f7797239563a8273a8668e196374.jpg",
+        "true_label": "rust",
+        "probs": {
+          "healthy": 0.0010632568737491965,
+          "powdery mildew": 0.2300010472536087,
+          "rust": 0.7689356803894043
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\rust\\istockphoto-1255541965-612x612_jpg.rf.afc1b10f77c53c05b7d6be481a6af02a.jpg",
+        "true_label": "rust",
+        "probs": {
+          "healthy": 0.9995866417884827,
+          "powdery mildew": 0.00016907778626773506,
+          "rust": 0.0002442518016323447
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\rust\\istockphoto-1280498370-612x612_jpg.rf.7073f1cbdbb48a013cbeef47dd313ade.jpg",
+        "true_label": "rust",
+        "probs": {
+          "healthy": 0.03450467437505722,
+          "powdery mildew": 0.026577884331345558,
+          "rust": 0.9389174580574036
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\rust\\istockphoto-1340050132-612x612_jpg.rf.8066585a1411b2a5766b2962e84cc4ba.jpg",
+        "true_label": "rust",
+        "probs": {
+          "healthy": 0.0833325907588005,
+          "powdery mildew": 6.282816320890561e-05,
+          "rust": 0.9166045188903809
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\rust\\istockphoto-1405192294-612x612_jpg.rf.e082a4bd779840b2e7713636d67d1830.jpg",
+        "true_label": "rust",
+        "probs": {
+          "healthy": 0.0029657110571861267,
+          "powdery mildew": 0.5064358115196228,
+          "rust": 0.4905984401702881
+        }
+      }
+    ],
+    "metrics": {
+      "confusion_matrix": {
+        "healthy": {
+          "healthy": 2,
+          "powdery mildew": 0,
+          "rust": 0
+        },
+        "powdery mildew": {
+          "healthy": 0,
+          "powdery mildew": 7,
+          "rust": 1
+        },
+        "rust": {
+          "healthy": 1,
+          "powdery mildew": 1,
+          "rust": 6
+        }
+      },
+      "per_class": {
+        "healthy": {
+          "precision": 0.6666666666666666,
+          "recall": 1.0,
+          "support": 2
+        },
+        "powdery mildew": {
+          "precision": 0.875,
+          "recall": 0.875,
+          "support": 8
+        },
+        "rust": {
+          "precision": 0.8571428571428571,
+          "recall": 0.75,
+          "support": 8
+        }
+      },
+      "accuracy": 0.8333333333333334
+    }
+  },
+  "baseline_clip_zero_shot": {
+    "records": [
+      {
+        "image": "Plant-Health-1\\test\\healthy\\Poleznye-svojstva-listev-smorodiny_jpg.rf.23265d82bcd3f880676c7888f3bc77d5.jpg",
+        "true_label": "healthy",
+        "probs": {
+          "healthy": 0.8070981502532959,
+          "powdery mildew": 0.15725356340408325,
+          "rust": 0.03564831614494324
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\healthy\\Pyrusussurensis2JPG_jpg.rf.ca4deb9c337828bddb83cc855f6e2fd0.jpg",
+        "true_label": "healthy",
+        "probs": {
+          "healthy": 0.9655904769897461,
+          "powdery mildew": 0.02274140901863575,
+          "rust": 0.011668045073747635
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\powdery mildew\\159_1_main_jpg.rf.4e2d3c816abe63187f2361b3c3451128.jpg",
+        "true_label": "powdery mildew",
+        "probs": {
+          "healthy": 0.4399585425853729,
+          "powdery mildew": 0.5050898194313049,
+          "rust": 0.05495164170861244
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\powdery mildew\\24_jpg.rf.f21d79febe60a6c9adf05e1d6efd9340.jpg",
+        "true_label": "powdery mildew",
+        "probs": {
+          "healthy": 0.1266525387763977,
+          "powdery mildew": 0.8623755574226379,
+          "rust": 0.010972007177770138
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\powdery mildew\\istockphoto-1089128168-612x612_jpg.rf.8c35e07816e0bab6fc95fae00b174aa8.jpg",
+        "true_label": "powdery mildew",
+        "probs": {
+          "healthy": 0.03886282071471214,
+          "powdery mildew": 0.9392245411872864,
+          "rust": 0.02191266417503357
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\powdery mildew\\istockphoto-1310211642-612x612_jpg.rf.0be338a5747ffd5fb2ecfe697403e825.jpg",
+        "true_label": "powdery mildew",
+        "probs": {
+          "healthy": 0.045940425246953964,
+          "powdery mildew": 0.944247305393219,
+          "rust": 0.009812261909246445
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\powdery mildew\\istockphoto-1359118958-612x612_jpg.rf.194023142bb49e26dd41288c09bcd035.jpg",
+        "true_label": "powdery mildew",
+        "probs": {
+          "healthy": 0.01624210737645626,
+          "powdery mildew": 0.9591731429100037,
+          "rust": 0.024584775790572166
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\powdery mildew\\istockphoto-1460571832-612x612_jpg.rf.05f210917325740033fbe4d11a1934b9.jpg",
+        "true_label": "powdery mildew",
+        "probs": {
+          "healthy": 0.5805084109306335,
+          "powdery mildew": 0.39590102434158325,
+          "rust": 0.02359054796397686
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\powdery mildew\\istockphoto-2159806433-612x612_jpg.rf.7f721b34615457fe68145bd0cc972188.jpg",
+        "true_label": "powdery mildew",
+        "probs": {
+          "healthy": 0.007431228179484606,
+          "powdery mildew": 0.9921831488609314,
+          "rust": 0.00038562173722311854
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\powdery mildew\\muchnistaya_rosa_jpg.rf.55cbf3e4f5e93bd7494390622c656a45.jpg",
+        "true_label": "powdery mildew",
+        "probs": {
+          "healthy": 0.1332869827747345,
+          "powdery mildew": 0.7857796549797058,
+          "rust": 0.08093336224555969
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\rust\\images-11-_jpg.rf.8e58a59aa1b28c8f7e62a196a9ef8acf.jpg",
+        "true_label": "rust",
+        "probs": {
+          "healthy": 0.35539233684539795,
+          "powdery mildew": 0.3207574486732483,
+          "rust": 0.32385021448135376
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\rust\\images-12-_jpg.rf.af5f0072bad9e776cdffb8234beb94df.jpg",
+        "true_label": "rust",
+        "probs": {
+          "healthy": 0.2593332529067993,
+          "powdery mildew": 0.2548951804637909,
+          "rust": 0.4857715368270874
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\rust\\images-13-_jpg.rf.0e8388e6926257e64942ce5116aaa6fc.jpg",
+        "true_label": "rust",
+        "probs": {
+          "healthy": 0.046096350997686386,
+          "powdery mildew": 0.6299318075180054,
+          "rust": 0.32397177815437317
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\rust\\images_cms-image-000097312_jpg.rf.abd0f7797239563a8273a8668e196374.jpg",
+        "true_label": "rust",
+        "probs": {
+          "healthy": 0.016949666664004326,
+          "powdery mildew": 0.42469727993011475,
+          "rust": 0.558353066444397
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\rust\\istockphoto-1255541965-612x612_jpg.rf.afc1b10f77c53c05b7d6be481a6af02a.jpg",
+        "true_label": "rust",
+        "probs": {
+          "healthy": 0.7346454858779907,
+          "powdery mildew": 0.05178337171673775,
+          "rust": 0.21357108652591705
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\rust\\istockphoto-1280498370-612x612_jpg.rf.7073f1cbdbb48a013cbeef47dd313ade.jpg",
+        "true_label": "rust",
+        "probs": {
+          "healthy": 0.13502170145511627,
+          "powdery mildew": 0.6159490942955017,
+          "rust": 0.2490292638540268
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\rust\\istockphoto-1340050132-612x612_jpg.rf.8066585a1411b2a5766b2962e84cc4ba.jpg",
+        "true_label": "rust",
+        "probs": {
+          "healthy": 0.3296264410018921,
+          "powdery mildew": 0.45867741107940674,
+          "rust": 0.21169613301753998
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\rust\\istockphoto-1405192294-612x612_jpg.rf.e082a4bd779840b2e7713636d67d1830.jpg",
+        "true_label": "rust",
+        "probs": {
+          "healthy": 0.050967562943696976,
+          "powdery mildew": 0.6408785581588745,
+          "rust": 0.30815389752388
+        }
+      }
+    ],
+    "metrics": {
+      "confusion_matrix": {
+        "healthy": {
+          "healthy": 2,
+          "powdery mildew": 0,
+          "rust": 0
+        },
+        "powdery mildew": {
+          "healthy": 1,
+          "powdery mildew": 7,
+          "rust": 0
+        },
+        "rust": {
+          "healthy": 2,
+          "powdery mildew": 4,
+          "rust": 2
+        }
+      },
+      "per_class": {
+        "healthy": {
+          "precision": 0.4,
+          "recall": 1.0,
+          "support": 2
+        },
+        "powdery mildew": {
+          "precision": 0.6363636363636364,
+          "recall": 0.875,
+          "support": 8
+        },
+        "rust": {
+          "precision": 1.0,
+          "recall": 0.25,
+          "support": 8
+        }
+      },
+      "accuracy": 0.6111111111111112
+    }
+  },
+  "baseline_majority_class": {
+    "majority_class": "rust",
+    "records": [
+      {
+        "image": "Plant-Health-1\\test\\healthy\\Poleznye-svojstva-listev-smorodiny_jpg.rf.23265d82bcd3f880676c7888f3bc77d5.jpg",
+        "true_label": "healthy",
+        "probs": {
+          "healthy": 0.0,
+          "powdery mildew": 0.0,
+          "rust": 1.0
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\healthy\\Pyrusussurensis2JPG_jpg.rf.ca4deb9c337828bddb83cc855f6e2fd0.jpg",
+        "true_label": "healthy",
+        "probs": {
+          "healthy": 0.0,
+          "powdery mildew": 0.0,
+          "rust": 1.0
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\powdery mildew\\159_1_main_jpg.rf.4e2d3c816abe63187f2361b3c3451128.jpg",
+        "true_label": "powdery mildew",
+        "probs": {
+          "healthy": 0.0,
+          "powdery mildew": 0.0,
+          "rust": 1.0
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\powdery mildew\\24_jpg.rf.f21d79febe60a6c9adf05e1d6efd9340.jpg",
+        "true_label": "powdery mildew",
+        "probs": {
+          "healthy": 0.0,
+          "powdery mildew": 0.0,
+          "rust": 1.0
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\powdery mildew\\istockphoto-1089128168-612x612_jpg.rf.8c35e07816e0bab6fc95fae00b174aa8.jpg",
+        "true_label": "powdery mildew",
+        "probs": {
+          "healthy": 0.0,
+          "powdery mildew": 0.0,
+          "rust": 1.0
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\powdery mildew\\istockphoto-1310211642-612x612_jpg.rf.0be338a5747ffd5fb2ecfe697403e825.jpg",
+        "true_label": "powdery mildew",
+        "probs": {
+          "healthy": 0.0,
+          "powdery mildew": 0.0,
+          "rust": 1.0
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\powdery mildew\\istockphoto-1359118958-612x612_jpg.rf.194023142bb49e26dd41288c09bcd035.jpg",
+        "true_label": "powdery mildew",
+        "probs": {
+          "healthy": 0.0,
+          "powdery mildew": 0.0,
+          "rust": 1.0
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\powdery mildew\\istockphoto-1460571832-612x612_jpg.rf.05f210917325740033fbe4d11a1934b9.jpg",
+        "true_label": "powdery mildew",
+        "probs": {
+          "healthy": 0.0,
+          "powdery mildew": 0.0,
+          "rust": 1.0
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\powdery mildew\\istockphoto-2159806433-612x612_jpg.rf.7f721b34615457fe68145bd0cc972188.jpg",
+        "true_label": "powdery mildew",
+        "probs": {
+          "healthy": 0.0,
+          "powdery mildew": 0.0,
+          "rust": 1.0
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\powdery mildew\\muchnistaya_rosa_jpg.rf.55cbf3e4f5e93bd7494390622c656a45.jpg",
+        "true_label": "powdery mildew",
+        "probs": {
+          "healthy": 0.0,
+          "powdery mildew": 0.0,
+          "rust": 1.0
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\rust\\images-11-_jpg.rf.8e58a59aa1b28c8f7e62a196a9ef8acf.jpg",
+        "true_label": "rust",
+        "probs": {
+          "healthy": 0.0,
+          "powdery mildew": 0.0,
+          "rust": 1.0
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\rust\\images-12-_jpg.rf.af5f0072bad9e776cdffb8234beb94df.jpg",
+        "true_label": "rust",
+        "probs": {
+          "healthy": 0.0,
+          "powdery mildew": 0.0,
+          "rust": 1.0
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\rust\\images-13-_jpg.rf.0e8388e6926257e64942ce5116aaa6fc.jpg",
+        "true_label": "rust",
+        "probs": {
+          "healthy": 0.0,
+          "powdery mildew": 0.0,
+          "rust": 1.0
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\rust\\images_cms-image-000097312_jpg.rf.abd0f7797239563a8273a8668e196374.jpg",
+        "true_label": "rust",
+        "probs": {
+          "healthy": 0.0,
+          "powdery mildew": 0.0,
+          "rust": 1.0
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\rust\\istockphoto-1255541965-612x612_jpg.rf.afc1b10f77c53c05b7d6be481a6af02a.jpg",
+        "true_label": "rust",
+        "probs": {
+          "healthy": 0.0,
+          "powdery mildew": 0.0,
+          "rust": 1.0
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\rust\\istockphoto-1280498370-612x612_jpg.rf.7073f1cbdbb48a013cbeef47dd313ade.jpg",
+        "true_label": "rust",
+        "probs": {
+          "healthy": 0.0,
+          "powdery mildew": 0.0,
+          "rust": 1.0
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\rust\\istockphoto-1340050132-612x612_jpg.rf.8066585a1411b2a5766b2962e84cc4ba.jpg",
+        "true_label": "rust",
+        "probs": {
+          "healthy": 0.0,
+          "powdery mildew": 0.0,
+          "rust": 1.0
+        }
+      },
+      {
+        "image": "Plant-Health-1\\test\\rust\\istockphoto-1405192294-612x612_jpg.rf.e082a4bd779840b2e7713636d67d1830.jpg",
+        "true_label": "rust",
+        "probs": {
+          "healthy": 0.0,
+          "powdery mildew": 0.0,
+          "rust": 1.0
+        }
+      }
+    ],
+    "metrics": {
+      "confusion_matrix": {
+        "healthy": {
+          "healthy": 0,
+          "powdery mildew": 0,
+          "rust": 2
+        },
+        "powdery mildew": {
+          "healthy": 0,
+          "powdery mildew": 0,
+          "rust": 8
+        },
+        "rust": {
+          "healthy": 0,
+          "powdery mildew": 0,
+          "rust": 8
+        }
+      },
+      "per_class": {
+        "healthy": {
+          "precision": null,
+          "recall": 0.0,
+          "support": 2
+        },
+        "powdery mildew": {
+          "precision": null,
+          "recall": 0.0,
+          "support": 8
+        },
+        "rust": {
+          "precision": 0.4444444444444444,
+          "recall": 1.0,
+          "support": 8
+        }
+      },
+      "accuracy": 0.4444444444444444
+    }
+  },
+  "threshold_sweep": {
+    "sweep": [
+      {
+        "threshold": 0.0,
+        "tpr": 1.0,
+        "fpr": 1.0,
+        "cost_per_1000": 5000.0
+      },
+      {
+        "threshold": 0.01,
+        "tpr": 0.9375,
+        "fpr": 0.5,
+        "cost_per_1000": 3031.25
+      },
+      {
+        "threshold": 0.02,
+        "tpr": 0.9375,
+        "fpr": 0.5,
+        "cost_per_1000": 3031.25
+      },
+      {
+        "threshold": 0.03,
+        "tpr": 0.9375,
+        "fpr": 0.5,
+        "cost_per_1000": 3031.25
+      },
+      {
+        "threshold": 0.04,
+        "tpr": 0.9375,
+        "fpr": 0.5,
+        "cost_per_1000": 3031.25
+      },
+      {
+        "threshold": 0.05,
+        "tpr": 0.9375,
+        "fpr": 0.5,
+        "cost_per_1000": 3031.25
+      },
+      {
+        "threshold": 0.06,
+        "tpr": 0.9375,
+        "fpr": 0.5,
+        "cost_per_1000": 3031.25
+      },
+      {
+        "threshold": 0.07,
+        "tpr": 0.9375,
+        "fpr": 0.5,
+        "cost_per_1000": 3031.25
+      },
+      {
+        "threshold": 0.08,
+        "tpr": 0.9375,
+        "fpr": 0.5,
+        "cost_per_1000": 3031.25
+      },
+      {
+        "threshold": 0.09,
+        "tpr": 0.9375,
+        "fpr": 0.5,
+        "cost_per_1000": 3031.25
+      },
+      {
+        "threshold": 0.1,
+        "tpr": 0.9375,
+        "fpr": 0.5,
+        "cost_per_1000": 3031.25
+      },
+      {
+        "threshold": 0.11,
+        "tpr": 0.9375,
+        "fpr": 0.5,
+        "cost_per_1000": 3031.25
+      },
+      {
+        "threshold": 0.12,
+        "tpr": 0.9375,
+        "fpr": 0.5,
+        "cost_per_1000": 3031.25
+      },
+      {
+        "threshold": 0.13,
+        "tpr": 0.9375,
+        "fpr": 0.5,
+        "cost_per_1000": 3031.25
+      },
+      {
+        "threshold": 0.14,
+        "tpr": 0.9375,
+        "fpr": 0.5,
+        "cost_per_1000": 3031.25
+      },
+      {
+        "threshold": 0.15,
+        "tpr": 0.9375,
+        "fpr": 0.5,
+        "cost_per_1000": 3031.25
+      },
+      {
+        "threshold": 0.16,
+        "tpr": 0.9375,
+        "fpr": 0.5,
+        "cost_per_1000": 3031.25
+      },
+      {
+        "threshold": 0.17,
+        "tpr": 0.9375,
+        "fpr": 0.5,
+        "cost_per_1000": 3031.25
+      },
+      {
+        "threshold": 0.18,
+        "tpr": 0.9375,
+        "fpr": 0.5,
+        "cost_per_1000": 3031.25
+      },
+      {
+        "threshold": 0.19,
+        "tpr": 0.9375,
+        "fpr": 0.5,
+        "cost_per_1000": 3031.25
+      },
+      {
+        "threshold": 0.2,
+        "tpr": 0.9375,
+        "fpr": 0.5,
+        "cost_per_1000": 3031.25
+      },
+      {
+        "threshold": 0.21,
+        "tpr": 0.9375,
+        "fpr": 0.5,
+        "cost_per_1000": 3031.25
+      },
+      {
+        "threshold": 0.22,
+        "tpr": 0.9375,
+        "fpr": 0.5,
+        "cost_per_1000": 3031.25
+      },
+      {
+        "threshold": 0.23,
+        "tpr": 0.9375,
+        "fpr": 0.5,
+        "cost_per_1000": 3031.25
+      },
+      {
+        "threshold": 0.24,
+        "tpr": 0.9375,
+        "fpr": 0.5,
+        "cost_per_1000": 3031.25
+      },
+      {
+        "threshold": 0.25,
+        "tpr": 0.9375,
+        "fpr": 0.5,
+        "cost_per_1000": 3031.25
+      },
+      {
+        "threshold": 0.26,
+        "tpr": 0.9375,
+        "fpr": 0.5,
+        "cost_per_1000": 3031.25
+      },
+      {
+        "threshold": 0.27,
+        "tpr": 0.9375,
+        "fpr": 0.5,
+        "cost_per_1000": 3031.25
+      },
+      {
+        "threshold": 0.28,
+        "tpr": 0.9375,
+        "fpr": 0.5,
+        "cost_per_1000": 3031.25
+      },
+      {
+        "threshold": 0.29,
+        "tpr": 0.9375,
+        "fpr": 0.5,
+        "cost_per_1000": 3031.25
+      },
+      {
+        "threshold": 0.3,
+        "tpr": 0.9375,
+        "fpr": 0.5,
+        "cost_per_1000": 3031.25
+      },
+      {
+        "threshold": 0.31,
+        "tpr": 0.9375,
+        "fpr": 0.5,
+        "cost_per_1000": 3031.25
+      },
+      {
+        "threshold": 0.32,
+        "tpr": 0.9375,
+        "fpr": 0.5,
+        "cost_per_1000": 3031.25
+      },
+      {
+        "threshold": 0.33,
+        "tpr": 0.9375,
+        "fpr": 0.5,
+        "cost_per_1000": 3031.25
+      },
+      {
+        "threshold": 0.34,
+        "tpr": 0.9375,
+        "fpr": 0.5,
+        "cost_per_1000": 3031.25
+      },
+      {
+        "threshold": 0.35,
+        "tpr": 0.9375,
+        "fpr": 0.5,
+        "cost_per_1000": 3031.25
+      },
+      {
+        "threshold": 0.36,
+        "tpr": 0.9375,
+        "fpr": 0.5,
+        "cost_per_1000": 3031.25
+      },
+      {
+        "threshold": 0.37,
+        "tpr": 0.9375,
+        "fpr": 0.5,
+        "cost_per_1000": 3031.25
+      },
+      {
+        "threshold": 0.38,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.39,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.4,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.41,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.42,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.43,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.44,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.45,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.46,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.47,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.48,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.49,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.5,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.51,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.52,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.53,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.54,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.55,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.56,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.57,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.58,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.59,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.6,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.61,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.62,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.63,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.64,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.65,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.66,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.67,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.68,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.69,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.7,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.71,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.72,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.73,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.74,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.75,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.76,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.77,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.78,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.79,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.8,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.81,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.82,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.83,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.84,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.85,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.86,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.87,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.88,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.89,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.9,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.91,
+        "tpr": 0.9375,
+        "fpr": 0.0,
+        "cost_per_1000": 781.25
+      },
+      {
+        "threshold": 0.92,
+        "tpr": 0.875,
+        "fpr": 0.0,
+        "cost_per_1000": 1062.5
+      },
+      {
+        "threshold": 0.93,
+        "tpr": 0.75,
+        "fpr": 0.0,
+        "cost_per_1000": 1625.0
+      },
+      {
+        "threshold": 0.94,
+        "tpr": 0.75,
+        "fpr": 0.0,
+        "cost_per_1000": 1625.0
+      },
+      {
+        "threshold": 0.95,
+        "tpr": 0.6875,
+        "fpr": 0.0,
+        "cost_per_1000": 1906.25
+      },
+      {
+        "threshold": 0.96,
+        "tpr": 0.625,
+        "fpr": 0.0,
+        "cost_per_1000": 2187.5
+      },
+      {
+        "threshold": 0.97,
+        "tpr": 0.5625,
+        "fpr": 0.0,
+        "cost_per_1000": 2468.75
+      },
+      {
+        "threshold": 0.98,
+        "tpr": 0.5625,
+        "fpr": 0.0,
+        "cost_per_1000": 2468.75
+      },
+      {
+        "threshold": 0.99,
+        "tpr": 0.5625,
+        "fpr": 0.0,
+        "cost_per_1000": 2468.75
+      },
+      {
+        "threshold": 1.0,
+        "tpr": 0.0,
+        "fpr": 0.0,
+        "cost_per_1000": 5000.0
+      }
+    ],
+    "best_threshold": {
+      "threshold": 0.38,
+      "tpr": 0.9375,
+      "fpr": 0.0,
+      "cost_per_1000": 781.25
+    }
+  }
+}
