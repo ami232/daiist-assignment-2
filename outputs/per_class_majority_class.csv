@@ -1,0 +1,7 @@
+class,support,precision,recall
+freshapples,189,0.0,0.0
+freshbanana,257,0.0,0.0
+freshoranges,429,0.0,0.0
+rottenapples,344,0.166,1.0
+rottenbanana,653,0.0,0.0
+rottenoranges,206,0.0,0.0

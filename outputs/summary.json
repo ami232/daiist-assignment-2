@@ -1,0 +1,168 @@
+{
+  "dataset": {
+    "workspace": "fruit-classification-v0e3w",
+    "project": "fresh-and-rotten-zj6kl",
+    "version": 6,
+    "counts": {
+      "train": {
+        "freshapples": 1577,
+        "freshbanana": 1427,
+        "freshoranges": 1172,
+        "rottenapples": 1876,
+        "rottenbanana": 1839,
+        "rottenoranges": 1566
+      },
+      "val": {
+        "freshapples": 322,
+        "freshbanana": 278,
+        "freshoranges": 253,
+        "rottenapples": 723,
+        "rottenbanana": 262,
+        "rottenoranges": 226
+      },
+      "test": {
+        "freshapples": 189,
+        "freshbanana": 257,
+        "freshoranges": 429,
+        "rottenapples": 344,
+        "rottenbanana": 653,
+        "rottenoranges": 206
+      }
+    },
+    "image_width_median": 640,
+    "image_height_median": 640,
+    "note": "Classification: one fruit fills most of each image, so object size relative to the image is close to 100%."
+  },
+  "training": {
+    "base_model": "yolo11n-cls.pt",
+    "epochs": 10,
+    "imgsz": 224,
+    "batch": 32,
+    "seed": 0,
+    "device": "mps"
+  },
+  "positive_class": "rotten (any rotten* class)",
+  "class_names": [
+    "freshapples",
+    "freshbanana",
+    "freshoranges",
+    "rottenapples",
+    "rottenbanana",
+    "rottenoranges"
+  ],
+  "costs": {
+    "FN": 2.0,
+    "FP": 0.25,
+    "TP": 0.0,
+    "TN": 0.0,
+    "review": 0.05
+  },
+  "base_rate": 0.05,
+  "daily_volume": 20000,
+  "review_capacity_per_day": 2880,
+  "models": [
+    {
+      "model": "finetuned",
+      "accuracy_top1": 1.0,
+      "min_cost_per_1000_test": 0.0,
+      "best_threshold_on_test": 0.14
+    },
+    {
+      "model": "zero_shot_pretrained",
+      "accuracy_top1": 0.405,
+      "min_cost_per_1000_test": 61.29,
+      "best_threshold_on_test": 0.92
+    },
+    {
+      "model": "majority_class",
+      "accuracy_top1": 0.166,
+      "min_cost_per_1000_test": 237.5,
+      "best_threshold_on_test": 0.0
+    }
+  ],
+  "chosen_threshold": 0.08,
+  "binary_at_chosen_threshold_test": {
+    "threshold": 0.08,
+    "tp": 1203,
+    "fp": 2,
+    "fn": 0,
+    "tn": 873,
+    "precision_rotten": 0.998,
+    "recall_rotten": 1.0
+  },
+  "chosen_band": {
+    "t_low": 0.08,
+    "t_high": 0.89,
+    "cost": 0.0,
+    "review_share": 0.0
+  },
+  "unconstrained_band": {
+    "t_low": 0.08,
+    "t_high": 0.89,
+    "cost": 0.0,
+    "review_share": 0.0
+  },
+  "alternatives_on_test": {
+    "do_nothing_pass_all": {
+      "t_low": 1.01,
+      "t_high": 1.01,
+      "cost_per_1000": 100.0,
+      "review_share": 0.0,
+      "reviews_per_day": 0,
+      "staff_needed": 0.0
+    },
+    "person_checks_everything": {
+      "t_low": 0.0,
+      "t_high": 1.01,
+      "cost_per_1000": 50.0,
+      "review_share": 1.0,
+      "reviews_per_day": 20000,
+      "staff_needed": 6.94
+    },
+    "model_alone": {
+      "t_low": 0.08,
+      "t_high": 0.08,
+      "cost_per_1000": 0.54,
+      "review_share": 0.0,
+      "reviews_per_day": 0,
+      "staff_needed": 0.0
+    },
+    "model_plus_review_band": {
+      "t_low": 0.08,
+      "t_high": 0.89,
+      "cost_per_1000": 0.11,
+      "review_share": 0.0022,
+      "reviews_per_day": 43,
+      "staff_needed": 0.02
+    },
+    "model_plus_review_unconstrained": {
+      "t_low": 0.08,
+      "t_high": 0.89,
+      "cost_per_1000": 0.11,
+      "review_share": 0.0022,
+      "reviews_per_day": 43,
+      "staff_needed": 0.02
+    }
+  },
+  "leakage_check": {
+    "test_images": 2078,
+    "test_images_copied_from_train": 1795,
+    "clean_test_images": 283,
+    "clean_test_per_class": {
+      "freshbanana": 87,
+      "rottenapples": 80,
+      "freshapples": 60,
+      "rottenbanana": 56
+    },
+    "clean_test_accuracy": 1.0,
+    "clean_test_binary_at_chosen_threshold": {
+      "threshold": 0.08,
+      "tp": 136,
+      "fp": 0,
+      "fn": 0,
+      "tn": 147,
+      "precision_rotten": 1.0,
+      "recall_rotten": 1.0
+    }
+  }
+}

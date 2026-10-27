@@ -1,0 +1,7 @@
+true_class,freshapples,freshbanana,freshoranges,rottenapples,rottenbanana,rottenoranges
+freshapples,170,5,14,0,0,0
+freshbanana,0,257,0,0,0,0
+freshoranges,14,1,414,0,0,0
+rottenapples,195,31,118,0,0,0
+rottenbanana,0,651,2,0,0,0
+rottenoranges,18,3,185,0,0,0
