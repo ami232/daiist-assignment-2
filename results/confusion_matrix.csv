@@ -1,0 +1,8 @@
+actual \ predicted,freshapples,freshbananas,freshoranges,null,rottenapples,rottenbananas,rottenoranges
+freshapples,16,0,0,0,0,0,0
+freshbananas,0,17,0,0,0,0,0
+freshoranges,1,1,16,0,0,0,0
+null,0,0,0,0,0,0,0
+rottenapples,1,0,0,0,23,0,0
+rottenbananas,0,2,0,0,0,60,0
+rottenoranges,0,0,0,0,1,0,17

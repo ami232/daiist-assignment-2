@@ -1,0 +1,23 @@
+{
+  "best_single_threshold": 0.17,
+  "best_single_cost_per_1000": 2.8846153846153846,
+  "band_low": 0.04,
+  "band_high": 0.17,
+  "band_cost_per_1000": 1.1924962292609351,
+  "band_review_share": 0.0715497737556561,
+  "band_reviews_per_day": 1430.995475113122,
+  "band_people_needed": 1,
+  "review_cost_per_fruit": 0.016666666666666666,
+  "business_numbers_used": {
+    "COST_FALSE_NEGATIVE": 3.0,
+    "COST_FALSE_POSITIVE": 0.3,
+    "COST_TRUE_POSITIVE": 0.0,
+    "COST_TRUE_NEGATIVE": 0.0,
+    "BASE_RATE": 0.1,
+    "FRUIT_PER_DAY": 20000,
+    "SECONDS_PER_REVIEW": 3,
+    "WORKER_COST_PER_HOUR": 20.0,
+    "SHIFT_HOURS": 8,
+    "REVIEWERS_AVAILABLE": 1
+  }
+}

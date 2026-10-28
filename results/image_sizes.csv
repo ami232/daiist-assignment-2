@@ -1,0 +1,4 @@
+split,width,height
+test,640.0,640.0
+train,640.0,640.0
+valid,640.0,640.0

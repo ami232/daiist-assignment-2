@@ -1,0 +1,4 @@
+model,accuracy_all_classes,rotten_recall_at_0.5,fresh_wrongly_binned_at_0.5,best_cost_per_1000
+Finetuned yolo11n-cls,0.9612903225806452,0.9711538461538461,0.0,2.8846153846153846
+"Pretrained COCO yolo11n, zero-shot",0.14838709677419354,0.0,0.0,270.0
+Trivial: always 'rottenbananas',0.4,1.0,1.0,270.0

@@ -1,0 +1,16 @@
+{
+  "dataset": "fruit-onxba/rotten-fresh-fruitclassification/1",
+  "positive_classes": [
+    "rottenapples",
+    "rottenbananas",
+    "rottenoranges"
+  ],
+  "majority_class_in_train": "rottenbananas",
+  "base_model": "yolo11n-cls.pt",
+  "epochs": 15,
+  "image_size": 224,
+  "batch": 32,
+  "seed": 0,
+  "device": "cpu",
+  "minutes": 13.1
+}

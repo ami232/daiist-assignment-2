@@ -1,0 +1,9 @@
+class,train,valid,test,total,positive
+freshapples,145,33,16,194,no
+freshbananas,137,50,17,204,no
+freshoranges,132,28,18,178,no
+null,1,0,0,1,no
+rottenapples,169,48,24,241,yes
+rottenbananas,363,82,62,507,yes
+rottenoranges,139,37,18,194,yes
+ALL CLASSES,1086,278,155,1519,

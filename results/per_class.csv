@@ -1,0 +1,8 @@
+class,positive,test_images,precision,recall
+freshapples,False,16,0.8888888888888888,1.0
+freshbananas,False,17,0.85,1.0
+freshoranges,False,18,1.0,0.8888888888888888
+null,False,0,,
+rottenapples,True,24,0.9583333333333334,0.9583333333333334
+rottenbananas,True,62,1.0,0.967741935483871
+rottenoranges,True,18,1.0,0.9444444444444444

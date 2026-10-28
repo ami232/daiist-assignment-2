@@ -1,0 +1,5 @@
+option,cost_per_1000,review_share,reviews_per_day,people_needed,rotten_missed,fresh_binned
+Do nothing (everything goes to the shelf),300.00000000000006,0.0,0.0,0.0,1.0,0.0
+A person checks every piece,16.666666666666668,1.0,20000.0,3.0,0.0,0.0
+Model decides alone (best single threshold),2.8846153846153846,0.0,0.0,0.0,0.009615384615384616,0.0
+Model + person checks the unsure ones,1.1924962292609351,0.0715497737556561,1430.995475113122,1.0,0.0,0.0
