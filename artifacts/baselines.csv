@@ -1,0 +1,4 @@
+model,AP50,mAP50_95,note
+Finetuned YOLO11n,0.6322587594758912,0.47049346921909113,Both original dataset classes; frozen test split
+COCO YOLO11n zero-shot,0.0,0.0,COCO has neither Damage nor Undamage; no target-label predictions. A car box does not establish condition.
+Predict no detections,0.0,0.0,No boxes predicted

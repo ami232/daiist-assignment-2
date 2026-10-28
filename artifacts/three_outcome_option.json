@@ -1,0 +1,96 @@
+{
+  "selection_split": "valid",
+  "constraint": "All three outcomes used on validation",
+  "validation": {
+    "lower": 0.01,
+    "upper": 0.060000000000000005,
+    "cost_per_1000": 4164.764232317424,
+    "review_share": 0.2359401955146636,
+    "reviews_per_day": 23.59401955146636,
+    "review_minutes_per_day": 117.9700977573318,
+    "review_staff_fte": 0.3276947159925883,
+    "closer_inspections_per_day": 17.03018976423232,
+    "closer_inspection_minutes_per_day": 170.30189764232318,
+    "total_inspection_staff_fte": 0.8007555427768195,
+    "actual_triage_counts": [
+      [
+        25,
+        9,
+        3
+      ],
+      [
+        6,
+        8,
+        33
+      ]
+    ],
+    "expected_triage_per_1000": [
+      [
+        608.1081081081081,
+        218.91891891891893,
+        72.97297297297298
+      ],
+      [
+        12.76595744680851,
+        17.02127659574468,
+        70.21276595744682
+      ]
+    ],
+    "expected_binary_per_1000": [
+      [
+        816.0810810810812,
+        83.91891891891893
+      ],
+      [
+        13.617021276595745,
+        86.38297872340425
+      ]
+    ]
+  },
+  "test": {
+    "lower": 0.01,
+    "upper": 0.060000000000000005,
+    "cost_per_1000": 4443.970588235295,
+    "review_share": 0.16882352941176473,
+    "reviews_per_day": 16.882352941176475,
+    "review_minutes_per_day": 84.41176470588238,
+    "review_staff_fte": 0.2344771241830066,
+    "closer_inspections_per_day": 14.438235294117646,
+    "closer_inspection_minutes_per_day": 144.38235294117646,
+    "total_inspection_staff_fte": 0.6355392156862746,
+    "actual_triage_counts": [
+      [
+        26,
+        6,
+        2
+      ],
+      [
+        8,
+        5,
+        37
+      ]
+    ],
+    "expected_triage_per_1000": [
+      [
+        688.2352941176471,
+        158.82352941176472,
+        52.94117647058823
+      ],
+      [
+        16.0,
+        10.000000000000002,
+        74.0
+      ]
+    ],
+    "expected_binary_per_1000": [
+      [
+        839.1176470588235,
+        60.88235294117648
+      ],
+      [
+        16.5,
+        83.49999999999999
+      ]
+    ]
+  }
+}

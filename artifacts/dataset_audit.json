@@ -1,0 +1,77 @@
+{
+  "source": "https://universe.roboflow.com/celebal-wlpui/car-damage-zxcdc/dataset/1",
+  "workspace": "celebal-wlpui",
+  "project": "car-damage-zxcdc",
+  "version": 1,
+  "classes": [
+    "Damage",
+    "Undamage"
+  ],
+  "splits": {
+    "train": {
+      "images": 250,
+      "instances": {
+        "Undamage": 107,
+        "Damage": 135
+      },
+      "damage_images": 135,
+      "no_damage_images": 115,
+      "box_area_fraction": {
+        "Undamage": {
+          "median": 0.47489379882812494,
+          "p10": 0.36956152343750004,
+          "p90": 0.6432724609375001
+        },
+        "Damage": {
+          "median": 0.28916015624999997,
+          "p10": 0.1029677734375,
+          "p90": 0.4714013671875001
+        }
+      }
+    },
+    "valid": {
+      "images": 84,
+      "instances": {
+        "Undamage": 34,
+        "Damage": 47
+      },
+      "damage_images": 47,
+      "no_damage_images": 37,
+      "box_area_fraction": {
+        "Undamage": {
+          "median": 0.47087036132812504,
+          "p10": 0.2761422729492187,
+          "p90": 0.6978956909179688
+        },
+        "Damage": {
+          "median": 0.2159710693359375,
+          "p10": 0.10381225585937501,
+          "p90": 0.4248522949218749
+        }
+      }
+    },
+    "test": {
+      "images": 84,
+      "instances": {
+        "Damage": 50,
+        "Undamage": 32
+      },
+      "damage_images": 50,
+      "no_damage_images": 34,
+      "box_area_fraction": {
+        "Damage": {
+          "median": 0.272109375,
+          "p10": 0.09315032958984375,
+          "p90": 0.46998486328125005
+        },
+        "Undamage": {
+          "median": 0.516646728515625,
+          "p10": 0.39559020996093747,
+          "p90": 0.7513412475585938
+        }
+      }
+    }
+  },
+  "exact_cross_split_duplicates": [],
+  "pixel_cross_split_duplicates": []
+}

@@ -1,0 +1,200 @@
+{
+  "image_size": 320,
+  "training": {
+    "model": "yolo11n.pt",
+    "initialization": "COCO pretrained",
+    "task": "object detection",
+    "settings": {
+      "data": "/Users/fjcorredera/Documents/Codex/2026-10-13/i-x20/outputs/daiist-assignment-2/datasets/car-damage-v1/local.yaml",
+      "epochs": 40,
+      "imgsz": 320,
+      "batch": 16,
+      "device": "cpu",
+      "workers": 0,
+      "seed": 19654,
+      "deterministic": true,
+      "optimizer": "AdamW",
+      "lr0": 0.001,
+      "patience": 12,
+      "cache": true,
+      "mosaic": 0.0,
+      "close_mosaic": 0,
+      "fliplr": 0.5,
+      "project": "/Users/fjcorredera/Documents/Codex/2026-10-13/i-x20/outputs/daiist-assignment-2/runs/training",
+      "name": "rental-car-damage",
+      "plots": true,
+      "verbose": false,
+      "save": true
+    },
+    "architecture": "arm64",
+    "training_seconds": 439.1404461860657,
+    "best_weight_selection": "Ultralytics validation fitness",
+    "best_weights": "weights/best.pt"
+  },
+  "validation_policy": {
+    "scenario": {
+      "prevalence": 0.1,
+      "missed_cost": 200.0,
+      "inspection_cost": 5.0,
+      "review_minutes": 5.0,
+      "hourly_cost": 30.0,
+      "cases_per_day": 100,
+      "productive_minutes": 360.0,
+      "closer_inspection_minutes": 10.0,
+      "human_sensitivity": 0.95,
+      "human_specificity": 0.95
+    },
+    "single": {
+      "lower": 0.04,
+      "upper": 0.04,
+      "cost_per_1000": 4255.606670500288,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 25.537665324899372,
+      "closer_inspection_minutes_per_day": 255.3766532489937,
+      "total_inspection_staff_fte": 0.7093795923583158,
+      "actual_triage_counts": [
+        [
+          30,
+          0,
+          7
+        ],
+        [
+          7,
+          0,
+          40
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          729.7297297297298,
+          0.0,
+          170.2702702702703
+        ],
+        [
+          14.893617021276597,
+          0.0,
+          85.10638297872342
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          729.7297297297298,
+          170.2702702702703
+        ],
+        [
+          14.893617021276597,
+          85.10638297872342
+        ]
+      ]
+    },
+    "triage": {
+      "lower": 0.0,
+      "upper": 0.08,
+      "cost_per_1000": 3532.748706152962,
+      "review_share": 0.8303622771707878,
+      "reviews_per_day": 83.03622771707879,
+      "review_minutes_per_day": 415.1811385853939,
+      "review_staff_fte": 1.153280940514983,
+      "closer_inspections_per_day": 23.604945370902822,
+      "closer_inspection_minutes_per_day": 236.04945370902823,
+      "total_inspection_staff_fte": 1.8089738674845062,
+      "actual_triage_counts": [
+        [
+          0,
+          33,
+          4
+        ],
+        [
+          0,
+          13,
+          34
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          0.0,
+          802.7027027027027,
+          97.2972972972973
+        ],
+        [
+          0.0,
+          27.659574468085108,
+          72.3404255319149
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          762.5675675675675,
+          137.43243243243248
+        ],
+        [
+          1.3829787234042565,
+          98.61702127659575
+        ]
+      ]
+    },
+    "selection_split": "valid",
+    "grid_step": 0.01
+  },
+  "test_policy": {
+    "triage": {
+      "lower": 0.0,
+      "upper": 0.08,
+      "cost_per_1000": 3496.676470588235,
+      "review_share": 0.8485882352941176,
+      "reviews_per_day": 84.85882352941177,
+      "review_minutes_per_day": 424.29411764705884,
+      "review_staff_fte": 1.17859477124183,
+      "closer_inspections_per_day": 21.904117647058825,
+      "closer_inspection_minutes_per_day": 219.04117647058825,
+      "total_inspection_staff_fte": 1.7870424836601309,
+      "actual_triage_counts": [
+        [
+          0,
+          31,
+          3
+        ],
+        [
+          0,
+          14,
+          36
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          0.0,
+          820.5882352941176,
+          79.41176470588236
+        ],
+        [
+          0.0,
+          28.000000000000004,
+          72.0
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          779.5588235294117,
+          120.44117647058827
+        ],
+        [
+          1.4000000000000015,
+          98.6
+        ]
+      ]
+    },
+    "alternatives_cost_per_1000": {
+      "Do nothing (pass every photo)": 20000.0,
+      "Human review of every photo": 4200.000000000001,
+      "Model alone": 5974.117647058823,
+      "Model with human review": 3496.676470588235
+    },
+    "actual_damage_prevalence": 0.5952380952380952,
+    "production_prevalence_assumed": 0.1,
+    "unit": "one dataset photo; one photo per return is only a workload proxy"
+  },
+  "note": "Initial test results were inspected before the larger-image experiment. Final model selection will use validation only."
+}

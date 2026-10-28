@@ -29,6 +29,11 @@ import urllib.error
 import urllib.request
 from pathlib import Path
 
+import truststore
+
+# Use the computer's trusted certificate authorities, including on managed Macs.
+truststore.inject_into_ssl()
+
 ROOT = Path(__file__).resolve().parent
 ENV_FILE = ROOT / ".env"
 VAR = "ROBOFLOW_API_KEY"

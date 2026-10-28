@@ -1,0 +1,26 @@
+{
+  "labels": [
+    "Damage",
+    "Undamage",
+    "background"
+  ],
+  "matrix_predicted_rows_true_columns": [
+    [
+      35,
+      0,
+      248
+    ],
+    [
+      3,
+      32,
+      41
+    ],
+    [
+      12,
+      0,
+      0
+    ]
+  ],
+  "confidence": 0.01,
+  "iou": 0.5
+}

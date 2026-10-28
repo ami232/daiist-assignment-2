@@ -1,0 +1,6 @@
+{
+  "coco_raw_detections_on_test": 3264,
+  "shared_labels": {},
+  "note": "COCO has neither Damage nor Undamage; no target-label predictions. A car box does not establish condition.",
+  "test_images": 84
+}

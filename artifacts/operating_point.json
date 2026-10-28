@@ -1,0 +1,4756 @@
+{
+  "scenario": {
+    "prevalence": 0.1,
+    "missed_cost": 200.0,
+    "inspection_cost": 5.0,
+    "review_minutes": 5.0,
+    "hourly_cost": 30.0,
+    "cases_per_day": 100,
+    "productive_minutes": 360.0,
+    "closer_inspection_minutes": 10.0,
+    "human_sensitivity": 0.95,
+    "human_specificity": 0.95
+  },
+  "single": {
+    "lower": 0.01,
+    "upper": 0.01,
+    "cost_per_1000": 4448.821161587119,
+    "review_share": 0.0,
+    "reviews_per_day": 0.0,
+    "review_minutes_per_day": 0.0,
+    "review_staff_fte": 0.0,
+    "closer_inspections_per_day": 37.91259344450834,
+    "closer_inspection_minutes_per_day": 379.1259344450834,
+    "total_inspection_staff_fte": 1.053127595680787,
+    "actual_triage_counts": [
+      [
+        25,
+        0,
+        12
+      ],
+      [
+        6,
+        0,
+        41
+      ]
+    ],
+    "expected_triage_per_1000": [
+      [
+        608.1081081081081,
+        0.0,
+        291.89189189189193
+      ],
+      [
+        12.76595744680851,
+        0.0,
+        87.2340425531915
+      ]
+    ],
+    "expected_binary_per_1000": [
+      [
+        608.1081081081081,
+        291.89189189189193
+      ],
+      [
+        12.76595744680851,
+        87.2340425531915
+      ]
+    ]
+  },
+  "triage": {
+    "lower": 0.0,
+    "upper": 0.06,
+    "cost_per_1000": 3504.0828062104665,
+    "review_share": 0.8568142610695804,
+    "reviews_per_day": 85.68142610695804,
+    "review_minutes_per_day": 428.4071305347902,
+    "review_staff_fte": 1.190019807041084,
+    "closer_inspections_per_day": 21.28349626221967,
+    "closer_inspection_minutes_per_day": 212.8349626221967,
+    "total_inspection_staff_fte": 1.781228036547186,
+    "actual_triage_counts": [
+      [
+        0,
+        34,
+        3
+      ],
+      [
+        0,
+        14,
+        33
+      ]
+    ],
+    "expected_triage_per_1000": [
+      [
+        0.0,
+        827.0270270270271,
+        72.97297297297298
+      ],
+      [
+        0.0,
+        29.787234042553195,
+        70.21276595744682
+      ]
+    ],
+    "expected_binary_per_1000": [
+      [
+        785.6756756756757,
+        114.32432432432438
+      ],
+      [
+        1.4893617021276608,
+        98.51063829787235
+      ]
+    ]
+  },
+  "selection_split": "valid",
+  "grid_step": 0.01,
+  "curve": [
+    {
+      "lower": 0.0,
+      "upper": 0.0,
+      "cost_per_1000": 5000.0,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 100.0,
+      "closer_inspection_minutes_per_day": 1000.0,
+      "total_inspection_staff_fte": 2.7777777777777777,
+      "actual_triage_counts": [
+        [
+          0,
+          0,
+          37
+        ],
+        [
+          0,
+          0,
+          47
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          0.0,
+          0.0,
+          900.0
+        ],
+        [
+          0.0,
+          0.0,
+          100.0
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          0.0,
+          900.0
+        ],
+        [
+          0.0,
+          100.0
+        ]
+      ]
+    },
+    {
+      "lower": 0.01,
+      "upper": 0.01,
+      "cost_per_1000": 4448.821161587119,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 37.91259344450834,
+      "closer_inspection_minutes_per_day": 379.1259344450834,
+      "total_inspection_staff_fte": 1.053127595680787,
+      "actual_triage_counts": [
+        [
+          25,
+          0,
+          12
+        ],
+        [
+          6,
+          0,
+          41
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          608.1081081081081,
+          0.0,
+          291.89189189189193
+        ],
+        [
+          12.76595744680851,
+          0.0,
+          87.2340425531915
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          608.1081081081081,
+          291.89189189189193
+        ],
+        [
+          12.76595744680851,
+          87.2340425531915
+        ]
+      ]
+    },
+    {
+      "lower": 0.02,
+      "upper": 0.02,
+      "cost_per_1000": 4913.7435307648075,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 30.18976423231743,
+      "closer_inspection_minutes_per_day": 301.8976423231743,
+      "total_inspection_staff_fte": 0.8386045620088175,
+      "actual_triage_counts": [
+        [
+          28,
+          0,
+          9
+        ],
+        [
+          8,
+          0,
+          39
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          681.0810810810812,
+          0.0,
+          218.91891891891893
+        ],
+        [
+          17.02127659574468,
+          0.0,
+          82.97872340425533
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          681.0810810810812,
+          218.91891891891893
+        ],
+        [
+          17.02127659574468,
+          82.97872340425533
+        ]
+      ]
+    },
+    {
+      "lower": 0.03,
+      "upper": 0.03,
+      "cost_per_1000": 5085.393904542841,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 25.112133410005754,
+      "closer_inspection_minutes_per_day": 251.12133410005754,
+      "total_inspection_staff_fte": 0.6975592613890487,
+      "actual_triage_counts": [
+        [
+          30,
+          0,
+          7
+        ],
+        [
+          9,
+          0,
+          38
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          729.7297297297298,
+          0.0,
+          170.2702702702703
+        ],
+        [
+          19.148936170212767,
+          0.0,
+          80.85106382978724
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          729.7297297297298,
+          170.2702702702703
+        ],
+        [
+          19.148936170212767,
+          80.85106382978724
+        ]
+      ]
+    },
+    {
+      "lower": 0.04,
+      "upper": 0.04,
+      "cost_per_1000": 5793.559516963773,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 22.2541690626797,
+      "closer_inspection_minutes_per_day": 222.541690626797,
+      "total_inspection_staff_fte": 0.6181713628522139,
+      "actual_triage_counts": [
+        [
+          31,
+          0,
+          6
+        ],
+        [
+          11,
+          0,
+          36
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          754.0540540540541,
+          0.0,
+          145.94594594594597
+        ],
+        [
+          23.404255319148938,
+          0.0,
+          76.59574468085107
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          754.0540540540541,
+          145.94594594594597
+        ],
+        [
+          23.404255319148938,
+          76.59574468085107
+        ]
+      ]
+    },
+    {
+      "lower": 0.05,
+      "upper": 0.05,
+      "cost_per_1000": 6916.618746405981,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 19.183438757906845,
+      "closer_inspection_minutes_per_day": 191.83438757906845,
+      "total_inspection_staff_fte": 0.5328732988307456,
+      "actual_triage_counts": [
+        [
+          32,
+          0,
+          5
+        ],
+        [
+          14,
+          0,
+          33
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          778.3783783783784,
+          0.0,
+          121.62162162162163
+        ],
+        [
+          29.787234042553195,
+          0.0,
+          70.21276595744682
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          778.3783783783784,
+          121.62162162162163
+        ],
+        [
+          29.787234042553195,
+          70.21276595744682
+        ]
+      ]
+    },
+    {
+      "lower": 0.06,
+      "upper": 0.06,
+      "cost_per_1000": 6673.375503162738,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 14.31857389304198,
+      "closer_inspection_minutes_per_day": 143.1857389304198,
+      "total_inspection_staff_fte": 0.39773816369561055,
+      "actual_triage_counts": [
+        [
+          34,
+          0,
+          3
+        ],
+        [
+          14,
+          0,
+          33
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          827.0270270270271,
+          0.0,
+          72.97297297297298
+        ],
+        [
+          29.787234042553195,
+          0.0,
+          70.21276595744682
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          827.0270270270271,
+          72.97297297297298
+        ],
+        [
+          29.787234042553195,
+          70.21276595744682
+        ]
+      ]
+    },
+    {
+      "lower": 0.07,
+      "upper": 0.07,
+      "cost_per_1000": 7503.16273720529,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 13.893041978148363,
+      "closer_inspection_minutes_per_day": 138.93041978148364,
+      "total_inspection_staff_fte": 0.38591783272634345,
+      "actual_triage_counts": [
+        [
+          34,
+          0,
+          3
+        ],
+        [
+          16,
+          0,
+          31
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          827.0270270270271,
+          0.0,
+          72.97297297297298
+        ],
+        [
+          34.04255319148936,
+          0.0,
+          65.95744680851064
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          827.0270270270271,
+          72.97297297297298
+        ],
+        [
+          34.04255319148936,
+          65.95744680851064
+        ]
+      ]
+    },
+    {
+      "lower": 0.08,
+      "upper": 0.08,
+      "cost_per_1000": 8332.949971247843,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 13.467510063254744,
+      "closer_inspection_minutes_per_day": 134.67510063254744,
+      "total_inspection_staff_fte": 0.37409750175707623,
+      "actual_triage_counts": [
+        [
+          34,
+          0,
+          3
+        ],
+        [
+          18,
+          0,
+          29
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          827.0270270270271,
+          0.0,
+          72.97297297297298
+        ],
+        [
+          38.297872340425535,
+          0.0,
+          61.70212765957447
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          827.0270270270271,
+          72.97297297297298
+        ],
+        [
+          38.297872340425535,
+          61.70212765957447
+        ]
+      ]
+    },
+    {
+      "lower": 0.09,
+      "upper": 0.09,
+      "cost_per_1000": 8626.2219666475,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 10.822311673375504,
+      "closer_inspection_minutes_per_day": 108.22311673375503,
+      "total_inspection_staff_fte": 0.3006197687048751,
+      "actual_triage_counts": [
+        [
+          35,
+          0,
+          2
+        ],
+        [
+          19,
+          0,
+          28
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          851.3513513513514,
+          0.0,
+          48.64864864864865
+        ],
+        [
+          40.42553191489362,
+          0.0,
+          59.57446808510639
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          851.3513513513514,
+          48.64864864864865
+        ],
+        [
+          40.42553191489362,
+          59.57446808510639
+        ]
+      ]
+    },
+    {
+      "lower": 0.1,
+      "upper": 0.1,
+      "cost_per_1000": 9870.902817711329,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 10.184013801035077,
+      "closer_inspection_minutes_per_day": 101.84013801035077,
+      "total_inspection_staff_fte": 0.2828892722509744,
+      "actual_triage_counts": [
+        [
+          35,
+          0,
+          2
+        ],
+        [
+          22,
+          0,
+          25
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          851.3513513513514,
+          0.0,
+          48.64864864864865
+        ],
+        [
+          46.808510638297875,
+          0.0,
+          53.191489361702125
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          851.3513513513514,
+          48.64864864864865
+        ],
+        [
+          46.808510638297875,
+          53.191489361702125
+        ]
+      ]
+    },
+    {
+      "lower": 0.11,
+      "upper": 0.11,
+      "cost_per_1000": 9870.902817711329,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 10.184013801035077,
+      "closer_inspection_minutes_per_day": 101.84013801035077,
+      "total_inspection_staff_fte": 0.2828892722509744,
+      "actual_triage_counts": [
+        [
+          35,
+          0,
+          2
+        ],
+        [
+          22,
+          0,
+          25
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          851.3513513513514,
+          0.0,
+          48.64864864864865
+        ],
+        [
+          46.808510638297875,
+          0.0,
+          53.191489361702125
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          851.3513513513514,
+          48.64864864864865
+        ],
+        [
+          46.808510638297875,
+          53.191489361702125
+        ]
+      ]
+    },
+    {
+      "lower": 0.12,
+      "upper": 0.12,
+      "cost_per_1000": 10700.690051753882,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 9.75848188614146,
+      "closer_inspection_minutes_per_day": 97.5848188614146,
+      "total_inspection_staff_fte": 0.2710689412817072,
+      "actual_triage_counts": [
+        [
+          35,
+          0,
+          2
+        ],
+        [
+          24,
+          0,
+          23
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          851.3513513513514,
+          0.0,
+          48.64864864864865
+        ],
+        [
+          51.06382978723404,
+          0.0,
+          48.93617021276596
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          851.3513513513514,
+          48.64864864864865
+        ],
+        [
+          51.06382978723404,
+          48.93617021276596
+        ]
+      ]
+    },
+    {
+      "lower": 0.13,
+      "upper": 0.13,
+      "cost_per_1000": 11115.583668775158,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 9.545715928694653,
+      "closer_inspection_minutes_per_day": 95.45715928694653,
+      "total_inspection_staff_fte": 0.2651587757970737,
+      "actual_triage_counts": [
+        [
+          35,
+          0,
+          2
+        ],
+        [
+          25,
+          0,
+          22
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          851.3513513513514,
+          0.0,
+          48.64864864864865
+        ],
+        [
+          53.191489361702125,
+          0.0,
+          46.808510638297875
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          851.3513513513514,
+          48.64864864864865
+        ],
+        [
+          53.191489361702125,
+          46.808510638297875
+        ]
+      ]
+    },
+    {
+      "lower": 0.14,
+      "upper": 0.14,
+      "cost_per_1000": 11945.370902817715,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 9.120184013801037,
+      "closer_inspection_minutes_per_day": 91.20184013801037,
+      "total_inspection_staff_fte": 0.2533384448278066,
+      "actual_triage_counts": [
+        [
+          35,
+          0,
+          2
+        ],
+        [
+          27,
+          0,
+          20
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          851.3513513513514,
+          0.0,
+          48.64864864864865
+        ],
+        [
+          57.446808510638306,
+          0.0,
+          42.55319148936171
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          851.3513513513514,
+          48.64864864864865
+        ],
+        [
+          57.446808510638306,
+          42.55319148936171
+        ]
+      ]
+    },
+    {
+      "lower": 0.15,
+      "upper": 0.15,
+      "cost_per_1000": 12360.264519838991,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 8.907418056354228,
+      "closer_inspection_minutes_per_day": 89.07418056354228,
+      "total_inspection_staff_fte": 0.24742827934317302,
+      "actual_triage_counts": [
+        [
+          35,
+          0,
+          2
+        ],
+        [
+          28,
+          0,
+          19
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          851.3513513513514,
+          0.0,
+          48.64864864864865
+        ],
+        [
+          59.57446808510639,
+          0.0,
+          40.42553191489362
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          851.3513513513514,
+          48.64864864864865
+        ],
+        [
+          59.57446808510639,
+          40.42553191489362
+        ]
+      ]
+    },
+    {
+      "lower": 0.16,
+      "upper": 0.16,
+      "cost_per_1000": 12360.264519838991,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 8.907418056354228,
+      "closer_inspection_minutes_per_day": 89.07418056354228,
+      "total_inspection_staff_fte": 0.24742827934317302,
+      "actual_triage_counts": [
+        [
+          35,
+          0,
+          2
+        ],
+        [
+          28,
+          0,
+          19
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          851.3513513513514,
+          0.0,
+          48.64864864864865
+        ],
+        [
+          59.57446808510639,
+          0.0,
+          40.42553191489362
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          851.3513513513514,
+          48.64864864864865
+        ],
+        [
+          59.57446808510639,
+          40.42553191489362
+        ]
+      ]
+    },
+    {
+      "lower": 0.17,
+      "upper": 0.17,
+      "cost_per_1000": 12360.264519838991,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 8.907418056354228,
+      "closer_inspection_minutes_per_day": 89.07418056354228,
+      "total_inspection_staff_fte": 0.24742827934317302,
+      "actual_triage_counts": [
+        [
+          35,
+          0,
+          2
+        ],
+        [
+          28,
+          0,
+          19
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          851.3513513513514,
+          0.0,
+          48.64864864864865
+        ],
+        [
+          59.57446808510639,
+          0.0,
+          40.42553191489362
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          851.3513513513514,
+          48.64864864864865
+        ],
+        [
+          59.57446808510639,
+          40.42553191489362
+        ]
+      ]
+    },
+    {
+      "lower": 0.18,
+      "upper": 0.18,
+      "cost_per_1000": 12360.264519838991,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 8.907418056354228,
+      "closer_inspection_minutes_per_day": 89.07418056354228,
+      "total_inspection_staff_fte": 0.24742827934317302,
+      "actual_triage_counts": [
+        [
+          35,
+          0,
+          2
+        ],
+        [
+          28,
+          0,
+          19
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          851.3513513513514,
+          0.0,
+          48.64864864864865
+        ],
+        [
+          59.57446808510639,
+          0.0,
+          40.42553191489362
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          851.3513513513514,
+          48.64864864864865
+        ],
+        [
+          59.57446808510639,
+          40.42553191489362
+        ]
+      ]
+    },
+    {
+      "lower": 0.19,
+      "upper": 0.19,
+      "cost_per_1000": 12360.264519838991,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 8.907418056354228,
+      "closer_inspection_minutes_per_day": 89.07418056354228,
+      "total_inspection_staff_fte": 0.24742827934317302,
+      "actual_triage_counts": [
+        [
+          35,
+          0,
+          2
+        ],
+        [
+          28,
+          0,
+          19
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          851.3513513513514,
+          0.0,
+          48.64864864864865
+        ],
+        [
+          59.57446808510639,
+          0.0,
+          40.42553191489362
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          851.3513513513514,
+          48.64864864864865
+        ],
+        [
+          59.57446808510639,
+          40.42553191489362
+        ]
+      ]
+    },
+    {
+      "lower": 0.2,
+      "upper": 0.2,
+      "cost_per_1000": 12775.158136860266,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 8.694652098907419,
+      "closer_inspection_minutes_per_day": 86.94652098907419,
+      "total_inspection_staff_fte": 0.2415181138585394,
+      "actual_triage_counts": [
+        [
+          35,
+          0,
+          2
+        ],
+        [
+          29,
+          0,
+          18
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          851.3513513513514,
+          0.0,
+          48.64864864864865
+        ],
+        [
+          61.70212765957447,
+          0.0,
+          38.297872340425535
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          851.3513513513514,
+          48.64864864864865
+        ],
+        [
+          61.70212765957447,
+          38.297872340425535
+        ]
+      ]
+    },
+    {
+      "lower": 0.21,
+      "upper": 0.21,
+      "cost_per_1000": 12775.158136860266,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 8.694652098907419,
+      "closer_inspection_minutes_per_day": 86.94652098907419,
+      "total_inspection_staff_fte": 0.2415181138585394,
+      "actual_triage_counts": [
+        [
+          35,
+          0,
+          2
+        ],
+        [
+          29,
+          0,
+          18
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          851.3513513513514,
+          0.0,
+          48.64864864864865
+        ],
+        [
+          61.70212765957447,
+          0.0,
+          38.297872340425535
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          851.3513513513514,
+          48.64864864864865
+        ],
+        [
+          61.70212765957447,
+          38.297872340425535
+        ]
+      ]
+    },
+    {
+      "lower": 0.22,
+      "upper": 0.22,
+      "cost_per_1000": 12775.158136860266,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 8.694652098907419,
+      "closer_inspection_minutes_per_day": 86.94652098907419,
+      "total_inspection_staff_fte": 0.2415181138585394,
+      "actual_triage_counts": [
+        [
+          35,
+          0,
+          2
+        ],
+        [
+          29,
+          0,
+          18
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          851.3513513513514,
+          0.0,
+          48.64864864864865
+        ],
+        [
+          61.70212765957447,
+          0.0,
+          38.297872340425535
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          851.3513513513514,
+          48.64864864864865
+        ],
+        [
+          61.70212765957447,
+          38.297872340425535
+        ]
+      ]
+    },
+    {
+      "lower": 0.23,
+      "upper": 0.23,
+      "cost_per_1000": 13190.051753881542,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 8.48188614146061,
+      "closer_inspection_minutes_per_day": 84.81886141460609,
+      "total_inspection_staff_fte": 0.2356079483739058,
+      "actual_triage_counts": [
+        [
+          35,
+          0,
+          2
+        ],
+        [
+          30,
+          0,
+          17
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          851.3513513513514,
+          0.0,
+          48.64864864864865
+        ],
+        [
+          63.82978723404256,
+          0.0,
+          36.17021276595745
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          851.3513513513514,
+          48.64864864864865
+        ],
+        [
+          63.82978723404256,
+          36.17021276595745
+        ]
+      ]
+    },
+    {
+      "lower": 0.24,
+      "upper": 0.24,
+      "cost_per_1000": 13604.945370902817,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 8.2691201840138,
+      "closer_inspection_minutes_per_day": 82.691201840138,
+      "total_inspection_staff_fte": 0.22969778288927223,
+      "actual_triage_counts": [
+        [
+          35,
+          0,
+          2
+        ],
+        [
+          31,
+          0,
+          16
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          851.3513513513514,
+          0.0,
+          48.64864864864865
+        ],
+        [
+          65.95744680851064,
+          0.0,
+          34.04255319148936
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          851.3513513513514,
+          48.64864864864865
+        ],
+        [
+          65.95744680851064,
+          34.04255319148936
+        ]
+      ]
+    },
+    {
+      "lower": 0.25,
+      "upper": 0.25,
+      "cost_per_1000": 13604.945370902817,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 8.2691201840138,
+      "closer_inspection_minutes_per_day": 82.691201840138,
+      "total_inspection_staff_fte": 0.22969778288927223,
+      "actual_triage_counts": [
+        [
+          35,
+          0,
+          2
+        ],
+        [
+          31,
+          0,
+          16
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          851.3513513513514,
+          0.0,
+          48.64864864864865
+        ],
+        [
+          65.95744680851064,
+          0.0,
+          34.04255319148936
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          851.3513513513514,
+          48.64864864864865
+        ],
+        [
+          65.95744680851064,
+          34.04255319148936
+        ]
+      ]
+    },
+    {
+      "lower": 0.26,
+      "upper": 0.26,
+      "cost_per_1000": 13604.945370902817,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 8.2691201840138,
+      "closer_inspection_minutes_per_day": 82.691201840138,
+      "total_inspection_staff_fte": 0.22969778288927223,
+      "actual_triage_counts": [
+        [
+          35,
+          0,
+          2
+        ],
+        [
+          31,
+          0,
+          16
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          851.3513513513514,
+          0.0,
+          48.64864864864865
+        ],
+        [
+          65.95744680851064,
+          0.0,
+          34.04255319148936
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          851.3513513513514,
+          48.64864864864865
+        ],
+        [
+          65.95744680851064,
+          34.04255319148936
+        ]
+      ]
+    },
+    {
+      "lower": 0.27,
+      "upper": 0.27,
+      "cost_per_1000": 14019.838987924095,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 8.056354226566993,
+      "closer_inspection_minutes_per_day": 80.56354226566994,
+      "total_inspection_staff_fte": 0.2237876174046387,
+      "actual_triage_counts": [
+        [
+          35,
+          0,
+          2
+        ],
+        [
+          32,
+          0,
+          15
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          851.3513513513514,
+          0.0,
+          48.64864864864865
+        ],
+        [
+          68.08510638297872,
+          0.0,
+          31.91489361702128
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          851.3513513513514,
+          48.64864864864865
+        ],
+        [
+          68.08510638297872,
+          31.91489361702128
+        ]
+      ]
+    },
+    {
+      "lower": 0.28,
+      "upper": 0.28,
+      "cost_per_1000": 14313.11098332375,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 5.411155836687752,
+      "closer_inspection_minutes_per_day": 54.11155836687752,
+      "total_inspection_staff_fte": 0.15030988435243756,
+      "actual_triage_counts": [
+        [
+          36,
+          0,
+          1
+        ],
+        [
+          33,
+          0,
+          14
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          875.6756756756757,
+          0.0,
+          24.324324324324326
+        ],
+        [
+          70.21276595744682,
+          0.0,
+          29.787234042553195
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          875.6756756756757,
+          24.324324324324326
+        ],
+        [
+          70.21276595744682,
+          29.787234042553195
+        ]
+      ]
+    },
+    {
+      "lower": 0.29,
+      "upper": 0.29,
+      "cost_per_1000": 14313.11098332375,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 5.411155836687752,
+      "closer_inspection_minutes_per_day": 54.11155836687752,
+      "total_inspection_staff_fte": 0.15030988435243756,
+      "actual_triage_counts": [
+        [
+          36,
+          0,
+          1
+        ],
+        [
+          33,
+          0,
+          14
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          875.6756756756757,
+          0.0,
+          24.324324324324326
+        ],
+        [
+          70.21276595744682,
+          0.0,
+          29.787234042553195
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          875.6756756756757,
+          24.324324324324326
+        ],
+        [
+          70.21276595744682,
+          29.787234042553195
+        ]
+      ]
+    },
+    {
+      "lower": 0.3,
+      "upper": 0.3,
+      "cost_per_1000": 14313.11098332375,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 5.411155836687752,
+      "closer_inspection_minutes_per_day": 54.11155836687752,
+      "total_inspection_staff_fte": 0.15030988435243756,
+      "actual_triage_counts": [
+        [
+          36,
+          0,
+          1
+        ],
+        [
+          33,
+          0,
+          14
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          875.6756756756757,
+          0.0,
+          24.324324324324326
+        ],
+        [
+          70.21276595744682,
+          0.0,
+          29.787234042553195
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          875.6756756756757,
+          24.324324324324326
+        ],
+        [
+          70.21276595744682,
+          29.787234042553195
+        ]
+      ]
+    },
+    {
+      "lower": 0.31,
+      "upper": 0.31,
+      "cost_per_1000": 14313.11098332375,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 5.411155836687752,
+      "closer_inspection_minutes_per_day": 54.11155836687752,
+      "total_inspection_staff_fte": 0.15030988435243756,
+      "actual_triage_counts": [
+        [
+          36,
+          0,
+          1
+        ],
+        [
+          33,
+          0,
+          14
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          875.6756756756757,
+          0.0,
+          24.324324324324326
+        ],
+        [
+          70.21276595744682,
+          0.0,
+          29.787234042553195
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          875.6756756756757,
+          24.324324324324326
+        ],
+        [
+          70.21276595744682,
+          29.787234042553195
+        ]
+      ]
+    },
+    {
+      "lower": 0.32,
+      "upper": 0.32,
+      "cost_per_1000": 14728.004600345028,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 5.198389879240943,
+      "closer_inspection_minutes_per_day": 51.98389879240943,
+      "total_inspection_staff_fte": 0.14439971886780395,
+      "actual_triage_counts": [
+        [
+          36,
+          0,
+          1
+        ],
+        [
+          34,
+          0,
+          13
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          875.6756756756757,
+          0.0,
+          24.324324324324326
+        ],
+        [
+          72.3404255319149,
+          0.0,
+          27.659574468085108
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          875.6756756756757,
+          24.324324324324326
+        ],
+        [
+          72.3404255319149,
+          27.659574468085108
+        ]
+      ]
+    },
+    {
+      "lower": 0.33,
+      "upper": 0.33,
+      "cost_per_1000": 15142.8982173663,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 4.985623921794134,
+      "closer_inspection_minutes_per_day": 49.85623921794134,
+      "total_inspection_staff_fte": 0.13848955338317037,
+      "actual_triage_counts": [
+        [
+          36,
+          0,
+          1
+        ],
+        [
+          35,
+          0,
+          12
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          875.6756756756757,
+          0.0,
+          24.324324324324326
+        ],
+        [
+          74.46808510638297,
+          0.0,
+          25.53191489361702
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          875.6756756756757,
+          24.324324324324326
+        ],
+        [
+          74.46808510638297,
+          25.53191489361702
+        ]
+      ]
+    },
+    {
+      "lower": 0.34,
+      "upper": 0.34,
+      "cost_per_1000": 15436.170212765957,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 2.3404255319148937,
+      "closer_inspection_minutes_per_day": 23.404255319148938,
+      "total_inspection_staff_fte": 0.06501182033096928,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          36,
+          0,
+          11
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          76.59574468085107,
+          0.0,
+          23.404255319148938
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          76.59574468085107,
+          23.404255319148938
+        ]
+      ]
+    },
+    {
+      "lower": 0.35000000000000003,
+      "upper": 0.35000000000000003,
+      "cost_per_1000": 15436.170212765957,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 2.3404255319148937,
+      "closer_inspection_minutes_per_day": 23.404255319148938,
+      "total_inspection_staff_fte": 0.06501182033096928,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          36,
+          0,
+          11
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          76.59574468085107,
+          0.0,
+          23.404255319148938
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          76.59574468085107,
+          23.404255319148938
+        ]
+      ]
+    },
+    {
+      "lower": 0.36,
+      "upper": 0.36,
+      "cost_per_1000": 15436.170212765957,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 2.3404255319148937,
+      "closer_inspection_minutes_per_day": 23.404255319148938,
+      "total_inspection_staff_fte": 0.06501182033096928,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          36,
+          0,
+          11
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          76.59574468085107,
+          0.0,
+          23.404255319148938
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          76.59574468085107,
+          23.404255319148938
+        ]
+      ]
+    },
+    {
+      "lower": 0.37,
+      "upper": 0.37,
+      "cost_per_1000": 15436.170212765957,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 2.3404255319148937,
+      "closer_inspection_minutes_per_day": 23.404255319148938,
+      "total_inspection_staff_fte": 0.06501182033096928,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          36,
+          0,
+          11
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          76.59574468085107,
+          0.0,
+          23.404255319148938
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          76.59574468085107,
+          23.404255319148938
+        ]
+      ]
+    },
+    {
+      "lower": 0.38,
+      "upper": 0.38,
+      "cost_per_1000": 15436.170212765957,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 2.3404255319148937,
+      "closer_inspection_minutes_per_day": 23.404255319148938,
+      "total_inspection_staff_fte": 0.06501182033096928,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          36,
+          0,
+          11
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          76.59574468085107,
+          0.0,
+          23.404255319148938
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          76.59574468085107,
+          23.404255319148938
+        ]
+      ]
+    },
+    {
+      "lower": 0.39,
+      "upper": 0.39,
+      "cost_per_1000": 15436.170212765957,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 2.3404255319148937,
+      "closer_inspection_minutes_per_day": 23.404255319148938,
+      "total_inspection_staff_fte": 0.06501182033096928,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          36,
+          0,
+          11
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          76.59574468085107,
+          0.0,
+          23.404255319148938
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          76.59574468085107,
+          23.404255319148938
+        ]
+      ]
+    },
+    {
+      "lower": 0.4,
+      "upper": 0.4,
+      "cost_per_1000": 15436.170212765957,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 2.3404255319148937,
+      "closer_inspection_minutes_per_day": 23.404255319148938,
+      "total_inspection_staff_fte": 0.06501182033096928,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          36,
+          0,
+          11
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          76.59574468085107,
+          0.0,
+          23.404255319148938
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          76.59574468085107,
+          23.404255319148938
+        ]
+      ]
+    },
+    {
+      "lower": 0.41000000000000003,
+      "upper": 0.41000000000000003,
+      "cost_per_1000": 15436.170212765957,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 2.3404255319148937,
+      "closer_inspection_minutes_per_day": 23.404255319148938,
+      "total_inspection_staff_fte": 0.06501182033096928,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          36,
+          0,
+          11
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          76.59574468085107,
+          0.0,
+          23.404255319148938
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          76.59574468085107,
+          23.404255319148938
+        ]
+      ]
+    },
+    {
+      "lower": 0.42,
+      "upper": 0.42,
+      "cost_per_1000": 15851.063829787234,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 2.1276595744680855,
+      "closer_inspection_minutes_per_day": 21.276595744680854,
+      "total_inspection_staff_fte": 0.059101654846335706,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          37,
+          0,
+          10
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          78.72340425531915,
+          0.0,
+          21.276595744680854
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          78.72340425531915,
+          21.276595744680854
+        ]
+      ]
+    },
+    {
+      "lower": 0.43,
+      "upper": 0.43,
+      "cost_per_1000": 15851.063829787234,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 2.1276595744680855,
+      "closer_inspection_minutes_per_day": 21.276595744680854,
+      "total_inspection_staff_fte": 0.059101654846335706,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          37,
+          0,
+          10
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          78.72340425531915,
+          0.0,
+          21.276595744680854
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          78.72340425531915,
+          21.276595744680854
+        ]
+      ]
+    },
+    {
+      "lower": 0.44,
+      "upper": 0.44,
+      "cost_per_1000": 15851.063829787234,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 2.1276595744680855,
+      "closer_inspection_minutes_per_day": 21.276595744680854,
+      "total_inspection_staff_fte": 0.059101654846335706,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          37,
+          0,
+          10
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          78.72340425531915,
+          0.0,
+          21.276595744680854
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          78.72340425531915,
+          21.276595744680854
+        ]
+      ]
+    },
+    {
+      "lower": 0.45,
+      "upper": 0.45,
+      "cost_per_1000": 15851.063829787234,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 2.1276595744680855,
+      "closer_inspection_minutes_per_day": 21.276595744680854,
+      "total_inspection_staff_fte": 0.059101654846335706,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          37,
+          0,
+          10
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          78.72340425531915,
+          0.0,
+          21.276595744680854
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          78.72340425531915,
+          21.276595744680854
+        ]
+      ]
+    },
+    {
+      "lower": 0.46,
+      "upper": 0.46,
+      "cost_per_1000": 15851.063829787234,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 2.1276595744680855,
+      "closer_inspection_minutes_per_day": 21.276595744680854,
+      "total_inspection_staff_fte": 0.059101654846335706,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          37,
+          0,
+          10
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          78.72340425531915,
+          0.0,
+          21.276595744680854
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          78.72340425531915,
+          21.276595744680854
+        ]
+      ]
+    },
+    {
+      "lower": 0.47000000000000003,
+      "upper": 0.47000000000000003,
+      "cost_per_1000": 15851.063829787234,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 2.1276595744680855,
+      "closer_inspection_minutes_per_day": 21.276595744680854,
+      "total_inspection_staff_fte": 0.059101654846335706,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          37,
+          0,
+          10
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          78.72340425531915,
+          0.0,
+          21.276595744680854
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          78.72340425531915,
+          21.276595744680854
+        ]
+      ]
+    },
+    {
+      "lower": 0.48,
+      "upper": 0.48,
+      "cost_per_1000": 15851.063829787234,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 2.1276595744680855,
+      "closer_inspection_minutes_per_day": 21.276595744680854,
+      "total_inspection_staff_fte": 0.059101654846335706,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          37,
+          0,
+          10
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          78.72340425531915,
+          0.0,
+          21.276595744680854
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          78.72340425531915,
+          21.276595744680854
+        ]
+      ]
+    },
+    {
+      "lower": 0.49,
+      "upper": 0.49,
+      "cost_per_1000": 15851.063829787234,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 2.1276595744680855,
+      "closer_inspection_minutes_per_day": 21.276595744680854,
+      "total_inspection_staff_fte": 0.059101654846335706,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          37,
+          0,
+          10
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          78.72340425531915,
+          0.0,
+          21.276595744680854
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          78.72340425531915,
+          21.276595744680854
+        ]
+      ]
+    },
+    {
+      "lower": 0.5,
+      "upper": 0.5,
+      "cost_per_1000": 15851.063829787234,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 2.1276595744680855,
+      "closer_inspection_minutes_per_day": 21.276595744680854,
+      "total_inspection_staff_fte": 0.059101654846335706,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          37,
+          0,
+          10
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          78.72340425531915,
+          0.0,
+          21.276595744680854
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          78.72340425531915,
+          21.276595744680854
+        ]
+      ]
+    },
+    {
+      "lower": 0.51,
+      "upper": 0.51,
+      "cost_per_1000": 15851.063829787234,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 2.1276595744680855,
+      "closer_inspection_minutes_per_day": 21.276595744680854,
+      "total_inspection_staff_fte": 0.059101654846335706,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          37,
+          0,
+          10
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          78.72340425531915,
+          0.0,
+          21.276595744680854
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          78.72340425531915,
+          21.276595744680854
+        ]
+      ]
+    },
+    {
+      "lower": 0.52,
+      "upper": 0.52,
+      "cost_per_1000": 16265.95744680851,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 1.9148936170212765,
+      "closer_inspection_minutes_per_day": 19.148936170212764,
+      "total_inspection_staff_fte": 0.05319148936170212,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          38,
+          0,
+          9
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          80.85106382978724,
+          0.0,
+          19.148936170212767
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          80.85106382978724,
+          19.148936170212767
+        ]
+      ]
+    },
+    {
+      "lower": 0.53,
+      "upper": 0.53,
+      "cost_per_1000": 16265.95744680851,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 1.9148936170212765,
+      "closer_inspection_minutes_per_day": 19.148936170212764,
+      "total_inspection_staff_fte": 0.05319148936170212,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          38,
+          0,
+          9
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          80.85106382978724,
+          0.0,
+          19.148936170212767
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          80.85106382978724,
+          19.148936170212767
+        ]
+      ]
+    },
+    {
+      "lower": 0.54,
+      "upper": 0.54,
+      "cost_per_1000": 16265.95744680851,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 1.9148936170212765,
+      "closer_inspection_minutes_per_day": 19.148936170212764,
+      "total_inspection_staff_fte": 0.05319148936170212,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          38,
+          0,
+          9
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          80.85106382978724,
+          0.0,
+          19.148936170212767
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          80.85106382978724,
+          19.148936170212767
+        ]
+      ]
+    },
+    {
+      "lower": 0.55,
+      "upper": 0.55,
+      "cost_per_1000": 16265.95744680851,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 1.9148936170212765,
+      "closer_inspection_minutes_per_day": 19.148936170212764,
+      "total_inspection_staff_fte": 0.05319148936170212,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          38,
+          0,
+          9
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          80.85106382978724,
+          0.0,
+          19.148936170212767
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          80.85106382978724,
+          19.148936170212767
+        ]
+      ]
+    },
+    {
+      "lower": 0.56,
+      "upper": 0.56,
+      "cost_per_1000": 17095.744680851065,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 1.4893617021276597,
+      "closer_inspection_minutes_per_day": 14.893617021276597,
+      "total_inspection_staff_fte": 0.04137115839243499,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          40,
+          0,
+          7
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          85.10638297872342,
+          0.0,
+          14.893617021276597
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          85.10638297872342,
+          14.893617021276597
+        ]
+      ]
+    },
+    {
+      "lower": 0.5700000000000001,
+      "upper": 0.5700000000000001,
+      "cost_per_1000": 17095.744680851065,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 1.4893617021276597,
+      "closer_inspection_minutes_per_day": 14.893617021276597,
+      "total_inspection_staff_fte": 0.04137115839243499,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          40,
+          0,
+          7
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          85.10638297872342,
+          0.0,
+          14.893617021276597
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          85.10638297872342,
+          14.893617021276597
+        ]
+      ]
+    },
+    {
+      "lower": 0.58,
+      "upper": 0.58,
+      "cost_per_1000": 17510.638297872345,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 1.276595744680851,
+      "closer_inspection_minutes_per_day": 12.765957446808509,
+      "total_inspection_staff_fte": 0.035460992907801414,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          41,
+          0,
+          6
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          87.2340425531915,
+          0.0,
+          12.76595744680851
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          87.2340425531915,
+          12.76595744680851
+        ]
+      ]
+    },
+    {
+      "lower": 0.59,
+      "upper": 0.59,
+      "cost_per_1000": 17510.638297872345,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 1.276595744680851,
+      "closer_inspection_minutes_per_day": 12.765957446808509,
+      "total_inspection_staff_fte": 0.035460992907801414,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          41,
+          0,
+          6
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          87.2340425531915,
+          0.0,
+          12.76595744680851
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          87.2340425531915,
+          12.76595744680851
+        ]
+      ]
+    },
+    {
+      "lower": 0.6,
+      "upper": 0.6,
+      "cost_per_1000": 17925.531914893618,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 1.0638297872340428,
+      "closer_inspection_minutes_per_day": 10.638297872340427,
+      "total_inspection_staff_fte": 0.029550827423167853,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          42,
+          0,
+          5
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          89.36170212765958,
+          0.0,
+          10.638297872340427
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          89.36170212765958,
+          10.638297872340427
+        ]
+      ]
+    },
+    {
+      "lower": 0.61,
+      "upper": 0.61,
+      "cost_per_1000": 17925.531914893618,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 1.0638297872340428,
+      "closer_inspection_minutes_per_day": 10.638297872340427,
+      "total_inspection_staff_fte": 0.029550827423167853,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          42,
+          0,
+          5
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          89.36170212765958,
+          0.0,
+          10.638297872340427
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          89.36170212765958,
+          10.638297872340427
+        ]
+      ]
+    },
+    {
+      "lower": 0.62,
+      "upper": 0.62,
+      "cost_per_1000": 17925.531914893618,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 1.0638297872340428,
+      "closer_inspection_minutes_per_day": 10.638297872340427,
+      "total_inspection_staff_fte": 0.029550827423167853,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          42,
+          0,
+          5
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          89.36170212765958,
+          0.0,
+          10.638297872340427
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          89.36170212765958,
+          10.638297872340427
+        ]
+      ]
+    },
+    {
+      "lower": 0.63,
+      "upper": 0.63,
+      "cost_per_1000": 17925.531914893618,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 1.0638297872340428,
+      "closer_inspection_minutes_per_day": 10.638297872340427,
+      "total_inspection_staff_fte": 0.029550827423167853,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          42,
+          0,
+          5
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          89.36170212765958,
+          0.0,
+          10.638297872340427
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          89.36170212765958,
+          10.638297872340427
+        ]
+      ]
+    },
+    {
+      "lower": 0.64,
+      "upper": 0.64,
+      "cost_per_1000": 18340.425531914894,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 0.851063829787234,
+      "closer_inspection_minutes_per_day": 8.51063829787234,
+      "total_inspection_staff_fte": 0.02364066193853428,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          43,
+          0,
+          4
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          91.48936170212767,
+          0.0,
+          8.51063829787234
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          91.48936170212767,
+          8.51063829787234
+        ]
+      ]
+    },
+    {
+      "lower": 0.65,
+      "upper": 0.65,
+      "cost_per_1000": 18340.425531914894,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 0.851063829787234,
+      "closer_inspection_minutes_per_day": 8.51063829787234,
+      "total_inspection_staff_fte": 0.02364066193853428,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          43,
+          0,
+          4
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          91.48936170212767,
+          0.0,
+          8.51063829787234
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          91.48936170212767,
+          8.51063829787234
+        ]
+      ]
+    },
+    {
+      "lower": 0.66,
+      "upper": 0.66,
+      "cost_per_1000": 18340.425531914894,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 0.851063829787234,
+      "closer_inspection_minutes_per_day": 8.51063829787234,
+      "total_inspection_staff_fte": 0.02364066193853428,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          43,
+          0,
+          4
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          91.48936170212767,
+          0.0,
+          8.51063829787234
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          91.48936170212767,
+          8.51063829787234
+        ]
+      ]
+    },
+    {
+      "lower": 0.67,
+      "upper": 0.67,
+      "cost_per_1000": 18340.425531914894,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 0.851063829787234,
+      "closer_inspection_minutes_per_day": 8.51063829787234,
+      "total_inspection_staff_fte": 0.02364066193853428,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          43,
+          0,
+          4
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          91.48936170212767,
+          0.0,
+          8.51063829787234
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          91.48936170212767,
+          8.51063829787234
+        ]
+      ]
+    },
+    {
+      "lower": 0.68,
+      "upper": 0.68,
+      "cost_per_1000": 18340.425531914894,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 0.851063829787234,
+      "closer_inspection_minutes_per_day": 8.51063829787234,
+      "total_inspection_staff_fte": 0.02364066193853428,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          43,
+          0,
+          4
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          91.48936170212767,
+          0.0,
+          8.51063829787234
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          91.48936170212767,
+          8.51063829787234
+        ]
+      ]
+    },
+    {
+      "lower": 0.6900000000000001,
+      "upper": 0.6900000000000001,
+      "cost_per_1000": 19170.212765957447,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 0.425531914893617,
+      "closer_inspection_minutes_per_day": 4.25531914893617,
+      "total_inspection_staff_fte": 0.01182033096926714,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          45,
+          0,
+          2
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          95.74468085106385,
+          0.0,
+          4.25531914893617
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          95.74468085106385,
+          4.25531914893617
+        ]
+      ]
+    },
+    {
+      "lower": 0.7000000000000001,
+      "upper": 0.7000000000000001,
+      "cost_per_1000": 19170.212765957447,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 0.425531914893617,
+      "closer_inspection_minutes_per_day": 4.25531914893617,
+      "total_inspection_staff_fte": 0.01182033096926714,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          45,
+          0,
+          2
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          95.74468085106385,
+          0.0,
+          4.25531914893617
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          95.74468085106385,
+          4.25531914893617
+        ]
+      ]
+    },
+    {
+      "lower": 0.71,
+      "upper": 0.71,
+      "cost_per_1000": 19170.212765957447,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 0.425531914893617,
+      "closer_inspection_minutes_per_day": 4.25531914893617,
+      "total_inspection_staff_fte": 0.01182033096926714,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          45,
+          0,
+          2
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          95.74468085106385,
+          0.0,
+          4.25531914893617
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          95.74468085106385,
+          4.25531914893617
+        ]
+      ]
+    },
+    {
+      "lower": 0.72,
+      "upper": 0.72,
+      "cost_per_1000": 19170.212765957447,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 0.425531914893617,
+      "closer_inspection_minutes_per_day": 4.25531914893617,
+      "total_inspection_staff_fte": 0.01182033096926714,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          45,
+          0,
+          2
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          95.74468085106385,
+          0.0,
+          4.25531914893617
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          95.74468085106385,
+          4.25531914893617
+        ]
+      ]
+    },
+    {
+      "lower": 0.73,
+      "upper": 0.73,
+      "cost_per_1000": 19585.106382978724,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 0.2127659574468085,
+      "closer_inspection_minutes_per_day": 2.127659574468085,
+      "total_inspection_staff_fte": 0.00591016548463357,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          46,
+          0,
+          1
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          97.87234042553192,
+          0.0,
+          2.127659574468085
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          97.87234042553192,
+          2.127659574468085
+        ]
+      ]
+    },
+    {
+      "lower": 0.74,
+      "upper": 0.74,
+      "cost_per_1000": 19585.106382978724,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 0.2127659574468085,
+      "closer_inspection_minutes_per_day": 2.127659574468085,
+      "total_inspection_staff_fte": 0.00591016548463357,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          46,
+          0,
+          1
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          97.87234042553192,
+          0.0,
+          2.127659574468085
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          97.87234042553192,
+          2.127659574468085
+        ]
+      ]
+    },
+    {
+      "lower": 0.75,
+      "upper": 0.75,
+      "cost_per_1000": 19585.106382978724,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 0.2127659574468085,
+      "closer_inspection_minutes_per_day": 2.127659574468085,
+      "total_inspection_staff_fte": 0.00591016548463357,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          46,
+          0,
+          1
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          97.87234042553192,
+          0.0,
+          2.127659574468085
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          97.87234042553192,
+          2.127659574468085
+        ]
+      ]
+    },
+    {
+      "lower": 0.76,
+      "upper": 0.76,
+      "cost_per_1000": 19585.106382978724,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 0.2127659574468085,
+      "closer_inspection_minutes_per_day": 2.127659574468085,
+      "total_inspection_staff_fte": 0.00591016548463357,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          46,
+          0,
+          1
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          97.87234042553192,
+          0.0,
+          2.127659574468085
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          97.87234042553192,
+          2.127659574468085
+        ]
+      ]
+    },
+    {
+      "lower": 0.77,
+      "upper": 0.77,
+      "cost_per_1000": 19585.106382978724,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 0.2127659574468085,
+      "closer_inspection_minutes_per_day": 2.127659574468085,
+      "total_inspection_staff_fte": 0.00591016548463357,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          46,
+          0,
+          1
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          97.87234042553192,
+          0.0,
+          2.127659574468085
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          97.87234042553192,
+          2.127659574468085
+        ]
+      ]
+    },
+    {
+      "lower": 0.78,
+      "upper": 0.78,
+      "cost_per_1000": 20000.0,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 0.0,
+      "closer_inspection_minutes_per_day": 0.0,
+      "total_inspection_staff_fte": 0.0,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          47,
+          0,
+          0
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "lower": 0.79,
+      "upper": 0.79,
+      "cost_per_1000": 20000.0,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 0.0,
+      "closer_inspection_minutes_per_day": 0.0,
+      "total_inspection_staff_fte": 0.0,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          47,
+          0,
+          0
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "lower": 0.8,
+      "upper": 0.8,
+      "cost_per_1000": 20000.0,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 0.0,
+      "closer_inspection_minutes_per_day": 0.0,
+      "total_inspection_staff_fte": 0.0,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          47,
+          0,
+          0
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "lower": 0.81,
+      "upper": 0.81,
+      "cost_per_1000": 20000.0,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 0.0,
+      "closer_inspection_minutes_per_day": 0.0,
+      "total_inspection_staff_fte": 0.0,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          47,
+          0,
+          0
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "lower": 0.8200000000000001,
+      "upper": 0.8200000000000001,
+      "cost_per_1000": 20000.0,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 0.0,
+      "closer_inspection_minutes_per_day": 0.0,
+      "total_inspection_staff_fte": 0.0,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          47,
+          0,
+          0
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "lower": 0.8300000000000001,
+      "upper": 0.8300000000000001,
+      "cost_per_1000": 20000.0,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 0.0,
+      "closer_inspection_minutes_per_day": 0.0,
+      "total_inspection_staff_fte": 0.0,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          47,
+          0,
+          0
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "lower": 0.84,
+      "upper": 0.84,
+      "cost_per_1000": 20000.0,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 0.0,
+      "closer_inspection_minutes_per_day": 0.0,
+      "total_inspection_staff_fte": 0.0,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          47,
+          0,
+          0
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "lower": 0.85,
+      "upper": 0.85,
+      "cost_per_1000": 20000.0,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 0.0,
+      "closer_inspection_minutes_per_day": 0.0,
+      "total_inspection_staff_fte": 0.0,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          47,
+          0,
+          0
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "lower": 0.86,
+      "upper": 0.86,
+      "cost_per_1000": 20000.0,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 0.0,
+      "closer_inspection_minutes_per_day": 0.0,
+      "total_inspection_staff_fte": 0.0,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          47,
+          0,
+          0
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "lower": 0.87,
+      "upper": 0.87,
+      "cost_per_1000": 20000.0,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 0.0,
+      "closer_inspection_minutes_per_day": 0.0,
+      "total_inspection_staff_fte": 0.0,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          47,
+          0,
+          0
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "lower": 0.88,
+      "upper": 0.88,
+      "cost_per_1000": 20000.0,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 0.0,
+      "closer_inspection_minutes_per_day": 0.0,
+      "total_inspection_staff_fte": 0.0,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          47,
+          0,
+          0
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "lower": 0.89,
+      "upper": 0.89,
+      "cost_per_1000": 20000.0,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 0.0,
+      "closer_inspection_minutes_per_day": 0.0,
+      "total_inspection_staff_fte": 0.0,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          47,
+          0,
+          0
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "lower": 0.9,
+      "upper": 0.9,
+      "cost_per_1000": 20000.0,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 0.0,
+      "closer_inspection_minutes_per_day": 0.0,
+      "total_inspection_staff_fte": 0.0,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          47,
+          0,
+          0
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "lower": 0.91,
+      "upper": 0.91,
+      "cost_per_1000": 20000.0,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 0.0,
+      "closer_inspection_minutes_per_day": 0.0,
+      "total_inspection_staff_fte": 0.0,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          47,
+          0,
+          0
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "lower": 0.92,
+      "upper": 0.92,
+      "cost_per_1000": 20000.0,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 0.0,
+      "closer_inspection_minutes_per_day": 0.0,
+      "total_inspection_staff_fte": 0.0,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          47,
+          0,
+          0
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "lower": 0.93,
+      "upper": 0.93,
+      "cost_per_1000": 20000.0,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 0.0,
+      "closer_inspection_minutes_per_day": 0.0,
+      "total_inspection_staff_fte": 0.0,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          47,
+          0,
+          0
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "lower": 0.9400000000000001,
+      "upper": 0.9400000000000001,
+      "cost_per_1000": 20000.0,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 0.0,
+      "closer_inspection_minutes_per_day": 0.0,
+      "total_inspection_staff_fte": 0.0,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          47,
+          0,
+          0
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "lower": 0.9500000000000001,
+      "upper": 0.9500000000000001,
+      "cost_per_1000": 20000.0,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 0.0,
+      "closer_inspection_minutes_per_day": 0.0,
+      "total_inspection_staff_fte": 0.0,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          47,
+          0,
+          0
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "lower": 0.96,
+      "upper": 0.96,
+      "cost_per_1000": 20000.0,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 0.0,
+      "closer_inspection_minutes_per_day": 0.0,
+      "total_inspection_staff_fte": 0.0,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          47,
+          0,
+          0
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "lower": 0.97,
+      "upper": 0.97,
+      "cost_per_1000": 20000.0,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 0.0,
+      "closer_inspection_minutes_per_day": 0.0,
+      "total_inspection_staff_fte": 0.0,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          47,
+          0,
+          0
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "lower": 0.98,
+      "upper": 0.98,
+      "cost_per_1000": 20000.0,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 0.0,
+      "closer_inspection_minutes_per_day": 0.0,
+      "total_inspection_staff_fte": 0.0,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          47,
+          0,
+          0
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "lower": 0.99,
+      "upper": 0.99,
+      "cost_per_1000": 20000.0,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 0.0,
+      "closer_inspection_minutes_per_day": 0.0,
+      "total_inspection_staff_fte": 0.0,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          47,
+          0,
+          0
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "lower": 1.0,
+      "upper": 1.0,
+      "cost_per_1000": 20000.0,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "review_minutes_per_day": 0.0,
+      "review_staff_fte": 0.0,
+      "closer_inspections_per_day": 0.0,
+      "closer_inspection_minutes_per_day": 0.0,
+      "total_inspection_staff_fte": 0.0,
+      "actual_triage_counts": [
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          47,
+          0,
+          0
+        ]
+      ],
+      "expected_triage_per_1000": [
+        [
+          900.0,
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "expected_binary_per_1000": [
+        [
+          900.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ]
+      ]
+    }
+  ]
+}

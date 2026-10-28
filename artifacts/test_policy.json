@@ -1,0 +1,58 @@
+{
+  "triage": {
+    "lower": 0.0,
+    "upper": 0.06,
+    "cost_per_1000": 3412.617647058824,
+    "review_share": 0.8730588235294118,
+    "reviews_per_day": 87.30588235294118,
+    "review_minutes_per_day": 436.5294117647059,
+    "review_staff_fte": 1.2125816993464054,
+    "closer_inspections_per_day": 19.39941176470589,
+    "closer_inspection_minutes_per_day": 193.99411764705889,
+    "total_inspection_staff_fte": 1.7514542483660134,
+    "actual_triage_counts": [
+      [
+        0,
+        32,
+        2
+      ],
+      [
+        0,
+        13,
+        37
+      ]
+    ],
+    "expected_triage_per_1000": [
+      [
+        0.0,
+        847.0588235294117,
+        52.94117647058823
+      ],
+      [
+        0.0,
+        26.000000000000004,
+        74.0
+      ]
+    ],
+    "expected_binary_per_1000": [
+      [
+        804.7058823529412,
+        95.29411764705887
+      ],
+      [
+        1.3000000000000012,
+        98.7
+      ]
+    ]
+  },
+  "alternatives_cost_per_1000": {
+    "Do nothing (pass every photo)": 20000.0,
+    "Human review of every photo": 4200.000000000001,
+    "Closer inspection of every return": 5000.0,
+    "Model alone": 4678.823529411765,
+    "Model with human review": 3412.617647058824
+  },
+  "actual_damage_prevalence": 0.5952380952380952,
+  "production_prevalence_assumed": 0.1,
+  "unit": "one dataset photo; one photo per return is only a workload proxy"
+}

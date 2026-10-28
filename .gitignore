@@ -14,3 +14,7 @@ runs/
 
 # Never commit your API key
 .env
+
+# Downloaded COCO baseline; finetuned weights are committed in weights/.
+/yolo11n.pt
+/*.log
