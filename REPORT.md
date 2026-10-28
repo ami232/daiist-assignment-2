@@ -143,4 +143,4 @@ The cost figures are estimates, and the margin over checking everything is only 
 
 ## Generative AI use disclosure
 
-I used AI (Claude) to write code for this assignment: downloading the dataset, the training calls, the cost and threshold functions, the plots and the Gradio dashboard. I also used it to help research plausible numbers for the cost model, such as the labour cost per hour, the share of bad welds, the time for one visual check and how often inspectors miss a bad weld. AI also helped me turn my results from training notebook into the wording of this report.
+I used AI (Claude) to write code for this assignment: downloading the dataset, the training calls, the cost and threshold functions, the plots and the Gradio dashboard. I also used it to help research plausible numbers for the cost model, such as the labour cost per hour, the share of bad welds, the time for one visual check and how often inspectors miss a bad weld. 
