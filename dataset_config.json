@@ -1,0 +1,47 @@
+{
+  "workspace": "yolov8-z6snb",
+  "project": "damage-detect-pzgeu",
+  "version": 1,
+  "task": "object-detection",
+  "export_format": "yolov11",
+  "classes": [
+    "Damage-detected",
+    "Undamaged"
+  ],
+  "url": "https://universe.roboflow.com/yolov8-z6snb/damage-detect-pzgeu/dataset/1",
+  "license": "CC BY 4.0",
+  "status": "selected",
+  "published_export_images": {
+    "train": 1501,
+    "valid": 366,
+    "test": 206
+  },
+  "published_training_outputs_per_source_example": 1,
+  "business_context": "Car-rental return inspections: visible vehicle damage screening to decide whether further inspection is needed.",
+  "download_verified": true,
+  "label_audit_complete": true,
+  "split_independence_review_complete": false,
+  "measured_export_images": {
+    "train": 1501,
+    "valid": 366,
+    "test": 206
+  },
+  "selected_on": "2026-10-24",
+  "selected_by": "assistant_under_explicit_student_authorization",
+  "data_dir": "data/car-damage-v1",
+  "audit_dir": "audit/car-damage-v1",
+  "positive_class": "Damage-detected",
+  "training_recommendation": "suitable_for_academic_prototype_with_documented_limitations",
+  "visual_review_complete_for_flagged_pairs": true,
+  "test_cross_split_phash_candidate_pairs": 0,
+  "confirmed_train_validation_near_copy_pairs": 3,
+  "known_annotation_coverage_omissions": 2,
+  "operational_ground_truth_policy": "For future operational costing, do not invent a condition label for empty-label images. Report their count and separate unknown ground truth from evaluable labelled cases; retain every image in the original detection test split.",
+  "limitations": [
+    "Three confirmed related train-validation pairs; leave supplied splits unchanged and acknowledge possible validation optimism.",
+    "One validation and one test photo contain vehicles but have empty labels; do not relabel.",
+    "Photo backgrounds, views and image quality differ between classes and may differ from rental inspection photos.",
+    "A photo does not establish an accident, its timing, fault, hidden mechanical damage or roadworthiness.",
+    "No matches in a pHash screen do not prove full source independence."
+  ]
+}

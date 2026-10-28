@@ -1,0 +1,7092 @@
+{
+  "evaluation_split": "valid",
+  "test_evaluated": false,
+  "weights_sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+  "classes": [
+    "Damage-detected",
+    "Undamaged"
+  ],
+  "inference": {
+    "imgsz": 640,
+    "batch": 1,
+    "rect": false,
+    "confidence": 0.001,
+    "nms_iou": 0.7,
+    "max_det": 300
+  },
+  "device": "mps",
+  "images": [
+    {
+      "image": "data/car-damage-v1/valid/images/0002_JPEG.rf.7a8fbc91e85e73a93aae18923079f0b7.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.0,
+            0.23515624999999996,
+            0.9453125,
+            0.92578125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0002_jpeg.rf.b1696d38dc24ee669e9cf82c01474c66.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.05625000000000002,
+            0.22929687499999996,
+            0.8984375,
+            0.842578125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0003_JPEG.rf.69f7c5e90ef33f64504c9ef088eb6988.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.0003906249999999778,
+            0.04843749999999997,
+            0.933984375,
+            1.0
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0004_JPEG.rf.c050920f47542fca10292d9320048472.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.0,
+            0.008593750000000011,
+            1.0,
+            0.85234375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0005_JPEG.rf.80b9293cde16e1200aaca1376bf58057.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.31992187499999997,
+            0.10468749999999999,
+            0.908203125,
+            0.784375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0006_JPEG.rf.90af36eb67622083ea90e612f7883ffb.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.13203125000000004,
+            0.25625,
+            0.94921875,
+            0.896875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0008_JPEG.rf.2480741fa12e254fe030c89378d587e2.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.005859375,
+            0.279296875,
+            0.866015625,
+            0.916015625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0008_jpeg.rf.aa0c84295d54c9547c2fe3e36b1396eb.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.1515625,
+            0.27929687500000006,
+            0.85625,
+            0.8050781250000001
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0010_jpeg.rf.75dc7d5c8f23531a0c0b99bac4cd101a.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.08125000000000004,
+            0.17109375,
+            0.953125,
+            0.78046875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0011_JPEG.rf.f4e83ed1c3b6ac48379b067d3759af18.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.09101562500000004,
+            0.013671875,
+            0.958984375,
+            0.587890625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0012_jpeg.rf.464d09421b27b3202d84088a075bc8a3.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.17265624999999996,
+            0.248828125,
+            0.84453125,
+            0.9183593750000001
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0018_jpeg.rf.72266666f8056c0f0228dc25416ef702.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.037109375,
+            0.34765625,
+            0.953515625,
+            0.91796875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0019_jpeg.rf.30341453fc17d1f81de101c5760700dc.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.07968749999999997,
+            0.10273437499999999,
+            1.0,
+            0.9175781249999999
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0020_JPEG.rf.bc6737656d5923ce55c6bb95f7a0cabe.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.0,
+            0.004687499999999956,
+            1.0,
+            0.84375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0026_JPEG.rf.0d086d332f20df5d2d375807e52ef4be.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.0,
+            0.22460937500000006,
+            1.0,
+            0.8441406250000001
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0026_jpeg.rf.f360b832860489a8235d5c248c4ff0c9.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.03476562499999997,
+            0.10703124999999997,
+            0.977734375,
+            0.95703125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0028_jpeg.rf.448d5349fbf7dae1772ba7130e88aa56.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.007421875000000022,
+            0.03671875000000002,
+            0.980078125,
+            0.99765625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0029_jpeg.rf.4b66febe7ec7ee12b90bec6fde033e49.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.12851562500000002,
+            0.0703125,
+            0.910546875,
+            0.7203125
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.025000000000000022,
+            0.705078125,
+            0.3203125,
+            0.974609375
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.35117187499999997,
+            0.7417968749999999,
+            0.650390625,
+            0.947265625
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.6796875,
+            0.7222656249999999,
+            0.9765625,
+            0.958984375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0030_JPEG.rf.d86650ab6980df392a5e325e1d01b18a.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.030859375000000022,
+            0.293359375,
+            0.962890625,
+            0.745703125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0030_jpeg.rf.b5553c025e499f21837b2b49c6927b58.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.001953125,
+            0.01953125,
+            0.143359375,
+            0.37265625
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.09687499999999999,
+            0.019140624999999994,
+            0.6671875,
+            0.382421875
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.0,
+            0.14023437500000002,
+            1.0,
+            0.891015625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0032_JPEG.rf.d5815c07725ffd90c512328f20318583.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.417578125,
+            0.34921875,
+            0.918359375,
+            0.91953125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0032_jpeg.rf.afa205cd6d5560a886b3610262ca6a42.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.009765625,
+            0.005859375,
+            0.976171875,
+            0.964453125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0033_jpeg.rf.3c13612ffbb1d8db5d8da3aeb5f61db8.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.06562500000000004,
+            0.19375000000000003,
+            0.8828125,
+            0.8015625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0041_JPEG.rf.be13259a5ac24f60f159f2fe157662d1.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.2578125,
+            0.29726562500000003,
+            1.0,
+            0.927734375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0042_JPEG.rf.d8e41013007ddd4877e4ed76bb838c25.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.38437499999999997,
+            0.29531250000000003,
+            1.0,
+            0.8640625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0042_jpeg.rf.916d6352e7d55af3d93fd51209fbc8c8.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.0,
+            0.18632812499999996,
+            1.0,
+            0.896484375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0043_JPEG.rf.5bbf0e15bb9053a9c16c5cecf50b7632.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.182421875,
+            0.343359375,
+            0.7222656249999999,
+            0.883203125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0044_JPEG.rf.5131525cb530f5a27d11b3ac320e0d36.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.09218750000000003,
+            0.0,
+            1.0,
+            0.70625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0044_jpeg.rf.40bb9925d366d5e01cc70f81ba7d6e1e.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.037109375,
+            0.09726562499999997,
+            0.994140625,
+            0.758984375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0045_JPEG.rf.6763f19de45a186a2428fe6a734c7cb8.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.020312499999999956,
+            0.04531249999999998,
+            1.0,
+            0.8046875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0048_JPEG.rf.7a7e7a185d10a169a224593ce24a8a01.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.004296874999999978,
+            0.21328124999999998,
+            0.761328125,
+            0.91953125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0049_JPEG.rf.31d5a3c293ff40f18711324c5c1e529e.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.022265625000000067,
+            0.03554687499999998,
+            0.999609375,
+            0.995703125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0050_JPEG.rf.deef737c3579b4c0401dec68761237e6.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.13749999999999996,
+            0.04414062499999999,
+            1.0,
+            0.9605468749999999
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0052_JPEG.rf.7a3c80f4eee753521c5ebcedf0e31a26.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.028906249999999967,
+            0.10625000000000007,
+            0.98359375,
+            0.978125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0052_JPEG.rf.cd411e05f7484047f0837ef09c88ff20.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.0390625,
+            0.015625,
+            1.0,
+            0.90625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0052_jpeg.rf.067518c22ff7dcdd21a7baca63ed2570.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.18007812499999998,
+            0.31054687500000006,
+            0.832421875,
+            0.9300781250000001
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0053_JPEG.rf.ab29ac9f1ce3891847cba8fc80fa08f8.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.004687499999999956,
+            0.1875,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0053_jpeg.rf.2e5758a89253a82e0d8728a573db6c1b.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.0,
+            0.201171875,
+            1.0,
+            0.834765625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0055_jpeg.rf.252d8eac77c516c2ffc742d8fd9b047d.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.017578124999999944,
+            0.18085937499999993,
+            0.9996093749999999,
+            0.945703125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0057_jpeg.rf.54de5926327eaa9924a6f3a76ec054d0.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.025781249999999978,
+            0.32421875,
+            0.97265625,
+            0.80546875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0060_jpeg.rf.f8ab896e2ee88e8542bcb90d4d378f62.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.056640625,
+            0.24843749999999998,
+            0.941796875,
+            0.9625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0061_jpeg.rf.77fba3da296aab62edab7884ebe3fcbc.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.0,
+            0.027343749999999944,
+            1.0,
+            0.9976562499999999
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0062_jpeg.rf.c48d3b007689387321b28a3c251283f0.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.013281250000000022,
+            0.19765624999999998,
+            0.98984375,
+            0.83828125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0067_jpeg.rf.4485645fd974e60c9a79455823e3f3ac.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.06406249999999997,
+            0.2,
+            0.9609375,
+            0.7765625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0069_jpeg.rf.3eb243c8a1b3a7f70ed34f0ef7a7b07f.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.021484375,
+            0.083984375,
+            0.994140625,
+            0.850390625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0070_JPEG.rf.20eec605067becd3c82f05df4d6157bb.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.0,
+            0.0703125,
+            0.9765625,
+            1.0
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0073_JPEG.rf.67c16757aa8bffad72b310b01dce04cf.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.14765625000000004,
+            0.157421875,
+            0.68359375,
+            0.512890625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0074_JPEG.rf.b8bb944d4249bba8c1e7bb866ce38fc3.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.127734375,
+            0.21953124999999996,
+            0.8207031250000001,
+            0.92578125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0074_JPEG.rf.dabfc8d6f857456a7411b9ffba16d078.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.0234375,
+            0.52578125,
+            0.65625,
+            0.9992187499999999
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0079_JPEG.rf.914c25c1d872ba37f0d8954731e0d2bd.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.009374999999999967,
+            0.028906250000000022,
+            0.9953125,
+            0.92578125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0088_JPEG.rf.1c16ed2b184eb5a58ca5823527f3cc6a.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.03671875000000002,
+            0.1375,
+            0.90859375,
+            0.8734375000000001
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0091_JPEG.rf.dd3dd5b4c9123b523b5f8ca9993be790.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.16523437500000004,
+            0.16093749999999996,
+            0.736328125,
+            1.0
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0092_JPEG.rf.a37f9577974f4ff85cf74989a4a5d688.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.12382812499999996,
+            0.165234375,
+            0.904296875,
+            0.770703125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0093_JPEG.rf.e7a2455bf730c94c7f100bc1dec87cb0.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.23906249999999996,
+            0.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0094_JPEG.rf.5bbf2262053d1b815b16235935d3d6af.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.0078125,
+            0.0078125,
+            1.0,
+            0.94375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0095_JPEG.rf.3178fc42d8336098d92772614e61c9e9.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.12578125,
+            0.13710937499999998,
+            0.88984375,
+            0.648828125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0096_JPEG.rf.529e05a275bfc0cd8b7d989d83c3c801.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.23906249999999996,
+            0.07148437499999999,
+            1.0,
+            0.716015625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0096_JPEG.rf.9fb80ddbcae371adf78857bdbca23956.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.12460937499999997,
+            0.016015625000000033,
+            0.986328125,
+            0.838671875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0098_JPEG.rf.92f7a967318d7fd1ac4fa35b2c7d2345.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.0,
+            0.15312499999999996,
+            0.84375,
+            0.890625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0099_jpeg.rf.a2d221ff3548896fd5c82e5c5565a79a.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.003515625000000022,
+            0.017578125,
+            0.999609375,
+            0.910546875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0101_JPEG.rf.a9ea80c5cce5aa35cd48d8e8adf27aa9.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.10898437499999997,
+            0.19257812499999993,
+            0.994140625,
+            0.910546875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0101_JPEG.rf.c9a9e98c85b2fed8e2c8e2ce684d0114.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.0015624999999999667,
+            0.11093749999999997,
+            0.721875,
+            1.0
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0105_JPEG.rf.3ff3cd8a9fd400c980cbe3174c42c570.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.0078125,
+            0.03476562499999997,
+            0.984375,
+            0.977734375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0106_JPEG.rf.46854b65f4d1fc67c31e6b25ec565871.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.004687499999999956,
+            0.07343750000000004,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0107_JPEG.rf.76d745a37b377bc357309ec67f5e4ef3.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.05312500000000003,
+            0.043749999999999956,
+            0.6125,
+            1.0
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0107_JPEG.rf.88a058455e50339e41e0b79cce09e947.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.21523437500000003,
+            0.327734375,
+            0.947265625,
+            0.7566406250000001
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0108_JPEG.rf.558ab288890e461cf8f74e9832e4c961.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.21015625000000004,
+            0.19179687500000003,
+            0.85078125,
+            0.803515625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0109_jpeg.rf.ffb9257dbe1258ef8478bd24037d080f.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.048828125,
+            0.2234375,
+            0.966796875,
+            0.8734375000000001
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0112_JPEG.rf.7a96272ec796664c664771d376b7e4db.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.014062499999999978,
+            0.1515625,
+            0.9765625,
+            0.815625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0113_jpeg.rf.7b443e2b8ed6f7961644d61d3a20d849.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.04999999999999999,
+            0.190625,
+            0.9546874999999999,
+            0.8
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0114_JPEG.rf.4ae51388b86b1cdc0ea8d126793335fb.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.07656249999999998,
+            0.05781249999999999,
+            0.890625,
+            0.7796875000000001
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0114_JPEG.rf.6de30862f8d23be145564c5ec3b2b790.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.0003906250000000333,
+            0.18085937500000004,
+            0.766796875,
+            0.947265625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0114_jpeg.rf.cbe9a0dabd3671a1009d27bcae68097b.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.15546874999999993,
+            0.131640625,
+            0.90859375,
+            0.8792968750000001
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0115_JPEG.rf.8de883e1757c9323976d862397d88a45.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.030859375000000022,
+            0.033203124999999944,
+            0.925390625,
+            0.9761718749999999
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0116_JPEG.rf.059f2c989b03293e260bcdea55e454ae.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.22343749999999996,
+            0.0,
+            1.0,
+            0.8609375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0117_JPEG.rf.0f2bc9c6b31c38496fd213e548a6c007.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.13359375000000007,
+            0.22109375000000003,
+            0.99765625,
+            0.95703125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0118_JPEG.rf.5260816ca73706c604a0c9a5025e4cec.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.05624999999999997,
+            0.07187499999999997,
+            0.9765625,
+            1.0
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0118_JPEG.rf.fba6a5b8d6f4a89ef56438204c9285c4.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.23593750000000002,
+            0.0,
+            0.9984375,
+            0.834375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0119_JPEG.rf.024eac5b1415a81b255e8052dbc37a27.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.059374999999999956,
+            0.18593749999999998,
+            1.0,
+            0.9796874999999999
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0120_JPEG.rf.e8bc87afba33149b8fb2794942feff42.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.08320312500000004,
+            0.048828125,
+            0.951171875,
+            0.941796875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0122_JPEG.rf.6ea2fe290186ec1ca0e4d759b97d039b.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.10078124999999999,
+            0.0,
+            0.8929687500000001,
+            0.8484375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0122_JPEG.rf.defc97227ec2ab325f3cb924460fa5d9.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.7507812500000001,
+            0.20742187500000003,
+            0.94765625,
+            0.451953125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0122_jpeg.rf.8e52de13ec139d092d1cef66cc7b2ddb.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.11835937499999999,
+            0.06210937500000002,
+            0.8519531250000001,
+            0.714453125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0123_jpeg.rf.a08a824cc2f4bd11e0fd8322fdb4c6a4.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.30625,
+            0.48710937499999996,
+            0.85,
+            0.900390625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0124_jpeg.rf.6890c53359c42fc268040cab6bc1e7be.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.025390624999999944,
+            0.06601562499999997,
+            0.9761718749999999,
+            0.951171875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0126_jpeg.rf.74b1b99a3ec98bce7017e148af111bc5.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.02734375,
+            0.250390625,
+            0.96640625,
+            0.910546875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0127_JPEG.rf.25fced4cc7fe497e26b9baffe7ca3978.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.011328125000000022,
+            0.008203124999999978,
+            0.983984375,
+            0.910546875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0129_JPEG.rf.6fbf6bbc1dfe039844d27cb9039baeb9.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.10468750000000004,
+            0.14023437499999997,
+            1.0,
+            0.970703125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0132_JPEG.rf.6d04fb4036d043fa66ea55037ead8e2c.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.008203124999999978,
+            0.24023437500000006,
+            0.710546875,
+            0.8441406250000001
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0132_jpeg.rf.5b42313cf5dd332a10228d21b31958ff.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.13984375000000004,
+            0.44101562499999997,
+            0.94921875,
+            0.958984375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0134_JPEG.rf.96da152d1cf654f0d0affd8480b8b759.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.048046875000000044,
+            0.08906249999999999,
+            0.923828125,
+            0.9624999999999999
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0134_jpeg.rf.8e109a23de0ce95a4df06aabcd06c34d.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.05625000000000002,
+            0.165234375,
+            0.9546875,
+            0.881640625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0137_JPEG.rf.0ac43c9bb670e2837356ea9d2b8af3d5.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.10312499999999997,
+            0.07734374999999999,
+            0.953125,
+            0.9507812499999999
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0138_jpeg.rf.fa2d5c35e400cb72e6b58ab5c3babfb6.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.01953125,
+            0.23671874999999998,
+            0.91640625,
+            0.94296875
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.7296875,
+            0.12578125,
+            1.0,
+            0.48515625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0140_JPEG.rf.c4a828a51675ff02d4c9a28012cd6e45.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.021093749999999994,
+            0.10898437500000002,
+            0.40546875000000004,
+            0.995703125
+          ]
+        },
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.54375,
+            0.170703125,
+            0.9359375000000001,
+            0.8558593750000001
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0143_JPEG.rf.594cd05269d7c8b43ad610d9588096b0.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.08945312499999997,
+            0.19921875000000006,
+            0.774609375,
+            0.9554687500000001
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0145_JPEG.rf.93d9aa7b3fb1516c6d60eab4cf587f85.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.03671875000000002,
+            0.17343749999999997,
+            0.97421875,
+            0.8828125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0146_JPEG.rf.7a0a682a3d20099ce55c2cc92f21a167.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.04414062499999999,
+            0.09179687500000006,
+            0.9058593749999999,
+            0.9691406250000001
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0146_JPEG.rf.93e3860814c43853f1990e3b37fff3de.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.06171874999999999,
+            0.05234374999999997,
+            0.8460937500000001,
+            0.99140625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0146_JPEG.rf.e232b09291e78b9b82f73ee85dfd4193.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.29960937499999996,
+            0.257421875,
+            0.772265625,
+            0.8113281250000001
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0148_JPEG.rf.e8594a192e5e9b155f8d1f02872faab9.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.34687500000000004,
+            0.17070312500000007,
+            1.0,
+            0.999609375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0149_jpeg.rf.fa25a57346787a813f272b620da3a386.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.05507812499999998,
+            0.3203125,
+            0.937109375,
+            0.9296875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0153_JPEG.rf.e80de07b0c86f6da328922a3c3b81fd8.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.007421875000000022,
+            0.10117187499999997,
+            0.980078125,
+            0.994140625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0154_JPEG.rf.d673800d983dd1935bea0e4c855a4cf7.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.11132812499999994,
+            0.1875,
+            0.9371093749999999,
+            1.0
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0156_JPEG.rf.5965a3d651075f6f1d3c26d1726f448e.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.180859375,
+            0.42304687500000004,
+            0.630078125,
+            0.895703125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0156_jpeg.rf.4240813276a981e9ac741f797e48288b.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.26249999999999996,
+            0.36484375,
+            0.96875,
+            0.94296875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0157_jpeg.rf.5e822806aff539172bdc4e22dc0e74a6.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.035937499999999956,
+            0.006249999999999978,
+            1.0,
+            0.984375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0158_JPEG.rf.2ddf36fb5d0972dfbbdcc732c80a935e.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.23593749999999997,
+            0.15195312499999997,
+            0.9765625,
+            0.766796875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0159_JPEG.rf.8a76ea258b9230b7acc8df8e8208a3b6.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.06406249999999997,
+            0.001953125,
+            1.0,
+            0.935546875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0162_jpeg.rf.2ff96dfc9e613734383fa3308d1a73de.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.347265625,
+            0.533984375,
+            0.832421875,
+            0.833203125
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.7410156250000001,
+            0.41328125000000004,
+            0.960546875,
+            0.71015625
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.155078125,
+            0.45976562499999996,
+            0.248046875,
+            0.760546875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0165_JPEG.rf.79079083dd053624a91bf760c1a3d0a3.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.09726562499999997,
+            0.08750000000000002,
+            0.783984375,
+            0.99375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0166_jpeg.rf.f05f5db449f4dda2dccbb7d5dbe1641f.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.06406250000000002,
+            0.19765624999999998,
+            0.9140625,
+            0.86171875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0172_JPEG.rf.cb7103699c9899db27587e9fd3ee24c5.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.026562500000000044,
+            0.20976562500000007,
+            1.0,
+            0.999609375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0174_JPEG.rf.1ae318da171e272e9aa9491e9266e8c1.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.160546875,
+            0.4828125,
+            0.606640625,
+            0.7796875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0174_JPEG.rf.4e2aff772165ad0cc2f7fa6f980de986.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.140625,
+            0.10781249999999998,
+            1.0,
+            0.9874999999999999
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0175_jpeg.rf.056816bb6e506436c797520d49105ab6.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.0003906249999999778,
+            0.11874999999999997,
+            0.333984375,
+            0.4328125
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.0,
+            0.19570312500000003,
+            0.9765625,
+            0.912109375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0176_JPEG.rf.d99d929d20e8066076e280f399c54e82.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.12890624999999994,
+            0.07382812500000002,
+            0.9742187499999999,
+            0.801171875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0178_JPEG.rf.5a6e52732431ea33b897158e568ee065.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.011328125000000022,
+            0.02734375,
+            0.999609375,
+            0.74765625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0179_JPEG.rf.b45d8e0734fa7ddb13f36c73d8fcd5e6.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.0703125,
+            0.41874999999999996,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0181_JPEG.rf.a2eca831405664add4ff47de57a48cca.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.13359375,
+            0.28593749999999996,
+            0.87421875,
+            1.0
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0182_JPEG.rf.d46638e25bce2d989d0d9fcdd3c6e1df.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.19648437500000004,
+            0.12265624999999997,
+            0.970703125,
+            0.94921875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0183_JPEG.rf.2b74171fd50545dc2e2f090b973030c7.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.27578125,
+            0.083984375,
+            0.96640625,
+            0.778515625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0187_jpeg.rf.8c851856cf59542beb914936f17d6459.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.08945312500000002,
+            0.10273437499999999,
+            0.871484375,
+            0.778515625
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.47734375,
+            0.052343749999999994,
+            0.99921875,
+            0.34140625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0191_JPEG.rf.4166e1c5cc80dfb77d74e99506005a9b.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.0078125,
+            0.19218749999999996,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0191_JPEG.rf.f526148dd04a0522add4482994a8b4dd.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.04999999999999999,
+            0.05976562499999999,
+            0.9781249999999999,
+            0.9449218749999999
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0194_jpeg.rf.07dce3b2bf2ae5417a54c5701dfbf595.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.03867187500000002,
+            0.194140625,
+            0.980078125,
+            0.704296875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0196_JPEG.rf.c82b9b4b8ea7246a50bedb27b5d2b748.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.12070312500000002,
+            0.09882812499999999,
+            0.999609375,
+            0.9683593749999999
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0197_jpeg.rf.af56b642f3548f5e04f747390104ce86.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.021484375,
+            0.137890625,
+            0.994140625,
+            0.704296875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0199_jpeg.rf.8f7f0d9af8349f0388b17f0fe4ed0b67.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.04062499999999997,
+            0.1359375,
+            0.9875,
+            0.9781249999999999
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0200_jpeg.rf.9bde51bf3c799224c60dd886c5131c82.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.17070312499999996,
+            0.10468749999999999,
+            0.943359375,
+            0.9390624999999999
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0201_JPEG.rf.8553a9171dc28c6bc7f9ed35bd4217f2.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.08359374999999997,
+            0.141796875,
+            0.78203125,
+            0.9644531249999999
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0202_jpeg.rf.4c575847f68ae721a2521a96365ddd1c.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.0234375,
+            0.24687499999999996,
+            0.9765625,
+            0.8484375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0206_JPEG.rf.f24129fcccea8de33b4eb6473b34b0e5.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.00390625,
+            0.11250000000000004,
+            0.93203125,
+            1.0
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0207_jpeg.rf.b92a4f483f137b82c37e52d4c2a20863.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.03515625,
+            0.17226562500000003,
+            0.94140625,
+            0.912109375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0209_JPEG.rf.522f7abf5a9c03eb0c6117c2fd8eee71.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.0703125,
+            0.09843749999999996,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0211_JPEG.rf.5032d7ca12e0d64d0172c3fab260a3cb.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.058593749999999944,
+            0.06796875000000002,
+            0.9976562499999999,
+            0.91015625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0212_JPEG.rf.b8772003944548e60d242c548769d51e.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.12421875000000004,
+            0.052734375,
+            0.95703125,
+            0.891015625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0215_JPEG.rf.0e072731e8a2071c11e71147cce5dc9a.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.126171875,
+            0.49921875,
+            0.803515625,
+            0.86015625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0215_JPEG.rf.db0d1a392214b5a44390889d8d1f35dc.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.0,
+            0.0078125,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0217_jpeg.rf.a68bde73c6dbe57be16906a93f139251.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.04296875,
+            0.18203125000000003,
+            0.98046875,
+            0.89453125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0219_jpeg.rf.6dd9b8bd7b25613907c47991ffbc0927.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.07734375000000004,
+            0.11445312499999999,
+            0.98359375,
+            0.823046875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0221_JPEG.rf.8fb670679d47cef06ddc163cb87af071.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.14726562500000007,
+            0.08476562500000007,
+            0.999609375,
+            0.999609375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0222_JPEG.rf.2930462351f309ef63da29b657026161.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.030859375000000022,
+            0.09687500000000004,
+            0.980078125,
+            0.9296875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0222_JPEG.rf.d1c53b9049441741e00033ad0e460779.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.158984375,
+            0.08125000000000004,
+            0.981640625,
+            0.9453125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0224_jpeg.rf.c2b781396aaaf4c7deeaa0ba24b9fc13.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.0,
+            0.2875,
+            1.0,
+            0.896875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0227_jpeg.rf.2b292b55d3191d4896ceb0d30b540b3e.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.0,
+            0.10898437499999997,
+            1.0,
+            0.873828125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0231_JPEG.rf.cf2e774d259890a0fe8d1c7fae0c40ab.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.09101562500000004,
+            0.15898437500000007,
+            0.880859375,
+            0.941015625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0232_JPEG.rf.9bb6b6d98a6bd86f17f545b3b96a6f5c.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.010937500000000044,
+            0.028124999999999956,
+            0.890625,
+            1.0
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0232_jpeg.rf.bd8a0793ac5b0f89fa148c3b58ae0e19.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.060546875,
+            0.250390625,
+            0.986328125,
+            0.7980468749999999
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.7800781250000001,
+            0.17265625,
+            0.999609375,
+            0.5648437500000001
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.555078125,
+            0.19765625,
+            0.7996093750000001,
+            0.43671875000000004
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0233_JPEG.rf.e2176ee8e9697db9e5fa8a858ba1adb8.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.08515624999999999,
+            0.013671875,
+            0.9351562499999999,
+            0.947265625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0233_jpeg.rf.a3eb59b01cccc9c9dbb055382741579a.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.07382812499999997,
+            0.13632812499999997,
+            0.760546875,
+            0.830859375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0235_jpeg.rf.3a3b9ba52a633aebdadd13aa9d68eb6c.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.021093750000000022,
+            0.16875,
+            0.97421875,
+            0.8890625000000001
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0236_jpeg.rf.a514c369c62bf7b47516f93960885e0b.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.15625,
+            0.026953125000000022,
+            1.0,
+            0.732421875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0239_jpeg.rf.d673f3544b862f9b32b97b395731b9f2.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.03867187499999997,
+            0.17656250000000007,
+            0.981640625,
+            0.9390625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0243_jpeg.rf.3cc19292cb41a004a872612395ff4973.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.09882812499999999,
+            0.15507812499999996,
+            0.9292968749999999,
+            0.943359375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0244_jpeg.rf.729d5414cb8dac4b2dfb84b93be38dcd.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.013281250000000022,
+            0.21523437499999998,
+            0.98203125,
+            0.883203125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0262_JPEG.rf.f1a487d8035a43114d845b0ff898ca81.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.390234375,
+            0.35156249999999994,
+            0.875390625,
+            0.9859374999999999
+          ]
+        },
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.13398437500000002,
+            0.15898437499999998,
+            0.376953125,
+            0.556640625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0263_JPEG.rf.4b577ca5fb817032c9b03f5b998033f7.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.04257812499999997,
+            0.06562500000000004,
+            0.985546875,
+            1.0
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0264_jpeg.rf.59bf1f7a8c4cb8efda659d956df09e00.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.008203124999999978,
+            0.10703125000000002,
+            0.951171875,
+            0.86171875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0274_JPEG.rf.f50abff7971a9bb0181fee7381b3bd93.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.012499999999999956,
+            0.12031249999999999,
+            1.0,
+            0.7718750000000001
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0276_jpeg.rf.b21249493c8b3925a2a42b4c8d33199a.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.011328125000000022,
+            0.105078125,
+            0.543359375,
+            0.502734375
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.24531250000000004,
+            0.147265625,
+            1.0,
+            0.915234375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0281_jpeg.rf.93b48955e77b8336dc752b132b4db767.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.05976562499999999,
+            0.07421875,
+            0.9761718749999999,
+            0.92421875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0283_jpeg.rf.9f1994478d53557108a8a1469657df5d.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.005859375,
+            0.12421875000000004,
+            0.986328125,
+            0.89453125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0295_jpeg.rf.9979fb342cea86ad35098186dabab6a2.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.0,
+            0.10820312499999996,
+            1.0,
+            0.912109375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0297_JPEG.rf.3818694470ecac456e4042ac7f7604ff.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.0,
+            0.012499999999999956,
+            0.896875,
+            1.0
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0302_jpeg.rf.2fc1d475cbae7c0ea96eb20ddc217400.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.005468749999999967,
+            0.38789062500000004,
+            0.99609375,
+            0.896484375
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.609375,
+            0.305078125,
+            1.0,
+            0.566796875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0305_jpeg.rf.13fe893aaef6da85f60798dd2fd03776.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.175,
+            0.11875000000000002,
+            0.8484375,
+            0.671875
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.6328125,
+            0.155078125,
+            0.96875,
+            0.341796875
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.11249999999999999,
+            0.20585937499999998,
+            0.2734375,
+            0.384765625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0311_jpeg.rf.0aa19782da49aa8cd42f587eefbda184.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.25585937500000006,
+            0.17109375,
+            0.8363281250000001,
+            0.81328125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0313_jpeg.rf.96e8e608e4074c582ac7fd41f7aef1a2.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.0003906249999999778,
+            0.17656249999999996,
+            0.999609375,
+            0.875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0314_jpeg.rf.49da57801370fec102635b6461902632.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.08125000000000004,
+            0.188671875,
+            0.9375,
+            0.834765625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0322_jpeg.rf.262c0eeaf8227f609186b6d86815e168.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.030859375000000022,
+            0.26953125,
+            0.892578125,
+            0.69453125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0329_jpeg.rf.08bdb97e1392e449e2ab407491b33595.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.08164062499999997,
+            0.1921875,
+            0.885546875,
+            0.7625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0332_jpeg.rf.39e5a707754d2d073c8b0da17bdbc3db.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.07343749999999999,
+            0.12031249999999999,
+            0.9390624999999999,
+            0.7437499999999999
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0333_JPEG.rf.edd46755cc5a2eabc734e5ddba8799e6.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.051562499999999956,
+            0.03125,
+            1.0,
+            0.9125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0340_jpeg.rf.6dee77cacc9fd67e0d9622b880d22a96.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.05820312500000002,
+            0.09531250000000002,
+            0.952734375,
+            0.9515625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0341_jpeg.rf.21985f0a276057ccada0cf7d6ccdb1e8.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.06796875000000002,
+            0.11250000000000004,
+            0.97109375,
+            0.8671875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0342_jpeg.rf.f743a7431357acb80026a8edfde2be8b.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.18476562499999993,
+            0.237109375,
+            0.871484375,
+            0.794140625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0345_jpeg.rf.52464b0f108f9f83025f7fc8f809ddb4.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.0,
+            0.07773437499999997,
+            0.440625,
+            0.505078125
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.0234375,
+            0.08945312499999997,
+            0.96875,
+            0.958984375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0346_jpeg.rf.dfc72e0f436fef460ca6e2fba52f128e.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.00039062500000000555,
+            0.034765624999999994,
+            0.293359375,
+            0.43085937500000004
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.029296875,
+            0.17890624999999993,
+            0.961328125,
+            0.90078125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0364_jpeg.rf.37d6af154d41283d1111307ba94303de.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.026953125000000022,
+            0.13789062500000004,
+            0.976171875,
+            0.927734375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0375_jpeg.rf.a2611940ab3b345bafda5a63cf43e2a2.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.0,
+            0.44453125000000004,
+            0.9703125,
+            0.97265625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0376_jpeg.rf.365cc129866ac9b95b16a52a4c241136.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.0,
+            0.030859375000000022,
+            1.0,
+            0.995703125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0379_jpeg.rf.1c7331a6523c320ed22eb68cfb84257a.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.13359375,
+            0.25585937499999994,
+            0.8539062500000001,
+            0.9566406249999999
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0382_jpeg.rf.3e6cb1eac00d3b279ded0496f3b1b7b1.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.05351562500000007,
+            0.165234375,
+            0.999609375,
+            0.866015625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0391_jpeg.rf.c0bdb424fefcd2e211dd3e4bcbd7090c.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.04648437500000002,
+            0.09492187499999993,
+            0.876953125,
+            0.906640625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0396_jpeg.rf.2e45fff021884fb56d39ca6e282bc2d6.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.09492187499999999,
+            0.133984375,
+            0.8519531250000001,
+            0.881640625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0397_jpeg.rf.fc3b274e8cbc310f222c36964997a25c.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.09335937499999997,
+            0.12421875000000004,
+            0.970703125,
+            0.97265625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0409_jpeg.rf.c67c392ecc15adf55c1fc14447747eb6.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.12773437499999998,
+            0.3609375,
+            0.572265625,
+            0.9859375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0410_jpeg.rf.20a68a9c9db955dabcb8ba46fdfdd619.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.0078125,
+            0.32499999999999996,
+            1.0,
+            0.79375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0415_jpeg.rf.be5aab3a4e31866fa1e6dedc521f92ae.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.0,
+            0.30624999999999997,
+            0.9921875,
+            0.890625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0417_jpeg.rf.be7b1b16bb48aad5332f1f8066d6ce0f.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.22304687500000003,
+            0.29648437499999997,
+            0.947265625,
+            0.900390625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0449_JPEG.rf.d23090f516a41bb0291cb4eb806db8ca.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.21875,
+            0.334765625,
+            1.0,
+            0.9105468750000001
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0459_jpeg.rf.4027c593ba09ac496fbf551321e74822.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.0062500000000000056,
+            0.0546875,
+            0.4234375,
+            0.415625
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.20976562499999996,
+            0.13750000000000007,
+            0.919921875,
+            0.9390625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0462_jpeg.rf.8860c5feda0c21d546571046e810bb15.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.01953125,
+            0.141796875,
+            0.98046875,
+            0.8285156250000001
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0463_jpeg.rf.1305fb957ad711cec9985253b4088a84.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.26171874999999994,
+            0.331640625,
+            0.9664062499999999,
+            0.855859375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0470_jpeg.rf.fe07ad76a4fe0d6f63bf258b5adb1345.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.019140624999999967,
+            0.09921875000000002,
+            0.807421875,
+            0.86171875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0471_jpeg.rf.a9cc1ae5112cd04d936e7db5bb64a3ad.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.09296875000000004,
+            0.12070312499999997,
+            0.87890625,
+            0.774609375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0480_jpeg.rf.c1650603909e1f610b845c9a73fbe01b.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.12617187499999993,
+            0.1609375,
+            0.937890625,
+            0.778125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0481_jpeg.rf.2495d65e8904702708df71e6ae46486b.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.004687499999999956,
+            0.13906250000000003,
+            1.0,
+            0.8796875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0486_jpeg.rf.b5375ebecb9d4d469ed82d76c90c1fd2.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.030859375000000022,
+            0.37460937499999997,
+            0.867578125,
+            0.673828125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0493_jpeg.rf.753fa93f20b05eaeb069c0376daf127e.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.03515625,
+            0.25625,
+            0.96484375,
+            0.7453124999999999
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0504_jpeg.rf.9e6da0794b6aad16fbfef6b5d59e70b4.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.12421874999999993,
+            0.305078125,
+            0.92421875,
+            0.677734375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0512_jpeg.rf.ef61a6736522b250c39d0e49e9fb3a61.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.028906250000000022,
+            0.14374999999999993,
+            0.94921875,
+            0.9125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0513_jpeg.rf.15c2dab562b9773b78374af0525297a4.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.03671874999999997,
+            0.158984375,
+            0.96484375,
+            0.834765625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0515_jpeg.rf.9b6186cd36c65e7a25432b6906ad7767.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.12070312499999997,
+            0.26171874999999994,
+            0.966796875,
+            0.9507812499999999
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0523_jpeg.rf.7c2b85adbb1111dbb4a7ccfcb7a1feb6.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.028906250000000022,
+            0.10273437500000004,
+            0.93359375,
+            0.884765625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0534_jpeg.rf.1573c0a4a67b8eef9fb969d3dc941fa1.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.06601562500000002,
+            0.11992187500000001,
+            0.933984375,
+            0.723828125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0535_jpeg.rf.f543846bbc15750bb343b2adbae7eebe.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.05625000000000002,
+            0.388671875,
+            0.9546875,
+            0.826953125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0537_jpeg.rf.ac2544ded6c9342383e392a65b837cf6.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.12031249999999999,
+            0.15703125,
+            0.9624999999999999,
+            0.8539062500000001
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0543_jpeg.rf.4acfefd11fe8c0ad7169411e35755cfa.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.0003906249999999778,
+            0.29882812500000006,
+            0.988671875,
+            0.8558593750000001
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0545_jpeg.rf.ae97d8eafb2c9d5479b32a810fec38ad.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.0035156249999999944,
+            0.05585937499999999,
+            0.39179687500000004,
+            0.6441406249999999
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.05039062499999997,
+            0.09335937499999997,
+            0.974609375,
+            0.794140625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0547_jpeg.rf.89c587719850b86cdd53fdf34c9eb58f.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.611328125,
+            0.08476562500000001,
+            0.9996093749999999,
+            0.352734375
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.0,
+            0.06015625000000002,
+            0.184375,
+            0.69296875
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.04257812500000002,
+            0.07968750000000002,
+            0.944921875,
+            0.8734375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0549_jpeg.rf.0f34a58cdcff045269d99e6fc80b9b46.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.13398437500000004,
+            0.0003906249999999778,
+            0.923828125,
+            0.951171875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0550_jpeg.rf.d83825188a516e83be35482c43449323.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.131640625,
+            0.14531249999999996,
+            0.8558593750000001,
+            0.859375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0551_jpeg.rf.fbc0617460055b471cf708ac88330062.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.28945312500000003,
+            0.382421875,
+            0.943359375,
+            0.980078125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0554_jpeg.rf.dbb3b5146ad4e3362efdc07d11684615.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.028906249999999967,
+            0.12031249999999999,
+            0.97578125,
+            0.8734375000000001
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0560_jpeg.rf.bd80da7202e8d305b10d9d306ef69201.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.06406249999999997,
+            0.02734375,
+            0.9921875,
+            0.95546875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0570_jpeg.rf.f608b932c630380c37a1decfbcc41f78.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.11601562500000007,
+            0.25273437499999996,
+            0.983984375,
+            0.842578125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0574_JPEG.rf.72f4d4e18d40e40c6e1079f526d64aed.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.016015624999999978,
+            0.011328125000000022,
+            0.966796875,
+            0.999609375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0574_jpeg.rf.e5e82ff4f4761dbcdf58d104752468b8.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.026953124999999967,
+            0.14960937499999993,
+            0.977734375,
+            0.922265625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0577_jpeg.rf.9146c2f2af583d60216f4955733073d4.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.03125,
+            0.23281250000000003,
+            0.928125,
+            0.8171875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0581_jpeg.rf.0e516589e28807520687373d2c2b5fdc.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.017187500000000022,
+            0.09335937499999997,
+            0.9546875,
+            0.970703125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0583_jpeg.rf.8c5f9d723a2e272c72d340cc12108c32.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.0003906249999999778,
+            0.05429687500000002,
+            0.958984375,
+            0.891015625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0587_jpeg.rf.a3758ef3d42452ea59af5b6dff0de758.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.08710937500000004,
+            0.05820312500000002,
+            0.908203125,
+            0.904296875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0590_jpeg.rf.109716224859e0d3ad50162bc105a826.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.06367187499999999,
+            0.33984375,
+            0.9800781249999999,
+            0.80390625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0591_jpeg.rf.1cb6cfa44417837074aa1fd21e2ab794.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.06640625,
+            0.143359375,
+            0.91640625,
+            0.8285156250000001
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0595_jpeg.rf.77bf2d31883b20361019348567d01038.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.0,
+            0.28593749999999996,
+            0.7859375,
+            0.90625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0597_jpeg.rf.1bb5cbc4585b3650727c5ae01d9de302.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.11601562499999996,
+            0.19609374999999996,
+            0.919921875,
+            0.86015625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0611_jpeg.rf.5cc93adbaa7ff5abca6b77762210d7fa.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.0,
+            0.19648437500000004,
+            0.9953125,
+            0.923828125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0616_jpeg.rf.99c514e7133bbce085c2dd7e97a41090.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.0390625,
+            0.07929687499999999,
+            0.8578125,
+            0.9332031249999999
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0617_jpeg.rf.ec03ded4fc552e9b3ef850c16524d1d5.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.0003906249999999778,
+            0.05039062500000002,
+            0.999609375,
+            0.918359375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0620_jpeg.rf.6a6292a81b1b46dd74a0677ee553bf83.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.03671875000000002,
+            0.11484375000000002,
+            0.98203125,
+            0.73203125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0623_jpeg.rf.ebedc95e7fe5373dd00369597be6b63f.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.0078125,
+            0.0390625,
+            1.0,
+            0.95
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0626_jpeg.rf.a1f4b592549f90aada56297b32c6d77a.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.04062500000000002,
+            0.09140624999999997,
+            0.6640625,
+            0.79609375
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.378515625,
+            0.23867187500000003,
+            0.968359375,
+            0.916015625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0632_jpeg.rf.679676bda828438bc61a3d51d98d151c.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.028906249999999967,
+            0.19179687500000003,
+            0.98359375,
+            0.931640625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0641_jpeg.rf.294ea809935af57ea33f480f32efeb65.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.04296875,
+            0.007421875000000022,
+            0.62890625,
+            0.267578125
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.002343749999999978,
+            0.16328124999999993,
+            0.98671875,
+            0.90859375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0647_jpeg.rf.af8cf5d2dbc0cf42d9126002ff0bc25d.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.046875,
+            0.341796875,
+            0.984375,
+            0.947265625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0651_jpeg.rf.b405b55dbe53f9eb013f67a28d0e8d8f.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.11640624999999993,
+            0.19609375000000007,
+            0.92421875,
+            0.97421875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0660_jpeg.rf.17c625fcca2398b98ab94651ca36fba8.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.10312499999999997,
+            0.05859375,
+            0.953125,
+            0.94921875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0662_jpeg.rf.10682f6a45699ef11948c2cb48c8954d.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.05039062499999997,
+            0.15742187499999993,
+            0.974609375,
+            0.898828125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0675_jpeg.rf.5fb86d1b6991f25602c8cdc134e92cc7.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.015234374999999967,
+            0.026953125000000022,
+            0.989453125,
+            0.937109375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0676_jpeg.rf.36efb1a3d9be02fa453e0a3a5582f248.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.030859375000000022,
+            0.07734374999999999,
+            0.925390625,
+            0.9976562499999999
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0680_jpeg.rf.afbfe3f017921215cd0edb1645335492.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.18828124999999996,
+            0.34570312500000006,
+            0.98828125,
+            0.9027343750000001
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0683_jpeg.rf.21e21570aa1538eee4e26d146bb5858a.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.07226562500000003,
+            0.005859375,
+            0.46210937500000004,
+            0.330078125
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.0,
+            0.14374999999999993,
+            0.9625,
+            0.9203125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0687_JPEG.rf.fb3403dc0da99e248e38fc687afc157a.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.4453125,
+            0.325,
+            1.0,
+            0.9125000000000001
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0689_jpeg.rf.e58723a92c6f9b2d98f5e2cb5b329017.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.07578125000000002,
+            0.019921874999999978,
+            0.94765625,
+            0.978515625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0690_jpeg.rf.89b9d881b9e0230114e19f33214673cd.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.060546875,
+            0.287109375,
+            0.898828125,
+            0.869140625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0694_jpeg.rf.c8a0aabac88d861222a82ef5b65ac53d.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.22109374999999998,
+            0.10078125000000004,
+            0.79140625,
+            0.86328125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0697_jpeg.rf.f9bd0d65dc95d3b418a66c7e02b4a31d.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.04648437499999997,
+            0.11835937499999999,
+            0.955078125,
+            0.9488281249999999
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0706_jpeg.rf.245260ea6c9af724629102674edb6bc9.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.07968749999999997,
+            0.18281249999999993,
+            0.9453125,
+            0.88125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0707_jpeg.rf.0969833867a9d467923d5e04759cefe9.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.023046875000000022,
+            0.241015625,
+            0.972265625,
+            0.8792968750000001
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0710_jpeg.rf.aaeb324e36a807dae6407c6e53d0d255.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.044921875,
+            0.044921875,
+            0.953515625,
+            0.978515625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0716_jpeg.rf.fff9bc50b07b18d15bf594c0c724ddae.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.03515625,
+            0.04843749999999997,
+            0.98046875,
+            0.9609375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0719_jpeg.rf.2b76536888f6161c413a081044e08d43.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.25078124999999996,
+            0.289453125,
+            0.97265625,
+            0.8214843749999999
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0724_jpeg.rf.294017f942a56031866a360b168fe7e9.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.011328125000000022,
+            0.36328125,
+            0.968359375,
+            0.97265625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0728_jpeg.rf.d92e2a3361b2e263d46f97c6d4155c99.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.0,
+            0.127734375,
+            0.8328125,
+            0.811328125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0733_jpeg.rf.6827329fb787c2a8fda1d3f550113b99.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.04296875,
+            0.14374999999999993,
+            0.95546875,
+            0.8578125
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.539453125,
+            0.12812500000000002,
+            0.7199218749999999,
+            0.271875
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.00390625,
+            0.12031249999999999,
+            0.18046875,
+            0.41562499999999997
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0734_jpeg.rf.338bab97a706b616c51ffe131b35f463.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.29140625000000003,
+            0.25390625,
+            0.80546875,
+            0.93359375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0735_jpeg.rf.bb330e7d9d584c382af5833b52321129.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.12187499999999996,
+            0.019140624999999967,
+            0.8828125,
+            0.993359375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0736_jpeg.rf.037011f4ba17b67bec8b9b5011a18cd9.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.05390624999999999,
+            0.149609375,
+            0.9742187499999999,
+            0.889453125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0739_jpeg.rf.17caea24b8d905945c00b5ab9a1c1ef9.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.001953125,
+            0.037109375,
+            0.440234375,
+            0.722265625
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.08906250000000004,
+            0.12421875000000004,
+            0.9609375,
+            0.95703125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0741_jpeg.rf.2c42f1dd9f3fa98602fd453ec7a70e4f.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.04296875,
+            0.11601562499999996,
+            0.87578125,
+            0.896484375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0743_jpeg.rf.02d3c082a7a49121d246e0d2f588f505.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.09687500000000004,
+            0.184375,
+            0.921875,
+            0.8890625000000001
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0745_jpeg.rf.41cffd5f902e7a7862aa36cca2366d40.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.05234375000000002,
+            0.34140625,
+            0.58046875,
+            0.82265625
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.578125,
+            0.38632812499999997,
+            0.9781249999999999,
+            0.813671875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0748_jpeg.rf.01e2bf94f6318f9b6b3fc243a12afd00.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.157421875,
+            0.09531250000000002,
+            0.881640625,
+            0.928125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0752_jpeg.rf.ecea803a1916fc67a89f7acd0b148a44.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.015234375000000022,
+            0.11249999999999999,
+            0.933203125,
+            0.6812499999999999
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0759_jpeg.rf.9b14d9051130645f5c9c1c0796968dff.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.08945312499999997,
+            0.21015625,
+            0.823046875,
+            0.83671875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0764_jpeg.rf.40b4901ae00b385def4a9c702a7297c0.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.001953125,
+            0.08710937499999999,
+            0.327734375,
+            0.483203125
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.609375,
+            0.04492187500000003,
+            1.0,
+            0.512890625
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.08164062499999997,
+            0.16328124999999993,
+            0.943359375,
+            0.87734375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0765_jpeg.rf.63dd9f3860812a9cd74888e2c89eeb99.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.009765625,
+            0.08320312500000004,
+            0.966796875,
+            0.865234375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0768_jpeg.rf.a9a69ac0d500b4324b10f53f14ec74a4.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.11093750000000002,
+            0.24101562499999996,
+            0.8734375,
+            0.862109375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0769_jpeg.rf.04c028408ff07367e176a9548dd3c0bf.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.12226562500000002,
+            0.49882812499999996,
+            0.582421875,
+            0.880859375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0770_jpeg.rf.f1dc5ac6aca0fca6e27b0e4ca6109764.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.023046875000000022,
+            0.09882812499999999,
+            0.964453125,
+            0.9527343749999999
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0778_jpeg.rf.36b37b955488eb2b168ffebc7a0aa22b.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.04804687499999999,
+            0.269921875,
+            0.9722656249999999,
+            0.964453125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0789_jpeg.rf.a7dfcb0160297d71977910d6796cd54a.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.051953125000000044,
+            0.11484375000000002,
+            0.927734375,
+            0.91640625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0793_jpeg.rf.36e6581814cb218a9a5f12289af8054c.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.0,
+            0.1921875,
+            1.0,
+            0.784375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0795_jpeg.rf.8e71e97852419ae76210d16c2fc1a74f.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.023437499999999944,
+            0.21171875,
+            0.9781249999999999,
+            0.8773437500000001
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0801_jpeg.rf.d5e13d7a3aa1f29aff44be51b0cc1dd9.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.039062499999999944,
+            0.09140624999999997,
+            0.9859374999999999,
+            0.80546875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0806_jpeg.rf.6b44b9944739dafd86a840d7dfe8435c.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.012499999999999956,
+            0.01874999999999999,
+            1.0,
+            0.9703124999999999
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0807_jpeg.rf.d8d44c397dbc410447ba28844fba1d9a.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.23671875,
+            0.013671875,
+            0.66171875,
+            0.219140625
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.01171875,
+            0.04062500000000002,
+            0.97421875,
+            0.8421875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0810_jpeg.rf.98465af052dc18cd6026c154a10b9d49.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.0,
+            0.0003906249999999778,
+            1.0,
+            0.966796875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0813_jpeg.rf.9e1795536c965ca37e6bf983d69b122a.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.09101562500000004,
+            0.143359375,
+            0.943359375,
+            0.8832031250000001
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0814_jpeg.rf.46669b413fe0a1a23810ba1ccc313f3f.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.003515625000000022,
+            0.0003906249999999778,
+            0.999609375,
+            0.999609375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0815_jpeg.rf.36f6f5591ebd997866aa5f093f83295a.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.4765625,
+            0.03281250000000002,
+            1.0,
+            0.7015625
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.083984375,
+            0.151171875,
+            0.898828125,
+            0.997265625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0817_jpeg.rf.4d21faa76a9eb9e2b17219137663f9db.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.04257812499999997,
+            0.11445312500000004,
+            0.974609375,
+            0.974609375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0822_jpeg.rf.85223f2b02e0d1ba8b7d7bdc4607d3b4.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.0,
+            0.003124999999999989,
+            0.9234375,
+            0.9781249999999999
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0834_jpeg.rf.2d98ea033648a6696de307def9a41f6a.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.06406250000000002,
+            0.003515625000000022,
+            0.9203125,
+            0.952734375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0836_jpeg.rf.2e169f31afdf5ac5639cb4d441c06fb4.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.025390625,
+            0.09882812499999999,
+            0.943359375,
+            0.9214843749999999
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0838_jpeg.rf.1de04394db629ff0922d4449fbd05222.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.03515625,
+            0.11679687499999997,
+            0.97265625,
+            0.866015625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0839_jpeg.rf.ffc23b642d7a4d85fe75d64f133b24ab.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.11445312499999999,
+            0.18789062500000003,
+            0.8402343750000001,
+            0.735546875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0848_jpeg.rf.97cb4c9439fdacc37514b02b482aead2.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.029296875,
+            0.0003906250000000333,
+            0.937890625,
+            0.805859375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0853_jpeg.rf.5aa34b8d2338405f2e0c1acd40618782.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.0,
+            0.004687500000000011,
+            1.0,
+            0.9781249999999999
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0865_jpeg.rf.f682e9b36ae5df2f60576fd927a719f5.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.0,
+            0.24062500000000003,
+            1.0,
+            0.840625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0871_jpeg.rf.52c5c1e86f3fdf170f35693ad46b275e.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.015625,
+            0.18984374999999998,
+            1.0,
+            0.83046875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0908_jpeg.rf.4e27964c405581a032d33689d9247bb8.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.0,
+            0.08320312499999999,
+            1.0,
+            0.9996093749999999
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0910_jpeg.rf.9c89751f6a7f3baab1c33e72eb5c0301.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.0078125,
+            0.013671875,
+            1.0,
+            0.908203125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0911_jpeg.rf.d7e5a6b7cf49b70efbc7248bcb1ac337.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.041015625,
+            0.0,
+            0.990234375,
+            0.9296875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/0919_jpeg.rf.25bba32561c53c936ed673ab003a4c73.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.012499999999999956,
+            0.043749999999999956,
+            1.0,
+            0.96875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/1-106-_jpeg.rf.ce63c402b9371d132e046c9f102d82c4.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.149609375,
+            0.30859375000000006,
+            0.873828125,
+            0.9164062500000001
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.7800781250000001,
+            0.19453125000000002,
+            0.999609375,
+            0.66796875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/1-109-_jpeg.rf.7d2b5b303ce8fbbbd0712d0f364a6b80.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.030859375000000022,
+            0.13437500000000002,
+            0.908203125,
+            0.9046875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/1-111-_jpeg.rf.093f6794363658c1fff4460a352cb161.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.16328125,
+            0.21171875,
+            0.86015625,
+            0.8617187500000001
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/1-112-_jpeg.rf.a9d2d089e134e17576ae1057d9137904.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.0390625,
+            0.03437499999999999,
+            0.8953125,
+            0.9703124999999999
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/1-116-_jpeg.rf.6623b2ee975ae40eb0d1a8f82736e33b.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.00390625,
+            0.21171875,
+            0.99609375,
+            0.7632812499999999
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/1-118-_jpeg.rf.510626bfa1bd6cf23f617fefe948772b.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.11249999999999993,
+            0.5417968750000001,
+            0.9203125,
+            0.995703125
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.653125,
+            0.40781249999999997,
+            1.0,
+            0.7453125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/1-125-_jpeg.rf.1bc789d87f8a1f8b547560d65b7862e0.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.06601562499999997,
+            0.13203125,
+            0.958984375,
+            0.82109375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/1-13-_jpeg.rf.20961e95adc14d30240d5feffb0f7a93.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.009765624999999944,
+            0.23281250000000003,
+            0.9917968749999999,
+            0.90625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/1-130-_jpeg.rf.894469e2c205a4a3e440c123728d257f.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.11601562500000007,
+            0.044921875,
+            0.952734375,
+            0.945703125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/1-142-_jpeg.rf.41e98be645024c101a10a2ba4fb9b250.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.12460937499999997,
+            0.21757812499999996,
+            0.794140625,
+            0.885546875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/1-152-_jpeg.rf.41f3c5fa1ab219ec5bf029509c3755f8.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.78125,
+            0.25429687500000003,
+            1.0,
+            0.491015625
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.07343750000000004,
+            0.22265624999999994,
+            0.8984375,
+            0.9664062499999999
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/1-159-_jpeg.rf.8743d202e90eaf499b034760cbea61c7.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.15351562499999993,
+            0.558984375,
+            0.879296875,
+            0.9972656249999999
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/1-165-_jpeg.rf.adf0148bf3b3b03b34f70a64ff257ec2.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.04843749999999997,
+            0.06953124999999999,
+            1.0,
+            0.78984375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/1-180-_jpeg.rf.494dce9f81438e5f39b556af4a3bc0a7.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.060546875,
+            0.08164062500000002,
+            0.770703125,
+            0.887109375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/1-185-_jpeg.rf.bde97c6975dd49de93a035c696fc888d.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.064453125,
+            0.06796875000000002,
+            0.943359375,
+            0.91796875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/1-187-_jpeg.rf.2fdf238246b6d26c5785721a4aac2102.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.00390625,
+            0.021874999999999978,
+            0.97265625,
+            0.9609375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/1-19-_jpeg.rf.5d66fe07859c6706298c6942d3c160d6.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.07734374999999999,
+            0.30859375,
+            0.8851562500000001,
+            0.98828125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/1-191-_jpeg.rf.8fb5057b6b61bcfe35e419bb2444a19b.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.578515625,
+            0.038671874999999994,
+            0.952734375,
+            0.266015625
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.17851562499999998,
+            0.05390625000000002,
+            0.615234375,
+            0.21328125
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.023046875000000022,
+            0.12226562499999999,
+            0.987890625,
+            0.815234375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/1-193-_jpeg.rf.0bb678cdcac1494a18706cbd0d290c44.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.0390625,
+            0.05039062500000002,
+            0.96875,
+            0.832421875
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.7957031250000001,
+            0.015234375000000022,
+            0.999609375,
+            0.298828125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/1-199-_jpeg.rf.59f6bb03a8743ce4cbce06eb160347e4.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.11093749999999997,
+            0.02734375,
+            0.8796875,
+            0.96328125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/1-209-_jpeg.rf.cfcf1d4409bf6f55f028ef56e6769d2e.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.21367187499999996,
+            0.05820312500000002,
+            0.931640625,
+            0.574609375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/1-211-_jpeg.rf.d7ba9795d29caefe26c81f9b7893c71c.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.08945312499999997,
+            0.11289062499999997,
+            0.912109375,
+            0.943359375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/1-214-_jpeg.rf.a4df9b1985939a57f8cbc17a029a6ff9.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.07187499999999997,
+            0.09140624999999997,
+            1.0,
+            0.92578125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/1-220-_jpeg.rf.014cd45444eb84e267dee45becc3ccaf.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.0078125,
+            0.0,
+            1.0,
+            0.7671875
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.0,
+            0.0359375,
+            0.2984375,
+            0.253125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/1-26-_jpeg.rf.afbc814d1d9ee010462fb1d93f98b362.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.064453125,
+            0.05234375000000002,
+            0.823046875,
+            0.88671875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/1-35-_jpeg.rf.7c40ba1bcede196a0408bfdc1d2e6d82.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.06953124999999999,
+            0.10429687500000001,
+            0.8773437500000001,
+            0.8519531250000001
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/1-36-_jpeg.rf.853bfbca932f9246af2af5c0be35f590.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.006249999999999978,
+            0.04843750000000002,
+            0.984375,
+            0.9390625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/1-44-_jpeg.rf.e589676ad93874f1f0439f9f833e2af4.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.004687499999999956,
+            0.08124999999999993,
+            1.0,
+            0.990625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/1-52-_jpeg.rf.bcd9f29304eade63176c1b23ad74ad0d.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.033203125,
+            0.149609375,
+            0.871484375,
+            0.7300781249999999
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/1-53-_jpeg.rf.3cad424b6ae37013478bc9732f1f939f.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.07148437499999999,
+            0.153125,
+            0.9332031249999999,
+            0.8578125000000001
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/1-56-_jpeg.rf.5637477f412e57f82affd076a6cd837a.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.06796874999999997,
+            0.16835937500000003,
+            0.98046875,
+            0.908203125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/1-62-_jpeg.rf.d46b6f2a3feae1f3eb78d89893eeae33.jpg",
+      "truth": [],
+      "predictions": [],
+      "condition_ground_truth_known": false,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/1-64-_jpeg.rf.26edf0fcb978d1b3f2dfa48dc944fb70.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.024999999999999967,
+            0.220703125,
+            0.9875,
+            0.655859375
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.45195312500000007,
+            0.003515625000000022,
+            0.999609375,
+            0.302734375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/1-65-_jpeg.rf.8abeafb4da2afe98c2fec333be833978.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.03515625,
+            0.14960937499999993,
+            0.96328125,
+            0.914453125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/1-66-_jpeg.rf.0219136fa5a11cde6106b38e11f739b8.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.05820312500000002,
+            0.12031250000000004,
+            0.941796875,
+            0.90625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/1-67-_jpeg.rf.4d3f9940c3acebcbe894fef3f9e278bc.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.05820312500000002,
+            0.22109374999999998,
+            0.887109375,
+            0.89296875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/1-71-_jpeg.rf.e3f9930945aa8c3a89b81330d58afb4d.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.15703124999999996,
+            0.26210937500000003,
+            0.88671875,
+            0.892578125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/1-73-_jpeg.rf.40e4fd3be3ff05de6439c136f93904a0.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.012499999999999956,
+            0.10625000000000001,
+            1.0,
+            0.9328125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/1-75-_jpeg.rf.ce87098d03ef6dc4e7b6e4f2a11ac669.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.07773437499999997,
+            0.15195312499999997,
+            0.955078125,
+            0.846484375
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.0054687499999999944,
+            0.17421874999999998,
+            0.20546875,
+            0.60546875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/1-77-_jpeg.rf.9bc2e30ff2fc75f966cabc0755ec0705.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.08007812499999994,
+            0.0,
+            0.9371093749999999,
+            0.9109375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/1-82-_jpeg.rf.2ecbc2910f12974c287f51e11d993981.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.023046875000000022,
+            0.028906250000000022,
+            0.947265625,
+            0.88515625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/1-87-_jpeg.rf.78a83f3b91a890350e736e28babbfa62.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.003515625000000022,
+            0.09140624999999997,
+            0.999609375,
+            0.88359375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/1-91-_jpeg.rf.6287ce73fb347460aa4915fc43c0f1e5.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.046093750000000044,
+            0.21367187499999996,
+            0.90234375,
+            0.916015625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/1-95-_jpeg.rf.0d3563012d2133e81b8ede025dabc58c.jpg",
+      "truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            0.06601562500000002,
+            0.3453125,
+            0.933984375,
+            0.915625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": false,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/12-8-_jpeg.rf.b0f209add9f602944f8e5ee7454d46e0.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.0003906250000000333,
+            0.06679687500000003,
+            0.977734375,
+            0.794140625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/13-12-_jpeg.rf.b39fb49b34fdebc9e72af409522bd759.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.011328125000000022,
+            0.18203125000000003,
+            0.999609375,
+            0.91796875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/13-22-_JPEG.rf.ede28fe2546da340a4cb3cf5451dbe12.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.052734375000000056,
+            0.17343750000000002,
+            0.9847656250000001,
+            0.8140625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/13-27-_JPEG.rf.fd6f9435ca2e81c0641d25fb969ba8d3.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.11445312499999999,
+            0.25976562499999994,
+            0.9683593749999999,
+            0.9996093749999999
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/13-28-_JPEG.rf.69768500e1d7a968f7bceb4eb9692d4d.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.23593749999999997,
+            0.025000000000000022,
+            1.0,
+            0.9968750000000001
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/13-32-_JPEG.rf.43a5d5c595d485a517d857f2ad909e82.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.07539062499999999,
+            0.37421875000000004,
+            0.6792968749999999,
+            0.90234375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/20001-290-_JPEG.rf.432ea2596feae061bff85dd04fe55b54.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.05429687500000002,
+            0.05625000000000002,
+            0.892578125,
+            0.9703125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/20001-304-_JPEG.rf.512096c695aa4be0081989383c57186e.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.06757812499999999,
+            0.026953124999999967,
+            0.9761718749999999,
+            0.830859375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/30001-26-_JPEG.rf.18e843df61eb8294e0e09eeeaaa4a4a9.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.005468750000000022,
+            0.033203125,
+            0.93359375,
+            0.702734375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/30001-33-_JPEG.rf.0bc2c739060c6923517e5aa4f963c5cf.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.015625,
+            0.186328125,
+            0.9625,
+            0.8402343750000001
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/40001-33-_JPEG.rf.711d3accfb21ac99ac29e2f3f5552f08.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.220703125,
+            0.18671874999999993,
+            0.990234375,
+            0.90859375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/40001-34-_JPEG.rf.67e8d7f249ff3513460d310a52fc6feb.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.068359375,
+            0.287109375,
+            0.826953125,
+            0.861328125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/40001-37-_JPEG.rf.66192df4d26e3a55d4008e16bebff8f6.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.1359375,
+            0.10664062499999999,
+            0.8578125000000001,
+            0.9371093749999999
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/40001-40-_JPEG.rf.03e1d6aa52c55bf5d276bc4c827910ac.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.26601562500000003,
+            0.18203125000000003,
+            0.990234375,
+            0.76640625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/40001-43-_JPEG.rf.ddf618caaaa048dd91984edff9253595.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.023437499999999944,
+            0.04843750000000002,
+            0.9859374999999999,
+            0.81875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/50001-35-_JPEG.rf.a41ce99824d9afcaed03e22e518f32d0.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.008203124999999978,
+            0.22500000000000003,
+            0.646484375,
+            0.890625
+          ]
+        },
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.07968750000000002,
+            0.0,
+            0.7515625,
+            0.203125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/50001-38-_JPEG.rf.cf7f138829fa2b100a42165be12ccc43.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.002343749999999978,
+            0.10117187499999997,
+            0.88515625,
+            0.939453125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/50001-40-_JPEG.rf.83c0b84dea1e05b00dd84fd17d527d6e.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.028906249999999967,
+            0.12343750000000003,
+            0.51484375,
+            0.8796875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/50001-42-_JPEG.rf.8f80f61b71fccc0be890f45b44820422.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.26249999999999996,
+            0.2,
+            1.0,
+            0.846875
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/50001-43-_JPEG.rf.456e0c6d607a80b53f991baf4e399d07.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.280859375,
+            0.33046875,
+            0.961328125,
+            0.8507812499999999
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/50001-45-_JPEG.rf.dfd9c80523ba220649ca5cb71c46a6fb.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.3203125,
+            0.2671875,
+            1.0,
+            0.9984375
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/50001-55-_JPEG.rf.245477926cfd94b1f0f38f0ccedc7066.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.11445312499999999,
+            0.11835937500000004,
+            0.719921875,
+            0.900390625
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/50001-59-_JPEG.rf.87f0dcb5c7cef1022ee900e698165454.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.09882812500000004,
+            0.05585937499999999,
+            0.985546875,
+            0.9878906249999999
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/501-30-_JPEG.rf.e20d30d619424048d08008c223fc9c57.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.178515625,
+            0.22304687499999998,
+            0.8324218750000001,
+            0.976953125
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    },
+    {
+      "image": "data/car-damage-v1/valid/images/501-35-_JPEG.rf.96fccfdabd933bbde5294bff7a466e57.jpg",
+      "truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            0.1515625,
+            0.1328125,
+            0.9859374999999999,
+            1.0
+          ]
+        }
+      ],
+      "predictions": [],
+      "condition_ground_truth_known": true,
+      "has_damage_label": true,
+      "max_damage_confidence": 0.0
+    }
+  ],
+  "zero_shot": {
+    "source_classes": {
+      "0": "person",
+      "1": "bicycle",
+      "2": "car",
+      "3": "motorcycle",
+      "4": "airplane",
+      "5": "bus",
+      "6": "train",
+      "7": "truck",
+      "8": "boat",
+      "9": "traffic light",
+      "10": "fire hydrant",
+      "11": "stop sign",
+      "12": "parking meter",
+      "13": "bench",
+      "14": "bird",
+      "15": "cat",
+      "16": "dog",
+      "17": "horse",
+      "18": "sheep",
+      "19": "cow",
+      "20": "elephant",
+      "21": "bear",
+      "22": "zebra",
+      "23": "giraffe",
+      "24": "backpack",
+      "25": "umbrella",
+      "26": "handbag",
+      "27": "tie",
+      "28": "suitcase",
+      "29": "frisbee",
+      "30": "skis",
+      "31": "snowboard",
+      "32": "sports ball",
+      "33": "kite",
+      "34": "baseball bat",
+      "35": "baseball glove",
+      "36": "skateboard",
+      "37": "surfboard",
+      "38": "tennis racket",
+      "39": "bottle",
+      "40": "wine glass",
+      "41": "cup",
+      "42": "fork",
+      "43": "knife",
+      "44": "spoon",
+      "45": "bowl",
+      "46": "banana",
+      "47": "apple",
+      "48": "sandwich",
+      "49": "orange",
+      "50": "broccoli",
+      "51": "carrot",
+      "52": "hot dog",
+      "53": "pizza",
+      "54": "donut",
+      "55": "cake",
+      "56": "chair",
+      "57": "couch",
+      "58": "potted plant",
+      "59": "bed",
+      "60": "dining table",
+      "61": "toilet",
+      "62": "tv",
+      "63": "laptop",
+      "64": "mouse",
+      "65": "remote",
+      "66": "keyboard",
+      "67": "cell phone",
+      "68": "microwave",
+      "69": "oven",
+      "70": "toaster",
+      "71": "sink",
+      "72": "refrigerator",
+      "73": "book",
+      "74": "clock",
+      "75": "vase",
+      "76": "scissors",
+      "77": "teddy bear",
+      "78": "hair drier",
+      "79": "toothbrush"
+    },
+    "mapping": "Exact class-name matches only",
+    "raw_prediction_count": 37103,
+    "photos_with_coco_car": 339,
+    "mapped_target_prediction_count": 0,
+    "limitation": "COCO contains neither Damage-detected nor Undamaged. Car detections are not condition labels."
+  }
+}

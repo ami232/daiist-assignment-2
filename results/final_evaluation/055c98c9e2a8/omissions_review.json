@@ -1,0 +1,56 @@
+{
+  "evaluation_split": "test",
+  "evaluation_context": "secondary_reuse_of_previously_evaluated_test",
+  "policy_sha256": "055c98c9e2a86e7ed8509ebe109186363d26f927b9761f216c5a63786a8bc7ae",
+  "prediction_source_sha256": "dca6c2762caee4c29d12f9908fc318e291ca28598f36769747c1c716ca5181fb",
+  "selection": "Every directly passed labelled damaged test photo under the fixed policy.",
+  "test_used_to_change_thresholds": false,
+  "student_review_status": "Both omissions discussed; student considers them model errors involving damage that should be detected.",
+  "cases": [
+    {
+      "case": "A",
+      "image": "data/car-damage-v1/test/images/0015_JPEG.rf.248539b9905283924272bab7af902832.jpg",
+      "image_sha256": "0ece43d0f332cb3b8fba2c5d4f83191e0434872fc20aece9f179b4a0cb58c694",
+      "max_damage_confidence": 0.003444717265665531,
+      "highest_confidence_prediction": {
+        "class_id": 1,
+        "confidence": 0.869655191898346,
+        "xyxy": [
+          0.0,
+          0.0028777122497558594,
+          0.9867588877677917,
+          0.9405145645141602
+        ]
+      },
+      "observed_route": "pass",
+      "student_observation": {
+        "verbatim": "pienso que son fallos del modelo ya que son da\u00f1os que deber\u00eda detectar",
+        "scope": "Both displayed omissions, A and B.",
+        "recorded_utc": "2026-10-26T10:46:26.286858+00:00"
+      }
+    },
+    {
+      "case": "B",
+      "image": "data/car-damage-v1/test/images/0267_JPEG.rf.ffe03458ce22ffd14eade4bf19cb9579.jpg",
+      "image_sha256": "fa647af8918de90aef4d53efea5bdf18f47c407e9be94f2af39343a5f6a3a7ff",
+      "max_damage_confidence": 0.002875032601878047,
+      "highest_confidence_prediction": {
+        "class_id": 1,
+        "confidence": 0.7759063839912415,
+        "xyxy": [
+          0.0010755539406090975,
+          0.0007823944324627519,
+          0.9999492764472961,
+          1.0
+        ]
+      },
+      "observed_route": "pass",
+      "student_observation": {
+        "verbatim": "pienso que son fallos del modelo ya que son da\u00f1os que deber\u00eda detectar",
+        "scope": "Both displayed omissions, A and B.",
+        "recorded_utc": "2026-10-26T10:46:26.287062+00:00"
+      }
+    }
+  ],
+  "reused_review_from": "results/final_evaluation/009c15abe394/omissions_review.json"
+}

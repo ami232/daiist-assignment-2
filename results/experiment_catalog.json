@@ -1,0 +1,5 @@
+{
+  "10_epochs": "results/pilot_yolo11n_20261024T184544Z",
+  "20_epochs": "results/yolo11n_20epochs_colab_20261025T113856Z",
+  "yolo11s_20_epochs": "results/yolo11s_20epochs_colab_20261025T192043Z"
+}

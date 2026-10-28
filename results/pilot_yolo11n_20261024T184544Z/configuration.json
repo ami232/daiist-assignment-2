@@ -1,0 +1,27 @@
+{
+  "status": "initial_run_authorised",
+  "model": "yolo11n.pt",
+  "task": "detect",
+  "dataset_config": "dataset_config.json",
+  "training": {
+    "epochs": 10,
+    "imgsz": 640,
+    "batch": 8,
+    "seed": 42,
+    "workers": 0,
+    "cache": false
+  },
+  "device_preference": [
+    "cuda",
+    "mps",
+    "cpu"
+  ],
+  "checkpoint_selection_split": "valid",
+  "evaluate_test_during_initial_run": false,
+  "notes": [
+    "The student selected YOLO11n after comparing its size and resource needs with YOLO11s.",
+    "The student authorised a first run of ten epochs; this is not a demonstrated sufficient final training duration.",
+    "Select checkpoints with validation; reserve final test performance for the final evaluation.",
+    "train.py implements this initial train/validation pilot; the full assignment pipeline remains to be completed."
+  ]
+}

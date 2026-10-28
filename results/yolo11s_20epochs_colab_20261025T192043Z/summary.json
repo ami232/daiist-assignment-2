@@ -1,0 +1,106 @@
+{
+  "stage": "validation_only_architecture_experiment",
+  "started_utc": "2026-10-25T19:20:43.610584+00:00",
+  "completed_utc": "2026-10-25T19:29:53.578078+00:00",
+  "training_and_validation_seconds": 549.84525418,
+  "timing_note": "Excludes discarded work in an interrupted partial epoch when resuming.",
+  "execution_interface": "VS Code notebook, official Google Colab extension",
+  "resumed_from": null,
+  "experiment_name": "yolo11s_20epochs_colab",
+  "compare_with": null,
+  "final_batch": 8,
+  "configuration_files": [
+    "configuration.json"
+  ],
+  "speed_trial": null,
+  "device": "0",
+  "torch_version": "2.11.0+cu130",
+  "ultralytics_version": "8.4.173",
+  "train_images": 1501,
+  "validation_images": 366,
+  "completed_epochs": 20,
+  "best_epoch": 19,
+  "checkpoint_selection": "Highest validation mAP50-95 (Ultralytics 8.4.173 default fitness). Ties keep the latest checkpoint.",
+  "evaluation_split": "valid",
+  "test_evaluated": false,
+  "weights": "weights/yolo11s_20epochs_colab_20261025T192043Z.pt",
+  "weights_sha256": "2b4b296ef55a1c30a8227fdfc8d1ef1c27bf9f9ddf9d1d481ceb600fdacdb04d",
+  "run_directory": "runs/detect/yolo11s_20epochs_colab_20261025T192043Z",
+  "metrics": {
+    "metrics/precision(B)": 0.8198392244143055,
+    "metrics/recall(B)": 0.8029092071611253,
+    "metrics/mAP50(B)": 0.8515598785797737,
+    "metrics/mAP50-95(B)": 0.532248177597425,
+    "fitness": 0.532248177597425
+  },
+  "per_class": [
+    {
+      "Class": "Damage-detected",
+      "Images": 135,
+      "Instances": 138,
+      "Box-P": 0.750696,
+      "Box-R": 0.804348,
+      "Box-F1": 0.776596,
+      "mAP50": 0.80404,
+      "mAP75": 0.334239,
+      "mAP50-95": 0.401762
+    },
+    {
+      "Class": "Undamaged",
+      "Images": 230,
+      "Instances": 272,
+      "Box-P": 0.888983,
+      "Box-R": 0.801471,
+      "Box-F1": 0.842961,
+      "mAP50": 0.89908,
+      "mAP75": 0.730567,
+      "mAP50-95": 0.662735
+    }
+  ],
+  "precision_recall_note": "Ultralytics detection P/R at its validation F1 operating point, not the future business threshold.",
+  "confusion_matrix": {
+    "values": [
+      [
+        85.0,
+        116.0,
+        5702.0
+      ],
+      [
+        50.0,
+        153.0,
+        4644.0
+      ],
+      [
+        3.0,
+        3.0,
+        0.0
+      ]
+    ],
+    "rows": "predicted class; last row = background/missed object",
+    "columns": "true class; last column = background/unmatched prediction",
+    "class_order": [
+      "Damage-detected",
+      "Undamaged",
+      "background"
+    ],
+    "confidence": 0.001,
+    "iou_threshold": 0.45,
+    "settings_note": "Ultralytics ConfusionMatrix.process_batch defaults; differs from AP matching thresholds."
+  },
+  "limitations": [
+    "Three confirmed related train-validation pairs; leave supplied splits unchanged and acknowledge possible validation optimism.",
+    "One validation and one test photo contain vehicles but have empty labels; do not relabel.",
+    "Photo backgrounds, views and image quality differ between classes and may differ from rental inspection photos.",
+    "A photo does not establish an accident, its timing, fault, hidden mechanical damage or roadworthiness.",
+    "No matches in a pHash screen do not prove full source independence."
+  ],
+  "pending": [
+    "baselines",
+    "test evaluation",
+    "cost sweep",
+    "human review assumptions",
+    "dashboard",
+    "student analysis"
+  ],
+  "model_architecture": "yolo11s"
+}

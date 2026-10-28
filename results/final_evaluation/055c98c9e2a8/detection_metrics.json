@@ -1,0 +1,34 @@
+{
+  "weights_sha256": "2b4b296ef55a1c30a8227fdfc8d1ef1c27bf9f9ddf9d1d481ceb600fdacdb04d",
+  "metrics": {
+    "metrics/precision(B)": 0.8456624865826194,
+    "metrics/recall(B)": 0.7166149068322981,
+    "metrics/mAP50(B)": 0.8150646097464225,
+    "metrics/mAP50-95(B)": 0.5254149533050563,
+    "fitness": 0.5254149533050563
+  },
+  "per_class": [
+    {
+      "Class": "Damage-detected",
+      "Images": 92,
+      "Instances": 92,
+      "Box-P": 0.860265,
+      "Box-R": 0.576087,
+      "Box-F1": 0.690064,
+      "mAP50": 0.716951,
+      "mAP75": 0.283205,
+      "mAP50-95": 0.34952
+    },
+    {
+      "Class": "Undamaged",
+      "Images": 113,
+      "Instances": 119,
+      "Box-P": 0.83106,
+      "Box-R": 0.857143,
+      "Box-F1": 0.8439,
+      "mAP50": 0.913179,
+      "mAP75": 0.823505,
+      "mAP50-95": 0.70131
+    }
+  ]
+}

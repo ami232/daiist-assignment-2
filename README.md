@@ -1,4 +1,4 @@
-# Assignment 2
+# Assignment 2 — Car Damage Inspection
 
 Pick a decision somebody currently makes by looking at an image. Find a dataset
 on Roboflow Universe that serves it, finetune a YOLO model to make that
