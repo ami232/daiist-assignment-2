@@ -14,3 +14,6 @@ runs/
 
 # Never commit your API key
 .env
+
+# Base checkpoints Ultralytics downloads into the repo root (weights/best.pt stays tracked)
+/*.pt
