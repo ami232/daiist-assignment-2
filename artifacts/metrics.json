@@ -1,0 +1,87 @@
+{
+  "detection": {
+    "overall": {
+      "AP50": 0.9724,
+      "mAP50-95": 0.6803
+    },
+    "per_class": [
+      {
+        "class": "head",
+        "precision": 0.9418,
+        "recall": 0.9298,
+        "AP50": 0.9623,
+        "mAP50-95": 0.6764
+      },
+      {
+        "class": "helmet",
+        "precision": 0.9533,
+        "recall": 0.939,
+        "AP50": 0.9825,
+        "mAP50-95": 0.6841
+      }
+    ],
+    "confusion_matrix": {
+      "labels": [
+        "head",
+        "helmet",
+        "background"
+      ],
+      "matrix": [
+        [
+          622,
+          174,
+          1912
+        ],
+        [
+          102,
+          1730,
+          3964
+        ],
+        [
+          2,
+          11,
+          0
+        ]
+      ],
+      "orientation": "rows = predicted, columns = true"
+    },
+    "baselines": {
+      "coco_zero_shot": {
+        "AP50": 0.0,
+        "mAP50-95": 0.0,
+        "note": "COCO has no 'head' or 'helmet' class, so it cannot produce either label."
+      },
+      "predict_nothing": {
+        "AP50": 0.0,
+        "mAP50-95": 0.0,
+        "note": "No boxes at all: every violation is missed."
+      }
+    }
+  },
+  "image_level_comparison": [
+    {
+      "model": "Finetuned yolo11n",
+      "image_AUC": 0.9776,
+      "best_threshold": 0.54,
+      "recall_at_best": 0.8857,
+      "false_alarm_rate_at_best": 0.0124,
+      "cost_per_1000_at_best": 375.82
+    },
+    {
+      "model": "COCO yolo11n zero-shot (person as proxy)",
+      "image_AUC": 0.6768,
+      "best_threshold": 0.95,
+      "recall_at_best": 0.0143,
+      "false_alarm_rate_at_best": 0.0018,
+      "cost_per_1000_at_best": 1198.99
+    },
+    {
+      "model": "Trivial: predict nothing",
+      "image_AUC": 0.5,
+      "best_threshold": 0.01,
+      "recall_at_best": 0.0,
+      "false_alarm_rate_at_best": 0.0,
+      "cost_per_1000_at_best": 1200.0
+    }
+  ]
+}
