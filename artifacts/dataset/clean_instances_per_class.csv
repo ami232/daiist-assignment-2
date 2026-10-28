@@ -1,0 +1,7 @@
+class,train,valid,test
+fresh_apples,4332,1846,1204
+fresh_banana,1448,421,425
+fresh_oranges,2224,720,336
+rotten_apples,8956,2703,1546
+rotten_banana,1522,401,421
+rotten_oranges,1481,394,336

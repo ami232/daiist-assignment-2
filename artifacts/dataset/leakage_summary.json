@@ -1,0 +1,12 @@
+{
+  "test_images": 2443,
+  "name_match": 1383,
+  "name_match_same_classes": 1361,
+  "hash_match": 556,
+  "hash_match_without_name_match": 184,
+  "leaked_total": 1567,
+  "dedup_test_images": 876,
+  "hash_max_dist_bits": 3,
+  "excluded_train": 5938,
+  "excluded_valid": 1689
+}

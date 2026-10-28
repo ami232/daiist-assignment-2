@@ -1,0 +1,7 @@
+family,train,valid,test
+IMG* (phone camera),2106,593,305
+N (numbered),2,3,1
+Screen-Shot (screenshots),9519,2720,1360
+YYYYMMDD_HHMMSS (phone camera),337,102,46
+other,1792,619,324
+resized_image_N,2853,815,407

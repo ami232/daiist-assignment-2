@@ -1,0 +1,53 @@
+{
+  "costs_eur": {
+    "fp": 0.2,
+    "fn": 5.0,
+    "tp": 0.0,
+    "tn": 0.0
+  },
+  "base_rate": 0.05,
+  "chosen_threshold": 0.006,
+  "chosen_on": "validation",
+  "test_tpr": 0.9756838905775076,
+  "test_fpr": 0.011195928753180661,
+  "test_cost_per_1000": 8.206253818727426,
+  "val_cost_per_1000": 9.815735731528065,
+  "test_optimal_threshold_for_reference": 0.001,
+  "reference_costs_per_1000": {
+    "pass_all": 250.0,
+    "reject_all": 190.0
+  },
+  "bayes_threshold_on_calibrated_probability": 0.038461538461538464,
+  "review": {
+    "fruit_per_day": 50000,
+    "labour": {
+      "eur_per_hour": 14.0,
+      "paid_hours": 8,
+      "productive_hours": 7
+    },
+    "review": {
+      "seconds": 4.0,
+      "miss_rate": 0.05,
+      "false_reject_rate": 0.05,
+      "people": 1
+    },
+    "full_inspection": {
+      "seconds": 1.0,
+      "miss_rate": 0.2,
+      "false_reject_rate": 0.05
+    },
+    "review_cost_per_fruit": 0.017777777777777778,
+    "capacity_share_per_person": 0.126,
+    "review_from": 0.001,
+    "reject_at": 0.58,
+    "chosen_on": "validation",
+    "val_cost_per_1000": 6.166440935730504,
+    "test_cost_per_1000": 7.749348092511507,
+    "test_share_reviewed": 0.01311965032886632,
+    "unconstrained_band_on_val": {
+      "review_from": 0.001,
+      "reject_at": 0.58,
+      "val_cost_per_1000": 6.166440935730504
+    }
+  }
+}

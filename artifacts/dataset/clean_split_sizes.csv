@@ -1,0 +1,4 @@
+split,images,instances
+train,10671,19963
+valid,3163,6485
+test,2443,4268

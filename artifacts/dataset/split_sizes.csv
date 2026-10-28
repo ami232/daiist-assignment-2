@@ -1,0 +1,4 @@
+split,images,instances,empty_images,multi_class_images,augmented_copies,share_of_images
+train,16609,26869,964,232,8502,0.695
+valid,4852,8414,277,63,2400,0.203
+test,2443,4268,140,34,1186,0.102

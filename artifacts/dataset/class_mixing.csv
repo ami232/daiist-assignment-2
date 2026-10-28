@@ -1,0 +1,4 @@
+split,multi_class,fresh_and_rotten
+train,232,226
+valid,63,59
+test,34,30

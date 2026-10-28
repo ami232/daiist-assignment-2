@@ -1,0 +1,8 @@
+,fresh_apples,fresh_banana,fresh_oranges,rotten_apples,rotten_banana,rotten_oranges,background
+fresh_apples,481,1,65,0,0,0,657
+fresh_banana,0,219,1,0,0,0,205
+fresh_oranges,34,1,211,0,0,0,90
+rotten_apples,173,27,113,0,0,0,1233
+rotten_banana,1,121,1,0,0,0,298
+rotten_oranges,34,5,94,0,0,0,203
+background,398,320,114,0,0,0,0
