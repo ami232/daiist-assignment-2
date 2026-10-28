@@ -1,0 +1,8 @@
+{
+  "mAP50": 0.06829059110114184,
+  "mAP50-95": 0.02701900269918428,
+  "imgsz": 1280,
+  "epochs_max": 100,
+  "base_model": "yolo11s.pt",
+  "smoke_test": false
+}

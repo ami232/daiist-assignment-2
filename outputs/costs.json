@@ -1,0 +1,41 @@
+{
+  "costs": {
+    "FP": 0.93,
+    "FN": 24.0,
+    "review": 0.0556
+  },
+  "line": {
+    "boards_per_minute": 40,
+    "boards_per_day": 36000,
+    "graders": 2,
+    "review_seconds": 10,
+    "review_capacity_share": 0.3
+  },
+  "evaluated_on": "test",
+  "base_rate": {
+    "paper_defect_share": 0.901750924784217,
+    "disqualifying_share_of_defective": 0.5960761684939412,
+    "production": 0.5375122361812442,
+    "share_positive_in_test": 0.3881967213114754
+  },
+  "single_threshold": {
+    "threshold": 0.0,
+    "cost_per_1000": 430.11362035144293
+  },
+  "two_thresholds_unconstrained": {
+    "lo": 0.0,
+    "hi": 0.785,
+    "cost_per_1000": 53.79007805308338,
+    "review_share": 0.9682214049555008,
+    "reviews_per_day": 34856,
+    "graders_needed": 7
+  },
+  "two_thresholds_with_2_graders": {
+    "lo": 0.0,
+    "hi": 0.02,
+    "cost_per_1000": 258.74829675136664,
+    "review_share": 0.2761190223176187,
+    "reviews_per_day": 9940,
+    "graders_needed": 2
+  }
+}

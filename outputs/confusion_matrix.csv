@@ -1,0 +1,12 @@
+predicted \ true,0 Blue_Stain,1 Crack,2 Dead_Knot,3 Knot_missing,4 Live_Knot,5 Marrow,6 Quartzity,7 knot_with_crack,8 overgrown,9 resin,background
+0 Blue_Stain,0,0,0,0,1,0,0,1,0,0,5
+1 Crack,0,12,3,0,0,0,0,5,0,0,52
+2 Dead_Knot,0,1,147,14,5,0,0,2,0,8,126
+3 Knot_missing,0,0,1,6,0,0,0,0,0,0,12
+4 Live_Knot,0,0,3,0,7,0,0,3,0,0,158
+5 Marrow,0,0,0,0,0,0,0,0,0,0,0
+6 Quartzity,0,0,0,0,0,0,0,0,0,0,1
+7 knot_with_crack,0,0,2,0,2,0,0,5,0,0,1
+8 overgrown,0,0,0,0,0,0,0,0,0,0,0
+9 resin,0,4,31,6,24,1,0,7,0,6,245
+background,75,448,112,47,249,3,34,85,0,222,0

@@ -1,0 +1,6 @@
+option,cost_per_1000,review_share,graders_needed
+do nothing: every board sold as premium,12900.293668349861,0.0,0
+do nothing: every board sold as standard,430.11362035144293,0.0,0
+a person checks every board,55.55555555555556,1.0,7
+model decides alone,339.46120062903907,0.0,0
+model + review band (2 graders),181.36563982571926,0.29218917621994045,2
