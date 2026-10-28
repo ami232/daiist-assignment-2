@@ -1,0 +1,5 @@
+,images,precision,recall
+glioma,146,0.986,0.959
+meningioma,124,0.931,0.976
+notumor,155,0.993,0.981
+pituitary,123,0.992,0.992

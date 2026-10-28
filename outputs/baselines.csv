@@ -1,0 +1,4 @@
+model,accuracy,tumour AUC,"best cost / 1,000 (no review)"
+finetuned yolo11n-cls,0.976,1.0,3816.794
+COCO yolo11n zero-shot,,0.538,570000.0
+trivial: always 'pituitary',0.224,0.5,1500000.0

@@ -1,0 +1,18 @@
+{
+  "dataset": "kaplan-business-school-gqxef/brain-tumour-detection-svrlh/1",
+  "settings": {
+    "model": "yolo11n-cls.pt",
+    "epochs": 20,
+    "imgsz": 224,
+    "seed": 0
+  },
+  "accuracy": 0.9762773722627737,
+  "tumour_auc": 0.9998686694574407,
+  "t_single": 0.63,
+  "t_low": 0.1,
+  "t_high": 0.77,
+  "test_cost_per_1000": 5349.051957645901,
+  "review_share": 0.03064516129032258,
+  "reviews_per_day": 0.6129032258064516,
+  "readers_needed": 0.025537634408602152
+}

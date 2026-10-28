@@ -1,0 +1,5 @@
+option,"cost / 1,000",sent to a person
+do nothing (pass everything),1500000.0,0.0
+person checks everything,50000.0,1.0
+model alone (t = 0.63),7494.213,0.0
+model + review band (0.1 to 0.77),5349.052,0.031
