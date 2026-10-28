@@ -1,0 +1,393 @@
+{
+  "dataset": {
+    "workspace": "pangarap",
+    "project": "3classes-nmslq",
+    "version": 3
+  },
+  "training": {
+    "base_model": "yolo11n.pt",
+    "epochs": 40,
+    "patience": 10,
+    "imgsz": 640,
+    "batch": 16,
+    "seed": 0,
+    "epochs_run": 40,
+    "best_epoch": 37,
+    "best_val_map50": 0.77876,
+    "best_val_map50_95": 0.41819,
+    "train_minutes": 71.0
+  },
+  "test_positive_rate": 0.8,
+  "finetuned": {
+    "map50": 0.6923351504277143,
+    "map50_95": 0.3651068225597584,
+    "precision": 0.7662579042164949,
+    "recall": 0.6415592114865235,
+    "per_class": {
+      "Fire": {
+        "precision": 0.8048750951582444,
+        "recall": 0.7442622950819672,
+        "ap50": 0.8147100664025793,
+        "ap50_95": 0.47971620132622794
+      },
+      "Lights": {
+        "precision": 0.6524011432355957,
+        "recall": 0.5417789757412399,
+        "ap50": 0.5770742847986606,
+        "ap50_95": 0.24977426899704072
+      },
+      "Smoke": {
+        "precision": 0.8414974742556446,
+        "recall": 0.6386363636363637,
+        "ap50": 0.6852211000819031,
+        "ap50_95": 0.3658299973560067
+      }
+    },
+    "confusion_matrix": [
+      [
+        287.0,
+        1.0,
+        3.0,
+        3545.0
+      ],
+      [
+        3.0,
+        343.0,
+        0.0,
+        7042.0
+      ],
+      [
+        1.0,
+        1.0,
+        353.0,
+        6646.0
+      ],
+      [
+        14.0,
+        26.0,
+        84.0,
+        0.0
+      ]
+    ],
+    "confusion_labels": [
+      "Fire",
+      "Lights",
+      "Smoke",
+      "background"
+    ],
+    "top_confusions": [
+      {
+        "true": "background",
+        "predicted": "Lights",
+        "count": 7042
+      },
+      {
+        "true": "background",
+        "predicted": "Smoke",
+        "count": 6646
+      },
+      {
+        "true": "background",
+        "predicted": "Fire",
+        "count": 3545
+      },
+      {
+        "true": "Smoke",
+        "predicted": "background",
+        "count": 84
+      },
+      {
+        "true": "Lights",
+        "predicted": "background",
+        "count": 26
+      },
+      {
+        "true": "Fire",
+        "predicted": "background",
+        "count": 14
+      },
+      {
+        "true": "Smoke",
+        "predicted": "Fire",
+        "count": 3
+      },
+      {
+        "true": "Fire",
+        "predicted": "Lights",
+        "count": 3
+      },
+      {
+        "true": "Lights",
+        "predicted": "Fire",
+        "count": 1
+      },
+      {
+        "true": "Fire",
+        "predicted": "Smoke",
+        "count": 1
+      },
+      {
+        "true": "Lights",
+        "predicted": "Smoke",
+        "count": 1
+      }
+    ],
+    "frame_level_at_default_conf": {
+      "tp": 425,
+      "fp": 5,
+      "fn": 87,
+      "tn": 123,
+      "precision": 0.9883720930232558,
+      "recall": 0.830078125,
+      "accuracy": 0.85625
+    },
+    "frame_level_at_best_threshold": {
+      "tp": 495,
+      "fp": 6,
+      "fn": 17,
+      "tn": 122,
+      "precision": 0.9880239520958084,
+      "recall": 0.966796875,
+      "accuracy": 0.9640625
+    }
+  },
+  "coco_zero_shot": {
+    "note": "COCO has no Fire, Smoke or Lights class, so box-level AP is 0 by construction.",
+    "map50": 0.0,
+    "top_classes_on_fire_smoke_frames": [
+      [
+        "person",
+        82
+      ],
+      [
+        "chair",
+        70
+      ],
+      [
+        "couch",
+        48
+      ],
+      [
+        "tv",
+        33
+      ],
+      [
+        "potted plant",
+        30
+      ]
+    ],
+    "top_classes_on_negative_frames": [
+      [
+        "person",
+        51
+      ],
+      [
+        "chair",
+        39
+      ],
+      [
+        "tv",
+        20
+      ],
+      [
+        "clock",
+        19
+      ],
+      [
+        "bicycle",
+        13
+      ]
+    ],
+    "frame_level_any_detection": {
+      "tp": 313,
+      "fp": 98,
+      "fn": 199,
+      "tn": 30,
+      "precision": 0.7615571776155717,
+      "recall": 0.611328125,
+      "accuracy": 0.5359375
+    },
+    "cost_per_1000": 952304.6875
+  },
+  "predict_nothing": {
+    "map50": 0.0,
+    "frame_level": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 512,
+      "tn": 128,
+      "precision": 0.0,
+      "recall": 0.0,
+      "accuracy": 0.2
+    }
+  },
+  "always_escalate": {
+    "frame_level": {
+      "tp": 512,
+      "fp": 128,
+      "fn": 0,
+      "tn": 0,
+      "precision": 0.8,
+      "recall": 1.0,
+      "accuracy": 0.8
+    }
+  },
+  "operating_point": {
+    "costs": {
+      "fn": 50000,
+      "fp": 1000,
+      "tp": 0,
+      "tn": 0
+    },
+    "base_rate": 0.01,
+    "review_cost": 1.0,
+    "max_review_share": 0.3,
+    "test_negatives": 128,
+    "best_threshold": 0.1,
+    "best": {
+      "threshold": 0.1,
+      "tp": 9.66796875,
+      "fn": 0.33203125,
+      "fp": 46.40625,
+      "tn": 943.59375,
+      "review": 0.0,
+      "cost": 63007.8125,
+      "review_share": 0.0
+    },
+    "band": {
+      "low": 0.01,
+      "high": 0.69,
+      "tp": 9.98046875,
+      "fn": 0.01953125,
+      "fp": 0.0,
+      "tn": 990.0,
+      "review": 128.5546875,
+      "cost": 1105.1171875,
+      "review_share": 0.1285546875
+    },
+    "reference_points": {
+      "always_escalate": {
+        "tp": 10.0,
+        "fn": 0.0,
+        "fp": 990.0,
+        "tn": 0.0,
+        "review": 0.0,
+        "cost": 990000.0,
+        "review_share": 0.0
+      },
+      "never_escalate": {
+        "tp": 0.0,
+        "fn": 10.0,
+        "fp": 0.0,
+        "tn": 990.0,
+        "review": 0.0,
+        "cost": 500000.0,
+        "review_share": 0.0
+      },
+      "default_conf_0.25": {
+        "tp": 8.30078125,
+        "fn": 1.69921875,
+        "fp": 38.671875,
+        "tn": 951.328125,
+        "review": 0.0,
+        "cost": 123632.8125,
+        "review_share": 0.0
+      },
+      "review_everything": {
+        "tp": 10.0,
+        "fn": 0.0,
+        "fp": 0.0,
+        "tn": 990.0,
+        "review": 1000.0,
+        "cost": 1000.0,
+        "review_share": 1.0
+      }
+    },
+    "sensitivity": [
+      {
+        "base_rate": 0.001,
+        "fn_cost": 10000,
+        "best_threshold": 0.69,
+        "cost_per_1000": 4824.21875,
+        "band_cost_per_1000": 144.88671875
+      },
+      {
+        "base_rate": 0.001,
+        "fn_cost": 50000,
+        "best_threshold": 0.69,
+        "cost_per_1000": 24121.09375,
+        "band_cost_per_1000": 223.01171875
+      },
+      {
+        "base_rate": 0.001,
+        "fn_cost": 200000,
+        "best_threshold": 0.1,
+        "cost_per_1000": 53468.75,
+        "band_cost_per_1000": 515.98046875
+      },
+      {
+        "base_rate": 0.01,
+        "fn_cost": 10000,
+        "best_threshold": 0.31,
+        "cost_per_1000": 34414.0625,
+        "band_cost_per_1000": 323.8671875
+      },
+      {
+        "base_rate": 0.01,
+        "fn_cost": 50000,
+        "best_threshold": 0.1,
+        "cost_per_1000": 63007.8125,
+        "band_cost_per_1000": 1105.1171875
+      },
+      {
+        "base_rate": 0.01,
+        "fn_cost": 200000,
+        "best_threshold": 0.05,
+        "cost_per_1000": 89062.5,
+        "band_cost_per_1000": 4034.8046875
+      },
+      {
+        "base_rate": 0.05,
+        "fn_cost": 10000,
+        "best_threshold": 0.1,
+        "cost_per_1000": 61132.8125,
+        "band_cost_per_1000": 1119.3359375
+      },
+      {
+        "base_rate": 0.05,
+        "fn_cost": 50000,
+        "best_threshold": 0.05,
+        "cost_per_1000": 88867.1875,
+        "band_cost_per_1000": 5025.5859375
+      },
+      {
+        "base_rate": 0.05,
+        "fn_cost": 200000,
+        "best_threshold": 0.05,
+        "cost_per_1000": 132812.5,
+        "band_cost_per_1000": 19674.0234375
+      },
+      {
+        "base_rate": 0.8,
+        "fn_cost": 10000,
+        "best_threshold": 0.01,
+        "cost_per_1000": 40624.99999999999,
+        "band_cost_per_1000": 16034.375
+      },
+      {
+        "base_rate": 0.8,
+        "fn_cost": 50000,
+        "best_threshold": 0.01,
+        "cost_per_1000": 103125.0,
+        "band_cost_per_1000": 78534.375
+      },
+      {
+        "base_rate": 0.8,
+        "fn_cost": 200000,
+        "best_threshold": 0.0,
+        "cost_per_1000": 199999.99999999994,
+        "band_cost_per_1000": 312909.375
+      }
+    ]
+  }
+}
