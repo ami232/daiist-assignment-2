@@ -1,0 +1,18 @@
+{
+ "settings": {
+  "model": "yolo11n.pt",
+  "epochs": 30,
+  "patience": 10,
+  "imgsz": 640,
+  "batch": 16,
+  "device": "cpu",
+  "workers": 4,
+  "seed": 0
+ },
+ "where": "vm | Linux-6.18.44-fc-v153-x86_64-with-glibc2.39 | CPU, 4 cores | torch 2.11.0+cpu",
+ "minutes": 170.9,
+ "epochs_run": 30,
+ "best_epoch": 25,
+ "best_val_mAP50": 0.60032,
+ "best_val_mAP50_95": 0.3142
+}

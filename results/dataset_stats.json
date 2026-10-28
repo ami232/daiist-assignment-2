@@ -1,0 +1,164 @@
+{
+ "classes": [
+  "gray stitch",
+  "hole",
+  "selvet",
+  "stain",
+  "tear"
+ ],
+ "splits": {
+  "train": {
+   "images": 1266,
+   "source_images": 353,
+   "boxes": 2131,
+   "defect_free_images": 0,
+   "boxes_per_image": 1.6832543443917851,
+   "image_sizes": [
+    "640x640"
+   ],
+   "per_class": {
+    "gray stitch": {
+     "boxes": 357,
+     "images": 258,
+     "area_pct_median": 15.818359374999993,
+     "area_pct_p10": 5.8559814453125,
+     "area_pct_p90": 35.27226562500003
+    },
+    "hole": {
+     "boxes": 243,
+     "images": 177,
+     "area_pct_median": 1.50146484375,
+     "area_pct_p10": 0.15751953125,
+     "area_pct_p90": 9.024169921875004
+    },
+    "selvet": {
+     "boxes": 536,
+     "images": 234,
+     "area_pct_median": 8.858062744140621,
+     "area_pct_p10": 0.6405029296875,
+     "area_pct_p90": 41.078826904296875
+    },
+    "stain": {
+     "boxes": 581,
+     "images": 369,
+     "area_pct_median": 3.108642578125,
+     "area_pct_p10": 0.442626953125,
+     "area_pct_p90": 16.8447265625
+    },
+    "tear": {
+     "boxes": 414,
+     "images": 246,
+     "area_pct_median": 2.2655029296875,
+     "area_pct_p10": 0.7357177734375,
+     "area_pct_p90": 13.006091308593751
+    }
+   }
+  },
+  "valid": {
+   "images": 123,
+   "source_images": 115,
+   "boxes": 177,
+   "defect_free_images": 0,
+   "boxes_per_image": 1.4390243902439024,
+   "image_sizes": [
+    "640x640"
+   ],
+   "per_class": {
+    "gray stitch": {
+     "boxes": 19,
+     "images": 14,
+     "area_pct_median": 12.674682617187507,
+     "area_pct_p10": 8.200781249999995,
+     "area_pct_p90": 21.88779296875
+    },
+    "hole": {
+     "boxes": 44,
+     "images": 36,
+     "area_pct_median": 1.146697998046874,
+     "area_pct_p10": 0.299530029296875,
+     "area_pct_p90": 5.477056884765628
+    },
+    "selvet": {
+     "boxes": 30,
+     "images": 16,
+     "area_pct_median": 9.6810302734375,
+     "area_pct_p10": 0.8526489257812504,
+     "area_pct_p90": 41.92987060546878
+    },
+    "stain": {
+     "boxes": 49,
+     "images": 34,
+     "area_pct_median": 1.4534912109375,
+     "area_pct_p10": 0.25280761718749994,
+     "area_pct_p90": 11.649609375000002
+    },
+    "tear": {
+     "boxes": 35,
+     "images": 25,
+     "area_pct_median": 2.854492187499999,
+     "area_pct_p10": 1.1269042968749996,
+     "area_pct_p90": 14.231249999999996
+    }
+   }
+  },
+  "test": {
+   "images": 61,
+   "source_images": 57,
+   "boxes": 103,
+   "defect_free_images": 0,
+   "boxes_per_image": 1.6885245901639345,
+   "image_sizes": [
+    "640x640"
+   ],
+   "per_class": {
+    "gray stitch": {
+     "boxes": 27,
+     "images": 18,
+     "area_pct_median": 13.120605468749998,
+     "area_pct_p10": 6.946887207031251,
+     "area_pct_p90": 37.319580078125036
+    },
+    "hole": {
+     "boxes": 3,
+     "images": 3,
+     "area_pct_median": 1.640625,
+     "area_pct_p10": 0.8759765624999996,
+     "area_pct_p90": 2.02392578125
+    },
+    "selvet": {
+     "boxes": 27,
+     "images": 9,
+     "area_pct_median": 2.45489501953125,
+     "area_pct_p10": 0.46087646484375006,
+     "area_pct_p90": 15.587475585937522
+    },
+    "stain": {
+     "boxes": 28,
+     "images": 20,
+     "area_pct_median": 3.364990234375001,
+     "area_pct_p10": 0.5554199218750002,
+     "area_pct_p90": 12.649816894531252
+    },
+    "tear": {
+     "boxes": 18,
+     "images": 12,
+     "area_pct_median": 2.848083496093749,
+     "area_pct_p10": 0.6994079589843744,
+     "area_pct_p90": 9.731213378906252
+    }
+   }
+  }
+ },
+ "leakage": {
+  "valid": {
+   "images": 123,
+   "identical_in_train": 2,
+   "median_nearest_distance": 15.720703125
+  },
+  "test": {
+   "images": 61,
+   "identical_in_train": 2,
+   "median_nearest_distance": 11.639404296875
+  }
+ }
+}

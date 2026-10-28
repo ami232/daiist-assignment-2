@@ -1,0 +1,522 @@
+{
+ "valid": {
+  "precision": 0.7033561813044573,
+  "recall": 0.5141289017299912,
+  "map50": 0.5989965584380966,
+  "map50_95": 0.3141177991084741,
+  "per_class": {
+   "gray stitch": {
+    "precision": 0.8295587734713987,
+    "recall": 0.5132041604795953,
+    "ap50": 0.7536119865906451,
+    "ap50_95": 0.49675306208592723
+   },
+   "hole": {
+    "precision": 0.6683581429277953,
+    "recall": 0.45812062027920375,
+    "ap50": 0.5684778213643007,
+    "ap50_95": 0.3055447080846396
+   },
+   "selvet": {
+    "precision": 0.838018627435545,
+    "recall": 0.36666666666666664,
+    "ap50": 0.49290674136902524,
+    "ap50_95": 0.20540377950889085
+   },
+   "stain": {
+    "precision": 0.7736845344656568,
+    "recall": 0.6326530612244898,
+    "ap50": 0.757308750080268,
+    "ap50_95": 0.3713225856786719
+   },
+   "tear": {
+    "precision": 0.40716082822189037,
+    "recall": 0.6,
+    "ap50": 0.4226774927862438,
+    "ap50_95": 0.19156486018424054
+   }
+  },
+  "confusion_at_single": [
+   [
+    8,
+    0,
+    0,
+    0,
+    1,
+    10
+   ],
+   [
+    0,
+    14,
+    0,
+    0,
+    3,
+    27
+   ],
+   [
+    0,
+    0,
+    4,
+    0,
+    0,
+    26
+   ],
+   [
+    0,
+    2,
+    0,
+    23,
+    0,
+    24
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    13,
+    22
+   ],
+   [
+    2,
+    2,
+    0,
+    1,
+    6,
+    0
+   ]
+  ],
+  "per_class_at_single": {
+   "gray stitch": {
+    "tp": 8,
+    "fp": 2,
+    "fn": 11,
+    "instances": 19,
+    "precision": 0.8,
+    "recall": 0.42105263157894735
+   },
+   "hole": {
+    "tp": 14,
+    "fp": 4,
+    "fn": 30,
+    "instances": 44,
+    "precision": 0.7777777777777778,
+    "recall": 0.3181818181818182
+   },
+   "selvet": {
+    "tp": 4,
+    "fp": 0,
+    "fn": 26,
+    "instances": 30,
+    "precision": 1.0,
+    "recall": 0.13333333333333333
+   },
+   "stain": {
+    "tp": 23,
+    "fp": 1,
+    "fn": 26,
+    "instances": 49,
+    "precision": 0.9583333333333334,
+    "recall": 0.46938775510204084
+   },
+   "tear": {
+    "tp": 13,
+    "fp": 10,
+    "fn": 22,
+    "instances": 35,
+    "precision": 0.5652173913043478,
+    "recall": 0.37142857142857144
+   }
+  },
+  "recall_by_size_at_single": {
+   "gray stitch": {
+    "small (<0.5% of image)": {
+     "found": 0,
+     "total": 0
+    },
+    "medium (0.5-2%)": {
+     "found": 0,
+     "total": 0
+    },
+    "large (>2%)": {
+     "found": 8,
+     "total": 19
+    }
+   },
+   "hole": {
+    "small (<0.5% of image)": {
+     "found": 2,
+     "total": 10
+    },
+    "medium (0.5-2%)": {
+     "found": 6,
+     "total": 19
+    },
+    "large (>2%)": {
+     "found": 6,
+     "total": 15
+    }
+   },
+   "selvet": {
+    "small (<0.5% of image)": {
+     "found": 0,
+     "total": 2
+    },
+    "medium (0.5-2%)": {
+     "found": 3,
+     "total": 3
+    },
+    "large (>2%)": {
+     "found": 1,
+     "total": 25
+    }
+   },
+   "stain": {
+    "small (<0.5% of image)": {
+     "found": 0,
+     "total": 10
+    },
+    "medium (0.5-2%)": {
+     "found": 6,
+     "total": 16
+    },
+    "large (>2%)": {
+     "found": 17,
+     "total": 23
+    }
+   },
+   "tear": {
+    "small (<0.5% of image)": {
+     "found": 0,
+     "total": 1
+    },
+    "medium (0.5-2%)": {
+     "found": 4,
+     "total": 13
+    },
+    "large (>2%)": {
+     "found": 9,
+     "total": 21
+    }
+   }
+  },
+  "agnostic_ap50": 0.5971074755316556
+ },
+ "test": {
+  "precision": 0.7665682802684101,
+  "recall": 0.5599882115349617,
+  "map50": 0.6333780335242893,
+  "map50_95": 0.3390704137966575,
+  "per_class": {
+   "gray stitch": {
+    "precision": 0.6733309392076178,
+    "recall": 0.48148148148148145,
+    "ap50": 0.601604539026387,
+    "ap50_95": 0.3753744844556496
+   },
+   "hole": {
+    "precision": 0.8887798576696838,
+    "recall": 0.6666666666666666,
+    "ap50": 0.665,
+    "ap50_95": 0.48224999999999996
+   },
+   "selvet": {
+    "precision": 0.8094447921532618,
+    "recall": 0.4724290137874425,
+    "ap50": 0.5620609966568884,
+    "ap50_95": 0.196391449989794
+   },
+   "stain": {
+    "precision": 0.8027829182191693,
+    "recall": 0.6428571428571429,
+    "ap50": 0.7221038874705541,
+    "ap50_95": 0.3992962593561128
+   },
+   "tear": {
+    "precision": 0.6585028940923178,
+    "recall": 0.5365067528820749,
+    "ap50": 0.6161207444676176,
+    "ap50_95": 0.24203987518173098
+   }
+  },
+  "confusion_at_single": [
+   [
+    7,
+    0,
+    0,
+    0,
+    0,
+    20
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    2
+   ],
+   [
+    0,
+    0,
+    5,
+    0,
+    0,
+    22
+   ],
+   [
+    0,
+    0,
+    0,
+    13,
+    0,
+    15
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    5,
+    13
+   ],
+   [
+    1,
+    0,
+    1,
+    2,
+    0,
+    0
+   ]
+  ],
+  "per_class_at_single": {
+   "gray stitch": {
+    "tp": 7,
+    "fp": 1,
+    "fn": 20,
+    "instances": 27,
+    "precision": 0.875,
+    "recall": 0.25925925925925924
+   },
+   "hole": {
+    "tp": 1,
+    "fp": 0,
+    "fn": 2,
+    "instances": 3,
+    "precision": 1.0,
+    "recall": 0.3333333333333333
+   },
+   "selvet": {
+    "tp": 5,
+    "fp": 1,
+    "fn": 22,
+    "instances": 27,
+    "precision": 0.8333333333333334,
+    "recall": 0.18518518518518517
+   },
+   "stain": {
+    "tp": 13,
+    "fp": 2,
+    "fn": 15,
+    "instances": 28,
+    "precision": 0.8666666666666667,
+    "recall": 0.4642857142857143
+   },
+   "tear": {
+    "tp": 5,
+    "fp": 0,
+    "fn": 13,
+    "instances": 18,
+    "precision": 1.0,
+    "recall": 0.2777777777777778
+   }
+  },
+  "recall_by_size_at_single": {
+   "gray stitch": {
+    "small (<0.5% of image)": {
+     "found": 0,
+     "total": 0
+    },
+    "medium (0.5-2%)": {
+     "found": 0,
+     "total": 0
+    },
+    "large (>2%)": {
+     "found": 7,
+     "total": 27
+    }
+   },
+   "hole": {
+    "small (<0.5% of image)": {
+     "found": 0,
+     "total": 0
+    },
+    "medium (0.5-2%)": {
+     "found": 1,
+     "total": 2
+    },
+    "large (>2%)": {
+     "found": 0,
+     "total": 1
+    }
+   },
+   "selvet": {
+    "small (<0.5% of image)": {
+     "found": 2,
+     "total": 4
+    },
+    "medium (0.5-2%)": {
+     "found": 2,
+     "total": 6
+    },
+    "large (>2%)": {
+     "found": 1,
+     "total": 17
+    }
+   },
+   "stain": {
+    "small (<0.5% of image)": {
+     "found": 0,
+     "total": 2
+    },
+    "medium (0.5-2%)": {
+     "found": 1,
+     "total": 8
+    },
+    "large (>2%)": {
+     "found": 12,
+     "total": 18
+    }
+   },
+   "tear": {
+    "small (<0.5% of image)": {
+     "found": 0,
+     "total": 2
+    },
+    "medium (0.5-2%)": {
+     "found": 1,
+     "total": 5
+    },
+    "large (>2%)": {
+     "found": 4,
+     "total": 11
+    }
+   }
+  },
+  "agnostic_ap50": 0.5949211102533244
+ },
+ "baselines": {
+  "valid": {
+   "Finetuned yolo11n": {
+    "map50": 0.5989965584380966,
+    "map50_95": 0.3141177991084741,
+    "agnostic_ap50": 0.5971074755316556,
+    "threshold": 0.67,
+    "image_recall": 0.5447154471544715,
+    "garment_false_reject_rate": 0.08021311927808428,
+    "image_accuracy_on_split": 0.5447154471544715,
+    "cost_per_1000": 1057.7130809994508
+   },
+   "COCO yolo11n zero-shot": {
+    "map50": 0.0,
+    "map50_95": 0.0,
+    "agnostic_ap50": 0.06776207452086828,
+    "threshold": 0.8,
+    "image_recall": 0.0,
+    "garment_false_reject_rate": 0.0,
+    "image_accuracy_on_split": 0.0,
+    "cost_per_1000": 1510.0,
+    "boxes_drawn": 1045,
+    "coco_classes_seen": [
+     "airplane",
+     "backpack",
+     "baseball bat",
+     "baseball glove",
+     "bear",
+     "bed",
+     "bench",
+     "bicycle",
+     "bird",
+     "boat"
+    ]
+   },
+   "Trivial: predict nothing (always pass)": {
+    "map50": 0.0,
+    "map50_95": 0.0,
+    "agnostic_ap50": 0.0,
+    "threshold": null,
+    "image_recall": 0.0,
+    "garment_false_reject_rate": 0.0,
+    "image_accuracy_on_split": 0.0,
+    "cost_per_1000": 1500.0
+   },
+   "Trivial: majority class on this split (always reject)": {
+    "map50": 0.0,
+    "map50_95": 0.0,
+    "agnostic_ap50": 0.0,
+    "threshold": null,
+    "image_recall": 1.0,
+    "garment_false_reject_rate": 1.0,
+    "image_accuracy_on_split": 1.0,
+    "cost_per_1000": 3099.9999999999995
+   },
+   "n_defective_images": 123
+  },
+  "test": {
+   "Finetuned yolo11n": {
+    "map50": 0.6333780335242893,
+    "map50_95": 0.3390704137966575,
+    "agnostic_ap50": 0.5949211102533244,
+    "threshold": 0.67,
+    "image_recall": 0.4918032786885246,
+    "garment_false_reject_rate": 0.046764178930973954,
+    "image_accuracy_on_split": 0.4918032786885246,
+    "cost_per_1000": 1028.5238115926202
+   },
+   "COCO yolo11n zero-shot": {
+    "map50": 0.0,
+    "map50_95": 0.0,
+    "agnostic_ap50": 0.03351046859265321,
+    "threshold": 0.8,
+    "image_recall": 0.01639344262295082,
+    "garment_false_reject_rate": 0.046764178930973954,
+    "image_accuracy_on_split": 0.01639344262295082,
+    "cost_per_1000": 1622.7861066745872,
+    "boxes_drawn": 412,
+    "coco_classes_seen": [
+     "airplane",
+     "banana",
+     "baseball glove",
+     "bear",
+     "bed",
+     "bench",
+     "bicycle",
+     "bird",
+     "boat",
+     "book"
+    ]
+   },
+   "Trivial: predict nothing (always pass)": {
+    "map50": 0.0,
+    "map50_95": 0.0,
+    "agnostic_ap50": 0.0,
+    "threshold": null,
+    "image_recall": 0.0,
+    "garment_false_reject_rate": 0.0,
+    "image_accuracy_on_split": 0.0,
+    "cost_per_1000": 1500.0
+   },
+   "Trivial: majority class on this split (always reject)": {
+    "map50": 0.0,
+    "map50_95": 0.0,
+    "agnostic_ap50": 0.0,
+    "threshold": null,
+    "image_recall": 1.0,
+    "garment_false_reject_rate": 1.0,
+    "image_accuracy_on_split": 1.0,
+    "cost_per_1000": 3099.9999999999995
+   },
+   "n_defective_images": 61
+  }
+ }
+}

@@ -14,3 +14,7 @@ runs/
 
 # Never commit your API key
 .env
+
+# Pretrained COCO checkpoints Ultralytics downloads into the repo root.
+# Only the finetuned model in weights/ is committed.
+/*.pt

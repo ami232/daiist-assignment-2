@@ -1,0 +1,1028 @@
+{
+ "business.base_rate": {
+  "label": "Defect base rate",
+  "baseline": 0.05,
+  "baseline_best": "Model + human review",
+  "rows": [
+   {
+    "value": 0.005,
+    "single": 0.93,
+    "low": 0.53,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 150.0,
+     "Person checks every garment": 509.70000000000005,
+     "Model alone": 160.0,
+     "Model + human review": 95.13568731081328
+    },
+    "best": "Model + human review",
+    "reviewers": 0.4745379844373705
+   },
+   {
+    "value": 0.01,
+    "single": 0.93,
+    "low": 0.48,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 300.0,
+     "Person checks every garment": 559.4,
+     "Model alone": 310.0,
+     "Model + human review": 155.21373243320454
+    },
+    "best": "Model + human review",
+    "reviewers": 0.4923280151606032
+   },
+   {
+    "value": 0.02,
+    "single": 0.67,
+    "low": 0.36,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 600.0,
+     "Person checks every garment": 658.8000000000001,
+     "Model alone": 501.58504671280116,
+     "Model + human review": 254.90624491166702
+    },
+    "best": "Model + human review",
+    "reviewers": 1.1464447171898045
+   },
+   {
+    "value": 0.03,
+    "single": 0.67,
+    "low": 0.38,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 899.9999999999999,
+     "Person checks every garment": 758.1999999999999,
+     "Model alone": 677.2313016727408,
+     "Model + human review": 382.04128502603385
+    },
+    "best": "Model + human review",
+    "reviewers": 0.979925828118174
+   },
+   {
+    "value": 0.05,
+    "single": 0.67,
+    "low": 0.38,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 957.0,
+     "Model alone": 1028.5238115926202,
+     "Model + human review": 607.3600214172496
+    },
+    "best": "Model + human review",
+    "reviewers": 1.045913499061149
+   },
+   {
+    "value": 0.08,
+    "single": 0.53,
+    "low": 0.32,
+    "high": 0.82,
+    "costs": {
+     "Do nothing (ship everything)": 2400.0,
+     "Person checks every garment": 1255.1999999999998,
+     "Model alone": 1187.6199524174174,
+     "Model + human review": 836.2312658278574
+    },
+    "best": "Model + human review",
+    "reviewers": 1.6118035113761884
+   },
+   {
+    "value": 0.1,
+    "single": 0.48,
+    "low": 0.3,
+    "high": 0.67,
+    "costs": {
+     "Do nothing (ship everything)": 3000.0,
+     "Person checks every garment": 1454.0,
+     "Model alone": 1331.299632710553,
+     "Model + human review": 1081.0981625528411
+    },
+    "best": "Model + human review",
+    "reviewers": 1.6021456949372053
+   },
+   {
+    "value": 0.15,
+    "single": 0.32,
+    "low": 0.3,
+    "high": 0.67,
+    "costs": {
+     "Do nothing (ship everything)": 4500.0,
+     "Person checks every garment": 1951.0,
+     "Model alone": 1931.1547975572562,
+     "Model + human review": 1516.3103775658435
+    },
+    "best": "Model + human review",
+    "reviewers": 1.6224272182603656
+   },
+   {
+    "value": 0.2,
+    "single": 0.3,
+    "low": 0.23,
+    "high": 0.53,
+    "costs": {
+     "Do nothing (ship everything)": 6000.0,
+     "Person checks every garment": 2448.0,
+     "Model alone": 2445.5641924172405,
+     "Model + human review": 1776.1930153758044
+    },
+    "best": "Model + human review",
+    "reviewers": 1.249940864827915
+   },
+   {
+    "value": 0.3,
+    "single": 0.3,
+    "low": 0.13,
+    "high": 0.48,
+    "costs": {
+     "Do nothing (ship everything)": 9000.0,
+     "Person checks every garment": 3441.999999999999,
+     "Model alone": 3124.725225742134,
+     "Model + human review": 2183.8686062508655
+    },
+    "best": "Model + human review",
+    "reviewers": 2.364938838530193
+   }
+  ],
+  "switches": []
+ },
+ "costs_eur.false_negative": {
+  "label": "Cost of a missed defect (EUR)",
+  "baseline": 30.0,
+  "baseline_best": "Model + human review",
+  "rows": [
+   {
+    "value": 2,
+    "single": 0.99,
+    "low": 0.99,
+    "high": 0.99,
+    "costs": {
+     "Do nothing (ship everything)": 100.0,
+     "Person checks every garment": 677.0000000000001,
+     "Model alone": 110.0,
+     "Model + human review": 110.0
+    },
+    "best": "Do nothing (ship everything)",
+    "reviewers": 0.0
+   },
+   {
+    "value": 5,
+    "single": 0.93,
+    "low": 0.93,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 250.0,
+     "Person checks every garment": 707.0000000000001,
+     "Model alone": 260.0,
+     "Model + human review": 260.0
+    },
+    "best": "Do nothing (ship everything)",
+    "reviewers": 0.0
+   },
+   {
+    "value": 10,
+    "single": 0.93,
+    "low": 0.48,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 500.0,
+     "Person checks every garment": 757.0000000000001,
+     "Model alone": 510.0,
+     "Model + human review": 358.6140496964873
+    },
+    "best": "Model + human review",
+    "reviewers": 0.6280908838972836
+   },
+   {
+    "value": 15,
+    "single": 0.67,
+    "low": 0.39,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 750.0,
+     "Person checks every garment": 807.0,
+     "Model alone": 647.3762706090135,
+     "Model + human review": 428.9720432751732
+    },
+    "best": "Model + human review",
+    "reviewers": 1.0418151384054115
+   },
+   {
+    "value": 20,
+    "single": 0.67,
+    "low": 0.38,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 1000.0,
+     "Person checks every garment": 857.0000000000001,
+     "Model alone": 774.4254509368824,
+     "Model + human review": 483.58952961397097
+    },
+    "best": "Model + human review",
+    "reviewers": 1.045913499061149
+   },
+   {
+    "value": 30,
+    "single": 0.67,
+    "low": 0.38,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 957.0,
+     "Model alone": 1028.5238115926202,
+     "Model + human review": 607.3600214172496
+    },
+    "best": "Model + human review",
+    "reviewers": 1.045913499061149
+   },
+   {
+    "value": 45,
+    "single": 0.53,
+    "low": 0.3,
+    "high": 0.82,
+    "costs": {
+     "Do nothing (ship everything)": 2250.0,
+     "Person checks every garment": 1106.9999999999998,
+     "Model alone": 1045.870923780993,
+     "Model + human review": 697.7544354993987
+    },
+    "best": "Model + human review",
+    "reviewers": 1.8777645133394492
+   },
+   {
+    "value": 60,
+    "single": 0.48,
+    "low": 0.3,
+    "high": 0.82,
+    "costs": {
+     "Do nothing (ship everything)": 3000.0,
+     "Person checks every garment": 1256.9999999999998,
+     "Model alone": 1152.4283008301734,
+     "Model + human review": 835.4593535321856
+    },
+    "best": "Model + human review",
+    "reviewers": 1.8777645133394492
+   },
+   {
+    "value": 100,
+    "single": 0.3,
+    "low": 0.3,
+    "high": 0.67,
+    "costs": {
+     "Do nothing (ship everything)": 5000.0,
+     "Person checks every garment": 1657.0,
+     "Model alone": 1828.4619866921944,
+     "Model + human review": 1185.2302098349205
+    },
+    "best": "Model + human review",
+    "reviewers": 1.5818641716140442
+   }
+  ],
+  "switches": [
+   "Do nothing (ship everything) -> Model + human review between 5 and 10"
+  ]
+ },
+ "costs_eur.false_positive": {
+  "label": "Cost of a false reject (EUR)",
+  "baseline": 3.0,
+  "baseline_best": "Model + human review",
+  "rows": [
+   {
+    "value": 0.5,
+    "single": 0.3,
+    "low": 0.23,
+    "high": 0.52,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 909.5,
+     "Model alone": 574.0059595306662,
+     "Model + human review": 464.0019182260869
+    },
+    "best": "Model + human review",
+    "reviewers": 1.3111490392782312
+   },
+   {
+    "value": 1,
+    "single": 0.48,
+    "low": 0.3,
+    "high": 0.67,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 918.9999999999999,
+     "Model alone": 633.9788325171617,
+     "Model + human review": 545.1659794439773
+    },
+    "best": "Model + human review",
+    "reviewers": 1.5818641716140442
+   },
+   {
+    "value": 2,
+    "single": 0.53,
+    "low": 0.3,
+    "high": 0.82,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 938.0,
+     "Model alone": 762.056025690061,
+     "Model + human review": 553.2269840034179
+    },
+    "best": "Model + human review",
+    "reviewers": 1.8777645133394492
+   },
+   {
+    "value": 3,
+    "single": 0.67,
+    "low": 0.38,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 957.0,
+     "Model alone": 1028.5238115926202,
+     "Model + human review": 607.3600214172496
+    },
+    "best": "Model + human review",
+    "reviewers": 1.045913499061149
+   },
+   {
+    "value": 5,
+    "single": 0.67,
+    "low": 0.38,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 995.0,
+     "Model alone": 1117.3757515614707,
+     "Model + human review": 614.0551982621979
+    },
+    "best": "Model + human review",
+    "reviewers": 1.045913499061149
+   },
+   {
+    "value": 8,
+    "single": 0.67,
+    "low": 0.38,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 1052.0,
+     "Model alone": 1250.6536615147463,
+     "Model + human review": 624.0979635296202
+    },
+    "best": "Model + human review",
+    "reviewers": 1.045913499061149
+   },
+   {
+    "value": 12,
+    "single": 0.93,
+    "low": 0.39,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 1128.0,
+     "Model alone": 1510.0,
+     "Model + human review": 655.8216505528499
+    },
+    "best": "Model + human review",
+    "reviewers": 1.0418151384054115
+   },
+   {
+    "value": 20,
+    "single": 0.93,
+    "low": 0.39,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 1280.0000000000002,
+     "Model alone": 1510.0,
+     "Model + human review": 682.6023579326428
+    },
+    "best": "Model + human review",
+    "reviewers": 1.0418151384054115
+   }
+  ],
+  "switches": []
+ },
+ "costs_eur.true_positive": {
+  "label": "Cost of fixing a caught defect (EUR)",
+  "baseline": 5.0,
+  "baseline_best": "Model + human review",
+  "rows": [
+   {
+    "value": 0,
+    "single": 0.62,
+    "low": 0.38,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 757.0,
+     "Model alone": 782.6221722483577,
+     "Model + human review": 419.2452673188889
+    },
+    "best": "Model + human review",
+    "reviewers": 1.045913499061149
+   },
+   {
+    "value": 2,
+    "single": 0.67,
+    "low": 0.38,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 837.0,
+     "Model alone": 954.7533197893414,
+     "Model + human review": 494.49116895823323
+    },
+    "best": "Model + human review",
+    "reviewers": 1.045913499061149
+   },
+   {
+    "value": 5,
+    "single": 0.67,
+    "low": 0.38,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 957.0,
+     "Model alone": 1028.5238115926202,
+     "Model + human review": 607.3600214172496
+    },
+    "best": "Model + human review",
+    "reviewers": 1.045913499061149
+   },
+   {
+    "value": 10,
+    "single": 0.67,
+    "low": 0.38,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 1157.0,
+     "Model alone": 1151.4746312647512,
+     "Model + human review": 795.4747755156104
+    },
+    "best": "Model + human review",
+    "reviewers": 1.045913499061149
+   },
+   {
+    "value": 15,
+    "single": 0.67,
+    "low": 0.38,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 1357.0000000000002,
+     "Model alone": 1274.4254509368823,
+     "Model + human review": 983.5895296139711
+    },
+    "best": "Model + human review",
+    "reviewers": 1.045913499061149
+   },
+   {
+    "value": 20,
+    "single": 0.67,
+    "low": 0.39,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 1557.0,
+     "Model alone": 1397.3762706090135,
+     "Model + human review": 1178.972043275173
+    },
+    "best": "Model + human review",
+    "reviewers": 1.0418151384054115
+   },
+   {
+    "value": 25,
+    "single": 0.93,
+    "low": 0.48,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 1757.0000000000002,
+     "Model alone": 1510.0,
+     "Model + human review": 1358.6140496964877
+    },
+    "best": "Model + human review",
+    "reviewers": 0.6280908838972836
+   }
+  ],
+  "switches": []
+ },
+ "human.wage_eur_per_hour": {
+  "label": "Reviewer wage (EUR/h)",
+  "baseline": 16.0,
+  "baseline_best": "Model + human review",
+  "rows": [
+   {
+    "value": 5,
+    "single": 0.67,
+    "low": 0.38,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 682.0,
+     "Model alone": 1028.5238115926202,
+     "Model + human review": 588.1849406011286
+    },
+    "best": "Model + human review",
+    "reviewers": 1.045913499061149
+   },
+   {
+    "value": 8,
+    "single": 0.67,
+    "low": 0.38,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 757.0,
+     "Model alone": 1028.5238115926202,
+     "Model + human review": 593.4145080964342
+    },
+    "best": "Model + human review",
+    "reviewers": 1.045913499061149
+   },
+   {
+    "value": 12,
+    "single": 0.67,
+    "low": 0.38,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 857.0000000000001,
+     "Model alone": 1028.5238115926202,
+     "Model + human review": 600.387264756842
+    },
+    "best": "Model + human review",
+    "reviewers": 1.045913499061149
+   },
+   {
+    "value": 16,
+    "single": 0.67,
+    "low": 0.38,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 957.0,
+     "Model alone": 1028.5238115926202,
+     "Model + human review": 607.3600214172496
+    },
+    "best": "Model + human review",
+    "reviewers": 1.045913499061149
+   },
+   {
+    "value": 20,
+    "single": 0.67,
+    "low": 0.38,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 1057.0,
+     "Model alone": 1028.5238115926202,
+     "Model + human review": 614.3327780776573
+    },
+    "best": "Model + human review",
+    "reviewers": 1.045913499061149
+   },
+   {
+    "value": 30,
+    "single": 0.67,
+    "low": 0.38,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 1307.0,
+     "Model alone": 1028.5238115926202,
+     "Model + human review": 631.7646697286764
+    },
+    "best": "Model + human review",
+    "reviewers": 1.045913499061149
+   },
+   {
+    "value": 40,
+    "single": 0.67,
+    "low": 0.39,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 1557.0,
+     "Model alone": 1028.5238115926202,
+     "Model + human review": 667.3659602867993
+    },
+    "best": "Model + human review",
+    "reviewers": 1.0418151384054115
+   }
+  ],
+  "switches": []
+ },
+ "human.review_minutes": {
+  "label": "Minutes per review",
+  "baseline": 0.5,
+  "baseline_best": "Model + human review",
+  "rows": [
+   {
+    "value": 0.1,
+    "single": 0.67,
+    "low": 0.01,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 957.0,
+     "Model alone": 1028.5238115926202,
+     "Model + human review": 468.04138540271913
+    },
+    "best": "Model + human review",
+    "reviewers": 0.9927852161852196
+   },
+   {
+    "value": 0.25,
+    "single": 0.67,
+    "low": 0.11,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 957.0,
+     "Model alone": 1028.5238115926202,
+     "Model + human review": 509.4396121187202
+    },
+    "best": "Model + human review",
+    "reviewers": 1.7853158992370366
+   },
+   {
+    "value": 0.5,
+    "single": 0.67,
+    "low": 0.38,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 957.0,
+     "Model alone": 1028.5238115926202,
+     "Model + human review": 607.3600214172496
+    },
+    "best": "Model + human review",
+    "reviewers": 1.045913499061149
+   },
+   {
+    "value": 1,
+    "single": 0.67,
+    "low": 0.52,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 957.0,
+     "Model alone": 1028.5238115926202,
+     "Model + human review": 700.1445606987755
+    },
+    "best": "Model + human review",
+    "reviewers": 1.2479850464830917
+   },
+   {
+    "value": 2,
+    "single": 0.67,
+    "low": 0.53,
+    "high": 0.67,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 957.0,
+     "Model alone": 1028.5238115926202,
+     "Model + human review": 783.757963580623
+    },
+    "best": "Model + human review",
+    "reviewers": 1.099253971966203
+   },
+   {
+    "value": 3,
+    "single": 0.67,
+    "low": 0.59,
+    "high": 0.67,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 957.0,
+     "Model alone": 1028.5238115926202,
+     "Model + human review": 886.228729625407
+    },
+    "best": "Model + human review",
+    "reviewers": 0.1967213114754099
+   },
+   {
+    "value": 5,
+    "single": 0.67,
+    "low": 0.62,
+    "high": 0.67,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 957.0,
+     "Model alone": 1028.5238115926202,
+     "Model + human review": 941.7751777128387
+    },
+    "best": "Model + human review",
+    "reviewers": 0.20491803278688522
+   }
+  ],
+  "switches": []
+ },
+ "human.review_recall": {
+  "label": "Reviewer recall",
+  "baseline": 0.9,
+  "baseline_best": "Model + human review",
+  "rows": [
+   {
+    "value": 0.5,
+    "single": 0.67,
+    "low": 0.3,
+    "high": 0.67,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 957.0,
+     "Model alone": 1028.5238115926202,
+     "Model + human review": 842.6072590152485
+    },
+    "best": "Model + human review",
+    "reviewers": 1.5818641716140442
+   },
+   {
+    "value": 0.6,
+    "single": 0.67,
+    "low": 0.3,
+    "high": 0.67,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 957.0,
+     "Model alone": 1028.5238115926202,
+     "Model + human review": 793.426931146396
+    },
+    "best": "Model + human review",
+    "reviewers": 1.5818641716140442
+   },
+   {
+    "value": 0.7,
+    "single": 0.67,
+    "low": 0.3,
+    "high": 0.67,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 957.0,
+     "Model alone": 1028.5238115926202,
+     "Model + human review": 744.2466032775436
+    },
+    "best": "Model + human review",
+    "reviewers": 1.5818641716140442
+   },
+   {
+    "value": 0.8,
+    "single": 0.67,
+    "low": 0.38,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 957.0,
+     "Model alone": 1028.5238115926202,
+     "Model + human review": 711.8682181385611
+    },
+    "best": "Model + human review",
+    "reviewers": 1.045913499061149
+   },
+   {
+    "value": 0.9,
+    "single": 0.67,
+    "low": 0.38,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 957.0,
+     "Model alone": 1028.5238115926202,
+     "Model + human review": 607.3600214172496
+    },
+    "best": "Model + human review",
+    "reviewers": 1.045913499061149
+   },
+   {
+    "value": 0.95,
+    "single": 0.67,
+    "low": 0.38,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 957.0,
+     "Model alone": 1028.5238115926202,
+     "Model + human review": 555.1059230565941
+    },
+    "best": "Model + human review",
+    "reviewers": 1.045913499061149
+   },
+   {
+    "value": 1.0,
+    "single": 0.67,
+    "low": 0.38,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 957.0,
+     "Model alone": 1028.5238115926202,
+     "Model + human review": 502.85182469593815
+    },
+    "best": "Model + human review",
+    "reviewers": 1.045913499061149
+   }
+  ],
+  "switches": []
+ },
+ "human.full_inspection_minutes": {
+  "label": "Minutes per full manual inspection",
+  "baseline": 1.5,
+  "baseline_best": "Model + human review",
+  "rows": [
+   {
+    "value": 0.25,
+    "single": 0.67,
+    "low": 0.38,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 623.6666666666667,
+     "Model alone": 1028.5238115926202,
+     "Model + human review": 607.3600214172496
+    },
+    "best": "Model + human review",
+    "reviewers": 1.045913499061149
+   },
+   {
+    "value": 0.5,
+    "single": 0.67,
+    "low": 0.38,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 690.3333333333334,
+     "Model alone": 1028.5238115926202,
+     "Model + human review": 607.3600214172496
+    },
+    "best": "Model + human review",
+    "reviewers": 1.045913499061149
+   },
+   {
+    "value": 1,
+    "single": 0.67,
+    "low": 0.38,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 823.6666666666666,
+     "Model alone": 1028.5238115926202,
+     "Model + human review": 607.3600214172496
+    },
+    "best": "Model + human review",
+    "reviewers": 1.045913499061149
+   },
+   {
+    "value": 1.5,
+    "single": 0.67,
+    "low": 0.38,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 957.0,
+     "Model alone": 1028.5238115926202,
+     "Model + human review": 607.3600214172496
+    },
+    "best": "Model + human review",
+    "reviewers": 1.045913499061149
+   },
+   {
+    "value": 2,
+    "single": 0.67,
+    "low": 0.38,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 1090.3333333333333,
+     "Model alone": 1028.5238115926202,
+     "Model + human review": 607.3600214172496
+    },
+    "best": "Model + human review",
+    "reviewers": 1.045913499061149
+   },
+   {
+    "value": 3,
+    "single": 0.67,
+    "low": 0.38,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 1357.0000000000002,
+     "Model alone": 1028.5238115926202,
+     "Model + human review": 607.3600214172496
+    },
+    "best": "Model + human review",
+    "reviewers": 1.045913499061149
+   },
+   {
+    "value": 5,
+    "single": 0.67,
+    "low": 0.38,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 1890.3333333333335,
+     "Model alone": 1028.5238115926202,
+     "Model + human review": 607.3600214172496
+    },
+    "best": "Model + human review",
+    "reviewers": 1.045913499061149
+   }
+  ],
+  "switches": []
+ },
+ "evaluation.negative_area_factor": {
+  "label": "False-alarm area factor",
+  "baseline": 6.25,
+  "baseline_best": "Model + human review",
+  "rows": [
+   {
+    "value": 1,
+    "single": 0.3,
+    "low": 0.11,
+    "high": 0.67,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 957.0,
+     "Model alone": 599.244149668377,
+     "Model + human review": 416.17974387853013
+    },
+    "best": "Model + human review",
+    "reviewers": 0.9165623826805154
+   },
+   {
+    "value": 2,
+    "single": 0.48,
+    "low": 0.11,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 957.0,
+     "Model alone": 633.2438497126063,
+     "Model + human review": 487.16531670648567
+    },
+    "best": "Model + human review",
+    "reviewers": 1.7633200900631527
+   },
+   {
+    "value": 4,
+    "single": 0.53,
+    "low": 0.3,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 957.0,
+     "Model alone": 757.9692851854485,
+     "Model + human review": 565.5059796263918
+    },
+    "best": "Model + human review",
+    "reviewers": 1.3981902588510038
+   },
+   {
+    "value": 6.25,
+    "single": 0.67,
+    "low": 0.38,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 957.0,
+     "Model alone": 1028.5238115926202,
+     "Model + human review": 607.3600214172496
+    },
+    "best": "Model + human review",
+    "reviewers": 1.045913499061149
+   },
+   {
+    "value": 9,
+    "single": 0.67,
+    "low": 0.44,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 957.0,
+     "Model alone": 1085.1740360421948,
+     "Model + human review": 646.233070144718
+    },
+    "best": "Model + human review",
+    "reviewers": 1.0947783827704056
+   },
+   {
+    "value": 12,
+    "single": 0.67,
+    "low": 0.48,
+    "high": 0.93,
+    "costs": {
+     "Do nothing (ship everything)": 1500.0,
+     "Person checks every garment": 957.0,
+     "Model alone": 1145.6278751818131,
+     "Model + human review": 679.2956812490554
+    },
+    "best": "Model + human review",
+    "reviewers": 0.9933733279504121
+   }
+  ],
+  "switches": []
+ }
+}

@@ -1,0 +1,70 @@
+# Every assumption the pipeline and the dashboard use lives in this file.
+# Change a number, then either:
+#   uv run python train.py --skip-training   # re-run evaluation, costing and sensitivity (minutes)
+#   uv run python main.py train              # full pipeline, including the ~3 h CPU finetune
+# The dashboard (uv run python main.py app) reads this file at startup and
+# recomputes every cost from the saved model scores, so cost changes show up
+# there immediately, without retraining.
+
+dataset:
+  # Public Roboflow Universe dataset, used as is (not forked).
+  # https://universe.roboflow.com/sqc/fabric-defect-detection-ehhyx/dataset/2
+  workspace: sqc
+  project: fabric-defect-detection-ehhyx
+  version: 2
+  export_format: yolov11
+  local_dir: datasets/sqc-v2
+
+training:
+  model: yolo11n.pt        # COCO-pretrained starting checkpoint
+  epochs: 30               # train split is already 3x augmented, so ~90 passes over each source image
+  patience: 10             # early stopping on validation mAP50-95
+  imgsz: 640               # native resolution of the export; defects are small, so no downscaling
+  batch: 16
+  device: cpu
+  workers: 4
+  seed: 0
+
+evaluation:
+  conf_floor: 0.01         # keep every box above this; thresholds are swept above it
+  max_det: 50
+  iou_match: 0.5           # IoU needed for a predicted box to count as finding a labelled defect
+  # Defect-free "negatives": every image in this dataset contains a defect, so I cut
+  # windows that touch no labelled box out of the valid/test images.
+  negative_crop_px: 256    # crop side in pixels, predicted at the same pixel scale as training
+  negative_crop_margin_px: 8
+  negative_crops_per_image: 4
+  # A 256 px crop covers 1/6.25 of a 640x640 photo, so a good garment's photo has ~6.25
+  # chances to raise a false alarm: P(photo flagged) = 1 - (1 - P(crop flagged))^6.25.
+  negative_area_factor: 6.25
+  threshold_step: 0.01
+  select_on_split: valid   # thresholds are chosen on valid, then reported on test
+  bootstrap_resamples: 2000
+
+business:
+  base_rate: 0.05          # share of garments reaching end-of-line inspection with a visible defect
+  garments_per_day: 4000   # mid-sized factory, 4 sewing lines x ~1,000 garments/day
+
+costs_eur:                 # expected cost of each outcome, per garment
+  false_negative: 30.0     # defect shipped: return shipping + handling + refund + write-off + reputation
+  false_positive: 3.0      # good garment rejected: re-inspection at the rework station + handling + some needless rework
+  true_positive: 5.0       # defect caught in the factory: average repair / downgrade to seconds
+  true_negative: 0.0       # good garment shipped: no extra cost
+  model_per_garment: 0.01  # camera station + compute, amortised (~EUR 25k over 3 years of production)
+
+human:
+  wage_eur_per_hour: 16.0          # fully loaded QC inspector cost in Spain (gross salary + social security)
+  review_minutes: 0.5              # check one flagged garment at the spot the model boxed
+  full_inspection_minutes: 1.5     # inspect a whole garment with no model help
+  productive_minutes_per_day: 400  # 8 h shift minus breaks, handling and fatigue rotation
+  reviewers_available: 2           # people the QC team can put on the review station
+  review_recall: 0.90              # share of real defects a reviewer confirms when shown the box
+  full_inspection_recall: 0.80     # share of defects a person finds inspecting everything unaided
+  specificity: 0.98                # share of good garments a person correctly passes
+
+thresholds:
+  # null = choose automatically by minimum expected cost on the selection split.
+  # Put a number here to force a threshold (the dashboard sliders start from these).
+  single: null             # model-alone: reject if max box confidence >= single
+  review_low: null         # below this: pass
+  review_high: null        # at or above this: reject; in between: human review
