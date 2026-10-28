@@ -1,0 +1,4 @@
+container,units,units_to_review,units_failed,units_passed,expected_missed_damaged,person_hours,days_to_clear,staff,hours_per_day,claim_window_days,fits_claim_window
+20ft,200,0.0,22.42,177.58,0.065,1.12,0.08,2,7,7,1
+40ft_low,400,0.0,44.84,355.16,0.129,2.24,0.16,2,7,7,1
+40ft_high,600,0.0,67.25,532.75,0.194,3.36,0.24,2,7,7,1

@@ -14,3 +14,10 @@ runs/
 
 # Never commit your API key
 .env
+
+# Pretrained checkpoints Ultralytics downloads into the repo root (yolo11n.pt). Real weights live in weights/.
+/*.pt
+
+# Checkpoints Ultralytics' AMP check downloads into weights/ on GPU machines
+weights/yolo26n.pt
+weights/yolo11n.pt

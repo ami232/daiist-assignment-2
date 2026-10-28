@@ -1,0 +1,6 @@
+option,t_low,t_high,exp_fn_per_1000,exp_review_per_1000,exp_fail_per_1000,exp_false_claims_per_1000,cost_dop_per_1000,cost_eur_per_1000,cost_dop_per_container_400,cost_eur_per_container_400,note
+do_nothing,1.0,1.0,10.0,0.0,0.0,0.0,70000.0,1019.37,28000.0,407.75,every unit released
+person_checks_everything,0.0,0.0,0.0,1000.0,0.0,0.0,40000,582.5,16000.0,233.0,every unit reviewed at 40 DOP; catches everything
+model_alone,0.2,0.2,0.4839,0.0,77.792,68.2759,38302.95,557.78,15321.18,223.11,"t_low = t_high at sweep.py's single-threshold optimum; no review band; fail costs 10 DOP, plus 500 DOP false claim if intact"
+model_plus_review_band_argmin,0.34,0.94,0.4839,71.5017,6.2903,0.0,6310.07,91.89,2524.03,36.76,pass / review / fail at the argmin pair
+model_plus_review_band_chosen,0.2,0.94,0.4839,71.5017,6.2903,0.0,6310.07,91.89,2524.03,36.76,pass / review / fail at the chosen pair

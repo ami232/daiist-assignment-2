@@ -1,0 +1,6 @@
+predicted \ true,Box,Box_broken,Open_package,Package,background
+Box,26,1,0,0,3
+Box_broken,2,26,0,0,1
+Open_package,0,1,28,1,1
+Package,2,1,0,38,4
+background,0,1,1,2,0

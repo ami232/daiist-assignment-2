@@ -1,69 +1,153 @@
 # Assignment 2 Report
 
-*Delete this italic guidance as you fill in each section. You'll be asked to
-defend any of this without your code in front of you. Write only what you
-can actually explain.*
 
-- **Name**:
-- **Student ID**:
-- **Email**:
-- **Group**: [BBADBA 5A | BBADBA 5B | PPLEDBA 5A | BDBA 3A]
+- **Name**: Javier Alonso
+- **Student ID**: 20101
+- **Email**: jalonso.ieu2022@student.ie.edu
+- **Group**: PPLEDBA 5A
 
-## Business problem, and the cost of being wrong
+## 1. Business problem, and the cost of being wrong
 
-*The decision this model supports, who or what acts on it, and what happens
-when it's wrong in each direction. Be concrete about the asymmetry: which
-mistake is worse, roughly by how much, and why. Everything downstream (your
-threshold, how much you send to a person, which metric you care about) has to trace
-back to this section.*
+This project focuses on the inspection process used by Display Internacional, a Dominican-based store fixtures importer/distributor, once goods arrive at the facility in a supplier’s shipping container and not inventory tracking or shipment of goods out of the warehouse. The primary objective of this project is to develop a method for determining which incoming boxes will require opening by a person. The expected return of applying the model is so that the warehouse staff spend their time on a few boxes that need true inspection rather than all of the boxes.
+In real use, each box is photographed as it comes off the truck and the model assigns a damage score to each box between 0 and 1. If the score is below a predetermined low threshold (i.e., pass), the box is placed into stock. When the score falls within the range between the two thresholds, the warehouse staff unpacks and inspects the contents of the box (review). If the score exceeds a predetermined high threshold, the box is placed aside, and after a three minute examination by a person to confirm the image, a damage claim will be submitted to the supplier or forwarder using the image as evidence (fail). The thresholds are determined by how certain the model is, not how severe the damage appears. Further, no claim is filed without a person confirming. 
+This project includes four types of costs. A false negative occurs when a damaged box is rated “Pass” and ultimately delivered to a customer; this type of error incurs a cost of 7,000 DOP (the total replacement cost of 4,400 DOP + two way freight of 2,500 DOP since, at that point, the damage claim period will be over.) A review of a box costs 40 DOP (10 minutes x 3 DOP/minute loaded wage.) Confirmation of a failure costs 10 DOP (three minute observation.). Finally, a false claim, a fail on a box that was actually intact, costs 500 DOP (approximately one hour of administrative effort to submit and withdraw the claim, plus loss of credibility with the supplier; placeholder). At 68.67 DOP/EUR (23 Oct 2026) that is 102 €, 0.58 €, 0.15 € and 7.3 €.
+Since the testing data used to evaluate the model’s performance contains 50 percent damaged items, we rescale all costs to reflect the actual base rate: approximately 1 item in 100 arrives damaged, which came directly from the CEO. Boxes arrive only when a container does - approximately 200 boxes for a standard 20 foot container and 400-600 boxes for a standard 40 foot container - and at 1 in 100 that gives 2 to 6 damaged boxes per container, so the review workload is per container, rather than daily. I assume two people are in charge of checking the items that arrive to the warehouse (a placeholder; the exact number was not confirmed), and damage has to be claimed within about seven days of arrival.
+Given that missing one damaged box will result in a penalty that is nearly 175 times greater than conducting an unnecessary unpack of a non-damaged item, I initially envisioned that the threshold would be low enough that any suspicious items get flagged for review: i.e., a box should be sent to a reviewer whenever there is greater than 40 ÷ (40 + 7000) = 0.6% probability of having been damaged. Under these conditions, reviewing an unnecessary box is significantly less costly than failing to detect a damaged item.
+We have assigned a value of 7,000 DOP to missing a damaged item and 40 DOP to manually reviewing an item. To justify the development and implementation of such a model, its errors must be less costly than manually reviewing each item. That is, for 1,000 items received, the number of damaged boxes it misses × 7,000 DOP plus the number of intact boxes it sends to review × 40 DOP must collectively be less than 40,000 DOP for manual review of each item. The ease with which this condition may be met depends heavily on the assumed base rate of damage. For instance, assuming 1 in 100 items are damaged, there will be ten damaged items in a group of 1,000 items received. Therefore, even missing half of them (5 × 7,000 = 35,000 DOP) stays under the 40,000 DOP ceiling for manual review of all items. The model only needs to catch about 47% of damaged boxes to beat manual review. 
+Conversely, assuming a base rate of 5 in 100 damaged items, there will be fifty damaged items in a group of 1,000 items received. Therefore, even though an average of twenty-five damaged items would represent fifty percent missed (25 X 7,000 DOP = 175,000 DOP), the model would need about 89% recall of damaged items before it could perform better than manual review. As stated earlier, the rarity of damage reduces the quality required of the model because manual review typically spends most of its 40,000 DOP reviewing boxes that are not damaged. The CEO’s “1 in 100” is what makes this project viable; his first guess of 10–15% would have meant opening every box and no model at all.
+The 1-in-100 base rate, the container sizes and the seven-day claim window come from the CEO, as do the GFP-1 unit cost and the freight that make up the 7,000 DOP. The unpack and glance times, the 3 DOP/min loaded wage, the 500 DOP false-claim cost, the assumption of two staff and the exchange rate are my estimates; the CEO reviewed all of them and considered them plausible.
 
-## Dataset
 
-*Workspace / project / version on Roboflow Universe, and the link. What one
-image represents, what the classes are, and why this dataset actually serves
-the problem above rather than merely resembling it.*
+## 2. Dataset
 
-## What the dataset's composition implies
+For this project, since Display had no official dataset, I utilized the Roboflow Universe project "package-detection-e1ssd" from the Roboflow workspace called "roboflow-ngkro", v6, in YOLOV11 format. It is publicly available. I analyzed statistics of six candidate datasets found within their respective label files, instead of using data from websites. 
+The first candidate, which I chose to evaluate was project-33xgh/damaged-box-detection. Although the name suggests that it is a damaged box detection model, it is a classification model so I couldn’t use it for detection. The second candidate was damages-shoeg/damaged_boxes-3oeks. Unfortunately, there were only 219 video frames of a single product, and they did not have a valid or test split in place. Therefore, there was no basis upon which I could evaluate this candidate. Also, Display’s SKUs are packaged differently, so using only one product shown on video would not provide a good simulation of our operational environment. The third candidate was infocomm-project-fpj1z/damaged-packages-6snht. Although there are 46 images in its test split, only 19 of those images show an intact instance. This was not enough data to trust the test on false positive rates. Next, I evaluated dms-8pnzm/package-kglu1-we3hv. However, the exported images were all in grayscale. Also, many of the damaged regions are very small (the median area covered by these patches is less than 1%). Finally, nearly all of the images contain both a package and a damaged region. Consequently, there are nearly no clean negatives. Lastly, I evaluated nani-tmzf6/package-detection-5ozpr. In this case, 84% of the images show damaged boxes, and the boxes fill most of the frame. Not only does this make the model behave like a classifier but also the data presents a huge class imbalance -- in the opposite direction to production.
+The original dataset contained four classes: Box, Box_broken, Open_package and Package. In addition to these, I defined the positive class as a broken box or an open package and the negative class as an intact box or package. This decision was taken because an open package goes through the same check as a heavily damaged one. Thus, labeling open packages as positive doubles the number of test positives from approximately 30 to 62.
 
-*Instances per class, train/val/test sizes, typical object size relative to the
-image. Then the interpretation: which per-class numbers will be too thin to
-trust, whether the test split resembles the images you'd really see, and what
-you therefore can't conclude from your results.*
+| Split | Images | Boxes | Box | Box_broken | Open_package | Package |
+|---|---|---|---|---|---|---|
+| train | 840 | 1,052 | 314 | 206 | 225 | 307 |
+| valid | 240 | 305 | 103 | 64 | 54 | 84 |
+| test | 120 | 136 | 31 | 34 | 29 | 42 |
 
-## Finetuning and baselines
 
-*Which model and task (detection or classification) and why. A results table on
-the same test split: your finetuned model, the pretrained COCO model zero-shot,
-and a trivial baseline. What changed, and whether the gap is as large as you
-expected.*
+As well as at the image level we see an approximately 50/50 distribution across all splits: test = 62 + 58, training = 424 + 416, validation = 118 + 122. There are approximately 1.2 to 1.3 boxes per image. Only five of the total one thousand two hundred images include a labeled positive and a labeled negative. And there were no images that did not have a label. Every single image within the dataset is 640x640 pixels, because version 6 of the dataset applied auto-orient and a stretch resize 640x640. The augmentation field was empty, therefore, no additional images were created through this method. While Roboflow does not track how they split their images, 840 / 240 / 120 matches the exact default values used by Roboflow when splitting data (70/20/10) thus, the images were most likely randomly divided. When measuring object size in terms of what portion of each photo each labeled box represents, we find median sizes of 26% for Box, 30% for Box_broken, 39% for Open_package, and 46% for Package. 
+With tenth percentile measurements ranging from 8% to 19%, objects represent a significant area of the image and do not present a small-object problem. Box is the class with the smallest objects and the longest tail toward very small objects. Perceptual hash checks revealed 24 pairs of near-identical images. These same images had been uploaded into the system with different names. Six of the 120 test images have a near-identical twin in the train or valid split, making it apparent that the model has viewed 5% of its testing set. The images are phone photos with uneven light, of boxes and packages on floors or sofas and about half the negatives are plastic mailers and padded envelopes rather than cardboard boxes.
 
-## Per-class evaluation and failure modes
 
-*Per-class AP50, or per-class precision/recall and the confusion matrix.
-Which class carries the headline number, which one is dragging, and what the
-model actually confuses with what. Show where it breaks, not just that it
-works.*
+## 3. What the dataset's composition implies
 
-## Cost matrix and operating point
+The test split is half damaged (62 of 120 images). On the dock about 1 box in 100 is damaged. So no number measured on the test split means anything for the business until it is rescaled: I take the model's true-positive rate and false-positive rate from the test images and apply them to 1,000 boxes of which 10 are damaged. Raw accuracy on this test set would reward a model for being good at a 50/50 problem that does not exist in the warehouse.
+About half the negatives are plastic mailers and padded envelopes (the Package class). Display receives cardboard cartons. The false-alarm rate on Package tells me little about the dock, so in Section 5 I report the false-positive rate separately for Box (intact cardboard, my real case) and for Package.
+The damage in this dataset is mostly obvious: crushed corners, torn flaps, open lids. A dented mannequin carton or a wet patch is subtler. I expect recall on dock photos to be lower than the 95% I measure here, and the two boxes the model misses in Section 5 are exactly the subtle cases, which is consistent with that expectation.
+Intact Box is the class with the smallest objects (median 26% of the image, 10th percentile 8%). It is also the class Display actually receives. The confusion matrix shows three Box instances lost to background, more than any other class. If dock photos are taken from further away than these phone shots, Box is the class that will suffer first.
+The size of the test split sets the resolution of everything that follows. With 62 positives, one image moves the true-positive rate by 1.6 points; at 7,000 DOP per missed box and a 1% base rate, that is 1,129 DOP per 1,000 boxes. With 58 negatives, one image moves the false-positive rate by 1.7 points, or 683 DOP per 1,000. Neighbouring thresholds are therefore separated by a handful of images, which is why in Section 6 I choose a threshold from a flat region rather than from a single minimum. The 6 test images with a twin in train or valid are handled the same way: I evaluate on all 120 and on the 114 without twins, and the difference is within one image.
 
-*Your euro cost for each kind of error and where each figure came from. The
-base rate you assumed. The cost-against-threshold sweep, and the operating
-point you chose. State the assumption that would most change your answer if it
-were wrong.*
 
-## What a person still has to check
+## 4. Finetuning and baselines
 
-*Your two thresholds, and what share of cases they send to a person. How many
-that is per day, how long one takes to check, and how many people that needs.
-Is that realistic? Then your design priced against the three alternatives:
-doing nothing, having a person check everything, and letting the model decide
-on its own.*
+I fine-tuned yolo11n.pt (COCO-pretrained, 2.59M parameters) on the train split with Ultralytics 8.4.173: image size 640, 50 epochs, batch 16, seed 42, deterministic=True, patience 10. Ultralytics' optimizer=auto selected AdamW with learning rate 0.00125 and ignored the default lr0=0.01; mixed precision (AMP) was on; the default train-time augmentation applied (mosaic, HSV jitter, horizontal flip, scale ±0.5), with mosaic switched off for the last 10 epochs. 448 of 499 parameter groups were transferred from the COCO weights; only the detection head's class layers started fresh. The stored dataset has no augmentation, but the model still saw augmented images during training; the two statements are about different things.
+Training ran on a Google Colab Tesla T4 through the repo's own pipeline (python main.py train), which downloads the dataset, trains, copies the best checkpoint to weights/best.pt and evaluates. Training took 652 s, evaluation 19 s. All 50 epochs ran; the best checkpoint was epoch 50, so early stopping never triggered. I did not train longer: validation mAP50 was 0.944 and test mAP50 0.968, one test image is worth 1.6 points of recall, and the brief asks to tune sparingly. Anything a longer run bought would be below the resolution of the test split.
+The first Colab run failed after training because train.py looked for the checkpoint in runs/finetune/ while Ultralytics saved it under runs/detect/runs/finetune/. The fix takes the path from the trainer's return value instead of hard-coding it, with a unit test. The AMP check also drops a yolo26n.pt into weights/, which check.py would have loaded; train.py now removes it. The pipeline was then rerun from scratch so the committed weights come from an unattended main.py train.
+The run is reproducible. The second run reproduced the first to four decimals on every test metric although the checkpoint files differ byte for byte. Re-running src/evaluate.py on CPU against the committed weights reproduced the GPU outputs: identical metrics, 12 of 120 image scores differing in the sixth decimal, no decision changed.
+Test-split results (mAP at conf 0.001): mAP50 0.968, mAP50-95 0.888 on all 120 images; 0.965 and 0.884 on the 114 without a twin in train or valid.
+Two baselines were evaluated on the same test split. The pretrained COCO yolo11n used zero-shot has no package class, and I did not invent a mapping. At conf 0.25 it produced 91 detections on 70 images, mostly book (21), vase (9), umbrella (7) and bed (7); none is a package, so every image scores 0.0 and passes. That makes it identical to the trivial "predict nothing" baseline: recall 0, false-positive rate 0, and at a 1% base rate a cost of 70,000 DOP per 1,000 boxes. The opposite trivial baseline, "flag everything", costs 39,600 DOP under the single-threshold formula of Section 6, which does not charge for handling true positives; the review-band costing in Section 7 does, and there it is not competitive. The fine-tuned model at its best single threshold costs 6,118 DOP per 1,000 (Section 6).
 
-## Limitations & next steps
 
-*Real limitations you found, and concretely how you'd address each one with
-more time or data. Not generic hedging.*
+## 5. Per-class evaluation and failure modes
 
-## Generative AI use disclosure
+The positive class is "compromised": Box_broken or Open_package. The headline number is image-level recall of compromised boxes at the pass threshold, because a missed box is the expensive error; mAP is reported because the brief asks for it, but it is not what the dock cares about.
+| Class | Precision | Recall | AP50 | AP50-95 |
+|---|---|---|---|---|
+| Box | 0.966 | 0.928 | 0.984 | 0.925 |
+| Box_broken | 0.939 | 0.910 | 0.963 | 0.921 |
+| Open_package | 0.901 | 0.966 | 0.968 | 0.890 |
+| Package | 0.867 | 0.905 | 0.956 | 0.819 |
 
-*Per the syllabus AI Policy: what you used and how, or "no AI content used."*
+
+Package is the weakest class (precision 0.867, AP50-95 0.819) and Box_broken has the lowest recall among the positives (0.910). The COCO zero-shot and trivial baselines have no per-class numbers by construction: AP is 0 and precision and recall are undefined, because they never predict any of these classes.
+The confusion matrix is computed at conf 0.25 (the mAP figures use conf 0.001; the two settings are stated in outputs/test_metrics_finetuned.json). The errors that cross the compromised/intact line are: 2 intact Box predicted as Box_broken, 1 Box_broken predicted as Box, 1 Box_broken and 1 Open_package predicted as Package, and in the background row 1 Box_broken and 1 Open_package not detected at all. Open_package and Package are confused once in each direction: an opened mailer looks like a closed one. Three intact Box instances are also lost to background. Everything else is on the diagonal.
+At image level, with the chosen thresholds of Section 6: above the fail line (score ≥ 0.94) recall is 0.629 and the false-positive rate is 0.000, so no intact test image is ever failed on the photo. Above the pass line (score ≥ 0.20, i.e. review or fail) recall is 0.952 (59 of 62) and the false-positive rate 0.069 (4 of 58): 2 of 25 Box (0.08) and 2 of 33 Package (0.06). With 25 and 33 negatives those two rates cannot be told apart.
+Where the model fails: two compromised boxes score essentially zero (0.0000 and 0.0015). One is a tape-wrapped parcel with a customs form and a crumpled top, which the model read as Package at 0.79. The other is a heavily taped box with a torn, dented end, read as Box at 0.72. Both are subtle damage, and no threshold recovers them; they are a floor of about 2,260 DOP per 1,000 boxes at the 1% base rate. The three most confident false alarms are an intact Package scored 0.934 (predicted Open_package), an intact Box scored 0.898 (predicted Box_broken) and an intact Package scored 0.641 (predicted Open_package). They are cheap as reviews, 40 DOP each, and the fail threshold is set above all of them. The five images are in outputs/failures/.
+Excluding the 6 test images with a twin in train or valid changes nothing of substance: mAP50 0.965, recall 0.931 and false-positive rate 0.054 at a 0.5 threshold, against 0.936 and 0.052 on all 120.
+
+
+## 6. Cost matrix and operating point
+
+All results are presented in DOP (Dominican Pesos) and per unit. As noted in Section 1, the costs were: Cost of missing a damaged box: 7,000; Cost of reviewing a box: 40; Cost of confirming a box fails inspection: 10; Cost of filing a false claim: 500 DOP, plus the confirmation cost. No cost is incurred for true negatives.
+Base Rate: The base rate is 1%, swept over 0.5%, 1%, 3%, 5%, 10% and 15%. Every number below is per 1,000 boxes received at that base rate. Each result rescales the test-split rates: Missed= 10 * (1-recall); False Alarms = 990* FPR.
+For a single threshold, a box that tests above it will go to a person at a cost of 40 DOP, while a box that tests below it will be passed. When sweeping the single threshold from 0.00 to 1.00 in steps of 0.01 at a base rate of 1%:
+| t | recall | FPR | missed | unpacks | DOP / 1,000 |
+|---|---|---|---|---|---|
+| 0.05 | 0.968 | 0.103 | 0.32 | 102.4 | 6,355 |
+| 0.10 | 0.952 | 0.103 | 0.48 | 102.4 | 7,484 |
+| 0.20 | 0.952 | 0.069 | 0.48 | 68.3 | 6,118 |
+| 0.30 | 0.952 | 0.069 | 0.48 | 68.3 | 6,118 |
+| 0.40 | 0.935 | 0.052 | 0.65 | 51.2 | 6,564 |
+| 0.50 | 0.935 | 0.052 | 0.65 | 51.2 | 6,564 |
+| 0.60 | 0.919 | 0.052 | 0.81 | 51.2 | 7,693 |
+| 0.70 | 0.919 | 0.034 | 0.81 | 34.1 | 7,011 |
+| 0.80 | 0.919 | 0.034 | 0.81 | 34.1 | 7,011 |
+| 0.90 | 0.871 | 0.017 | 1.29 | 17.1 | 9,715 |
+
+
+The graph depicts a staircase-type function, as opposed to a continuous curve. Therefore, there is no optimal single threshold; every threshold from 0.20 to 0.34 generates the same lowest cost of 6,118 DOP. Furthermore, every threshold from 0.01 to 0.85 is within one test positive (1,129 DOP) of this minimum cost. This identical minimum threshold and the same band is generated using the 114-image subset. In order to compare: Not checking at all:  70,000 DOP per thousand; Checking every box manually:  40,000 DOP per thousand; Using COCO zero-shot:  70,000 DOP per thousand, identical to not checking at all.
+The model performs better than manually checking every box by a ratio of about six-to-one at a threshold of 0.20; however, the model stops performing better than the manual inspector at thresholds of 0.95 and above (42,903 DOP), due to the large number of undetected damaged boxes. As the base rate increases, the minimum-cost threshold falls: 0.65 at a base rate of 0.5%; 0.20 at a base rate of 1%; 0.02 from a base rate of 3% through 10%; Flagging all boxes at a base rate of 15%.
+This represents the sensitivity statement for my most uncertain number. If the true damage rate is three-in-a-hundred as opposed to the CEO’s one-in-a-hundred, then the correct course of action would be to flag nearly all boxes and allow the review band to differentiate them; if the CEO’s first guess of 10 to 15% had been right, then including the model would offer essentially no additional benefit to simply manually checking each box.
+Next, I evaluated all combinations of (t_low, t_high) using a 0.02 spacing to produce three different outcomes: Pass: 0 DOP if intact; otherwise  7,000 DOP; Review:  40 DOP either way (the reviewer catches everything); Fail:  10 DOP either way (the picture is used as evidence for the claim).
+The lowest-cost combination was (0.02, 0.02): no band at all, only pass or fail, at 3,379 DOP per thousand. The cause for this was in the assumptions, not in the code. A three-minute look was priced at 10 DOP and it was assumed that this would catch anything a ten-minute unpack would find, so failing a box was always cheaper than reviewing it and the band could never be beneficial. The assumption is incorrect. A Fail represents submitting a claim on a photograph without opening the box; if the box is actually intact, that is a false claim, which costs the administrative effort of filing and reversing it and credibility with the supplier.
+Including the cost of false claims (failing an intact box = 10 + 500), the optimal configuration is (0.34, 0.94) at 6,310 DOP per thousand. Exactly eight configurations have the same cost; they all have t_high = 0.94 and t_low anywhere between 0.20 and 0.34 inclusive. The area within one test positive of the minimum includes t_low ranging from 0.02 to 0.84 and t_high ranging from 0.94 to 1.00. No single-threshold setting falls inside this region; the best single threshold under this pricing is 0.90 at 17,825 DOP, almost three times the cost of the band. The same pair is yielded using the 114-image subset. In terms of impact on choosing which pair to use, I did not observe any difference from varying the false-claim cost (100, 500 or 2,000 DOP), because at t_high = 0.94 none of the intact test images are failed: the maximum score produced by an intact image is 0.934. However, the penalty for being wrong about t_high is large. A drop of one step, to t_high = 0.92, lets that single image through and the cost per thousand becomes 7,447, 14,274 or 39,878 DOP at a false-claim cost of 100, 500 or 2,000 DOP respectively. Consequently t_high is pinned by a single image, and the rule I deliver is “only fail above the highest score any intact box has ever produced”, to be derived again from photos taken on the dock; all thresholds from 0.94 to 1.00 differ in cost by less than 190 DOP.
+Operating point selected: t_low = 0.20, t_high = 0.94.
+I started with a symmetric rule: the pass zone is where only intact boxes have produced scores, the fail zone is where only damaged boxes have produced scores, and the review band is the overlap. That gives t_high = 0.94 and t_low = 0.08 (the lowest score of a damaged box the model detected at all is 0.088; the two damaged boxes it missed entirely score like intact boxes, and no threshold can separate them). At (0.08, 0.94) the share of boxes sent to review is 10.5% versus 7.2% at the minimum-cost configuration, and the extra unpacks capture one more damaged box in sixty-two; on this test set both configurations cost within 240 DOP of each other, below its resolution. Since I wanted to reduce interruptions to dock workers whenever possible, I raised t_low from 0.08 to 0.20, the low end of the exact-minimum plateau: when the test data cannot distinguish two settings, I choose the one that causes fewer interruptions. Both edges rest on one image each: the intact box at 0.934 and the damaged box at 0.088.
+The model that uses a review band continues to out-perform an individual checker as long as: The cost of missing a damaged box is greater than approximately 400 DOP (if lower, missing a damaged box will cost less than laboring for ten minutes); any false-claim cost between 100 DOP and 2000 DOP; any base rate up to approximately 10%.
+
+
+## 7. What a person still has to check
+
+There are three possible outcomes for each box, decided by the model’s score. If the model’s score is less than 0.20 the model can be trusted that the package is in acceptable condition and goes to stock. When the model’s score is between 0.20 and 0.94 the warehouse team will inspect the box. If the model scores above 0.94 the model will be trusted and the box will be set aside and given a three-minute look to confirm the photo. Once the box’s condition is confirmed, a claim will be filed for the item with photo as evidence.
+Test split results: 54 of 58 intact images pass, 4 go to review and 0 fail. 3 of 62 damaged images pass (these are the misses), 20 go to review and 39 fail. Rescaled to 1,000 boxes at a 1% base rate: 0.48 damaged boxes missed, 71.5 boxes reviewed (7.2%), 6.3 boxes failed on the photo (0.6%), and 0 false claims.
+
+Per container, assuming two staff members are available during each of the seven productive hours per day within a seven-day claim window:
+| Container | Boxes | To review | Failed | Person-hours | Days (2 staff) | Missed |
+|---|---|---|---|---|---|---|
+| 20 ft | 200 | 14.3 | 1.3 | 2.5 | 0.18 | 0.10 |
+| 40 ft (low) | 400 | 28.6 | 2.5 | 4.9 | 0.35 | 0.19 |
+| 40 ft (high) | 600 | 42.9 | 3.8 | 7.3 | 0.52 | 0.29 |
+
+
+The "two staff" used here is an assumption; since the number of days also depends on the number of employees, if you had three people on the crew simply divide the days figure by 1.5.
+This is realistic. In a worst-case scenario, a container carrying 600 boxes requires approximately 43 unpacking operations and four glances, or 7.3 person-hours: half a day for two people, inside the seven-day window, alongside unloading and shelving. Without the model, the same container would require 600 unpacks (approximately 100 hours of work), which two people could not clear in a week while doing anything else.
+
+Priced against the alternatives, per 1,000 boxes and per 400-box container:
+| Option | DOP / 1,000 | DOP / container | EUR / container |
+|---|---|---|---|
+| Do nothing | 70,000 | 28,000 | 408 |
+| Person checks every box | 40,000 | 16,000 | 233 |
+| Model alone, t = 0.20, no review | 38,303 | 15,321 | 223 |
+| Model + review band (0.20, 0.94) | 6,310 | 2,524 | 37 |
+
+
+Under this pricing structure, the model provides little to no value on its own because it generates 68 false claims per 1,000 boxes at 500 DOP each when relying solely on its outputs without a person verifying the outputs. Moreover, it costs nearly as much money to use as checking every box manually. However, the combination of the model and a review band is six times cheaper than either doing nothing or checking every box. The benefit does not lie in how accurate the model is. Rather, it lies in how well it divides labor: the model allows 92% of boxes to remain unchecked by humans, a person inspects 7%, and under 1% are failed on the photo, with no intact box among them.
+
+
+## 8. Limitations & next steps
+
+Display’s dock is not the dataset. We’ve used an assortment of e-commerce parcel photographs taken indoors as our sample – about half of which are mailer types (which Display never receives) and the damage in them is mostly obvious crushing. When Display receives a cardboard carton (often hundreds at a time), they’re coming from a container. In these instances, the damage that matters is a dented corner or a wet patch. 
+Two things can happen:
+Recall on dock photos will be lower than the 95% measured here.
+Errors are likely going to correlate by shipment instead of being completely independent. 
+For example, a container of 400 mannequin cartons could result in several similar errors.
+Both thresholds are based upon one test image. The high threshold was determined using one undamaged box that scored 0.934; the low threshold sits on a plateau whose edges are one image wide. The correct interpretation is the decision rule itself, not the numeric values associated therewith. As such, the first job on the dock is to determine both thresholds using actual images.
+Several figures are placeholders, reviewed by the CEO but not measured. These include the 1 in 100 base rate, the 10 minute unpack time, the 3 minutes per item to visually inspect, the RD$3/min loaded wage, the assumption of two warehouse staff, and the 500 DOP false-claim cost. The base rate is the most important figure among this group; the sweep shows the optimal threshold moving from .65 at 0.5% to flagging everything at 15%. The false-claim cost matters only if t_high is set wrong.
+There are only 120 images in the test split; therefore, neither of the thresholds can be reliably identified to better than about ±0.3. Moreover, six of those images have twins in the training data. The confusion matrix is at conf 0.25 and mAP is at conf 0.001; the two-threshold heat map displayed in the dashboard is a static image based on a 500 DOP false-claim cost; changing the sliders changes the numeric results but does not update that static image.
+The next steps are:
+- Collect approximately 200 photographs at Display’s dock including subtle examples of damage and apply committed weights to evaluate them. Recompute both thresholds using this new information.
+- Log every claim filed and its outcome for one quarter, to replace the 500 DOP placeholder with a measured cost of a false claim.
+- Track the actual base rate per supplier. A supplier who provides goods with a 3% damage rate should not share a threshold with a supplier who provides products with only 0.5% damage rate.
+
+
+## 9. Generative AI use disclosure
+
+I used Claude (Claude Code for the repository, Claude in chat for review) throughout, as allowed by the syllabus. Claude Code wrote the code from my prompts: the dataset survey, the description script, train.py, src/evaluate.py, the sweep and review-band scripts, the Gradio app, the tests and the CI workflow. It also kept NOTES.md, the working log in this repository, which is AI-written. Claude in chat questioned my decisions and checked my numbers.
+The decisions are mine: the business problem and who acts on it, the four costs and their derivation, the choice of dataset and of the positive class, the two-step correction of the cost model when the review band collapsed, the thresholds (0.20, 0.94) and the reasons for them, and the review design. The CEO of the company supplied the base rate, the container sizes, the claim window and the unit costs, and reviewed my estimates.
+No analysis or number in the report comes from anywhere other than the committed pipeline outputs and the CEO interview.

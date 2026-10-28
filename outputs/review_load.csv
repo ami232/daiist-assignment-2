@@ -1,0 +1,7 @@
+pair,t_low,t_high,container,units,units_to_review,units_failed,units_passed,expected_missed_damaged,person_hours,days_to_clear,staff,hours_per_day,claim_window_days,fits_claim_window
+argmin,0.34,0.94,20ft,200,14.3,1.26,184.44,0.097,2.45,0.175,2,7,7,1
+argmin,0.34,0.94,40ft_low,400,28.6,2.52,368.88,0.194,4.89,0.349,2,7,7,1
+argmin,0.34,0.94,40ft_high,600,42.9,3.77,553.32,0.29,7.34,0.524,2,7,7,1
+chosen,0.2,0.94,20ft,200,14.3,1.26,184.44,0.097,2.45,0.175,2,7,7,1
+chosen,0.2,0.94,40ft_low,400,28.6,2.52,368.88,0.194,4.89,0.349,2,7,7,1
+chosen,0.2,0.94,40ft_high,600,42.9,3.77,553.32,0.29,7.34,0.524,2,7,7,1

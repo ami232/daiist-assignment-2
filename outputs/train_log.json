@@ -1,0 +1,34 @@
+{
+  "started_utc": "2026-10-25T16:32:14+00:00",
+  "dataset": "roboflow-ngkro/package-detection-e1ssd/6",
+  "base_weights": "yolo11n.pt",
+  "device": "0",
+  "device_name": "Tesla T4",
+  "python": "3.13.16",
+  "ultralytics": "8.4.173",
+  "torch": "2.11.0+cu130",
+  "cuda": "13.0",
+  "train_args": {
+    "imgsz": 640,
+    "epochs": 50,
+    "batch": 16,
+    "seed": 42,
+    "deterministic": true,
+    "patience": 10,
+    "project": "runs",
+    "name": "finetune",
+    "exist_ok": true
+  },
+  "data_yaml": "/content/daiist-assignment-2/data/raw/data.yaml",
+  "train_seconds": 652.2542681694031,
+  "save_dir": "/content/daiist-assignment-2/runs/detect/runs/finetune",
+  "best_pt_bytes": 5474010,
+  "best_epoch": 50,
+  "epochs_completed": 50,
+  "amp_check_weights_removed": [
+    "yolo26n.pt"
+  ],
+  "eval_seconds": 18.695239782333374,
+  "total_seconds": 680.8115947246552,
+  "eval_error": null
+}

@@ -1,0 +1,380 @@
+{
+  "dataset": "roboflow-ngkro/package-detection-e1ssd/6",
+  "dedup_excluded": [
+    "1502951694_26b680ba1b34cde3d569c6beb7cb132e_jpg.rf.b23d801cc356395b09a4ad792d99b4ff.jpg",
+    "1c4efa7f-149Open_booo_jpg.rf.2fb1df18406fd8cab9e27d8bae92fed4.jpg",
+    "802b1dbc-182Open_booo_jpg.rf.425d1d0586c74ddc622ae2d6156bc597.jpg",
+    "8a157d4b-43Packageeees_jpg.rf.f716f04f16fa0a9a948758409cba5847.jpg",
+    "d7a9c4a6-218Boooo_jpg.rf.28b414fe43afa7508903244ca057881d.jpg",
+    "f6698173-120Open_booox_jpg.rf.a549556a57f56c62dfa8900d4accaaac.jpg"
+  ],
+  "coco_zero_shot": {
+    "weights": "yolo11n.pt",
+    "note": "COCO has no package class and no mapping is invented, so every image scores 0.0 and passes. Detection AP against the dataset's classes is 0 by construction and is not computed.",
+    "detection_conf": 0.25,
+    "images_with_any_detection": 70,
+    "detections_total": 91,
+    "class_histogram": {
+      "book": 21,
+      "vase": 9,
+      "umbrella": 7,
+      "bed": 7,
+      "suitcase": 6,
+      "clock": 5,
+      "refrigerator": 4,
+      "cake": 4,
+      "cat": 3,
+      "laptop": 3,
+      "bottle": 3,
+      "toilet": 2,
+      "bird": 2,
+      "chair": 1,
+      "person": 1,
+      "dog": 1,
+      "parking meter": 1,
+      "fork": 1,
+      "dining table": 1,
+      "mouse": 1,
+      "truck": 1,
+      "couch": 1,
+      "boat": 1,
+      "orange": 1,
+      "toothbrush": 1,
+      "surfboard": 1,
+      "bowl": 1,
+      "oven": 1
+    },
+    "image_level": {
+      "all": {
+        "images": 120,
+        "positives": 62,
+        "negatives": 58,
+        "at_threshold": {
+          "0.25": {
+            "threshold": 0.25,
+            "tp": 0,
+            "fp": 0,
+            "fn": 62,
+            "tn": 58,
+            "positives": 62,
+            "negatives": 58,
+            "tpr": 0.0,
+            "fpr": 0.0,
+            "fpr_by_class": {
+              "Box": {
+                "fp": 0,
+                "negatives": 25,
+                "fpr": 0.0
+              },
+              "Package": {
+                "fp": 0,
+                "negatives": 33,
+                "fpr": 0.0
+              }
+            }
+          },
+          "0.5": {
+            "threshold": 0.5,
+            "tp": 0,
+            "fp": 0,
+            "fn": 62,
+            "tn": 58,
+            "positives": 62,
+            "negatives": 58,
+            "tpr": 0.0,
+            "fpr": 0.0,
+            "fpr_by_class": {
+              "Box": {
+                "fp": 0,
+                "negatives": 25,
+                "fpr": 0.0
+              },
+              "Package": {
+                "fp": 0,
+                "negatives": 33,
+                "fpr": 0.0
+              }
+            }
+          }
+        }
+      },
+      "dedup": {
+        "images": 114,
+        "positives": 58,
+        "negatives": 56,
+        "at_threshold": {
+          "0.25": {
+            "threshold": 0.25,
+            "tp": 0,
+            "fp": 0,
+            "fn": 58,
+            "tn": 56,
+            "positives": 58,
+            "negatives": 56,
+            "tpr": 0.0,
+            "fpr": 0.0,
+            "fpr_by_class": {
+              "Box": {
+                "fp": 0,
+                "negatives": 24,
+                "fpr": 0.0
+              },
+              "Package": {
+                "fp": 0,
+                "negatives": 32,
+                "fpr": 0.0
+              }
+            }
+          },
+          "0.5": {
+            "threshold": 0.5,
+            "tp": 0,
+            "fp": 0,
+            "fn": 58,
+            "tn": 56,
+            "positives": 58,
+            "negatives": 56,
+            "tpr": 0.0,
+            "fpr": 0.0,
+            "fpr_by_class": {
+              "Box": {
+                "fp": 0,
+                "negatives": 24,
+                "fpr": 0.0
+              },
+              "Package": {
+                "fp": 0,
+                "negatives": 32,
+                "fpr": 0.0
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "trivial": {
+    "predict_nothing_all_pass": {
+      "rule": "every image scores 0.0 (pass)",
+      "image_level": {
+        "all": {
+          "images": 120,
+          "positives": 62,
+          "negatives": 58,
+          "at_threshold": {
+            "0.25": {
+              "threshold": 0.25,
+              "tp": 0,
+              "fp": 0,
+              "fn": 62,
+              "tn": 58,
+              "positives": 62,
+              "negatives": 58,
+              "tpr": 0.0,
+              "fpr": 0.0,
+              "fpr_by_class": {
+                "Box": {
+                  "fp": 0,
+                  "negatives": 25,
+                  "fpr": 0.0
+                },
+                "Package": {
+                  "fp": 0,
+                  "negatives": 33,
+                  "fpr": 0.0
+                }
+              }
+            },
+            "0.5": {
+              "threshold": 0.5,
+              "tp": 0,
+              "fp": 0,
+              "fn": 62,
+              "tn": 58,
+              "positives": 62,
+              "negatives": 58,
+              "tpr": 0.0,
+              "fpr": 0.0,
+              "fpr_by_class": {
+                "Box": {
+                  "fp": 0,
+                  "negatives": 25,
+                  "fpr": 0.0
+                },
+                "Package": {
+                  "fp": 0,
+                  "negatives": 33,
+                  "fpr": 0.0
+                }
+              }
+            }
+          }
+        },
+        "dedup": {
+          "images": 114,
+          "positives": 58,
+          "negatives": 56,
+          "at_threshold": {
+            "0.25": {
+              "threshold": 0.25,
+              "tp": 0,
+              "fp": 0,
+              "fn": 58,
+              "tn": 56,
+              "positives": 58,
+              "negatives": 56,
+              "tpr": 0.0,
+              "fpr": 0.0,
+              "fpr_by_class": {
+                "Box": {
+                  "fp": 0,
+                  "negatives": 24,
+                  "fpr": 0.0
+                },
+                "Package": {
+                  "fp": 0,
+                  "negatives": 32,
+                  "fpr": 0.0
+                }
+              }
+            },
+            "0.5": {
+              "threshold": 0.5,
+              "tp": 0,
+              "fp": 0,
+              "fn": 58,
+              "tn": 56,
+              "positives": 58,
+              "negatives": 56,
+              "tpr": 0.0,
+              "fpr": 0.0,
+              "fpr_by_class": {
+                "Box": {
+                  "fp": 0,
+                  "negatives": 24,
+                  "fpr": 0.0
+                },
+                "Package": {
+                  "fp": 0,
+                  "negatives": 32,
+                  "fpr": 0.0
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "flag_everything_all_fail": {
+      "rule": "every image scores 1.0 (fail)",
+      "image_level": {
+        "all": {
+          "images": 120,
+          "positives": 62,
+          "negatives": 58,
+          "at_threshold": {
+            "0.25": {
+              "threshold": 0.25,
+              "tp": 62,
+              "fp": 58,
+              "fn": 0,
+              "tn": 0,
+              "positives": 62,
+              "negatives": 58,
+              "tpr": 1.0,
+              "fpr": 1.0,
+              "fpr_by_class": {
+                "Box": {
+                  "fp": 25,
+                  "negatives": 25,
+                  "fpr": 1.0
+                },
+                "Package": {
+                  "fp": 33,
+                  "negatives": 33,
+                  "fpr": 1.0
+                }
+              }
+            },
+            "0.5": {
+              "threshold": 0.5,
+              "tp": 62,
+              "fp": 58,
+              "fn": 0,
+              "tn": 0,
+              "positives": 62,
+              "negatives": 58,
+              "tpr": 1.0,
+              "fpr": 1.0,
+              "fpr_by_class": {
+                "Box": {
+                  "fp": 25,
+                  "negatives": 25,
+                  "fpr": 1.0
+                },
+                "Package": {
+                  "fp": 33,
+                  "negatives": 33,
+                  "fpr": 1.0
+                }
+              }
+            }
+          }
+        },
+        "dedup": {
+          "images": 114,
+          "positives": 58,
+          "negatives": 56,
+          "at_threshold": {
+            "0.25": {
+              "threshold": 0.25,
+              "tp": 58,
+              "fp": 56,
+              "fn": 0,
+              "tn": 0,
+              "positives": 58,
+              "negatives": 56,
+              "tpr": 1.0,
+              "fpr": 1.0,
+              "fpr_by_class": {
+                "Box": {
+                  "fp": 24,
+                  "negatives": 24,
+                  "fpr": 1.0
+                },
+                "Package": {
+                  "fp": 32,
+                  "negatives": 32,
+                  "fpr": 1.0
+                }
+              }
+            },
+            "0.5": {
+              "threshold": 0.5,
+              "tp": 58,
+              "fp": 56,
+              "fn": 0,
+              "tn": 0,
+              "positives": 58,
+              "negatives": 56,
+              "tpr": 1.0,
+              "fpr": 1.0,
+              "fpr_by_class": {
+                "Box": {
+                  "fp": 24,
+                  "negatives": 24,
+                  "fpr": 1.0
+                },
+                "Package": {
+                  "fp": 32,
+                  "negatives": 32,
+                  "fpr": 1.0
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

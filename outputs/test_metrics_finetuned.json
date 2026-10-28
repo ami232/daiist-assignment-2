@@ -1,0 +1,209 @@
+{
+  "dataset": "roboflow-ngkro/package-detection-e1ssd/6",
+  "weights": "weights/best.pt",
+  "device": "0",
+  "seed": 42,
+  "imgsz": 640,
+  "score_conf": 0.001,
+  "map_conf": 0.001,
+  "confusion_matrix_conf": 0.25,
+  "conf_note": "Per-class P/R/AP and mAP come from a validation pass at conf 0.001 (the standard mAP setting). The confusion matrix comes from a second pass at conf 0.25. Image scores keep every detection at conf 0.001.",
+  "positive_classes": [
+    "Box_broken",
+    "Open_package"
+  ],
+  "dedup_excluded": [
+    "1502951694_26b680ba1b34cde3d569c6beb7cb132e_jpg.rf.b23d801cc356395b09a4ad792d99b4ff.jpg",
+    "1c4efa7f-149Open_booo_jpg.rf.2fb1df18406fd8cab9e27d8bae92fed4.jpg",
+    "802b1dbc-182Open_booo_jpg.rf.425d1d0586c74ddc622ae2d6156bc597.jpg",
+    "8a157d4b-43Packageeees_jpg.rf.f716f04f16fa0a9a948758409cba5847.jpg",
+    "d7a9c4a6-218Boooo_jpg.rf.28b414fe43afa7508903244ca057881d.jpg",
+    "f6698173-120Open_booox_jpg.rf.a549556a57f56c62dfa8900d4accaaac.jpg"
+  ],
+  "all": {
+    "detection": {
+      "per_class": {
+        "Box": {
+          "precision": 0.9664,
+          "recall": 0.9279,
+          "ap50": 0.9843,
+          "ap50_95": 0.9245
+        },
+        "Box_broken": {
+          "precision": 0.9393,
+          "recall": 0.9098,
+          "ap50": 0.9631,
+          "ap50_95": 0.921
+        },
+        "Open_package": {
+          "precision": 0.9014,
+          "recall": 0.9655,
+          "ap50": 0.9682,
+          "ap50_95": 0.8896
+        },
+        "Package": {
+          "precision": 0.8671,
+          "recall": 0.9048,
+          "ap50": 0.9557,
+          "ap50_95": 0.8185
+        }
+      },
+      "map50": 0.9678,
+      "map50_95": 0.8884,
+      "mean_precision": 0.9185,
+      "mean_recall": 0.927,
+      "map_conf": 0.001,
+      "confusion_matrix_conf": 0.25,
+      "confusion_matrix_files": [
+        "confusion_matrix_all.csv",
+        "confusion_matrix_all.png"
+      ]
+    },
+    "image_level": {
+      "images": 120,
+      "positives": 62,
+      "negatives": 58,
+      "at_threshold": {
+        "0.25": {
+          "threshold": 0.25,
+          "tp": 59,
+          "fp": 4,
+          "fn": 3,
+          "tn": 54,
+          "positives": 62,
+          "negatives": 58,
+          "tpr": 0.9516,
+          "fpr": 0.069,
+          "fpr_by_class": {
+            "Box": {
+              "fp": 2,
+              "negatives": 25,
+              "fpr": 0.08
+            },
+            "Package": {
+              "fp": 2,
+              "negatives": 33,
+              "fpr": 0.0606
+            }
+          }
+        },
+        "0.5": {
+          "threshold": 0.5,
+          "tp": 58,
+          "fp": 3,
+          "fn": 4,
+          "tn": 55,
+          "positives": 62,
+          "negatives": 58,
+          "tpr": 0.9355,
+          "fpr": 0.0517,
+          "fpr_by_class": {
+            "Box": {
+              "fp": 1,
+              "negatives": 25,
+              "fpr": 0.04
+            },
+            "Package": {
+              "fp": 2,
+              "negatives": 33,
+              "fpr": 0.0606
+            }
+          }
+        }
+      }
+    }
+  },
+  "dedup": {
+    "detection": {
+      "per_class": {
+        "Box": {
+          "precision": 0.9652,
+          "recall": 0.9255,
+          "ap50": 0.9846,
+          "ap50_95": 0.9234
+        },
+        "Box_broken": {
+          "precision": 0.9309,
+          "recall": 0.8978,
+          "ap50": 0.9524,
+          "ap50_95": 0.9067
+        },
+        "Open_package": {
+          "precision": 0.9014,
+          "recall": 0.9655,
+          "ap50": 0.9684,
+          "ap50_95": 0.8897
+        },
+        "Package": {
+          "precision": 0.864,
+          "recall": 0.9024,
+          "ap50": 0.9547,
+          "ap50_95": 0.8145
+        }
+      },
+      "map50": 0.965,
+      "map50_95": 0.8836,
+      "mean_precision": 0.9154,
+      "mean_recall": 0.9228,
+      "map_conf": 0.001,
+      "confusion_matrix_conf": 0.25,
+      "confusion_matrix_files": [
+        "confusion_matrix_dedup.csv",
+        "confusion_matrix_dedup.png"
+      ]
+    },
+    "image_level": {
+      "images": 114,
+      "positives": 58,
+      "negatives": 56,
+      "at_threshold": {
+        "0.25": {
+          "threshold": 0.25,
+          "tp": 55,
+          "fp": 4,
+          "fn": 3,
+          "tn": 52,
+          "positives": 58,
+          "negatives": 56,
+          "tpr": 0.9483,
+          "fpr": 0.0714,
+          "fpr_by_class": {
+            "Box": {
+              "fp": 2,
+              "negatives": 24,
+              "fpr": 0.0833
+            },
+            "Package": {
+              "fp": 2,
+              "negatives": 32,
+              "fpr": 0.0625
+            }
+          }
+        },
+        "0.5": {
+          "threshold": 0.5,
+          "tp": 54,
+          "fp": 3,
+          "fn": 4,
+          "tn": 53,
+          "positives": 58,
+          "negatives": 56,
+          "tpr": 0.931,
+          "fpr": 0.0536,
+          "fpr_by_class": {
+            "Box": {
+              "fp": 1,
+              "negatives": 24,
+              "fpr": 0.0417
+            },
+            "Package": {
+              "fp": 2,
+              "negatives": 32,
+              "fpr": 0.0625
+            }
+          }
+        }
+      }
+    }
+  }
+}

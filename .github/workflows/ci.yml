@@ -1,0 +1,51 @@
+# Runs on every push and pull request: install, unit tests, and the
+# submission self-check. It never trains anything: check.py only loads the
+# committed weights and launches the app.
+#
+# Secret: check.py's first step verifies the Roboflow key, so the self-check
+# step needs a repository secret named exactly ROBOFLOW_API_KEY (Settings >
+# Secrets and variables > Actions). Without it the tests still run and the
+# self-check is skipped with a notice. GitHub withholds secrets from pull
+# requests opened from forks, so on those the self-check is skipped too.
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      ROBOFLOW_API_KEY: ${{ secrets.ROBOFLOW_API_KEY }}
+      HAS_ROBOFLOW_KEY: ${{ secrets.ROBOFLOW_API_KEY != '' }}
+      # Stop Ultralytics pip-installing into the environment mid-run.
+      YOLO_AUTOINSTALL: "false"
+      YOLO_CONFIG_DIR: ${{ github.workspace }}/.yolo
+      GRADIO_ANALYTICS_ENABLED: "False"
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Unit tests (scoring, training helpers, app)
+        run: uv run pytest -q tests/
+
+      - name: Submission self-check (key, weights, app on port 7860)
+        if: env.HAS_ROBOFLOW_KEY == 'true'
+        run: uv run python check.py
+
+      - name: Self-check skipped
+        if: env.HAS_ROBOFLOW_KEY != 'true'
+        run: echo "::notice::check.py skipped. Add the repository secret ROBOFLOW_API_KEY to run it here."
+
+      - name: No training artefacts were produced
+        run: test ! -d runs && echo "runs/ absent, nothing trained"

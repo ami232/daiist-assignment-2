@@ -1,0 +1,5 @@
+pair,t_low,t_high,truth,pass_test_n,pass_per_1000,review_test_n,review_per_1000,fail_test_n,fail_per_1000
+argmin,0.34,0.94,intact,54,921.724,4,68.276,0,0.0
+argmin,0.34,0.94,damaged,3,0.484,20,3.226,39,6.29
+chosen,0.2,0.94,intact,54,921.724,4,68.276,0,0.0
+chosen,0.2,0.94,damaged,3,0.484,20,3.226,39,6.29

@@ -1,0 +1,363 @@
+{
+  "dataset": "roboflow-ngkro/package-detection-e1ssd/6",
+  "seed": 42,
+  "positive_classes": [
+    "Box_broken",
+    "Open_package"
+  ],
+  "negative_classes": [
+    "Box",
+    "Package"
+  ],
+  "metadata": {
+    "name": "2023-10-16 4:20pm",
+    "created": 1697487622.886,
+    "images": 1200,
+    "splits": {
+      "valid": 240,
+      "test": 120,
+      "train": 840
+    },
+    "preprocessing": {
+      "auto-orient": true,
+      "resize": {
+        "width": 640,
+        "format": "Stretch to",
+        "height": 640
+      }
+    },
+    "augmentation": {},
+    "preprocessing_text": "auto-orient=True; resize={'width': 640, 'format': 'Stretch to', 'height': 640}",
+    "augmentation_text": "none (augmentation field is empty)",
+    "split_method": "The Roboflow version metadata has no field recording how images were assigned to splits. The split is exactly 70/20/10, which is Roboflow's default ratio when it splits for you, so a Roboflow random split is likely; an author-supplied split would rarely land on exactly those numbers. This is an inference, not a stated fact.",
+    "license": "Private"
+  },
+  "per_split": {
+    "train": {
+      "images": 840,
+      "instances": 1052,
+      "instances_per_class": {
+        "Box": 314,
+        "Box_broken": 206,
+        "Open_package": 225,
+        "Package": 307
+      },
+      "images_positive": 424,
+      "images_negative": 416,
+      "images_zero_labels": 0,
+      "images_positive_only": 421,
+      "images_mixed": 3,
+      "boxes_per_image": {
+        "mean": 1.252,
+        "max": 11
+      }
+    },
+    "valid": {
+      "images": 240,
+      "instances": 305,
+      "instances_per_class": {
+        "Box": 103,
+        "Box_broken": 64,
+        "Open_package": 54,
+        "Package": 84
+      },
+      "images_positive": 118,
+      "images_negative": 122,
+      "images_zero_labels": 0,
+      "images_positive_only": 117,
+      "images_mixed": 1,
+      "boxes_per_image": {
+        "mean": 1.271,
+        "max": 5
+      }
+    },
+    "test": {
+      "images": 120,
+      "instances": 136,
+      "instances_per_class": {
+        "Box": 31,
+        "Box_broken": 34,
+        "Open_package": 29,
+        "Package": 42
+      },
+      "images_positive": 62,
+      "images_negative": 58,
+      "images_zero_labels": 0,
+      "images_positive_only": 61,
+      "images_mixed": 1,
+      "boxes_per_image": {
+        "mean": 1.133,
+        "max": 5
+      }
+    }
+  },
+  "box_area": {
+    "Box": {
+      "count": 448,
+      "median": 0.256,
+      "p10": 0.0812,
+      "p90": 0.5268,
+      "min": 2e-05,
+      "max": 0.9449
+    },
+    "Box_broken": {
+      "count": 304,
+      "median": 0.2964,
+      "p10": 0.1726,
+      "p90": 0.7776,
+      "min": 3e-05,
+      "max": 0.9953
+    },
+    "Open_package": {
+      "count": 308,
+      "median": 0.3867,
+      "p10": 0.1861,
+      "p90": 0.7987,
+      "min": 0.00079,
+      "max": 0.9977
+    },
+    "Package": {
+      "count": 433,
+      "median": 0.4562,
+      "p10": 0.1478,
+      "p90": 0.821,
+      "min": 0.016,
+      "max": 0.9938
+    }
+  },
+  "zero_label_files": {},
+  "resolutions": {
+    "640x640": 1200
+  },
+  "duplicates": {
+    "threshold": 4,
+    "total": 24,
+    "exact": 14,
+    "within": {
+      "train": 11,
+      "valid": 0,
+      "test": 0
+    },
+    "across": {
+      "test/train": 2,
+      "test/valid": 4,
+      "train/valid": 7
+    },
+    "within_examples": [
+      {
+        "a_split": "train",
+        "a": "0a08ef4f-291Booooo_jpg.rf.85788dd8a6ec7e68cc6bd60eade12e42.jpg",
+        "b_split": "train",
+        "b": "b9db7642-261Booooo_jpg.rf.d3bf574688d0bd8c7e267cad7faf42f1.jpg",
+        "distance": 0
+      },
+      {
+        "a_split": "train",
+        "a": "16aa1d26-193Open_booo_jpg.rf.122640c6969c2e8cd838deef597fd7be.jpg",
+        "b_split": "train",
+        "b": "299c4183-160Open_booo_jpg.rf.408c7e625f252bef50d83b3616460c45.jpg",
+        "distance": 0
+      },
+      {
+        "a_split": "train",
+        "a": "17cb342b-252Open_booo_jpg.rf.cd0be55d8dc997bfac2a29118cf96fcf.jpg",
+        "b_split": "train",
+        "b": "9f366079-254Open_booo_jpg.rf.7e933b973895205028989a3c0698889f.jpg",
+        "distance": 0
+      }
+    ],
+    "across_examples": [
+      {
+        "a_split": "train",
+        "a": "0c660c88-248Open_booo_jpg.rf.21c6c5bc3396f39b95fde4de48421fd0.jpg",
+        "b_split": "valid",
+        "b": "d6aa445f-253Open_booo_jpg.rf.0ad2006ca7a966b0ba5937b35ea02eae.jpg",
+        "distance": 0
+      },
+      {
+        "a_split": "train",
+        "a": "1082ae68-33Booooox_jpg.rf.f6818b7faa6bd1f1f0f2bc2fe5cf6b98.jpg",
+        "b_split": "valid",
+        "b": "ec4c0e01-35Booooox_jpg.rf.1982e4eb3debb8b39b0d10ee03612ccc.jpg",
+        "distance": 0
+      },
+      {
+        "a_split": "train",
+        "a": "2eff1374-69Booooox_jpg.rf.60487e7bab8048c6fb82df8d75b71470.jpg",
+        "b_split": "valid",
+        "b": "35ef99d8-66Booooox_jpg.rf.df812c3ce341a97f0cbaded630421e10.jpg",
+        "distance": 0
+      }
+    ]
+  },
+  "duplicate_pairs": [
+    {
+      "a_split": "train",
+      "a": "0a08ef4f-291Booooo_jpg.rf.85788dd8a6ec7e68cc6bd60eade12e42.jpg",
+      "b_split": "train",
+      "b": "b9db7642-261Booooo_jpg.rf.d3bf574688d0bd8c7e267cad7faf42f1.jpg",
+      "distance": 0
+    },
+    {
+      "a_split": "train",
+      "a": "0c660c88-248Open_booo_jpg.rf.21c6c5bc3396f39b95fde4de48421fd0.jpg",
+      "b_split": "valid",
+      "b": "d6aa445f-253Open_booo_jpg.rf.0ad2006ca7a966b0ba5937b35ea02eae.jpg",
+      "distance": 0
+    },
+    {
+      "a_split": "train",
+      "a": "1082ae68-33Booooox_jpg.rf.f6818b7faa6bd1f1f0f2bc2fe5cf6b98.jpg",
+      "b_split": "valid",
+      "b": "ec4c0e01-35Booooox_jpg.rf.1982e4eb3debb8b39b0d10ee03612ccc.jpg",
+      "distance": 0
+    },
+    {
+      "a_split": "train",
+      "a": "16aa1d26-193Open_booo_jpg.rf.122640c6969c2e8cd838deef597fd7be.jpg",
+      "b_split": "train",
+      "b": "299c4183-160Open_booo_jpg.rf.408c7e625f252bef50d83b3616460c45.jpg",
+      "distance": 0
+    },
+    {
+      "a_split": "train",
+      "a": "17cb342b-252Open_booo_jpg.rf.cd0be55d8dc997bfac2a29118cf96fcf.jpg",
+      "b_split": "train",
+      "b": "9f366079-254Open_booo_jpg.rf.7e933b973895205028989a3c0698889f.jpg",
+      "distance": 0
+    },
+    {
+      "a_split": "train",
+      "a": "2eff1374-69Booooox_jpg.rf.60487e7bab8048c6fb82df8d75b71470.jpg",
+      "b_split": "valid",
+      "b": "35ef99d8-66Booooox_jpg.rf.df812c3ce341a97f0cbaded630421e10.jpg",
+      "distance": 0
+    },
+    {
+      "a_split": "train",
+      "a": "3530f07f-82Packageeees_jpg.rf.efb6e003c5d59e8a3733254177659b08.jpg",
+      "b_split": "train",
+      "b": "840ff0d2-80Packageeees_jpg.rf.830ece15711ce783f86e0951c7985d7c.jpg",
+      "distance": 0
+    },
+    {
+      "a_split": "train",
+      "a": "4ff041d4-260Open_booo_jpg.rf.759d8bd19a89b99e79caddf194fe347a.jpg",
+      "b_split": "train",
+      "b": "5a892359-247Open_booo_jpg.rf.0068abab6846efafc18460d66b2c16ad.jpg",
+      "distance": 0
+    },
+    {
+      "a_split": "train",
+      "a": "77c5a589-236Opeeen_Package_jpg.rf.6fd33994ac0ae51ababbf18a65a87bca.jpg",
+      "b_split": "train",
+      "b": "a6a5b624-234Opeeen_Package_jpg.rf.c09870f0d3abfc2b57ab8e17d780e231.jpg",
+      "distance": 0
+    },
+    {
+      "a_split": "train",
+      "a": "7842360d-238Open_booo_jpg.rf.7c685a51e0c9a9bcc7fec6090f486356.jpg",
+      "b_split": "train",
+      "b": "f0bf2f84-255Open_booo_jpg.rf.5cb8fb6170c63919f67463a825eefd49.jpg",
+      "distance": 0
+    },
+    {
+      "a_split": "train",
+      "a": "8c63aa90-39Packageeees_jpg.rf.b1461f7137e4a1a4d3f159ab69e49d29.jpg",
+      "b_split": "test",
+      "b": "8a157d4b-43Packageeees_jpg.rf.f716f04f16fa0a9a948758409cba5847.jpg",
+      "distance": 0
+    },
+    {
+      "a_split": "train",
+      "a": "b2b6ac3f-37Opeeen_Packages_jpg.rf.811a0d53841ca3f34b9f7b33be3e03a6.jpg",
+      "b_split": "valid",
+      "b": "a7564fa7-38Opeeen_Packages_jpg.rf.30311d9df547936cca7ca63d1f211bc9.jpg",
+      "distance": 0
+    },
+    {
+      "a_split": "valid",
+      "a": "6a2594f7-109Open_booox_jpg.rf.c75a9615eefe5d96d8a8142fecdb3ff2.jpg",
+      "b_split": "test",
+      "b": "1502951694_26b680ba1b34cde3d569c6beb7cb132e_jpg.rf.b23d801cc356395b09a4ad792d99b4ff.jpg",
+      "distance": 0
+    },
+    {
+      "a_split": "valid",
+      "a": "f47988f2-230Open_booo_jpg.rf.6bef3643398ab8e769c8a9f901a009c2.jpg",
+      "b_split": "test",
+      "b": "1c4efa7f-149Open_booo_jpg.rf.2fb1df18406fd8cab9e27d8bae92fed4.jpg",
+      "distance": 0
+    },
+    {
+      "a_split": "train",
+      "a": "5bd34d77-261Open_booo_jpg.rf.2f4bff233223f338a1524075bb74ed7b.jpg",
+      "b_split": "train",
+      "b": "fc7727f6-237Open_booo_jpg.rf.feef57a194cc72fa34273aab00bf023d.jpg",
+      "distance": 2
+    },
+    {
+      "a_split": "train",
+      "a": "5c0727b6-59Packageeees_jpg.rf.21bd579c9d800bae446a4b727f3dc4b6.jpg",
+      "b_split": "train",
+      "b": "703e813f-58Packageeees_jpg.rf.10bc9815d2705865f764ff101e980de1.jpg",
+      "distance": 2
+    },
+    {
+      "a_split": "train",
+      "a": "99ba45be-227Open_booo_jpg.rf.fa9a862c4af22ce07d41b93217bc3434.jpg",
+      "b_split": "test",
+      "b": "802b1dbc-182Open_booo_jpg.rf.425d1d0586c74ddc622ae2d6156bc597.jpg",
+      "distance": 2
+    },
+    {
+      "a_split": "train",
+      "a": "e24e58a3-244Booooo_jpg.rf.9345b915741c8b771d5f1acf3ba4f4df.jpg",
+      "b_split": "valid",
+      "b": "20c4b8f7-243Booooo_jpg.rf.bf3625531c2fdf5d42bff2f0acfe6862.jpg",
+      "distance": 2
+    },
+    {
+      "a_split": "train",
+      "a": "fb2fa327-103Booooox_jpg.rf.862200aec4ed883889457f02c1dedf1e.jpg",
+      "b_split": "valid",
+      "b": "fe86e540-101Booooox_jpg.rf.ea4e35f49608b74278bd64c9cdf258d6.jpg",
+      "distance": 2
+    },
+    {
+      "a_split": "valid",
+      "a": "d41128c4-109Booooox_jpg.rf.cea9cb07585b7cd1e740607d776036df.jpg",
+      "b_split": "test",
+      "b": "d7a9c4a6-218Boooo_jpg.rf.28b414fe43afa7508903244ca057881d.jpg",
+      "distance": 2
+    },
+    {
+      "a_split": "valid",
+      "a": "f668a094-111Open_booox_jpg.rf.4a5f55cc05aed77cde2c3ab39bf31064.jpg",
+      "b_split": "test",
+      "b": "f6698173-120Open_booox_jpg.rf.a549556a57f56c62dfa8900d4accaaac.jpg",
+      "distance": 2
+    },
+    {
+      "a_split": "train",
+      "a": "1553f0a1-117Open_booox_jpg.rf.71ba09fa7d2060a30ff2d3ba56196808.jpg",
+      "b_split": "train",
+      "b": "ba298476-148Open_booox_jpg.rf.5b5067c11abeac97b935b05ee3ff97da.jpg",
+      "distance": 4
+    },
+    {
+      "a_split": "train",
+      "a": "5c90e011-223Open_booo_jpg.rf.76a8b1588f30dac5ab1e7136a8624ddd.jpg",
+      "b_split": "train",
+      "b": "b3ed6b4c-235Open_booo_jpg.rf.479c5763ccd652d341fa2b5bd656ff8a.jpg",
+      "distance": 4
+    },
+    {
+      "a_split": "train",
+      "a": "767ed0c9-104Booooox_jpg.rf.614c794a1f861066285717c86fde8a6a.jpg",
+      "b_split": "valid",
+      "b": "fe86e540-101Booooox_jpg.rf.ea4e35f49608b74278bd64c9cdf258d6.jpg",
+      "distance": 4
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+option,threshold,tpr,fpr,exp_fn_per_1000,exp_fp_per_1000,exp_review_per_1000,cost_dop_per_1000,cost_eur_per_1000,note
+do_nothing_all_pass,1.0,0.0,0.0,10.0,0.0,0.0,70000.0,1019.37,every unit released; every damaged unit becomes a missed claim
+person_checks_everything,,1.0,0.0,0.0,0.0,1000,40000,582.5,every unit gets the 10-min unpack at 40 DOP; catches everything
+model_alone_best_threshold,0.2,0.951613,0.068966,0.4839,68.2759,0.0,6118.13,89.09,flag if score >= t; flat band 0.01..0.85; test TPR/FPR from 62 positives
+coco_zero_shot,,0.0,0.0,10.0,0.0,0.0,70000.0,1019.37,"identical to do_nothing: COCO has no package class, every image scores 0.0 and passes"
+flag_everything_all_fail,0.0,1.0,1.0,0.0,990.0,0.0,39600.0,576.67,"every unit flagged; cost is every intact unit's unpack, FN-free"
