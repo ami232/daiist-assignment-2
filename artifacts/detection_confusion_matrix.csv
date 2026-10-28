@@ -1,0 +1,5 @@
+true,Bad-weld,Good-weld,Defect,background
+Bad-weld,38,10,6,10
+Good-weld,14,79,2,15
+Defect,3,0,56,48
+background,23,31,48,0

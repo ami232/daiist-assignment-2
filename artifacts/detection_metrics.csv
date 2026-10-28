@@ -1,0 +1,13 @@
+model,class,precision,recall,AP50,mAP50-95
+finetuned yolo11n,Bad-weld,0.6967683910606283,0.75,0.7421416830478319,0.4991729482860913
+finetuned yolo11n,Good-weld,0.7938460000359838,0.7351521611994396,0.7916902280218413,0.5291902714192018
+finetuned yolo11n,Defect,0.6948593600724736,0.5327102803738317,0.5517979418159514,0.2880830224416969
+finetuned yolo11n,all,0.7284912503896952,0.6726208138577571,0.6952099509618749,0.4388154140489967
+"COCO yolo11n, zero-shot",Bad-weld,,0.0,0.0,0.0
+"COCO yolo11n, zero-shot",Good-weld,,0.0,0.0,0.0
+"COCO yolo11n, zero-shot",Defect,,0.0,0.0,0.0
+"COCO yolo11n, zero-shot",all,,0.0,0.0,0.0
+predicts nothing,Bad-weld,,0.0,0.0,0.0
+predicts nothing,Good-weld,,0.0,0.0,0.0
+predicts nothing,Defect,,0.0,0.0,0.0
+predicts nothing,all,,0.0,0.0,0.0
