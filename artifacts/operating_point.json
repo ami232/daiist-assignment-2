@@ -1,0 +1,37 @@
+{
+  "model": "yolo11n",
+  "threshold": 0.62,
+  "low": 0.2,
+  "high": 0.82,
+  "low per shift": 0.05,
+  "high per shift": 0.86,
+  "chosen on": "valid",
+  "device": "mps",
+  "train args": {
+    "epochs": 100,
+    "time": 0.18,
+    "patience": 20,
+    "imgsz": 640,
+    "batch": 32,
+    "workers": 4,
+    "cache": "ram",
+    "seed": 42,
+    "deterministic": false
+  },
+  "candidates": [
+    {
+      "model": "yolo11n",
+      "run": "yolo11n",
+      "epochs run": 125,
+      "val AP50": 0.756987959,
+      "val mAP50-95": 0.4837587754
+    },
+    {
+      "model": "yolo11s",
+      "run": "yolo11s",
+      "epochs run": 73,
+      "val AP50": 0.7185386944,
+      "val mAP50-95": 0.4565420664
+    }
+  ]
+}
