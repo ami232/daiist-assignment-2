@@ -1,16 +1,59 @@
+# Submit only what grading needs: the template files, the pipeline (train.py),
+# the app (app.py), REPORT.md, and the weights/ files the app and report load.
+
+# OS files
 .DS_Store
+
+# Python
 __pycache__/
+*.pyc
 .venv/
 .pytest_cache/
 .ipynb_checkpoints/
-*.pyc
 
-# Datasets downloaded from Roboflow at train time -- never commit these
+# Secrets: never commit your API key
+.env
+.env.*
+!.env.example
+
+# Datasets downloaded from Roboflow at train time, and the grouped rebuild
+# train.py makes from them. datasets/ and runs/ may be symlinks into *.nosync
+# folders (kept out of iCloud sync).
 datasets/
 data/
+/datasets
+/runs
+*.nosync/
 
 # Ultralytics training output. Your real weights belong in weights/, committed.
 runs/
 
-# Never commit your API key
-.env
+# Pretrained checkpoints Ultralytics downloads into the repo root (yolo11n.pt etc.).
+# Only the root is ignored: weights/best.pt stays committed.
+/*.pt
+
+# weights/: commit only what the app loads (app.py REQUIRED) and the charts REPORT.md embeds.
+# Anything else the pipeline writes here (e.g. source_audit.json) stays local.
+weights/*
+!weights/.gitkeep
+!weights/best.pt
+!weights/run_meta.json
+!weights/dataset_stats.json
+!weights/test_scores.csv
+!weights/eval.json
+!weights/baselines.json
+!weights/decision.json
+!weights/confusion_detection.png
+!weights/cost_curve.png
+!weights/dataset_overview.png
+
+# Local helpers not needed to grade: the Colab retraining notebook and
+# downloaded result archives
+colab_train.ipynb
+*.zip
+
+# Local tooling and logs
+.claude/
+.vscode/
+.idea/
+*.log

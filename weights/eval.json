@@ -1,0 +1,66 @@
+{
+  "class_names": [
+    "fire",
+    "smoke"
+  ],
+  "positive_class": "frame contains fire or smoke (any ground-truth box of either class)",
+  "excluded_from_score": [],
+  "overall": {
+    "mAP50": 0.677358,
+    "mAP50-95": 0.433215,
+    "precision": 0.639604,
+    "recall": 0.693862
+  },
+  "per_class": [
+    {
+      "class": "fire",
+      "precision": 0.32391,
+      "recall": 0.416667,
+      "AP50": 0.368795,
+      "AP50-95": 0.114028,
+      "test_instances": 36
+    },
+    {
+      "class": "smoke",
+      "precision": 0.955298,
+      "recall": 0.971058,
+      "AP50": 0.985921,
+      "AP50-95": 0.752402,
+      "test_instances": 1002
+    }
+  ],
+  "per_class_note": "precision/recall at the single confidence that maximises mean F1 (Ultralytics convention); AP is threshold-free",
+  "val_settings": {
+    "conf": 0.001,
+    "iou": 0.7,
+    "imgsz": 640,
+    "split": "test"
+  },
+  "confusion_matrix": {
+    "labels": [
+      "fire",
+      "smoke",
+      "background"
+    ],
+    "rows": "true",
+    "cols": "predicted",
+    "conf": 0.25,
+    "matrix": [
+      [
+        9,
+        0,
+        27
+      ],
+      [
+        0,
+        974,
+        28
+      ],
+      [
+        15,
+        32,
+        0
+      ]
+    ]
+  }
+}
