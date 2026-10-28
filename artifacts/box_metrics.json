@@ -1,0 +1,57 @@
+{
+  "overall": {
+    "precision": 0.8878136195919345,
+    "recall": 0.8670843217749422,
+    "AP50": 0.9132432247241269,
+    "mAP50-95": 0.5877446892584659
+  },
+  "per_class": [
+    {
+      "Class": "With Helmet",
+      "Images": "563",
+      "Instances": "799",
+      "Box-P": 0.93005,
+      "Box-R": 0.91523,
+      "Box-F1": 0.92258,
+      "mAP50": 0.95266,
+      "mAP75": 0.78053,
+      "mAP50-95": 0.63997
+    },
+    {
+      "Class": "Without Helmet",
+      "Images": "248",
+      "Instances": "359",
+      "Box-P": 0.84558,
+      "Box-R": 0.81894,
+      "Box-F1": 0.83205,
+      "mAP50": 0.87383,
+      "mAP75": 0.61923,
+      "mAP50-95": 0.53552
+    }
+  ],
+  "confusion_matrix": {
+    "labels": [
+      "With Helmet",
+      "Without Helmet",
+      "background"
+    ],
+    "matrix": [
+      [
+        748,
+        16,
+        89
+      ],
+      [
+        13,
+        307,
+        68
+      ],
+      [
+        38,
+        36,
+        0
+      ]
+    ],
+    "conf": 0.25
+  }
+}

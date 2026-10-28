@@ -1,0 +1,443 @@
+{
+  "sweep": [
+    {
+      "threshold": 0.0,
+      "cost_per_1000": 720.4999999999999
+    },
+    {
+      "threshold": 0.01,
+      "cost_per_1000": 212.40730160941962
+    },
+    {
+      "threshold": 0.02,
+      "cost_per_1000": 194.70427785132028
+    },
+    {
+      "threshold": 0.03,
+      "cost_per_1000": 183.81010938479758
+    },
+    {
+      "threshold": 0.04,
+      "cost_per_1000": 176.12335400264752
+    },
+    {
+      "threshold": 0.05,
+      "cost_per_1000": 173.39981188601686
+    },
+    {
+      "threshold": 0.06,
+      "cost_per_1000": 172.0380408277015
+    },
+    {
+      "threshold": 0.07,
+      "cost_per_1000": 170.67626976938618
+    },
+    {
+      "threshold": 0.08,
+      "cost_per_1000": 164.10934996168046
+    },
+    {
+      "threshold": 0.09,
+      "cost_per_1000": 157.30049467010383
+    },
+    {
+      "threshold": 0.1,
+      "cost_per_1000": 150.73357486239811
+    },
+    {
+      "threshold": 0.11,
+      "cost_per_1000": 149.61373928795373
+    },
+    {
+      "threshold": 0.12,
+      "cost_per_1000": 144.40859053856337
+    },
+    {
+      "threshold": 0.13,
+      "cost_per_1000": 143.04681948024802
+    },
+    {
+      "threshold": 0.14,
+      "cost_per_1000": 141.6850484219327
+    },
+    {
+      "threshold": 0.15,
+      "cost_per_1000": 140.3232773636174
+    },
+    {
+      "threshold": 0.16,
+      "cost_per_1000": 137.5997352469867
+    },
+    {
+      "threshold": 0.17,
+      "cost_per_1000": 134.87619313035603
+    },
+    {
+      "threshold": 0.18,
+      "cost_per_1000": 133.5144220720407
+    },
+    {
+      "threshold": 0.19,
+      "cost_per_1000": 133.75635755591165
+    },
+    {
+      "threshold": 0.2,
+      "cost_per_1000": 133.99829303978262
+    },
+    {
+      "threshold": 0.21,
+      "cost_per_1000": 131.27475092315194
+    },
+    {
+      "threshold": 0.22,
+      "cost_per_1000": 131.27475092315194
+    },
+    {
+      "threshold": 0.23,
+      "cost_per_1000": 131.27475092315194
+    },
+    {
+      "threshold": 0.24,
+      "cost_per_1000": 125.82766668989062
+    },
+    {
+      "threshold": 0.25,
+      "cost_per_1000": 125.82766668989062
+    },
+    {
+      "threshold": 0.26,
+      "cost_per_1000": 124.46589563157528
+    },
+    {
+      "threshold": 0.27,
+      "cost_per_1000": 121.74235351494461
+    },
+    {
+      "threshold": 0.28,
+      "cost_per_1000": 121.9842889988156
+    },
+    {
+      "threshold": 0.29,
+      "cost_per_1000": 121.9842889988156
+    },
+    {
+      "threshold": 0.3,
+      "cost_per_1000": 122.22622448268655
+    },
+    {
+      "threshold": 0.31,
+      "cost_per_1000": 122.22622448268655
+    },
+    {
+      "threshold": 0.32,
+      "cost_per_1000": 122.46815996655751
+    },
+    {
+      "threshold": 0.33,
+      "cost_per_1000": 122.46815996655751
+    },
+    {
+      "threshold": 0.34,
+      "cost_per_1000": 121.5902598759841
+    },
+    {
+      "threshold": 0.35,
+      "cost_per_1000": 121.83219535985506
+    },
+    {
+      "threshold": 0.36,
+      "cost_per_1000": 120.95429526928169
+    },
+    {
+      "threshold": 0.37,
+      "cost_per_1000": 121.68010172089458
+    },
+    {
+      "threshold": 0.38,
+      "cost_per_1000": 118.9565596042639
+    },
+    {
+      "threshold": 0.39,
+      "cost_per_1000": 119.19849508813488
+    },
+    {
+      "threshold": 0.4,
+      "cost_per_1000": 117.83672402981954
+    },
+    {
+      "threshold": 0.41,
+      "cost_per_1000": 117.83672402981954
+    },
+    {
+      "threshold": 0.42,
+      "cost_per_1000": 118.07865951369052
+    },
+    {
+      "threshold": 0.43,
+      "cost_per_1000": 116.95882393924614
+    },
+    {
+      "threshold": 0.44,
+      "cost_per_1000": 117.44269490698808
+    },
+    {
+      "threshold": 0.45,
+      "cost_per_1000": 117.44269490698808
+    },
+    {
+      "threshold": 0.46,
+      "cost_per_1000": 117.44269490698808
+    },
+    {
+      "threshold": 0.47,
+      "cost_per_1000": 117.68463039085906
+    },
+    {
+      "threshold": 0.48,
+      "cost_per_1000": 117.68463039085906
+    },
+    {
+      "threshold": 0.49,
+      "cost_per_1000": 117.68463039085906
+    },
+    {
+      "threshold": 0.5,
+      "cost_per_1000": 116.80673030028565
+    },
+    {
+      "threshold": 0.51,
+      "cost_per_1000": 116.80673030028565
+    },
+    {
+      "threshold": 0.52,
+      "cost_per_1000": 114.32512366752594
+    },
+    {
+      "threshold": 0.53,
+      "cost_per_1000": 115.05093011913884
+    },
+    {
+      "threshold": 0.54,
+      "cost_per_1000": 115.05093011913884
+    },
+    {
+      "threshold": 0.55,
+      "cost_per_1000": 115.05093011913884
+    },
+    {
+      "threshold": 0.56,
+      "cost_per_1000": 113.68915906082351
+    },
+    {
+      "threshold": 0.57,
+      "cost_per_1000": 114.17303002856546
+    },
+    {
+      "threshold": 0.58,
+      "cost_per_1000": 114.41496551243642
+    },
+    {
+      "threshold": 0.59,
+      "cost_per_1000": 114.65690099630739
+    },
+    {
+      "threshold": 0.6,
+      "cost_per_1000": 115.14077196404934
+    },
+    {
+      "threshold": 0.61,
+      "cost_per_1000": 115.86657841566223
+    },
+    {
+      "threshold": 0.62,
+      "cost_per_1000": 114.98867832508883
+    },
+    {
+      "threshold": 0.63,
+      "cost_per_1000": 115.71448477670174
+    },
+    {
+      "threshold": 0.64,
+      "cost_per_1000": 114.3527137183864
+    },
+    {
+      "threshold": 0.65,
+      "cost_per_1000": 113.23287814394202
+    },
+    {
+      "threshold": 0.66,
+      "cost_per_1000": 112.59691353723959
+    },
+    {
+      "threshold": 0.67,
+      "cost_per_1000": 113.80659095659443
+    },
+    {
+      "threshold": 0.68,
+      "cost_per_1000": 114.77433289207829
+    },
+    {
+      "threshold": 0.69,
+      "cost_per_1000": 113.98627464641538
+    },
+    {
+      "threshold": 0.7,
+      "cost_per_1000": 114.71208109802828
+    },
+    {
+      "threshold": 0.71,
+      "cost_per_1000": 114.55998745906778
+    },
+    {
+      "threshold": 0.72,
+      "cost_per_1000": 115.76966487842262
+    },
+    {
+      "threshold": 0.73,
+      "cost_per_1000": 118.43095520100327
+    },
+    {
+      "threshold": 0.74,
+      "cost_per_1000": 119.64063262035812
+    },
+    {
+      "threshold": 0.75,
+      "cost_per_1000": 121.42402285236535
+    },
+    {
+      "threshold": 0.76,
+      "cost_per_1000": 121.75580018114681
+    },
+    {
+      "threshold": 0.77,
+      "cost_per_1000": 123.69128405211454
+    },
+    {
+      "threshold": 0.78,
+      "cost_per_1000": 125.62676792308228
+    },
+    {
+      "threshold": 0.79,
+      "cost_per_1000": 127.5
+    },
+    {
+      "threshold": 0.8,
+      "cost_per_1000": 131.61290322580643
+    },
+    {
+      "threshold": 0.81,
+      "cost_per_1000": 136.4516129032258
+    },
+    {
+      "threshold": 0.82,
+      "cost_per_1000": 140.32258064516128
+    },
+    {
+      "threshold": 0.83,
+      "cost_per_1000": 143.9516129032258
+    },
+    {
+      "threshold": 0.84,
+      "cost_per_1000": 145.4032258064516
+    },
+    {
+      "threshold": 0.85,
+      "cost_per_1000": 147.58064516129033
+    },
+    {
+      "threshold": 0.86,
+      "cost_per_1000": 148.30645161290323
+    },
+    {
+      "threshold": 0.87,
+      "cost_per_1000": 149.03225806451616
+    },
+    {
+      "threshold": 0.88,
+      "cost_per_1000": 149.758064516129
+    },
+    {
+      "threshold": 0.89,
+      "cost_per_1000": 149.758064516129
+    },
+    {
+      "threshold": 0.9,
+      "cost_per_1000": 150.0
+    },
+    {
+      "threshold": 0.91,
+      "cost_per_1000": 150.0
+    },
+    {
+      "threshold": 0.92,
+      "cost_per_1000": 150.0
+    },
+    {
+      "threshold": 0.93,
+      "cost_per_1000": 150.0
+    },
+    {
+      "threshold": 0.94,
+      "cost_per_1000": 150.0
+    },
+    {
+      "threshold": 0.95,
+      "cost_per_1000": 150.0
+    },
+    {
+      "threshold": 0.96,
+      "cost_per_1000": 150.0
+    },
+    {
+      "threshold": 0.97,
+      "cost_per_1000": 150.0
+    },
+    {
+      "threshold": 0.98,
+      "cost_per_1000": 150.0
+    },
+    {
+      "threshold": 0.99,
+      "cost_per_1000": 150.0
+    },
+    {
+      "threshold": 1.0,
+      "cost_per_1000": 150.0
+    }
+  ],
+  "best_threshold": 0.66,
+  "cheapest_band": [
+    0.27,
+    0.79
+  ],
+  "policies": [
+    {
+      "policy": "Do nothing (pass every item)",
+      "cost_per_1000": 150.0,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "reviewers_needed": 0.0
+    },
+    {
+      "policy": "A person checks every item",
+      "cost_per_1000": 145.56,
+      "review_share": 1.0,
+      "reviews_per_day": 1500.0,
+      "reviewers_needed": 0.69
+    },
+    {
+      "policy": "Model alone (threshold 0.66)",
+      "cost_per_1000": 112.6,
+      "review_share": 0.0,
+      "reviews_per_day": 0.0,
+      "reviewers_needed": 0.0
+    },
+    {
+      "policy": "Model + review band (0.27 to 0.79)",
+      "cost_per_1000": 96.54,
+      "review_share": 0.0612,
+      "reviews_per_day": 91.8,
+      "reviewers_needed": 0.04
+    }
+  ]
+}

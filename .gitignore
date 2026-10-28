@@ -14,3 +14,8 @@ runs/
 
 # Never commit your API key
 .env
+
+# Pretrained checkpoints Ultralytics downloads into the repo root
+/*.pt
+# Checkpoints Ultralytics downloads for its own checks
+weights/yolo*.pt

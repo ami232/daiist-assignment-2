@@ -1,0 +1,46 @@
+[
+  {
+    "model": "Finetuned yolo11n",
+    "TP": 235,
+    "FP": 24,
+    "FN": 13,
+    "TN": 439,
+    "precision": 0.9073359073359073,
+    "recall": 0.9475806451612904,
+    "accuracy": 0.9479606188466948,
+    "roc_auc": 0.9768950742005156
+  },
+  {
+    "model": "Zero-shot COCO yolo11n (person found)",
+    "TP": 217,
+    "FP": 371,
+    "FN": 31,
+    "TN": 92,
+    "precision": 0.36904761904761907,
+    "recall": 0.875,
+    "accuracy": 0.4345991561181435,
+    "roc_auc": 0.5677253884205392
+  },
+  {
+    "model": "Trivial: predict nothing (pass every item)",
+    "TP": 0,
+    "FP": 0,
+    "FN": 248,
+    "TN": 463,
+    "precision": null,
+    "recall": 0.0,
+    "accuracy": 0.6511954992967651,
+    "roc_auc": 0.5
+  },
+  {
+    "model": "Trivial: majority class (flag no item)",
+    "TP": 0,
+    "FP": 0,
+    "FN": 248,
+    "TN": 463,
+    "precision": null,
+    "recall": 0.0,
+    "accuracy": 0.6511954992967651,
+    "roc_auc": 0.5
+  }
+]
