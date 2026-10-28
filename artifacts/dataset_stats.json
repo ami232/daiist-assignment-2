@@ -1,0 +1,129 @@
+{
+  "workspace": "ms-workspace-m1gci",
+  "project": "potato-sorting-on-conveyor",
+  "version": 9,
+  "splits": {
+    "train": {
+      "images": 3012,
+      "objects_per_image_mean": 29.19156706507304,
+      "sources": {
+        "conveyor camera B (kartoffel_auto)": 2097,
+        "conveyor camera A (BELANA_auto)": 864,
+        "other (web/phone photos)": 51
+      },
+      "per_class": {
+        "bad": {
+          "instances": 1160,
+          "images_with": 772,
+          "rel_size_median": 0.026203921611325662,
+          "rel_size_p10": 0.010961886875314282,
+          "rel_size_p90": 0.06494818896756631
+        },
+        "cut": {
+          "instances": 176,
+          "images_with": 123,
+          "rel_size_median": 0.13053078144477404,
+          "rel_size_p10": 0.04207120922100699,
+          "rel_size_p90": 0.608824439286774
+        },
+        "potato": {
+          "instances": 84514,
+          "images_with": 2853,
+          "rel_size_median": 0.1109161786289116,
+          "rel_size_p10": 0.08005430285905936,
+          "rel_size_p90": 0.1525314348685112
+        },
+        "stone": {
+          "instances": 2075,
+          "images_with": 279,
+          "rel_size_median": 0.09631896879639025,
+          "rel_size_p10": 0.032388913968314455,
+          "rel_size_p90": 0.13785105859919225
+        }
+      }
+    },
+    "valid": {
+      "images": 121,
+      "objects_per_image_mean": 32.01652892561984,
+      "sources": {
+        "conveyor camera A (BELANA_auto)": 44,
+        "conveyor camera B (kartoffel_auto)": 75,
+        "other (web/phone photos)": 2
+      },
+      "per_class": {
+        "bad": {
+          "instances": 58,
+          "images_with": 30,
+          "rel_size_median": 0.03303401915452096,
+          "rel_size_p10": 0.011669577997909932,
+          "rel_size_p90": 0.07739097059459525
+        },
+        "cut": {
+          "instances": 10,
+          "images_with": 6,
+          "rel_size_median": 0.19103500097131748,
+          "rel_size_p10": 0.04201210442151535,
+          "rel_size_p90": 0.40072216110737213
+        },
+        "potato": {
+          "instances": 3763,
+          "images_with": 118,
+          "rel_size_median": 0.0998388899932192,
+          "rel_size_p10": 0.07732747224542638,
+          "rel_size_p90": 0.13433397182613124
+        },
+        "stone": {
+          "instances": 43,
+          "images_with": 9,
+          "rel_size_median": 0.09392277373862962,
+          "rel_size_p10": 0.03178255089822753,
+          "rel_size_p90": 0.12079595006993614
+        }
+      }
+    },
+    "test": {
+      "images": 99,
+      "objects_per_image_mean": 31.09090909090909,
+      "sources": {
+        "conveyor camera B (kartoffel_auto)": 62,
+        "conveyor camera A (BELANA_auto)": 37
+      },
+      "per_class": {
+        "bad": {
+          "instances": 29,
+          "images_with": 21,
+          "rel_size_median": 0.026851029462631876,
+          "rel_size_p10": 0.010517504013637937,
+          "rel_size_p90": 0.056007392108570274
+        },
+        "cut": {
+          "instances": 3,
+          "images_with": 3,
+          "rel_size_median": 0.12355734885886492,
+          "rel_size_p10": 0.11142670055622053,
+          "rel_size_p90": 0.1326003693325596
+        },
+        "potato": {
+          "instances": 2953,
+          "images_with": 93,
+          "rel_size_median": 0.09943689110435824,
+          "rel_size_p10": 0.07615183965505602,
+          "rel_size_p90": 0.13544326912176413
+        },
+        "stone": {
+          "instances": 93,
+          "images_with": 8,
+          "rel_size_median": 0.08769509500251425,
+          "rel_size_p10": 0.03134745730465048,
+          "rel_size_p90": 0.12694166902621923
+        }
+      }
+    }
+  },
+  "valid_frames_within_2s_of_train": 113,
+  "valid_frames_with_timestamp": 119,
+  "valid_median_gap_to_train_s": 0.559116,
+  "test_frames_within_2s_of_train": 94,
+  "test_frames_with_timestamp": 99,
+  "test_median_gap_to_train_s": 0.558019
+}

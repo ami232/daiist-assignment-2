@@ -14,3 +14,9 @@ runs/
 
 # Never commit your API key
 .env
+
+# COCO checkpoint Ultralytics downloads at train time
+/yolo11n.pt
+/yolo11s.pt
+# AMP check checkpoint Ultralytics drops into weights/ on GPU runs
+weights/yolo26n.pt
