@@ -1,0 +1,11 @@
+{
+  "inspector_per_hour": 25,
+  "inspection_minutes": 5,
+  "repair": 10,
+  "missed_defect": {"replacement": 50, "shipping": 20, "support": 30, "relationship": 100},
+  "base_rate": 0.02,
+  "auto_fail_good_cost": 10,
+  "boards_per_day": 2000,
+  "productive_minutes_per_person": 420,
+  "max_reviewers": 2
+}

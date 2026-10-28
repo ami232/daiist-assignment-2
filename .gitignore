@@ -14,3 +14,16 @@ runs/
 
 # Never commit your API key
 .env
+
+data/
+runs/
+
+repo/
+*.zip
+results_colab_backup/
+test-clone/
+
+repo/
+*.zip
+results_colab_backup/
+test-clone/
