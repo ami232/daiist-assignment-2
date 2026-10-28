@@ -1,0 +1,265 @@
+{
+  "dataset": {
+    "workspace": "medical-object-detection-zblyv",
+    "project": "patient-fall-detection",
+    "version": 11,
+    "classes": [
+      "fallen",
+      "falling",
+      "sitting",
+      "standing"
+    ],
+    "positive_classes": [
+      "fallen",
+      "falling"
+    ]
+  },
+  "training": {
+    "base_model": "yolo11n.pt",
+    "epochs": 50,
+    "fraction": 1.0,
+    "imgsz": 640,
+    "batch": 16,
+    "seed": 0,
+    "device": "mps"
+  },
+  "dataset_stats": {
+    "splits": {
+      "train": {
+        "images": 1344,
+        "images_with_fall": 574,
+        "median_box_share": 0.16044921874999998,
+        "boxes_per_class": {
+          "fallen": 302,
+          "falling": 273,
+          "sitting": 127,
+          "standing": 641
+        },
+        "images_per_class": {
+          "fallen": 301,
+          "falling": 273,
+          "sitting": 127,
+          "standing": 641
+        }
+      },
+      "valid": {
+        "images": 304,
+        "images_with_fall": 138,
+        "median_box_share": 0.16382965087890622,
+        "boxes_per_class": {
+          "fallen": 71,
+          "falling": 68,
+          "sitting": 24,
+          "standing": 141
+        },
+        "images_per_class": {
+          "fallen": 70,
+          "falling": 68,
+          "sitting": 24,
+          "standing": 141
+        }
+      },
+      "test": {
+        "images": 244,
+        "images_with_fall": 106,
+        "median_box_share": 0.1529736328125,
+        "boxes_per_class": {
+          "fallen": 53,
+          "falling": 53,
+          "sitting": 25,
+          "standing": 112
+        },
+        "images_per_class": {
+          "fallen": 53,
+          "falling": 53,
+          "sitting": 25,
+          "standing": 112
+        }
+      }
+    },
+    "test_images_matching_a_train_fingerprint": 136
+  },
+  "detection": {
+    "mAP50": 0.9723358359588471,
+    "mAP50-95": 0.6634042651371742,
+    "per_class": [
+      {
+        "Class": "fallen",
+        "Images": 53,
+        "Instances": 53,
+        "Box-P": 0.85567,
+        "Box-R": 0.92453,
+        "Box-F1": 0.88877,
+        "mAP50": 0.92953,
+        "mAP75": 0.69039,
+        "mAP50-95": 0.60388
+      },
+      {
+        "Class": "falling",
+        "Images": 53,
+        "Instances": 53,
+        "Box-P": 0.8582,
+        "Box-R": 0.96226,
+        "Box-F1": 0.90726,
+        "mAP50": 0.96999,
+        "mAP75": 0.84714,
+        "mAP50-95": 0.69995
+      },
+      {
+        "Class": "sitting",
+        "Images": 25,
+        "Instances": 25,
+        "Box-P": 0.99563,
+        "Box-R": 1.0,
+        "Box-F1": 0.99781,
+        "mAP50": 0.995,
+        "mAP75": 0.8862,
+        "mAP50-95": 0.70006
+      },
+      {
+        "Class": "standing",
+        "Images": 112,
+        "Instances": 112,
+        "Box-P": 1.0,
+        "Box-R": 0.97295,
+        "Box-F1": 0.98629,
+        "mAP50": 0.99482,
+        "mAP75": 0.74994,
+        "mAP50-95": 0.64972
+      }
+    ],
+    "confusion_conf": 0.25,
+    "confusion_matrix": [
+      [
+        48,
+        3,
+        0,
+        0,
+        8
+      ],
+      [
+        5,
+        50,
+        0,
+        0,
+        7
+      ],
+      [
+        0,
+        0,
+        25,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        111,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    ],
+    "confusion_labels": [
+      "fallen",
+      "falling",
+      "sitting",
+      "standing",
+      "background"
+    ]
+  },
+  "baselines": {
+    "finetuned": {
+      "tp": 103,
+      "fp": 3,
+      "fn": 3,
+      "tn": 135,
+      "recall": 0.9716981132075472,
+      "precision": 0.9716981132075472,
+      "average_precision": 0.989654916217313
+    },
+    "coco": {
+      "tp": 12,
+      "fp": 5,
+      "fn": 94,
+      "tn": 133,
+      "recall": 0.11320754716981132,
+      "precision": 0.7058823529411765,
+      "average_precision": 0.6515778074823054
+    },
+    "trivial": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 106,
+      "tn": 138,
+      "recall": 0.0,
+      "precision": 0.0,
+      "average_precision": null
+    }
+  },
+  "costs": {
+    "fn": 416.6666666666667,
+    "fp": 0.43,
+    "tp": 0.05,
+    "tn": 0,
+    "review": 0.05
+  },
+  "incident_costs": {
+    "fn": 25000,
+    "tp": 3
+  },
+  "images_per_fall": 60,
+  "base_rate": 5.7e-06,
+  "operating_point": {
+    "single_threshold": 0.8,
+    "single_threshold_cost_per_1000": 0.7171800943396227,
+    "review_low": 0.8,
+    "review_high": 0.8,
+    "band_cost_per_1000": 0.7171800943396227,
+    "review_share": 0.0
+  },
+  "alternatives": {
+    "do_nothing": 2.375,
+    "human_checks_everything": 50.000285,
+    "model_alone": 0.7171800943396227,
+    "model_plus_review": 0.7171800943396227
+  },
+  "sensitivity": [
+    {
+      "base_rate": 1e-06,
+      "best_threshold": 0.8,
+      "cost_per_1000": 0.12582106918238994
+    },
+    {
+      "base_rate": 1e-05,
+      "best_threshold": 0.8,
+      "cost_per_1000": 1.2582106918238996
+    },
+    {
+      "base_rate": 0.0001,
+      "best_threshold": 0.65,
+      "cost_per_1000": 8.59446841673503
+    },
+    {
+      "base_rate": 0.001,
+      "best_threshold": 0.41,
+      "cost_per_1000": 20.361996171725462
+    },
+    {
+      "base_rate": 0.01,
+      "best_threshold": 0.01,
+      "cost_per_1000": 58.31215477167078
+    },
+    {
+      "base_rate": 0.1,
+      "best_threshold": 0.0,
+      "cost_per_1000": 392.0
+    }
+  ]
+}
