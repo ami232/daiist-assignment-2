@@ -1,0 +1,129 @@
+{
+  "dataset": {
+    "workspace": "yaiinternsproject",
+    "project": "avocado-foo4c",
+    "version": 1,
+    "url": "https://universe.roboflow.com/yaiinternsproject/avocado-foo4c/dataset/1",
+    "test_images": 268,
+    "test_diseased": 198
+  },
+  "training": {
+    "base_model": "yolo11n.pt",
+    "epochs": 40,
+    "fraction": 1.0,
+    "imgsz": 640,
+    "batch": 16,
+    "patience": 10,
+    "seed": 0,
+    "device": "mps"
+  },
+  "positive_class": "diseased (any of Anthracnose, Cercospora Spot, Stem End Rot, Sunblotch)",
+  "detection": {
+    "map50": 0.8,
+    "map50_95": 0.526
+  },
+  "baselines": {
+    "finetuned yolo11n": {
+      "map50": 0.8,
+      "map50_95": 0.526,
+      "auc": 0.987,
+      "threshold_chosen_on_val": 0.05,
+      "test_recall": 0.98,
+      "test_false_positive_rate": 0.1,
+      "test_cost_per_1000": 16.25
+    },
+    "COCO yolo11n zero-shot": {
+      "map50": 0.0,
+      "map50_95": 0.0,
+      "note": "no COCO class matches any of our five classes",
+      "auc": 0.462,
+      "threshold_chosen_on_val": 0.0,
+      "test_recall": 1.0,
+      "test_false_positive_rate": 1.0,
+      "test_cost_per_1000": 105.6
+    },
+    "trivial: predict nothing (export all)": {
+      "map50": 0.0,
+      "map50_95": 0.0,
+      "auc": 0.5,
+      "test_cost_per_1000": 281.6
+    },
+    "trivial: majority of test split (reject all)": {
+      "map50": 0.0,
+      "map50_95": 0.0,
+      "auc": 0.5,
+      "test_cost_per_1000": 105.6
+    }
+  },
+  "costs_used": {
+    "_note": "Euros per avocado, for a small family producer in Ecuador packing for export. Positive class = diseased (reject). Derivation in REPORT.md. Re-running train.py --eval-only (or just the app) picks up changes.",
+    "_derivation": {
+      "usd_per_eur": 1.13,
+      "export_price_usd_per_kg": 1.99,
+      "local_farm_gate_price_usd_per_kg": 1.5,
+      "avocado_kg": 0.25,
+      "avocados_per_box": 16,
+      "neighbours_spoiled_per_diseased_fruit": 2.5,
+      "buyer_discount_on_rest_of_box": 1.0,
+      "fn": "(1 + 2.5) x 0.44 + 12.5 x 1.0 x 0.44 = 16 x 0.25 kg x 1.99 / 1.13 = EUR 7.04",
+      "fp": "0.25 kg x (1.99 - 1.50) / 1.13 = EUR 0.11",
+      "reviewer": "USD 676 / month employer cost at SBU 482 (2026) / 173.3 h / 1.13 = EUR 3.45 / h"
+    },
+    "base_rate": 0.04,
+    "cost_fn_eur": 7.04,
+    "cost_fp_eur": 0.11,
+    "cost_tp_eur": 0.0,
+    "cost_tn_eur": 0.0,
+    "review_seconds_per_case": 6,
+    "reviewer_cost_eur_per_hour": 3.45,
+    "human_review_accuracy": 0.97,
+    "cases_per_day": 5000,
+    "review_hours_per_person_per_day": 7,
+    "review_cost_eur": 0.005750000000000001
+  },
+  "threshold_selection": "chosen on the validation split, costs reported on the test split",
+  "single_threshold": {
+    "threshold": 0.05,
+    "test_recall": 0.98,
+    "test_false_positive_rate": 0.1,
+    "test_cost_per_1000": 16.25
+  },
+  "review_band": {
+    "lo": 0.01,
+    "hi": 0.57,
+    "val_cost_per_1000": 6.57,
+    "test_cost_per_1000": 7.8,
+    "test_review_share": 0.19987878787878793,
+    "test_outcomes": {
+      "diseased": {
+        "pass": 2,
+        "review": 39,
+        "reject": 157
+      },
+      "healthy": {
+        "pass": 55,
+        "review": 14,
+        "reject": 1
+      }
+    },
+    "reviews_per_day": 999.3939393939397,
+    "review_hours_per_day": 1.665656565656566,
+    "reviewers_needed": 0.237950937950938
+  },
+  "alternatives_per_1000": {
+    "do_nothing (export everything)": 281.6,
+    "reject everything": 105.6,
+    "person checks everything": 17.366000000000014,
+    "model alone (t=0.05)": 16.24888888888889,
+    "model + review band (0.01-0.57)": 7.799918903318906
+  },
+  "if_tuned_on_test_instead": {
+    "single_threshold": 0.16,
+    "single_cost_per_1000": 13.15,
+    "band": [
+      0.01,
+      0.58
+    ],
+    "band_cost_per_1000": 6.46
+  }
+}

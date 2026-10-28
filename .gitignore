@@ -11,6 +11,8 @@ data/
 
 # Ultralytics training output. Your real weights belong in weights/, committed.
 runs/
+# Pretrained COCO checkpoint Ultralytics downloads on first use
+/yolo11n.pt
 
 # Never commit your API key
 .env

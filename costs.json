@@ -1,0 +1,25 @@
+{
+  "_note": "Euros per avocado, for a small family producer in Ecuador packing for export. Positive class = diseased (reject). Derivation in REPORT.md. Re-running train.py --eval-only (or just the app) picks up changes.",
+  "_derivation": {
+    "usd_per_eur": 1.13,
+    "export_price_usd_per_kg": 1.99,
+    "local_farm_gate_price_usd_per_kg": 1.5,
+    "avocado_kg": 0.25,
+    "avocados_per_box": 16,
+    "neighbours_spoiled_per_diseased_fruit": 2.5,
+    "buyer_discount_on_rest_of_box": 1.0,
+    "fn": "(1 + 2.5) x 0.44 + 12.5 x 1.0 x 0.44 = 16 x 0.25 kg x 1.99 / 1.13 = EUR 7.04",
+    "fp": "0.25 kg x (1.99 - 1.50) / 1.13 = EUR 0.11",
+    "reviewer": "USD 676 / month employer cost at SBU 482 (2026) / 173.3 h / 1.13 = EUR 3.45 / h"
+  },
+  "base_rate": 0.04,
+  "cost_fn_eur": 7.04,
+  "cost_fp_eur": 0.11,
+  "cost_tp_eur": 0.0,
+  "cost_tn_eur": 0.0,
+  "review_seconds_per_case": 6,
+  "reviewer_cost_eur_per_hour": 3.45,
+  "human_review_accuracy": 0.97,
+  "cases_per_day": 5000,
+  "review_hours_per_person_per_day": 7
+}
