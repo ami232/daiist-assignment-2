@@ -1,0 +1,5166 @@
+{
+  "internal": [
+    {
+      "image": "IMG_8426-Copy_JPG.rf.a3c2d10c18d3f82e69bcf31625cf6c3d.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.90329909324646,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8468_jpeg.rf.325d11076856c19cfbd9f205fdfce4eb.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.8995084762573242,
+      "coco_wide": 0.025955693796277046,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8479_jpeg.rf.4bacd9c1c27382e833a0c825a93c1fa1.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9055820107460022,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8497_jpeg.rf.75e5c43310cae5ecdd0aa508d6c385ec.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.8989642858505249,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8501_jpeg.rf.27f00519272d183fb06343c8bfa8e176.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9460415244102478,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8506_jpeg.rf.34133c43ea8a1a044287690ac9061b3e.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9389383792877197,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8507_jpeg.rf.18c31eb0defd037998a02554ff13efad.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9379047751426697,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8521_jpeg.rf.83459c4377a4c9473d93a692e4828714.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.8592742085456848,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8525-Copy_jpeg.rf.16642a0a015110c065037b02fbcb5b2f.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.8912640810012817,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8542_jpeg.rf.7b542d0e0efb8f7d13990ed9afcd0e6a.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9155329465866089,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8548_jpeg.rf.e9b68efbf3a6ce81c7304aa415095133.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9067874550819397,
+      "coco_wide": 0.08846841752529144,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8550_jpeg.rf.3aba502c79c6c8097c03f99c0601b9e1.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.8912452459335327,
+      "coco_wide": 0.12407603114843369,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8567_jpeg.rf.4f728529956ccd5a51a8ae694672c292.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9192153811454773,
+      "coco_wide": 0.05445722118020058,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8569_jpeg.rf.705b9b340039b72f7ed314b0cf974d84.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9140854477882385,
+      "coco_wide": 0.09294196963310242,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8575_jpeg.rf.169c29b664965b073574cb63dadd50b6.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9239249229431152,
+      "coco_wide": 0.13153037428855896,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8584_jpeg.rf.098c9a2a86162c6a68adde0508e15b01.jpg",
+      "truth": false,
+      "finetuned": 0.3662538230419159,
+      "coco_person": 0.9387346506118774,
+      "coco_wide": 0.10000889748334885,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8592_jpeg.rf.9894534909aa8c71cfec892797cf4f48.jpg",
+      "truth": true,
+      "finetuned": 0.36842384934425354,
+      "coco_person": 0.9542665481567383,
+      "coco_wide": 0.9542665481567383,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8598_jpeg.rf.f063c3506212fb31a0228629b09825a1.jpg",
+      "truth": true,
+      "finetuned": 0.3770410120487213,
+      "coco_person": 0.9562708735466003,
+      "coco_wide": 0.020755108445882797,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8605_jpeg.rf.baa20848fb4e6ce3fd8ac6d06caad230.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9340457320213318,
+      "coco_wide": 0.23851855099201202,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8615_jpeg.rf.a089922009192f7f6561abfdfe3cf28b.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.921878457069397,
+      "coco_wide": 0.04725886136293411,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8622_jpeg.rf.3d53bf5ebb670b554b02f71fd0312a50.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.8923786282539368,
+      "coco_wide": 0.15874150395393372,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8632_jpeg.rf.83da8225ebe526a3c38a960bfc70c359.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9185652732849121,
+      "coco_wide": 0.23237591981887817,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8637_jpeg.rf.1089620fd0235b58ed661e1a8e7d64b4.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9043741822242737,
+      "coco_wide": 0.12793831527233124,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8639_jpeg.rf.7e213e80ebdd631dcb4c601084903805.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9037988185882568,
+      "coco_wide": 0.19623321294784546,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8669_jpeg.rf.db5f0a5add2c859e560c54aaf5853851.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9248007535934448,
+      "coco_wide": 0.04125530272722244,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8670_jpeg.rf.854206684cdf9d360d7d92174f51528d.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9204058051109314,
+      "coco_wide": 0.0585014671087265,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8681-Copy_JPG.rf.1ca38bafa0b9a7523e36733bd1a28c69.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9191890954971313,
+      "coco_wide": 0.028614738956093788,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8703_jpeg.rf.d68fe598d0a48e965ee676b30d238a2f.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.8981835842132568,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8713_jpeg.rf.52ff61ad8ebd93e7e4ef29215fddbed3.jpg",
+      "truth": true,
+      "finetuned": 0.8484715223312378,
+      "coco_person": 0.9078586101531982,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8739_jpeg.rf.339afab81b14ae0c63479ea0f6618db4.jpg",
+      "truth": true,
+      "finetuned": 0.8701115250587463,
+      "coco_person": 0.8818284273147583,
+      "coco_wide": 0.8818284273147583,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8747_jpeg.rf.a762aa7985ec12241d44419d2c733df9.jpg",
+      "truth": true,
+      "finetuned": 0.8663350343704224,
+      "coco_person": 0.8838403820991516,
+      "coco_wide": 0.8838403820991516,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8764_jpeg.rf.20053508b28bc5033fd502ff240b6a2c.jpg",
+      "truth": true,
+      "finetuned": 0.8627372980117798,
+      "coco_person": 0.8658782839775085,
+      "coco_wide": 0.8658782839775085,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8773_jpeg.rf.5f5804131321fb38dabb836e37846fc6.jpg",
+      "truth": true,
+      "finetuned": 0.8583464622497559,
+      "coco_person": 0.8659207224845886,
+      "coco_wide": 0.8659207224845886,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8782_MOV-0002_jpg.rf.2ef1825907c5a0e951e1aa340bb7124b.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.938492476940155,
+      "coco_wide": 0.135980024933815,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8785_jpeg.rf.75aa426ad7464db54442893b65c7f34d.jpg",
+      "truth": true,
+      "finetuned": 0.8614869117736816,
+      "coco_person": 0.9234609007835388,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8789_jpeg.rf.c499930db4b60eb1c1d2387e019497b3.jpg",
+      "truth": true,
+      "finetuned": 0.8587287068367004,
+      "coco_person": 0.9201334118843079,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8801_jpeg.rf.924fc8bfa5db78fa7e0e86f6047a0758.jpg",
+      "truth": true,
+      "finetuned": 0.862407922744751,
+      "coco_person": 0.9182085990905762,
+      "coco_wide": 0.9182085990905762,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8805_jpeg.rf.0cab664bc51788a641008b72b4c8ff3c.jpg",
+      "truth": true,
+      "finetuned": 0.8651588559150696,
+      "coco_person": 0.8940661549568176,
+      "coco_wide": 0.8940661549568176,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8808_jpeg.rf.0e0c38d66ea8dcd486feec582e4ea4bf.jpg",
+      "truth": true,
+      "finetuned": 0.8545623421669006,
+      "coco_person": 0.9329274892807007,
+      "coco_wide": 0.9329274892807007,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8816_jpeg.rf.64468759885c65fe596cee968bb4ce3f.jpg",
+      "truth": true,
+      "finetuned": 0.8304116725921631,
+      "coco_person": 0.9015772938728333,
+      "coco_wide": 0.9015772938728333,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8832_jpeg.rf.342027ddc933f083b19db25529bb9536.jpg",
+      "truth": true,
+      "finetuned": 0.8236303925514221,
+      "coco_person": 0.81512850522995,
+      "coco_wide": 0.81512850522995,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8852_jpeg.rf.6fa20cc2e98ebf30e2efddd076c9a32d.jpg",
+      "truth": true,
+      "finetuned": 0.8588126301765442,
+      "coco_person": 0.9276384115219116,
+      "coco_wide": 0.9276384115219116,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8854_jpeg.rf.02d72ce79cfca2332649d14460b71432.jpg",
+      "truth": true,
+      "finetuned": 0.8746936917304993,
+      "coco_person": 0.9172700643539429,
+      "coco_wide": 0.9172700643539429,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8856_jpeg.rf.3942ff937fe470c3d804900bd5fc2db8.jpg",
+      "truth": true,
+      "finetuned": 0.8608797192573547,
+      "coco_person": 0.9342800378799438,
+      "coco_wide": 0.9342800378799438,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8858_jpeg.rf.7e1a4a4d394d615d556ecd2f41399b11.jpg",
+      "truth": true,
+      "finetuned": 0.8587692379951477,
+      "coco_person": 0.939002513885498,
+      "coco_wide": 0.939002513885498,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8859_jpeg.rf.c094a067b8403f8c94ffccf0d82a5e16.jpg",
+      "truth": true,
+      "finetuned": 0.8630613684654236,
+      "coco_person": 0.9256473779678345,
+      "coco_wide": 0.9256473779678345,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8860_jpeg.rf.d6857d378f5c53309c75dbd70655e9dc.jpg",
+      "truth": true,
+      "finetuned": 0.8654817938804626,
+      "coco_person": 0.9155166149139404,
+      "coco_wide": 0.9155166149139404,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8863-Copy_JPG.rf.70204477089c6f63d638c5851ac6f34e.jpg",
+      "truth": true,
+      "finetuned": 0.8483051657676697,
+      "coco_person": 0.9229507446289062,
+      "coco_wide": 0.9229507446289062,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8868_jpeg.rf.970250ce46bebf6babdc2f38ce91eaea.jpg",
+      "truth": true,
+      "finetuned": 0.8352506160736084,
+      "coco_person": 0.8970304727554321,
+      "coco_wide": 0.8970304727554321,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8886_jpeg.rf.f763ec5fd95729abd3f866814ee5a1a5.jpg",
+      "truth": true,
+      "finetuned": 0.8431203961372375,
+      "coco_person": 0.8423494696617126,
+      "coco_wide": 0.8423494696617126,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8897_jpeg.rf.32fb1f8a5c49db44a53e40f015bc5a28.jpg",
+      "truth": true,
+      "finetuned": 0.8502691984176636,
+      "coco_person": 0.7969844341278076,
+      "coco_wide": 0.7969844341278076,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8902_jpeg.rf.af21f37117b880c379c64fb0c0918028.jpg",
+      "truth": true,
+      "finetuned": 0.8478893637657166,
+      "coco_person": 0.8359055519104004,
+      "coco_wide": 0.8359055519104004,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8909_jpeg.rf.49908640fc692be1e11d80fbccb6490d.jpg",
+      "truth": true,
+      "finetuned": 0.8404736518859863,
+      "coco_person": 0.8360270261764526,
+      "coco_wide": 0.8360270261764526,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8959_jpeg.rf.15b1712421697a5c9581d648165a6f6e.jpg",
+      "truth": true,
+      "finetuned": 0.8465518951416016,
+      "coco_person": 0.8610643744468689,
+      "coco_wide": 0.8610643744468689,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8962_jpeg.rf.3522286d81f2556c7e180a5e2fe2585e.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.8964277505874634,
+      "coco_wide": 0.019737904891371727,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8976_jpeg.rf.53635dbf747131b74a2e5e1ebb451e6d.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.8884885907173157,
+      "coco_wide": 0.12625835835933685,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8986_jpeg.rf.c167efd90fa2494e79c775f148e23668.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9134324193000793,
+      "coco_wide": 0.04222336411476135,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_8994_jpeg.rf.a2c251b68ec29ba7a816e094fe0f859f.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9143349528312683,
+      "coco_wide": 0.06918815523386002,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_9006_jpeg.rf.9c8dccff3fbeec9dbd538125c2d93706.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.8992758393287659,
+      "coco_wide": 0.01895570009946823,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_9019_jpeg.rf.ded907c75dce0be9aa9ebc65a9dd9c5a.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9221993088722229,
+      "coco_wide": 0.016553658992052078,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_9034_jpeg.rf.9e00cd233e679e42819ab100e722cc25.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9214903712272644,
+      "coco_wide": 0.034131165593862534,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_9035_jpeg.rf.cbcc4fc496026626aeb77cedaea72802.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9024399518966675,
+      "coco_wide": 0.03125446289777756,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_9040_jpeg.rf.a4b5681f194ae43bce2d88b0b8f3fba1.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9068470597267151,
+      "coco_wide": 0.04013405367732048,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_9053_jpeg.rf.7dfdf2fd057e3e5a75db63432079b0ea.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9000144600868225,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_9075_jpeg.rf.fa4aa99c23cfaf1c35016d03ecb35715.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9327855706214905,
+      "coco_wide": 0.012113970704376698,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_9122_jpeg.rf.40ec7d0fc3b87676c96507b7d48197a6.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.8791449069976807,
+      "coco_wide": 0.8791449069976807,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_9130_jpeg.rf.cad27e5c0f821b0e2febbc98e4dc5445.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.8779497742652893,
+      "coco_wide": 0.8779497742652893,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_9138_jpeg.rf.e6c52a14e0004f57764404a2e33b5523.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.8357086777687073,
+      "coco_wide": 0.292696088552475,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_9143_jpeg.rf.4e52cafbaf49b8871f7effc320b0d7ef.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.8860536813735962,
+      "coco_wide": 0.09312023967504501,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_9146_jpeg.rf.38f59313c025affb81077a521513203b.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.8817770481109619,
+      "coco_wide": 0.06405463814735413,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_9161_jpeg.rf.a07a3169e71caa672eab422b0fa8c050.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.8823394179344177,
+      "coco_wide": 0.06996221840381622,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_9167_jpeg.rf.e1e3c1b7c94cba92fa685214b1c19c53.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.8822889924049377,
+      "coco_wide": 0.183166965842247,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_9170_jpeg.rf.940001439ef77c5b9f596cc91849d73e.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.8546599745750427,
+      "coco_wide": 0.8546599745750427,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_9171_jpeg.rf.198b363910cc4be609f8e9496e606665.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.8993837237358093,
+      "coco_wide": 0.8993837237358093,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_9182_jpeg.rf.7387c2f8187007dd7429f2d042f0276f.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9276064038276672,
+      "coco_wide": 0.9276064038276672,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_9190_jpeg.rf.863ddcd10cec4fea1744125ccb1535fd.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.8965456485748291,
+      "coco_wide": 0.8965456485748291,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_9214_jpeg.rf.034a8d9db520fad59700d2d0304bca8d.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9233140349388123,
+      "coco_wide": 0.9233140349388123,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_9225_jpeg.rf.f10434c570d7b572f4d676a605467565.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.8847388625144958,
+      "coco_wide": 0.8847388625144958,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_9226_jpeg.rf.2ae4f870894e9fae3e32e395b8d8bd65.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.8688435554504395,
+      "coco_wide": 0.8688435554504395,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_9238_jpeg.rf.458b7a1fe01cefcc4b009af49b2bc791.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.8792764544487,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_9259_jpeg.rf.5a519513dd9123497b54d44b83133dbc.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.899811327457428,
+      "coco_wide": 0.2433432936668396,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_9269_jpeg.rf.60fd6ba3525e8e75074dd91421555283.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.8945232033729553,
+      "coco_wide": 0.3653354048728943,
+      "nothing": 0.0
+    }
+  ],
+  "external": [
+    {
+      "image": "00001_png_jpg.rf.9de7e73e986293d75a4eb97491466397.jpg",
+      "truth": false,
+      "finetuned": 0.33117419481277466,
+      "coco_person": 0.8374122381210327,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "00004_png_jpg.rf.10dfbc40e1ff6e29d99d4bf0e871550b.jpg",
+      "truth": false,
+      "finetuned": 0.363473117351532,
+      "coco_person": 0.8344029188156128,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "00005_jpg.rf.787292f06acb5f9632fcb4d2f9d856c2.jpg",
+      "truth": false,
+      "finetuned": 0.7116009593009949,
+      "coco_person": 0.839733898639679,
+      "coco_wide": 0.839733898639679,
+      "nothing": 0.0
+    },
+    {
+      "image": "00005_png_jpg.rf.15fef5d92fb50ac9229c04c15dad7dbc.jpg",
+      "truth": false,
+      "finetuned": 0.6721416711807251,
+      "coco_person": 0.9470204710960388,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "00009_png_jpg.rf.212f430f5535c30e307393e77154b676.jpg",
+      "truth": false,
+      "finetuned": 0.01583520695567131,
+      "coco_person": 0.870343029499054,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "00014_png_jpg.rf.ac07269905c2fb245376977c563db426.jpg",
+      "truth": false,
+      "finetuned": 0.3305162191390991,
+      "coco_person": 0.8442732691764832,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "00031_png_jpg.rf.d6e5e08e2e9897b295c75aac87c2fbdf.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.7975928783416748,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "00033_jpg.rf.558ee829c42b03667962394f30d763f7.jpg",
+      "truth": false,
+      "finetuned": 0.24355901777744293,
+      "coco_person": 0.8885507583618164,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "00039_jpg.rf.8d31fd165fce34a28cc39fdaf5f748e9.jpg",
+      "truth": false,
+      "finetuned": 0.45441222190856934,
+      "coco_person": 0.8831152319908142,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "00045_jpg.rf.4a1b82785838911deece8d2de41c1008.jpg",
+      "truth": false,
+      "finetuned": 0.08144886046648026,
+      "coco_person": 0.8145164251327515,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "00051_jpg.rf.4614e18d611f369053b00802174e1e51.jpg",
+      "truth": false,
+      "finetuned": 0.25683513283729553,
+      "coco_person": 0.5869936943054199,
+      "coco_wide": 0.5869936943054199,
+      "nothing": 0.0
+    },
+    {
+      "image": "00051_jpg.rf.c78e97fd7ea8cb6d8abcee07f887ba39.jpg",
+      "truth": false,
+      "finetuned": 0.4001918137073517,
+      "coco_person": 0.915481686592102,
+      "coco_wide": 0.5341111421585083,
+      "nothing": 0.0
+    },
+    {
+      "image": "00052_jpg.rf.d0e9732a09a04040ac68a653faedb59a.jpg",
+      "truth": false,
+      "finetuned": 0.37217575311660767,
+      "coco_person": 0.9166775345802307,
+      "coco_wide": 0.5949370861053467,
+      "nothing": 0.0
+    },
+    {
+      "image": "00060_jpg.rf.90d66f7caacaf2166d16d8b145cea016.jpg",
+      "truth": false,
+      "finetuned": 0.13131313025951385,
+      "coco_person": 0.8901044726371765,
+      "coco_wide": 0.04131462052464485,
+      "nothing": 0.0
+    },
+    {
+      "image": "00062_jpg.rf.e3f8996817c0cec2a0085479b0513900.jpg",
+      "truth": false,
+      "finetuned": 0.4467276930809021,
+      "coco_person": 0.7575893402099609,
+      "coco_wide": 0.14634586870670319,
+      "nothing": 0.0
+    },
+    {
+      "image": "00063_jpg.rf.e2fd473b352b80387456155ac0d4ae3c.jpg",
+      "truth": false,
+      "finetuned": 0.032018426805734634,
+      "coco_person": 0.35630932450294495,
+      "coco_wide": 0.35630932450294495,
+      "nothing": 0.0
+    },
+    {
+      "image": "00065_jpg.rf.7b88f97dc8b6772c3dc91d92f31dd99e.jpg",
+      "truth": false,
+      "finetuned": 0.031422656029462814,
+      "coco_person": 0.07223491370677948,
+      "coco_wide": 0.07223491370677948,
+      "nothing": 0.0
+    },
+    {
+      "image": "00072_jpg.rf.cc6c3074783cc6ffc5d64849e3f60f76.jpg",
+      "truth": true,
+      "finetuned": 0.6912072896957397,
+      "coco_person": 0.6347596049308777,
+      "coco_wide": 0.6347596049308777,
+      "nothing": 0.0
+    },
+    {
+      "image": "00076_jpg.rf.52b06a499517a24b3fd23c90c7d09415.jpg",
+      "truth": true,
+      "finetuned": 0.48674526810646057,
+      "coco_person": 0.8264188170433044,
+      "coco_wide": 0.8264188170433044,
+      "nothing": 0.0
+    },
+    {
+      "image": "00078_jpg.rf.8bee66706291cefdd7dc5b32e2ff752f.jpg",
+      "truth": true,
+      "finetuned": 0.2959860563278198,
+      "coco_person": 0.9133836030960083,
+      "coco_wide": 0.9133836030960083,
+      "nothing": 0.0
+    },
+    {
+      "image": "00080_jpg.rf.66540eec9830c2d0c36e2db245daeb33.jpg",
+      "truth": true,
+      "finetuned": 0.15884929895401,
+      "coco_person": 0.754552960395813,
+      "coco_wide": 0.144339919090271,
+      "nothing": 0.0
+    },
+    {
+      "image": "00080_jpg.rf.924677b02a4f53130c6a277e0d6b82bb.jpg",
+      "truth": true,
+      "finetuned": 0.6817145347595215,
+      "coco_person": 0.32913172245025635,
+      "coco_wide": 0.32913172245025635,
+      "nothing": 0.0
+    },
+    {
+      "image": "00081_jpg.rf.778662d50cd8e4bd8afe8e94cc5ffe91.jpg",
+      "truth": true,
+      "finetuned": 0.6621056199073792,
+      "coco_person": 0.5547505617141724,
+      "coco_wide": 0.5547505617141724,
+      "nothing": 0.0
+    },
+    {
+      "image": "00084_jpg.rf.e034c9e24fc45311352c7307c5045886.jpg",
+      "truth": true,
+      "finetuned": 0.0,
+      "coco_person": 0.2907829284667969,
+      "coco_wide": 0.2907829284667969,
+      "nothing": 0.0
+    },
+    {
+      "image": "00095_jpg.rf.80725c6ae45fdab810684a062bace49d.jpg",
+      "truth": true,
+      "finetuned": 0.3744560182094574,
+      "coco_person": 0.33969706296920776,
+      "coco_wide": 0.33969706296920776,
+      "nothing": 0.0
+    },
+    {
+      "image": "00258_jpg.rf.cd80a2292e3094185c68d026343c9fc9.jpg",
+      "truth": false,
+      "finetuned": 0.7145419120788574,
+      "coco_person": 0.844106912612915,
+      "coco_wide": 0.844106912612915,
+      "nothing": 0.0
+    },
+    {
+      "image": "00309_jpg.rf.201695aa89389cbe31eb665e8c62c23f.jpg",
+      "truth": false,
+      "finetuned": 0.6554359793663025,
+      "coco_person": 0.8008378148078918,
+      "coco_wide": 0.8008378148078918,
+      "nothing": 0.0
+    },
+    {
+      "image": "00361_jpg.rf.e69ea5c753a1bd34f491a12fd2c427da.jpg",
+      "truth": false,
+      "finetuned": 0.634321928024292,
+      "coco_person": 0.8862006664276123,
+      "coco_wide": 0.8862006664276123,
+      "nothing": 0.0
+    },
+    {
+      "image": "00535_jpg.rf.f6e5e515185f6df425f62f490b8d4eff.jpg",
+      "truth": false,
+      "finetuned": 0.6506563425064087,
+      "coco_person": 0.8565734624862671,
+      "coco_wide": 0.8565734624862671,
+      "nothing": 0.0
+    },
+    {
+      "image": "00573_jpg.rf.1648a465e8e1e0028cdf7849f8d3a6b2.jpg",
+      "truth": false,
+      "finetuned": 0.6279803514480591,
+      "coco_person": 0.7844396829605103,
+      "coco_wide": 0.7844396829605103,
+      "nothing": 0.0
+    },
+    {
+      "image": "00580_jpg.rf.8a84c162361b002d1622ef6c696860a2.jpg",
+      "truth": false,
+      "finetuned": 0.46493664383888245,
+      "coco_person": 0.8201059699058533,
+      "coco_wide": 0.01887667551636696,
+      "nothing": 0.0
+    },
+    {
+      "image": "00727_jpg.rf.647f472a5f97fa9e0263541f21ad2b3c.jpg",
+      "truth": false,
+      "finetuned": 0.2694443464279175,
+      "coco_person": 0.8744680881500244,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "18_jpg.rf.60109236ea602c4fe678859482fec7cb.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.8016043901443481,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_10_08_49_49-2210_png_jpg.rf.b8a4a162fe2831ec02183fb6024a73ba.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.11370020359754562,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_10_08_49_52-2880_png_jpg.rf.f4dfe79741501dc9b934753847e69f4e.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.46024805307388306,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_10_08_51_15-4820_png_jpg.rf.985574f2591cc85316dd701146d67042.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.019974306225776672,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_10_08_51_19-6930_png_jpg.rf.bc6432b49d43c00f07f76346ecc63d76.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.02013663947582245,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_10_08_51_20-1640_png_jpg.rf.690f9f6cf815e977fb19d31ebfbb9807.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.02058166265487671,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_10_08_51_21-5800_png_jpg.rf.fb413a517da548e5268706b2f9a21ef1.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.3015168309211731,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_10_08_51_22-8330_png_jpg.rf.3bbd6ed9bc485cd3e2626f0c469984d8.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.034587107598781586,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_10_08_51_22-9950_png_jpg.rf.a70728a1c4ea2ef025fadaba7ffff717.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_10_09_01_10-5190_png_jpg.rf.2f76dc21e32e00b68d690c7b355c7a16.jpg",
+      "truth": false,
+      "finetuned": 0.1478508561849594,
+      "coco_person": 0.17598290741443634,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_10_09_01_10-9360_png_jpg.rf.1845bb6817e2049b406a5ff2c0eaba28.jpg",
+      "truth": false,
+      "finetuned": 0.08508750051259995,
+      "coco_person": 0.7928545475006104,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_10_09_01_11-0890_png_jpg.rf.7f03481ca09da695f97a9526f99dff89.jpg",
+      "truth": false,
+      "finetuned": 0.31250429153442383,
+      "coco_person": 0.7886225581169128,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_10_09_01_11-2200_png_jpg.rf.b3809dcf90a74f1f4c6f29d8f51dce6e.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.3222355842590332,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_10_09_01_14-3510_png_jpg.rf.5eefed8f5b150dae5944d9e130584c10.jpg",
+      "truth": false,
+      "finetuned": 0.13948990404605865,
+      "coco_person": 0.33298060297966003,
+      "coco_wide": 0.09274626523256302,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_10_09_01_14-4840_png_jpg.rf.415e05c87f61bf18e193952b5c2fda40.jpg",
+      "truth": false,
+      "finetuned": 0.12121419608592987,
+      "coco_person": 0.09621850401163101,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_10_09_01_15-3240_png_jpg.rf.209a2a840c75ca489a93565fc3816b5d.jpg",
+      "truth": false,
+      "finetuned": 0.03752110153436661,
+      "coco_person": 0.1226305291056633,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_10_09_01_15-8880_png_jpg.rf.1806667003660de7d71abc1464b7e440.jpg",
+      "truth": false,
+      "finetuned": 0.24630238115787506,
+      "coco_person": 0.11003900319337845,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_10_09_01_16-0230_png_jpg.rf.c7c53c135b598f4c5a6bb9e146ef87f1.jpg",
+      "truth": false,
+      "finetuned": 0.15546999871730804,
+      "coco_person": 0.19624154269695282,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_10_09_01_16-3070_png_jpg.rf.29a0be44325f319e0e06a6469c3e2091.jpg",
+      "truth": false,
+      "finetuned": 0.4623824954032898,
+      "coco_person": 0.0840526893734932,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_10_09_01_16-4400_png_jpg.rf.acd30eea68a2088fb7b88a0b2f081876.jpg",
+      "truth": false,
+      "finetuned": 0.20569606125354767,
+      "coco_person": 0.056476250290870667,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_10_09_01_17-9760_png_jpg.rf.999cf6f590dbb2dbe025dea844c7a5ee.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.7860733866691589,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_10_09_01_19-4750_png_jpg.rf.670ea37c2ce86498d257dd2b57bad8bb.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.6876839995384216,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_10_09_01_19-7440_png_jpg.rf.fcee9b9ca3edf12cfcfc6139b7790832.jpg",
+      "truth": false,
+      "finetuned": 0.03692212700843811,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_10_09_01_19-8910_png_jpg.rf.49319a274e784e214899e200da563a9d.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.07419369369745255,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_10_09_01_31-0760_png_jpg.rf.37777f8105ba62a839608556f717938c.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.05362221598625183,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_10_09_01_32-9160_png_jpg.rf.2329087b346dc26bbe42e5508e25ae8d.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_10_09_01_32-9160_png_jpg.rf.2c43eade48cbfff0cf38975c31d7a80d.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.0659225732088089,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_13_12_10_58-9900_png_jpg.rf.82f867a6a59438f27698d8aec55cdc9d.jpg",
+      "truth": false,
+      "finetuned": 0.3236183226108551,
+      "coco_person": 0.6674534678459167,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_13_12_10_59-7910_png_jpg.rf.100f22ea096c13a7f93b552d1958cd95.jpg",
+      "truth": false,
+      "finetuned": 0.46977469325065613,
+      "coco_person": 0.8203404545783997,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_13_12_11_00-6250_png_jpg.rf.3255dcae6c664fb5a3afa2d807bed2d2.jpg",
+      "truth": false,
+      "finetuned": 0.40932732820510864,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_13_12_11_00-6250_png_jpg.rf.59c68ed1e9e40601f86be3b947923aee.jpg",
+      "truth": false,
+      "finetuned": 0.43788158893585205,
+      "coco_person": 0.19051805138587952,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_13_12_11_01-2930_png_jpg.rf.48c8097f16b8f2ccc0ed8b7f1b7ef55b.jpg",
+      "truth": false,
+      "finetuned": 0.26930007338523865,
+      "coco_person": 0.7825977206230164,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_13_12_11_01-5250_png_jpg.rf.a4e227f4a5858beb188fc3c52b8b8e7c.jpg",
+      "truth": false,
+      "finetuned": 0.2121695578098297,
+      "coco_person": 0.7521862387657166,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_13_12_11_01-7260_png_jpg.rf.e5ac91454fef18add8ffc502912fcd74.jpg",
+      "truth": false,
+      "finetuned": 0.2988147437572479,
+      "coco_person": 0.016823092475533485,
+      "coco_wide": 0.011021614074707031,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_13_12_11_01-9470_png_jpg.rf.a2b5c9e64de72a2fa2e150807b2c5189.jpg",
+      "truth": false,
+      "finetuned": 0.4127461016178131,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_13_12_11_03-8480_png_jpg.rf.b12821caec7fda0221e12d76750bd79f.jpg",
+      "truth": false,
+      "finetuned": 0.16787265241146088,
+      "coco_person": 0.3339049816131592,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_13_12_11_03-8480_png_jpg.rf.d9c01b36078cc2b1afb1e25b1f14005e.jpg",
+      "truth": false,
+      "finetuned": 0.3157083988189697,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_13_12_11_05-7510_png_jpg.rf.f26317d06c764f30655a28317ffee6e5.jpg",
+      "truth": false,
+      "finetuned": 0.18228648602962494,
+      "coco_person": 0.033351533114910126,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_13_12_11_15-8340_png_jpg.rf.9fe4f2f986ce932ae9f8fcb4725c0dff.jpg",
+      "truth": false,
+      "finetuned": 0.4707217514514923,
+      "coco_person": 0.1654486060142517,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_13_12_11_18-3240_png_jpg.rf.c80e21d4b573170649680b006ee22758.jpg",
+      "truth": false,
+      "finetuned": 0.27746352553367615,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_13_12_11_20-7690_png_jpg.rf.685d0d9d7b93164dd56a3ae4b6716493.jpg",
+      "truth": false,
+      "finetuned": 0.2825339436531067,
+      "coco_person": 0.07096917182207108,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_13_12_11_21-2360_png_jpg.rf.59090b20eca866fc532e1219377eacb0.jpg",
+      "truth": false,
+      "finetuned": 0.28803160786628723,
+      "coco_person": 0.013260566629469395,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_13_12_11_21-4570_png_jpg.rf.9e0a84d8b4ffda3e03e9d2cd879c5454.jpg",
+      "truth": false,
+      "finetuned": 0.27209532260894775,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_13_12_11_22-4690_png_jpg.rf.c0c2706e71975af63f3acc9e510a3ebf.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.42455413937568665,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_30_14_46_00-1600_png_jpg.rf.e854440ffb1d377e94c7c77b6e04bce4.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_30_14_46_02-3680_png_jpg.rf.0aa51c6457187ad84f08452ecbe43973.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.8868515491485596,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_30_14_46_03-3310_png_jpg.rf.97c685d1fa3a8ea4874fc2339e016037.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.35362347960472107,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_30_14_46_04-4150_png_jpg.rf.e3eb5df3fe440bccb77a51fa00245897.jpg",
+      "truth": false,
+      "finetuned": 0.18183109164237976,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_30_14_46_28-3240_png_jpg.rf.cf5b5eafea887ee125208d198f81b750.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_30_14_46_29-0270_png_jpg.rf.3aec3a5a96ea17251b19d9a8d941f1ab.jpg",
+      "truth": false,
+      "finetuned": 0.028725316748023033,
+      "coco_person": 0.03734591230750084,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_30_14_46_29-3140_png_jpg.rf.7fc689193fcca2d5f3388a8280b4ece3.jpg",
+      "truth": false,
+      "finetuned": 0.11818281561136246,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_30_14_46_30-1240_png_jpg.rf.27d4da7aafa5f6e1ce83d65b4d2462b7.jpg",
+      "truth": false,
+      "finetuned": 0.06613548845052719,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_30_14_46_33-4830_png_jpg.rf.6d8e83a6267923ce36ad328111b95da8.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.6790153980255127,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_30_14_46_34-5270_png_jpg.rf.e05132e7d7febb9c47474fe00a443f8e.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.8331032991409302,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_30_14_46_35-2090_png_jpg.rf.32d515bbc6fbe80159499f804bfb8f11.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_30_14_46_36-5790_png_jpg.rf.b17a320b6e0419e4a2446fe47e8691d6.jpg",
+      "truth": false,
+      "finetuned": 0.017217915505170822,
+      "coco_person": 0.15250307321548462,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_56_00-3360_png_jpg.rf.8c1ef44ffe3a31093af9c0de37a3a706.jpg",
+      "truth": false,
+      "finetuned": 0.048179615288972855,
+      "coco_person": 0.01057057362049818,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_56_26-3450_png_jpg.rf.c6ed8c6e7714c0c5d1755924424f9340.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.13977929949760437,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_56_27-9280_png_jpg.rf.96a4fbb2c30d39d06da2a7333b8ec259.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.07200846821069717,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_56_28-1680_png_jpg.rf.53a6bc74d803fd6cead413562986d03d.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.08730141818523407,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_56_28-4750_png_jpg.rf.c617e4d02342b1b2e2722638dc09193a.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.02327219396829605,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_56_29-1760_png_jpg.rf.2e6f875af8cee08dfcac79de25e29e45.jpg",
+      "truth": false,
+      "finetuned": 0.0520470105111599,
+      "coco_person": 0.010597558692097664,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_56_29-7450_png_jpg.rf.2aa9f72de583ca4a13aa07155f89348b.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_56_31-3230_png_jpg.rf.c216d367cfeeffcd7e94f9f10cf45a2f.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.08719296753406525,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_56_31-5900_png_jpg.rf.7292a0611cf123266af73f794dfbf7bb.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.21447435021400452,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_56_32-0450_png_jpg.rf.46258c2a3d43725fa00543df66bfc8b8.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.25847434997558594,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_56_32-0450_png_jpg.rf.6f4b4ac38b04609ba3e9039641256b43.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.04887818917632103,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_56_32-3540_png_jpg.rf.a0f4a96a95330ad90c713101ae39e440.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.04375336691737175,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_56_34-2610_png_jpg.rf.185fc99c4d9c7c89adde91ada73144f4.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.2063567042350769,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_56_34-4920_png_jpg.rf.296e28f7d21be4dd4686482ab3289d29.jpg",
+      "truth": false,
+      "finetuned": 0.0947178304195404,
+      "coco_person": 0.24237053096294403,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_56_34-5860_png_jpg.rf.9ab3ab1938ee5dc6444da54f3d37166a.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.5508403778076172,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_56_35-5450_png_jpg.rf.39fe41743e7f5a357ec5d0eb896b2edd.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.6298582553863525,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_56_37-6530_png_jpg.rf.25f954dfea3c0118b12a232c968a89b5.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.6190658211708069,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_56_38-4800_png_jpg.rf.c87e2aed8184f1116e0e978d10a1d6d1.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.4817217290401459,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_56_39-3200_png_jpg.rf.c8a6df54dfa52ecd5f5812a4b874d1bb.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.7160475850105286,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_56_39-4700_png_jpg.rf.08fd4203ba9e82b86cbb43f4f0f14a88.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.6481099724769592,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_56_39-4700_png_jpg.rf.2bd64f3e94c6e9c939bb495211a983ec.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.05590462684631348,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_56_39-6160_png_jpg.rf.9201baeb16e44c95190dbfa2a4b777a3.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.6497235298156738,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_56_41-8540_png_jpg.rf.36dea0bd2fc0782f319b919230e4d4b8.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_56_41-8540_png_jpg.rf.f2b43e0d9b5b07c047283cc65f5a941f.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_56_42-8770_png_jpg.rf.155a2629b2d399253fbe0c98f67f2937.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_56_43-5670_png_jpg.rf.e41c271d290eb1813be00a5db39b30b6.jpg",
+      "truth": false,
+      "finetuned": 0.028174661099910736,
+      "coco_person": 0.11639709025621414,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_56_44-2690_png_jpg.rf.d03e2c0f3e63ef82160f97b5e3de7ab9.jpg",
+      "truth": false,
+      "finetuned": 0.11969011276960373,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_58_18-1730_png_jpg.rf.05332a77e4e9c91b0a94092f133dce31.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_58_18-3210_png_jpg.rf.96ab39a3647aac767be1bf10c5773293.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_58_20-3930_png_jpg.rf.6fa21975c22f70a71b13d65d24015dbf.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_58_20-3930_png_jpg.rf.dfa79f3a81e9750f3bb3428db90f8863.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_58_20-6740_png_jpg.rf.5a3807c3297b3a8eb4fcee2e1014d3aa.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.04782501608133316,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_58_23-0680_png_jpg.rf.91eda72754007d54d58aecd16c4dbdf2.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.06336184591054916,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_58_23-0680_png_jpg.rf.d4c313a4f0875cfaf54027289c54ebea.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_58_23-7570_png_jpg.rf.705e81360f2123f19b0c0a4b9094ddfe.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.14508533477783203,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_58_25-1680_png_jpg.rf.712c9bb916dfc0b3df8d6767cd3fd5fc.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.04725560545921326,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_58_26-2250_png_jpg.rf.77931c28553a60e3609dd42b325dc615.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.31427812576293945,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_58_26-6660_png_jpg.rf.23a68a2ba3c54d4a0111732eec3c15d8.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.6739538311958313,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_58_29-7270_png_jpg.rf.6fd792172449f448b09f609e58b61c9f.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.573604941368103,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_58_29-8810_png_jpg.rf.a8c1e2c19fddf1f7e4d2ae72bf2c615b.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.714314877986908,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_58_32-2520_png_jpg.rf.01f83f43f8040a5511163eacffeccd0d.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.6218454241752625,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_58_33-1010_png_jpg.rf.5e588a886ff8da1086aba5529311b77e.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.7775017619132996,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_58_33-6540_png_jpg.rf.59c664ad8178ca528f53983fa570a986.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.6937090158462524,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_58_34-0650_png_jpg.rf.8eb0a6614c354535507070fe42745162.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.18466949462890625,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_58_34-2050_png_jpg.rf.e91b234169c11d141424cd8e8b96b7c0.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_58_34-3330_png_jpg.rf.0fa237a438c62b1ebffcce5b7903a1e0.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.8045275807380676,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_58_34-9500_png_jpg.rf.6b25f3fb916d91d9001cd1d9189ca45d.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.7486121654510498,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_58_36-3380_png_jpg.rf.010c68dc1de45660393f92f13570c4a5.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_58_36-3380_png_jpg.rf.36868ca150cc8e0458f58e752f48843f.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_58_37-7310_png_jpg.rf.fc96d23b94dd940428748a592e6e6f36.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.015893200412392616,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_58_39-4040_png_jpg.rf.898683fd9bc00dd22b5b2e5a5776a015.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_58_39-8520_png_jpg.rf.46a0dd9aae8569858a6d550161645750.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.8498504757881165,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_58_41-6490_png_jpg.rf.5d97fc4f85cd581f42998769c92cf6b4.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.023771418258547783,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_58_41-8020_png_jpg.rf.cfd5333e6c1e0fb906c93e89efe01bdb.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_58_42-3880_png_jpg.rf.deac8e0e135b582c0b0acd0b8abd019c.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_58_42-6930_png_jpg.rf.69ca10547986110f198703d4e2b99a5f.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.8189436793327332,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_58_42-9500_png_jpg.rf.189f5453b606c64964167e2a0f4a62af.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.022034458816051483,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_58_43-2530_png_jpg.rf.956260ee31a65cf6a0272e3f8287e20d.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.015153647400438786,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_58_43-5830_png_jpg.rf.ee2fa00f84c4b24c2b845d9b1e6a97cc.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_59_01-1050_png_jpg.rf.5ada12da296a79bbd7daaef7ed2fa3ac.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.02071833610534668,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_59_01-7970_png_jpg.rf.1124110d8e742e0ebd1b0ba67042ebf8.jpg",
+      "truth": false,
+      "finetuned": 0.2685297131538391,
+      "coco_person": 0.012085619382560253,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_59_02-0930_png_jpg.rf.5481da168439f52b72744642f71f6821.jpg",
+      "truth": false,
+      "finetuned": 0.2720390260219574,
+      "coco_person": 0.7513765096664429,
+      "coco_wide": 0.011007282882928848,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_59_02-7760_png_jpg.rf.bc294f9fb4fa673e34c7635dc8283fd0.jpg",
+      "truth": false,
+      "finetuned": 0.11664143949747086,
+      "coco_person": 0.40920162200927734,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_59_03-1170_png_jpg.rf.b5852e8d8242b04f0ce3d524b61edb54.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.4144641160964966,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_59_03-1170_png_jpg.rf.d575158afa35e49bc3b815c1f7ae9035.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.4144641160964966,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_59_04-0830_png_jpg.rf.c329906846cda8b8a093ba0e29db2640.jpg",
+      "truth": false,
+      "finetuned": 0.32009080052375793,
+      "coco_person": 0.6177563071250916,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_59_04-2270_png_jpg.rf.afcf008d6aaa1b4cbd23c00b12fa86e3.jpg",
+      "truth": false,
+      "finetuned": 0.28532302379608154,
+      "coco_person": 0.5960133671760559,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_59_14-1990_png_jpg.rf.fcb8b15eb55fe788f087cd9e7442c35d.jpg",
+      "truth": false,
+      "finetuned": 0.30291953682899475,
+      "coco_person": 0.12970928847789764,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_59_14-5020_png_jpg.rf.afe7e814e9f441d2a0618b2faa4ea6d4.jpg",
+      "truth": false,
+      "finetuned": 0.22842752933502197,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_59_15-2370_png_jpg.rf.730534f20e589616267436e7f5c019ec.jpg",
+      "truth": false,
+      "finetuned": 0.24341724812984467,
+      "coco_person": 0.1874874085187912,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_59_16-0400_png_jpg.rf.e549461d542d14832ec482ad5dfd26b4.jpg",
+      "truth": false,
+      "finetuned": 0.23084911704063416,
+      "coco_person": 0.583166778087616,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_59_16-3470_png_jpg.rf.03d085867cfd1b36d9ed628235813b53.jpg",
+      "truth": false,
+      "finetuned": 0.29328927397727966,
+      "coco_person": 0.36877208948135376,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_59_17-1390_png_jpg.rf.9f0ef92f83f36e101b7f83f908a813f3.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.5593612790107727,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_59_17-2670_png_jpg.rf.cedc8f94e31bcf5df70f86951cbefe9a.jpg",
+      "truth": false,
+      "finetuned": 0.2546003758907318,
+      "coco_person": 0.5029093027114868,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_59_18-0740_png_jpg.rf.dd6d532eb5fab45baa931065d88b6f2a.jpg",
+      "truth": false,
+      "finetuned": 0.4523388743400574,
+      "coco_person": 0.5501826405525208,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_59_18-4430_png_jpg.rf.42930f184d53ab575cfde0c9ec535521.jpg",
+      "truth": false,
+      "finetuned": 0.3760317862033844,
+      "coco_person": 0.19680586457252502,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_59_22-2580_png_jpg.rf.4a7b4ee4441379b88d7e4f5048c55f76.jpg",
+      "truth": false,
+      "finetuned": 0.2874898910522461,
+      "coco_person": 0.21587541699409485,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_59_23-2850_png_jpg.rf.b49498b8550037add0a1d97408a51624.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.029762551188468933,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_59_24-2720_png_jpg.rf.97586a0f33177ebbd9793e30316abf4e.jpg",
+      "truth": false,
+      "finetuned": 0.5895370244979858,
+      "coco_person": 0.08978232741355896,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_59_24-4600_png_jpg.rf.ca0e9eacdd12010ce2e6e6dd185f6f7f.jpg",
+      "truth": false,
+      "finetuned": 0.5734080672264099,
+      "coco_person": 0.05235165357589722,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_59_24-7320_png_jpg.rf.13b019dd2cca6e2aa64c625914faf6af.jpg",
+      "truth": false,
+      "finetuned": 0.37486883997917175,
+      "coco_person": 0.3406825065612793,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_59_25-4310_png_jpg.rf.31b09c3f5bec4bcecdeabb9f0eb380a8.jpg",
+      "truth": false,
+      "finetuned": 0.5199454426765442,
+      "coco_person": 0.7918910384178162,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_59_25-9650_png_jpg.rf.6756295461ce107ade0b7a1d2ff4423c.jpg",
+      "truth": false,
+      "finetuned": 0.3021823465824127,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_12_59_26-3200_png_jpg.rf.06a9efc290e0a0cbcaeb8c27ba500e3e.jpg",
+      "truth": false,
+      "finetuned": 0.3882792890071869,
+      "coco_person": 0.8242109417915344,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_13_00_10-6100_png_jpg.rf.cf0edfad2cd00d27817d0e7eddb44c60.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.3458944857120514,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_13_00_11-4860_png_jpg.rf.cc2b4519d9577ec5827b31433640e6db.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.38775908946990967,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_13_00_12-0330_png_jpg.rf.439666de1f73421226b15ef62f698f0a.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.35361263155937195,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_13_00_12-3150_png_jpg.rf.58d216fdbd3c4c4235589570000285f9.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_13_00_12-7430_png_jpg.rf.da72e8e45460386c5a477e5e655be882.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_13_00_13-5820_png_jpg.rf.5996e4d031c160bc6e3882fc4b7c7b1a.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.07521365582942963,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_13_00_13-9950_png_jpg.rf.3eba6f93cd5143a34f6cdc3027d0a74b.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_13_00_16-0930_png_jpg.rf.418444c8bdc4c19663358c11adf89c42.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.1843537837266922,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_13_00_16-6510_png_jpg.rf.fcf8f1425bb9bf868f1b041a9473de60.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.4252789616584778,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_13_00_17-7860_png_jpg.rf.e3aec67d0cdc072c47787694cc90f770.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.5992671251296997,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_13_00_20-3560_png_jpg.rf.c804abc2c0ed2e2857421d9589d3c918.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.7391607761383057,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_13_00_21-1740_png_jpg.rf.49290dae036f9ba720b7c0fe8046bda2.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.05402752757072449,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_13_00_21-6530_png_jpg.rf.4312a672d969932e07d3bb5ccd55099e.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.3082016408443451,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_13_00_21-6530_png_jpg.rf.ae15db04a69ff2c9d090d7da1995e999.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.6957300901412964,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_13_00_21-9720_png_jpg.rf.43bd1addce0d8794d2fbbcd78f12a803.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.718324601650238,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_13_00_22-9980_png_jpg.rf.e264c2af7edac12a0bc1f70fb540ad07.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.09765536338090897,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_13_00_23-2700_png_jpg.rf.ba14deda0e7ad0575c52bd714ec2e2c9.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.7325301170349121,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_13_00_24-0300_png_jpg.rf.7584f6b2a40400160f32488f16e06992.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.7311426401138306,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_13_00_24-1530_png_jpg.rf.be55ea714bbcdf1bebb497fff420f0b1.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.7985864877700806,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_13_00_24-2820_png_jpg.rf.3f18f3fa3a6e1083c4895f17151b29fc.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.7888776063919067,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_13_00_24-4430_png_jpg.rf.0f7333456b2c6ef62554cd67c8339495.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.7470510601997375,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_13_00_24-8590_png_jpg.rf.b3fa8a26be13af6994ece2d2adcb9bbe.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.7856070399284363,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_13_00_25-2750_png_jpg.rf.cf4de1e13c8c21bbee4332d7f3cd25e5.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.6673970818519592,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_13_00_26-2280_png_jpg.rf.8490d329b977075328b2335d58c21ad3.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.7912009358406067,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_13_00_28-5990_png_jpg.rf.aad5dd94b78d84bfc11db8c5bf812dd5.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.8588986396789551,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_13_00_29-1600_png_jpg.rf.145fb00df982a7650041154eca32ae85.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.8673612475395203,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_13_00_30-6710_png_jpg.rf.8b4aacc0794ecceb945ad52f9f372d31.jpg",
+      "truth": false,
+      "finetuned": 0.1884404569864273,
+      "coco_person": 0.7743362188339233,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_13_00_30-8320_png_jpg.rf.4d5e0abd70eb851c3bbc943767341e21.jpg",
+      "truth": false,
+      "finetuned": 0.3154449164867401,
+      "coco_person": 0.8060036301612854,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_13_00_31-3850_png_jpg.rf.d08ecbec4fdf6c910c7625873239da60.jpg",
+      "truth": false,
+      "finetuned": 0.13858336210250854,
+      "coco_person": 0.7610734105110168,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_13_00_32-1110_png_jpg.rf.d38b960e8c924036a9e1af1713b10727.jpg",
+      "truth": false,
+      "finetuned": 0.12368160486221313,
+      "coco_person": 0.8004218339920044,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_13_00_32-4800_png_jpg.rf.111c819d8b92c0eb552a1b9a0afe1868.jpg",
+      "truth": false,
+      "finetuned": 0.013835130259394646,
+      "coco_person": 0.8021853566169739,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_13_00_33-9630_png_jpg.rf.61efe674dcadc7bebdb477704900e690.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.3101637363433838,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_13_00_37-8810_png_jpg.rf.b1547a156e1c2bd4d0d0035e1c268ef3.jpg",
+      "truth": false,
+      "finetuned": 0.39883849024772644,
+      "coco_person": 0.012969311326742172,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_13_00_38-2480_png_jpg.rf.bfde7f26e5037268031175364619198d.jpg",
+      "truth": false,
+      "finetuned": 0.045336924493312836,
+      "coco_person": 0.485830157995224,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_13_00_38-4380_png_jpg.rf.bf4df63d835ec016803c0c32396df356.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.5100525617599487,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2022_12_31_13_00_38-7940_png_jpg.rf.9b7689a6ec16d3fde80aa9f4390eee76.jpg",
+      "truth": false,
+      "finetuned": 0.021466730162501335,
+      "coco_person": 0.12808796763420105,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_04_44-0100_png_jpg.rf.349e3c6dd3cf6febb2465f9340d3cb65.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.5329201817512512,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_04_51-8230_png_jpg.rf.ed6df4a249f9507e951ad60b6dee09d1.jpg",
+      "truth": false,
+      "finetuned": 0.07376507669687271,
+      "coco_person": 0.4687850773334503,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_04_51-8230_png_jpg.rf.ed923f3a6cef48403f7d95c57a65f6b2.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.04949367791414261,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_04_52-1680_png_jpg.rf.3073fb4542159b140e6968d51c556223.jpg",
+      "truth": false,
+      "finetuned": 0.18906253576278687,
+      "coco_person": 0.6392239928245544,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_04_52-1680_png_jpg.rf.e91dbdb714f18625ed73c497907141ad.jpg",
+      "truth": false,
+      "finetuned": 0.18906253576278687,
+      "coco_person": 0.6392239928245544,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_04_52-8490_png_jpg.rf.d10ed0ba10daa45f1d5afeb0a071e5a8.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.7668812274932861,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_04_54-4000_png_jpg.rf.389c86e769aff8ebfb124e9cb8703164.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.8812760710716248,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_04_55-9840_png_jpg.rf.ac5548bcb89583c3d81af4ec94a03b50.jpg",
+      "truth": false,
+      "finetuned": 0.1165342926979065,
+      "coco_person": 0.050997454673051834,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_04_56-6800_png_jpg.rf.ba5ac21a060b68cdbb5a2d872044bfac.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.6583241820335388,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_04_57-5620_png_jpg.rf.886289cf23ac4466dc5b7f844a41f35a.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.6771665811538696,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_05_01-2180_png_jpg.rf.12fcb1163d003030b49ae44bb8bfbd16.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.8784622550010681,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_05_02-2690_png_jpg.rf.a5f79fc237a1301a889a5d6f89f24520.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.8966917991638184,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_05_02-7850_png_jpg.rf.2e0b1706e33d384d4964599b258b0892.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.39762499928474426,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_05_02-7850_png_jpg.rf.853f38faaa0050a51d35f2731862ba1c.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.07103025168180466,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_05_24-4830_png_jpg.rf.60247d0143089a0013b681b51aa548dd.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_05_26-2940_png_jpg.rf.08bd94ae1774d5a15d14d6b7a0dadaec.jpg",
+      "truth": false,
+      "finetuned": 0.024843022227287292,
+      "coco_person": 0.05492636188864708,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_05_33-2070_png_jpg.rf.b317ad0d1d176c17524592036f7f929b.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.013084465637803078,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_05_33-6660_png_jpg.rf.0f66b5a94242bdf7df749e471a50442f.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.027898821979761124,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_05_34-1010_png_jpg.rf.21bbb3229ee8165292a7e5a1997f34ce.jpg",
+      "truth": false,
+      "finetuned": 0.11679724603891373,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_05_36-5580_png_jpg.rf.714c661e3b9657ca8c3e1799a5d1585c.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.029860539361834526,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_05_37-7130_png_jpg.rf.4ed62520350892f72e80eca3f726a65b.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.059814777225255966,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_05_38-5680_png_jpg.rf.6123471594ff44f881039bdbc847000f.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.7930310368537903,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_05_40-1960_png_jpg.rf.fee9e9f3bfa45214bce9794267563f59.jpg",
+      "truth": false,
+      "finetuned": 0.622713029384613,
+      "coco_person": 0.25679367780685425,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_05_40-3510_png_jpg.rf.3e42b3bde400eea9aab815554e588bb8.jpg",
+      "truth": false,
+      "finetuned": 0.5924942493438721,
+      "coco_person": 0.01183740422129631,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_05_41-0520_png_jpg.rf.b02ed21020326b06a8d078328443fe4a.jpg",
+      "truth": false,
+      "finetuned": 0.5936002135276794,
+      "coco_person": 0.8133299946784973,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_05_41-9470_png_jpg.rf.0ff0cc0e194ad0de7ce1f4dd95e3afc9.jpg",
+      "truth": false,
+      "finetuned": 0.5227488279342651,
+      "coco_person": 0.468896746635437,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_05_43-1080_png_jpg.rf.8b65f2565f43c9c30ea7d09655c42270.jpg",
+      "truth": false,
+      "finetuned": 0.3240654170513153,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_05_43-3060_png_jpg.rf.66c74430b0b873f7e33784efa645a575.jpg",
+      "truth": false,
+      "finetuned": 0.6980057954788208,
+      "coco_person": 0.30458882451057434,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_05_43-6340_png_jpg.rf.367aef9d03be2bebd6090c39341f1941.jpg",
+      "truth": false,
+      "finetuned": 0.6081945300102234,
+      "coco_person": 0.8581308126449585,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_05_44-1560_png_jpg.rf.9318c916fda508efe2e5dcabfe4317fb.jpg",
+      "truth": false,
+      "finetuned": 0.05168622359633446,
+      "coco_person": 0.04469909891486168,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_05_44-1560_png_jpg.rf.9ddbef2d47a2014154ef54bb8bb4de6d.jpg",
+      "truth": false,
+      "finetuned": 0.010605314746499062,
+      "coco_person": 0.6942461729049683,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_05_45-4210_png_jpg.rf.b53569b4f286419a770af8476e54d702.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.10992777347564697,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_05_46-3190_png_jpg.rf.218af5744a156f6dc328909602bfa2e1.jpg",
+      "truth": false,
+      "finetuned": 0.05265333503484726,
+      "coco_person": 0.7229518890380859,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_05_46-4710_png_jpg.rf.7dd029d46927f0ec22b5fdd40aa5a706.jpg",
+      "truth": false,
+      "finetuned": 0.027095742523670197,
+      "coco_person": 0.3729413151741028,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_05_46-6600_png_jpg.rf.46bb1b5ca0a13ffa27e7c5ae03586454.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.738858699798584,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_05_47-0090_png_jpg.rf.258ac3f818ae40c853f004eb5cf7154b.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.6099267601966858,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_05_47-5380_png_jpg.rf.a481108352a952a3bf631afd76b56c62.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.5313432216644287,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_05_49-2560_png_jpg.rf.3cee38c9d76e5f33dd51899e2ac1f023.jpg",
+      "truth": false,
+      "finetuned": 0.24111974239349365,
+      "coco_person": 0.6152414679527283,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_05_49-9380_png_jpg.rf.492f115afce045ee11dfa5b83a1089b6.jpg",
+      "truth": false,
+      "finetuned": 0.010821996256709099,
+      "coco_person": 0.17054526507854462,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_05_49-9380_png_jpg.rf.9d92c0c0f7c048f6d3aab9240233ac10.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.7790461778640747,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_05_50-4880_png_jpg.rf.e2b079618f9749b29cf8e188a8ea3e25.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_05_51-0290_png_jpg.rf.65fc0320959a003a6297aeb4a200fc1d.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.6412901878356934,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_05_52-3130_png_jpg.rf.3c895f7ad49c235b8d26527b3eae4457.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.04096084460616112,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_05_52-6520_png_jpg.rf.9287dfc9930a3b6e2e05ed763b41183c.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.014921650290489197,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_05_52-8440_png_jpg.rf.4c16604ab634acfc91cf1c768e794317.jpg",
+      "truth": false,
+      "finetuned": 0.011239975690841675,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_05_53-1890_png_jpg.rf.44deb1862026f34b59d111e2131f745b.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_05_54-0540_png_jpg.rf.eb421aeafcf4e7b4807207f8bf3246a9.jpg",
+      "truth": false,
+      "finetuned": 0.17914129793643951,
+      "coco_person": 0.028054283931851387,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "1_2023_01_05_12_05_55-4790_png_jpg.rf.de9de6bc5a145d02134ce8d68149aac8.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "20_jpg.rf.bb5e76aa26232ff1be096844d90bb2a6.jpg",
+      "truth": false,
+      "finetuned": 0.5410683155059814,
+      "coco_person": 0.9094721078872681,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "26_jpg.rf.f63abb6474a433bd7b76ec7937d31b7e.jpg",
+      "truth": false,
+      "finetuned": 0.013464784249663353,
+      "coco_person": 0.8844135999679565,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "2_2022_12_10_08_50_02-9480_png_jpg.rf.7c774189d159356982c753ab3aa58703.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.8631916046142578,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "2_2022_12_10_08_50_08-5460_png_jpg.rf.8ccd48bca7e4649efaf778a8c2807f57.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.6202738285064697,
+      "coco_wide": 0.010347256436944008,
+      "nothing": 0.0
+    },
+    {
+      "image": "2_2022_12_13_12_10_16-9410_png_jpg.rf.af979b2e1ca1a95dbddfa9e9197dd6c1.jpg",
+      "truth": false,
+      "finetuned": 0.2822238802909851,
+      "coco_person": 0.8760643005371094,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "2_2022_12_13_12_10_17-6230_png_jpg.rf.780b7eeb367daee92195903155a477b0.jpg",
+      "truth": false,
+      "finetuned": 0.28398603200912476,
+      "coco_person": 0.8985323309898376,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "2_2022_12_13_12_10_18-2930_png_jpg.rf.d679077f8842b180b9a7756015ffaabc.jpg",
+      "truth": false,
+      "finetuned": 0.279397189617157,
+      "coco_person": 0.9137722849845886,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "2_2022_12_30_14_50_09-2500_png_jpg.rf.353dd846228546c22ce8cfd0f56633c9.jpg",
+      "truth": false,
+      "finetuned": 0.44798266887664795,
+      "coco_person": 0.8018234372138977,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "2_2022_12_30_14_50_12-4020_png_jpg.rf.2dbb29bcbe2d39810a4fb4521f68df05.jpg",
+      "truth": false,
+      "finetuned": 0.12088574469089508,
+      "coco_person": 0.8181443810462952,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "2_2022_12_30_14_50_12-9620_png_jpg.rf.0798effde582f57a762ac9e2c417ca4e.jpg",
+      "truth": false,
+      "finetuned": 0.0670914500951767,
+      "coco_person": 0.8130935430526733,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "2_2022_12_30_14_50_13-4400_png_jpg.rf.21ed8824dd3db67fd1b8199b92158fd4.jpg",
+      "truth": false,
+      "finetuned": 0.05654237046837807,
+      "coco_person": 0.8469135761260986,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "2_2022_12_30_14_50_14-0580_png_jpg.rf.bd0e058bfbb4a32930a054fb8c0b68cd.jpg",
+      "truth": false,
+      "finetuned": 0.13583704829216003,
+      "coco_person": 0.8019726276397705,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "2_2022_12_30_14_50_15-4450_png_jpg.rf.a579a6018ddaa5c277e6d345c7c4bdab.jpg",
+      "truth": false,
+      "finetuned": 0.2650865912437439,
+      "coco_person": 0.855514407157898,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "2_2022_12_30_14_50_18-9600_png_jpg.rf.e3863fdeb482bb3f8724d141fcc947df.jpg",
+      "truth": false,
+      "finetuned": 0.33371812105178833,
+      "coco_person": 0.8591834306716919,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "2_2022_12_30_14_50_19-6080_png_jpg.rf.12cfafe95c5163c2b752d61cc57ec77f.jpg",
+      "truth": false,
+      "finetuned": 0.20778696238994598,
+      "coco_person": 0.8819549083709717,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "2_2022_12_30_14_50_21-5460_png_jpg.rf.e6c8176f5c36f593d9fa39daa5884888.jpg",
+      "truth": false,
+      "finetuned": 0.026161234825849533,
+      "coco_person": 0.9375951886177063,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "2_2022_12_30_14_50_54-9020_png_jpg.rf.aeb10bf14325101563e0398091461aab.jpg",
+      "truth": false,
+      "finetuned": 0.6525534987449646,
+      "coco_person": 0.7459328174591064,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "2_2022_12_30_14_50_55-7060_png_jpg.rf.78f7fd27842856dc862eeeee18c1dda8.jpg",
+      "truth": false,
+      "finetuned": 0.5051515102386475,
+      "coco_person": 0.6099283695220947,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "2_2022_12_31_12_58_02-0600_png_jpg.rf.45e7a8a033263d85407408a96da8b694.jpg",
+      "truth": false,
+      "finetuned": 0.018323061987757683,
+      "coco_person": 0.6748766899108887,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "2_2022_12_31_12_58_02-0600_png_jpg.rf.8acf7a624209c9fcc7de8ea96a514682.jpg",
+      "truth": false,
+      "finetuned": 0.021546846255660057,
+      "coco_person": 0.6861047148704529,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "2_2022_12_31_12_58_02-8570_png_jpg.rf.783675ebd3d5b132a211277ec0ae2cda.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.6756302714347839,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "2_2022_12_31_12_58_04-0550_png_jpg.rf.6e2e4d0dfc2a5dfb1d844e605fc0896e.jpg",
+      "truth": false,
+      "finetuned": 0.13225726783275604,
+      "coco_person": 0.7325207591056824,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "3_2022_12_13_12_10_36-6140_png_jpg.rf.07ddcf47990bfb3453fec37d41e222e3.jpg",
+      "truth": false,
+      "finetuned": 0.4749469459056854,
+      "coco_person": 0.8500014543533325,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "3_2022_12_13_12_10_37-6720_png_jpg.rf.d130121e2921dbbf0ba1ecbec80772a1.jpg",
+      "truth": false,
+      "finetuned": 0.2330518215894699,
+      "coco_person": 0.8435744643211365,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "3_2022_12_13_12_10_39-9150_png_jpg.rf.6f54085507a193162cc9e4778fa6b6ef.jpg",
+      "truth": false,
+      "finetuned": 0.4106990098953247,
+      "coco_person": 0.8804673552513123,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "3_2022_12_13_12_10_40-9500_png_jpg.rf.0e814e57be19a6ce7c656ca4687fb536.jpg",
+      "truth": false,
+      "finetuned": 0.09830746054649353,
+      "coco_person": 0.8619574904441833,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "3_2022_12_31_12_58_07-4380_png_jpg.rf.7530d4409ecd7955cc624b426509aa7f.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.6553969979286194,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "4_2022_12_30_14_50_56-9440_png_jpg.rf.61baac7bc710b252f2483b619609cab1.jpg",
+      "truth": false,
+      "finetuned": 0.16682058572769165,
+      "coco_person": 0.7750728726387024,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "5_jpg.rf.410d7af2844fba994ecbf9fc8a32403a.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9312511682510376,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "6_jpg.rf.50eb361d9a621cfce214d78862aa4062.jpg",
+      "truth": false,
+      "finetuned": 0.014360559172928333,
+      "coco_person": 0.90040522813797,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "7_jpg.rf.1a2e198af5e4fa5a44be3be8e930e860.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9032565951347351,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "AAAAAA132_bmp_jpg.rf.0048224abb5bd2f9dc479ca303d1f142.jpg",
+      "truth": true,
+      "finetuned": 0.011389466002583504,
+      "coco_person": 0.1634865254163742,
+      "coco_wide": 0.1634865254163742,
+      "nothing": 0.0
+    },
+    {
+      "image": "AAAAAA221_bmp_jpg.rf.a5002e89c93fc6aa93623096cd116904.jpg",
+      "truth": true,
+      "finetuned": 0.01523391343653202,
+      "coco_person": 0.6603010892868042,
+      "coco_wide": 0.03514783829450607,
+      "nothing": 0.0
+    },
+    {
+      "image": "AAAAAA249_bmp_jpg.rf.eecbea118349b98f0e4a5bae3f7ebe04.jpg",
+      "truth": true,
+      "finetuned": 0.41739484667778015,
+      "coco_person": 0.44262978434562683,
+      "coco_wide": 0.06028524413704872,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_6314-101-MConverter-eu-_jpg.rf.d87348cb9619262ec10bd6adabd0f19a.jpg",
+      "truth": false,
+      "finetuned": 0.7422518134117126,
+      "coco_person": 0.918339729309082,
+      "coco_wide": 0.918339729309082,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_6314-11-MConverter-eu-_jpg.rf.aa9aaf5268b74ff88334074ffdf5004d.jpg",
+      "truth": false,
+      "finetuned": 0.5865780711174011,
+      "coco_person": 0.9293274879455566,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_6314-18-MConverter-eu-_jpg.rf.cfba9bbf1a13baddb6a889bd09b36946.jpg",
+      "truth": false,
+      "finetuned": 0.7322695851325989,
+      "coco_person": 0.9388179779052734,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_6314-34-MConverter-eu-_jpg.rf.4d956ab4e4679b918e6dc1506577f1ab.jpg",
+      "truth": true,
+      "finetuned": 0.5896516442298889,
+      "coco_person": 0.9380372166633606,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_6314-37-MConverter-eu-_jpg.rf.13a537d869deb5d6de41a596656af9d7.jpg",
+      "truth": true,
+      "finetuned": 0.6707096695899963,
+      "coco_person": 0.9407545924186707,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_6314-37-MConverter-eu-_jpg.rf.8d21a676a08857ef840ff6abfb433b46.jpg",
+      "truth": true,
+      "finetuned": 0.608589768409729,
+      "coco_person": 0.9297012686729431,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_6314-79-MConverter-eu-_jpg.rf.1d8f034a70a588531a329d298491d52a.jpg",
+      "truth": false,
+      "finetuned": 0.6087360382080078,
+      "coco_person": 0.8825501203536987,
+      "coco_wide": 0.8825501203536987,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_6314-86-MConverter-eu-_jpg.rf.488bb0758df4e2bb8463e4f13b9b56ef.jpg",
+      "truth": false,
+      "finetuned": 0.6204695701599121,
+      "coco_person": 0.9133227467536926,
+      "coco_wide": 0.9133227467536926,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_6314-87-MConverter-eu-_jpg.rf.00869693a679e015fe653b03bc3a84a4.jpg",
+      "truth": false,
+      "finetuned": 0.5921398401260376,
+      "coco_person": 0.9086889028549194,
+      "coco_wide": 0.9086889028549194,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_6361-10-MConverter-eu-_jpg.rf.06fa56b00fa33f8c75ce463003049bea.jpg",
+      "truth": false,
+      "finetuned": 0.57520991563797,
+      "coco_person": 0.8883562684059143,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_6361-10-MConverter-eu-_jpg.rf.130d52734eccbe7d611b563716912c04.jpg",
+      "truth": false,
+      "finetuned": 0.6136105060577393,
+      "coco_person": 0.8735793828964233,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_6361-11-MConverter-eu-_jpg.rf.2bc92103cb0b51f953d8b9656fad9167.jpg",
+      "truth": false,
+      "finetuned": 0.4159834086894989,
+      "coco_person": 0.8791883587837219,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_6361-3-MConverter-eu-_jpg.rf.474093c4db30d143b9baea1c3ca04267.jpg",
+      "truth": false,
+      "finetuned": 0.41818350553512573,
+      "coco_person": 0.8492290377616882,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_6361-324-MConverter-eu-_jpg.rf.af007e1fc56571da05751e06a5eddf01.jpg",
+      "truth": false,
+      "finetuned": 0.5880091786384583,
+      "coco_person": 0.8877642750740051,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_6361-333-MConverter-eu-_jpg.rf.ab3bcbb0a0255f0f238269f9a924d67b.jpg",
+      "truth": false,
+      "finetuned": 0.3981461822986603,
+      "coco_person": 0.8425766229629517,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_6361-463-MConverter-eu-_jpg.rf.13ce17845d4853fe695f56c93cf8c84b.jpg",
+      "truth": false,
+      "finetuned": 0.6374552845954895,
+      "coco_person": 0.767832338809967,
+      "coco_wide": 0.022754762321710587,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_6361-465-MConverter-eu-_jpg.rf.6521063f17caa9cf8a8c9b7c7b421695.jpg",
+      "truth": false,
+      "finetuned": 0.6857296824455261,
+      "coco_person": 0.8138993382453918,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_6361-468-MConverter-eu-_jpg.rf.88c96ba054c01c6035a233caa8091c07.jpg",
+      "truth": false,
+      "finetuned": 0.6085061430931091,
+      "coco_person": 0.8604467511177063,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_6361-494-MConverter-eu-_jpg.rf.4f0d56fd7d563ce1fb274d47dfd789f8.jpg",
+      "truth": false,
+      "finetuned": 0.6436129212379456,
+      "coco_person": 0.9004029631614685,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_6361-496-MConverter-eu-_jpg.rf.978e8b150887e23727150b9724b4d054.jpg",
+      "truth": false,
+      "finetuned": 0.6170293688774109,
+      "coco_person": 0.801371157169342,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_6361-498-MConverter-eu-_jpg.rf.3a39286cc50e2072c48dd3b0e2423932.jpg",
+      "truth": true,
+      "finetuned": 0.6618316769599915,
+      "coco_person": 0.8992511630058289,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_6361-541-MConverter-eu-_jpg.rf.aba03797bc5cd8c846308eb57bc8c8d9.jpg",
+      "truth": true,
+      "finetuned": 0.6235072612762451,
+      "coco_person": 0.09087935835123062,
+      "coco_wide": 0.08069556206464767,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_6361-543-MConverter-eu-_jpg.rf.d0be24df2772cee73a3a8ac476c4bd61.jpg",
+      "truth": true,
+      "finetuned": 0.645554780960083,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_6361-547-MConverter-eu-_jpg.rf.8702495615413f55c1d70573d7f8cbc7.jpg",
+      "truth": true,
+      "finetuned": 0.13855458796024323,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_6361-547-MConverter-eu-_jpg.rf.94b81cbee77e64238b083c2456091341.jpg",
+      "truth": true,
+      "finetuned": 0.44812119007110596,
+      "coco_person": 0.03938284516334534,
+      "coco_wide": 0.03938284516334534,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_6361-564-MConverter-eu-_jpg.rf.8bd351fd65fb53022999ae4845d4d994.jpg",
+      "truth": true,
+      "finetuned": 0.25909215211868286,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_6381-393-MConverter-eu-_jpg.rf.a841df853122a0e3b2c4bec05e84d780.jpg",
+      "truth": false,
+      "finetuned": 0.15725094079971313,
+      "coco_person": 0.8339815735816956,
+      "coco_wide": 0.1189914420247078,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_6381-396-MConverter-eu-_jpg.rf.81dbceadaa8d5d0093943180fda7fc38.jpg",
+      "truth": false,
+      "finetuned": 0.382938951253891,
+      "coco_person": 0.6915308237075806,
+      "coco_wide": 0.06649003177881241,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_6381-401-MConverter-eu-_jpg.rf.83a76478add02bd4e9e494c09e1ec5d3.jpg",
+      "truth": false,
+      "finetuned": 0.3611029088497162,
+      "coco_person": 0.7763206362724304,
+      "coco_wide": 0.04675334319472313,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_6381-420-MConverter-eu-_jpg.rf.5237a7f529e0f0cb18f4559ce8a555f7.jpg",
+      "truth": false,
+      "finetuned": 0.6331709027290344,
+      "coco_person": 0.6716403365135193,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_6381-422-MConverter-eu-_jpg.rf.63f9d66d44ef6fd5c92323debebac5f9.jpg",
+      "truth": false,
+      "finetuned": 0.6499571800231934,
+      "coco_person": 0.7543608546257019,
+      "coco_wide": 0.018476340919733047,
+      "nothing": 0.0
+    },
+    {
+      "image": "IMG_6381-432-MConverter-eu-_jpg.rf.94abb341170671445c4542f309100bc0.jpg",
+      "truth": true,
+      "finetuned": 0.568820059299469,
+      "coco_person": 0.5219166874885559,
+      "coco_wide": 0.039014335721731186,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-104023_jpg.rf.4997c109e7844b76f2ab834c95118542.jpg",
+      "truth": false,
+      "finetuned": 0.1483801156282425,
+      "coco_person": 0.892641007900238,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-104023_jpg.rf.51869e49a64cbd3332ad7c0b0ebb72e9.jpg",
+      "truth": false,
+      "finetuned": 0.11918331682682037,
+      "coco_person": 0.8867563009262085,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-104037_jpg.rf.ceef498bb8d34a0d830563b1720b1091.jpg",
+      "truth": false,
+      "finetuned": 0.027568774297833443,
+      "coco_person": 0.9023866653442383,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-104053_jpg.rf.16dc1797f80d5bebc03de96b6cb4d5ea.jpg",
+      "truth": false,
+      "finetuned": 0.07788540422916412,
+      "coco_person": 0.9390044212341309,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-104053_jpg.rf.3b4b750fc7342ed126387cf4b048a7d9.jpg",
+      "truth": false,
+      "finetuned": 0.05264251306653023,
+      "coco_person": 0.9305142164230347,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-104106_jpg.rf.ca530345c9fce5f15eb68b99c78cbf96.jpg",
+      "truth": false,
+      "finetuned": 0.5318576097488403,
+      "coco_person": 0.9272147417068481,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-104122_jpg.rf.70847da611feed66159ba087a9ded3cd.jpg",
+      "truth": false,
+      "finetuned": 0.13023090362548828,
+      "coco_person": 0.9228683114051819,
+      "coco_wide": 0.014459039084613323,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-104130_jpg.rf.77a9d7f7431926b342df1a1f4bff7a75.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.8967326283454895,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-104146_jpg.rf.082f5b12923ed5d4847df42918c3c2bb.jpg",
+      "truth": false,
+      "finetuned": 0.04927704110741615,
+      "coco_person": 0.9094316959381104,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-104146_jpg.rf.50916eee4729d3cd431f305c9262bb9f.jpg",
+      "truth": false,
+      "finetuned": 0.2193623185157776,
+      "coco_person": 0.9089030623435974,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-104154_jpg.rf.00e232dbb1e79cdd0efe71baa360de88.jpg",
+      "truth": false,
+      "finetuned": 0.025688568130135536,
+      "coco_person": 0.8783738613128662,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-104203_jpg.rf.525213803ac7d03dfd715533bfbdfff7.jpg",
+      "truth": false,
+      "finetuned": 0.7599984407424927,
+      "coco_person": 0.9068650603294373,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-104219_jpg.rf.8db799da1cddb0ff1174176b1b904cbf.jpg",
+      "truth": false,
+      "finetuned": 0.17855234444141388,
+      "coco_person": 0.9354439973831177,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-104233_jpg.rf.f8cb474312534eb65923ef34f3c26ffa.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9213250279426575,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-104248_jpg.rf.47861854f36b7ec64b1c14010fe921ac.jpg",
+      "truth": false,
+      "finetuned": 0.01868971437215805,
+      "coco_person": 0.8476576209068298,
+      "coco_wide": 0.03896183893084526,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-104305_jpg.rf.604195beb5e498a0ff5b55931b1ef40d.jpg",
+      "truth": false,
+      "finetuned": 0.014215241186320782,
+      "coco_person": 0.8407243490219116,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-104319_jpg.rf.4f971817a39f4c09b1a07e8c4dbf392a.jpg",
+      "truth": false,
+      "finetuned": 0.5019569993019104,
+      "coco_person": 0.9059896469116211,
+      "coco_wide": 0.5117974281311035,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-104334_jpg.rf.41cfcf6e78bbc314028b48d832cdd3a4.jpg",
+      "truth": false,
+      "finetuned": 0.13852380216121674,
+      "coco_person": 0.8960976004600525,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-104334_jpg.rf.4ed763cceda8b44a85fcfc25a840701e.jpg",
+      "truth": false,
+      "finetuned": 0.049280792474746704,
+      "coco_person": 0.8873410224914551,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-104348_jpg.rf.bbc722994bc8bf242c030853ada9d9a4.jpg",
+      "truth": false,
+      "finetuned": 0.4615424573421478,
+      "coco_person": 0.9034261107444763,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-104438_jpg.rf.c64d5ea586aa0d0922577ae5d0465887.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.8792492747306824,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-104438_jpg.rf.fa8deb7569766615b04b20c829a5c08d.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.902148425579071,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-104523_jpg.rf.fac9b423dd3799b517fab87e20535d92.jpg",
+      "truth": false,
+      "finetuned": 0.3029719591140747,
+      "coco_person": 0.9166975021362305,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-104540_jpg.rf.f4637372f0096aa0c5884794c36a8d21.jpg",
+      "truth": false,
+      "finetuned": 0.7939850687980652,
+      "coco_person": 0.8917768597602844,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-104614_jpg.rf.262081a1c0c165ee43f747ba2709106c.jpg",
+      "truth": false,
+      "finetuned": 0.3519223928451538,
+      "coco_person": 0.9345064163208008,
+      "coco_wide": 0.01716158166527748,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-104628_jpg.rf.f19466407edbcc4644cb01aeb1a47752.jpg",
+      "truth": false,
+      "finetuned": 0.3280646800994873,
+      "coco_person": 0.9149317741394043,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-104643_jpg.rf.5e21573f6c1988e4f00764c075820f7d.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.900531530380249,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-104718_jpg.rf.b64331893b77807241a0ee86077ee434.jpg",
+      "truth": false,
+      "finetuned": 0.33714962005615234,
+      "coco_person": 0.912092924118042,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-104725_jpg.rf.87a6d6380e78364cbd15553b9aa9c00d.jpg",
+      "truth": false,
+      "finetuned": 0.4220774471759796,
+      "coco_person": 0.9259604215621948,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-104733_jpg.rf.95b7874aac471f969939d564b861d1eb.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9147283434867859,
+      "coco_wide": 0.12869742512702942,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-104812_jpg.rf.6dd465e825972bc73a075df6c0239940.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.940916895866394,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-104846_jpg.rf.cc5c2c31c5f9c3a556c03bfbfc186b57.jpg",
+      "truth": false,
+      "finetuned": 0.045118045061826706,
+      "coco_person": 0.9152587056159973,
+      "coco_wide": 0.38589102029800415,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-104852_jpg.rf.b7d27cd52ed5e2bc02cef7d458c495f6.jpg",
+      "truth": false,
+      "finetuned": 0.015244576148688793,
+      "coco_person": 0.9430006146430969,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-104921_jpg.rf.324db41b6c4c094e6758916b3d1e04b8.jpg",
+      "truth": false,
+      "finetuned": 0.674471378326416,
+      "coco_person": 0.9083588719367981,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-104935_jpg.rf.1882808694a822158c3ae6dc8c586f4a.jpg",
+      "truth": false,
+      "finetuned": 0.21052277088165283,
+      "coco_person": 0.8900120854377747,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-104955_jpg.rf.bc245056e1ecfa07706d26504a032b7a.jpg",
+      "truth": false,
+      "finetuned": 0.29572150111198425,
+      "coco_person": 0.8861129283905029,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-105002_jpg.rf.6b6cb1eeb4ef96e0d56a7f360f6ba11e.jpg",
+      "truth": false,
+      "finetuned": 0.36061549186706543,
+      "coco_person": 0.8953240513801575,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-105009_jpg.rf.171f4ffc3f2efd795812ccc163ca71e7.jpg",
+      "truth": false,
+      "finetuned": 0.3709839880466461,
+      "coco_person": 0.9010255932807922,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-105009_jpg.rf.43b8d15b28f3029bdf5f40bd24aed9b8.jpg",
+      "truth": false,
+      "finetuned": 0.6838735938072205,
+      "coco_person": 0.8841959834098816,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-105040_jpg.rf.f335888870dab769bd020dd00b5c4e82.jpg",
+      "truth": false,
+      "finetuned": 0.2744090259075165,
+      "coco_person": 0.8889238238334656,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-105048_jpg.rf.016b3012376857d2100a82b6cced6e8c.jpg",
+      "truth": false,
+      "finetuned": 0.5038142204284668,
+      "coco_person": 0.8873388767242432,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-105054_jpg.rf.4b2c5e555eba5511df930820d8c884d2.jpg",
+      "truth": false,
+      "finetuned": 0.31279081106185913,
+      "coco_person": 0.9003516435623169,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-105101_jpg.rf.6d8285c679b78989071caae95085d9bf.jpg",
+      "truth": false,
+      "finetuned": 0.7010846734046936,
+      "coco_person": 0.8927037715911865,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-105101_jpg.rf.e0908418222487594da20468d8713ba5.jpg",
+      "truth": false,
+      "finetuned": 0.5145984292030334,
+      "coco_person": 0.9199018478393555,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-105108_jpg.rf.201833e9b803fec5cb8616f83e32626b.jpg",
+      "truth": false,
+      "finetuned": 0.6463821530342102,
+      "coco_person": 0.9146526455879211,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-105205_jpg.rf.2a50710fafc13e361465108d390ce1b8.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9261155128479004,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-105228_jpg.rf.c698de2f6581d743ef0365af1d26c010.jpg",
+      "truth": false,
+      "finetuned": 0.4264306128025055,
+      "coco_person": 0.9397987723350525,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-105307_jpg.rf.7c4c8d66c3400ba2348c9212b9369354.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.8923619389533997,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-105307_jpg.rf.fb6fcc2afc3795837738576614c9df41.jpg",
+      "truth": false,
+      "finetuned": 0.36889758706092834,
+      "coco_person": 0.9297575354576111,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-105314_jpg.rf.9eeee2e2282a865f4417c5f745f2bebd.jpg",
+      "truth": false,
+      "finetuned": 0.5962486267089844,
+      "coco_person": 0.9128909707069397,
+      "coco_wide": 0.02686033770442009,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-105314_jpg.rf.dc115ac196cfafdc5bd681025a263fe4.jpg",
+      "truth": false,
+      "finetuned": 0.5220401883125305,
+      "coco_person": 0.9287974834442139,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-105321_jpg.rf.57e818fa45835e25fbf5aa4013ac605d.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9213181138038635,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-105337_jpg.rf.aff08f03b9b1fab869613211bbfc31eb.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.8678093552589417,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-105353_jpg.rf.136ad8635a276c4f7897e5af08229b98.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9231733083724976,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-105353_jpg.rf.9c1e1468d34fbef18a65ec0d0759ac12.jpg",
+      "truth": false,
+      "finetuned": 0.03697320818901062,
+      "coco_person": 0.8951696753501892,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-105400_jpg.rf.51ef3a62ed9d3261d2ef93bc7537bbb8.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9177187085151672,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-105414_jpg.rf.83bd54ee6466daec606c86a09cf7e7c3.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9307215213775635,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-105421_jpg.rf.78aa658ed511f3bab5640685d2987d2e.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.910123348236084,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-105429_jpg.rf.cc6c394552f2ec93c600225a599d20ae.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9118783473968506,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-105520_jpg.rf.44d06a16725543da4e6e07fb48430f6b.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9268014430999756,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-105520_jpg.rf.e8a22257e3292f70b51212a57ec88399.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9245905876159668,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2022-08-09-105526_jpg.rf.b75ea25515d8ce0fdc186954cab09d09.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9363110065460205,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-2024-03-19-215325_png_jpg.rf.8e519e32a4eb59e61e4f315972fa6dd4.jpg",
+      "truth": false,
+      "finetuned": 0.6649837493896484,
+      "coco_person": 0.8010356426239014,
+      "coco_wide": 0.8010356426239014,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-from-2022-07-18-00-26-40_jpg.rf.cf93271b4e0c22a8db6aa011d9b4b6e2.jpg",
+      "truth": false,
+      "finetuned": 0.6249592304229736,
+      "coco_person": 0.7525772452354431,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-from-2022-07-18-00-27-56_jpg.rf.97bb17a4d3f0fc7bc115f6d4174e4938.jpg",
+      "truth": false,
+      "finetuned": 0.43097615242004395,
+      "coco_person": 0.9149810671806335,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-from-2022-07-18-00-28-20_jpg.rf.0577e281bf9eaad740252290a6ca9bf5.jpg",
+      "truth": false,
+      "finetuned": 0.3865715563297272,
+      "coco_person": 0.8913489580154419,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-from-2022-07-18-00-37-59_jpg.rf.15cd0f0cbf9fc9ce8696e0abe1b5a85a.jpg",
+      "truth": false,
+      "finetuned": 0.17325593531131744,
+      "coco_person": 0.9097048044204712,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "Screenshot-from-2022-07-18-00-38-20_jpg.rf.89cd2ae2b6fc1f23828ada2e12075ad2.jpg",
+      "truth": false,
+      "finetuned": 0.26134878396987915,
+      "coco_person": 0.9082230925559998,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "a102_bmp_jpg.rf.dfbc1c17c9965d9b0a4b63471cf5c487.jpg",
+      "truth": true,
+      "finetuned": 0.28880298137664795,
+      "coco_person": 0.40543270111083984,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "a105_bmp_jpg.rf.af56adb2a8d0a1e6ffe09c1fd34dd5f4.jpg",
+      "truth": true,
+      "finetuned": 0.0,
+      "coco_person": 0.4475513994693756,
+      "coco_wide": 0.4475513994693756,
+      "nothing": 0.0
+    },
+    {
+      "image": "a105_bmp_jpg.rf.ed346c28ba57c04bc44bd9eb20400c60.jpg",
+      "truth": true,
+      "finetuned": 0.03265008330345154,
+      "coco_person": 0.2673383057117462,
+      "coco_wide": 0.023303929716348648,
+      "nothing": 0.0
+    },
+    {
+      "image": "a110_bmp_jpg.rf.328e909ce89793f63f0ca082203ea4ad.jpg",
+      "truth": true,
+      "finetuned": 0.0,
+      "coco_person": 0.39717409014701843,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "a110_bmp_jpg.rf.36d9e9c88d45c5f43bd4a30f44610ecf.jpg",
+      "truth": true,
+      "finetuned": 0.0,
+      "coco_person": 0.8040206432342529,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "a115_bmp_jpg.rf.fb130eeda9c948d09c3e33619cfd859c.jpg",
+      "truth": true,
+      "finetuned": 0.015960754826664925,
+      "coco_person": 0.06746738404035568,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "a117_bmp_jpg.rf.a43f74351c68354d03f8288fa03c8c43.jpg",
+      "truth": true,
+      "finetuned": 0.03289639577269554,
+      "coco_person": 0.012471070513129234,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "a119_bmp_jpg.rf.5a51e4f1c653908bb0f3ec691a501d43.jpg",
+      "truth": true,
+      "finetuned": 0.052953414618968964,
+      "coco_person": 0.06674044579267502,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "a121_bmp_jpg.rf.5b39bbb3257e77a318032f847aef9b68.jpg",
+      "truth": true,
+      "finetuned": 0.6462548971176147,
+      "coco_person": 0.18454815447330475,
+      "coco_wide": 0.18454815447330475,
+      "nothing": 0.0
+    },
+    {
+      "image": "a127_bmp_jpg.rf.558efd3134ca5711b19dd5c6cb94c2b7.jpg",
+      "truth": true,
+      "finetuned": 0.04088127240538597,
+      "coco_person": 0.8219725489616394,
+      "coco_wide": 0.01831107959151268,
+      "nothing": 0.0
+    },
+    {
+      "image": "a138_bmp_jpg.rf.4f69dabc56bd2ce7948fe3dcfb0faae1.jpg",
+      "truth": true,
+      "finetuned": 0.0,
+      "coco_person": 0.01986759342253208,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "a139_bmp_jpg.rf.e4ce7e6e7026391761aafa3b4e72b86f.jpg",
+      "truth": true,
+      "finetuned": 0.40812480449676514,
+      "coco_person": 0.1475033313035965,
+      "coco_wide": 0.1475033313035965,
+      "nothing": 0.0
+    },
+    {
+      "image": "a13_bmp_jpg.rf.b81b0b298f522e85bfedd2b6bb6eac01.jpg",
+      "truth": true,
+      "finetuned": 0.0,
+      "coco_person": 0.018370527774095535,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "a152_bmp_jpg.rf.8f797d8bb23503fce72f077f068cfe1d.jpg",
+      "truth": true,
+      "finetuned": 0.5095718502998352,
+      "coco_person": 0.06899549812078476,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "a15_bmp_jpg.rf.db7267a7acccc217036b96030e686195.jpg",
+      "truth": true,
+      "finetuned": 0.09407168626785278,
+      "coco_person": 0.16041041910648346,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "a162_bmp_jpg.rf.1d6d573a74a099b6f8d058805878f044.jpg",
+      "truth": true,
+      "finetuned": 0.0,
+      "coco_person": 0.028256984427571297,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "a163_bmp_jpg.rf.27bc23708d52d306169aa6e386dbc2b0.jpg",
+      "truth": true,
+      "finetuned": 0.0,
+      "coco_person": 0.39789828658103943,
+      "coco_wide": 0.05525869131088257,
+      "nothing": 0.0
+    },
+    {
+      "image": "a165_bmp_jpg.rf.a9f5feb73321dd5127a6c0844f66c03b.jpg",
+      "truth": true,
+      "finetuned": 0.0,
+      "coco_person": 0.036379314959049225,
+      "coco_wide": 0.036379314959049225,
+      "nothing": 0.0
+    },
+    {
+      "image": "a169_bmp_jpg.rf.2859136e83c524d12806fd565209759f.jpg",
+      "truth": true,
+      "finetuned": 0.5464835166931152,
+      "coco_person": 0.049898434430360794,
+      "coco_wide": 0.049898434430360794,
+      "nothing": 0.0
+    },
+    {
+      "image": "a16_bmp_jpg.rf.30cced7a4a744492736bc02be6a6af62.jpg",
+      "truth": true,
+      "finetuned": 0.12482494860887527,
+      "coco_person": 0.7973247766494751,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "a170_bmp_jpg.rf.64c8fa3dddf61e9d19e4728f00842472.jpg",
+      "truth": true,
+      "finetuned": 0.0,
+      "coco_person": 0.04552352800965309,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "a172_bmp_jpg.rf.3d3fb2ca3056b20458d5e219ba727896.jpg",
+      "truth": true,
+      "finetuned": 0.5663713216781616,
+      "coco_person": 0.3485572040081024,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "a173_bmp_jpg.rf.97dc8e2a9e3e5cf281ac0c68833f39de.jpg",
+      "truth": true,
+      "finetuned": 0.019243160262703896,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "a173_bmp_jpg.rf.b5741f93c6ba4dbebdde3be6a6cd6d54.jpg",
+      "truth": true,
+      "finetuned": 0.30106765031814575,
+      "coco_person": 0.2431747019290924,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "a179_bmp_jpg.rf.19950a44ee8c4acf5c71f8a573df87f4.jpg",
+      "truth": true,
+      "finetuned": 0.20256920158863068,
+      "coco_person": 0.4542030990123749,
+      "coco_wide": 0.033515844494104385,
+      "nothing": 0.0
+    },
+    {
+      "image": "a179_bmp_jpg.rf.956a5b6fd771ee96aabf167103de2342.jpg",
+      "truth": true,
+      "finetuned": 0.2132265716791153,
+      "coco_person": 0.47275152802467346,
+      "coco_wide": 0.018175944685935974,
+      "nothing": 0.0
+    },
+    {
+      "image": "a183_bmp_jpg.rf.938f784bbba01004986551e693fc7659.jpg",
+      "truth": true,
+      "finetuned": 0.28008371591567993,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "a186_bmp_jpg.rf.de53e4a483fc311cdadd83fed691b69d.jpg",
+      "truth": true,
+      "finetuned": 0.024371013045310974,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "a187_bmp_jpg.rf.abf6a41181bb193466af41ce05cff07b.jpg",
+      "truth": true,
+      "finetuned": 0.01665611006319523,
+      "coco_person": 0.03999090939760208,
+      "coco_wide": 0.03999090939760208,
+      "nothing": 0.0
+    },
+    {
+      "image": "a20_bmp_jpg.rf.bb396abe5319b657c26f1eb4cc292c11.jpg",
+      "truth": true,
+      "finetuned": 0.01666335202753544,
+      "coco_person": 0.24582260847091675,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "a34_bmp_jpg.rf.5aee584f0368e8325a587e760ccdcddd.jpg",
+      "truth": true,
+      "finetuned": 0.6846713423728943,
+      "coco_person": 0.6124051213264465,
+      "coco_wide": 0.6124051213264465,
+      "nothing": 0.0
+    },
+    {
+      "image": "a34_bmp_jpg.rf.8247e72054b562a29cd46aee92c482f6.jpg",
+      "truth": true,
+      "finetuned": 0.5908453464508057,
+      "coco_person": 0.46011319756507874,
+      "coco_wide": 0.3151700496673584,
+      "nothing": 0.0
+    },
+    {
+      "image": "a34_bmp_jpg.rf.e41674ce4fb8ff5e6d812411f484c35a.jpg",
+      "truth": true,
+      "finetuned": 0.6945460438728333,
+      "coco_person": 0.7283981442451477,
+      "coco_wide": 0.7283981442451477,
+      "nothing": 0.0
+    },
+    {
+      "image": "a56_bmp_jpg.rf.b100f004467debcc5bdb0e5f85315198.jpg",
+      "truth": true,
+      "finetuned": 0.4113383889198303,
+      "coco_person": 0.4965647757053375,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "b_-113-_bmp_jpg.rf.e218856a83e0fdabf5945b4eeffed3b5.jpg",
+      "truth": true,
+      "finetuned": 0.3196766674518585,
+      "coco_person": 0.34715837240219116,
+      "coco_wide": 0.33296966552734375,
+      "nothing": 0.0
+    },
+    {
+      "image": "b_-123-_bmp_jpg.rf.ab729c106bbff8b3663b1400b0f2539b.jpg",
+      "truth": true,
+      "finetuned": 0.049933068454265594,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "b_-183-_bmp_jpg.rf.cce2542cd7e70632ea5cf099956135fb.jpg",
+      "truth": true,
+      "finetuned": 0.08452685922384262,
+      "coco_person": 0.3319046199321747,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "b_-192-_bmp_jpg.rf.82990d611259534223c506a0b54d2f2c.jpg",
+      "truth": true,
+      "finetuned": 0.0,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "b_-2-_bmp_jpg.rf.86de25357d32e02f767c796ee8d1bf5e.jpg",
+      "truth": true,
+      "finetuned": 0.6629469990730286,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "b_-7-_bmp_jpg.rf.51b296dce67d0fbab96c34da3ac1f40e.jpg",
+      "truth": true,
+      "finetuned": 0.0,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "c-107-_bmp_jpg.rf.04d560961f3f150e0ead6a2b62ff1caf.jpg",
+      "truth": true,
+      "finetuned": 0.0,
+      "coco_person": 0.25896987318992615,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "c-135-_bmp_jpg.rf.37c403b4807757a65e63a5a2a575d62a.jpg",
+      "truth": true,
+      "finetuned": 0.0,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "c-177-_bmp_jpg.rf.58795efc72985d7c60bd3d30699155e2.jpg",
+      "truth": true,
+      "finetuned": 0.382099449634552,
+      "coco_person": 0.19382642209529877,
+      "coco_wide": 0.19382642209529877,
+      "nothing": 0.0
+    },
+    {
+      "image": "c-92-_bmp_jpg.rf.86f05a22710630a99a24eba1e21ba8bb.jpg",
+      "truth": true,
+      "finetuned": 0.191239595413208,
+      "coco_person": 0.6831409931182861,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "fall009_jpg.rf.6aaf14f6b79567b07dc9b9a9662c57f1.jpg",
+      "truth": true,
+      "finetuned": 0.16630516946315765,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "fall023_jpg.rf.f6d51a27160aa2a5b1721cbf8fcd6b91.jpg",
+      "truth": true,
+      "finetuned": 0.5370038747787476,
+      "coco_person": 0.011227069422602654,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "fall024_jpg.rf.ea70d66cee023368db8807ad5eb0563c.jpg",
+      "truth": true,
+      "finetuned": 0.13580068945884705,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "fall026_jpg.rf.49dd42943631370c658cb10300ac1358.jpg",
+      "truth": true,
+      "finetuned": 0.0,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "fall030_jpg.rf.daa82065c19cc8e86aaf47d0a3bab867.jpg",
+      "truth": true,
+      "finetuned": 0.5327737331390381,
+      "coco_person": 0.2964639961719513,
+      "coco_wide": 0.2964639961719513,
+      "nothing": 0.0
+    },
+    {
+      "image": "fall035_jpg.rf.35ea8ba35819165d6d65b4a934305e47.jpg",
+      "truth": true,
+      "finetuned": 0.02913040667772293,
+      "coco_person": 0.03853609040379524,
+      "coco_wide": 0.03853609040379524,
+      "nothing": 0.0
+    },
+    {
+      "image": "fall043_jpg.rf.e48a491247ec1cb903b039c2cc969f03.jpg",
+      "truth": true,
+      "finetuned": 0.0,
+      "coco_person": 0.5817437171936035,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "fall078_jpg.rf.502698b96676c7832ba8d06226df29d3.jpg",
+      "truth": true,
+      "finetuned": 0.2845310568809509,
+      "coco_person": 0.03803272917866707,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "fall080_jpg.rf.7a111a9722a067c6e99ba07a3c2d5fe2.jpg",
+      "truth": true,
+      "finetuned": 0.0,
+      "coco_person": 0.012371747754514217,
+      "coco_wide": 0.012371747754514217,
+      "nothing": 0.0
+    },
+    {
+      "image": "fall085_jpg.rf.72ecbc28aa55b3b6744c0c693ced0ece.jpg",
+      "truth": true,
+      "finetuned": 0.3311379849910736,
+      "coco_person": 0.7681335210800171,
+      "coco_wide": 0.7681335210800171,
+      "nothing": 0.0
+    },
+    {
+      "image": "fall086_jpg.rf.3a6c5b06429e8b4dca3b6c135df2f0cc.jpg",
+      "truth": true,
+      "finetuned": 0.45605894923210144,
+      "coco_person": 0.8333685398101807,
+      "coco_wide": 0.8333685398101807,
+      "nothing": 0.0
+    },
+    {
+      "image": "fall088_jpg.rf.ec72bf7ba204efbaa314418c20d6c6aa.jpg",
+      "truth": true,
+      "finetuned": 0.5299242734909058,
+      "coco_person": 0.8291762471199036,
+      "coco_wide": 0.05672052875161171,
+      "nothing": 0.0
+    },
+    {
+      "image": "fall088_jpg.rf.ee7da2719b8c035096440d92aa4325c6.jpg",
+      "truth": true,
+      "finetuned": 0.48237648606300354,
+      "coco_person": 0.8215895891189575,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "fall099_jpg.rf.f4a466d627374d4e015b2b3e430e8d70.jpg",
+      "truth": true,
+      "finetuned": 0.15550313889980316,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "fall102_jpg.rf.25d258f53eb877456a33e064401d9605.jpg",
+      "truth": true,
+      "finetuned": 0.6852657198905945,
+      "coco_person": 0.7944969534873962,
+      "coco_wide": 0.7944969534873962,
+      "nothing": 0.0
+    },
+    {
+      "image": "fall102_jpg.rf.e541f0e30444ce2f8da6b0906e07de11.jpg",
+      "truth": true,
+      "finetuned": 0.7276567816734314,
+      "coco_person": 0.6164031624794006,
+      "coco_wide": 0.6164031624794006,
+      "nothing": 0.0
+    },
+    {
+      "image": "fall104_jpg.rf.dc61a7736a1c0d8b81fc293209a9accb.jpg",
+      "truth": true,
+      "finetuned": 0.48490509390830994,
+      "coco_person": 0.9275586009025574,
+      "coco_wide": 0.03578435629606247,
+      "nothing": 0.0
+    },
+    {
+      "image": "fall125_jpg.rf.31126a47d65bed74b820b3858a017d44.jpg",
+      "truth": true,
+      "finetuned": 0.33520787954330444,
+      "coco_person": 0.38549235463142395,
+      "coco_wide": 0.38549235463142395,
+      "nothing": 0.0
+    },
+    {
+      "image": "fall127_jpg.rf.e6041682b46c4bda6d4ab223cc8e1807.jpg",
+      "truth": true,
+      "finetuned": 0.0,
+      "coco_person": 0.015781724825501442,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "fall129_jpg.rf.17b79393de208cf87c91a8b118978355.jpg",
+      "truth": true,
+      "finetuned": 0.0,
+      "coco_person": 0.7721132040023804,
+      "coco_wide": 0.7721132040023804,
+      "nothing": 0.0
+    },
+    {
+      "image": "fall130_jpg.rf.17fbd8429b2770579f49b6ce89864bf7.jpg",
+      "truth": true,
+      "finetuned": 0.05501742660999298,
+      "coco_person": 0.029302436858415604,
+      "coco_wide": 0.029302436858415604,
+      "nothing": 0.0
+    },
+    {
+      "image": "fall131_jpg.rf.5e00b05b1d2f65748caf2ba7d2b4554d.jpg",
+      "truth": true,
+      "finetuned": 0.11498577892780304,
+      "coco_person": 0.4523572027683258,
+      "coco_wide": 0.026402955874800682,
+      "nothing": 0.0
+    },
+    {
+      "image": "fall133_jpg.rf.87d803183563e10af9e105de44119691.jpg",
+      "truth": true,
+      "finetuned": 0.0,
+      "coco_person": 0.09573306143283844,
+      "coco_wide": 0.09573306143283844,
+      "nothing": 0.0
+    },
+    {
+      "image": "fall144_jpg.rf.0d62d44e86406f75919356bbf64c1bfc.jpg",
+      "truth": true,
+      "finetuned": 0.45627695322036743,
+      "coco_person": 0.7908839583396912,
+      "coco_wide": 0.7908839583396912,
+      "nothing": 0.0
+    },
+    {
+      "image": "fall145_jpg.rf.8b535c53088a7dea20a11cfadc67eade.jpg",
+      "truth": true,
+      "finetuned": 0.042044371366500854,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "fall147_jpg.rf.b181990ac07905ee03fd4e07ee77c639.jpg",
+      "truth": true,
+      "finetuned": 0.0,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "fall157_jpg.rf.f815b7849aa94a8e337fe183677720cc.jpg",
+      "truth": true,
+      "finetuned": 0.07961084693670273,
+      "coco_person": 0.8736172914505005,
+      "coco_wide": 0.040303222835063934,
+      "nothing": 0.0
+    },
+    {
+      "image": "fall158_jpg.rf.986da1e64bfdad994bc6d671c7e791ac.jpg",
+      "truth": true,
+      "finetuned": 0.016316760331392288,
+      "coco_person": 0.8215820789337158,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "fall167_jpg.rf.f2dcc7ec82ac79fbbfce74f597a6e49f.jpg",
+      "truth": true,
+      "finetuned": 0.6090000867843628,
+      "coco_person": 0.0411929190158844,
+      "coco_wide": 0.0411929190158844,
+      "nothing": 0.0
+    },
+    {
+      "image": "fall170_jpg.rf.45cde7edfbce805c4ea67d86bd00595c.jpg",
+      "truth": true,
+      "finetuned": 0.04206285998225212,
+      "coco_person": 0.4934443235397339,
+      "coco_wide": 0.12527988851070404,
+      "nothing": 0.0
+    },
+    {
+      "image": "fall172_jpg.rf.02e91eb4874ef0ed788d02b59fedec52.jpg",
+      "truth": true,
+      "finetuned": 0.025234442204236984,
+      "coco_person": 0.200982466340065,
+      "coco_wide": 0.018665235489606857,
+      "nothing": 0.0
+    },
+    {
+      "image": "fall177_jpg.rf.966c37ff9c1e68707f1b497f4ec8a815.jpg",
+      "truth": true,
+      "finetuned": 0.0,
+      "coco_person": 0.648036539554596,
+      "coco_wide": 0.07717418670654297,
+      "nothing": 0.0
+    },
+    {
+      "image": "fall179_jpg.rf.1288b5d44e043c65045c933ad8a8797a.jpg",
+      "truth": true,
+      "finetuned": 0.0,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "fall180_jpg.rf.7a403dfe9ce34bc89e30f8cb311b2fcc.jpg",
+      "truth": true,
+      "finetuned": 0.0,
+      "coco_person": 0.12585771083831787,
+      "coco_wide": 0.12585771083831787,
+      "nothing": 0.0
+    },
+    {
+      "image": "fall180_jpg.rf.c390ed493f3d63f49df9ad53dc00a45b.jpg",
+      "truth": true,
+      "finetuned": 0.0,
+      "coco_person": 0.8827579617500305,
+      "coco_wide": 0.02429547905921936,
+      "nothing": 0.0
+    },
+    {
+      "image": "fall186_jpg.rf.9eda14e2166878eb0f111161aee9a2b2.jpg",
+      "truth": true,
+      "finetuned": 0.6322327852249146,
+      "coco_person": 0.2033417820930481,
+      "coco_wide": 0.08957299590110779,
+      "nothing": 0.0
+    },
+    {
+      "image": "fall187_jpg.rf.6a8df2c14e17d15f78efa90a2db4c1c0.jpg",
+      "truth": true,
+      "finetuned": 0.0,
+      "coco_person": 0.8758703470230103,
+      "coco_wide": 0.8758703470230103,
+      "nothing": 0.0
+    },
+    {
+      "image": "fall192_jpg.rf.cf34a891b80c301aa585f42d7f61a01c.jpg",
+      "truth": true,
+      "finetuned": 0.0,
+      "coco_person": 0.5850147008895874,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "fall204_jpg.rf.183c579a868614483ab57d216eeae915.jpg",
+      "truth": true,
+      "finetuned": 0.0,
+      "coco_person": 0.25144150853157043,
+      "coco_wide": 0.25144150853157043,
+      "nothing": 0.0
+    },
+    {
+      "image": "images-19-_JPG_jpg.rf.e250c3152488fe1980c6353730ee0aaf.jpg",
+      "truth": false,
+      "finetuned": 0.3097418248653412,
+      "coco_person": 0.7848829030990601,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "images-5-_JPG_jpg.rf.4f5fe4a8c37c9771b14793a83fceca47.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.7983182668685913,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "images-5-_JPG_jpg.rf.546ac372cc149237587cc788eedaa55f.jpg",
+      "truth": false,
+      "finetuned": 0.03213173896074295,
+      "coco_person": 0.7491728067398071,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "images-7-_JPG_jpg.rf.5fa3010b43fad8e10da992e1feb18347.jpg",
+      "truth": false,
+      "finetuned": 0.30059242248535156,
+      "coco_person": 0.966084361076355,
+      "coco_wide": 0.10373321175575256,
+      "nothing": 0.0
+    },
+    {
+      "image": "images-7-_JPG_jpg.rf.8ea57b85ae74b1369f95cc2f248fbbca.jpg",
+      "truth": false,
+      "finetuned": 0.11523193120956421,
+      "coco_person": 0.8677605986595154,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "not-fallen009_jpg.rf.6b380cbffa2c74767f86bc510ca5f23e.jpg",
+      "truth": false,
+      "finetuned": 0.5331007242202759,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "not-fallen012_jpg.rf.78854532de513f5dae9988295634f1e7.jpg",
+      "truth": false,
+      "finetuned": 0.3992306590080261,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "not-fallen013_jpg.rf.6b8fb37a4f88e0b0cc5b7d6d7d279e0d.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.6412471532821655,
+      "coco_wide": 0.013205238617956638,
+      "nothing": 0.0
+    },
+    {
+      "image": "not-fallen014_jpg.rf.8be1d60021783d0e2b5e404e41b3efdb.jpg",
+      "truth": false,
+      "finetuned": 0.20848679542541504,
+      "coco_person": 0.028946667909622192,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "not-fallen020_jpg.rf.85aacc187f7cc8d7105ab26feaee7972.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "not-fallen048_jpg.rf.511783c5a6ce670e03fdb678b6bd6f74.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.6768376231193542,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "not-fallen051_jpg.rf.7154e77d9c663980faabf678de30bd01.jpg",
+      "truth": false,
+      "finetuned": 0.03658744692802429,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "not-fallen053_jpg.rf.909b0d6da2b0fd2ea07e911a8bf7db4a.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.3767208755016327,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "not-fallen056_jpg.rf.661d1a6bc033db26a6464d126f94b111.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.7855404615402222,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "not-fallen087_jpg.rf.86d077f4ea497a8c9cae24c04d137878.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9191827774047852,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "not-fallen088_jpg.rf.e777a512eeb0fb295375a0db055026f8.jpg",
+      "truth": false,
+      "finetuned": 0.7065633535385132,
+      "coco_person": 0.8546928763389587,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "not-fallen091_jpg.rf.954daf74d4adc31192f74b0973f13c3c.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.8842914700508118,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "not-fallen098_jpg.rf.3fac1831fec90cb9c10bc15940289a35.jpg",
+      "truth": false,
+      "finetuned": 0.010123194195330143,
+      "coco_person": 0.7461556196212769,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "not-fallen098_jpg.rf.85a9363b4e462f22bb773c407f9b36bc.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.43269190192222595,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "not-fallen103_jpg.rf.4838ab753fb7df27f730506a3cbd2de5.jpg",
+      "truth": false,
+      "finetuned": 0.33120739459991455,
+      "coco_person": 0.7990775108337402,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "not-fallen103_jpg.rf.ad7cda329df41e6802d082341d44e82f.jpg",
+      "truth": false,
+      "finetuned": 0.33120739459991455,
+      "coco_person": 0.7990775108337402,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "not-fallen107_jpg.rf.a6c972ef0f81a68407339fc2b7cd61bb.jpg",
+      "truth": false,
+      "finetuned": 0.5720741748809814,
+      "coco_person": 0.8313201665878296,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "not-fallen119_jpg.rf.72230b1319439e597b21adaadc5e7bf1.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "not-fallen123_jpg.rf.c8d047b992258c56cce8a39c483cc1cc.jpg",
+      "truth": false,
+      "finetuned": 0.04356756433844566,
+      "coco_person": 0.2980342209339142,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "not-fallen136_jpg.rf.2cf175dbd60063ecfe3fd7a41d482f04.jpg",
+      "truth": false,
+      "finetuned": 0.04094507545232773,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "not-fallen141_jpg.rf.c715a2827ba5b5d48a36854f034b1004.jpg",
+      "truth": false,
+      "finetuned": 0.20884661376476288,
+      "coco_person": 0.015393060632050037,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "not-fallen145_jpg.rf.c0a71a4def977ea23a6e295418a00b46.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.0,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "not-fallen150_jpg.rf.31328bae871bf6de911e6d2a54272049.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.7762210965156555,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "not-fallen166_jpg.rf.49caabffa173cbe8f2b0a8ce48c1856f.jpg",
+      "truth": false,
+      "finetuned": 0.03732006996870041,
+      "coco_person": 0.8671687245368958,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit102_jpg.rf.d40331aff8ef2f31ce890795d121de62.jpg",
+      "truth": false,
+      "finetuned": 0.7653254866600037,
+      "coco_person": 0.8557955622673035,
+      "coco_wide": 0.8464085459709167,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit103_jpg.rf.dc6b2fcb92533c474410eb208e2c7aa2.jpg",
+      "truth": false,
+      "finetuned": 0.42224645614624023,
+      "coco_person": 0.9364235997200012,
+      "coco_wide": 0.9364235997200012,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit104_jpg.rf.5f0b96922727b4892b1adb0f516c4d9c.jpg",
+      "truth": false,
+      "finetuned": 0.52707839012146,
+      "coco_person": 0.8573802709579468,
+      "coco_wide": 0.20810993015766144,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit105_jpg.rf.713e354ce63bb59092bae6e0f6df6c0d.jpg",
+      "truth": false,
+      "finetuned": 0.010422385297715664,
+      "coco_person": 0.8860659599304199,
+      "coco_wide": 0.507226288318634,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit106_jpg.rf.b14ff363d12c4cd709c85af181c25532.jpg",
+      "truth": false,
+      "finetuned": 0.04849375784397125,
+      "coco_person": 0.8899270296096802,
+      "coco_wide": 0.8899270296096802,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit108_jpg.rf.a370331d20c73bea9ed86a81e1c4b610.jpg",
+      "truth": false,
+      "finetuned": 0.5280724763870239,
+      "coco_person": 0.900704026222229,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit109_jpg.rf.6a9dca11b7ddb6743cda3bc59daecb4b.jpg",
+      "truth": false,
+      "finetuned": 0.18345141410827637,
+      "coco_person": 0.8905998468399048,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit109_jpg.rf.d3398f7fd1d34e0431861bc4e44e7901.jpg",
+      "truth": false,
+      "finetuned": 0.027536433190107346,
+      "coco_person": 0.8575512766838074,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit115_jpg.rf.6e951840fc173b6b6abca0139a28b7ab.jpg",
+      "truth": false,
+      "finetuned": 0.5793004035949707,
+      "coco_person": 0.9187811613082886,
+      "coco_wide": 0.027252355590462685,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit117_jpg.rf.fcb6ddaaeeea1087a968569b149f9e06.jpg",
+      "truth": false,
+      "finetuned": 0.23089532554149628,
+      "coco_person": 0.9033822417259216,
+      "coco_wide": 0.9031941294670105,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit119_jpg.rf.3576659042f70164e724ae7be7256c3d.jpg",
+      "truth": false,
+      "finetuned": 0.018813451752066612,
+      "coco_person": 0.9213961362838745,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit119_jpg.rf.7bc9fdbac8829c8069b6308c46a6744c.jpg",
+      "truth": false,
+      "finetuned": 0.3664933443069458,
+      "coco_person": 0.8831576704978943,
+      "coco_wide": 0.040830548852682114,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit119_jpg.rf.ffffac02e7434e84843ff898c458a416.jpg",
+      "truth": false,
+      "finetuned": 0.07566781342029572,
+      "coco_person": 0.9277939200401306,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit125_jpg.rf.8eebdd86cb4063f0be3f273b76ce954f.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9182784557342529,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit126_jpg.rf.4adbd4e61a9ca07b458a1eb392b8b352.jpg",
+      "truth": false,
+      "finetuned": 0.6943402290344238,
+      "coco_person": 0.8944869041442871,
+      "coco_wide": 0.013592835515737534,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit128_jpg.rf.f6083a3ecf64b3fcc905889ee1c4d758.jpg",
+      "truth": false,
+      "finetuned": 0.027515191584825516,
+      "coco_person": 0.9143490791320801,
+      "coco_wide": 0.014482521452009678,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit129_jpg.rf.2fc7524f0dcaf8d0c6cf421852c701d9.jpg",
+      "truth": false,
+      "finetuned": 0.6423919200897217,
+      "coco_person": 0.850090503692627,
+      "coco_wide": 0.634807288646698,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit13_jpg.rf.4a9e3ec7c0f0907faaa19fb482e1ba7e.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9124484062194824,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit17_jpg.rf.e06937e7bc4e773e51c60217765e38bb.jpg",
+      "truth": false,
+      "finetuned": 0.6764394640922546,
+      "coco_person": 0.9233161807060242,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit18_jpg.rf.e751dadda31cc35de444dbc616c3ac4e.jpg",
+      "truth": false,
+      "finetuned": 0.7122387290000916,
+      "coco_person": 0.9447531700134277,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit19_jpg.rf.04c2ee2c04512ce1e5d71ae4d25a1146.jpg",
+      "truth": false,
+      "finetuned": 0.23393015563488007,
+      "coco_person": 0.9342723488807678,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit20_jpg.rf.f6556abc6aaa92f4cf39c21e16582bef.jpg",
+      "truth": false,
+      "finetuned": 0.7732564210891724,
+      "coco_person": 0.9064134359359741,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit21_jpg.rf.1c44967242bd4ce5d8d7a9be6b93df01.jpg",
+      "truth": false,
+      "finetuned": 0.681187629699707,
+      "coco_person": 0.890254557132721,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit23_jpg.rf.78e69200180c38c567993cc3d8097e1c.jpg",
+      "truth": false,
+      "finetuned": 0.025329381227493286,
+      "coco_person": 0.927501380443573,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit25_jpg.rf.ce80a8c7d024e44f513f236eeadd0a86.jpg",
+      "truth": false,
+      "finetuned": 0.5286888480186462,
+      "coco_person": 0.934238851070404,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit27_jpg.rf.180cb6d902230591a7fedbe92c428962.jpg",
+      "truth": false,
+      "finetuned": 0.04625161364674568,
+      "coco_person": 0.916401743888855,
+      "coco_wide": 0.011204229667782784,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit28_jpg.rf.5bb662a2ff53deee82eac88e48b3d6a7.jpg",
+      "truth": false,
+      "finetuned": 0.10502400994300842,
+      "coco_person": 0.9040471911430359,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit31_jpg.rf.369eb9dfb51704a08749ab54027cd787.jpg",
+      "truth": false,
+      "finetuned": 0.01485514733940363,
+      "coco_person": 0.8272087574005127,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit33_jpg.rf.bd5016703052124180b4e1d0dae2a74f.jpg",
+      "truth": false,
+      "finetuned": 0.4643076956272125,
+      "coco_person": 0.8926059603691101,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit36_jpg.rf.39e94b02074648f2193471026fabc764.jpg",
+      "truth": false,
+      "finetuned": 0.12711785733699799,
+      "coco_person": 0.8934992551803589,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit37_jpg.rf.3e06fee88cac9074e265687702fc41a7.jpg",
+      "truth": false,
+      "finetuned": 0.16934339702129364,
+      "coco_person": 0.899968683719635,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit37_jpg.rf.4489235c0bc4a1f35c8f357b9f6be3a0.jpg",
+      "truth": false,
+      "finetuned": 0.05692661181092262,
+      "coco_person": 0.8531830310821533,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit37_jpg.rf.795fdcf4696d3bc3050ce41341875d47.jpg",
+      "truth": false,
+      "finetuned": 0.025892218574881554,
+      "coco_person": 0.8749837279319763,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit38_jpg.rf.5139960f5e303ad2f32eb03eb8091d03.jpg",
+      "truth": false,
+      "finetuned": 0.04470653459429741,
+      "coco_person": 0.8906605243682861,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit41_jpg.rf.598956207980c2f25eaabd13d4c5aaad.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9074915647506714,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit47_jpg.rf.96772ed4f4f8f10c32a739ccf4c9d3c0.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9295386075973511,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit47_jpg.rf.d610816d2a82b9231db6a3ec5c613a25.jpg",
+      "truth": false,
+      "finetuned": 0.6338037252426147,
+      "coco_person": 0.8877303600311279,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit48_jpg.rf.86a7cc777174bdcf758f68615548a647.jpg",
+      "truth": false,
+      "finetuned": 0.048616547137498856,
+      "coco_person": 0.926343560218811,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit57_jpg.rf.058ca76d6dd9e9a56a35fec4bf379012.jpg",
+      "truth": false,
+      "finetuned": 0.40942975878715515,
+      "coco_person": 0.8375310301780701,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit61_jpg.rf.548a77359c8548f9076bd02da43db0eb.jpg",
+      "truth": false,
+      "finetuned": 0.08474163711071014,
+      "coco_person": 0.8939849734306335,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit64_jpg.rf.4cb6c75003596a746dca38d91431e87d.jpg",
+      "truth": false,
+      "finetuned": 0.695664644241333,
+      "coco_person": 0.9209513664245605,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit64_jpg.rf.fd00397927bb632568a6bcc142e50c38.jpg",
+      "truth": false,
+      "finetuned": 0.46020299196243286,
+      "coco_person": 0.8812424540519714,
+      "coco_wide": 0.8060274124145508,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit65_jpg.rf.36d74f8ea3cb5c53e1d0e4814df4e38f.jpg",
+      "truth": false,
+      "finetuned": 0.014885065145790577,
+      "coco_person": 0.9360466003417969,
+      "coco_wide": 0.7291456460952759,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit66_jpg.rf.2d189a5a0728feb43d434169b70970a2.jpg",
+      "truth": false,
+      "finetuned": 0.12865875661373138,
+      "coco_person": 0.9238300919532776,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit67_jpg.rf.7385293a898ce654ad40257e2551d7ea.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9126198291778564,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit6_jpg.rf.1a468ecb61faaaab01ee2065b3e941d5.jpg",
+      "truth": false,
+      "finetuned": 0.367139607667923,
+      "coco_person": 0.9137187600135803,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit72_jpg.rf.be94cf000d4c0414ad087023afc7d33f.jpg",
+      "truth": false,
+      "finetuned": 0.1833600103855133,
+      "coco_person": 0.9129107594490051,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit72_jpg.rf.e70c3a6896820b227087b2a15de62082.jpg",
+      "truth": false,
+      "finetuned": 0.1833600103855133,
+      "coco_person": 0.9129107594490051,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit76_jpg.rf.77870c2ea775d10b4ded2790c3cdd10d.jpg",
+      "truth": false,
+      "finetuned": 0.014456056989729404,
+      "coco_person": 0.9356006979942322,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit76_jpg.rf.81ab90dd4c019449e5736ebe0c959aa5.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9361600279808044,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit77_jpg.rf.10d67e0fc151bb74bba610058ba93e55.jpg",
+      "truth": false,
+      "finetuned": 0.49827831983566284,
+      "coco_person": 0.8962948322296143,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit77_jpg.rf.e57e194d66cf341a7ebd7d2baae78f29.jpg",
+      "truth": false,
+      "finetuned": 0.3088780343532562,
+      "coco_person": 0.9142118692398071,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit7_jpg.rf.f2e0f82c1363a8d6a54ddc0867a73fd2.jpg",
+      "truth": false,
+      "finetuned": 0.5291414856910706,
+      "coco_person": 0.9270206689834595,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit80_jpg.rf.587aeba313a8f341da6a243bf3a07cfd.jpg",
+      "truth": false,
+      "finetuned": 0.49223530292510986,
+      "coco_person": 0.923667311668396,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit85_jpg.rf.28dddefd372c3d47bbce58d9d5ff071a.jpg",
+      "truth": false,
+      "finetuned": 0.19865675270557404,
+      "coco_person": 0.931747317314148,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit87_jpg.rf.5a4893bd4a6cc89c8223bed5ee2b6f0d.jpg",
+      "truth": false,
+      "finetuned": 0.2622779309749603,
+      "coco_person": 0.9225838780403137,
+      "coco_wide": 0.022029725834727287,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit87_jpg.rf.697ed930e5cdee2030a1ba3fbde81eba.jpg",
+      "truth": false,
+      "finetuned": 0.21343354880809784,
+      "coco_person": 0.859535813331604,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit89_jpg.rf.f35a0724bfa97d980d15d81aac3e2be8.jpg",
+      "truth": false,
+      "finetuned": 0.2307116687297821,
+      "coco_person": 0.9354954957962036,
+      "coco_wide": 0.2315923124551773,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit90_jpg.rf.178217d1c102bc7f8f0fcdf626220aef.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.8884387016296387,
+      "coco_wide": 0.03990747779607773,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit92_jpg.rf.1b603d8a9de4618dc1e7f2584979d23c.jpg",
+      "truth": false,
+      "finetuned": 0.1772611141204834,
+      "coco_person": 0.938855767250061,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    },
+    {
+      "image": "sit9_jpg.rf.6745e767a770fb7efd72fc779fe4e08e.jpg",
+      "truth": false,
+      "finetuned": 0.0,
+      "coco_person": 0.9118008613586426,
+      "coco_wide": 0.0,
+      "nothing": 0.0
+    }
+  ]
+}

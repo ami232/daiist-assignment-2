@@ -14,3 +14,24 @@ runs/
 
 # Never commit your API key
 .env
+
+# Private study and helper files -- not part of the submission
+CLAUDE.md
+NOTES.md
+check_datasets.py
+vision_api_inspection_roboflow*.ipynb
+
+# Pretrained checkpoint Ultralytics downloads on first use; only our finetuned weights/best.pt is committed
+yolo11n.pt
+
+# Colab download; its contents are committed unzipped in weights/ and outputs/
+results.zip
+
+# Dashboard planning mockup, not part of the submission
+dashboard_mockup.html
+
+# Claude Code tooling (launch config for previewing the app)
+.claude/
+
+# Private report-writing guide, not part of the submission
+REPORT_GUIDE.md

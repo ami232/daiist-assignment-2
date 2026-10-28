@@ -1,0 +1,178 @@
+{
+  "dataset": {
+    "train": {
+      "images": 1968,
+      "originals": 656,
+      "empty": 45,
+      "multi_person": 0,
+      "Falling": 540,
+      "Sitting": 735,
+      "Standing": 648,
+      "median_box": 0.1572265625
+    },
+    "valid": {
+      "images": 82,
+      "originals": 82,
+      "empty": 0,
+      "multi_person": 0,
+      "Falling": 32,
+      "Sitting": 28,
+      "Standing": 22,
+      "median_box": 0.150634765625
+    },
+    "test": {
+      "images": 82,
+      "originals": 82,
+      "empty": 1,
+      "multi_person": 0,
+      "Falling": 27,
+      "Sitting": 28,
+      "Standing": 26,
+      "median_box": 0.16274597167968752
+    },
+    "external": {
+      "images": 563,
+      "originals": 506,
+      "empty": 0,
+      "multi_person": 186,
+      "Falling": 109,
+      "Sitting": 361,
+      "Standing": 408,
+      "median_box": 0.09064453125
+    }
+  },
+  "near_duplicates": {
+    "valid": {
+      "images": 82,
+      "within_10": 74,
+      "median": 4
+    },
+    "test": {
+      "images": 82,
+      "within_10": 76,
+      "median": 4
+    },
+    "external": {
+      "images": 563,
+      "within_10": 0,
+      "median": 96
+    }
+  },
+  "internal": {
+    "overall": {
+      "map50": 0.995,
+      "map50_95": 0.8499041170691897
+    },
+    "per_class": {
+      "Falling": {
+        "precision": 1.0,
+        "recall": 0.9605517846400475,
+        "ap50": 0.995,
+        "ap50_95": 0.8294763630089717
+      },
+      "Sitting": {
+        "precision": 0.9815906455166948,
+        "recall": 1.0,
+        "ap50": 0.995,
+        "ap50_95": 0.8734146537842189
+      },
+      "Standing": {
+        "precision": 0.981154416473611,
+        "recall": 1.0,
+        "ap50": 0.995,
+        "ap50_95": 0.8468213344143779
+      }
+    },
+    "confusion_matrix": [
+      [
+        24,
+        0,
+        4,
+        13
+      ],
+      [
+        0,
+        28,
+        0,
+        1
+      ],
+      [
+        3,
+        0,
+        22,
+        5
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "external": {
+    "overall": {
+      "map50": 0.04237144360029511,
+      "map50_95": 0.015013904814027713
+    },
+    "per_class": {
+      "Falling": {
+        "precision": 0.1392344086762778,
+        "recall": 0.30275229357798167,
+        "ap50": 0.10120504858497005,
+        "ap50_95": 0.03467184427171242
+      },
+      "Sitting": {
+        "precision": 0.11896453385937518,
+        "recall": 0.002770083102493075,
+        "ap50": 0.006776834714224718,
+        "ap50_95": 0.002591622393695635
+      },
+      "Standing": {
+        "precision": 0.1717735983745624,
+        "recall": 0.0392156862745098,
+        "ap50": 0.019132447501690554,
+        "ap50_95": 0.007778247776675093
+      }
+    },
+    "confusion_matrix": [
+      [
+        40,
+        71,
+        22,
+        952
+      ],
+      [
+        5,
+        12,
+        12,
+        777
+      ],
+      [
+        19,
+        60,
+        31,
+        542
+      ],
+      [
+        45,
+        218,
+        343,
+        0
+      ]
+    ]
+  },
+  "matrix_labels": [
+    "Falling",
+    "Sitting",
+    "Standing",
+    "background"
+  ],
+  "train_settings": {
+    "epochs": 50,
+    "imgsz": 640,
+    "batch": 16,
+    "patience": 10,
+    "seed": 0
+  }
+}
