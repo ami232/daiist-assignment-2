@@ -1,0 +1,4 @@
+split,images,empty_images,objects,images_with_rotten,share_images_with_rotten
+train,16609,964,26869,9761,0.588
+valid,4852,277,8414,2781,0.573
+test,2443,140,4268,1407,0.576

@@ -1,0 +1,7 @@
+class,precision,recall,ap50,ap50_95
+fresh_apples,0.814,0.8995,0.929,0.7857
+fresh_banana,0.9736,0.9547,0.9773,0.8208
+fresh_oranges,0.9639,0.9613,0.9782,0.8584
+rotten_apples,0.8995,0.8545,0.9427,0.783
+rotten_banana,0.9681,0.9371,0.9606,0.8177
+rotten_oranges,0.9909,0.9731,0.994,0.9023

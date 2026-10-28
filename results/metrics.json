@@ -1,0 +1,28 @@
+{
+  "settings": {
+    "model": "yolo11n.pt",
+    "epochs": 20,
+    "imgsz": 640,
+    "seed": 0,
+    "trained_on_gpu": false,
+    "dataset": "project-irggm/-w4yds v1"
+  },
+  "finetuned": {
+    "map50": 0.9636172262077665,
+    "map50_95": 0.8279856975658545
+  },
+  "coco_zero_shot": {
+    "fruit_type_map50": 0.44187655371218043,
+    "fruit_type_ap50": {
+      "banana": 0.4088,
+      "apple": 0.415,
+      "orange": 0.5019
+    },
+    "can_detect_rot": false
+  },
+  "predict_nothing": {
+    "map50": 0.0,
+    "map50_95": 0.0,
+    "recall": 0.0
+  }
+}

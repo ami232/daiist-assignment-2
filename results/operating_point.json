@@ -1,0 +1,19 @@
+{
+  "model_alone": {
+    "threshold": 0.5,
+    "cost_per_1000": 1.6946061199792544
+  },
+  "model_plus_review": {
+    "t_low": 0.22,
+    "t_high": 0.8,
+    "review_share": 0.01383492767821126,
+    "cost_per_1000": 0.2666515796179975,
+    "reviews_per_day": 1383.492767821126,
+    "reviewer_hours_per_day": 0.7686070932339589
+  },
+  "alternatives_per_1000": {
+    "do_nothing_ship_everything": 60.0,
+    "person_checks_everything": 6.944444444444444,
+    "discard_everything": 194.0
+  }
+}
