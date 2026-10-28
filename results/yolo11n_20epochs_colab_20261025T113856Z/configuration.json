@@ -1,0 +1,38 @@
+{
+  "status": "ready_for_colab",
+  "experiment_name": "yolo11n_20epochs_colab",
+  "model": "yolo11n.pt",
+  "resume_from": null,
+  "compare_with": "results/pilot_yolo11n_20261024T184544Z",
+  "execution_interface": "VS Code notebook, official Google Colab extension",
+  "task": "detect",
+  "dataset_config": "dataset_config.json",
+  "training": {
+    "epochs": 20,
+    "imgsz": 640,
+    "batch": 8,
+    "seed": 42,
+    "workers": 2,
+    "cache": false,
+    "mosaic": 0.0,
+    "close_mosaic": 0
+  },
+  "device_preference": [
+    "cuda"
+  ],
+  "checkpoint_selection_split": "valid",
+  "evaluate_test_during_initial_run": false,
+  "notes": [
+    "The student selected YOLO11n after comparing its size and resource needs with YOLO11s.",
+    "The student authorised a second experiment of twenty epochs after reviewing the ten-epoch pilot and example failures.",
+    "Start again from the same pretrained YOLO11n weights; retain the ten-epoch model and all its results.",
+    "Mosaic was inactive throughout the ten-epoch pilot because its default close_mosaic=10 equalled the whole run. Explicitly disable it here to retain that effective augmentation behaviour.",
+    "The default learning-rate schedule scales with the number of epochs. The first run also had a checkpoint interruption, so this is a practical experiment comparison, not an identical random trajectory extended by ten epochs.",
+    "Select checkpoints with validation; reserve final test performance for the final evaluation.",
+    "train.py implements train/validation experiments; the full assignment pipeline remains to be completed.",
+    "The student authorised a batch-4 speed trial to reduce memory pressure, resuming after saved epochs. Keep 640-pixel images and twenty total epochs; record the change when comparing models.",
+    "Authorised migration after three saved epochs: MPS to Colab CUDA; restore batch 8 and use two data-loader workers. Preserve 640 pixels, 20 total epochs, data, labels and validation-only selection. Hardware, batch changes and interruptions affect reproducibility.",
+    "Start a fresh 20-epoch CUDA experiment after the MPS checkpoint optimizer failed with a fused Adam dtype/device/layout mismatch. Preserve the Mac checkpoint separately. The fresh run uses exactly the original pretrained weights, checked by SHA256."
+  ],
+  "last_run_id": "yolo11n_20epochs_20261025T102112Z"
+}

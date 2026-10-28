@@ -1,0 +1,514 @@
+{
+  "evaluation_split": "test",
+  "test_evaluated": true,
+  "completed_utc": "2026-10-26T16:31:51.978344+00:00",
+  "evaluation_context": "secondary_reuse_of_previously_evaluated_test",
+  "policy_sha256": "055c98c9e2a86e7ed8509ebe109186363d26f927b9761f216c5a63786a8bc7ae",
+  "policy": {
+    "status": "frozen_before_test",
+    "created_utc": "2026-10-26T16:31:50.285245+00:00",
+    "selection_split": "valid",
+    "model_key": "yolo11s_20_epochs",
+    "weights": "weights/yolo11s_20epochs_colab_20261025T192043Z.pt",
+    "weights_sha256": "2b4b296ef55a1c30a8227fdfc8d1ef1c27bf9f9ddf9d1d481ceb600fdacdb04d",
+    "model_architecture": "yolo11s",
+    "pretrained_weights": "data/pretrained/yolo11s.pt",
+    "lower": 0.0037504133069887757,
+    "upper": 0.713699072599411,
+    "scenario_sha256": "3ed4900ada4864701b4ec8a6a173f918f8a85aeef52a906a625a81003ac5b3a1",
+    "validation_predictions_sha256": "ff9e5a1573f992f12879c078f6c67870d67d2e6b39638318ea0975dfb9f8e228",
+    "validation_analysis_sha256": "c583ec293ff53ebdfcaf13589c4d0d147d2c783ae8649547f4b842758cc0380d",
+    "selection_rule": "Lowest validation expected cost among all observed threshold partitions. Staff time is costed and reported; no fixed daily workload limit.",
+    "available_staff_minutes_per_day": null,
+    "workload_constraint_applied": false,
+    "selection_note": "Student removes the fixed 92-minute capacity limit and selects minimum expected validation cost, including staff time valued at EUR20/hour. Workload is reported as time released for other duties. Retain the confirmed YOLO11s 20-epoch weights. The hybrid optimum is unchanged; the model-alone cutoff is reselected on validation without the cap, before applying it to the previously seen test predictions.",
+    "validation_expected_cost_per_day": 27.59178743961352,
+    "validation_expected_minutes_per_day": 82.77536231884058,
+    "evaluation_context": "secondary_reuse_of_previously_evaluated_test",
+    "test_must_not_select_or_tune_policy": true,
+    "model_only_threshold": 0.01808653026819229,
+    "model_only_selection_split": "valid",
+    "pretrained_weights_sha256": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5"
+  },
+  "inference": {
+    "imgsz": 640,
+    "batch": 1,
+    "rect": false,
+    "confidence": 0.001,
+    "nms_iou": 0.7,
+    "max_det": 300
+  },
+  "detection_images": 206,
+  "known_condition_images": 205,
+  "unknown_condition_images": [
+    "data/car-damage-v1/test/images/1-78-_jpeg.rf.3d78c23be707580bc56ca20e55d687c7.jpg"
+  ],
+  "metrics": {
+    "metrics/precision(B)": 0.8456624865826194,
+    "metrics/recall(B)": 0.7166149068322981,
+    "metrics/mAP50(B)": 0.8150646097464225,
+    "metrics/mAP50-95(B)": 0.5254149533050563,
+    "fitness": 0.5254149533050563
+  },
+  "per_class": [
+    {
+      "Class": "Damage-detected",
+      "Images": 92,
+      "Instances": 92,
+      "Box-P": 0.860265,
+      "Box-R": 0.576087,
+      "Box-F1": 0.690064,
+      "mAP50": 0.716951,
+      "mAP75": 0.283205,
+      "mAP50-95": 0.34952
+    },
+    {
+      "Class": "Undamaged",
+      "Images": 113,
+      "Instances": 119,
+      "Box-P": 0.83106,
+      "Box-R": 0.857143,
+      "Box-F1": 0.8439,
+      "mAP50": 0.913179,
+      "mAP75": 0.823505,
+      "mAP50-95": 0.70131
+    }
+  ],
+  "detection_precision_recall_note": "Per-box metrics at test evaluator's F1 point; this summary does not alter the frozen operating thresholds.",
+  "box_confusion": {
+    "values": [
+      [
+        17.0,
+        0.0,
+        2.0
+      ],
+      [
+        6.0,
+        93.0,
+        5.0
+      ],
+      [
+        69.0,
+        26.0,
+        0.0
+      ]
+    ],
+    "confidence": 0.713699072599411,
+    "matching_iou": 0.45,
+    "rows": "predicted class; final row=background/miss",
+    "columns": "true class; final column=unmatched prediction",
+    "classes": [
+      "Damage-detected",
+      "Undamaged",
+      "background"
+    ]
+  },
+  "photo_condition_at_upper": {
+    "threshold": 0.713699072599411,
+    "tp": 19,
+    "fp": 0,
+    "fn": 73,
+    "tn": 113,
+    "precision": 1.0,
+    "recall": 0.20652173913043478,
+    "false_negative_rate": 0.7934782608695652,
+    "false_positive_rate": 0.0
+  },
+  "frozen_policy_scenario": {
+    "tp_rate": 0.04891304347826087,
+    "fp_rate": 0.0,
+    "fn_rate": 0.001086956521739131,
+    "tn_rate": 0.95,
+    "photo_review_rate": 0.5430117352828011,
+    "physical_check_rate": 0.0,
+    "incident_rate": 0.04891304347826087,
+    "false_incident_loss_per_case": 0.0,
+    "minutes_per_case": 0.7875769526741054,
+    "labour_per_case": 0.2625256508913685,
+    "missed_damage_loss_per_case": 0.21739130434782622,
+    "cost_per_case": 0.4799169552391947,
+    "lower": 0.0037504133069887757,
+    "upper": 0.713699072599411,
+    "workflow": "photo_triage_incidents_v1",
+    "routing_counts": [
+      [
+        2,
+        53
+      ],
+      [
+        71,
+        60
+      ],
+      [
+        19,
+        0
+      ]
+    ],
+    "routing_rows": [
+      "pass",
+      "photo_review",
+      "provisional_incident"
+    ],
+    "routing_columns": [
+      "damage",
+      "undamaged"
+    ],
+    "known_photos": 205,
+    "positive_photos": 92,
+    "negative_photos": 113,
+    "conditional_damage_miss_rate": 0.021739130434782622,
+    "cost_per_1000": 479.9169552391947,
+    "cost_per_day": 47.99169552391947,
+    "minutes_per_day": 78.75769526741054,
+    "photo_reviews_per_day": 54.30117352828011,
+    "physical_checks_per_day": 0.0,
+    "incidents_per_day": 4.891304347826087,
+    "false_incidents_per_day": 0.0,
+    "missed_damage_cases_per_day": 0.10869565217391311,
+    "capacity_feasible": null,
+    "expected_confusion_per_1000": [
+      [
+        48.913043478260875,
+        1.086956521739131
+      ],
+      [
+        0.0,
+        950.0
+      ]
+    ]
+  },
+  "alternatives": {
+    "do_nothing": {
+      "tp_rate": 0.0,
+      "fp_rate": 0.0,
+      "fn_rate": 0.05,
+      "tn_rate": 0.95,
+      "photo_review_rate": 0.0,
+      "physical_check_rate": 0.0,
+      "incident_rate": 0.0,
+      "false_incident_loss_per_case": 0.0,
+      "minutes_per_case": 0.0,
+      "labour_per_case": 0.0,
+      "missed_damage_loss_per_case": 10.0,
+      "cost_per_case": 10.0,
+      "cost_per_1000": 10000.0,
+      "cost_per_day": 1000.0,
+      "minutes_per_day": 0.0,
+      "capacity_feasible": null
+    },
+    "physical_check_everything": {
+      "tp_rate": 0.05,
+      "fp_rate": 0.95,
+      "fn_rate": 0.0,
+      "tn_rate": 0.0,
+      "photo_review_rate": 0.0,
+      "physical_check_rate": 1.0,
+      "incident_rate": 0.05,
+      "false_incident_loss_per_case": 0.0,
+      "minutes_per_case": 3.25,
+      "labour_per_case": 1.0833333333333333,
+      "missed_damage_loss_per_case": 0.0,
+      "cost_per_case": 1.0833333333333333,
+      "cost_per_1000": 1083.3333333333333,
+      "cost_per_day": 108.33333333333333,
+      "minutes_per_day": 325.0,
+      "capacity_feasible": null
+    },
+    "photo_review_everything": {
+      "tp_rate": 0.05,
+      "fp_rate": 0.0,
+      "fn_rate": 0.0,
+      "tn_rate": 0.95,
+      "photo_review_rate": 1.0,
+      "physical_check_rate": 0.0,
+      "incident_rate": 0.05,
+      "false_incident_loss_per_case": 0.0,
+      "minutes_per_case": 1.25,
+      "labour_per_case": 0.4166666666666667,
+      "missed_damage_loss_per_case": 0.0,
+      "cost_per_case": 0.4166666666666667,
+      "cost_per_1000": 416.6666666666667,
+      "cost_per_day": 41.66666666666667,
+      "minutes_per_day": 125.0,
+      "capacity_feasible": null
+    }
+  },
+  "model_only_scenario": {
+    "tp_rate": 0.045108695652173916,
+    "fp_rate": 0.20176991150442478,
+    "fn_rate": 0.0048913043478260865,
+    "tn_rate": 0.7482300884955752,
+    "photo_review_rate": 0.0,
+    "physical_check_rate": 0.0,
+    "incident_rate": 0.2468786071565987,
+    "false_incident_loss_per_case": 0.0,
+    "minutes_per_case": 1.2343930357829935,
+    "labour_per_case": 0.41146434526099784,
+    "missed_damage_loss_per_case": 0.9782608695652173,
+    "cost_per_case": 1.3897252148262151,
+    "lower": 0.01808653026819229,
+    "upper": 0.01808653026819229,
+    "workflow": "photo_triage_incidents_v1",
+    "routing_counts": [
+      [
+        9,
+        89
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        83,
+        24
+      ]
+    ],
+    "routing_rows": [
+      "pass",
+      "photo_review",
+      "provisional_incident"
+    ],
+    "routing_columns": [
+      "damage",
+      "undamaged"
+    ],
+    "known_photos": 205,
+    "positive_photos": 92,
+    "negative_photos": 113,
+    "conditional_damage_miss_rate": 0.09782608695652173,
+    "cost_per_1000": 1389.725214826215,
+    "cost_per_day": 138.97252148262152,
+    "minutes_per_day": 123.43930357829936,
+    "photo_reviews_per_day": 0.0,
+    "physical_checks_per_day": 0.0,
+    "incidents_per_day": 24.68786071565987,
+    "false_incidents_per_day": 20.17699115044248,
+    "missed_damage_cases_per_day": 0.48913043478260865,
+    "capacity_feasible": null,
+    "expected_confusion_per_1000": [
+      [
+        45.108695652173914,
+        4.891304347826086
+      ],
+      [
+        201.76991150442478,
+        748.2300884955752
+      ]
+    ]
+  },
+  "baselines": {
+    "coco_zero_shot": {
+      "mAP50": 0.0,
+      "mAP50_95": 0.0,
+      "per_class": [
+        {
+          "Class": "Damage-detected",
+          "AP50": 0.0,
+          "AP50_95": 0.0,
+          "recall": 0.0,
+          "precision": null
+        },
+        {
+          "Class": "Undamaged",
+          "AP50": 0.0,
+          "AP50_95": 0.0,
+          "recall": 0.0,
+          "precision": null
+        }
+      ],
+      "precision_note": "Undefined without positive predictions.",
+      "photo_confusion_no_alerts": {
+        "threshold": 0.4,
+        "tp": 0,
+        "fp": 0,
+        "fn": 92,
+        "tn": 113,
+        "precision": null,
+        "recall": 0.0,
+        "false_negative_rate": 1.0,
+        "false_positive_rate": 0.0
+      },
+      "scenario": {
+        "tp_rate": 0.0,
+        "fp_rate": 0.0,
+        "fn_rate": 0.05,
+        "tn_rate": 0.95,
+        "photo_review_rate": 0.0,
+        "physical_check_rate": 0.0,
+        "incident_rate": 0.0,
+        "false_incident_loss_per_case": 0.0,
+        "minutes_per_case": 0.0,
+        "labour_per_case": 0.0,
+        "missed_damage_loss_per_case": 10.0,
+        "cost_per_case": 10.0,
+        "cost_per_1000": 10000.0,
+        "cost_per_day": 1000.0,
+        "minutes_per_day": 0.0,
+        "capacity_feasible": null
+      },
+      "source_classes": {
+        "0": "person",
+        "1": "bicycle",
+        "2": "car",
+        "3": "motorcycle",
+        "4": "airplane",
+        "5": "bus",
+        "6": "train",
+        "7": "truck",
+        "8": "boat",
+        "9": "traffic light",
+        "10": "fire hydrant",
+        "11": "stop sign",
+        "12": "parking meter",
+        "13": "bench",
+        "14": "bird",
+        "15": "cat",
+        "16": "dog",
+        "17": "horse",
+        "18": "sheep",
+        "19": "cow",
+        "20": "elephant",
+        "21": "bear",
+        "22": "zebra",
+        "23": "giraffe",
+        "24": "backpack",
+        "25": "umbrella",
+        "26": "handbag",
+        "27": "tie",
+        "28": "suitcase",
+        "29": "frisbee",
+        "30": "skis",
+        "31": "snowboard",
+        "32": "sports ball",
+        "33": "kite",
+        "34": "baseball bat",
+        "35": "baseball glove",
+        "36": "skateboard",
+        "37": "surfboard",
+        "38": "tennis racket",
+        "39": "bottle",
+        "40": "wine glass",
+        "41": "cup",
+        "42": "fork",
+        "43": "knife",
+        "44": "spoon",
+        "45": "bowl",
+        "46": "banana",
+        "47": "apple",
+        "48": "sandwich",
+        "49": "orange",
+        "50": "broccoli",
+        "51": "carrot",
+        "52": "hot dog",
+        "53": "pizza",
+        "54": "donut",
+        "55": "cake",
+        "56": "chair",
+        "57": "couch",
+        "58": "potted plant",
+        "59": "bed",
+        "60": "dining table",
+        "61": "toilet",
+        "62": "tv",
+        "63": "laptop",
+        "64": "mouse",
+        "65": "remote",
+        "66": "keyboard",
+        "67": "cell phone",
+        "68": "microwave",
+        "69": "oven",
+        "70": "toaster",
+        "71": "sink",
+        "72": "refrigerator",
+        "73": "book",
+        "74": "clock",
+        "75": "vase",
+        "76": "scissors",
+        "77": "teddy bear",
+        "78": "hair drier",
+        "79": "toothbrush"
+      },
+      "mapping": "Exact class-name matches only",
+      "raw_prediction_count": 23541,
+      "photos_with_coco_car": 190,
+      "mapped_target_prediction_count": 0,
+      "limitation": "COCO contains neither Damage-detected nor Undamaged. Car detections are not condition labels.",
+      "inference_ran": true,
+      "weights": "data/pretrained/yolo11s.pt",
+      "weights_sha256": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5"
+    },
+    "predict_nothing": {
+      "mAP50": 0.0,
+      "mAP50_95": 0.0,
+      "per_class": [
+        {
+          "Class": "Damage-detected",
+          "AP50": 0.0,
+          "AP50_95": 0.0,
+          "recall": 0.0,
+          "precision": null
+        },
+        {
+          "Class": "Undamaged",
+          "AP50": 0.0,
+          "AP50_95": 0.0,
+          "recall": 0.0,
+          "precision": null
+        }
+      ],
+      "precision_note": "Undefined without positive predictions.",
+      "photo_confusion_no_alerts": {
+        "threshold": 0.4,
+        "tp": 0,
+        "fp": 0,
+        "fn": 92,
+        "tn": 113,
+        "precision": null,
+        "recall": 0.0,
+        "false_negative_rate": 1.0,
+        "false_positive_rate": 0.0
+      },
+      "scenario": {
+        "tp_rate": 0.0,
+        "fp_rate": 0.0,
+        "fn_rate": 0.05,
+        "tn_rate": 0.95,
+        "photo_review_rate": 0.0,
+        "physical_check_rate": 0.0,
+        "incident_rate": 0.0,
+        "false_incident_loss_per_case": 0.0,
+        "minutes_per_case": 0.0,
+        "labour_per_case": 0.0,
+        "missed_damage_loss_per_case": 10.0,
+        "cost_per_case": 10.0,
+        "cost_per_1000": 10000.0,
+        "cost_per_day": 1000.0,
+        "minutes_per_day": 0.0,
+        "capacity_feasible": null
+      },
+      "definition": "No boxes or damage alerts.",
+      "inference_ran": false
+    }
+  },
+  "failures": [
+    {
+      "image": "data/car-damage-v1/test/images/0015_JPEG.rf.248539b9905283924272bab7af902832.jpg",
+      "damage_truth": true,
+      "score": 0.003444717265665531,
+      "type": "damage_passed_directly"
+    },
+    {
+      "image": "data/car-damage-v1/test/images/0267_JPEG.rf.ffe03458ce22ffd14eade4bf19cb9579.jpg",
+      "damage_truth": true,
+      "score": 0.002875032601878047,
+      "type": "damage_passed_directly"
+    }
+  ],
+  "limitations": [
+    "Human-review and monetary outcomes are simulated; photo routing and scores are observed.",
+    "Costs use the same 5% scenario prevalence, not the test positive fraction.",
+    "No test threshold sweep or model selection. Do not tune this policy using these results.",
+    "Human condition review is assumed, not measured; one photo is only a proxy for one return.",
+    "A secondary evaluation of a previously seen test set is not a new independent holdout."
+  ]
+}

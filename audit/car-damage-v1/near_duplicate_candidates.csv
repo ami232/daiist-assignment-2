@@ -1,0 +1,4 @@
+image_a,image_b,split_a,split_b,class_a,class_b,phash_distance,transform_b,same_pixels
+train/images/0276_JPEG.rf.e773d9377d0b1b253bafbbf000f5b2bd.jpg,valid/images/0052_JPEG.rf.7a3c80f4eee753521c5ebcedf0e31a26.jpg,train,valid,Damage-detected,Damage-detected,2,0,False
+train/images/0299_JPEG.rf.ef45222595474029c3b08ceeca7ed6fe.jpg,valid/images/0114_JPEG.rf.6de30862f8d23be145564c5ec3b2b790.jpg,train,valid,Damage-detected,Damage-detected,0,0,False
+train/images/0299_JPEG.rf.ecccb490f43bf34c3dec02bf6e64507c.jpg,valid/images/0209_JPEG.rf.522f7abf5a9c03eb0c6117c2fd8eee71.jpg,train,valid,Damage-detected,Damage-detected,0,0,False

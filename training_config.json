@@ -1,0 +1,36 @@
+{
+  "status": "configured_for_student_selected_final_reproduction",
+  "experiment_name": "final_yolo11s_20epochs",
+  "model": "yolo11s.pt",
+  "resume_from": null,
+  "compare_with": null,
+  "execution_interface": "VS Code; automatic CUDA, MPS or CPU selection",
+  "task": "detect",
+  "dataset_config": "dataset_config.json",
+  "training": {
+    "epochs": 20,
+    "imgsz": 640,
+    "batch": 8,
+    "seed": 42,
+    "workers": 2,
+    "cache": false,
+    "mosaic": 0.0,
+    "close_mosaic": 0
+  },
+  "device_preference": [
+    "cuda",
+    "mps",
+    "cpu"
+  ],
+  "checkpoint_selection_split": "valid",
+  "evaluate_test_during_initial_run": false,
+  "notes": [
+    "Student explicitly selected YOLO11s 20 epochs and its validation-cost-minimising review policy.",
+    "Preserve original data, resolution 640, batch 8, seed 42, workers 2, cache false and mosaic disabled.",
+    "A new main.py train run trains this architecture, selects its review thresholds with validation, then evaluates the frozen policy on test.",
+    "The existing test has previously been evaluated; subsequent results are secondary reuse, not a new independent holdout.",
+    "The 40-epoch optional trial remains blocked by Colab quota. No fresh integrated training was launched when configuring this recipe.",
+    "Thresholds minimise expected validation cost including staff time, with no fixed daily workload limit; report time released for other duties."
+  ],
+  "last_run_id": null
+}

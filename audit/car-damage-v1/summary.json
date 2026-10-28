@@ -1,0 +1,69 @@
+{
+  "dataset": "data/car-damage-v1",
+  "classes": [
+    "Damage-detected",
+    "Undamaged"
+  ],
+  "split_images": {
+    "train": 1501,
+    "valid": 366,
+    "test": 206
+  },
+  "class_statistics": {
+    "train": {
+      "Damage-detected": {
+        "instances": 717,
+        "images_containing_class": 698
+      },
+      "Undamaged": {
+        "instances": 895,
+        "images_containing_class": 803
+      }
+    },
+    "valid": {
+      "Damage-detected": {
+        "instances": 138,
+        "images_containing_class": 135
+      },
+      "Undamaged": {
+        "instances": 272,
+        "images_containing_class": 230
+      }
+    },
+    "test": {
+      "Damage-detected": {
+        "instances": 92,
+        "images_containing_class": 92
+      },
+      "Undamaged": {
+        "instances": 119,
+        "images_containing_class": 113
+      }
+    }
+  },
+  "object_sizes": {
+    "Damage-detected": {
+      "count": 947,
+      "area_fraction_p10": 0.274599365234375,
+      "area_fraction_median": 0.6244079589843751,
+      "area_fraction_p90": 0.88582763671875,
+      "fraction_under_1pct_area": 0.0
+    },
+    "Undamaged": {
+      "count": 1286,
+      "area_fraction_p10": 0.19421569824218748,
+      "area_fraction_median": 0.5994888305664062,
+      "area_fraction_p90": 0.841522216796875,
+      "fraction_under_1pct_area": 0.0
+    }
+  },
+  "total_annotations": 2233,
+  "missing_label_images": [],
+  "invalid_entries": [],
+  "empty_label_images": 2,
+  "exact_cross_split_groups": [],
+  "identical_pixel_cross_split_groups": [],
+  "near_duplicate_candidate_pairs": 3,
+  "near_duplicate_method": "64-bit pHash distance <= 4, checking eight image orientations; at most five matches per target image and split pair. Candidates require visual review.",
+  "sample_independence_confirmed": false
+}

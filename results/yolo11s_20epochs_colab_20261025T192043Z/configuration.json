@@ -1,0 +1,33 @@
+{
+  "status": "ready_for_colab_architecture_trial",
+  "experiment_name": "yolo11s_20epochs_colab",
+  "model": "yolo11s.pt",
+  "resume_from": null,
+  "compare_with": null,
+  "execution_interface": "VS Code notebook, official Google Colab extension",
+  "task": "detect",
+  "dataset_config": "dataset_config.json",
+  "training": {
+    "epochs": 20,
+    "imgsz": 640,
+    "batch": 8,
+    "seed": 42,
+    "workers": 2,
+    "cache": false,
+    "mosaic": 0.0,
+    "close_mosaic": 0
+  },
+  "device_preference": [
+    "cuda"
+  ],
+  "checkpoint_selection_split": "valid",
+  "evaluate_test_during_initial_run": false,
+  "notes": [
+    "Student authorised a YOLO11s 20-epoch comparison with the existing YOLO11n runs.",
+    "Same 1501 train / 366 validation images, original labels and splits, imgsz640 batch8 seed42 workers2 cachefalse mosaic0 close_mosaic0.",
+    "Fresh pretrained weights for the YOLO11s architecture; no optimizer resume.",
+    "Validation-only experiment. Test files are not uploaded and the final-submission pipeline is not called.",
+    "Compare detection and cost/workload under the student-selected 92-minute scenario. Preserve previous weights and policy."
+  ],
+  "last_run_id": null
+}

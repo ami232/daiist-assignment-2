@@ -1,0 +1,9 @@
+{
+  "python": "3.13.16",
+  "torch": "2.11.0+cu130",
+  "ultralytics": "8.4.173",
+  "cuda": "13.0",
+  "gpu": "Tesla T4",
+  "pretrained_sha256": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5",
+  "test_evaluated": false
+}

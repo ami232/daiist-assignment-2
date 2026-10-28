@@ -1,0 +1,53 @@
+{
+  "reviewed_pairs": [
+    {
+      "image_a": "train/images/0276_JPEG.rf.e773d9377d0b1b253bafbbf000f5b2bd.jpg",
+      "image_b": "valid/images/0052_JPEG.rf.7a3c80f4eee753521c5ebcedf0e31a26.jpg",
+      "split_a": "train",
+      "split_b": "valid",
+      "class_a": "Damage-detected",
+      "class_b": "Damage-detected",
+      "phash_distance": "2",
+      "transform_b": "0",
+      "same_pixels": "False"
+    },
+    {
+      "image_a": "train/images/0299_JPEG.rf.ef45222595474029c3b08ceeca7ed6fe.jpg",
+      "image_b": "valid/images/0114_JPEG.rf.6de30862f8d23be145564c5ec3b2b790.jpg",
+      "split_a": "train",
+      "split_b": "valid",
+      "class_a": "Damage-detected",
+      "class_b": "Damage-detected",
+      "phash_distance": "0",
+      "transform_b": "0",
+      "same_pixels": "False"
+    },
+    {
+      "image_a": "train/images/0299_JPEG.rf.ecccb490f43bf34c3dec02bf6e64507c.jpg",
+      "image_b": "valid/images/0209_JPEG.rf.522f7abf5a9c03eb0c6117c2fd8eee71.jpg",
+      "split_a": "train",
+      "split_b": "valid",
+      "class_a": "Damage-detected",
+      "class_b": "Damage-detected",
+      "phash_distance": "0",
+      "transform_b": "0",
+      "same_pixels": "False"
+    }
+  ],
+  "confirmed_same_source_photograph_pairs": 3,
+  "split_pairs": "All three are train-validation. No train-test or validation-test candidate was returned by this pHash screen.",
+  "observation": "All three flagged pairs show the same source photograph with minor changes. No conflicting class was observed in these pairs. Absence of a pHash match does not prove independence by vehicle, photographer or photo sequence.",
+  "annotation_review": {
+    "sample": "annotation_review_sample.json",
+    "count": 12,
+    "method": "Two photos per class per split, selected with Python random.Random(42), boxes overlaid and inspected.",
+    "observation": "Labels and boxes are broadly consistent with visible vehicle condition in the reviewed sample. This is not a full semantic annotation audit. Damaged boxes sometimes describe a damaged region while undamaged boxes generally enclose vehicles."
+  },
+  "empty_label_review": {
+    "images": [
+      "valid/images/1-62-_jpeg.rf.d46b6f2a3feae1f3eb78d89893eeae33.jpg",
+      "test/images/1-78-_jpeg.rf.3d78c23be707580bc56ca20e55d687c7.jpg"
+    ],
+    "observation": "Both show a visible vehicle but contain no boxes. This is a coverage omission for vehicle-condition detection; no replacement class was assigned and no source file changed."
+  }
+}
