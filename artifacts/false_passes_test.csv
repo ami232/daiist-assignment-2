@@ -1,0 +1,4 @@
+image,split,unsafe_gt,unsafe_score,helmet_score,person_score,no_evidence,outcome
+005465_jpg.rf.04f8797bd4d136611ad2c6193ed6c9c8.jpg,test,1,0.0,0.8622802495956421,0.0379070565104484,0,"False negative: annotated exposed head, policy PASS"
+005939_jpg.rf.d65e3ee44a9857375e22e45ab86c0f7e.jpg,test,1,0.0,0.8502378463745117,0.0264216586947441,0,"False negative: annotated exposed head, policy PASS"
+005990_jpg.rf.f28a41b011109fdf6b212dee6bc43767.jpg,test,1,0.001845680642873,0.8509198427200317,0.0756407678127288,0,"False negative: annotated exposed head, policy PASS"

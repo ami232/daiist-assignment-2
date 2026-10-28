@@ -1,0 +1,4 @@
+split,images,head_instances,helmet_instances,person_instances,head_median_area_fraction,helmet_median_area_fraction,person_median_area_fraction,head_positive_images,head_positive_fraction,median_box_area_fraction,p10_box_area_fraction
+train,4916,4612,13919,450,0.00594,0.00822,0.08158,911,0.1853,0.00768,0.00221
+val,1413,1339,3913,101,0.00617,0.00865,0.06204,256,0.1812,0.00791,0.00228
+test,706,726,1915,64,0.00629,0.00818,0.08126,140,0.1983,0.00757,0.00234

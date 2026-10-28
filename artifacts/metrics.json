@@ -1,0 +1,281 @@
+{
+  "dataset": {
+    "workspace": "joseph-nelson",
+    "project": "hard-hat-workers",
+    "version": 10,
+    "url": "https://universe.roboflow.com/joseph-nelson/hard-hat-workers/dataset/10"
+  },
+  "model": "yolo11s.pt",
+  "class_names": [
+    "head",
+    "helmet",
+    "person"
+  ],
+  "class_ids": {
+    "head": 0,
+    "helmet": 1,
+    "person": 2
+  },
+  "seed": 42,
+  "epochs_requested": 30,
+  "epochs_ran": 30,
+  "training_device": "0",
+  "imgsz": 640,
+  "nms_iou": 0.7,
+  "inference_conf": 0.001,
+  "base_rate_assumed": 0.12,
+  "dataset_val_base_rate": 0.18117480537862704,
+  "dataset_test_base_rate": 0.19830028328611898,
+  "cost_euros": {
+    "tp": 2.0,
+    "fp": 8.0,
+    "fn": 250.0,
+    "tn": 0.0,
+    "review": 0.75
+  },
+  "evidence_conf": 0.25,
+  "cases_per_day": 600,
+  "review_seconds": 45,
+  "review_minutes_available": 120,
+  "fte_minutes_per_day": 450,
+  "max_review_share": 0.26666666666666666,
+  "capacity_feasible": true,
+  "exact_cross_split_duplicate_count": 0,
+  "single_threshold": 0.0734,
+  "low_threshold": 0.00263,
+  "high_threshold": 0.84,
+  "test_hybrid": {
+    "cost_per_1000": 1054.4661786976276,
+    "review_share": 0.2025007571933367,
+    "matrix": [
+      [
+        474,
+        90,
+        2
+      ],
+      [
+        3,
+        73,
+        64
+      ]
+    ],
+    "rates_by_truth": [
+      [
+        0.8374558303886925,
+        0.15901060070671377,
+        0.0035335689045936395
+      ],
+      [
+        0.02142857142857143,
+        0.5214285714285715,
+        0.45714285714285713
+      ]
+    ]
+  },
+  "test_model_alone": {
+    "cost_per_1000": 2451.6587582029274,
+    "review_share": 0.0,
+    "matrix": [
+      [
+        542,
+        0,
+        24
+      ],
+      [
+        9,
+        0,
+        131
+      ]
+    ],
+    "rates_by_truth": [
+      [
+        0.9575971731448764,
+        0.0,
+        0.04240282685512368
+      ],
+      [
+        0.06428571428571428,
+        0.0,
+        0.9357142857142857
+      ]
+    ]
+  },
+  "native_ultralytics_test": {
+    "mAP50": 0.6608692233779839,
+    "mAP50_95": 0.46196046414196185
+  },
+  "benchmarks": {
+    "YOLO11s fine-tuned": {
+      "AP50": 0.6566,
+      "mAP50_95": 0.459,
+      "per_class": [
+        {
+          "class": "head",
+          "precision_at_0.25": 0.8965,
+          "recall_at_0.25": 0.9545,
+          "AP50": 0.9591,
+          "mAP50_95": 0.6719,
+          "gt_instances": 726
+        },
+        {
+          "class": "helmet",
+          "precision_at_0.25": 0.9242,
+          "recall_at_0.25": 0.9671,
+          "AP50": 0.9792,
+          "mAP50_95": 0.6882,
+          "gt_instances": 1915
+        },
+        {
+          "class": "person",
+          "precision_at_0.25": 0.0,
+          "recall_at_0.25": 0.0,
+          "AP50": 0.0314,
+          "mAP50_95": 0.017,
+          "gt_instances": 64
+        }
+      ],
+      "object_confusion": [
+        [
+          693,
+          13,
+          0,
+          20
+        ],
+        [
+          4,
+          1852,
+          0,
+          59
+        ],
+        [
+          0,
+          0,
+          0,
+          64
+        ],
+        [
+          76,
+          139,
+          0,
+          0
+        ]
+      ]
+    },
+    "YOLO11s COCO zero-shot (person mapped only)": {
+      "AP50": 0.0128,
+      "mAP50_95": 0.0093,
+      "per_class": [
+        {
+          "class": "head",
+          "precision_at_0.25": 0.0,
+          "recall_at_0.25": 0.0,
+          "AP50": 0.0,
+          "mAP50_95": 0.0,
+          "gt_instances": 726
+        },
+        {
+          "class": "helmet",
+          "precision_at_0.25": 0.0,
+          "recall_at_0.25": 0.0,
+          "AP50": 0.0,
+          "mAP50_95": 0.0,
+          "gt_instances": 1915
+        },
+        {
+          "class": "person",
+          "precision_at_0.25": 0.0207,
+          "recall_at_0.25": 0.9688,
+          "AP50": 0.0384,
+          "mAP50_95": 0.0278,
+          "gt_instances": 64
+        }
+      ],
+      "object_confusion": [
+        [
+          0,
+          0,
+          22,
+          704
+        ],
+        [
+          0,
+          0,
+          27,
+          1888
+        ],
+        [
+          0,
+          0,
+          62,
+          2
+        ],
+        [
+          0,
+          0,
+          2884,
+          0
+        ]
+      ]
+    },
+    "Predict nothing": {
+      "AP50": 0.0,
+      "mAP50_95": 0.0,
+      "per_class": [
+        {
+          "class": "head",
+          "precision_at_0.25": 0.0,
+          "recall_at_0.25": 0.0,
+          "AP50": 0.0,
+          "mAP50_95": 0.0,
+          "gt_instances": 726
+        },
+        {
+          "class": "helmet",
+          "precision_at_0.25": 0.0,
+          "recall_at_0.25": 0.0,
+          "AP50": 0.0,
+          "mAP50_95": 0.0,
+          "gt_instances": 1915
+        },
+        {
+          "class": "person",
+          "precision_at_0.25": 0.0,
+          "recall_at_0.25": 0.0,
+          "AP50": 0.0,
+          "mAP50_95": 0.0,
+          "gt_instances": 64
+        }
+      ],
+      "object_confusion": [
+        [
+          0,
+          0,
+          0,
+          726
+        ],
+        [
+          0,
+          0,
+          0,
+          1915
+        ],
+        [
+          0,
+          0,
+          0,
+          64
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  "note": "Per-image positive = >=1 annotated exposed head. One picture is not certification of compliance. Human review is assumed error-free. Reviewed positives incur both review and intervention costs.",
+  "decision_policy_version": 3,
+  "selection_provenance": "thresholds optimized on saved validation predictions only; held-out test used for evaluation",
+  "cost_accounting": "positive review costs review+tp; reviewer assumed perfectly accurate"
+}

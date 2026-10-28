@@ -1,0 +1,156 @@
+{
+  "bootstrap_test_cost_per_1000_95ci": {
+    "hybrid": [
+      419.35400299617714,
+      1854.6987916989644
+    ],
+    "model_alone": [
+      1376.0704630096316,
+      3677.570113782078
+    ],
+    "hybrid_minus_model_alone": [
+      -2433.2085138081934,
+      -464.93787734145315
+    ]
+  },
+  "reviewer_miss_rate_sweep": [
+    {
+      "miss_rate": 0.0,
+      "hybrid": 1054.4661786976276,
+      "model_alone": 2451.6587582029274,
+      "review_all": 990.0,
+      "do_nothing": 30000.0
+    },
+    {
+      "miss_rate": 0.01,
+      "hybrid": 1209.6433215547704,
+      "model_alone": 2451.6587582029274,
+      "review_all": 1287.6000000000001,
+      "do_nothing": 30000.0
+    },
+    {
+      "miss_rate": 0.02,
+      "hybrid": 1364.8204644119132,
+      "model_alone": 2451.6587582029274,
+      "review_all": 1585.2,
+      "do_nothing": 30000.0
+    },
+    {
+      "miss_rate": 0.03,
+      "hybrid": 1519.9976072690563,
+      "model_alone": 2451.6587582029274,
+      "review_all": 1882.7999999999997,
+      "do_nothing": 30000.0
+    },
+    {
+      "miss_rate": 0.05,
+      "hybrid": 1830.3518929833417,
+      "model_alone": 2451.6587582029274,
+      "review_all": 2477.9999999999995,
+      "do_nothing": 30000.0
+    },
+    {
+      "miss_rate": 0.1,
+      "hybrid": 2606.237607269056,
+      "model_alone": 2451.6587582029274,
+      "review_all": 3965.9999999999995,
+      "do_nothing": 30000.0
+    },
+    {
+      "miss_rate": 0.2,
+      "hybrid": 4158.009035840484,
+      "model_alone": 2451.6587582029274,
+      "review_all": 6942.0,
+      "do_nothing": 30000.0
+    }
+  ],
+  "prevalence_sweep": [
+    {
+      "prevalence": 0.02,
+      "hybrid": 298.68311458859165,
+      "model_alone": 691.2953054013125,
+      "review_all": 790.0,
+      "do_nothing": 5000.0
+    },
+    {
+      "prevalence": 0.05,
+      "hybrid": 525.4180338213024,
+      "model_alone": 1219.404341241797,
+      "review_all": 850.0,
+      "do_nothing": 12500.0
+    },
+    {
+      "prevalence": 0.12,
+      "hybrid": 1054.4661786976276,
+      "model_alone": 2451.6587582029274,
+      "review_all": 990.0,
+      "do_nothing": 30000.0
+    },
+    {
+      "prevalence": 0.2,
+      "hybrid": 1659.0926299848563,
+      "model_alone": 3859.9495204442196,
+      "review_all": 1150.0,
+      "do_nothing": 50000.0
+    },
+    {
+      "prevalence": 0.3,
+      "hybrid": 2414.875694093892,
+      "model_alone": 5620.312973245835,
+      "review_all": 1350.0,
+      "do_nothing": 75000.0
+    }
+  ],
+  "fn_cost_sweep_fixed_policy": [
+    {
+      "fn_cost": 25,
+      "hybrid": 475.89475012619886,
+      "model_alone": 715.9444724886421,
+      "review_all": 990.0,
+      "do_nothing": 3000.0
+    },
+    {
+      "fn_cost": 50,
+      "hybrid": 540.1804644119131,
+      "model_alone": 908.801615345785,
+      "review_all": 990.0,
+      "do_nothing": 6000.0
+    },
+    {
+      "fn_cost": 100,
+      "hybrid": 668.7518929833417,
+      "model_alone": 1294.5159010600707,
+      "review_all": 990.0,
+      "do_nothing": 12000.0
+    },
+    {
+      "fn_cost": 250,
+      "hybrid": 1054.4661786976276,
+      "model_alone": 2451.6587582029274,
+      "review_all": 990.0,
+      "do_nothing": 30000.0
+    },
+    {
+      "fn_cost": 500,
+      "hybrid": 1697.3233215547702,
+      "model_alone": 4380.230186774356,
+      "review_all": 990.0,
+      "do_nothing": 60000.0
+    },
+    {
+      "fn_cost": 1000,
+      "hybrid": 2983.037607269056,
+      "model_alone": 8237.37304391721,
+      "review_all": 990.0,
+      "do_nothing": 120000.0
+    }
+  ],
+  "implied_posterior_cutoffs": {
+    "pass_below": 0.0030241935483870967,
+    "flag_at_or_above": 0.90625
+  },
+  "validation_vs_test_hybrid_cost": {
+    "validation": 892.0397579948142,
+    "test": 1054.4661786976276
+  }
+}
