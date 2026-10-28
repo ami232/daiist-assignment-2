@@ -1,0 +1,11 @@
+baseline,class,ground_truth_instances,target_predictions,precision,recall,AP50,AP50_95
+COCO zero-shot: no matching classes,light_front,116,0,,0.0,0.0,0.0
+COCO zero-shot: no matching classes,nopill_back,39,0,,0.0,0.0,0.0
+COCO zero-shot: no matching classes,nopill_front,413,0,,0.0,0.0,0.0
+COCO zero-shot: no matching classes,pill_back,251,0,,0.0,0.0,0.0
+COCO zero-shot: no matching classes,pill_front,1000,0,,0.0,0.0,0.0
+Predict nothing,light_front,116,0,,0.0,0.0,0.0
+Predict nothing,nopill_back,39,0,,0.0,0.0,0.0
+Predict nothing,nopill_front,413,0,,0.0,0.0,0.0
+Predict nothing,pill_back,251,0,,0.0,0.0,0.0
+Predict nothing,pill_front,1000,0,,0.0,0.0,0.0

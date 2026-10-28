@@ -1,0 +1,7 @@
+{
+  "thresholds_remain_fixed": true,
+  "one_factor_at_a_time": true,
+  "human_vs_model_FN_cost_crossing_eur": 16959.333333333398,
+  "test_complete_images": 43,
+  "zero_FP_one_sided_95pct_upper_bound": 0.06729675341386787
+}

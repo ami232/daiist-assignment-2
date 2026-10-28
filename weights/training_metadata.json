@@ -1,0 +1,8 @@
+{
+  "initial_model": "yolo11n.pt",
+  "ultralytics": "8.4.184",
+  "torch": "2.11.0+cu130",
+  "device": "Tesla T4",
+  "run_directory": "/content/runs/missing_pills",
+  "settings_file": "/content/runs/missing_pills/args.yaml"
+}
