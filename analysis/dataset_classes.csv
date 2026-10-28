@@ -1,0 +1,16 @@
+split,class,instances,images_with_class,median_box_area_pct
+train,light_front,829,828,24.244
+train,nopill_back,265,39,0.509
+train,nopill_front,2823,618,0.742
+train,pill_back,1420,135,0.365
+train,pill_front,7977,748,0.458
+valid,light_front,226,226,24.772
+valid,nopill_back,67,11,0.415
+valid,nopill_front,813,170,0.785
+valid,pill_back,584,51,0.32
+valid,pill_front,2146,200,0.492
+test,light_front,116,116,22.833
+test,nopill_back,39,7,0.364
+test,nopill_front,413,90,0.75
+test,pill_back,251,22,0.308
+test,pill_front,1000,110,0.457
