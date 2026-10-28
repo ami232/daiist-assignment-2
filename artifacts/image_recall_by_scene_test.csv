@@ -1,0 +1,4 @@
+scene,mean,count
+positive: 1 head among helmets,0.6764705882352942,34
+positive: nobody wears a helmet,1.0,70
+positive: several heads among helmets,0.9722222222222222,36

@@ -14,3 +14,9 @@ runs/
 
 # Never commit your API key
 .env
+
+# COCO weights Ultralytics downloads for the zero-shot baseline (re-downloaded automatically)
+/yolo11n.pt
+
+# temporary scripts main.py writes when converting a notebook (left behind if the app is stopped with Ctrl+C)
+/tmp*.py

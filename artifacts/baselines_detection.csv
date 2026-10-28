@@ -1,0 +1,4 @@
+model,mAP50,mAP50-95,head AP50,head recall
+predict nothing,0.0,0.0,0.0,0.0
+COCO yolo11n zero-shot (no head/helmet class),0.0,0.0,0.0,0.0
+yolo11n finetuned,0.9747,0.6809,0.967473764500038,0.9297520661157025

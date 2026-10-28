@@ -1,0 +1,5 @@
+scene,train,valid,test
+negative (all helmets),4005,1157,566
+positive: 1 head among helmets,205,58,34
+positive: nobody wears a helmet,413,116,70
+positive: several heads among helmets,293,82,36
