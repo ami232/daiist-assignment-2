@@ -14,3 +14,9 @@ runs/
 
 # Never commit your API key
 .env
+
+# Ultralytics downloads the pretrained base checkpoint into the repo root
+/yolo11n.pt
+
+# main.py leaves its converted notebook behind when a run is killed
+/tmp*.py
