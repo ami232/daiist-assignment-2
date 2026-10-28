@@ -1,0 +1,7 @@
+model,precision,recall,accuracy,tp,fp,tn,fn,cost_per_1000_metres,box_ap50
+finetuned @ single threshold 0.22 (chosen on validation),0.9843,0.9615,0.9615,125,2,50,5,423.08,0.792985055141171
+finetuned @ 0.25,0.9841,0.9538,0.956,124,2,50,6,434.62,0.792985055141171
+COCO zero-shot @ 0.25 (any object = defect),0.8,0.1846,0.3846,24,6,46,106,2319.23,0.0
+COCO zero-shot @ 0.39 (picked ON TEST: best case for the baseline),1.0,0.0846,0.3462,11,0,52,119,1373.08,0.0
+trivial: predict nothing,0.0,0.0,0.2857,0,0,52,130,1500.0,0.0
+trivial: predict defect everywhere (majority class),0.7143,1.0,0.7143,130,52,0,0,9500.0,0.0

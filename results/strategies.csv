@@ -1,0 +1,5 @@
+strategy,cost_per_1000_metres,cost_per_day,review_share,review_cases_per_day,reviewers_needed
+do_nothing (pass everything),1500.0,30000.0,0.0,0.0,0.0
+person checks everything,459.08,9181.67,1.0,20000.0,20.833
+model alone (best single threshold),423.08,8461.54,0.0,0.0,0.0
+model + human review (chosen),431.59,8631.9,0.039,784.615,0.817
