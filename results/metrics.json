@@ -1,0 +1,830 @@
+{
+  "eval_device": "mps",
+  "finetuned": {
+    "all_labels": {
+      "map50": 0.8122012751931141,
+      "map50_95": 0.38325811431371964,
+      "precision": 0.9109084963253973,
+      "recall": 0.799338960435259,
+      "per_class": {
+        "missing_hole": {
+          "precision": 0.8418997042678052,
+          "recall": 0.7333333333333333,
+          "ap50": 0.6849999999999998,
+          "ap50_95": 0.4506742424242424
+        },
+        "mouse_bite": {
+          "precision": 0.9425166864523772,
+          "recall": 0.7761194029850746,
+          "ap50": 0.8420064806740173,
+          "ap50_95": 0.36234450707141497
+        },
+        "open_circuit": {
+          "precision": 0.9781410608255389,
+          "recall": 0.8727272727272727,
+          "ap50": 0.8861907912318552,
+          "ap50_95": 0.3634454475890741
+        },
+        "short": {
+          "precision": 0.9291122743124328,
+          "recall": 0.8676470588235294,
+          "ap50": 0.8911420438652385,
+          "ap50_95": 0.38352164416023793
+        },
+        "spur": {
+          "precision": 0.9627437148042088,
+          "recall": 0.7178646650669857,
+          "ap50": 0.7990316786536724,
+          "ap50_95": 0.3840160144877416
+        },
+        "spurious_copper": {
+          "precision": 0.8110375372900204,
+          "recall": 0.8283420296753585,
+          "ap50": 0.7698366567339012,
+          "ap50_95": 0.35554683014960636
+        }
+      },
+      "confusion_matrix": {
+        "conf": 0.25,
+        "labels": [
+          "missing_hole",
+          "mouse_bite",
+          "open_circuit",
+          "short",
+          "spur",
+          "spurious_copper",
+          "background"
+        ],
+        "matrix": [
+          [
+            11,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            53,
+            0,
+            0,
+            0,
+            0,
+            6
+          ],
+          [
+            0,
+            1,
+            48,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            61,
+            0,
+            0,
+            8
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            54,
+            0,
+            5
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            6,
+            48,
+            5
+          ],
+          [
+            4,
+            13,
+            7,
+            7,
+            12,
+            9,
+            0
+          ]
+        ]
+      },
+      "class_agnostic": {
+        "map50": 0.8469783371110012,
+        "map50_95": 0.38177854731047955
+      }
+    },
+    "no_slivers": {
+      "map50": 0.8620054229321555,
+      "map50_95": 0.4117412961716349,
+      "precision": 0.9122649743390817,
+      "recall": 0.850507015730944,
+      "per_class": {
+        "missing_hole": {
+          "precision": 0.8430371863732912,
+          "recall": 0.9166666666666666,
+          "ap50": 0.8524999999999998,
+          "ap50_95": 0.5619507575757575
+        },
+        "mouse_bite": {
+          "precision": 0.9443120143292794,
+          "recall": 0.8125,
+          "ap50": 0.8811489729199579,
+          "ap50_95": 0.37912957742797715
+        },
+        "open_circuit": {
+          "precision": 0.9787880279885756,
+          "recall": 0.8888888888888888,
+          "ap50": 0.8986990203299461,
+          "ap50_95": 0.37021412594894804
+        },
+        "short": {
+          "precision": 0.9338065118496125,
+          "recall": 0.8676470588235294,
+          "ap50": 0.8911420438652385,
+          "ap50_95": 0.38352164416023793
+        },
+        "spur": {
+          "precision": 0.96271436318495,
+          "recall": 0.759474319377404,
+          "ap50": 0.847206803129883,
+          "ap50_95": 0.4063253800714005
+        },
+        "spurious_copper": {
+          "precision": 0.8109317423087816,
+          "recall": 0.8578651606291748,
+          "ap50": 0.8013356973479084,
+          "ap50_95": 0.36930629184548824
+        }
+      },
+      "confusion_matrix": {
+        "conf": 0.25,
+        "labels": [
+          "missing_hole",
+          "mouse_bite",
+          "open_circuit",
+          "short",
+          "spur",
+          "spurious_copper",
+          "background"
+        ],
+        "matrix": [
+          [
+            11,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            53,
+            0,
+            0,
+            0,
+            0,
+            6
+          ],
+          [
+            0,
+            1,
+            48,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            61,
+            0,
+            0,
+            8
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            54,
+            0,
+            5
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            6,
+            48,
+            5
+          ],
+          [
+            1,
+            10,
+            6,
+            7,
+            8,
+            7,
+            0
+          ]
+        ]
+      },
+      "class_agnostic": {
+        "map50": 0.8835460846465757,
+        "map50_95": 0.3971284812922811
+      }
+    }
+  },
+  "coco_zeroshot": {
+    "class_agnostic": {
+      "map50": 0.0,
+      "map50_95": 0.0,
+      "precision": 0.0,
+      "recall": 0.0
+    }
+  },
+  "predict_nothing": {
+    "map50": 0.0,
+    "map50_95": 0.0,
+    "recall": 0.0
+  },
+  "test_tiles": {
+    "total": 288,
+    "defective": 203,
+    "clean": 85,
+    "only_slivers": 8,
+    "boards": 72
+  },
+  "training": {
+    "epochs_completed": 71,
+    "best_epoch": 51,
+    "best_val_map50": 0.87819,
+    "best_val_map50_95": 0.40519,
+    "train_hours": 2.1304527777777778
+  },
+  "setup": {
+    "dataset": {
+      "workspace": "srtimagedefectdetection-wuadb",
+      "project": "pcb-defect-detection-hdqc8",
+      "version": 3
+    },
+    "base_model": "yolo11n.pt",
+    "imgsz": 640,
+    "epochs": 100,
+    "patience": 20,
+    "seed": 0,
+    "train_device": "mps",
+    "class_names": [
+      "missing_hole",
+      "mouse_bite",
+      "open_circuit",
+      "short",
+      "spur",
+      "spurious_copper"
+    ],
+    "sliver_side": 0.01
+  },
+  "costs": {
+    "fp": 5.0,
+    "fn": 50.0,
+    "tp": 0.0,
+    "tn": 0.0,
+    "base_rate": 0.0075,
+    "board_defect_rate": 0.03,
+    "defective_tiles_per_defective_board": 1,
+    "base_rate_dataset": 0.021145833333333332,
+    "defective_tiles_per_defective_board_dataset": 2.8194444444444446,
+    "labour_eur_per_hour": 45.0,
+    "review_seconds_per_tile": 20,
+    "verifier_accuracy": 0.95,
+    "tiles_per_day": 1920,
+    "cost_review": 0.25,
+    "cost_auto_fail_fp": 5.0,
+    "hours_per_day": 16,
+    "hours_per_shift": 8
+  },
+  "operating_point": {
+    "scorer": "finetuned",
+    "labels": "all_labels",
+    "threshold": 0.05,
+    "tp": 185,
+    "fp": 2,
+    "fn": 18,
+    "tn": 83,
+    "tpr": 0.9113300492610837,
+    "fpr": 0.023529411764705882,
+    "cost_per_1000": 150.01593740944654,
+    "cost_per_1000_dataset_rate": 208.90931372549022
+  },
+  "operating_point_dataset_rate": {
+    "scorer": "finetuned",
+    "labels": "all_labels",
+    "threshold": 0.05,
+    "tp": 185,
+    "fp": 2,
+    "fn": 18,
+    "tn": 83,
+    "tpr": 0.9113300492610837,
+    "fpr": 0.023529411764705882,
+    "cost_per_1000": 150.01593740944654,
+    "cost_per_1000_dataset_rate": 208.90931372549022
+  },
+  "review_band": {
+    "lower": 0.05,
+    "upper": 0.72,
+    "cost_per_1000": 55.85362938278761,
+    "outcomes_per_1000": {
+      "pass": {
+        "tiles_defective": 0.6650246305418719,
+        "tiles_clean": 969.1470588235294,
+        "cost": 33.251231527093594
+      },
+      "review": {
+        "tiles_defective": 6.096059113300493,
+        "tiles_clean": 23.352941176470587,
+        "cost": 22.602397855694015
+      },
+      "fail": {
+        "tiles_defective": 0.7389162561576355,
+        "tiles_clean": 0.0,
+        "cost": 0.0
+      }
+    },
+    "confusion_per_1000": {
+      "tp": 6.530172413793103,
+      "fn": 0.9698275862068968,
+      "fp": 0.0,
+      "tn": 992.5
+    },
+    "confusion_cost_per_1000": {
+      "tp": 1.447814039408867,
+      "fn": 48.567580049261096,
+      "fp": 0.0,
+      "tn": 5.838235294117647
+    },
+    "review_share": 0.029449000289771078,
+    "review_tiles_per_day": 56.54208055636047,
+    "verifier_hours_per_day": 0.31412266975755815,
+    "verifiers_per_shift": 0.019632666859847384,
+    "tied_lower_range": [
+      0.05,
+      0.09
+    ],
+    "tied_upper_range": [
+      0.72,
+      0.72
+    ]
+  },
+  "alternatives": {
+    "model_alone": {
+      "lower": 0.05,
+      "upper": 0.05,
+      "cost_per_1000": 150.0159374094465,
+      "outcomes_per_1000": {
+        "pass": {
+          "tiles_defective": 0.6650246305418719,
+          "tiles_clean": 969.1470588235294,
+          "cost": 33.251231527093594
+        },
+        "review": {
+          "tiles_defective": 0.0,
+          "tiles_clean": 0.0,
+          "cost": 0.0
+        },
+        "fail": {
+          "tiles_defective": 6.834975369458128,
+          "tiles_clean": 23.352941176470587,
+          "cost": 116.76470588235293
+        }
+      },
+      "confusion_per_1000": {
+        "tp": 6.834975369458128,
+        "fn": 0.6650246305418719,
+        "fp": 23.352941176470587,
+        "tn": 969.1470588235294
+      },
+      "confusion_cost_per_1000": {
+        "tp": 0.0,
+        "fn": 33.251231527093594,
+        "fp": 116.76470588235293,
+        "tn": 0.0
+      },
+      "review_share": 0.0,
+      "review_tiles_per_day": 0.0,
+      "verifier_hours_per_day": 0.0,
+      "verifiers_per_shift": 0.0
+    },
+    "check_everything": {
+      "lower": -Infinity,
+      "upper": Infinity,
+      "cost_per_1000": 268.75,
+      "outcomes_per_1000": {
+        "pass": {
+          "tiles_defective": 0.0,
+          "tiles_clean": 0.0,
+          "cost": 0.0
+        },
+        "review": {
+          "tiles_defective": 7.5,
+          "tiles_clean": 992.5,
+          "cost": 268.75
+        },
+        "fail": {
+          "tiles_defective": 0.0,
+          "tiles_clean": 0.0,
+          "cost": 0.0
+        }
+      },
+      "confusion_per_1000": {
+        "tp": 7.125,
+        "fn": 0.37500000000000033,
+        "fp": 0.0,
+        "tn": 992.5
+      },
+      "confusion_cost_per_1000": {
+        "tp": 1.78125,
+        "fn": 18.843750000000018,
+        "fp": 0.0,
+        "tn": 248.125
+      },
+      "review_share": 1.0,
+      "review_tiles_per_day": 1920.0,
+      "verifier_hours_per_day": 10.666666666666666,
+      "verifiers_per_shift": 0.6666666666666666
+    },
+    "do_nothing": {
+      "lower": Infinity,
+      "upper": Infinity,
+      "cost_per_1000": 375.0,
+      "outcomes_per_1000": {
+        "pass": {
+          "tiles_defective": 7.5,
+          "tiles_clean": 992.5,
+          "cost": 375.0
+        },
+        "review": {
+          "tiles_defective": 0.0,
+          "tiles_clean": 0.0,
+          "cost": 0.0
+        },
+        "fail": {
+          "tiles_defective": 0.0,
+          "tiles_clean": 0.0,
+          "cost": 0.0
+        }
+      },
+      "confusion_per_1000": {
+        "tp": 0.0,
+        "fn": 7.5,
+        "fp": 0.0,
+        "tn": 992.5
+      },
+      "confusion_cost_per_1000": {
+        "tp": 0.0,
+        "fn": 375.0,
+        "fp": 0.0,
+        "tn": 0.0
+      },
+      "review_share": 0.0,
+      "review_tiles_per_day": 0.0,
+      "verifier_hours_per_day": 0.0,
+      "verifiers_per_shift": 0.0
+    }
+  },
+  "sensitivity": [
+    {
+      "case": "main case",
+      "changed": "",
+      "lower": 0.05,
+      "upper": 0.72,
+      "cost_per_1000": 55.85362938278761,
+      "review_share": 0.029449000289771078,
+      "verifier_hours_per_day": 0.31412266975755815,
+      "cost_model_alone": NaN,
+      "cost_main_band": NaN,
+      "cost_no_auto_fail": NaN
+    },
+    {
+      "case": "board defect rate 2%",
+      "changed": "BOARD_DEFECT_RATE",
+      "lower": 0.05,
+      "upper": 0.72,
+      "cost_per_1000": 39.1965372355839,
+      "review_share": 0.027475804114749345,
+      "verifier_hours_per_day": 0.2930752438906597,
+      "cost_model_alone": NaN,
+      "cost_main_band": NaN,
+      "cost_no_auto_fail": NaN
+    },
+    {
+      "case": "board defect rate 5%",
+      "changed": "BOARD_DEFECT_RATE",
+      "lower": 0.05,
+      "upper": 0.72,
+      "cost_per_1000": 89.16781367719504,
+      "review_share": 0.033395392639814545,
+      "verifier_hours_per_day": 0.3562175214913552,
+      "cost_model_alone": NaN,
+      "cost_main_band": NaN,
+      "cost_no_auto_fail": NaN
+    },
+    {
+      "case": "2.819 defective tiles per board (dataset)",
+      "changed": "DEFECTIVE_TILES_PER_DEFECTIVE_BOARD",
+      "lower": 0.05,
+      "upper": 0.72,
+      "cost_per_1000": 146.77359068627453,
+      "review_share": 0.04021936274509804,
+      "verifier_hours_per_day": 0.42900653594771243,
+      "cost_model_alone": NaN,
+      "cost_main_band": NaN,
+      "cost_no_auto_fail": NaN
+    },
+    {
+      "case": "labour 13 EUR/h",
+      "changed": "LABOUR_EUR_PER_HOUR",
+      "lower": 0.05,
+      "upper": 0.72,
+      "cost_per_1000": 50.61825155349497,
+      "review_share": 0.029449000289771078,
+      "verifier_hours_per_day": 0.31412266975755815,
+      "cost_model_alone": NaN,
+      "cost_main_band": NaN,
+      "cost_no_auto_fail": NaN
+    },
+    {
+      "case": "COST_FN 12 EUR",
+      "changed": "COST_FN",
+      "lower": 0.05,
+      "upper": 0.72,
+      "cost_per_1000": 19.00018110692553,
+      "review_share": 0.029449000289771078,
+      "verifier_hours_per_day": 0.31412266975755815,
+      "cost_model_alone": NaN,
+      "cost_main_band": NaN,
+      "cost_no_auto_fail": NaN
+    },
+    {
+      "case": "COST_FN 500 EUR",
+      "changed": "COST_FN",
+      "lower": 0.0,
+      "upper": 0.05,
+      "cost_per_1000": 375.84334250941754,
+      "review_share": 0.9698120834540713,
+      "verifier_hours_per_day": 10.344662223510095,
+      "cost_model_alone": NaN,
+      "cost_main_band": NaN,
+      "cost_no_auto_fail": NaN
+    },
+    {
+      "case": "COST_AUTO_FAIL_FP 15 EUR",
+      "changed": "COST_AUTO_FAIL_FP",
+      "lower": 0.05,
+      "upper": 0.72,
+      "cost_per_1000": 55.85362938278761,
+      "review_share": 0.029449000289771078,
+      "verifier_hours_per_day": 0.31412266975755815,
+      "cost_model_alone": NaN,
+      "cost_main_band": NaN,
+      "cost_no_auto_fail": NaN
+    },
+    {
+      "case": "verifier accuracy 90%",
+      "changed": "VERIFIER_ACCURACY",
+      "lower": 0.05,
+      "upper": 0.72,
+      "cost_per_1000": 71.09377716603882,
+      "review_share": 0.029449000289771078,
+      "verifier_hours_per_day": 0.31412266975755815,
+      "cost_model_alone": NaN,
+      "cost_main_band": NaN,
+      "cost_no_auto_fail": NaN
+    },
+    {
+      "case": "verifier accuracy 99%",
+      "changed": "VERIFIER_ACCURACY",
+      "lower": 0.05,
+      "upper": 0.72,
+      "cost_per_1000": 43.66151115618661,
+      "review_share": 0.029449000289771078,
+      "verifier_hours_per_day": 0.31412266975755815,
+      "cost_model_alone": NaN,
+      "cost_main_band": NaN,
+      "cost_no_auto_fail": NaN
+    },
+    {
+      "case": "slivers ignored",
+      "changed": "labels",
+      "lower": 0.05,
+      "upper": 0.72,
+      "cost_per_1000": 44.33823529411766,
+      "review_share": 0.029660633484162893,
+      "verifier_hours_per_day": 0.3163800904977375,
+      "cost_model_alone": NaN,
+      "cost_main_band": NaN,
+      "cost_no_auto_fail": NaN
+    },
+    {
+      "case": "2 likely mislabelled tiles counted as defective",
+      "changed": "MISLABELLED_TILES",
+      "lower": 0.05,
+      "upper": 0.05,
+      "cost_per_1000": 32.92682926829268,
+      "review_share": 0.0,
+      "verifier_hours_per_day": 0.0,
+      "cost_model_alone": 32.92682926829268,
+      "cost_main_band": 49.72865853658537,
+      "cost_no_auto_fail": 51.740853658536594
+    }
+  ],
+  "bootstrap": {
+    "n": 1000,
+    "lower_p5_p95": [
+      0.04,
+      0.05
+    ],
+    "upper_p5_p95": [
+      0.05,
+      0.72
+    ],
+    "cost_p5_p95": [
+      30.639429178055448,
+      69.66566957563658
+    ]
+  },
+  "crossovers": [
+    {
+      "parameter": "cost_fn",
+      "label": "Missed defect cost (EUR)",
+      "main_value": 50.0,
+      "direction": "down",
+      "searched_to": 0.01,
+      "crossover": 1.271269975294744,
+      "band_before": "0.05 / 0.72",
+      "band_after": "0.72 / 0.72",
+      "note": ""
+    },
+    {
+      "parameter": "cost_fn",
+      "label": "Missed defect cost (EUR)",
+      "main_value": 50.0,
+      "direction": "up",
+      "searched_to": 10000.0,
+      "crossover": 222.0478156174751,
+      "band_before": "0.05 / 0.72",
+      "band_after": "0.02 / 0.72",
+      "note": ""
+    },
+    {
+      "parameter": "cost_auto_fail_fp",
+      "label": "Scrapped good board cost (EUR)",
+      "main_value": 5.0,
+      "direction": "down",
+      "searched_to": 0.01,
+      "crossover": 0.9678608653571739,
+      "band_before": "0.05 / 0.72",
+      "band_after": "0.05 / 0.05",
+      "note": ""
+    },
+    {
+      "parameter": "cost_auto_fail_fp",
+      "label": "Scrapped good board cost (EUR)",
+      "main_value": 5.0,
+      "direction": "up",
+      "searched_to": 10000.0,
+      "crossover": NaN,
+      "band_before": "0.05 / 0.72",
+      "band_after": NaN,
+      "note": "no change in searched range"
+    },
+    {
+      "parameter": "verifier_accuracy",
+      "label": "Verifier accuracy",
+      "main_value": 0.95,
+      "direction": "down",
+      "searched_to": 0.0,
+      "crossover": 0.6410715389185973,
+      "band_before": "0.05 / 0.72",
+      "band_after": "0.05 / 0.05",
+      "note": ""
+    },
+    {
+      "parameter": "verifier_accuracy",
+      "label": "Verifier accuracy",
+      "main_value": 0.95,
+      "direction": "up",
+      "searched_to": 1.0,
+      "crossover": NaN,
+      "band_before": "0.05 / 0.72",
+      "band_after": NaN,
+      "note": "no change in searched range"
+    },
+    {
+      "parameter": "cost_review",
+      "label": "Review cost per tile (EUR)",
+      "main_value": 0.25,
+      "direction": "down",
+      "searched_to": 0.001,
+      "crossover": 0.05629418134666066,
+      "band_before": "0.05 / 0.72",
+      "band_after": "0.02 / 0.72",
+      "note": "labour EUR 10.13/h at 20 s, or 4.5 s at EUR 45/h"
+    },
+    {
+      "parameter": "cost_review",
+      "label": "Review cost per tile (EUR)",
+      "main_value": 0.25,
+      "direction": "up",
+      "searched_to": 1000.0,
+      "crossover": 3.447470443822354,
+      "band_before": "0.05 / 0.72",
+      "band_after": "0.05 / 0.05",
+      "note": "labour EUR 620.54/h at 20 s, or 275.8 s at EUR 45/h"
+    },
+    {
+      "parameter": "base_rate",
+      "label": "Tile base rate",
+      "main_value": 0.0075,
+      "direction": "down",
+      "searched_to": 1e-05,
+      "crossover": 0.0001531421872400875,
+      "band_before": "0.05 / 0.72",
+      "band_after": "0.72 / 0.72",
+      "note": "board defect rate 0.06%"
+    },
+    {
+      "parameter": "base_rate",
+      "label": "Tile base rate",
+      "main_value": 0.0075,
+      "direction": "up",
+      "searched_to": 0.99,
+      "crossover": 0.0325980047772938,
+      "band_before": "0.05 / 0.72",
+      "band_after": "0.02 / 0.72",
+      "note": "board defect rate 13.04%"
+    }
+  ],
+  "board_rollup": {
+    "lower": 0.05,
+    "upper": 0.72,
+    "boards": 72,
+    "defective_boards": 72,
+    "passed": 0,
+    "reviewed": 58,
+    "failed": 14,
+    "recall_flagged": 1.0,
+    "recall_after_verifier": 0.993184982638889,
+    "note": "All test boards are defective, so no board-level false positive rate can be measured."
+  },
+  "validation_check": [
+    {
+      "design": "band chosen on validation",
+      "chosen_on": "validation",
+      "lower": 0.08,
+      "upper": 0.67,
+      "cost_val": 41.52597778292063,
+      "cost_test": 161.70005070993915
+    },
+    {
+      "design": "band chosen on test (main case)",
+      "chosen_on": "test",
+      "lower": 0.05,
+      "upper": 0.72,
+      "cost_val": 49.52745313584819,
+      "cost_test": 55.85362938278761
+    },
+    {
+      "design": "no auto-fail (main lower, upper 1.0)",
+      "chosen_on": "test",
+      "lower": 0.05,
+      "upper": 1.0,
+      "cost_val": 51.72572899791716,
+      "cost_test": 57.88564908722111
+    },
+    {
+      "design": "model alone chosen on validation",
+      "chosen_on": "validation",
+      "lower": 0.51,
+      "upper": 0.51,
+      "cost_val": 118.33487618606804,
+      "cost_test": 166.64155317299333
+    }
+  ]
+}
