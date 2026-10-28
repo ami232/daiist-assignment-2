@@ -14,3 +14,8 @@ runs/
 
 # Never commit your API key
 .env
+
+# Base checkpoints ultralytics downloads into the repo root (not our model)
+/yolo11*.pt
+/yolo26*.pt
+/weights/yolo26*.pt
