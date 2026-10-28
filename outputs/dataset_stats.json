@@ -1,0 +1,113 @@
+{
+  "names": [
+    "Drain Hole",
+    "Pothole",
+    "Sewer Cover",
+    "speed-breaker"
+  ],
+  "splits": {
+    "train": {
+      "images": 4679,
+      "background_images": 1,
+      "per_class": {
+        "Drain Hole": {
+          "instances": 88,
+          "images": 88,
+          "median_box_area_pct": 24.06,
+          "p10_box_area_pct": 6.61,
+          "p90_box_area_pct": 56.76
+        },
+        "Pothole": {
+          "instances": 5044,
+          "images": 2371,
+          "median_box_area_pct": 3.2,
+          "p10_box_area_pct": 0.41,
+          "p90_box_area_pct": 24.14
+        },
+        "Sewer Cover": {
+          "instances": 240,
+          "images": 192,
+          "median_box_area_pct": 5.5,
+          "p10_box_area_pct": 0.27,
+          "p90_box_area_pct": 64.88
+        },
+        "speed-breaker": {
+          "instances": 3778,
+          "images": 2052,
+          "median_box_area_pct": 4.02,
+          "p10_box_area_pct": 0.29,
+          "p90_box_area_pct": 17.38
+        }
+      }
+    },
+    "valid": {
+      "images": 1335,
+      "background_images": 1,
+      "per_class": {
+        "Drain Hole": {
+          "instances": 32,
+          "images": 32,
+          "median_box_area_pct": 23.24,
+          "p10_box_area_pct": 12.66,
+          "p90_box_area_pct": 46.7
+        },
+        "Pothole": {
+          "instances": 1379,
+          "images": 672,
+          "median_box_area_pct": 3.6,
+          "p10_box_area_pct": 0.44,
+          "p90_box_area_pct": 27.23
+        },
+        "Sewer Cover": {
+          "instances": 53,
+          "images": 48,
+          "median_box_area_pct": 9.79,
+          "p10_box_area_pct": 1.05,
+          "p90_box_area_pct": 72.87
+        },
+        "speed-breaker": {
+          "instances": 1024,
+          "images": 584,
+          "median_box_area_pct": 4.49,
+          "p10_box_area_pct": 0.33,
+          "p90_box_area_pct": 17.97
+        }
+      }
+    },
+    "test": {
+      "images": 670,
+      "background_images": 0,
+      "per_class": {
+        "Drain Hole": {
+          "instances": 15,
+          "images": 15,
+          "median_box_area_pct": 24.97,
+          "p10_box_area_pct": 4.8,
+          "p90_box_area_pct": 53.76
+        },
+        "Pothole": {
+          "instances": 668,
+          "images": 332,
+          "median_box_area_pct": 4.04,
+          "p10_box_area_pct": 0.57,
+          "p90_box_area_pct": 23.24
+        },
+        "Sewer Cover": {
+          "instances": 37,
+          "images": 34,
+          "median_box_area_pct": 8.08,
+          "p10_box_area_pct": 0.79,
+          "p90_box_area_pct": 61.34
+        },
+        "speed-breaker": {
+          "instances": 502,
+          "images": 294,
+          "median_box_area_pct": 5.4,
+          "p10_box_area_pct": 0.37,
+          "p90_box_area_pct": 18.33
+        }
+      }
+    }
+  },
+  "duplicates_across_splits": 0
+}
