@@ -1,0 +1,42 @@
+{
+  "chosen_on": "validation",
+  "measured_on": "test",
+  "review_low": 0.12,
+  "review_high": 0.37,
+  "cost_per_1000_valid": 45.709235972775566,
+  "cost_per_1000": 431.59480769230765,
+  "review_share": 0.03923076923076918,
+  "best_single_threshold": 0.22,
+  "single_cost_per_1000": 423.0769230769231,
+  "clean_images": {
+    "valid": 112,
+    "test": 52
+  },
+  "clean_scrapped_rate_test": {
+    "seen": 0.038461538461538464,
+    "upper95": 0.1298142874436598
+  },
+  "pessimistic_cost_per_1000": 1287.7871089198961,
+  "single": {
+    "clean_scrapped_rate_seen": 0.038461538461538464,
+    "upper95": 0.1298142874436598,
+    "pessimistic_cost_per_1000": 1290.9280384070757
+  },
+  "params": {
+    "c_fp": 10.0,
+    "c_fn": 30.0,
+    "c_tp": 0.0,
+    "c_tn": 0.0,
+    "base_rate": 0.05,
+    "c_review": 0.11908333333333332,
+    "h_tpr": 0.9,
+    "h_fpr": 0.02
+  },
+  "review_load": {
+    "metres_per_day": 20000,
+    "review_share": 0.03923076923076918,
+    "review_cases_per_day": 784.6153846153836,
+    "reviewer_hours_per_day": 6.53846153846153,
+    "reviewers_needed": 0.8173076923076913
+  }
+}

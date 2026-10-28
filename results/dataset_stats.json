@@ -1,0 +1,75 @@
+{
+  "classes": [
+    "Hole",
+    "Knot",
+    "Stain"
+  ],
+  "splits": {
+    "train": {
+      "images": 1258,
+      "images_without_defect": 392,
+      "share_without_defect": 0.31160572337042924,
+      "instances_per_class": {
+        "Hole": 459,
+        "Knot": 800,
+        "Stain": 277
+      },
+      "images_with_class": {
+        "Hole": 281,
+        "Knot": 345,
+        "Stain": 255
+      },
+      "box_area_share_p10_p50_p90": [
+        0.0017705487989941033,
+        0.03542384777141866,
+        0.22685546875
+      ]
+    },
+    "valid": {
+      "images": 363,
+      "images_without_defect": 112,
+      "share_without_defect": 0.3085399449035813,
+      "instances_per_class": {
+        "Hole": 267,
+        "Knot": 194,
+        "Stain": 83
+      },
+      "images_with_class": {
+        "Hole": 100,
+        "Knot": 97,
+        "Stain": 64
+      },
+      "box_area_share_p10_p50_p90": [
+        0.00145263671875,
+        0.0200537109375,
+        0.21590638413761704
+      ]
+    },
+    "test": {
+      "images": 182,
+      "images_without_defect": 52,
+      "share_without_defect": 0.2857142857142857,
+      "instances_per_class": {
+        "Hole": 72,
+        "Knot": 95,
+        "Stain": 37
+      },
+      "images_with_class": {
+        "Hole": 47,
+        "Knot": 50,
+        "Stain": 34
+      },
+      "box_area_share_p10_p50_p90": [
+        0.0042645790822548124,
+        0.050224609375,
+        0.2900661732875098
+      ]
+    }
+  },
+  "leakage_check": {
+    "test_images_whose_base_name_is_also_in_train_or_valid": 72,
+    "share_of_test": 0.3956043956043956,
+    "train_valid_shared_base_names": 132,
+    "note": "Base name = file name before Roboflow's '.rf.<hash>'. A high share suggests near-duplicate images across splits and an inflated test score."
+  }
+}

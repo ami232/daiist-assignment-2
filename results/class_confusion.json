@@ -1,0 +1,36 @@
+{
+  "labels": [
+    "Hole",
+    "Knot",
+    "Stain",
+    "background"
+  ],
+  "orientation": "rows = predicted class, columns = true class",
+  "conf": 0.25,
+  "matrix": [
+    [
+      64.0,
+      0.0,
+      0.0,
+      9.0
+    ],
+    [
+      0.0,
+      75.0,
+      0.0,
+      16.0
+    ],
+    [
+      0.0,
+      0.0,
+      30.0,
+      13.0
+    ],
+    [
+      8.0,
+      20.0,
+      7.0,
+      0.0
+    ]
+  ]
+}
