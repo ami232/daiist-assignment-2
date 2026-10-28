@@ -1,0 +1,181 @@
+{
+  "detection": {
+    "overall": {
+      "precision": 0.8778,
+      "recall": 0.7677,
+      "mAP50": 0.8531,
+      "mAP50-95": 0.5516
+    },
+    "per_class": [
+      {
+        "class": "Drain Hole",
+        "precision": 0.7439,
+        "recall": 0.6667,
+        "AP50": 0.673,
+        "AP50-95": 0.3335
+      },
+      {
+        "class": "Pothole",
+        "precision": 0.8806,
+        "recall": 0.7021,
+        "AP50": 0.8474,
+        "AP50-95": 0.5934
+      },
+      {
+        "class": "Sewer Cover",
+        "precision": 0.9379,
+        "recall": 0.8166,
+        "AP50": 0.9242,
+        "AP50-95": 0.5645
+      },
+      {
+        "class": "speed-breaker",
+        "precision": 0.9488,
+        "recall": 0.8856,
+        "AP50": 0.9677,
+        "AP50-95": 0.7151
+      }
+    ],
+    "confusion_matrix": {
+      "rows_predicted": [
+        "Drain Hole",
+        "Pothole",
+        "Sewer Cover",
+        "speed-breaker",
+        "background"
+      ],
+      "cols_actual": [
+        "Drain Hole",
+        "Pothole",
+        "Sewer Cover",
+        "speed-breaker",
+        "background"
+      ],
+      "conf": 0.25,
+      "values": [
+        [
+          11,
+          0,
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          552,
+          0,
+          1,
+          226
+        ],
+        [
+          1,
+          0,
+          34,
+          0,
+          13
+        ],
+        [
+          0,
+          0,
+          0,
+          485,
+          116
+        ],
+        [
+          3,
+          116,
+          3,
+          16,
+          0
+        ]
+      ]
+    }
+  },
+  "baselines": {
+    "finetuned": {
+      "detection": {
+        "precision": 0.8778,
+        "recall": 0.7677,
+        "mAP50": 0.8531,
+        "mAP50-95": 0.5516
+      },
+      "image_level": {
+        "threshold": 0.25,
+        "tp": 319,
+        "fp": 3,
+        "fn": 13,
+        "tn": 335,
+        "precision": 0.9907,
+        "recall": 0.9608,
+        "accuracy": 0.9761
+      }
+    },
+    "coco_zero_shot": {
+      "detection": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "mAP50": 0.0,
+        "mAP50-95": 0.0
+      },
+      "per_class_AP50": {
+        "Drain Hole": 0.0,
+        "Pothole": 0.0,
+        "Sewer Cover": 0.0,
+        "speed-breaker": 0.0
+      },
+      "image_level": {
+        "threshold": 0.25,
+        "tp": 0,
+        "fp": 0,
+        "fn": 332,
+        "tn": 338,
+        "precision": null,
+        "recall": 0.0,
+        "accuracy": 0.5045
+      },
+      "dataset_classes_in_coco": [],
+      "coco_detections_on_pothole_images": {
+        "car": 196,
+        "person": 120,
+        "truck": 36,
+        "motorcycle": 27,
+        "bus": 15,
+        "bicycle": 9,
+        "fire hydrant": 7,
+        "umbrella": 4,
+        "surfboard": 3,
+        "frisbee": 3
+      }
+    },
+    "predict_nothing": {
+      "detection": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "mAP50": 0.0,
+        "mAP50-95": 0.0
+      },
+      "image_level": {
+        "threshold": 0.25,
+        "tp": 0,
+        "fp": 0,
+        "fn": 332,
+        "tn": 338,
+        "precision": null,
+        "recall": 0.0,
+        "accuracy": 0.5045
+      }
+    },
+    "majority_class": {
+      "image_level": {
+        "threshold": 0.25,
+        "tp": 0,
+        "fp": 0,
+        "fn": 332,
+        "tn": 338,
+        "precision": null,
+        "recall": 0.0,
+        "accuracy": 0.5045
+      }
+    }
+  }
+}
