@@ -1,0 +1,141 @@
+{
+  "classes": {
+    "0": "Beans Angular LeafSpot",
+    "1": "Beans Rust",
+    "2": "Strawberry Angular LeafSpot",
+    "3": "Strawberry Anthracnose Fruit Rot",
+    "4": "Strawberry Blossom Blight",
+    "5": "Strawberry Gray Mold",
+    "6": "Strawberry Leaf Spot",
+    "7": "Strawberry Powdery Mildew Fruit",
+    "8": "Strawberry Powdery Mildew Leaf",
+    "9": "Tomato Blight",
+    "10": "Tomato Leaf Mold",
+    "11": "Tomato Spider Mites"
+  },
+  "class_group": {
+    "Beans Angular LeafSpot": "fungal (positive)",
+    "Beans Rust": "fungal (positive)",
+    "Strawberry Angular LeafSpot": "non-fungal (negative)",
+    "Strawberry Anthracnose Fruit Rot": "fungal (positive)",
+    "Strawberry Blossom Blight": "fungal (positive)",
+    "Strawberry Gray Mold": "fungal (positive)",
+    "Strawberry Leaf Spot": "fungal (positive)",
+    "Strawberry Powdery Mildew Fruit": "fungal (positive)",
+    "Strawberry Powdery Mildew Leaf": "fungal (positive)",
+    "Tomato Blight": "fungal (positive)",
+    "Tomato Leaf Mold": "fungal (positive)",
+    "Tomato Spider Mites": "non-fungal (negative)"
+  },
+  "positive_class_ids": [
+    0,
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "positive_classes": [
+    "Beans Angular LeafSpot",
+    "Beans Rust",
+    "Strawberry Anthracnose Fruit Rot",
+    "Strawberry Blossom Blight",
+    "Strawberry Gray Mold",
+    "Strawberry Leaf Spot",
+    "Strawberry Powdery Mildew Fruit",
+    "Strawberry Powdery Mildew Leaf",
+    "Tomato Blight",
+    "Tomato Leaf Mold"
+  ],
+  "negative_classes": [
+    "Strawberry Angular LeafSpot",
+    "Tomato Spider Mites"
+  ],
+  "splits": {
+    "train": {
+      "images": 2904,
+      "instances_per_class": {
+        "Beans Angular LeafSpot": 956,
+        "Beans Rust": 1652,
+        "Strawberry Angular LeafSpot": 226,
+        "Strawberry Anthracnose Fruit Rot": 166,
+        "Strawberry Blossom Blight": 258,
+        "Strawberry Gray Mold": 207,
+        "Strawberry Leaf Spot": 821,
+        "Strawberry Powdery Mildew Fruit": 278,
+        "Strawberry Powdery Mildew Leaf": 669,
+        "Tomato Blight": 352,
+        "Tomato Leaf Mold": 353,
+        "Tomato Spider Mites": 358
+      },
+      "instances_total": 6296,
+      "images_with_positive": 2372,
+      "share_images_with_positive": 0.8168044077134986,
+      "images_with_both_groups": 0,
+      "images_without_any_box": 0,
+      "box_area_share_median": 0.11935153938609466,
+      "box_area_share_p10": 0.03087801058616864,
+      "box_area_share_p90": 0.6355045476608727,
+      "share_boxes_under_1pct_of_image": 0.009529860228716646,
+      "share_boxes_over_25pct_of_image": 0.27588945362134687
+    },
+    "valid": {
+      "images": 1416,
+      "instances_per_class": {
+        "Beans Angular LeafSpot": 277,
+        "Beans Rust": 463,
+        "Strawberry Angular LeafSpot": 193,
+        "Strawberry Anthracnose Fruit Rot": 85,
+        "Strawberry Blossom Blight": 161,
+        "Strawberry Gray Mold": 200,
+        "Strawberry Leaf Spot": 779,
+        "Strawberry Powdery Mildew Fruit": 151,
+        "Strawberry Powdery Mildew Leaf": 584,
+        "Tomato Blight": 100,
+        "Tomato Leaf Mold": 101,
+        "Tomato Spider Mites": 99
+      },
+      "instances_total": 3193,
+      "images_with_positive": 1151,
+      "share_images_with_positive": 0.8128531073446328,
+      "images_with_both_groups": 0,
+      "images_without_any_box": 0,
+      "box_area_share_median": 0.11311367418639053,
+      "box_area_share_p10": 0.026960059171597637,
+      "box_area_share_p90": 0.6500092455621302,
+      "share_boxes_under_1pct_of_image": 0.009082367679298466,
+      "share_boxes_over_25pct_of_image": 0.25336673974318824
+    },
+    "test": {
+      "images": 1173,
+      "instances_per_class": {
+        "Beans Angular LeafSpot": 147,
+        "Beans Rust": 243,
+        "Strawberry Angular LeafSpot": 295,
+        "Strawberry Anthracnose Fruit Rot": 132,
+        "Strawberry Blossom Blight": 211,
+        "Strawberry Gray Mold": 213,
+        "Strawberry Leaf Spot": 698,
+        "Strawberry Powdery Mildew Fruit": 134,
+        "Strawberry Powdery Mildew Leaf": 607,
+        "Tomato Blight": 41,
+        "Tomato Leaf Mold": 35,
+        "Tomato Spider Mites": 31
+      },
+      "instances_total": 2787,
+      "images_with_positive": 933,
+      "share_images_with_positive": 0.7953964194373402,
+      "images_with_both_groups": 0,
+      "images_without_any_box": 0,
+      "box_area_share_median": 0.11952778291420117,
+      "box_area_share_p10": 0.017779215976331364,
+      "box_area_share_p90": 0.6490939349112427,
+      "share_boxes_under_1pct_of_image": 0.033010405453893076,
+      "share_boxes_over_25pct_of_image": 0.2719770362396842
+    }
+  }
+}

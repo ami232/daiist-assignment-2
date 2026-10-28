@@ -1,0 +1,5 @@
+design,cost_per_1000,review_share,people_needed,cost_per_day
+Do nothing (never spray on the scout's photo),24000.0,0.0,0.0,7200.0
+Agronomist checks every photo,6480.0,1.0,10.0,1944.0
+Model alone (t = 0.24),4664.758842443731,0.0,0.0,1399.4276527331192
+"Model + review band [0.20, 0.62)",4565.077974276527,0.031647909967845715,0.3164790996784571,1369.5233922829582

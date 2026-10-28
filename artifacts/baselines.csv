@@ -1,0 +1,5 @@
+model,test precision,test recall,test F1,TP,FP,FN,TN,note
+Trivial: predict nothing (never fungal),0.0,0.0,0.0,0,0,933,240,every fungal case is missed
+Trivial: majority class (always fungal),0.7953964194373402,1.0,0.886039886039886,933,240,0,0,precision = test base rate 0.80
+COCO yolo11n zero-shot (any 'potted plant' >= 0.25),0.8947368421052632,0.01822079314040729,0.03571428571428571,17,2,916,238,COCO has no disease classes; AP on target classes = 0 by construction
+Finetuned yolo11n (fungal >= 0.24),0.9805825242718447,0.9742765273311897,0.9774193548387097,909,18,24,222,case-level AUC = 0.956
