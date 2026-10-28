@@ -1,0 +1,32 @@
+{
+  "threshold": 0.14,
+  "cost_per_1000": 154.473624432105,
+  "recall": 0.9071428571428571,
+  "false_positive_rate": 0.024734982332155476,
+  "review_band": {
+    "low": 0.09,
+    "high": 0.55,
+    "cost_per_1000": 147.96820577780582,
+    "review_share": 0.02592150429076224,
+    "reviews_per_day": 15.552902574457343,
+    "shares": {
+      "pos_pass": 0.08571428571428572,
+      "pos_review": 0.06428571428571428,
+      "pos_fail": 0.85,
+      "neg_pass": 0.9664310954063604,
+      "neg_review": 0.024734982332155476,
+      "neg_fail": 0.0088339222614841
+    }
+  },
+  "assumptions": {
+    "BASE_RATE": 0.03,
+    "COST_FP": 0.7,
+    "COST_FN": 25.0,
+    "COST_TP": 2.5,
+    "COST_TN": 0.0,
+    "REVIEW_COST": 0.23545833333333335,
+    "REVIEWER_ACCURACY": 0.95,
+    "GUARD_COST_PER_CASE": 0.3534666666666667,
+    "CASES_PER_DAY": 600
+  }
+}

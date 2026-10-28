@@ -1,0 +1,116 @@
+{
+  "dataset": {
+    "workspace": "joseph-nelson",
+    "project": "hard-hat-workers",
+    "version": 5,
+    "classes": [
+      "head",
+      "helmet"
+    ],
+    "positive_class": "head",
+    "test_images": 706,
+    "test_positive_images": 140
+  },
+  "training": {
+    "base_model": "yolo11n.pt",
+    "epochs_max": 10,
+    "epochs_run": 10,
+    "patience": 15,
+    "imgsz": 416,
+    "batch": 16,
+    "seed": 0,
+    "device": "cpu",
+    "quick": false
+  },
+  "detection": {
+    "finetuned": {
+      "map50": 0.9576381289248369,
+      "map50_95": 0.6492069526213027,
+      "per_class": {
+        "head": {
+          "precision": 0.9417753551469381,
+          "recall": 0.8911767535936376,
+          "ap50": 0.9484742466601817,
+          "ap50_95": 0.6428371792102375,
+          "instances": 726
+        },
+        "helmet": {
+          "precision": 0.9449021582349166,
+          "recall": 0.9075718015665797,
+          "ap50": 0.9668020111894922,
+          "ap50_95": 0.6555767260323682,
+          "instances": 1915
+        }
+      },
+      "confusion_matrix": {
+        "labels": [
+          "head",
+          "helmet",
+          "background"
+        ],
+        "orientation": "rows are predicted class, columns are true class",
+        "confidence": 0.25,
+        "matrix": [
+          [
+            668,
+            1,
+            92
+          ],
+          [
+            28,
+            1806,
+            264
+          ],
+          [
+            30,
+            108,
+            0
+          ]
+        ]
+      }
+    },
+    "coco_zero_shot": {
+      "map50": 0.0,
+      "map50_95": 0.0,
+      "note": "COCO has no head or helmet class, so it cannot detect either."
+    },
+    "trivial_predict_nothing": {
+      "map50": 0.0,
+      "map50_95": 0.0
+    }
+  },
+  "image_level": {
+    "finetuned_at_chosen_threshold": {
+      "threshold": 0.14,
+      "accuracy_test": 0.9617563739376771,
+      "recall": 0.9071428571428571,
+      "false_positive_rate": 0.024734982332155476,
+      "precision_test": 0.900709219858156,
+      "cost_per_1000": 154.473624432105
+    },
+    "finetuned_at_default_0.25": {
+      "threshold": 0.25,
+      "accuracy_test": 0.9603399433427762,
+      "recall": 0.8857142857142857,
+      "false_positive_rate": 0.02120141342756184,
+      "precision_test": 0.9117647058823529,
+      "cost_per_1000": 166.53861686017163
+    },
+    "coco_zero_shot_fail_if_person": {
+      "threshold": 0.25,
+      "accuracy_test": 0.22946175637393768,
+      "recall": 1.0,
+      "false_positive_rate": 0.9611307420494699,
+      "precision_test": 0.2046783625730994,
+      "cost_per_1000": 727.60777385159
+    },
+    "trivial_everyone_passes": {
+      "threshold": 1.01,
+      "accuracy_test": 0.8016997167138811,
+      "recall": 0.0,
+      "false_positive_rate": 0.0,
+      "precision_test": null,
+      "cost_per_1000": 750.0
+    }
+  }
+}
