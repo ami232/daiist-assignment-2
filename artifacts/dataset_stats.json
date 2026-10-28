@@ -1,0 +1,128 @@
+{
+  "source": "insulators-ljwyo/insulators-c4gwk/1",
+  "url": "https://universe.roboflow.com/insulators-ljwyo/insulators-c4gwk/dataset/1",
+  "classes": [
+    "brokeninsulator",
+    "brokenpart",
+    "defect",
+    "insulator"
+  ],
+  "resplit": {
+    "published_split": {
+      "train": 958,
+      "valid": 141
+    },
+    "new_split_images": {
+      "train": 771,
+      "valid": 173,
+      "test": 155
+    },
+    "unique_photos": 397,
+    "images_per_photo_mean": 2.77,
+    "photos_leaking_across_published_train_valid": 101
+  },
+  "splits": {
+    "train": {
+      "images": 771,
+      "background_images": 0,
+      "instances": {
+        "brokeninsulator": 501,
+        "brokenpart": 646,
+        "defect": 112,
+        "insulator": 560
+      },
+      "images_with_class": {
+        "brokeninsulator": 489,
+        "brokenpart": 489,
+        "defect": 92,
+        "insulator": 395
+      },
+      "object_size": {
+        "brokeninsulator": {
+          "median_area_pct": 48.883628845214844,
+          "share_below_1pct": 0.001996007984031936
+        },
+        "brokenpart": {
+          "median_area_pct": 27.853679656982422,
+          "share_below_1pct": 0.0
+        },
+        "defect": {
+          "median_area_pct": 26.207256317138672,
+          "share_below_1pct": 0.008928571428571428
+        },
+        "insulator": {
+          "median_area_pct": 38.91181945800781,
+          "share_below_1pct": 0.023214285714285715
+        }
+      }
+    },
+    "valid": {
+      "images": 173,
+      "background_images": 0,
+      "instances": {
+        "brokeninsulator": 131,
+        "brokenpart": 153,
+        "defect": 18,
+        "insulator": 87
+      },
+      "images_with_class": {
+        "brokeninsulator": 125,
+        "brokenpart": 127,
+        "defect": 16,
+        "insulator": 70
+      },
+      "object_size": {
+        "brokeninsulator": {
+          "median_area_pct": 43.603515625,
+          "share_below_1pct": 0.0
+        },
+        "brokenpart": {
+          "median_area_pct": 28.590774536132812,
+          "share_below_1pct": 0.0
+        },
+        "defect": {
+          "median_area_pct": 31.927776336669922,
+          "share_below_1pct": 0.0
+        },
+        "insulator": {
+          "median_area_pct": 39.65473175048828,
+          "share_below_1pct": 0.034482758620689655
+        }
+      }
+    },
+    "test": {
+      "images": 155,
+      "background_images": 0,
+      "instances": {
+        "brokeninsulator": 118,
+        "brokenpart": 144,
+        "defect": 16,
+        "insulator": 70
+      },
+      "images_with_class": {
+        "brokeninsulator": 118,
+        "brokenpart": 119,
+        "defect": 14,
+        "insulator": 60
+      },
+      "object_size": {
+        "brokeninsulator": {
+          "median_area_pct": 49.498653411865234,
+          "share_below_1pct": 0.0
+        },
+        "brokenpart": {
+          "median_area_pct": 28.172016143798828,
+          "share_below_1pct": 0.0
+        },
+        "defect": {
+          "median_area_pct": 26.16405487060547,
+          "share_below_1pct": 0.0
+        },
+        "insulator": {
+          "median_area_pct": 29.180622100830078,
+          "share_below_1pct": 0.07142857142857142
+        }
+      }
+    }
+  }
+}

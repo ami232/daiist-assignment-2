@@ -1,0 +1,110 @@
+{
+  "overall": {
+    "precision": 0.8397343712917272,
+    "recall": 0.7190132960260078,
+    "AP50": 0.7522200929882888,
+    "mAP50-95": 0.6301843744821325
+  },
+  "per_class": [
+    {
+      "class": "brokeninsulator",
+      "precision": 0.9140240364648327,
+      "recall": 0.8728813559322034,
+      "AP50": 0.9606953114034861,
+      "mAP50-95": 0.8841667970208336
+    },
+    {
+      "class": "brokenpart",
+      "precision": 0.8848246587116705,
+      "recall": 0.6853146853146853,
+      "AP50": 0.7709669017565853,
+      "mAP50-95": 0.6306584156398574
+    },
+    {
+      "class": "defect",
+      "precision": 0.8132549350645526,
+      "recall": 0.375,
+      "AP50": 0.466528905876732,
+      "mAP50-95": 0.2519262933975928
+    },
+    {
+      "class": "insulator",
+      "precision": 0.7468338549258532,
+      "recall": 0.9428571428571428,
+      "AP50": 0.810689252916352,
+      "mAP50-95": 0.7539859918702463
+    }
+  ],
+  "confusion_matrix": {
+    "labels": [
+      "brokeninsulator",
+      "brokenpart",
+      "defect",
+      "insulator",
+      "background"
+    ],
+    "matrix": [
+      [
+        70,
+        7,
+        0,
+        26,
+        15168
+      ],
+      [
+        0,
+        101,
+        9,
+        1,
+        3224
+      ],
+      [
+        1,
+        9,
+        5,
+        1,
+        1500
+      ],
+      [
+        47,
+        19,
+        0,
+        42,
+        11490
+      ],
+      [
+        0,
+        7,
+        2,
+        0,
+        0
+      ]
+    ],
+    "orientation": "rows = predicted, cols = true"
+  },
+  "baselines_detection": [
+    {
+      "model": "Finetuned yolo11n",
+      "precision": 0.8397343712917272,
+      "recall": 0.7190132960260078,
+      "AP50": 0.7522200929882888,
+      "mAP50-95": 0.6301843744821325
+    },
+    {
+      "model": "COCO yolo11n zero-shot",
+      "precision": 0.0,
+      "recall": 0.0,
+      "AP50": 0.0,
+      "mAP50-95": 0.0,
+      "note": "COCO has no insulator/fault classes, so it cannot produce a single correct-class box"
+    },
+    {
+      "model": "Trivial: predict nothing",
+      "precision": 0.0,
+      "recall": 0.0,
+      "AP50": 0.0,
+      "mAP50-95": 0.0,
+      "note": "no boxes -> recall 0, AP 0"
+    }
+  ]
+}
