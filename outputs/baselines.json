@@ -1,0 +1,22 @@
+{
+  "coco_zero_shot": {
+    "note": "COCO has no dropping or disease class, so no detection can match a label: mAP50 = 0, disease recall = 0. Equivalent to passing every sample.",
+    "images_with_any_coco_detection_at_0.25": 227,
+    "map50": 0.0,
+    "disease_recall": 0.0,
+    "cost_per_case": 100.0
+  },
+  "predict_nothing": {
+    "map50": 0.0,
+    "disease_recall": 0.0,
+    "cost_per_case": 100.0
+  },
+  "majority_class": {
+    "class": "Salmonella-like",
+    "accuracy": 0.32098765432098764,
+    "disease_recall": 1.0,
+    "cost_per_case": 80.0
+  },
+  "test_images": 648,
+  "test_positive_images": 443
+}

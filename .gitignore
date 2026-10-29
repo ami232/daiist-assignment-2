@@ -14,3 +14,8 @@ runs/
 
 # Never commit your API key
 .env
+
+# Base checkpoints Ultralytics downloads on its own (yolo11s.pt to start from,
+# yolo26n.pt for its AMP check). Only weights/best.pt is ours to commit.
+/yolo*.pt
+weights/yolo*.pt

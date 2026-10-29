@@ -1,0 +1,46 @@
+{
+  "threshold": 0.13,
+  "rows_true": [
+    "Coccidiosis-like",
+    "Healthy",
+    "NCD-like",
+    "Salmonella-like"
+  ],
+  "cols_pred": [
+    "Coccidiosis-like",
+    "Healthy",
+    "NCD-like",
+    "Salmonella-like",
+    "none"
+  ],
+  "matrix": [
+    [
+      197,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      202,
+      0,
+      2,
+      1
+    ],
+    [
+      0,
+      2,
+      34,
+      2,
+      0
+    ],
+    [
+      1,
+      3,
+      0,
+      203,
+      1
+    ]
+  ]
+}

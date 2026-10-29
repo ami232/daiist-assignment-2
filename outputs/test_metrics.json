@@ -1,0 +1,32 @@
+{
+  "weights": "best.pt",
+  "map50": 0.8955419389880633,
+  "map50_95": 0.522810868780744,
+  "per_class": {
+    "Coccidiosis-like": {
+      "precision": 0.9181264579220517,
+      "recall": 0.9292452830188679,
+      "ap50": 0.9459451156010459,
+      "ap50_95": 0.6067172968774377
+    },
+    "Healthy": {
+      "precision": 0.8824523571395845,
+      "recall": 0.9060429462459734,
+      "ap50": 0.9200088215735851,
+      "ap50_95": 0.5007593709763001
+    },
+    "NCD-like": {
+      "precision": 0.9456436437696071,
+      "recall": 0.6823267990305552,
+      "ap50": 0.7727667901567569,
+      "ap50_95": 0.43335038665620457
+    },
+    "Salmonella-like": {
+      "precision": 0.9036328375737985,
+      "recall": 0.9192825112107623,
+      "ap50": 0.9434470286208656,
+      "ap50_95": 0.5504164206130338
+    }
+  },
+  "notes": "precision/recall are at Ultralytics' max-F1 confidence. The image-level confusion matrix is in image_confusion.json, built at a stated threshold."
+}

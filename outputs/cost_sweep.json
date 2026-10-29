@@ -1,0 +1,1679 @@
+{
+  "assumptions": {
+    "base_rate": 0.05,
+    "cost_fn": 2000.0,
+    "cost_fp": 80.0,
+    "cost_tp": 80.0,
+    "cost_tn": 0.0,
+    "review_minutes": 3.0,
+    "review_cost_per_hour": 40.0,
+    "cases_per_day": 500,
+    "work_minutes_per_day": 450,
+    "disease_classes": [
+      "Coccidiosis-like",
+      "NCD-like",
+      "Salmonella-like"
+    ]
+  },
+  "single_threshold_sweep": [
+    {
+      "t_low": 0.0,
+      "t_high": 0.0,
+      "cost_per_case": 80.0,
+      "review_share": 0.0,
+      "recall": 1.0,
+      "fpr": 1.0,
+      "counts": {
+        "pos_pass": 0,
+        "pos_review": 0,
+        "pos_fail": 443,
+        "neg_pass": 0,
+        "neg_review": 0,
+        "neg_fail": 205
+      }
+    },
+    {
+      "t_low": 0.01,
+      "t_high": 0.01,
+      "cost_per_case": 8.51145735836591,
+      "review_share": 2.2117724318704293e-18,
+      "recall": 0.9954853273137697,
+      "fpr": 0.05365853658536585,
+      "counts": {
+        "pos_pass": 2,
+        "pos_review": 0,
+        "pos_fail": 441,
+        "neg_pass": 194,
+        "neg_review": 0,
+        "neg_fail": 11
+      }
+    },
+    {
+      "t_low": 0.02,
+      "t_high": 0.02,
+      "cost_per_case": 8.140725651048836,
+      "review_share": 2.2117724318704293e-18,
+      "recall": 0.9954853273137697,
+      "fpr": 0.04878048780487805,
+      "counts": {
+        "pos_pass": 2,
+        "pos_review": 0,
+        "pos_fail": 441,
+        "neg_pass": 195,
+        "neg_review": 0,
+        "neg_fail": 10
+      }
+    },
+    {
+      "t_low": 0.03,
+      "t_high": 0.03,
+      "cost_per_case": 7.399262236414689,
+      "review_share": 2.2117724318704293e-18,
+      "recall": 0.9954853273137697,
+      "fpr": 0.03902439024390244,
+      "counts": {
+        "pos_pass": 2,
+        "pos_review": 0,
+        "pos_fail": 441,
+        "neg_pass": 197,
+        "neg_review": 0,
+        "neg_fail": 8
+      }
+    },
+    {
+      "t_low": 0.04,
+      "t_high": 0.04,
+      "cost_per_case": 7.028530529097615,
+      "review_share": 2.2117724318704293e-18,
+      "recall": 0.9954853273137697,
+      "fpr": 0.03414634146341464,
+      "counts": {
+        "pos_pass": 2,
+        "pos_review": 0,
+        "pos_fail": 441,
+        "neg_pass": 198,
+        "neg_review": 0,
+        "neg_fail": 7
+      }
+    },
+    {
+      "t_low": 0.05,
+      "t_high": 0.05,
+      "cost_per_case": 7.028530529097615,
+      "review_share": 2.2117724318704293e-18,
+      "recall": 0.9954853273137697,
+      "fpr": 0.03414634146341464,
+      "counts": {
+        "pos_pass": 2,
+        "pos_review": 0,
+        "pos_fail": 441,
+        "neg_pass": 198,
+        "neg_review": 0,
+        "neg_fail": 7
+      }
+    },
+    {
+      "t_low": 0.06,
+      "t_high": 0.06,
+      "cost_per_case": 7.245234818036668,
+      "review_share": 5.204170427930422e-19,
+      "recall": 0.9932279909706546,
+      "fpr": 0.03414634146341464,
+      "counts": {
+        "pos_pass": 3,
+        "pos_review": 0,
+        "pos_fail": 440,
+        "neg_pass": 198,
+        "neg_review": 0,
+        "neg_fail": 7
+      }
+    },
+    {
+      "t_low": 0.07,
+      "t_high": 0.07,
+      "cost_per_case": 6.874503110719595,
+      "review_share": 5.204170427930422e-19,
+      "recall": 0.9932279909706546,
+      "fpr": 0.02926829268292683,
+      "counts": {
+        "pos_pass": 3,
+        "pos_review": 0,
+        "pos_fail": 440,
+        "neg_pass": 199,
+        "neg_review": 0,
+        "neg_fail": 6
+      }
+    },
+    {
+      "t_low": 0.08,
+      "t_high": 0.08,
+      "cost_per_case": 6.874503110719595,
+      "review_share": 5.204170427930422e-19,
+      "recall": 0.9932279909706546,
+      "fpr": 0.02926829268292683,
+      "counts": {
+        "pos_pass": 3,
+        "pos_review": 0,
+        "pos_fail": 440,
+        "neg_pass": 199,
+        "neg_review": 0,
+        "neg_fail": 6
+      }
+    },
+    {
+      "t_low": 0.09,
+      "t_high": 0.09,
+      "cost_per_case": 6.503771403402522,
+      "review_share": 5.204170427930422e-19,
+      "recall": 0.9932279909706546,
+      "fpr": 0.024390243902439025,
+      "counts": {
+        "pos_pass": 3,
+        "pos_review": 0,
+        "pos_fail": 440,
+        "neg_pass": 200,
+        "neg_review": 0,
+        "neg_fail": 5
+      }
+    },
+    {
+      "t_low": 0.1,
+      "t_high": 0.1,
+      "cost_per_case": 6.503771403402522,
+      "review_share": 5.204170427930422e-19,
+      "recall": 0.9932279909706546,
+      "fpr": 0.024390243902439025,
+      "counts": {
+        "pos_pass": 3,
+        "pos_review": 0,
+        "pos_fail": 440,
+        "neg_pass": 200,
+        "neg_review": 0,
+        "neg_fail": 5
+      }
+    },
+    {
+      "t_low": 0.11,
+      "t_high": 0.11,
+      "cost_per_case": 6.503771403402522,
+      "review_share": 5.204170427930422e-19,
+      "recall": 0.9932279909706546,
+      "fpr": 0.024390243902439025,
+      "counts": {
+        "pos_pass": 3,
+        "pos_review": 0,
+        "pos_fail": 440,
+        "neg_pass": 200,
+        "neg_review": 0,
+        "neg_fail": 5
+      }
+    },
+    {
+      "t_low": 0.12,
+      "t_high": 0.12,
+      "cost_per_case": 6.349743985024501,
+      "review_share": -1.1275702593849246e-18,
+      "recall": 0.9909706546275395,
+      "fpr": 0.01951219512195122,
+      "counts": {
+        "pos_pass": 4,
+        "pos_review": 0,
+        "pos_fail": 439,
+        "neg_pass": 201,
+        "neg_review": 0,
+        "neg_fail": 4
+      }
+    },
+    {
+      "t_low": 0.13,
+      "t_high": 0.13,
+      "cost_per_case": 6.195716566646479,
+      "review_share": 2.688821387764051e-18,
+      "recall": 0.9887133182844243,
+      "fpr": 0.014634146341463415,
+      "counts": {
+        "pos_pass": 5,
+        "pos_review": 0,
+        "pos_fail": 438,
+        "neg_pass": 202,
+        "neg_review": 0,
+        "neg_fail": 3
+      }
+    },
+    {
+      "t_low": 0.14,
+      "t_high": 0.14,
+      "cost_per_case": 6.195716566646479,
+      "review_share": 2.688821387764051e-18,
+      "recall": 0.9887133182844243,
+      "fpr": 0.014634146341463415,
+      "counts": {
+        "pos_pass": 5,
+        "pos_review": 0,
+        "pos_fail": 438,
+        "neg_pass": 202,
+        "neg_review": 0,
+        "neg_fail": 3
+      }
+    },
+    {
+      "t_low": 0.15,
+      "t_high": 0.15,
+      "cost_per_case": 6.195716566646479,
+      "review_share": 2.688821387764051e-18,
+      "recall": 0.9887133182844243,
+      "fpr": 0.014634146341463415,
+      "counts": {
+        "pos_pass": 5,
+        "pos_review": 0,
+        "pos_fail": 438,
+        "neg_pass": 202,
+        "neg_review": 0,
+        "neg_fail": 3
+      }
+    },
+    {
+      "t_low": 0.16,
+      "t_high": 0.16,
+      "cost_per_case": 6.195716566646479,
+      "review_share": 2.688821387764051e-18,
+      "recall": 0.9887133182844243,
+      "fpr": 0.014634146341463415,
+      "counts": {
+        "pos_pass": 5,
+        "pos_review": 0,
+        "pos_fail": 438,
+        "neg_pass": 202,
+        "neg_review": 0,
+        "neg_fail": 3
+      }
+    },
+    {
+      "t_low": 0.17,
+      "t_high": 0.17,
+      "cost_per_case": 6.195716566646479,
+      "review_share": 2.688821387764051e-18,
+      "recall": 0.9887133182844243,
+      "fpr": 0.014634146341463415,
+      "counts": {
+        "pos_pass": 5,
+        "pos_review": 0,
+        "pos_fail": 438,
+        "neg_pass": 202,
+        "neg_review": 0,
+        "neg_fail": 3
+      }
+    },
+    {
+      "t_low": 0.18,
+      "t_high": 0.18,
+      "cost_per_case": 6.195716566646479,
+      "review_share": 2.688821387764051e-18,
+      "recall": 0.9887133182844243,
+      "fpr": 0.014634146341463415,
+      "counts": {
+        "pos_pass": 5,
+        "pos_review": 0,
+        "pos_fail": 438,
+        "neg_pass": 202,
+        "neg_review": 0,
+        "neg_fail": 3
+      }
+    },
+    {
+      "t_low": 0.19,
+      "t_high": 0.19,
+      "cost_per_case": 6.195716566646479,
+      "review_share": 2.688821387764051e-18,
+      "recall": 0.9887133182844243,
+      "fpr": 0.014634146341463415,
+      "counts": {
+        "pos_pass": 5,
+        "pos_review": 0,
+        "pos_fail": 438,
+        "neg_pass": 202,
+        "neg_review": 0,
+        "neg_fail": 3
+      }
+    },
+    {
+      "t_low": 0.2,
+      "t_high": 0.2,
+      "cost_per_case": 6.195716566646479,
+      "review_share": 2.688821387764051e-18,
+      "recall": 0.9887133182844243,
+      "fpr": 0.014634146341463415,
+      "counts": {
+        "pos_pass": 5,
+        "pos_review": 0,
+        "pos_fail": 438,
+        "neg_pass": 202,
+        "neg_review": 0,
+        "neg_fail": 3
+      }
+    },
+    {
+      "t_low": 0.21,
+      "t_high": 0.21,
+      "cost_per_case": 6.195716566646479,
+      "review_share": 2.688821387764051e-18,
+      "recall": 0.9887133182844243,
+      "fpr": 0.014634146341463415,
+      "counts": {
+        "pos_pass": 5,
+        "pos_review": 0,
+        "pos_fail": 438,
+        "neg_pass": 202,
+        "neg_review": 0,
+        "neg_fail": 3
+      }
+    },
+    {
+      "t_low": 0.22,
+      "t_high": 0.22,
+      "cost_per_case": 6.412420855585531,
+      "review_share": 1.0408340855860844e-18,
+      "recall": 0.9864559819413092,
+      "fpr": 0.014634146341463415,
+      "counts": {
+        "pos_pass": 6,
+        "pos_review": 0,
+        "pos_fail": 437,
+        "neg_pass": 202,
+        "neg_review": 0,
+        "neg_fail": 3
+      }
+    },
+    {
+      "t_low": 0.23,
+      "t_high": 0.23,
+      "cost_per_case": 6.412420855585531,
+      "review_share": 1.0408340855860844e-18,
+      "recall": 0.9864559819413092,
+      "fpr": 0.014634146341463415,
+      "counts": {
+        "pos_pass": 6,
+        "pos_review": 0,
+        "pos_fail": 437,
+        "neg_pass": 202,
+        "neg_review": 0,
+        "neg_fail": 3
+      }
+    },
+    {
+      "t_low": 0.24,
+      "t_high": 0.24,
+      "cost_per_case": 6.412420855585531,
+      "review_share": 1.0408340855860844e-18,
+      "recall": 0.9864559819413092,
+      "fpr": 0.014634146341463415,
+      "counts": {
+        "pos_pass": 6,
+        "pos_review": 0,
+        "pos_fail": 437,
+        "neg_pass": 202,
+        "neg_review": 0,
+        "neg_fail": 3
+      }
+    },
+    {
+      "t_low": 0.25,
+      "t_high": 0.25,
+      "cost_per_case": 6.845829433463635,
+      "review_share": -2.2551405187698493e-18,
+      "recall": 0.981941309255079,
+      "fpr": 0.014634146341463415,
+      "counts": {
+        "pos_pass": 8,
+        "pos_review": 0,
+        "pos_fail": 435,
+        "neg_pass": 202,
+        "neg_review": 0,
+        "neg_fail": 3
+      }
+    },
+    {
+      "t_low": 0.26,
+      "t_high": 0.26,
+      "cost_per_case": 6.845829433463635,
+      "review_share": -2.2551405187698493e-18,
+      "recall": 0.981941309255079,
+      "fpr": 0.014634146341463415,
+      "counts": {
+        "pos_pass": 8,
+        "pos_review": 0,
+        "pos_fail": 435,
+        "neg_pass": 202,
+        "neg_review": 0,
+        "neg_fail": 3
+      }
+    },
+    {
+      "t_low": 0.27,
+      "t_high": 0.27,
+      "cost_per_case": 7.279238011341739,
+      "review_share": -1.7347234759768072e-19,
+      "recall": 0.9774266365688488,
+      "fpr": 0.014634146341463415,
+      "counts": {
+        "pos_pass": 10,
+        "pos_review": 0,
+        "pos_fail": 433,
+        "neg_pass": 202,
+        "neg_review": 0,
+        "neg_fail": 3
+      }
+    },
+    {
+      "t_low": 0.28,
+      "t_high": 0.28,
+      "cost_per_case": 7.279238011341739,
+      "review_share": -1.7347234759768072e-19,
+      "recall": 0.9774266365688488,
+      "fpr": 0.014634146341463415,
+      "counts": {
+        "pos_pass": 10,
+        "pos_review": 0,
+        "pos_fail": 433,
+        "neg_pass": 202,
+        "neg_review": 0,
+        "neg_fail": 3
+      }
+    },
+    {
+      "t_low": 0.29,
+      "t_high": 0.29,
+      "cost_per_case": 7.279238011341739,
+      "review_share": -1.7347234759768072e-19,
+      "recall": 0.9774266365688488,
+      "fpr": 0.014634146341463415,
+      "counts": {
+        "pos_pass": 10,
+        "pos_review": 0,
+        "pos_fail": 433,
+        "neg_pass": 202,
+        "neg_review": 0,
+        "neg_fail": 3
+      }
+    },
+    {
+      "t_low": 0.3,
+      "t_high": 0.3,
+      "cost_per_case": 7.279238011341739,
+      "review_share": -1.7347234759768072e-19,
+      "recall": 0.9774266365688488,
+      "fpr": 0.014634146341463415,
+      "counts": {
+        "pos_pass": 10,
+        "pos_review": 0,
+        "pos_fail": 433,
+        "neg_pass": 202,
+        "neg_review": 0,
+        "neg_fail": 3
+      }
+    },
+    {
+      "t_low": 0.31,
+      "t_high": 0.31,
+      "cost_per_case": 7.279238011341739,
+      "review_share": -1.7347234759768072e-19,
+      "recall": 0.9774266365688488,
+      "fpr": 0.014634146341463415,
+      "counts": {
+        "pos_pass": 10,
+        "pos_review": 0,
+        "pos_fail": 433,
+        "neg_pass": 202,
+        "neg_review": 0,
+        "neg_fail": 3
+      }
+    },
+    {
+      "t_low": 0.32,
+      "t_high": 0.32,
+      "cost_per_case": 7.495942300280791,
+      "review_share": -1.734723475976807e-18,
+      "recall": 0.9751693002257337,
+      "fpr": 0.014634146341463415,
+      "counts": {
+        "pos_pass": 11,
+        "pos_review": 0,
+        "pos_fail": 432,
+        "neg_pass": 202,
+        "neg_review": 0,
+        "neg_fail": 3
+      }
+    },
+    {
+      "t_low": 0.33,
+      "t_high": 0.33,
+      "cost_per_case": 7.495942300280791,
+      "review_share": -1.734723475976807e-18,
+      "recall": 0.9751693002257337,
+      "fpr": 0.014634146341463415,
+      "counts": {
+        "pos_pass": 11,
+        "pos_review": 0,
+        "pos_fail": 432,
+        "neg_pass": 202,
+        "neg_review": 0,
+        "neg_fail": 3
+      }
+    },
+    {
+      "t_low": 0.34,
+      "t_high": 0.34,
+      "cost_per_case": 7.495942300280791,
+      "review_share": -1.734723475976807e-18,
+      "recall": 0.9751693002257337,
+      "fpr": 0.014634146341463415,
+      "counts": {
+        "pos_pass": 11,
+        "pos_review": 0,
+        "pos_fail": 432,
+        "neg_pass": 202,
+        "neg_review": 0,
+        "neg_fail": 3
+      }
+    },
+    {
+      "t_low": 0.35,
+      "t_high": 0.35,
+      "cost_per_case": 8.146055167097948,
+      "review_share": -1.3877787807814458e-18,
+      "recall": 0.9683972911963883,
+      "fpr": 0.014634146341463415,
+      "counts": {
+        "pos_pass": 14,
+        "pos_review": 0,
+        "pos_fail": 429,
+        "neg_pass": 202,
+        "neg_review": 0,
+        "neg_fail": 3
+      }
+    },
+    {
+      "t_low": 0.36,
+      "t_high": 0.36,
+      "cost_per_case": 8.146055167097948,
+      "review_share": -1.3877787807814458e-18,
+      "recall": 0.9683972911963883,
+      "fpr": 0.014634146341463415,
+      "counts": {
+        "pos_pass": 14,
+        "pos_review": 0,
+        "pos_fail": 429,
+        "neg_pass": 202,
+        "neg_review": 0,
+        "neg_fail": 3
+      }
+    },
+    {
+      "t_low": 0.37,
+      "t_high": 0.37,
+      "cost_per_case": 8.146055167097948,
+      "review_share": -1.3877787807814458e-18,
+      "recall": 0.9683972911963883,
+      "fpr": 0.014634146341463415,
+      "counts": {
+        "pos_pass": 14,
+        "pos_review": 0,
+        "pos_fail": 429,
+        "neg_pass": 202,
+        "neg_review": 0,
+        "neg_fail": 3
+      }
+    },
+    {
+      "t_low": 0.38,
+      "t_high": 0.38,
+      "cost_per_case": 8.57946374497605,
+      "review_share": 1.0408340855860844e-18,
+      "recall": 0.963882618510158,
+      "fpr": 0.014634146341463415,
+      "counts": {
+        "pos_pass": 16,
+        "pos_review": 0,
+        "pos_fail": 427,
+        "neg_pass": 202,
+        "neg_review": 0,
+        "neg_fail": 3
+      }
+    },
+    {
+      "t_low": 0.39,
+      "t_high": 0.39,
+      "cost_per_case": 9.012872322854154,
+      "review_share": -2.42861286636753e-18,
+      "recall": 0.9593679458239278,
+      "fpr": 0.014634146341463415,
+      "counts": {
+        "pos_pass": 18,
+        "pos_review": 0,
+        "pos_fail": 425,
+        "neg_pass": 202,
+        "neg_review": 0,
+        "neg_fail": 3
+      }
+    },
+    {
+      "t_low": 0.4,
+      "t_high": 0.4,
+      "cost_per_case": 9.446280900732258,
+      "review_share": -3.4694469519536144e-19,
+      "recall": 0.9548532731376975,
+      "fpr": 0.014634146341463415,
+      "counts": {
+        "pos_pass": 20,
+        "pos_review": 0,
+        "pos_fail": 423,
+        "neg_pass": 202,
+        "neg_review": 0,
+        "neg_fail": 3
+      }
+    },
+    {
+      "t_low": 0.41,
+      "t_high": 0.41,
+      "cost_per_case": 9.446280900732258,
+      "review_share": -3.4694469519536144e-19,
+      "recall": 0.9548532731376975,
+      "fpr": 0.014634146341463415,
+      "counts": {
+        "pos_pass": 20,
+        "pos_review": 0,
+        "pos_fail": 423,
+        "neg_pass": 202,
+        "neg_review": 0,
+        "neg_fail": 3
+      }
+    },
+    {
+      "t_low": 0.42,
+      "t_high": 0.42,
+      "cost_per_case": 9.879689478610363,
+      "review_share": 2.081668171172169e-18,
+      "recall": 0.9503386004514672,
+      "fpr": 0.014634146341463415,
+      "counts": {
+        "pos_pass": 22,
+        "pos_review": 0,
+        "pos_fail": 421,
+        "neg_pass": 202,
+        "neg_review": 0,
+        "neg_fail": 3
+      }
+    },
+    {
+      "t_low": 0.43,
+      "t_high": 0.43,
+      "cost_per_case": 9.879689478610363,
+      "review_share": 2.081668171172169e-18,
+      "recall": 0.9503386004514672,
+      "fpr": 0.014634146341463415,
+      "counts": {
+        "pos_pass": 22,
+        "pos_review": 0,
+        "pos_fail": 421,
+        "neg_pass": 202,
+        "neg_review": 0,
+        "neg_fail": 3
+      }
+    },
+    {
+      "t_low": 0.44,
+      "t_high": 0.44,
+      "cost_per_case": 10.096393767549415,
+      "review_share": 3.4694469519536144e-19,
+      "recall": 0.9480812641083521,
+      "fpr": 0.014634146341463415,
+      "counts": {
+        "pos_pass": 23,
+        "pos_review": 0,
+        "pos_fail": 420,
+        "neg_pass": 202,
+        "neg_review": 0,
+        "neg_fail": 3
+      }
+    },
+    {
+      "t_low": 0.45,
+      "t_high": 0.45,
+      "cost_per_case": 10.746506634366572,
+      "review_share": 6.938893903907229e-19,
+      "recall": 0.9413092550790068,
+      "fpr": 0.014634146341463415,
+      "counts": {
+        "pos_pass": 26,
+        "pos_review": 0,
+        "pos_fail": 417,
+        "neg_pass": 202,
+        "neg_review": 0,
+        "neg_fail": 3
+      }
+    },
+    {
+      "t_low": 0.46,
+      "t_high": 0.46,
+      "cost_per_case": 10.746506634366572,
+      "review_share": 6.938893903907229e-19,
+      "recall": 0.9413092550790068,
+      "fpr": 0.014634146341463415,
+      "counts": {
+        "pos_pass": 26,
+        "pos_review": 0,
+        "pos_fail": 417,
+        "neg_pass": 202,
+        "neg_review": 0,
+        "neg_fail": 3
+      }
+    },
+    {
+      "t_low": 0.47,
+      "t_high": 0.47,
+      "cost_per_case": 10.96321092330562,
+      "review_share": -1.0408340855860844e-18,
+      "recall": 0.9390519187358917,
+      "fpr": 0.014634146341463415,
+      "counts": {
+        "pos_pass": 27,
+        "pos_review": 0,
+        "pos_fail": 416,
+        "neg_pass": 202,
+        "neg_review": 0,
+        "neg_fail": 3
+      }
+    },
+    {
+      "t_low": 0.48,
+      "t_high": 0.48,
+      "cost_per_case": 11.179915212244676,
+      "review_share": -2.7755575615628915e-18,
+      "recall": 0.9367945823927766,
+      "fpr": 0.014634146341463415,
+      "counts": {
+        "pos_pass": 28,
+        "pos_review": 0,
+        "pos_fail": 415,
+        "neg_pass": 202,
+        "neg_review": 0,
+        "neg_fail": 3
+      }
+    },
+    {
+      "t_low": 0.49,
+      "t_high": 0.49,
+      "cost_per_case": 11.396619501183725,
+      "review_share": 1.3877787807814458e-18,
+      "recall": 0.9345372460496614,
+      "fpr": 0.014634146341463415,
+      "counts": {
+        "pos_pass": 29,
+        "pos_review": 0,
+        "pos_fail": 414,
+        "neg_pass": 202,
+        "neg_review": 0,
+        "neg_fail": 3
+      }
+    },
+    {
+      "t_low": 0.5,
+      "t_high": 0.5,
+      "cost_per_case": 11.242592082805707,
+      "review_share": -6.938893903907229e-19,
+      "recall": 0.9322799097065463,
+      "fpr": 0.00975609756097561,
+      "counts": {
+        "pos_pass": 30,
+        "pos_review": 0,
+        "pos_fail": 413,
+        "neg_pass": 203,
+        "neg_review": 0,
+        "neg_fail": 2
+      }
+    },
+    {
+      "t_low": 0.51,
+      "t_high": 0.51,
+      "cost_per_case": 11.89270494962286,
+      "review_share": 0.0,
+      "recall": 0.9255079006772009,
+      "fpr": 0.00975609756097561,
+      "counts": {
+        "pos_pass": 33,
+        "pos_review": 0,
+        "pos_fail": 410,
+        "neg_pass": 203,
+        "neg_review": 0,
+        "neg_fail": 2
+      }
+    },
+    {
+      "t_low": 0.52,
+      "t_high": 0.52,
+      "cost_per_case": 12.542817816440015,
+      "review_share": 6.938893903907229e-19,
+      "recall": 0.9187358916478555,
+      "fpr": 0.00975609756097561,
+      "counts": {
+        "pos_pass": 36,
+        "pos_review": 0,
+        "pos_fail": 407,
+        "neg_pass": 203,
+        "neg_review": 0,
+        "neg_fail": 2
+      }
+    },
+    {
+      "t_low": 0.53,
+      "t_high": 0.53,
+      "cost_per_case": 12.97622639431812,
+      "review_share": -2.7755575615628915e-18,
+      "recall": 0.9142212189616252,
+      "fpr": 0.00975609756097561,
+      "counts": {
+        "pos_pass": 38,
+        "pos_review": 0,
+        "pos_fail": 405,
+        "neg_pass": 203,
+        "neg_review": 0,
+        "neg_fail": 2
+      }
+    },
+    {
+      "t_low": 0.54,
+      "t_high": 0.54,
+      "cost_per_case": 14.05974783901338,
+      "review_share": 0.0,
+      "recall": 0.9029345372460497,
+      "fpr": 0.00975609756097561,
+      "counts": {
+        "pos_pass": 43,
+        "pos_review": 0,
+        "pos_fail": 400,
+        "neg_pass": 203,
+        "neg_review": 0,
+        "neg_fail": 2
+      }
+    },
+    {
+      "t_low": 0.55,
+      "t_high": 0.55,
+      "cost_per_case": 14.926564994769588,
+      "review_share": -1.3877787807814458e-18,
+      "recall": 0.8939051918735892,
+      "fpr": 0.00975609756097561,
+      "counts": {
+        "pos_pass": 47,
+        "pos_review": 0,
+        "pos_fail": 396,
+        "neg_pass": 203,
+        "neg_review": 0,
+        "neg_fail": 2
+      }
+    },
+    {
+      "t_low": 0.56,
+      "t_high": 0.56,
+      "cost_per_case": 15.793382150525794,
+      "review_share": -2.081668171172169e-18,
+      "recall": 0.8848758465011287,
+      "fpr": 0.00975609756097561,
+      "counts": {
+        "pos_pass": 51,
+        "pos_review": 0,
+        "pos_fail": 392,
+        "neg_pass": 203,
+        "neg_review": 0,
+        "neg_fail": 2
+      }
+    },
+    {
+      "t_low": 0.57,
+      "t_high": 0.57,
+      "cost_per_case": 16.44349501734295,
+      "review_share": -2.081668171172169e-18,
+      "recall": 0.8781038374717833,
+      "fpr": 0.00975609756097561,
+      "counts": {
+        "pos_pass": 54,
+        "pos_review": 0,
+        "pos_fail": 389,
+        "neg_pass": 203,
+        "neg_review": 0,
+        "neg_fail": 2
+      }
+    },
+    {
+      "t_low": 0.58,
+      "t_high": 0.58,
+      "cost_per_case": 17.960425039916316,
+      "review_share": -2.7755575615628915e-18,
+      "recall": 0.8623024830699775,
+      "fpr": 0.00975609756097561,
+      "counts": {
+        "pos_pass": 61,
+        "pos_review": 0,
+        "pos_fail": 382,
+        "neg_pass": 203,
+        "neg_review": 0,
+        "neg_fail": 2
+      }
+    },
+    {
+      "t_low": 0.59,
+      "t_high": 0.59,
+      "cost_per_case": 19.47735506248968,
+      "review_share": 2.7755575615628915e-18,
+      "recall": 0.8465011286681716,
+      "fpr": 0.00975609756097561,
+      "counts": {
+        "pos_pass": 68,
+        "pos_review": 0,
+        "pos_fail": 375,
+        "neg_pass": 203,
+        "neg_review": 0,
+        "neg_fail": 2
+      }
+    },
+    {
+      "t_low": 0.6,
+      "t_high": 0.6,
+      "cost_per_case": 19.91076364036778,
+      "review_share": -1.3877787807814458e-18,
+      "recall": 0.8419864559819413,
+      "fpr": 0.00975609756097561,
+      "counts": {
+        "pos_pass": 70,
+        "pos_review": 0,
+        "pos_fail": 373,
+        "neg_pass": 203,
+        "neg_review": 0,
+        "neg_fail": 2
+      }
+    },
+    {
+      "t_low": 0.61,
+      "t_high": 0.61,
+      "cost_per_case": 20.560876507184936,
+      "review_share": 0.0,
+      "recall": 0.835214446952596,
+      "fpr": 0.00975609756097561,
+      "counts": {
+        "pos_pass": 73,
+        "pos_review": 0,
+        "pos_fail": 370,
+        "neg_pass": 203,
+        "neg_review": 0,
+        "neg_fail": 2
+      }
+    },
+    {
+      "t_low": 0.62,
+      "t_high": 0.62,
+      "cost_per_case": 23.161327974453563,
+      "review_share": 1.3877787807814458e-18,
+      "recall": 0.8081264108352144,
+      "fpr": 0.00975609756097561,
+      "counts": {
+        "pos_pass": 85,
+        "pos_review": 0,
+        "pos_fail": 358,
+        "neg_pass": 203,
+        "neg_review": 0,
+        "neg_fail": 2
+      }
+    },
+    {
+      "t_low": 0.63,
+      "t_high": 0.63,
+      "cost_per_case": 24.307526289709852,
+      "review_share": 1.3877787807814458e-18,
+      "recall": 0.7923250564334086,
+      "fpr": 0.004878048780487805,
+      "counts": {
+        "pos_pass": 92,
+        "pos_review": 0,
+        "pos_fail": 351,
+        "neg_pass": 204,
+        "neg_review": 0,
+        "neg_fail": 1
+      }
+    },
+    {
+      "t_low": 0.64,
+      "t_high": 0.64,
+      "cost_per_case": 25.824456312283214,
+      "review_share": 0.0,
+      "recall": 0.7765237020316027,
+      "fpr": 0.004878048780487805,
+      "counts": {
+        "pos_pass": 99,
+        "pos_review": 0,
+        "pos_fail": 344,
+        "neg_pass": 204,
+        "neg_review": 0,
+        "neg_fail": 1
+      }
+    },
+    {
+      "t_low": 0.65,
+      "t_high": 0.65,
+      "cost_per_case": 27.34138633485658,
+      "review_share": 0.0,
+      "recall": 0.7607223476297968,
+      "fpr": 0.004878048780487805,
+      "counts": {
+        "pos_pass": 106,
+        "pos_review": 0,
+        "pos_fail": 337,
+        "neg_pass": 204,
+        "neg_review": 0,
+        "neg_fail": 1
+      }
+    },
+    {
+      "t_low": 0.66,
+      "t_high": 0.66,
+      "cost_per_case": 28.208203490612785,
+      "review_share": -1.3877787807814458e-18,
+      "recall": 0.7516930022573364,
+      "fpr": 0.004878048780487805,
+      "counts": {
+        "pos_pass": 110,
+        "pos_review": 0,
+        "pos_fail": 333,
+        "neg_pass": 204,
+        "neg_review": 0,
+        "neg_fail": 1
+      }
+    },
+    {
+      "t_low": 0.67,
+      "t_high": 0.67,
+      "cost_per_case": 29.075020646368998,
+      "review_share": -2.7755575615628915e-18,
+      "recall": 0.7426636568848759,
+      "fpr": 0.004878048780487805,
+      "counts": {
+        "pos_pass": 114,
+        "pos_review": 0,
+        "pos_fail": 329,
+        "neg_pass": 204,
+        "neg_review": 0,
+        "neg_fail": 1
+      }
+    },
+    {
+      "t_low": 0.68,
+      "t_high": 0.68,
+      "cost_per_case": 30.808654957881412,
+      "review_share": 0.0,
+      "recall": 0.7246049661399548,
+      "fpr": 0.004878048780487805,
+      "counts": {
+        "pos_pass": 122,
+        "pos_review": 0,
+        "pos_fail": 321,
+        "neg_pass": 204,
+        "neg_review": 0,
+        "neg_fail": 1
+      }
+    },
+    {
+      "t_low": 0.69,
+      "t_high": 0.69,
+      "cost_per_case": 33.62581071408908,
+      "review_share": 0.0,
+      "recall": 0.6952595936794582,
+      "fpr": 0.004878048780487805,
+      "counts": {
+        "pos_pass": 135,
+        "pos_review": 0,
+        "pos_fail": 308,
+        "neg_pass": 204,
+        "neg_review": 0,
+        "neg_fail": 1
+      }
+    },
+    {
+      "t_low": 0.7,
+      "t_high": 0.7,
+      "cost_per_case": 36.00955789241865,
+      "review_share": 0.0,
+      "recall": 0.6704288939051919,
+      "fpr": 0.004878048780487805,
+      "counts": {
+        "pos_pass": 146,
+        "pos_review": 0,
+        "pos_fail": 297,
+        "neg_pass": 204,
+        "neg_review": 0,
+        "neg_fail": 1
+      }
+    },
+    {
+      "t_low": 0.71,
+      "t_high": 0.71,
+      "cost_per_case": 39.32279909706547,
+      "review_share": -2.7755575615628915e-18,
+      "recall": 0.6320541760722347,
+      "fpr": 0.0,
+      "counts": {
+        "pos_pass": 163,
+        "pos_review": 0,
+        "pos_fail": 280,
+        "neg_pass": 205,
+        "neg_review": 0,
+        "neg_fail": 0
+      }
+    },
+    {
+      "t_low": 0.72,
+      "t_high": 0.72,
+      "cost_per_case": 42.79006772009029,
+      "review_share": 0.0,
+      "recall": 0.5959367945823928,
+      "fpr": 0.0,
+      "counts": {
+        "pos_pass": 179,
+        "pos_review": 0,
+        "pos_fail": 264,
+        "neg_pass": 205,
+        "neg_review": 0,
+        "neg_fail": 0
+      }
+    },
+    {
+      "t_low": 0.73,
+      "t_high": 0.73,
+      "cost_per_case": 45.17381489841987,
+      "review_share": -2.7755575615628915e-18,
+      "recall": 0.5711060948081264,
+      "fpr": 0.0,
+      "counts": {
+        "pos_pass": 190,
+        "pos_review": 0,
+        "pos_fail": 253,
+        "neg_pass": 205,
+        "neg_review": 0,
+        "neg_fail": 0
+      }
+    },
+    {
+      "t_low": 0.74,
+      "t_high": 0.74,
+      "cost_per_case": 50.15801354401806,
+      "review_share": -2.7755575615628915e-18,
+      "recall": 0.5191873589164786,
+      "fpr": 0.0,
+      "counts": {
+        "pos_pass": 213,
+        "pos_review": 0,
+        "pos_fail": 230,
+        "neg_pass": 205,
+        "neg_review": 0,
+        "neg_fail": 0
+      }
+    },
+    {
+      "t_low": 0.75,
+      "t_high": 0.75,
+      "cost_per_case": 53.841986455981946,
+      "review_share": 0.0,
+      "recall": 0.48081264108352145,
+      "fpr": 0.0,
+      "counts": {
+        "pos_pass": 230,
+        "pos_review": 0,
+        "pos_fail": 213,
+        "neg_pass": 205,
+        "neg_review": 0,
+        "neg_fail": 0
+      }
+    },
+    {
+      "t_low": 0.76,
+      "t_high": 0.76,
+      "cost_per_case": 59.25959367945824,
+      "review_share": 0.0,
+      "recall": 0.42437923250564336,
+      "fpr": 0.0,
+      "counts": {
+        "pos_pass": 255,
+        "pos_review": 0,
+        "pos_fail": 188,
+        "neg_pass": 205,
+        "neg_review": 0,
+        "neg_fail": 0
+      }
+    },
+    {
+      "t_low": 0.77,
+      "t_high": 0.77,
+      "cost_per_case": 64.24379232505645,
+      "review_share": 0.0,
+      "recall": 0.3724604966139955,
+      "fpr": 0.0,
+      "counts": {
+        "pos_pass": 278,
+        "pos_review": 0,
+        "pos_fail": 165,
+        "neg_pass": 205,
+        "neg_review": 0,
+        "neg_fail": 0
+      }
+    },
+    {
+      "t_low": 0.78,
+      "t_high": 0.78,
+      "cost_per_case": 69.01128668171557,
+      "review_share": -5.551115123125783e-18,
+      "recall": 0.32279909706546267,
+      "fpr": 0.0,
+      "counts": {
+        "pos_pass": 300,
+        "pos_review": 0,
+        "pos_fail": 143,
+        "neg_pass": 205,
+        "neg_review": 0,
+        "neg_fail": 0
+      }
+    },
+    {
+      "t_low": 0.79,
+      "t_high": 0.79,
+      "cost_per_case": 74.42889390519188,
+      "review_share": 0.0,
+      "recall": 0.26636568848758463,
+      "fpr": 0.0,
+      "counts": {
+        "pos_pass": 325,
+        "pos_review": 0,
+        "pos_fail": 118,
+        "neg_pass": 205,
+        "neg_review": 0,
+        "neg_fail": 0
+      }
+    },
+    {
+      "t_low": 0.8,
+      "t_high": 0.8,
+      "cost_per_case": 78.97968397291197,
+      "review_share": 0.0,
+      "recall": 0.21896162528216703,
+      "fpr": 0.0,
+      "counts": {
+        "pos_pass": 346,
+        "pos_review": 0,
+        "pos_fail": 97,
+        "neg_pass": 205,
+        "neg_review": 0,
+        "neg_fail": 0
+      }
+    },
+    {
+      "t_low": 0.81,
+      "t_high": 0.81,
+      "cost_per_case": 86.34762979683974,
+      "review_share": 0.0,
+      "recall": 0.14221218961625282,
+      "fpr": 0.0,
+      "counts": {
+        "pos_pass": 380,
+        "pos_review": 0,
+        "pos_fail": 63,
+        "neg_pass": 205,
+        "neg_review": 0,
+        "neg_fail": 0
+      }
+    },
+    {
+      "t_low": 0.82,
+      "t_high": 0.82,
+      "cost_per_case": 91.11512415349887,
+      "review_share": 0.0,
+      "recall": 0.09255079006772009,
+      "fpr": 0.0,
+      "counts": {
+        "pos_pass": 402,
+        "pos_review": 0,
+        "pos_fail": 41,
+        "neg_pass": 205,
+        "neg_review": 0,
+        "neg_fail": 0
+      }
+    },
+    {
+      "t_low": 0.83,
+      "t_high": 0.83,
+      "cost_per_case": 94.14898419864562,
+      "review_share": 0.0,
+      "recall": 0.060948081264108354,
+      "fpr": 0.0,
+      "counts": {
+        "pos_pass": 416,
+        "pos_review": 0,
+        "pos_fail": 27,
+        "neg_pass": 205,
+        "neg_review": 0,
+        "neg_fail": 0
+      }
+    },
+    {
+      "t_low": 0.84,
+      "t_high": 0.84,
+      "cost_per_case": 96.96613995485329,
+      "review_share": 0.0,
+      "recall": 0.03160270880361174,
+      "fpr": 0.0,
+      "counts": {
+        "pos_pass": 429,
+        "pos_review": 0,
+        "pos_fail": 14,
+        "neg_pass": 205,
+        "neg_review": 0,
+        "neg_fail": 0
+      }
+    },
+    {
+      "t_low": 0.85,
+      "t_high": 0.85,
+      "cost_per_case": 98.6997742663657,
+      "review_share": 0.0,
+      "recall": 0.013544018058690745,
+      "fpr": 0.0,
+      "counts": {
+        "pos_pass": 437,
+        "pos_review": 0,
+        "pos_fail": 6,
+        "neg_pass": 205,
+        "neg_review": 0,
+        "neg_fail": 0
+      }
+    },
+    {
+      "t_low": 0.86,
+      "t_high": 0.86,
+      "cost_per_case": 99.13318284424379,
+      "review_share": 0.0,
+      "recall": 0.009029345372460496,
+      "fpr": 0.0,
+      "counts": {
+        "pos_pass": 439,
+        "pos_review": 0,
+        "pos_fail": 4,
+        "neg_pass": 205,
+        "neg_review": 0,
+        "neg_fail": 0
+      }
+    },
+    {
+      "t_low": 0.87,
+      "t_high": 0.87,
+      "cost_per_case": 99.34988713318285,
+      "review_share": 0.0,
+      "recall": 0.006772009029345372,
+      "fpr": 0.0,
+      "counts": {
+        "pos_pass": 440,
+        "pos_review": 0,
+        "pos_fail": 3,
+        "neg_pass": 205,
+        "neg_review": 0,
+        "neg_fail": 0
+      }
+    },
+    {
+      "t_low": 0.88,
+      "t_high": 0.88,
+      "cost_per_case": 99.78329571106096,
+      "review_share": 0.0,
+      "recall": 0.002257336343115124,
+      "fpr": 0.0,
+      "counts": {
+        "pos_pass": 442,
+        "pos_review": 0,
+        "pos_fail": 1,
+        "neg_pass": 205,
+        "neg_review": 0,
+        "neg_fail": 0
+      }
+    },
+    {
+      "t_low": 0.89,
+      "t_high": 0.89,
+      "cost_per_case": 99.78329571106096,
+      "review_share": 0.0,
+      "recall": 0.002257336343115124,
+      "fpr": 0.0,
+      "counts": {
+        "pos_pass": 442,
+        "pos_review": 0,
+        "pos_fail": 1,
+        "neg_pass": 205,
+        "neg_review": 0,
+        "neg_fail": 0
+      }
+    },
+    {
+      "t_low": 0.9,
+      "t_high": 0.9,
+      "cost_per_case": 99.78329571106096,
+      "review_share": 0.0,
+      "recall": 0.002257336343115124,
+      "fpr": 0.0,
+      "counts": {
+        "pos_pass": 442,
+        "pos_review": 0,
+        "pos_fail": 1,
+        "neg_pass": 205,
+        "neg_review": 0,
+        "neg_fail": 0
+      }
+    },
+    {
+      "t_low": 0.91,
+      "t_high": 0.91,
+      "cost_per_case": 100.0,
+      "review_share": 0.0,
+      "recall": 0.0,
+      "fpr": 0.0,
+      "counts": {
+        "pos_pass": 443,
+        "pos_review": 0,
+        "pos_fail": 0,
+        "neg_pass": 205,
+        "neg_review": 0,
+        "neg_fail": 0
+      }
+    },
+    {
+      "t_low": 0.92,
+      "t_high": 0.92,
+      "cost_per_case": 100.0,
+      "review_share": 0.0,
+      "recall": 0.0,
+      "fpr": 0.0,
+      "counts": {
+        "pos_pass": 443,
+        "pos_review": 0,
+        "pos_fail": 0,
+        "neg_pass": 205,
+        "neg_review": 0,
+        "neg_fail": 0
+      }
+    },
+    {
+      "t_low": 0.93,
+      "t_high": 0.93,
+      "cost_per_case": 100.0,
+      "review_share": 0.0,
+      "recall": 0.0,
+      "fpr": 0.0,
+      "counts": {
+        "pos_pass": 443,
+        "pos_review": 0,
+        "pos_fail": 0,
+        "neg_pass": 205,
+        "neg_review": 0,
+        "neg_fail": 0
+      }
+    },
+    {
+      "t_low": 0.94,
+      "t_high": 0.94,
+      "cost_per_case": 100.0,
+      "review_share": 0.0,
+      "recall": 0.0,
+      "fpr": 0.0,
+      "counts": {
+        "pos_pass": 443,
+        "pos_review": 0,
+        "pos_fail": 0,
+        "neg_pass": 205,
+        "neg_review": 0,
+        "neg_fail": 0
+      }
+    },
+    {
+      "t_low": 0.95,
+      "t_high": 0.95,
+      "cost_per_case": 100.0,
+      "review_share": 0.0,
+      "recall": 0.0,
+      "fpr": 0.0,
+      "counts": {
+        "pos_pass": 443,
+        "pos_review": 0,
+        "pos_fail": 0,
+        "neg_pass": 205,
+        "neg_review": 0,
+        "neg_fail": 0
+      }
+    },
+    {
+      "t_low": 0.96,
+      "t_high": 0.96,
+      "cost_per_case": 100.0,
+      "review_share": 0.0,
+      "recall": 0.0,
+      "fpr": 0.0,
+      "counts": {
+        "pos_pass": 443,
+        "pos_review": 0,
+        "pos_fail": 0,
+        "neg_pass": 205,
+        "neg_review": 0,
+        "neg_fail": 0
+      }
+    },
+    {
+      "t_low": 0.97,
+      "t_high": 0.97,
+      "cost_per_case": 100.0,
+      "review_share": 0.0,
+      "recall": 0.0,
+      "fpr": 0.0,
+      "counts": {
+        "pos_pass": 443,
+        "pos_review": 0,
+        "pos_fail": 0,
+        "neg_pass": 205,
+        "neg_review": 0,
+        "neg_fail": 0
+      }
+    },
+    {
+      "t_low": 0.98,
+      "t_high": 0.98,
+      "cost_per_case": 100.0,
+      "review_share": 0.0,
+      "recall": 0.0,
+      "fpr": 0.0,
+      "counts": {
+        "pos_pass": 443,
+        "pos_review": 0,
+        "pos_fail": 0,
+        "neg_pass": 205,
+        "neg_review": 0,
+        "neg_fail": 0
+      }
+    },
+    {
+      "t_low": 0.99,
+      "t_high": 0.99,
+      "cost_per_case": 100.0,
+      "review_share": 0.0,
+      "recall": 0.0,
+      "fpr": 0.0,
+      "counts": {
+        "pos_pass": 443,
+        "pos_review": 0,
+        "pos_fail": 0,
+        "neg_pass": 205,
+        "neg_review": 0,
+        "neg_fail": 0
+      }
+    },
+    {
+      "t_low": 1.0,
+      "t_high": 1.0,
+      "cost_per_case": 100.0,
+      "review_share": 0.0,
+      "recall": 0.0,
+      "fpr": 0.0,
+      "counts": {
+        "pos_pass": 443,
+        "pos_review": 0,
+        "pos_fail": 0,
+        "neg_pass": 205,
+        "neg_review": 0,
+        "neg_fail": 0
+      }
+    }
+  ],
+  "chosen_single": {
+    "t_low": 0.13,
+    "t_high": 0.13,
+    "cost_per_case": 6.195716566646479,
+    "review_share": 2.688821387764051e-18,
+    "recall": 0.9887133182844243,
+    "fpr": 0.014634146341463415,
+    "counts": {
+      "pos_pass": 5,
+      "pos_review": 0,
+      "pos_fail": 438,
+      "neg_pass": 202,
+      "neg_review": 0,
+      "neg_fail": 3
+    }
+  },
+  "chosen_pair": {
+    "t_low": 0.04,
+    "t_high": 0.71,
+    "cost_per_case": 4.534629741782746,
+    "review_share": 0.05061058195232068,
+    "recall": 0.9954853273137698,
+    "fpr": 0.0,
+    "counts": {
+      "pos_pass": 2,
+      "pos_review": 161,
+      "pos_fail": 280,
+      "neg_pass": 198,
+      "neg_review": 7,
+      "neg_fail": 0
+    }
+  },
+  "review_load": {
+    "cases_per_day": 25.30529097616034,
+    "minutes_per_day": 75.91587292848102,
+    "people_needed": 0.16870193984106893
+  },
+  "alternatives_cost_per_case": {
+    "do_nothing": 100.0,
+    "human_checks_all": 6.0,
+    "model_alone": 6.195716566646479,
+    "model_plus_review": 4.534629741782746
+  }
+}
