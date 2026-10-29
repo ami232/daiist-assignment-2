@@ -1,0 +1,25 @@
+model,class,support,precision,recall
+Fine-tuned yolo11n-cls,freshapples,16,1.0,0.8125
+Fine-tuned yolo11n-cls,freshbananas,17,0.8947368421052632,1.0
+Fine-tuned yolo11n-cls,freshoranges,18,0.9444444444444444,0.9444444444444444
+Fine-tuned yolo11n-cls,rottenapples,24,0.96,1.0
+Fine-tuned yolo11n-cls,rottenbananas,62,1.0,1.0
+Fine-tuned yolo11n-cls,rottenoranges,18,1.0,1.0
+Baseline: majority class,freshapples,16,0.0,0.0
+Baseline: majority class,freshbananas,17,0.0,0.0
+Baseline: majority class,freshoranges,18,0.0,0.0
+Baseline: majority class,rottenapples,24,0.0,0.0
+Baseline: majority class,rottenbananas,62,0.4,1.0
+Baseline: majority class,rottenoranges,18,0.0,0.0
+Baseline: COCO zero-shot,freshapples,16,0.375,0.375
+Baseline: COCO zero-shot,freshbananas,17,0.7,0.4117647058823529
+Baseline: COCO zero-shot,freshoranges,18,0.34615384615384615,0.5
+Baseline: COCO zero-shot,rottenapples,24,0.0,0.0
+Baseline: COCO zero-shot,rottenbananas,62,0.0,0.0
+Baseline: COCO zero-shot,rottenoranges,18,0.0,0.0
+"Fine-tuned, external photos",freshapples,199,0.5967741935483871,0.5577889447236181
+"Fine-tuned, external photos",freshbananas,198,0.46194225721784776,0.8888888888888888
+"Fine-tuned, external photos",freshoranges,195,0.5097087378640777,0.5384615384615384
+"Fine-tuned, external photos",rottenapples,196,0.7604166666666666,0.37244897959183676
+"Fine-tuned, external photos",rottenbananas,200,0.6575342465753424,0.96
+"Fine-tuned, external photos",rottenoranges,200,0.4074074074074074,0.055
